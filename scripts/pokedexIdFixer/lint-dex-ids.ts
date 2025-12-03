@@ -15,8 +15,10 @@
 import { glob } from 'glob'
 import path from 'path'
 import { extractFile } from '../utils/ts-extract-utils'
+import { getRepoPaths } from './path-utils'
 
-const DATA_DIR = path.resolve(__dirname, '../../data')
+const { dataDir } = getRepoPaths(import.meta.url)
+const DATA_DIR = dataDir
 
 interface LintError {
 	file: string
@@ -109,9 +111,9 @@ async function main() {
 	}
 
 	console.log('Run the fix tool to add missing dexIds:')
-	console.log('  cd libs/cards-database/workdir')
-	console.log('  bun run fix:dry-run')
-	console.log('  bun run fix:apply')
+	console.log('  cd libs/cards-database')
+	console.log('  bun run dex:fix:dry-run')
+	console.log('  bun run dex:fix:apply')
 
 	process.exit(1)
 }

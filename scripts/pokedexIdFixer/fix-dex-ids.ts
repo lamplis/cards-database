@@ -23,6 +23,7 @@ import {
 	normalizeNameForMatching,
 	splitTagTeamName,
 } from './dex-utils'
+import { getRepoPaths } from './path-utils'
 
 // CLI args
 const args = process.argv.slice(2)
@@ -36,8 +37,9 @@ if (!dryRun && !apply) {
 	process.exit(1)
 }
 
-const OUTPUT_DIR = __dirname
-const DATA_DIR = path.resolve(__dirname, '../../data')
+const { scriptsDir, dataDir } = getRepoPaths(import.meta.url)
+const OUTPUT_DIR = scriptsDir
+const DATA_DIR = dataDir
 
 interface FixResult {
 	filePath: string

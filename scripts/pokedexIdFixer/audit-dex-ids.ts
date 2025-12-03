@@ -16,10 +16,12 @@ import path from 'path'
 import fs from 'fs'
 import { extractFile } from '../utils/ts-extract-utils'
 import { isTagTeamCard, splitTagTeamName, countDistinctSpecies } from './dex-utils'
+import { getRepoPaths } from './path-utils'
 
 // CLI args
 const args = process.argv.slice(2)
 const generateReport = args.includes('--report')
+const { dataDir: DATA_DIR, scriptsDir: SCRIPTS_DIR } = getRepoPaths(import.meta.url)
 
 interface AuditResult {
 	filePath: string
@@ -57,11 +59,9 @@ function log(message: string) {
 }
 
 async function main() {
-	const dataDir = path.resolve(__dirname, '../../data')
-
 	// Find all card TS files (exclude set definition files which are directly under series folders)
 	const cardFiles = await glob('**/*.ts', {
-		cwd: dataDir,
+		cwd: DATA_DIR,
 		absolute: true,
 		ignore: [
 			'*/*.ts', // Series definition files (e.g., data/XY.ts)
@@ -77,7 +77,7 @@ async function main() {
 	const multiDexIssues: MultiDexIssue[] = []
 
 	for (const filePath of cardFiles) {
-		const relativePath = path.relative(dataDir, filePath)
+		const relativePath = path.relative(DATA_DIR, filePath)
 
 		// Skip set definition files (they don't have card data)
 		const parts = relativePath.split(path.sep)
@@ -229,7 +229,7 @@ async function main() {
 
 	// Write report file if requested
 	if (generateReport) {
-		const reportPath = path.join(__dirname, 'audit-report.txt')
+		const reportPath = path.join(SCRIPTS_DIR, 'audit-report.txt')
 		fs.writeFileSync(reportPath, outputLines.join('\n'))
 		console.log(`\n[OK] Report written to: ${reportPath}`)
 	}

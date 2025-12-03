@@ -23,9 +23,11 @@ import fs from 'fs'
 import path from 'path'
 import { glob } from 'glob'
 import { extractFile } from '../utils/ts-extract-utils'
+import { getRepoPaths } from './path-utils'
 
-const OUTPUT_DIR = __dirname
-const DATA_DIR = path.resolve(__dirname, '../../data')
+const { scriptsDir, dataDir } = getRepoPaths(import.meta.url)
+const OUTPUT_DIR = scriptsDir
+const DATA_DIR = dataDir
 
 interface PokemonSpecies {
 	dexId: number

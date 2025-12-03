@@ -14,9 +14,11 @@
 
 import fs from 'fs'
 import path from 'path'
+import { getRepoPaths } from './path-utils'
 
 const POKEAPI_BASE = 'https://pokeapi.co/api/v2'
-const OUTPUT_DIR = __dirname
+const { scriptsDir } = getRepoPaths(import.meta.url)
+const OUTPUT_DIR = scriptsDir
 
 interface PokemonSpecies {
 	id: number
