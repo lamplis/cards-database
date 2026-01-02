@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Machamp",
 	},
 	illustrator: "Tomokazu Komiya",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

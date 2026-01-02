@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Marshadow"
 	},
 	illustrator: "Emi Ando",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

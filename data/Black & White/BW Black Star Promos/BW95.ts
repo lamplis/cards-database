@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Festival des Champions",
 	},
 	illustrator: "Naoki Saito",
-	rarity: "Common",
+	rarity: "None",
 	category: "Trainer",
 
 	set: Set,

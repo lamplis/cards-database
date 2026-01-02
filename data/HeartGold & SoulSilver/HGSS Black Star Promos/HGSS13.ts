@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Smoochum",
 	},
 	illustrator: "Midori Harada",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

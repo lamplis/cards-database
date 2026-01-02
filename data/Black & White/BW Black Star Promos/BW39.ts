@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Ville Combat",
 	},
 	illustrator: "Hideaki Hakozaki",
-	rarity: "Common",
+	rarity: "None",
 	category: "Trainer",
 
 	set: Set,

@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Amfira"
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

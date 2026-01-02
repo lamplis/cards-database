@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Registeel"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

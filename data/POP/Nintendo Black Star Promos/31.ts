@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Moltres ex",
 	},
 	illustrator: "Ken Ikuji",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

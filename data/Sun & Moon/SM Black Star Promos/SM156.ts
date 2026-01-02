@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Dragoran GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

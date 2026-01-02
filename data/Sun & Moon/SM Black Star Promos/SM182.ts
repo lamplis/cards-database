@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Snobilikat"
 	},
 
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Colorless"],

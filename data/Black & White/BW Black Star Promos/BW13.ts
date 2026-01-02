@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Chinchidou",
 	},
 	illustrator: "Atsuko Nishida",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

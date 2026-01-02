@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "MPC Film",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 	set: Set,
 

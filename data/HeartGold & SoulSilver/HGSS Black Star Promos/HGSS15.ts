@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Shuckle",
 	},
 	illustrator: "match",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Altaria",
 	},
 	illustrator: "HiRON",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

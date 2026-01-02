@@ -7,7 +7,7 @@ const card: Card = {
 	},
 
 	illustrator: "Megumi Mizutani",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 	set: Set,
 

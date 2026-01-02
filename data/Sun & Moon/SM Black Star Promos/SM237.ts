@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Folipurba"
 	},
 
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Grass"],

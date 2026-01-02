@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Heatran"
 	},
 	illustrator: "tetsuya koizumi",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

@@ -7,7 +7,7 @@ const card: Card = {
 	},
 
 	illustrator: "sui",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 	set: Set,
 

@@ -7,7 +7,7 @@ const card: Card = {
 		de: "Glurak G"
 	},
 	illustrator: "Wataru Kawahara",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

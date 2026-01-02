@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Pikachu GX"
 	},
 
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Lightning"],

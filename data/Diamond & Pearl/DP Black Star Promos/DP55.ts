@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Yusuke Ishikawa",
-	rarity: "Common",
+	rarity: "None",
 	category: "Trainer",
 	set: Set,
 	trainerType: "Stadium",

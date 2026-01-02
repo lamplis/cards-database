@@ -7,7 +7,7 @@ const card: Card = {
 		de: "Dialga"
 	},
 	illustrator: "Kagemaru Himeno",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

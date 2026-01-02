@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Raikou",
 	},
 	illustrator: "Noriko Hotta",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

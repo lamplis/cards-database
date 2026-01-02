@@ -7,7 +7,7 @@ const card: Card = {
 	},
 
 	illustrator: "You Iribi",
-	rarity: "Common",
+	rarity: "None",
 	category: "Trainer",
 	set: Set,
 	trainerType: "Supporter",

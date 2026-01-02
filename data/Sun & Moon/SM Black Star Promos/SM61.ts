@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Kapu-Toro"
 	},
 	illustrator: "Megumi Mizutani",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

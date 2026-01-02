@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Vipélierre",
 	},
 	illustrator: "Shizurow",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

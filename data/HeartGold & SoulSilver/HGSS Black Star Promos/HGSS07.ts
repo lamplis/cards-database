@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Feraligatr",
 	},
 	illustrator: "Kent Kanetsuna",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

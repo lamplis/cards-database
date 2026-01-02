@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hiroaki Ito",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 	set: Set,
 

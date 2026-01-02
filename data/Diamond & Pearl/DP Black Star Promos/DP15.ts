@@ -7,7 +7,7 @@ const card: Card = {
 		de: "Sheinux"
 	},
 	illustrator: "Kagemaru Himeno",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

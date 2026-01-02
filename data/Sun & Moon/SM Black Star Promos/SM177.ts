@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Meltan"
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

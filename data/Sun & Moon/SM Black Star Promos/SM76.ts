@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Pikachu"
 	},
 	illustrator: "match",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Celebi"
 	},
 
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],

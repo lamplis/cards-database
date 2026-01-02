@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Porygon-Z",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

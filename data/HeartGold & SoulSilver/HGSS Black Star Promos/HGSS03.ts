@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Pikachu",
 	},
 	illustrator: "Kanako Eo",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

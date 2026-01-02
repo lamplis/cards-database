@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Pyrax",
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

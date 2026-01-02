@@ -6,7 +6,7 @@ const card: Card = {
 		fr: "Genesect",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

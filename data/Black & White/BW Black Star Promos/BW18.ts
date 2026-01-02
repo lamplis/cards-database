@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Darumarond",
 	},
 	illustrator: "Akira Komayama",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

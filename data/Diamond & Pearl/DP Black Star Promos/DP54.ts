@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ryo Ueda",
-	rarity: "Common",
+	rarity: "None",
 	category: "Trainer",
 	set: Set,
 

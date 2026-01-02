@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Aquana GX"
 	},
 	illustrator: "PLANETA Otani",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

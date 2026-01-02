@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Zapdos ex",
 	},
 	illustrator: "K. Hoshiba",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

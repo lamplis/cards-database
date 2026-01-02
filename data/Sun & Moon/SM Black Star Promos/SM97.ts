@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Manguspektor"
 	},
 	illustrator: "nagimiso",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

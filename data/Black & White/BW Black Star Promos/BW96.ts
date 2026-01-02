@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Boréas ex",
 	},
 	illustrator: "Ryo Ueda",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

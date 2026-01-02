@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Meisterdetektiv Pikachu"
 	},
 
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Lightning"],

@@ -7,7 +7,7 @@ const card: Card = {
 		de: "Arceus"
 	},
 	illustrator: "Ryo Ueda",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

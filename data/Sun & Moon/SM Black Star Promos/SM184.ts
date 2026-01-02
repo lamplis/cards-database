@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Evoli"
 	},
 
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Colorless"],

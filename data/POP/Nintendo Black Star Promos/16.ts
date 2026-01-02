@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Treecko",
 	},
 	illustrator: "Kagemaru Himeno",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

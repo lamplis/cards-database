@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Articuno ex",
 	},
 	illustrator: "Nakaoka",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Karippas GX"
 	},
 
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 250,
 	types: ["Fighting"],

@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Tropical Tidal Wave",
 	},
 	illustrator: undefined,
-	rarity: "Common",
+	rarity: "None",
 	category: "Trainer",
 
 	set: Set,

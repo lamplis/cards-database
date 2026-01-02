@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kent Kanetsuna",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 	set: Set,
 

@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Magearna-EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

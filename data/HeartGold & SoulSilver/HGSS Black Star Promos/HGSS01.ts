@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Ho-Oh",
 	},
 	illustrator: "Takashi Yamaguchi",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

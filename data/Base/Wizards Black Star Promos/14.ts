@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Benimaru Itoh",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 	set: Set,
 

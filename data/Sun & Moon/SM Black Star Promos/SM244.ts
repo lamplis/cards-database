@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Griffel"
 	},
 
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],

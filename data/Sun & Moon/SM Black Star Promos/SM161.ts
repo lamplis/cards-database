@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Jirachi"
 	},
 	illustrator: "Mizue",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

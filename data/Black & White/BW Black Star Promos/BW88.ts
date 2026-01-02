@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Pyroli",
 	},
 	illustrator: "Illus.＆Direc.The Pokémon Company Art Team",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

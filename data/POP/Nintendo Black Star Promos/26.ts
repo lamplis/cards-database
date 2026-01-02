@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Tropical Wind",
 	},
 	illustrator: "Sumiyoshi Kizuki",
-	rarity: "Common",
+	rarity: "None",
 	category: "Trainer",
 
 	set: Set,

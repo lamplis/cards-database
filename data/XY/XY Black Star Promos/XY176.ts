@@ -7,7 +7,7 @@ const card: Card = {
 	},
 
 	illustrator: "Naoki Saito",
-	rarity: "Common",
+	rarity: "None",
 	category: "Trainer",
 	set: Set,
 	trainerType: "Stadium",

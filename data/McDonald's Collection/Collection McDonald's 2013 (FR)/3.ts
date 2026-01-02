@@ -6,7 +6,7 @@ const card: Card = {
 		fr: "Voltali",
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

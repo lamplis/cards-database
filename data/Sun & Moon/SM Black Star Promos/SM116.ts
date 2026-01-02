@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Voltriant"
 	},
 	illustrator: "TOKIYA",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Combusken",
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Common",
+	rarity: "None",
 	category: "Trainer",
 
 	set: Set,

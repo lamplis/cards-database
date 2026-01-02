@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Terrakium"
 	},
 
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fighting"],

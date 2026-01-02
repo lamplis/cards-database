@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Lapras",
 	},
 	illustrator: "Masakazu Fukuda",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

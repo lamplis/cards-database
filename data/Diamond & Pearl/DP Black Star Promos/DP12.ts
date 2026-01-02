@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Lucario"
 	},
 	illustrator: "Ryo Ueda",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

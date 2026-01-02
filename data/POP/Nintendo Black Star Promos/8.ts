@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Torchic",
 	},
 	illustrator: "Atsuko Nishida",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

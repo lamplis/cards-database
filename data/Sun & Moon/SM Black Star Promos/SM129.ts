@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Kyogre"
 	},
 	illustrator: "Anesaki Dynamic",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Computer Error",
 	},
 	illustrator: "Sumiyoshi Kizuki",
-	rarity: "Common",
+	rarity: "None",
 	category: "Trainer",
 
 	set: Set,

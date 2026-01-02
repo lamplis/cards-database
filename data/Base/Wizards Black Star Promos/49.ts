@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Snorlax",
 	},
 	illustrator: "Craig Turvey",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

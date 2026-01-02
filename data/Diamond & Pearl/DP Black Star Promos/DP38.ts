@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Giratina"
 	},
 	illustrator: "Shizurow",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Knirfish"
 	},
 	illustrator: "Mizue",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

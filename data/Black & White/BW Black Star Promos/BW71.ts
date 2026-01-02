@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Terrakium",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hironobu Yoshida",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 	set: Set,
 

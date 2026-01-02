@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Groudon ex",
 	},
 	illustrator: "Kazuo Yazawa",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

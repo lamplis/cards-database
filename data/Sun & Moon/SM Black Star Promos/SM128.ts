@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Alola Vulnona"
 	},
 	illustrator: "kirisAki",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Darkrai ex",
 	},
 	illustrator: "Shizurow",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

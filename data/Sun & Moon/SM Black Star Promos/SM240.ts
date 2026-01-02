@@ -20,7 +20,7 @@ const card: Card = {
 		de: "Psiana & Deoxys GX"
 	},
 
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 260,
 	types: ["Psychic"],

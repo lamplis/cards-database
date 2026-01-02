@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Bisaflor & Serpifeu GX"
 	},
 
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 270,
 	types: ["Grass"],

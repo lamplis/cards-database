@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Meganium",
 	},
 	illustrator: "Noriko Hotta",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

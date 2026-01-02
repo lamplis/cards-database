@@ -7,7 +7,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "None",
 	category: "Trainer",
 	set: Set,
 	trainerType: "Tool",

@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Latios"
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

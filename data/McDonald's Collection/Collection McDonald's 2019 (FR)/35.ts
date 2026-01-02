@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		fr: "Pyroli",
 	},
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

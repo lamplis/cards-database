@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Lucario",
 	},
 	illustrator: "Masakazu Fukuda",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

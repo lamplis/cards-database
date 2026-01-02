@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Feunard",
 	},
 	illustrator: "Hideaki Hakozaki",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

@@ -6,7 +6,7 @@ const card: Card = {
 		en: "M Garchomp-EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

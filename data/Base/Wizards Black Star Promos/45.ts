@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Scyther",
 	},
 	illustrator: "Hironobu Yoshida",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
