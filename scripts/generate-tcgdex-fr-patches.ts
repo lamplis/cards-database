@@ -22,6 +22,10 @@ const incompleteLogPath = path.join(
 const API_BASE = 'http://localhost:3000/api/v1/datasources/pokepedia-fr/cards'
 const CONCURRENCY = 5 // Number of parallel API requests
 const DELAY_MS = 100 // Delay between batches to avoid overwhelming the server
+const argv = process.argv.slice(2)
+const SAMPLE_MODE = argv.includes('--sample')
+const CARD_FILTER_INDEX = argv.findIndex((arg) => arg === '--card')
+const CARD_FILTER = CARD_FILTER_INDEX >= 0 ? argv[CARD_FILTER_INDEX + 1] : undefined
 
 // Cache for sets without French releases (to avoid repeated checks)
 const setsWithoutFrenchRelease = new Set<string>()
@@ -396,11 +400,31 @@ function objectHasProperty(objectNode: ts.ObjectLiteralExpression, propName: str
 	return objectNode.properties.some((prop) => ts.isPropertyAssignment(prop) && getPropertyName(prop.name) === propName)
 }
 
+function ensureTrailingComma(text: string, insertPosition: number): { text: string; updatedPosition: number } {
+	let pos = insertPosition - 1
+	while (pos >= 0 && /\s/.test(text[pos])) {
+		pos--
+	}
+
+	const lastChar = text[pos]
+	if (lastChar && lastChar !== '{' && lastChar !== ',' && lastChar !== '\n') {
+		text = text.slice(0, pos + 1) + ',' + text.slice(pos + 1)
+		insertPosition++
+	} else if (lastChar && lastChar !== '{' && lastChar !== ',') {
+		// handle cases where lastChar is newline after trimming (should not happen)
+		text = text.slice(0, pos + 1) + ',' + text.slice(pos + 1)
+		insertPosition++
+	}
+
+	return { text, updatedPosition: insertPosition }
+}
+
 function insertPropertyIntoObject(
 	text: string,
 	objectNode: ts.ObjectLiteralExpression,
 	propertyName: string,
-	value: string
+	value: string,
+	options?: { raw?: boolean }
 ): string | null {
 	if (objectHasProperty(objectNode, propertyName)) {
 		return null
@@ -416,10 +440,36 @@ function insertPropertyIntoObject(
 		return null
 	}
 
+	let insertPosition = text.lastIndexOf('\n', closingBrace) + 1
+	const adjusted = ensureTrailingComma(text, insertPosition)
+	text = adjusted.text
+	insertPosition = adjusted.updatedPosition
+
 	const propertyIndent = computePropertyIndentation(text, objectNode, braceStart)
-	const propertyLine = `${propertyIndent}${propertyName}: ${JSON.stringify(value)},\n`
-	const insertPosition = text.lastIndexOf('\n', closingBrace) + 1
+	const propertyValue = options?.raw ? value : JSON.stringify(value)
+	const propertyLine = `${propertyIndent}${propertyName}: ${propertyValue},\n`
 	return text.slice(0, insertPosition) + propertyLine + text.slice(insertPosition)
+}
+
+function insertLocalizedObject(
+	state: PatchState,
+	path: PathSegment[],
+	propertyName: string,
+	value: string
+): boolean {
+	const target = findObjectLiteralForPath(state.sourceFile, path)
+	if (!target) {
+		return false
+	}
+
+	const updatedText = insertPropertyIntoObject(state.text, target, propertyName, value)
+	if (!updatedText) {
+		return false
+	}
+
+	state.text = updatedText
+	state.sourceFile = ts.createSourceFile(state.filePath, state.text, ts.ScriptTarget.Latest, true)
+	return true
 }
 
 function applyLocalizedProperty(
@@ -431,12 +481,25 @@ function applyLocalizedProperty(
 		return false
 	}
 
-	const target = findObjectLiteralForPath(state.sourceFile, path)
-	if (!target) {
+	return insertLocalizedObject(state, path, 'fr', value)
+}
+
+function addNewLocalizedProperty(
+	state: PatchState,
+	propertyName: string,
+	value?: string
+): boolean {
+	if (!value) {
 		return false
 	}
 
-	const updatedText = insertPropertyIntoObject(state.text, target, 'fr', value)
+	const cardObject = findDefaultExportObject(state.sourceFile)
+	if (!cardObject) {
+		return false
+	}
+
+	const rawValue = `{\n\tfr: ${JSON.stringify(value)},\n\t}`
+	const updatedText = insertPropertyIntoObject(state.text, cardObject, propertyName, rawValue, { raw: true })
 	if (!updatedText) {
 		return false
 	}
@@ -503,6 +566,7 @@ async function main() {
 
 	// Collect cards missing French translations
 	const cardsToProcess: CardInfo[] = []
+	const sampleSets = new Set<string>()
 	const skippedSets = new Set<string>()
 
 	for (const filePath of allFiles) {
@@ -522,6 +586,13 @@ async function main() {
 		const setId = setObject?.id
 		if (!setId) {
 			continue
+		}
+
+		if (SAMPLE_MODE) {
+			if (sampleSets.has(setId)) {
+				continue
+			}
+			sampleSets.add(setId)
 		}
 
 		// Check if set has French release (with caching)
@@ -550,6 +621,13 @@ async function main() {
 
 		const localIdRaw = path.basename(filePath, '.ts')
 		const localId = normalizeLocalId(localIdRaw)
+
+		if (CARD_FILTER) {
+			const cardId = `${setId}-${localId}`
+			if (cardId !== CARD_FILTER) {
+				continue
+			}
+		}
 
 		cardsToProcess.push({
 			filePath,
@@ -583,9 +661,16 @@ async function main() {
 			let patched = false
 			// Apply all French translations
 			patched = applyLocalizedProperty(state, ['name'], detail.nameLocalized?.fr) || patched
-			patched = applyLocalizedProperty(state, ['description'], detail.description?.fr) || patched
-			patched = applyLocalizedProperty(state, ['effect'], detail.effectText?.fr) || patched
-			patched = applyLocalizedProperty(state, ['evolveFrom'], detail.evolveFrom?.fr) || patched
+			const descriptionPatched =
+				applyLocalizedProperty(state, ['description'], detail.description?.fr) ||
+				addNewLocalizedProperty(state, 'description', detail.description?.fr)
+			const effectPatched =
+				applyLocalizedProperty(state, ['effect'], detail.effectText?.fr) ||
+				addNewLocalizedProperty(state, 'effect', detail.effectText?.fr)
+			const evolvePatched =
+				applyLocalizedProperty(state, ['evolveFrom'], detail.evolveFrom?.fr) ||
+				addNewLocalizedProperty(state, 'evolveFrom', detail.evolveFrom?.fr)
+			patched = descriptionPatched || effectPatched || evolvePatched || patched
 
 			for (let idx = 0; idx < (detail.abilities ?? []).length; idx++) {
 				const ability = detail.abilities![idx]
