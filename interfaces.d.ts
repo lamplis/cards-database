@@ -360,6 +360,7 @@ export interface Card {
 		name: Languages
 		effect?: Languages
 		damage?: string | number
+		type?: string
 	}>
 
 	/**
