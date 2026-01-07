@@ -4,9 +4,10 @@ import Set from '../Nintendo Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Combusken",
+		fr: "Galifeu"
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "None",
+	rarity: "Common",
 	category: "Trainer",
 
 	set: Set,
@@ -19,6 +20,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Torchic",
+		fr: "Poussifeu"
 	},
 	stage: "Stage1",
 

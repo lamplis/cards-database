@@ -4,9 +4,10 @@ import Set from '../Nintendo Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Treecko",
+		fr: "Treecko"
 	},
 	illustrator: "Atsuko Nishida",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 
 	set: Set,
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Slap",
+				fr: "Coud'keu"
 			},
 
 			damage: 10,
@@ -40,6 +42,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
+				fr: "Tranch'herbe"
 			},
 
 			damage: 20,

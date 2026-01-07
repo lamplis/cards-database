@@ -4,9 +4,10 @@ import Set from '../Nintendo Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Mudkip",
+		fr: "Gobou"
 	},
 	illustrator: "Atsuko Nishida",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 
 	set: Set,
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Pound",
+				fr: "Écras'face"
 			},
 
 			damage: 10,
@@ -40,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fury Swipes",
+				fr: "Combo-griffe"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
+				fr: "Lancez trois pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de face."
 			},
 			damage: 10,
 
