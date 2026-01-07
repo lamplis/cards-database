@@ -4,10 +4,11 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Camerupt Spirit Link",
+		fr: "Lien Spirituel Camérupt"
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Common",
 	category: "Trainer",
 	set: Set,
 	trainerType: "Tool",

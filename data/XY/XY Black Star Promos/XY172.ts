@@ -4,10 +4,11 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Salamence Spirit Link",
+		fr: "Lien Spirituel Drattak"
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Common",
 	category: "Trainer",
 	set: Set,
 	trainerType: "Tool",
