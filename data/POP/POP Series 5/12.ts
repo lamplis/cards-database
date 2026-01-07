@@ -4,7 +4,7 @@ import Set from '../POP Series 5'
 const card: Card = {
 	name: {
 		en: "Pikachu",
-		fr: "Pikachu",
+		fr: "Pikachu"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -31,7 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Lightning Ball",
-				fr: "Boule Éclair",
+				fr: "Boule éclair"
 			},
 
 			damage: 10,
@@ -45,11 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunderbolt",
-				fr: "Tonnerre",
+				fr: "Tonnerre"
 			},
 			effect: {
 				en: "Discard all Energy cards attached to Pikachu.",
-				fr: "Défaussez toutes les cartes Énergie attachées à Pikachu.",
+				fr: "Défaussez toutes les cartes Énergie attachées à Pikachu."
 			},
 			damage: 50,
 
