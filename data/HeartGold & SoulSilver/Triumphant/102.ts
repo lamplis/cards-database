@@ -14,14 +14,8 @@ const card: Card = {
 	set: Set,
 
 	dexId: [
-
-
-		484,
-
-
-		483,
-
-
+		484, // Palkia
+		483, // Dialga
 	],
 
 	types: [
