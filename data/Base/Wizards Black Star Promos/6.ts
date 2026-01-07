@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
@@ -24,6 +24,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Growlithe",
+		fr: "Caninos"
 	},
 
 	stage: "Stage1",

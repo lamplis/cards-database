@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hironobu Yoshida",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
@@ -24,6 +24,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Scyther",
+		fr: "Insécateur"
 	},
 
 	stage: "Stage1",

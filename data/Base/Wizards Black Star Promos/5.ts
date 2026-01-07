@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Toshinao Aoki",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
@@ -24,6 +24,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Dragonair",
+		fr: "Draco"
 	},
 
 	stage: "Stage2",
