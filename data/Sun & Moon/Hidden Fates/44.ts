@@ -13,9 +13,9 @@ const card: Card = {
 	set: Set,
 
 	dexId: [
-		144,
-		145,
-		146,
+		146, // Moltres
+		145, // Zapdos
+		144, // Articuno
 	],
 
 	hp: 300,
