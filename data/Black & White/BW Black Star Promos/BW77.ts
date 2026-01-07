@@ -4,9 +4,10 @@ import Set from '../BW Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Pikachu",
+		fr: "Pikachu"
 	},
 	illustrator: "Mizue",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 
 	set: Set,
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Whap",
+				fr: "Queue Battoir"
 			},
 
 			damage: 10,
@@ -41,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thundershock",
+				fr: "Éclair"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 30,
 

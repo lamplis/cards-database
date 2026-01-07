@@ -4,9 +4,10 @@ import Set from '../BW Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Raichu",
+		fr: "Raichu"
 	},
 	illustrator: "Mizue",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 
 	set: Set,
@@ -29,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Attack",
+				fr: "Vive-Attaque"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
 			},
 			damage: 30,
 
@@ -44,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Blast",
+				fr: "Grondement de Tonnerre"
 			},
 			effect: {
 				en: "Discard an Energy attached to this Pokémon.",
+				fr: "Défaussez une Énergie attachée à ce Pokémon."
 			},
 			damage: 90,
 
