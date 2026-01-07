@@ -4,9 +4,10 @@ import Set from '../HGSS Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Raikou",
+		fr: "Raikou"
 	},
 	illustrator: "Noriko Hotta",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 
 	set: Set,
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Zap Cannon",
+				fr: "Elecanon"
 			},
 			effect: {
 				en: "During your next turn, Raikou can't use Zap Cannon.",
+				fr: "Lors de votre prochain tour, Raikou ne pourra pas utiliser Elecanon."
 			},
 			damage: 70,
 

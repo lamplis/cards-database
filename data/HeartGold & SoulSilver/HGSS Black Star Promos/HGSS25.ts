@@ -4,9 +4,10 @@ import Set from '../HGSS Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Hitmonlee",
+		fr: "Kicklee"
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 
 	set: Set,
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Kick",
+				fr: "Koud'pied"
 			},
 
 			damage: 20,
@@ -41,6 +43,7 @@ const card: Card = {
 			],
 			name: {
 				en: "High Jump Kick",
+				fr: "Pied voltige"
 			},
 
 			damage: 60,

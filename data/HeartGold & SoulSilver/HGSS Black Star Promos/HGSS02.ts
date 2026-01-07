@@ -4,9 +4,10 @@ import Set from '../HGSS Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Lugia",
+		fr: "Lugia"
 	},
 	illustrator: "Takashi Yamaguchi",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 
 	set: Set,
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Wave Splash",
+				fr: "Grosse vague"
 			},
 
 			damage: 20,
@@ -42,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Aeroblast",
+				fr: "Aeroblast"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 50 damage plus 20 more damage for each heads.",
+				fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque face."
 			},
 			damage: 50,
 
