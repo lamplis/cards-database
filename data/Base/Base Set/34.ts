@@ -5,8 +5,7 @@ const card: Card = {
 	name: {
 		en: "Machoke",
 		fr: "Machopeur",
-		de: "Maschock",
-		it: "Machoke"
+		de: "Maschock"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -26,7 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Machop",
-		it: "Machop"
+		fr: "Machoc"
 	},
 
 	stage: "Stage1",
@@ -41,14 +40,12 @@ const card: Card = {
 			name: {
 				en: "Karate Chop",
 				fr: "Poing-Karaté",
-				de: "Karateschlag",
-				it: "Colpo-karate"
+				de: "Karateschlag"
 			},
 			effect: {
 				en: "Does 50 damage minus 10 for each damage counter on Machoke.",
 				fr: "Inflige 50 dégâts moins 10 dégâts pour chaque marqueur de dégâts sur Machopeur.",
-				de: "Fügt 50 Schadenspunkte minus 10 Schadenspunkte für jede Schadensmarke auf Maschock zu.",
-				it: "Infligge 50 danni meno 10 danni per ogni segnalino danno su Machoke."
+				de: "Fügt 50 Schadenspunkte minus 10 Schadenspunkte für jede Schadensmarke auf Maschock zu."
 			},
 			damage: "50-",
 
@@ -63,14 +60,12 @@ const card: Card = {
 			name: {
 				en: "Submission",
 				fr: "Sacrifice",
-				de: "Überroller",
-				it: "Sottomissione"
+				de: "Überroller"
 			},
 			effect: {
 				en: "Machoke does 20 damage to itself.",
 				fr: "Machopeur s'inflige 20 dégâts.",
-				de: "Maschock fügt sich selbst 20 Schadenspunkte zu.",
-				it: "Machoke si infligge 20 danni."
+				de: "Maschock fügt sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -85,8 +80,7 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Son corps est si puissant qu'il lui faut une ceinture de force pour équilibrer ses mouvements.",
-		it: "Il suo corpo è talmente muscoloso che è costretto ad indossare una cintura salva-energia per regolare i suoi movimenti. LIV 40 N.67"
+		fr: "Son corps est si puissant qu'il lui faut une ceinture de force pour équilibrer ses mouvements."
 	},
 
 	thirdParty: {

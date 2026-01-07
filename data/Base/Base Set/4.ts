@@ -5,8 +5,7 @@ const card: Card = {
 	name: {
 		en: "Charizard",
 		fr: "Dracaufeu",
-		de: "Glurak",
-		it: "Charizard"
+		de: "Glurak"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -26,7 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Charmeleon",
-		it: "Charmeleon"
+		fr: "Reptincel"
 	},
 
 	stage: "Stage2",
@@ -37,14 +36,12 @@ const card: Card = {
 			name: {
 				en: "Energy Burn",
 				fr: "Combustion d'Énergie",
-				de: "Energie verbrennen",
-				it: "Brucia energia"
+				de: "Energie verbrennen"
 			},
 			effect: {
 				en: "As often as you like during your turn (before your attack), you may turn all Energy attached to Charizard into Fire Energy for the rest of the turn. This power can't be used if Charizard is Asleep, Confused, or Paralyzed.",
 				fr: "Aussi souvent que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez transformer toutes les Énergies attachées à Dracaufeu en Énergie  jusqu'à la fin du tour. Ce pouvoir ne peut être utilisé si Dracaufeu est Endormi, Confus ou Paralysé.",
-				de: "Bist Du am Zug, kannst Du (vor Deinem Angriff) beliebig oft alle auf Glurak abgelegte Energie in  Energie für den Rest des Zugs verwandeln. Diese Fähigkeit kann nicht eingesetzt werden, falls Glurak schlafend, verwirrt oder gelähmt ist.",
-				it: "Quante volte vuoi durante il tuo turno (prima di attaccare), puoi trasformare tutte le carte Energia assegnate a Charizard in carte Energia Fuoco per il resto del turno. Questo potere non può essere usato se Charizard è Addormentato, Confuso o Paralizzato."
+				de: "Bist Du am Zug, kannst Du (vor Deinem Angriff) beliebig oft alle auf Glurak abgelegte Energie in  Energie für den Rest des Zugs verwandeln. Diese Fähigkeit kann nicht eingesetzt werden, falls Glurak schlafend, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -60,14 +57,12 @@ const card: Card = {
 			name: {
 				en: "Fire Spin",
 				fr: "Danseflamme",
-				de: "Feuerwirbel",
-				it: "Turbofuoco"
+				de: "Feuerwirbel"
 			},
 			effect: {
 				en: "Discard 2 Energy cards attached to Charizard in order to use this attack.",
 				fr: "Défaussez 2 cartes Énergie attachées à Dracaufeu pour pouvoir utiliser cette attaque.",
-				de: "Entferne 2 auf Glurak abgelegte Energiekarten, um diesen Angriff auszuführen.",
-				it: "Scarta 2 carte Energia assegnate a Charizard per poter usare questo attacco."
+				de: "Entferne 2 auf Glurak abgelegte Energiekarten, um diesen Angriff auszuführen."
 			},
 			damage: 100,
 
@@ -91,8 +86,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		fr: "Il peut fondre la roche de son souffle brûlant. Il est souvent la cause de nombreux incendies.",
-		it: "Sputa fiamme così intense da sciogliere le rocce. Senza volerlo, a volte causa incendi boschivi. LIV 76 N.6"
+		fr: "Il peut fondre la roche de son souffle brûlant. Il est souvent la cause de nombreux incendies."
 	},
 
 	thirdParty: {

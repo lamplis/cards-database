@@ -5,8 +5,7 @@ const card: Card = {
 	name: {
 		en: "Gyarados",
 		fr: "Léviator",
-		de: "Garados",
-		it: "Gyarados"
+		de: "Garados"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -26,7 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magikarp",
-		it: "Magikarp"
+		fr: "Magicarpe"
 	},
 
 	stage: "Stage1",
@@ -41,8 +40,7 @@ const card: Card = {
 			name: {
 				en: "Dragon Rage",
 				fr: "Draco-Rage",
-				de: "Drachenwut",
-				it: "Ira di drago"
+				de: "Drachenwut"
 			},
 
 			damage: 50,
@@ -58,14 +56,12 @@ const card: Card = {
 			name: {
 				en: "Bubblebeam",
 				fr: "Bulles d'O",
-				de: "Blubbstrahl",
-				it: "Bollaraggio"
+				de: "Blubbstrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon gelähmt.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
+				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon gelähmt."
 			},
 			damage: 40,
 
@@ -108,8 +104,7 @@ const card: Card = {
 
 
 	description: {
-		fr: "Gigantesque et maléfique, il est capable de raser une ville dans un accès de rage terrifiante.",
-		it: "Appare raramente nelle regioni selvagge. Enorme e feroce, se si infuria è capace di distruggere intere città. LIV 41 N.130"
+		fr: "Gigantesque et maléfique, il est capable de raser une ville dans un accès de rage terrifiante."
 	},
 
 	thirdParty: {

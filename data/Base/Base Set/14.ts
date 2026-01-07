@@ -5,8 +5,7 @@ const card: Card = {
 	name: {
 		en: "Raichu",
 		fr: "Raichu",
-		de: "Raichu",
-		it: "Raichu"
+		de: "Raichu"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -26,7 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pikachu",
-		it: "Pikachu"
+		fr: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -41,14 +40,12 @@ const card: Card = {
 			name: {
 				en: "Agility",
 				fr: "Hâte",
-				de: "Agilität",
-				it: "Agilità"
+				de: "Agilität"
 			},
 			effect: {
 				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Raichu.",
 				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets ou attaques, y compris les dégâts, infligés à Raichu.",
-				de: "Wirf eine Münze. Bei Kopf verhindere während des nächsten gegnerischen Zuges alle Auswirkungen von Angriffen auf Raichu (einschließlich der Schadenspunkte).",
-				it: "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario, previeni tutti gli effetti degli attacchi inflitti a Raichu, compresi i danni."
+				de: "Wirf eine Münze. Bei Kopf verhindere während des nächsten gegnerischen Zuges alle Auswirkungen von Angriffen auf Raichu (einschließlich der Schadenspunkte)."
 			},
 			damage: 20,
 
@@ -63,14 +60,12 @@ const card: Card = {
 			name: {
 				en: "Thunder",
 				fr: "Fatal-Foudre",
-				de: "Donner",
-				it: "Tuono"
+				de: "Donner"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Raichu does 30 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, Raichu s'inflige 30 dégâts.",
-				de: "Wirf eine Münze. Bei Zahl fügt sich Raichu selbst 30 Schadenspunkte zu.",
-				it: "Lancia una moneta. Se esce croce, Raichu si infligge 30 danni."
+				de: "Wirf eine Münze. Bei Zahl fügt sich Raichu selbst 30 Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -85,8 +80,7 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Il doit garder sa queue en contact avec le sol pour éviter toute électrocution.",
-		it: "Ha una coda molto lunga che gli serve come messa a terra per proteggersi dalle scariche ad alta tensione che emana dal suo corpo. LIV 40 N.26"
+		fr: "Il doit garder sa queue en contact avec le sol pour éviter toute électrocution."
 	},
 
 	variants: [

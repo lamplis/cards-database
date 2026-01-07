@@ -5,8 +5,7 @@ const card: Card = {
 	name: {
 		en: "Arcanine",
 		fr: "Arcanin",
-		de: "Arkani",
-		it: "Arcanine"
+		de: "Arkani"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -26,7 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Growlithe",
-		it: "Growlithe"
+		fr: "Caninos"
 	},
 
 	stage: "Stage1",
@@ -41,14 +40,12 @@ const card: Card = {
 			name: {
 				en: "Flamethrower",
 				fr: "Lance-Flamme",
-				de: "Flammenwurf",
-				it: "Lanciafiamme"
+				de: "Flammenwurf"
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to Arcanine in order to use this attack.",
 				fr: "Défaussez 1 carte Énergie  attachée à Arcanin pour pouvoir utiliser cette attaque.",
-				de: "Entferne eine auf Arkani abgelegte  Energiekarte, um diesen Angriff auszuführen.",
-				it: "Scarta una carta Energia Fuoco assegnata ad Arcanine per poter usare questo attacco."
+				de: "Entferne eine auf Arkani abgelegte  Energiekarte, um diesen Angriff auszuführen."
 			},
 			damage: 50,
 
@@ -63,14 +60,12 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
-				de: "Bodycheck",
-				it: "Riduttore"
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "Arcanine does 30 damage to itself.",
 				fr: "Arcanin s'inflige 30 dégâts.",
-				de: "Arkani fügt sich selbst 30 Schadenspunkte zu.",
-				it: "Arcanine si infligge 30 danni."
+				de: "Arkani fügt sich selbst 30 Schadenspunkte zu."
 			},
 			damage: 80,
 
@@ -105,8 +100,7 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Un Pokémon très recherché pour sa grâce légendaire. Son pas élégant semble glisser sur le vent.",
-		it: "Pokémon da sempre ammirato per il suo fiero aspetto. Corre con grande agilità, come se avesse le ali. LIV 45 N.59"
+		fr: "Un Pokémon très recherché pour sa grâce légendaire. Son pas élégant semble glisser sur le vent."
 	},
 
 	thirdParty: {

@@ -5,8 +5,7 @@ const card: Card = {
 	name: {
 		en: "Dugtrio",
 		fr: "Triopikeur",
-		de: "Digdri",
-		it: "Dugtrio"
+		de: "Digdri"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -26,7 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Diglett",
-		it: "Diglett"
+		fr: "Taupiqueur"
 	},
 
 	stage: "Stage1",
@@ -41,8 +40,7 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
-				de: "Schlitzer",
-				it: "Lacerazione"
+				de: "Schlitzer"
 			},
 
 			damage: 40,
@@ -58,14 +56,12 @@ const card: Card = {
 			name: {
 				en: "Earthquake",
 				fr: "Séisme",
-				de: "Erdbeben",
-				it: "Terremoto"
+				de: "Erdbeben"
 			},
 			effect: {
 				en: "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à chacun des Pokémon sur votre propre Banc. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon sur le Banc.)",
-				de: "Fügt jedem Deiner eigenen Pokémon auf der Bank 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden!)",
-				it: "Infligge 10 danni a ogni Pokémon nella tua Panchina. (Non applicare Debolezza e Resistenza per i Pokémon in Panchina.)",
+				de: "Fügt jedem Deiner eigenen Pokémon auf der Bank 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden!)"
 			},
 			damage: 70,
 
@@ -107,8 +103,7 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Un groupe de Taupiqueur. Ils créent des séismes en creusant à plus de 100 km de profondeur.",
-		it: "Terzetto di Diglett che scatena disastrosi terremoti. LIV 36 N.51"
+		fr: "Un groupe de Taupiqueur. Ils créent des séismes en creusant à plus de 100 km de profondeur."
 	},
 
 	thirdParty: {
