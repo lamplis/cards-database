@@ -14,14 +14,8 @@ const card: Card = {
 	set: Set,
 
 	dexId: [
-
-
-		245,
-
-
-		244,
-
-
+		245, // Suicune
+		244, // Entei
 	],
 
 	hp: 160,
