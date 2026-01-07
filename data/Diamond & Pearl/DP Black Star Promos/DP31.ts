@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Heatran"
 	},
 	illustrator: "Shizurow",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 
 	set: Set,

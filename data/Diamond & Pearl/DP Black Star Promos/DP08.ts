@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Armor Fossil",
+		fr: "Fossile armure"
 	},
 
 	stage: "Stage1",

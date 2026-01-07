@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Skull Fossil",
+		fr: "Fossile crâne"
 	},
 
 	stage: "Stage1",

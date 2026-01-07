@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Porygon-Z"
 	},
 	illustrator: "Kagemaru Himeno",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 
 	set: Set,
@@ -21,6 +21,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Porygon2",
+		fr: "Porygon"
 	},
 	stage: "Stage2",
 

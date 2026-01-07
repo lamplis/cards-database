@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hiroaki Ito",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magmar",
+		fr: "Magmar"
 	},
 
 	stage: "Stage1",

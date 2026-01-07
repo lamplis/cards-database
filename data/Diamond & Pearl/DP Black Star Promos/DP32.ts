@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kent Kanetsuna",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magneton",
+		fr: "Magneton"
 	},
 
 	stage: "Stage2",

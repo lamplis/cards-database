@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Skorgro"
 	},
 	illustrator: "Kagemaru Himeno",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 
 	set: Set,
@@ -21,6 +21,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Gligar",
+		fr: "Scorplane"
 	},
 	stage: "Stage1",
 
