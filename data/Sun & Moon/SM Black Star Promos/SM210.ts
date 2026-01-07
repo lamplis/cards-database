@@ -11,18 +11,14 @@ const card: Card = {
 		de: "Lavados & Zapdos & Arktos GX"
 	},
 	illustrator: "HYOGONOSUKE",
-	rarity: "None",
+	rarity: "Rare",
 	category: "Pokemon",
 
 	set: Set,
 	dexId: [
-
-		146,
-
-		145,
-
-		144,
-
+		146, // Moltres
+		145, // Zapdos
+		144, // Articuno
 	],
 	hp: 300,
 	types: [

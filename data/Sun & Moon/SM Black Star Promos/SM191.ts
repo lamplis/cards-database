@@ -12,19 +12,13 @@ const card: Card = {
 	},
 
 	illustrator: "sui",
-	rarity: "None",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
 	dexId: [
-
-
-		150,
-
-
-		151,
-
-
+		150, // Mewtwo
+		151, // Mew
 	],
 
 	hp: 270,

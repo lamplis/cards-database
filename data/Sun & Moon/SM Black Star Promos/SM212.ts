@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: undefined,
-	rarity: "None",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
@@ -28,6 +28,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magikarp",
+		fr: "Magicarpe"
 	},
 
 	stage: "Stage1",
