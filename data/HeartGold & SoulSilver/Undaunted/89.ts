@@ -14,14 +14,8 @@ const card: Card = {
 	set: Set,
 
 	dexId: [
-
-
-		384,
-
-
-		386,
-
-
+		384, // Rayquaza
+		386, // Deoxys
 	],
 
 	hp: 140,
