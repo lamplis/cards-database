@@ -16,14 +16,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Corkscrew Punch"
+			en: "Corkscrew Punch",
+			fr: "Poing Tire-Bouchon"
 		},
 
 		damage: 30
 	}],
 
 	name: {
-		en: "Scraggy"
+		en: "Scraggy",
+		fr: "Baggiguane"
 	},
 
 	rarity: "None",

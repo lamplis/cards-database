@@ -16,7 +16,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Sweet Kiss"
+			en: "Sweet Kiss",
+			fr: "Doux Baiser"
 		},
 
 		damage: 10,
@@ -27,7 +28,8 @@ const card: Card = {
 	}],
 
 	name: {
-		en: "Togepi"
+		en: "Togepi",
+		fr: "Togepi"
 	},
 
 	rarity: "None",
