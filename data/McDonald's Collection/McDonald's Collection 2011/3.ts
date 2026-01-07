@@ -16,13 +16,15 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Ember"
+			en: "Ember",
+			fr: "Flammèche"
 		},
 
 		damage: 30,
 
 		effect: {
-			en: "Discard an Energy attached to this Pokémon."
+			en: "Discard an Energy attached to this Pokémon.",
+			fr: "Défaussez une Énergie attachée à ce Pokémon."
 		}
 	}],
 
@@ -34,7 +36,8 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Tepig"
+		en: "Tepig",
+		fr: "Gruikui"
 	},
 
 	rarity: "None",

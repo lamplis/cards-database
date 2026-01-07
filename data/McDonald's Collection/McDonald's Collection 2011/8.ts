@@ -16,13 +16,15 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Sand Tomb"
+			en: "Sand Tomb",
+			fr: "Tourbi-Sable"
 		},
 
 		damage: 30,
 
 		effect: {
-			en: "The Defending Pokémon can’t retreat during your opponent’s next turn."
+			en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
+			fr: "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire."
 		}
 	}],
 
@@ -34,7 +36,8 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Sandile"
+		en: "Sandile",
+		fr: "Mascaïman"
 	},
 
 	rarity: "None",

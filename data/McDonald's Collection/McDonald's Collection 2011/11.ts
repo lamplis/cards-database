@@ -16,15 +16,18 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Growl"
+			en: "Growl",
+			fr: "Rugissement"
 		},
 
 		effect: {
-			en: "During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance)."
+			en: "During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).",
+			fr: "Lors du prochain tour de votre adversaire, les dégâts infligés par les attaques du Pokémon Défenseur sont réduits de 20 (avant application de la Faiblesse et de la Résistance)."
 		}
 	}, {
 		name: {
-			en: "Gust"
+			en: "Gust",
+			fr: "Tornade"
 		},
 
 		damage: 10
@@ -38,7 +41,8 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Pidove"
+		en: "Pidove",
+		fr: "Poichigeon"
 	},
 
 	rarity: "None",

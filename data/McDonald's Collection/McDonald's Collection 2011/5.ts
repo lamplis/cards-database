@@ -16,13 +16,15 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Pound"
+			en: "Pound",
+			fr: "Écras'Face"
 		},
 
 		damage: 20
 	}, {
 		name: {
-			en: "Wave Splash"
+			en: "Wave Splash",
+			fr: "Grosse Vague"
 		},
 
 		damage: 60
@@ -36,7 +38,8 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Alomomola"
+		en: "Alomomola",
+		fr: "Mamanbo"
 	},
 
 	rarity: "None",
