@@ -4,53 +4,31 @@ import Set from "../MEP Black Star Promos"
 const card: Card = {
 	set: Set,
 
+	// TODO: incomplete data (Pokepedia redlink)
 	name: {
 		en: "Chikorita",
-		fr: "Germignon",
-		de: "Endivie",
-		it: "Chikorita",
-		es: "Chikorita",
-		pt: "Chikorita",
-		'es-mx': "Chikorita"
+		fr: "Germignon"
 	},
 
-	illustrator: "Makura Tami",
-	rarity: "None",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Grass"],
 	stage: "Basic",
 	dexId: [152],
-
-	attacks: [{
-		cost: ["Grass"],
-
-		name: {
-			en: "Razor Leaf",
-			fr: "Tranch'Herbe",
-			de: "Rasierblatt",
-			it: "Foglielama",
-			es: "Hoja Afilada",
-			pt: "Folha Navalha",
-			'es-mx': "Hojas Navaja"
-		},
-
-		damage: 20
-	}],
-
-	retreat: 1,
-	regulationMark: "I",
-
-	weaknesses: [{
-		type: "Fire",
-		value: "x2"
-	}],
-
-	variants: [
+	attacks: [
 		{
-			type: "holo"
-		}
-	]
+			cost: [
+				"Grass",
+			],
+			name: {
+				fr: "Tranch'Herbe",
+			},
+			damage: "20",
+		},
+	],
+
+	regulationMark: "J"
 }
 
 export default card
