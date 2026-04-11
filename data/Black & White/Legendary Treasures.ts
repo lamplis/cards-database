@@ -23,6 +23,9 @@ const bw11: Set = {
 	abbreviations: {
 		official: "LTR"
 	},
+	searchAliases: [
+		"LTR"
+	],
 
 	thirdParty: {
 		cardmarket: 1581,
