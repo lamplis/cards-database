@@ -24,8 +24,12 @@ const swsh105: Set = {
 
 	abbreviations: {
 		official: "PGO",
-		fr: "PGO"
+		fr: "EB10.5"
 	},
+	searchAliases: [
+		"SWSH10.5"
+	],
+
 
 	thirdParty: {
 		cardmarket: 4786,

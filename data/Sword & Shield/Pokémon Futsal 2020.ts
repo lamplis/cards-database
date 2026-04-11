@@ -18,7 +18,10 @@ const fut2020: Set = {
 
 	abbreviations: {
 		official: "FUT20"
-	}
+	},
+	searchAliases: [
+		"FUT20"
+	],
 }
 
 export default fut2020

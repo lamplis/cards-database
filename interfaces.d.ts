@@ -100,12 +100,24 @@ export interface variant_detailed {
 	 * - player-rewards-program: a card that is stamped with the player reward logo, available in the yearly player rewards program (play! pokemon prize pack)
 	 */
 	stamp?: Array<VariantStamps>
-
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
 	 */
 	foil?: 'pokeball' | 'greatball' | 'ultraball' | 'masterball' | 'gold' | 'cosmos' | 'galaxy' | 'starlight' | 'energy' | 'cracked-ice'
 	| 'mirror' | 'league' | 'player-reward' | 'professor-program' | 'tinsel' | 'loveball' | 'friendball' | 'quickball' | 'team-rocket' | 'duskball' | 'rainbow' | 'glitter'
+
+	/**
+	 * external identifiers for specific variants
+	 */
+	thirdParty?: {
+		cardmarket?: number
+		tcgplayer?: number
+	}
+
+	/**
+	 * explicit image for this variant
+	 */
+	image?: string
 
 	/**
 	 * list of languages for which this variant is available
@@ -175,6 +187,14 @@ export interface Set {
 	id: string
 	name: Languages
 	/**
+	 * Optional remote set logo URL used when the app has no bundled local asset.
+	 */
+	logo?: string
+	/**
+	 * Optional remote set symbol URL used when the app has no bundled local asset.
+	 */
+	symbol?: string
+	/**
 	 * Partial list of abbreviations, this is currently a Work in Progress feature
 	 */
 	abbreviations?: Partial<Omit<Languages, 'en'> & { official?: string }>
@@ -191,12 +211,28 @@ export interface Set {
 		}
 	}>
 
+	/**
+	 * Internal alias list used to resolve set searches without exposing extra
+	 * fields in API payloads.
+	 */
+	searchAliases?: Array<string>
 	serie: Serie
 	tcgOnline?: string
 
 	cardCount: {
 		official: number
 	}
+
+	/**
+	 * Subset numbering groups embedded in this set.
+	 * Key is a localId prefix such as RC, TG, GG, SV, SH.
+	 */
+	subsets?: Record<string, {
+		name?: Languages
+		cardCount: {
+			official: number
+		}
+	}>
 
 	boosters?: Record<string, {
 		name: Languages<string>
@@ -272,9 +308,9 @@ export interface Card {
 			'Shiny rare VMAX' | 'Special illustration rare' | 'Ultra Rare' | 'Uncommon'
 			// Black White rare
 			| 'Black White Rare'
-			| 'Mega Hyper Rare'
-			// Promo rarity used across series for Black Star Promo cards
+			// Black Star Promo
 			| 'Black Star Promo'
+			| 'Mega Hyper Rare'
 			// Mega Evolution attack rare variant
 			| 'Mega Attack Rare'
 			// Pokémon TCG Pocket Rarities
