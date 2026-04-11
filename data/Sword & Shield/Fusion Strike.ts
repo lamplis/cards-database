@@ -24,8 +24,12 @@ const swsh8: Set = {
 
 	abbreviations: {
 		official: "FST",
-		fr: "PDF"
+		fr: "EB08"
 	},
+	searchAliases: [
+		"SWSH8"
+	],
+
 
 	thirdParty: {
 		cardmarket: 4382,
