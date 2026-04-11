@@ -25,6 +25,9 @@ const bw10: Set = {
 		official: "PLB",
 		fr: "EPL"
 	},
+	searchAliases: [
+		"PLB"
+	],
 
 	thirdParty: {
 		cardmarket: 1580,

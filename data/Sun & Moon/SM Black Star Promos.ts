@@ -26,6 +26,9 @@ const smp: Set = {
 		official: "SMP",
 		fr: "PSM"
 	},
+	searchAliases: [
+		"SMP"
+	],
 
 	thirdParty: {
 		cardmarket: 1757,

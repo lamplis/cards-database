@@ -5,31 +5,24 @@ const set: Set = {
 	id: "me04",
 
 	name: {
-		de: "Wachsendes Chaos",
 		en: "Chaos Rising",
-		es: "Caos Creciente",
-		'es-mx': 'Caos Creciente',
-		fr: "Chaos Ascendant",
-		it: "Caos Nascente",
-		pt: "Caos Ascendente"
+		fr: "Chaos Ascendant"
 	},
 
 	serie: serie,
 
 	cardCount: {
-		official: 86
+		official: 0
 	},
 
-	releaseDate: "2026-05-22",
+	releaseDate: "2026-06-19",
 
 	abbreviations: {
 		official: "CRI"
 	},
-
-	thirdParty: {
-		tcgplayer: 24655,
-		cardmarket: 6517
-	}
+	searchAliases: [
+		"CRI"
+	],
 }
 
 export default set
