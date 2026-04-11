@@ -17,7 +17,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		fr: "Vous ne pouvez utiliser cette carte que si au moins l'un de vos Pokémon a été mis K.O. pendant le dernier tour de votre adversaire.\nCherchez dans votre deck jusqu'à 3 cartes Énergie de base, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+		fr: "Vous ne pouvez utiliser cette carte que si au moins l'un de vos Pokémon a été mis K.O. pendant le dernier tour de votre adversaire.\n\nCherchez dans votre deck jusqu'à 3 cartes Énergie de base, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 		en: "You can use this card only if any of your Pokémon were Knocked Out during your opponent's last turn.\n\nSearch your deck for up to 3 Basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
 		es: "Puedes usar esta carta solo si alguno de tus Pokémon quedó Fuera de Combate durante el último turno de tu rival.\nBusca en tu baraja hasta 3 cartas de Energía Básica, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Puoi usare questa carta solo se uno dei tuoi Pokémon è stato messo KO durante l'ultimo turno del tuo avversario.\nCerca nel tuo mazzo fino a tre carte Energia base, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
