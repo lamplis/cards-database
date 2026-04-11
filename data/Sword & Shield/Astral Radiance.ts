@@ -24,8 +24,12 @@ const swsh10: Set = {
 
 	abbreviations: {
 		official: "ASR",
-		fr: "ASR"
+		fr: "EB10"
 	},
+	searchAliases: [
+		"SWSH10"
+	],
+
 
 	thirdParty: {
 		cardmarket: 4979,
