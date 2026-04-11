@@ -57,7 +57,7 @@ interface variants {
 	wPromo?: boolean
 }
 
-interface variant_detailed {
+export interface variant_detailed {
 	type: string
 	size?: string
 	subtype?: string
@@ -68,6 +68,17 @@ interface variant_detailed {
 		tcgplayer?: number
 	}
 	variantId: string
+	image?: string
+}
+
+export interface SubsetCardCount {
+	official: number;
+}
+
+export interface SubsetInfo {
+	id: string;
+	name?: string;
+	cardCount: SubsetCardCount;
 }
 
 export interface SetResume {
@@ -102,13 +113,7 @@ export interface SetResume {
 	 * inside Astral Radiance). Each subset exposes its own id and
 	 * official card count; the name is resolved per language.
 	 */
-	subsets?: Array<{
-		id: string
-		name?: string
-		cardCount: {
-			official: number
-		}
-	}>;
+	subsets?: Array<SubsetInfo>;
 
 	/**
 	 * Owning serie summary. Populated on simple/list SetResume payloads
@@ -122,7 +127,6 @@ export interface SetResume {
  * /sets/:id
  */
 export interface Set extends SetResume {
-	serie: SerieResume;
 	tcgOnline?: string;
 	variants?: variants;
 	releaseDate: string;
@@ -370,6 +374,28 @@ export interface Card extends CardResume {
 	 * the boosters in which the card is available
 	 */
 	boosters?: Array<Booster>
+
+	/**
+	 * The card set number that appears on the card (e.g. 065/162, GG12/GG30)
+	 */
+	set_number: {
+		/**
+		 * Full textual representation, including prefixes and denominator
+		 */
+		text: string
+		/**
+		 * The numerator portion (everything before a slash, or the whole text if there is no slash)
+		 */
+		nominator: string
+		/**
+		 * Parsed numeric component when available (e.g. 65 for 065, 12 for GG12/GG30)
+		 */
+		numeric?: number
+		/**
+		 * Denominator text (only present when the card number includes `/denominator`)
+		 */
+		denominator?: string
+	}
 
 	updated: string
 }
