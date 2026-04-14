@@ -237,6 +237,67 @@ export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Arr
 	})
 }
 
+export function buildSetNumber(localId: string, card: Card): {
+	text: string
+	nominator: string
+	numeric: number
+	denominator: string | undefined
+} {
+	const numericMatch = localId.match(/(\d+)/)
+	const numeric = numericMatch ? parseInt(numericMatch[1], 10) : 0
+	const prefixMatch = localId.match(/^([A-Za-z]+)/)
+	const prefix = prefixMatch ? prefixMatch[1] : undefined
+	const official = card.set.cardCount.official
+
+	let denominator: string | undefined
+	if (prefix && (card.set as any).subsets?.[prefix]) {
+		const subsetCount = (card.set as any).subsets[prefix].cardCount.official
+		denominator = `${prefix}${subsetCount}`
+	} else if (official > 0) {
+		denominator = String(official)
+	}
+
+	const text = denominator ? `${localId}/${denominator}` : localId
+	return { text, nominator: localId, numeric, denominator }
+}
+
+export function enhanceTrainerLegality(
+	compiled: Array<CardSingle>,
+	originals: Array<[string, Card]>,
+): Array<CardSingle> {
+	const nameToLegal = new Map<string, { standard: boolean; expanded: boolean }>()
+
+	for (let i = 0; i < compiled.length; i++) {
+		const original = originals[i]?.[1]
+		if (!original || original.category !== 'Trainer') continue
+
+		const enName = original.name.en
+		if (!enName) continue
+
+		const legal = compiled[i].legal
+		const existing = nameToLegal.get(enName) ?? { standard: false, expanded: false }
+		existing.standard = existing.standard || Boolean(legal?.standard)
+		existing.expanded = existing.expanded || Boolean(legal?.expanded)
+		nameToLegal.set(enName, existing)
+	}
+
+	return compiled.map((card, i) => {
+		const original = originals[i]?.[1]
+		if (!original || original.category !== 'Trainer') return card
+
+		const enName = original.name.en
+		if (!enName) return card
+
+		const merged = nameToLegal.get(enName)
+		if (!merged) return card
+
+		return {
+			...card,
+			legal: { standard: merged.standard, expanded: merged.expanded },
+		}
+	})
+}
+
 export async function getCardLastEdit(localId: string, card: Card, lang: SupportedLanguages): Promise<string> {
 	try {
 		const path = `../${getDataFolder(lang)}/${card.set.serie.name.en}/${card.set.name.en ?? card.set.name.fr}/${localId}.ts`

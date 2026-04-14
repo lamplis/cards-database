@@ -57,7 +57,9 @@
 		"Two Shiny": "Deux Chromatique",
 		"Three Shiny": "Un Chromatique",
 		"Black White Rare": "Schwarz-Weiß Selten",
-		"Mega Hyper Rare": "Mega Hyper Selten"
+		"Mega Hyper Rare": "Mega Hyper Selten",
+		"Black Star Promo": "Black Star Promo",
+		"Mega Attack Rare": "Mega Attack Rare"
 	},
 	"stage": {
 		"Baby": "Baby",
@@ -178,9 +180,9 @@
 		"regional-championships": "regional-championships",
 		"stadium-challenge": "stadium-challenge",
 		"10th-anniversary": "10th-anniversary",
-		"wizard-world-philadelphia" : "wizard-world-philadelphia",
-		"wizard-world-chicago" : "wizard-world-chicago",
-		"comic-con" : "comic-con",
+		"wizard-world-philadelphia": "wizard-world-philadelphia",
+		"wizard-world-chicago": "wizard-world-chicago",
+		"comic-con": "comic-con",
 		"nintendo-world": "nintendo-world",
 		"gen-con": "gen-con",
 		"akira-miyazaki": "akira-miyazaki",
@@ -220,7 +222,7 @@
 		"player-rewards-program": "player-rewards-program",
 		"igor-costa": "igor-costa",
 		"zachary-bokhari": "zachary-bokhari",
-		"shuto-itagaki" : "shuto-itagaki",
+		"shuto-itagaki": "shuto-itagaki",
 		"gamestop": "GameStop",
 		"eb-games": "EB Games",
 		"snowflake": "Schneeflocke",
