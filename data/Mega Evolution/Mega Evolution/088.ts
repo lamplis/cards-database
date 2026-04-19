@@ -70,7 +70,10 @@ const card: Card = {
 			type: "holo"
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+		thirdParty: {
+			cardmarket: 851159
+		},
 		},
 		{
 			type: "holo",
@@ -82,13 +85,15 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-			stamp: ["set-logo"]
+			stamp: ["set-logo"],
+		thirdParty: {
+			cardmarket: 851159
+		},
 		}
 	],
 
 	thirdParty: {
-		tcgplayer: 654427,
-		cardmarket: 851159
+		tcgplayer: 654427
 	}
 }
 

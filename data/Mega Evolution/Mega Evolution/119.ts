@@ -33,10 +33,16 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+		thirdParty: {
+			cardmarket: 851190
+		},
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+		thirdParty: {
+			cardmarket: 851190
+		},
 		},
 		{
 			type: "holo",
@@ -46,20 +52,28 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["player-rewards-program"],
+		thirdParty: {
+			cardmarket: 851190
+		},
 		},
 		{
 			type: "normal",
-			stamp: ["regional-championships"]
+			stamp: ["regional-championships"],
+		thirdParty: {
+			cardmarket: 851190
+		},
 		},
 		{
 			type: "normal",
-			stamp: ["regional-championships", "staff"]
+			stamp: ["regional-championships", "staff"],
+		thirdParty: {
+			cardmarket: 851190
+		},
 		}
 	],
 
 	thirdParty: {
-		tcgplayer: 654458,
-		cardmarket: 851190
+		tcgplayer: 654458
 	}
 }
 

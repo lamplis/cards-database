@@ -77,19 +77,27 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+		thirdParty: {
+			cardmarket: 851158
+		},
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+		thirdParty: {
+			cardmarket: 851158
+		},
 		},
 		{
 			type: "normal",
-			stamp: ["trick-or-trade"]
+			stamp: ["trick-or-trade"],
+		thirdParty: {
+			cardmarket: 851158
+		},
 		}
 	],
 
 	thirdParty: {
-		cardmarket: 851158,
 		tcgplayer: 654426
 	}
 }

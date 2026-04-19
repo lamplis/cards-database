@@ -89,7 +89,10 @@ const card: Card = {
 			type: "holo"
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+		thirdParty: {
+			cardmarket: 851099
+		},
 		},
 		{
 			type: "holo",
@@ -99,12 +102,14 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["player-rewards-program"],
+		thirdParty: {
+			cardmarket: 851099
+		},
 		}
 	],
 
 	thirdParty: {
-		tcgplayer: 654367,
-		cardmarket: 851099
+		tcgplayer: 654367
 	}
 }
 

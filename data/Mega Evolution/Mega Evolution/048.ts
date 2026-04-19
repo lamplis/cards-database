@@ -56,7 +56,10 @@ const card: Card = {
 			type: "holo"
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+		thirdParty: {
+			cardmarket: 851119
+		},
 		},
 		{
 			type: "holo",
@@ -65,8 +68,7 @@ const card: Card = {
 	],
 
 	thirdParty: {
-		tcgplayer: 654387,
-		cardmarket: 851119
+		tcgplayer: 654387
 	}
 }
 

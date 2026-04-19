@@ -89,20 +89,28 @@ const card: Card = {
 			type: "holo"
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+		thirdParty: {
+			cardmarket: 851144
 		},
-		{
-			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["player-rewards-program"]
+		thirdParty: {
+			cardmarket: 851144
+		},
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"],
+		thirdParty: {
+			cardmarket: 851144
+		},
 		}
 	],
 
 	thirdParty: {
-		tcgplayer: 654412,
-		cardmarket: 851144
+		tcgplayer: 654412
 	}
 }
 

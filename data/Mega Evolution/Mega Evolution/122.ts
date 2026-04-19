@@ -33,10 +33,16 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+		thirdParty: {
+			cardmarket: 851193
+		},
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+		thirdParty: {
+			cardmarket: 851193
+		},
 		},
 		{
 			type: "holo",
@@ -46,12 +52,14 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["player-rewards-program"],
+		thirdParty: {
+			cardmarket: 851193
+		},
 		}
 	],
 
 	thirdParty: {
-		tcgplayer: 654461,
-		cardmarket: 851193
+		tcgplayer: 654461
 	}
 }
 

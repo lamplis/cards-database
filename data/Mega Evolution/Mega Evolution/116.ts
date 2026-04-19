@@ -33,7 +33,10 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+		thirdParty: {
+			cardmarket: 851187
+		},
 		},
 		{
 			type: "reverse"
@@ -45,13 +48,15 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["player-rewards-program"]
+			stamp: ["player-rewards-program"],
+		thirdParty: {
+			cardmarket: 851187
+		},
 		}
 	],
 
 	thirdParty: {
-		tcgplayer: 654455,
-		cardmarket: 851187
+		tcgplayer: 654455
 	}
 }
 

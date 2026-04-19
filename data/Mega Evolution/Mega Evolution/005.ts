@@ -86,16 +86,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+		thirdParty: {
+			cardmarket: 851076
+		},
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+		thirdParty: {
+			cardmarket: 851076
+		},
 		}
 	],
 
 	thirdParty: {
-		tcgplayer: 654344,
-		cardmarket: 851076
+		tcgplayer: 654344
 	}
 }
 

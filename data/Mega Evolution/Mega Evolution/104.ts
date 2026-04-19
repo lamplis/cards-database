@@ -77,17 +77,22 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+		thirdParty: {
+			cardmarket: 851175
+		},
 		},
 		{
 			type: "normal",
-			stamp: ["player-rewards-program"]
+			stamp: ["player-rewards-program"],
+		thirdParty: {
+			cardmarket: 851175
+		},
 		}
 	],
 
 	thirdParty: {
-		tcgplayer: 654443,
-		cardmarket: 851175
+		tcgplayer: 654443
 	}
 }
 
