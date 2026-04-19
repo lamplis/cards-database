@@ -86,30 +86,32 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo",
-			thirdParty: {
-				cardmarket: 851144,
-				tcgplayer: 654412
-			}
+			type: "holo"
 		},
 		{
 			type: "reverse",
-			thirdParty: {
-				cardmarket: 851144,
-				tcgplayer: 654412
-			}
+		thirdParty: {
+			cardmarket: 851144
+		},
 		},
 		{
 			type: "normal",
-			thirdParty: {
-				cardmarket: 851262,
-			}
+		thirdParty: {
+			cardmarket: 851144
+		},
 		},
 		{
 			type: "normal",
-			stamp: ["player-rewards-program"]
+			stamp: ["player-rewards-program"],
+		thirdParty: {
+			cardmarket: 851144
+		},
 		}
 	],
+
+	thirdParty: {
+		tcgplayer: 654412
+	}
 }
 
 export default card

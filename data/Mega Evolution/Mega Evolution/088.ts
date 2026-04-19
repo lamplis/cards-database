@@ -67,41 +67,34 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo",
-			thirdParty: {
-				cardmarket: 851159,
-				tcgplayer: 654427
-			}
+			type: "holo"
 		},
 		{
 			type: "reverse",
-			thirdParty: {
-				cardmarket: 851159,
-				tcgplayer: 654427
-			}
+		thirdParty: {
+			cardmarket: 851159
+		},
 		},
 		{
 			type: "holo",
-			stamp: ["gamestop"],
-			thirdParty: {
-				cardmarket: 851265,
-			}
+			stamp: ["eb-games"]
 		},
 		{
 			type: "holo",
-			stamp: ["eb-games"],
-			thirdParty: {
-				cardmarket: 851266,
-			}
+			stamp: ["gamestop"]
 		},
 		{
-			type: "holo",
+			type: "reverse",
 			stamp: ["set-logo"],
-			thirdParty: {
-				cardmarket: 854291,
-			}
+		thirdParty: {
+			cardmarket: 851159
 		},
+		}
 	],
+
+	thirdParty: {
+		tcgplayer: 654427
+	}
 }
 
 export default card

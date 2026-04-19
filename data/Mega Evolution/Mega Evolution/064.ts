@@ -72,36 +72,39 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-	
+
 	variants: [
 		{
-			type: "holo",
-			thirdParty: {
-				cardmarket: 851135,
-				tcgplayer: 654403
-			}
+			type: "holo"
 		},
 		{
 			type: "reverse",
-			thirdParty: {
-				cardmarket: 851135,
-				tcgplayer: 654403
-			}
+		thirdParty: {
+			cardmarket: 851135
+		},
 		},
 		{
 			type: "normal",
-			thirdParty: {
-				cardmarket: 851263,
-			}
+		thirdParty: {
+			cardmarket: 851135
+		},
 		},
 		{
-			type: "normal",
+			type: "holo",
+			stamp: ["asia-promo"]
+		},
+		{
+			type: "reverse",
 			stamp: ["set-logo"],
-			thirdParty: {
-				cardmarket: 851264,
-			}
+		thirdParty: {
+			cardmarket: 851135
 		},
+		}
 	],
+
+	thirdParty: {
+		tcgplayer: 654403
+	}
 }
 
 export default card

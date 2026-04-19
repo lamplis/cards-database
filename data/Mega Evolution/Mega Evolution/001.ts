@@ -54,27 +54,21 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			thirdParty: {
-				cardmarket: 851072,
-				tcgplayer: 654340
-			}
+		thirdParty: {
+			cardmarket: 851072
+		},
 		},
 		{
 			type: "reverse",
-			thirdParty: {
-				cardmarket: 851072,
-				tcgplayer: 654340
-			}
+		thirdParty: {
+			cardmarket: 851072
 		},
-		{
-			type: "reverse",
-			foil: "league",
-			stamp: ["30th-pokeday"],
-			thirdParty: {
-				cardmarket: 871308,
-			}
-		},
+		}
 	],
+
+	thirdParty: {
+		tcgplayer: 654340
+	}
 }
 
 export default card
