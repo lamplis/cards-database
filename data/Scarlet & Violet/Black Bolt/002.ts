@@ -71,6 +71,7 @@ const card: Card = {
 		damage: 60
 	}],
 
+
 	variants: [
 		{
 			type: "normal",
@@ -82,7 +83,6 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 835905,
 				tcgplayer: 642451
 			}
 		},
@@ -90,7 +90,6 @@ const card: Card = {
 			type: "reverse",
 			foil: "pokeball",
 			thirdParty: {
-				cardmarket: 836260,
 				tcgplayer: 642697
 			}
 		},
@@ -98,7 +97,6 @@ const card: Card = {
 			type: "reverse",
 			foil: "masterball",
 			thirdParty: {
-				cardmarket: 836270,
 				tcgplayer: 642625
 			}
 		}

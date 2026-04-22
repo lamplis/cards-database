@@ -29,6 +29,8 @@ const card: Card = {
 
 	energyType: "Normal",
 	regulationMark: "I",
+
+
 	variants: [
 		{
 			type: "normal",
@@ -40,7 +42,6 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 836078,
 				tcgplayer: 642535
 			}
 		},
@@ -48,10 +49,9 @@ const card: Card = {
 			type: "reverse",
 			foil: "pokeball",
 			thirdParty: {
-				cardmarket: 836477,
 				tcgplayer: 642769
 			}
-		},
+		}
 	]
 }
 

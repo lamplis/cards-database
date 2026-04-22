@@ -62,6 +62,8 @@ const card: Card = {
 
 	retreat: 0,
 	regulationMark: "I",
+
+
 	variants: [
 		{
 			type: "normal",
@@ -73,7 +75,6 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 835957,
 				tcgplayer: 642481
 			}
 		},
@@ -81,7 +82,6 @@ const card: Card = {
 			type: "reverse",
 			foil: "pokeball",
 			thirdParty: {
-				cardmarket: 836327,
 				tcgplayer: 642726
 			}
 		},
@@ -89,7 +89,6 @@ const card: Card = {
 			type: "reverse",
 			foil: "masterball",
 			thirdParty: {
-				cardmarket: 836329,
 				tcgplayer: 642653
 			}
 		}

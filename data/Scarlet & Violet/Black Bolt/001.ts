@@ -52,6 +52,7 @@ const card: Card = {
 		damage: 30
 	}],
 
+
 	variants: [
 		{
 			type: "normal",
@@ -63,22 +64,17 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 835903,
 				tcgplayer: 642450
 			}
 		},
 		{
 			type: "holo",
-			foil: "tinsel",
-			thirdParty: {
-				cardmarket: 836667,
-			}
+			foil: "tinsel"
 		},
 		{
 			type: "reverse",
 			foil: "pokeball",
 			thirdParty: {
-				cardmarket: 836259,
 				tcgplayer: 642696
 			}
 		},
@@ -86,7 +82,6 @@ const card: Card = {
 			type: "reverse",
 			foil: "masterball",
 			thirdParty: {
-				cardmarket: 836269,
 				tcgplayer: 642624
 			}
 		}

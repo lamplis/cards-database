@@ -54,6 +54,8 @@ const card: Card = {
 
 	trainerType: "Item",
 	regulationMark: "H",
+
+
 	variants: [
 		{
 			type: "normal",
@@ -65,7 +67,6 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 836067,
 				tcgplayer: 642529
 			}
 		},
@@ -73,10 +74,9 @@ const card: Card = {
 			type: "reverse",
 			foil: "pokeball",
 			thirdParty: {
-				cardmarket: 836471,
 				tcgplayer: 644864
 			}
-		},
+		}
 	]
 }
 

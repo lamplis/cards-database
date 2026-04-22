@@ -30,6 +30,8 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	regulationMark: "G",
+
+
 	variants: [
 		{
 			type: "normal",
@@ -41,7 +43,6 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 836076,
 				tcgplayer: 642533
 			}
 		},
@@ -49,10 +50,9 @@ const card: Card = {
 			type: "reverse",
 			foil: "pokeball",
 			thirdParty: {
-				cardmarket: 836476,
 				tcgplayer: 642772
 			}
-		},
+		}
 	]
 }
 
