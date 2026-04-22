@@ -24,6 +24,10 @@ const card: Card = {
 		it: "Per ogni tuo Pokémon Fire in gioco, prendi una carta dalla pila degli scarti del tuo avversario e mettila nell’area perduta.",
 		pt: "Para cada um dos seus Pokémon Fire em jogo, coloque 1 carta da pilha de descarte do seu oponente na Zona Perdida.",
 		de: "Lege für jedes deiner Fire-Pokémon im Spiel 1 Karte aus dem Ablagestapel deines Gegners ins Nirgendwo."
+	},
+
+	thirdParty: {
+		cardmarket: 355623
 	}
 }
 
