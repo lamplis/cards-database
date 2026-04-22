@@ -18,17 +18,16 @@ const card: Card = {
 		de: "Entferne alle Speziellen Zustände von deinem Aktiven Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 275029,
-		tcgplayer: 85582
-	},
-
 	variants:[
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275029,
+				tcgplayer: 85582
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

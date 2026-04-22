@@ -18,17 +18,16 @@ const card: Card = {
 		de: "Wirf eine Münze. Nimm bei 'Kopf' eines deiner Pokémon und alle daran angelegten Karten zurück auf deine Hand."
 	},
 
-	thirdParty: {
-		cardmarket: 275026,
-		tcgplayer: 89635
-	},
-
 	variants:[
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275026,
+				tcgplayer: 89635
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

@@ -18,16 +18,16 @@ const card: Card = {
 		de: "Entferne alle Schadensmarken von einem deiner Pokémon. Lege dann alle an es angelegten Energiekarten auf deinen Ablagestapel.",
 	},
 
-	thirdParty: {
-		cardmarket: 275020
-	},
 
 	variants:[
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275020
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "normal",

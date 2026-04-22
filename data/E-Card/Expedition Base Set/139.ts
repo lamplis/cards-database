@@ -18,17 +18,16 @@ const card: Card = {
 		de: "Flip 2 coins. For each heads, search your deck for a Basic Pokémon card other than a Baby Pokémon card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
 	},
 
-	thirdParty: {
-		cardmarket: 275014,
-		tcgplayer: 84984
-	},
-
 	variants:[
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275014,
+				tcgplayer: 84984
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

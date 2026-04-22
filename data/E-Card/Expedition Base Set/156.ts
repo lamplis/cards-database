@@ -18,17 +18,16 @@ const card: Card = {
 		de: "Entferne 2 Schadensmarken von einem deiner Pokémon (1, falls dieses Pokémon nur 1 hat)."
 	},
 
-	thirdParty: {
-		cardmarket: 275031,
-		tcgplayer: 88333
-	},
-
 	variants:[
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275031,
+				tcgplayer: 88333
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

@@ -77,17 +77,23 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 274876,
-		tcgplayer: 83497
-	},
-
 	variants:[
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 274876,
+				tcgplayer: 83497
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
+		},
+		{
+			type: "V3",
+			cardmarketLabels: ["Ms El Ti Ls Eee", "Attention Qoaieizen Card", "Not Tournament Legal"],
+			thirdParty: {
+				cardmarket: 362878
+			}
 		}
 	]
 }

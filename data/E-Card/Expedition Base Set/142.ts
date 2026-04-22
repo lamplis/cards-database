@@ -18,17 +18,16 @@ const card: Card = {
 		de: "Flip a coin until you get tails. For each heads, draw 2 cards.",
 	},
 
-	thirdParty: {
-		cardmarket: 275017,
-		tcgplayer: 87242
-	},
-
 	variants:[
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275017,
+				tcgplayer: 87242
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

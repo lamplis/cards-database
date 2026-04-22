@@ -18,17 +18,16 @@ const card: Card = {
 		de: "Falls du mindestens eine Karte auf deiner Hand hast, mische 1 davon in dein Deck und ziehe dann 3 Karten.",
 	},
 
-	thirdParty: {
-		cardmarket: 275012,
-		tcgplayer: 83837
-	},
-
 	variants:[
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275012,
+				tcgplayer: 83837
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

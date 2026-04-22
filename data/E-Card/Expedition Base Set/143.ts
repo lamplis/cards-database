@@ -18,17 +18,16 @@ const card: Card = {
 		de: "Look at 7 cards from the top of your deck. You may choose a Basic Pokémon or Evolution card from those cards, show it your opponent, and put it into your hand. Shuffle the rest into your deck."
 	},
 
-	thirdParty: {
-		cardmarket: 275018,
-		tcgplayer: 87252
-	},
-
 	variants:[
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275018,
+				tcgplayer: 87252
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

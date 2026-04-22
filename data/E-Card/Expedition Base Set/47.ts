@@ -78,17 +78,23 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 274887,
-		tcgplayer: 85416
-	},
-
 	variants:[
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274922,
+				tcgplayer: 85416
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
+		},
+		{
+			type: "V3",
+			cardmarketLabels: ["Attention Oversized Card", "Not Tournament Legal"],
+			thirdParty: {
+				cardmarket: 362884
+			}
 		}
 	]
 }

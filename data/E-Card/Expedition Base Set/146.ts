@@ -18,16 +18,16 @@ const card: Card = {
 		de: "Wähle eines der Pokémon auf der Bank deines Gegners. Wirf eine Münze. Tausche bei 'Kopf' dieses Pokémon mit dem Verteidigenden Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 275021
-	},
 
 	variants:[
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275021
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }
