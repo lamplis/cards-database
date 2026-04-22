@@ -62,7 +62,10 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794502
+			}
 		},
 		{
 			type: "reverse"
@@ -74,14 +77,17 @@ const card: Card = {
 		{
 			type: "reverse",
 			stamp: ["set-logo"]
+		},
+		{
+			type: "V2",
+			thirdParty: {
+				cardmarket: 841275
+			}
 		}
 	],
 
 	illustrator: "Tonji Matsuno",
 
-	thirdParty: {
-		cardmarket: 841275
-	}
 }
 
 export default card

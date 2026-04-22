@@ -77,7 +77,10 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794507
+			}
 		},
 		{
 			type: "reverse"
@@ -86,9 +89,6 @@ const card: Card = {
 
 	illustrator: "rika",
 
-	thirdParty: {
-		cardmarket: 794507
-	}
 }
 
 export default card

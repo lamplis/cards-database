@@ -71,18 +71,24 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794401
+			}
 		},
 		{
 			type: "reverse"
+		},
+		{
+			type: "V2",
+			thirdParty: {
+				cardmarket: 841986
+			}
 		}
 	],
 
 	illustrator: "Natsumi Yoshida",
 
-	thirdParty: {
-		cardmarket: 794401
-	}
 }
 
 export default card

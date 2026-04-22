@@ -60,7 +60,10 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 794508
+			}
 		},
 		{
 			type: "reverse"
@@ -69,9 +72,6 @@ const card: Card = {
 
 	illustrator: "Takumi Wada",
 
-	thirdParty: {
-		cardmarket: 794508
-	}
 }
 
 export default card

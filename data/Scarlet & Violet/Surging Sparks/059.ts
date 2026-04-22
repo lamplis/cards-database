@@ -70,7 +70,10 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794334
+			}
 		},
 		{
 			type: "reverse"
@@ -87,9 +90,6 @@ const card: Card = {
 
 	illustrator: "Nisota Niso",
 
-	thirdParty: {
-		cardmarket: 794334
-	}
 }
 
 export default card

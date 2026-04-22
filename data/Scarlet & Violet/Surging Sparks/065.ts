@@ -69,7 +69,10 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794346
+			}
 		},
 		{
 			type: "reverse"
@@ -79,15 +82,15 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["player-rewards-program"]
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 799718
+			}
 		}
 	],
 
 	illustrator: "Souichirou Gunjima",
 
-	thirdParty: {
-		cardmarket: 794346
-	}
 }
 
 export default card

@@ -68,7 +68,10 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794526
+			}
 		},
 		{
 			type: "reverse"
@@ -77,9 +80,6 @@ const card: Card = {
 
 	illustrator: "Anesaki Dynamic",
 
-	thirdParty: {
-		cardmarket: 794526
-	}
 }
 
 export default card

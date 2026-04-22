@@ -81,15 +81,21 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["player-rewards-program"]
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 794433
+			}
+		},
+		{
+			type: "V2",
+			thirdParty: {
+				cardmarket: 858727
+			}
 		}
 	],
 
 	illustrator: "Scav",
 
-	thirdParty: {
-		cardmarket: 794433
-	}
 }
 
 export default card

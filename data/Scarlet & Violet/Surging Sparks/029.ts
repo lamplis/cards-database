@@ -49,22 +49,25 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794286
+			}
 		},
 		{
 			type: "reverse"
 		},
 		{
 			type: "normal",
-			stamp: ["horizons"]
+			stamp: ["horizons"],
+			thirdParty: {
+				cardmarket: 794946
+			}
 		}
 	],
 
 	illustrator: "Tomomi Ozaki",
 
-	thirdParty: {
-		cardmarket: 794286
-	}
 }
 
 export default card
