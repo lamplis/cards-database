@@ -57,7 +57,7 @@ const card: Card = {
 	stage: "VMAX",
 
 	thirdParty: {
-		cardmarket: 539278
+		cardmarket: 539983
 	}
 }
 
