@@ -6,6 +6,12 @@ const card: Card = {
 		258,
 	],
 	set: Set,
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false,
+	},
 	name: {
 		en: "Mudkip",
 		fr: "Gobou",
@@ -17,13 +23,16 @@ const card: Card = {
 		"Water",
 	],
 	stage: "Basic",
+	thirdParty: {
+		cardmarket: 293321,
+		tcgplayer: 110427
+	},
 	attacks: [
 		{
 			cost: [
 				"Water",
 			],
 			name: {
-				en: "Tackle",
 				fr: "Charge",
 			},
 			damage: "10",
@@ -34,25 +43,11 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mud-Slap",
 				fr: "Coud'Boue",
 			},
 			damage: "20",
 		},
 	],
-
-	illustrator: "Aya Kusube",
-
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 293321,
-				tcgplayer: 110427
-			}
-		}
-	]
 }
 
 export default card
-
