@@ -5,6 +5,13 @@ const card: Card = {
 	dexId: [79],
 	set: Set,
 
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
 	name: {
 		en: "Slowpoke"
 	},
@@ -14,51 +21,11 @@ const card: Card = {
 	hp: 70,
 	types: ["Psychic"],
 	stage: "Basic",
-	attacks: [
-		{
-			cost: [
-				"Colorless",
-			],
-			name: {
-				en: "Headbutt",
-			},
-			damage: 10,
-		},
-		{
-			cost: [
-				"Psychic", "Colorless", "Colorless",
-			],
-			name: {
-				en: "Whimsy Tackle",
-			},
-			effect: {
-				en: "Flip a coin. If tails this attack does nothing."
-			},
-			damage: 60
-		},
-	],
 
-	weaknesses: [
-		{
-			type: "Psychic",
-			value: "×2"
-		}
-	],
-
-	retreat: 3,
-
-	illustrator: "Mina Nakai",	
-
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 366773,
-				tcgplayer: 180453
-			}
-		}
-	]
+	thirdParty: {
+		cardmarket: 366773,
+		tcgplayer: 180453
+	}
 }
 
 export default card
-

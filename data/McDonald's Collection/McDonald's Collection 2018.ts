@@ -22,7 +22,8 @@ const s2018sm: Set = {
 	},
 
 	thirdParty: {
-		tcgplayer: 2364
+		tcgplayer: 2364,
+		cardmarket: 2404
 	}
 }
 

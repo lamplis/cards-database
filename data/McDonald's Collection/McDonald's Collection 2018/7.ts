@@ -5,6 +5,13 @@ const card: Card = {
 	dexId: [104],
 	set: Set,
 
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
 	name: {
 		en: "Cubone"
 	},
@@ -14,50 +21,11 @@ const card: Card = {
 	hp: 70,
 	types: ["Fighting"],
 	stage: "Basic",
-	attacks: [
-		{
-			cost: [
-				"Colorless",
-			],
-			name: {
-				en: "Leer",
-			},
-			effect: {
-				en: "Flip a coin, If heas, your opponent's Active Pokémon is now Paralyzed"
-			},
-		},
-		{
-			cost: [
-				"Colorless", "Colorless",
-			],
-			name: {
-				en: "Headbutt",
-			},
-			damage: 20,
-		}
-	],
 
-	weaknesses: [
-		{
-			type: "Grass",
-			value: "×2"
-		}
-	],
-
-	retreat: 2,
-
-	illustrator: "sui",	
-
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 366775,
-				tcgplayer: 180455
-			}
-		}
-	]
+	thirdParty: {
+		tcgplayer: 180455,
+		cardmarket: 366775
+	}
 }
 
 export default card
-

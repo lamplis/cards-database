@@ -5,6 +5,13 @@ const card: Card = {
 	dexId: [116],
 	set: Set,
 
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
 	name: {
 		en: "Horsea"
 	},
@@ -14,41 +21,11 @@ const card: Card = {
 	hp: 60,
 	types: ["Water"],
 	stage: "Basic",
-	attacks: [
-		{
-			cost: [
-				"Water",
-			],
-			name: {
-				en: "Water Arrow",
-			},
-			effect: {
-				en: "This attack does 10 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
-			},
-		},
-	],
 
-	weaknesses: [
-		{
-			type: "Grass",
-			value: "×2"
-		}
-	],
-
-	retreat: 1,
-
-	illustrator: "Saya Tsuruta",
-
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 366771,
-				tcgplayer: 180449
-			}
-		}
-	]
+	thirdParty: {
+		tcgplayer: 180449,
+		cardmarket: 366771
+	}
 }
 
 export default card
-
