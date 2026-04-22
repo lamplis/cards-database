@@ -81,14 +81,13 @@ const card: Card = {
 		fr: "Il a une forme aérodynamique qui lui permet de nager à de grandes vitesses. Plus l'eau est froide, plus il est actif."
 	},
 
-	thirdParty: {
-		cardmarket: 274697,
-		tcgplayer: 86736
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274697,
+				tcgplayer: 86736
+			}
 		},
 		{
 			type: "normal",

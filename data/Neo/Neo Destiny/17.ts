@@ -79,14 +79,13 @@ const card: Card = {
 		fr: "Où qu'il aille, il tisse un fil qui le ramène à sa toile."
 	},
 
-	thirdParty: {
-		cardmarket: 274669,
-		tcgplayer: 84566
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274669,
+				tcgplayer: 84566
+			}
 		},
 		{
 			type: "normal",

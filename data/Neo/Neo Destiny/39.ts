@@ -80,14 +80,13 @@ const card: Card = {
 		fr: "S'il tourne le dos à son adversaire, c'est signe qu'il se prépare à attaquer."
 	},
 
-	thirdParty: {
-		cardmarket: 274691,
-		tcgplayer: 84645
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274691,
+				tcgplayer: 84645
+			}
 		},
 		{
 			type: "normal",

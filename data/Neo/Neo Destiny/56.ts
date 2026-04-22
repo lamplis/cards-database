@@ -73,14 +73,13 @@ const card: Card = {
 		fr: "On raconte que sa coquille est pleine de bonheur, qu'il partage avec tous ceux qui sont gentils avec lui."
 	},
 
-	thirdParty: {
-		cardmarket: 274708,
-		tcgplayer: 89930
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274708,
+				tcgplayer: 89930
+			}
 		},
 		{
 			type: "normal",

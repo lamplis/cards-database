@@ -53,14 +53,13 @@ const card: Card = {
 		fr: "Il attend, suspendu à des branches d'arbre que des insectes volent dans sa gueule. Souvent, il reste immobile pendant des heures."
 	},
 
-	thirdParty: {
-		cardmarket: 274729,
-		tcgplayer: 88123
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274729,
+				tcgplayer: 88123
+			}
 		},
 		{
 			type: "normal",

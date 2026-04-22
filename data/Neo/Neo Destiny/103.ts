@@ -18,14 +18,13 @@ const card: Card = {
 		de: "Schaue dir die Karte auf der Hand deines Gegners an und wähle eine Karte davon. Dein Gegner mischt diese Karte in sein Deck. Dann darf er bis zu zwei Karten ziehen."
 	},
 
-	thirdParty: {
-		cardmarket: 274755,
-		tcgplayer: 89850
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274755,
+				tcgplayer: 89850
+			}
 		},
 		{
 			type: "normal",

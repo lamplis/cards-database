@@ -61,14 +61,13 @@ const card: Card = {
 		fr: "S'il vient à court d'électricité au niveau de ses joues, il dresse sa queue pour collecter l'énergie dans l'air ambiant."
 	},
 
-	thirdParty: {
-		cardmarket: 274763,
-		tcgplayer: 89169
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274763,
+				tcgplayer: 89169
+			}
 		},
 		{
 			type: "normal",

@@ -78,14 +78,13 @@ const card: Card = {
 		fr: "La nageoire dorsale de ce Pokémon a évolué pour émettre de la lumière, ce qui attire les poissons dont il se nourrit."
 	},
 
-	thirdParty: {
-		cardmarket: 274675,
-		tcgplayer: 86742
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274675,
+				tcgplayer: 86742
+			}
 		},
 		{
 			type: "normal",

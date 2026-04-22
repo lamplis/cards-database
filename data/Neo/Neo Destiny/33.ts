@@ -79,13 +79,13 @@ const card: Card = {
 		fr: "S'il perd une de ses deux têtes, il se transforme en Nœunœuf, qui part aussitôt à la recherche d'un autre Nœunœuf grâce à une forme spéciale de télépathie."
 	},
 
-	thirdParty: {
-		cardmarket: 274685
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274685
+			}
 		},
 		{
 			type: "normal",

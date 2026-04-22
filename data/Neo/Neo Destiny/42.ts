@@ -78,14 +78,13 @@ const card: Card = {
 		fr: "Il a un sens parfait de l'équilibre et peut donner des coups puissants dans n'importe quelle position."
 	},
 
-	thirdParty: {
-		cardmarket: 274694,
-		tcgplayer: 86103
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274694,
+				tcgplayer: 86103
+			}
 		},
 		{
 			type: "normal",

@@ -83,14 +83,13 @@ const card: Card = {
 		fr: "Plus ses défenses sont grosses, plus c'est un membre important du troupeau."
 	},
 
-	thirdParty: {
-		cardmarket: 274655,
-		tcgplayer: 84579
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274655,
+				tcgplayer: 84579
+			}
 		},
 		{
 			type: "holo",

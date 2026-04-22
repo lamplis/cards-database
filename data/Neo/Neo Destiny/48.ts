@@ -79,14 +79,13 @@ const card: Card = {
 		fr: "Il peut stocker l'énergie électrique ambiante dans ses cellules et l'expulser sous forme d'explosions massives."
 	},
 
-	thirdParty: {
-		cardmarket: 274700,
-		tcgplayer: 86741
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274700,
+				tcgplayer: 86741
+			}
 		},
 		{
 			type: "normal",

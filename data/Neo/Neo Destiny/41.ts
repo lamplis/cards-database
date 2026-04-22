@@ -72,14 +72,13 @@ const card: Card = {
 		fr: "Généralement, il est pacifique, mais il attaquera tous ceux qui s'interposeront entre lui et son miel, sa nourriture préférée."
 	},
 
-	thirdParty: {
-		cardmarket: 274693,
-		tcgplayer: 86060
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274693,
+				tcgplayer: 86060
+			}
 		},
 		{
 			type: "normal",

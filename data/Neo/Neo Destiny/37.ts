@@ -55,14 +55,13 @@ const card: Card = {
 		fr: "Ce Pokémon antique possédait 10 tentacules, qu'il utilisait pour nager dans l'océan."
 	},
 
-	thirdParty: {
-		cardmarket: 274689,
-		tcgplayer: 84634
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274689,
+				tcgplayer: 84634
+			}
 		},
 		{
 			type: "normal",

@@ -64,14 +64,13 @@ const card: Card = {
 		fr: "Il avance, son nez ultra-sensible contre le sol, toujours à la recherche de nourriture."
 	},
 
-	thirdParty: {
-		cardmarket: 274736,
-		tcgplayer: 89699
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274736,
+				tcgplayer: 89699
+			}
 		},
 		{
 			type: "normal",

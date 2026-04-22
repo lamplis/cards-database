@@ -53,14 +53,13 @@ const card: Card = {
 		fr: "On voit souvent ce Pokémon ramper dans les régions volcaniques."
 	},
 
-	thirdParty: {
-		cardmarket: 274734,
-		tcgplayer: 89337
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274734,
+				tcgplayer: 89337
+			}
 		},
 		{
 			type: "normal",

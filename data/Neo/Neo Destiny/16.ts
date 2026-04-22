@@ -19,14 +19,13 @@ const card: Card = {
 		fr: "Vous ne pouvez pas avoir plus d'une carte Énergie miracle dans votre deck. Attachez Énergie miracle à un de vos Pokémon Brillants ou lumineux. À la fin de votre tour, défaussez -vous d'Énergie miracle. Tant qu'Énergie miracle est en jeu, elle remplace n'importe quel type d'Énergie mais ne fournit que 2 Énergies différentes à la fois.",
 	},
 
-	thirdParty: {
-		cardmarket: 274668,
-		tcgplayer: 87496
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274668,
+				tcgplayer: 87496
+			}
 		},
 		{
 			type: "holo",

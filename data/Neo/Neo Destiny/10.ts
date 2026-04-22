@@ -74,14 +74,13 @@ const card: Card = {
 		fr: "Quand il se bat, l'air autour de lui scintille et semble s'enflammer à cause de l'intense chaleur émanant de lui."
 	},
 
-	thirdParty: {
-		cardmarket: 274662,
-		tcgplayer: 84659
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274662,
+				tcgplayer: 84659
+			}
 		},
 		{
 			type: "holo",

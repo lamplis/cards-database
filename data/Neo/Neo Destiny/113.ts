@@ -66,14 +66,13 @@ const card: Card = {
 		damage: 50
 	}],
 
-	thirdParty: {
-		cardmarket: 274765,
-		tcgplayer: 89171
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274765,
+				tcgplayer: 89171
+			}
 		},
 		{
 			type: "normal",

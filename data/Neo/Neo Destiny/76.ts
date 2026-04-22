@@ -63,14 +63,13 @@ const card: Card = {
 		fr: "Il frappe les gens avec sa trompe en signe d'affection mais il ne connaît pas sa force ; et parfois, il frappe un peu trop fort..."
 	},
 
-	thirdParty: {
-		cardmarket: 274728,
-		tcgplayer: 87997
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274728,
+				tcgplayer: 87997
+			}
 		},
 		{
 			type: "normal",

@@ -56,14 +56,13 @@ const card: Card = {
 		fr: "Il peut lancer de l'eau avec sa gueule pour se propulser en arrière à grande vitesse, ce qui lui permet d'échapper à ses ennemis."
 	},
 
-	thirdParty: {
-		cardmarket: 274732,
-		tcgplayer: 88693
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274732,
+				tcgplayer: 88693
+			}
 		},
 		{
 			type: "normal",

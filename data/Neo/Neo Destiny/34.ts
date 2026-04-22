@@ -79,14 +79,13 @@ const card: Card = {
 		fr: "À cause des énormes quantités d'électricité qu'il stocke, sa laine ne pousse plus à certains endroits de son corps."
 	},
 
-	thirdParty: {
-		cardmarket: 274686,
-		tcgplayer: 84595
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274686,
+				tcgplayer: 84595
+			}
 		},
 		{
 			type: "normal",

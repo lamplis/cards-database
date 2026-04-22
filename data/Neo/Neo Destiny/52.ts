@@ -79,14 +79,13 @@ const card: Card = {
 		fr: "Si sa nageoire commence à vibrer, c'est signe qu'il va bientôt pleuvoir."
 	},
 
-	thirdParty: {
-		cardmarket: 274704,
-		tcgplayer: 86751
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274704,
+				tcgplayer: 86751
+			}
 		},
 		{
 			type: "normal",

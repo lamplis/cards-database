@@ -72,14 +72,13 @@ const card: Card = {
 		fr: "Grand dès sa naissance, ce Pokémon augmente de taille durant sa vie en changeant régulièrement de peau."
 	},
 
-	thirdParty: {
-		cardmarket: 274715,
-		tcgplayer: 84929
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274715,
+				tcgplayer: 84929
+			}
 		},
 		{
 			type: "normal",

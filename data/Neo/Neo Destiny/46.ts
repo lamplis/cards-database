@@ -79,14 +79,13 @@ const card: Card = {
 		fr: "Il crée ses flammes en inspirant l'air dans une poche spéciale de son corps et en le chauffant à plus de 3000 degrés."
 	},
 
-	thirdParty: {
-		cardmarket: 274698,
-		tcgplayer: 86739
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274698,
+				tcgplayer: 86739
+			}
 		},
 		{
 			type: "normal",

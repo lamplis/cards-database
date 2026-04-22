@@ -90,14 +90,13 @@ const card: Card = {
 		fr: "Sa puissance est telle que même les montagnes ne lui résistent pas."
 	},
 
-	thirdParty: {
-		cardmarket: 274663,
-		tcgplayer: 84660
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274663,
+				tcgplayer: 84660
+			}
 		},
 		{
 			type: "holo",

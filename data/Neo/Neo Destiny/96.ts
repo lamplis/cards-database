@@ -18,14 +18,13 @@ const card: Card = {
 		de: "Flip a coin until you get tails. For each heads, return an Energy card attached to your opponent's Active Pokémon to your opponent's hand. If the Pokémon has fewer attached Energy cards than that, return all of them to your opponent's hand. Your turn is over now (you don't get to attack)."
 	},
 
-	thirdParty: {
-		cardmarket: 274748,
-		tcgplayer: 89898
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274748,
+				tcgplayer: 89898
+			}
 		},
 		{
 			type: "normal",

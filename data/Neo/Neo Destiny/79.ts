@@ -70,14 +70,13 @@ const card: Card = {
 		fr: "Bien que possédant d'immenses pouvoirs mentaux, il ne sait pas les utiliser."
 	},
 
-	thirdParty: {
-		cardmarket: 274731,
-		tcgplayer: 88433
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274731,
+				tcgplayer: 88433
+			}
 		},
 		{
 			type: "normal",

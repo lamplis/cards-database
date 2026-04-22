@@ -66,14 +66,13 @@ const card: Card = {
 		fr: "Il passe ses journées accroché aux falaises, attendant de fondre sur sa proie depuis son poste d'observation."
 	},
 
-	thirdParty: {
-		cardmarket: 274719,
-		tcgplayer: 85762
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274719,
+				tcgplayer: 85762
+			}
 		},
 		{
 			type: "normal",

@@ -66,14 +66,13 @@ const card: Card = {
 		type: "Pokemon Power"
 	}],
 
-	thirdParty: {
-		cardmarket: 274710,
-		tcgplayer: 90227
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274710,
+				tcgplayer: 90227
+			}
 		},
 		{
 			type: "normal",

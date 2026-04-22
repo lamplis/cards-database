@@ -68,14 +68,13 @@ const card: Card = {
 		fr: "On pense que la variété des types de ce Pokémon particulier est le résultat d'une adaptation due à un caprice de l'évolution, chacun possédant une capacité différente."
 	},
 
-	thirdParty: {
-		cardmarket: 274679,
-		tcgplayer: 90209
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274679,
+				tcgplayer: 90209
+			}
 		},
 		{
 			type: "normal",
