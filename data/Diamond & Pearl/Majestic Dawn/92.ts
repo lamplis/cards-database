@@ -20,14 +20,13 @@ const card: Card = {
 
 	energyType: "Special",
 
-	thirdParty: {
-		cardmarket: 278141,
-		tcgplayer: 84086
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278141,
+				tcgplayer: 84086
+			}
 		},
 		{
 			type: "reverse"
@@ -38,7 +37,10 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["dylan-lefavour"]
+			stamp: ["dylan-lefavour"],
+			thirdParty: {
+				cardmarket: 449313
+			}
 		},
 		{
 			type: "normal",
