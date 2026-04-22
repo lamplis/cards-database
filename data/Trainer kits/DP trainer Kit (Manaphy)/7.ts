@@ -66,7 +66,11 @@ const card: Card = {
 		en: "It makes its nest by hollowing out boulders in streams with its horn. It defends its eggs with its life."
 	},
 
-	retreat: 1
+	retreat: 1,
+
+	thirdParty: {
+		cardmarket: 278022
+	}
 }
 
 export default card

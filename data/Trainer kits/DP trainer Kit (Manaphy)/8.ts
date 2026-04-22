@@ -59,7 +59,11 @@ const card: Card = {
 		en: "It has the habit of biting anything with its developed jaws. Even its Trainer needs to be careful."
 	},
 
-	retreat: 1
+	retreat: 1,
+
+	thirdParty: {
+		cardmarket: 278023
+	}
 }
 
 export default card

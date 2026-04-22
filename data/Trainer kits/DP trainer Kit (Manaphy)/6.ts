@@ -67,7 +67,11 @@ const card: Card = {
 		en: "It lives alone, away from others. Apparently, every one of them believes it is the most important."
 	},
 
-	retreat: 1
+	retreat: 1,
+
+	thirdParty: {
+		cardmarket: 278020
+	}
 }
 
 export default card

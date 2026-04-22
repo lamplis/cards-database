@@ -56,8 +56,11 @@ const card: Card = {
 		en: "Born on a cold seafloor, it will swim great distances to return to its birthplace."
 	},
 	
-	retreat: 1
+	retreat: 1,
 
+	thirdParty: {
+		cardmarket: 278016
+	}
 }
 
 export default card

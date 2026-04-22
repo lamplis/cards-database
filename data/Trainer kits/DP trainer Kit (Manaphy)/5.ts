@@ -60,7 +60,11 @@ const card: Card = {
 		en: "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold."
 	},
 
-	retreat: 1
+	retreat: 1,
+
+	thirdParty: {
+		cardmarket: 278017
+	}
 }
 
 export default card

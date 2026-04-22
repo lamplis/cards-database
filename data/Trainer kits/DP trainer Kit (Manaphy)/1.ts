@@ -49,7 +49,11 @@ const card: Card = {
 		en: "It has a flotation that is like an inflatable collar. It floats on water with its head out."
 	},
 
-	retreat: 1
+	retreat: 1,
+
+	thirdParty: {
+		cardmarket: 278010
+	}
 }
 
 export default card

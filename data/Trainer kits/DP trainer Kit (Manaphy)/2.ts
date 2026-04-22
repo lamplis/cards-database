@@ -70,7 +70,11 @@ const card: Card = {
 		en: "It floats using its well-developed floation sac. It assists in the rescues of drowning people."
 	},
 	
-	retreat: 1
+	retreat: 1,
+
+	thirdParty: {
+		cardmarket: 278012
+	}
 }
 
 export default card

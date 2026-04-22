@@ -60,7 +60,11 @@ const card: Card = {
 		en: "It swims elegantly by flittering its tail fin as if it were a dress. It has the look of a queen."
 	},
 
-	retreat: 1
+	retreat: 1,
+
+	thirdParty: {
+		cardmarket: 278013
+	}
 }
 
 export default card
