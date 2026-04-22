@@ -19,15 +19,15 @@ const card: Card = {
 	},
 
 	trainerType: "Supporter",
-
-	variants: {
-		normal: false,
-		reverse: false
-	},
-
-	thirdParty: {
-		cardmarket: 576782
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576782
+			}
+		}
+	]
 }
 
 export default card

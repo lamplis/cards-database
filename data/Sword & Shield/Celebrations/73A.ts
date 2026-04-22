@@ -18,15 +18,15 @@ const card: Card = {
 		en: "Your opponent shuffles his or her hand into his or her deck, then draws 7 cards.",
 		fr: "Votre adversaire mélange sa main avec son deck, puis pioche 7 cartes."
 	},
-
-	variants: {
-		normal: false,
-		reverse: false
-	},
-
-	thirdParty: {
-		cardmarket: 576774
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576774
+			}
+		}
+	]
 }
 
 export default card

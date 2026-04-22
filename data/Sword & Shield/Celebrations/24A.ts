@@ -46,15 +46,15 @@ const card: Card = {
 	description: {
 		en: "Your Birthdate: ______________________________"
 	},
-
-	variants: {
-		reverse: false,
-		normal: false
-	},
-
-	thirdParty: {
-		cardmarket: 576778
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576778
+			}
+		}
+	]
 }
 
 export default card

@@ -55,15 +55,15 @@ const card: Card = {
 	description: {
 		en: "This Pokémon appears in legends. In its tail, it has a giant generator that creates electricity."
 	},
-
-	variants: {
-		reverse: false,
-		normal: false
-	},
-
-	thirdParty: {
-		cardmarket: 576755
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576791
+			}
+		}
+	]
 }
 
 export default card

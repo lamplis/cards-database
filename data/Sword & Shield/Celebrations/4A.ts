@@ -66,15 +66,15 @@ const card: Card = {
 			fr: "Tant que ce Pokémon est sur le Poste Actif, votre adversaire ne peut pas jouer de cartes Stade de sa main."
 		}
 	}],
-
-	variants: {
-		reverse: false,
-		normal: false
-	},
-
-	thirdParty: {
-		cardmarket: 576772
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576772
+			}
+		}
+	]
 }
 
 export default card

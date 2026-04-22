@@ -38,15 +38,15 @@ const card: Card = {
 	description: {
 		en: "Because of its unusual, star-like silhouette, people believe that it came here on a meteor."
 	},
-
-	variants: {
-		reverse: false,
-		normal: false
-	},
-
-	thirdParty: {
-		cardmarket: 576779
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576779
+			}
+		}
+	]
 }
 
 export default card

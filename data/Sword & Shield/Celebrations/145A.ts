@@ -52,11 +52,15 @@ const card: Card = {
 
 	retreat: 0,
 	suffix: "SP",
-
-	variants: {
-		normal: false,
-		reverse: false
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576788
+			}
+		}
+	]
 }
 
 export default card

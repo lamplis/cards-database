@@ -58,15 +58,15 @@ const card: Card = {
 			en: "As often as you like during your turn (before your attack), you may attach 1 Water Energy card to 1 of your Water Pokémon. (This doesn't use up your 1 Energy card attachment for the turn.) This power can't be used if Blastoise is Asleep, Confused, or Paralyzed."
 		}
 	}],
-
-	variants: {
-		normal: false,
-		reverse: false
-	},
-
-	thirdParty: {
-		cardmarket: 576771
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576771
+			}
+		}
+	]
 }
 
 export default card

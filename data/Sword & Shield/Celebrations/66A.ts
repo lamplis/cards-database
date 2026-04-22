@@ -53,15 +53,15 @@ const card: Card = {
 	description: {
 		en: "An underpowered, pathetic Pokémon. It may jump high on rare occasions, but never more than seven feet."
 	},
-
-	variants: {
-		normal: false,
-		reverse: false
-	},
-
-	thirdParty: {
-		cardmarket: 576780
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576780
+			}
+		}
+	]
 }
 
 export default card

@@ -55,15 +55,15 @@ const card: Card = {
 	description: {
 		en: "This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it."
 	},
-
-	variants: {
-		reverse: false,
-		normal: false
-	},
-
-	thirdParty: {
-		cardmarket: 576747
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576790
+			}
+		}
+	]
 }
 
 export default card

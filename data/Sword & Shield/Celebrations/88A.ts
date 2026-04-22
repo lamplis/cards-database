@@ -52,15 +52,15 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-
-	variants: {
-		normal: false,
-		reverse: false
-	},
-
-	thirdParty: {
-		cardmarket: 576783
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576783
+			}
+		}
+	]
 }
 
 export default card

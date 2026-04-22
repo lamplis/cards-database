@@ -4,6 +4,10 @@ import Set from '../Celebrations'
 const card: Card = {
 	set: Set,
 
+	thirdParty: {
+		cardmarket: 576769
+	},
+
 	variants: {
 		normal: false,
 		reverse: false,
