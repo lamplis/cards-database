@@ -72,14 +72,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 277917,
-		tcgplayer: 84337
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277917,
+				tcgplayer: 84337
+			}
 		},
 		{
 			type: "reverse"
@@ -90,7 +89,10 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["dylan-lefavour"]
+			stamp: ["dylan-lefavour"],
+			thirdParty: {
+				cardmarket: 371558
+			}
 		},
 		{
 			type: "normal",
