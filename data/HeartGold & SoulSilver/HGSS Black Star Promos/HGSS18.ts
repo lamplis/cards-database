@@ -20,10 +20,14 @@ const card: Card = {
 		fr: "Lancez une pièce. Si c'est face, défaussez toutes les cartes Dresseur et Stade que votre adversaire a en jeu. Si c'est pile, défaussez toutes les cartes Dresseur et Stade que vous avez en jeu."
 	},
 
+
 	variants: [
 		{
 			type: "normal",
-			stamp: ["worlds-2010"]
+			stamp: ["worlds-2010"],
+			thirdParty: {
+				cardmarket: 275594
+			}
 		},
 		{
 			type: "normal",
@@ -48,7 +52,7 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["worlds-2010", "top-thirty-two"]
-		},
+		}
 	]
 
 

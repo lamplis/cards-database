@@ -61,10 +61,14 @@ const card: Card = {
 		},
 	],
 
+
 	variants: [
 		{
 			type: "holo",
-			foil: "cracked-ice"
+			foil: "cracked-ice",
+			thirdParty: {
+				cardmarket: 275615
+			}
 		},
 		{
 			type: "holo",

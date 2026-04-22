@@ -22,7 +22,8 @@ const hgssp: Set = {
 	releaseDate: "2010-02-11",
 
 	thirdParty: {
-		tcgplayer: 1453
+		tcgplayer: 1453,
+		cardmarket: 1610
 	}
 }
 
