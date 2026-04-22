@@ -80,13 +80,13 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 278764
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278764
+			}
 		},
 		{
 			type: "reverse"

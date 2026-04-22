@@ -93,20 +93,23 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 278696
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278696
+			}
 		},
 		{
 			type: "reverse"
 		},
 		{
 			type: "holo",
-			foil: "cracked-ice"
+			foil: "cracked-ice",
+			thirdParty: {
+				cardmarket: 449568
+			}
 		},
 		{
 			type: "holo",

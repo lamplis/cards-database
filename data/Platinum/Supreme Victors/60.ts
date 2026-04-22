@@ -67,16 +67,23 @@ const card: Card = {
 
 	retreat: 1,
 
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278751
+			}
 		},
 		{
 			type: "reverse"
 		},
 		{
 			type: "normal",
-			stamp: ["regional-championships"]
+			stamp: ["regional-championships"],
+			thirdParty: {
+				cardmarket: 449563
+			}
 		},
 		{
 			type: "normal",

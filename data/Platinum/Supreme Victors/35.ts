@@ -70,21 +70,31 @@ const card: Card = {
 
 	retreat: 1,
 
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278726
+			}
 		},
 		{
 			type: "reverse"
 		},
 		{
 			type: "holo",
-			foil: "cosmos",
+			foil: "cosmos"
 		},
 		{
 			type: "reverse",
-			foil: "league",
+			foil: "league"
 		},
+		{
+			type: "V2",
+			thirdParty: {
+				cardmarket: 371547
+			}
+		}
 	]
 
 

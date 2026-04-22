@@ -74,13 +74,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278750
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278750
+			}
 		},
 		{
 			type: "reverse"
@@ -94,6 +94,12 @@ const card: Card = {
 			foil: "league",
 			stamp: ["staff"]
 		},
+		{
+			type: "V2",
+			thirdParty: {
+				cardmarket: 449558
+			}
+		}
 	]
 }
 

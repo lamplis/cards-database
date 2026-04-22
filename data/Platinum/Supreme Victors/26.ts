@@ -76,17 +76,28 @@ const card: Card = {
 	],
 	retreat: 2,
 
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278717
+			}
 		},
 		{
 			type: "reverse"
 		},
 		{
 			type: "reverse",
-			foil: "league",
+			foil: "league"
 		},
+		{
+			type: "V2",
+			cardmarketLabels: ["Saas", "Polggimon Spur", "Discard Pile"],
+			thirdParty: {
+				cardmarket: 371552
+			}
+		}
 	]
 
 

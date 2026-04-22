@@ -20,21 +20,28 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
-	thirdParty: {
-		cardmarket: 278827
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278827
+			}
 		},
 		{
 			type: "reverse"
 		},
 		{
 			type: "reverse",
-			foil: "player-reward",
+			foil: "player-reward"
 		},
+		{
+			type: "V2",
+			cardmarketLabels: ["Ee Soe", "Seo"],
+			thirdParty: {
+				cardmarket: 449368
+			}
+		}
 	]
 }
 

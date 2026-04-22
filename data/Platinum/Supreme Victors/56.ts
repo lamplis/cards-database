@@ -78,9 +78,13 @@ const card: Card = {
 	],
 	retreat: 3,
 
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278747
+			}
 		},
 		{
 			type: "reverse"
@@ -91,7 +95,10 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["yuta-komatsuda"]
+			stamp: ["yuta-komatsuda"],
+			thirdParty: {
+				cardmarket: 371548
+			}
 		}
 	]
 }
