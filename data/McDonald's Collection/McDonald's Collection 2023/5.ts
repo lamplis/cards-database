@@ -18,7 +18,7 @@ const card: Card = {
 
 	dexId: [975],
 
-	hp: 180,
+	hp: 160,
 
 	types: ["Water"],
 
@@ -35,20 +35,35 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless", "Colorless"],
-			name: {
-				en: "Hammer In",
-			},
-			damage: 50,
-		},
-		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				en: "Sweeping Tackle",
+				en: "Frost Smash",
+				fr: "Coup de Givre",
+				es: "Golpe Gélido",
+				it: "Geloschiacciata",
+				pt: "Pancada Gélida",
+				de: "Frosthieb"
 			},
-			damage: "200-",
+			damage: 80,
+		},
+		{
+			cost: ["Water", "Water", "Colorless", "Colorless"],
+			name: {
+				en: "Wild Tackle",
+				fr: "Charge Sauvage",
+				es: "Placaje Salvaje",
+				it: "Azione Selvaggia",
+				pt: "Investida Selvagem",
+				de: "Wildtackle"
+			},
+			damage: 170,
 			effect: {
-				en: "This attack does 20 less damage for each damage counter on this",
+				en: "This Pokémon also does 30 damage to itself.",
+				fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
+				es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+				it: "Questo Pokémon infligge anche 30 danni a se stesso.",
+				pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+				de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 			},
 		},
 	],
@@ -60,17 +75,18 @@ const card: Card = {
 		},
 	],
 
-	retreat: 3,
-	
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 725422,
-				tcgplayer: 516516
-			}
-		}
-	]
+	retreat: 4,
+
+	thirdParty: {
+		cardmarket: 725422
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

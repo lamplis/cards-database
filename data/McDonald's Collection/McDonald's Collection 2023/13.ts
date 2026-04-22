@@ -18,7 +18,7 @@ const card: Card = {
 
 	dexId: [924],
 
-	hp: 40,
+	hp: 60,
 
 	types: ["Colorless"],
 
@@ -26,14 +26,35 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless", "Colorless"],
+			cost: ["Colorless"],
 			name: {
-				en: "Double Hit",
+				en: "Call for Family",
+				fr: "Appel à la Famille",
+				es: "Llamar a la Familia",
+				it: "Cerca Famiglia",
+				pt: "Chamar a Família",
+				de: "Familienruf"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage for each heads.",
+				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",
+				fr: "Cherchez dans votre deck un Pokémon de base, puis placez-le sur votre Banc. Mélangez ensuite votre deck.",
+				es: "Busca en tu baraja 1 Pokémon Básico y ponlo en tu Banca. Después, baraja las cartas de tu baraja.",
+				it: "Cerca nel tuo mazzo un Pokémon Base e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+				pt: "Procure por 1 Pokémon Básico no seu baralho e coloque-o no seu Banco. Em seguida, embaralhe o seu baralho.",
+				de: "Durchsuche dein Deck nach 1 Basis-Pokémon und lege es auf deine Bank. Mische anschließend dein Deck."
 			},
-			damage: "30x"
+		},
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				en: "Bite",
+				fr: "Morsure",
+				es: "Mordisco",
+				it: "Morso",
+				pt: "Mordida",
+				de: "Biss"
+			},
+			damage: 20,
 		},
 	],
 
@@ -46,15 +67,16 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 725430,
-				tcgplayer: 516524
-			}
-		}
-	]
+	thirdParty: {
+		cardmarket: 725430
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

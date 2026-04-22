@@ -18,7 +18,7 @@ const card: Card = {
 
 	dexId: [912],
 
-	hp: 70,
+	hp: 60,
 
 	types: ["Water"],
 
@@ -40,7 +40,12 @@ const card: Card = {
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				en: "Kick",
+				en: "Water Gun",
+				fr: "Pistolet à O",
+				es: "Pistola Agua",
+				it: "Pistolacqua",
+				pt: "Revólver d'Água",
+				de: "Aquaknarre"
 			},
 			damage: 20,
 		},
@@ -55,15 +60,16 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 725420,
-				tcgplayer: 516514
-			}
-		}
-	]
+	thirdParty: {
+		cardmarket: 725420
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

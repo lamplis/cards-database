@@ -18,7 +18,7 @@ const card: Card = {
 
 	dexId: [242],
 
-	hp: 150,
+	hp: 130,
 
 	types: ["Colorless"],
 
@@ -33,28 +33,38 @@ const card: Card = {
 		de: "Chaneira"
 	},
 
-	abilities: [
-		{
-			type: "Ability",
-			name: {
-				en: "Busybody Nurse"
-			},
-			effect: {
-				en: "Once during your turn, you may use this Ability. Your Active Pokémon recovers from all Special Conditions."
-			}
-		}
-	],
-
 	attacks: [
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				en: "Gentle Slap",
+				fr: "Gifle Douce",
+				es: "Bofetada Gentil",
+				it: "Schiaffetto",
+				pt: "Tapinha",
+				de: "Sanfter Hieb"
+			},
+			damage: 50,
+		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				en: "Happy Cyclone",
+				en: "Blissful Egg",
+				fr: "Œuf Bienheureux",
+				es: "Huevo Feliz",
+				it: "Uovo Beato",
+				pt: "Ovo Abençoado",
+				de: "Segensreiches Ei"
 			},
+			damage: 80,
 			effect: {
-				en: "Move all Energy from this Pokémon to 1 of your Benched Pokémon."
+				en: "Heal 60 damage from this Pokémon.",
+				fr: "Soignez 60 dégâts de ce Pokémon.",
+				es: "Cura 60 puntos de daño a este Pokémon.",
+				it: "Cura questo Pokémon da 60 danni.",
+				pt: "Cure 60 pontos de dano deste Pokémon.",
+				de: "Heile 60 Schadenspunkte bei diesem Pokémon."
 			},
-			damage: 150,
 		},
 	],
 
@@ -65,17 +75,18 @@ const card: Card = {
 		},
 	],
 
-	retreat: 2,
+	retreat: 3,
 
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 725429,
-				tcgplayer: 516523
-			}
-		}
-	]
+	thirdParty: {
+		cardmarket: 725429
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

@@ -18,7 +18,7 @@ const card: Card = {
 
 	dexId: [909],
 
-	hp: 80,
+	hp: 70,
 
 	types: ["Fire"],
 
@@ -26,7 +26,7 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless"],
+			cost: ["Fire"],
 			name: {
 				en: "Gnaw",
 				fr: "Ronge",
@@ -38,11 +38,16 @@ const card: Card = {
 			damage: 10,
 		},
 		{
-			cost: ["Fire", "Fire", "Colorless"],
+			cost: ["Fire", "Colorless"],
 			name: {
-				en: "Combustion",
+				en: "Flare",
+				fr: "Flamboiement",
+				es: "Llamarada",
+				it: "Vampata",
+				pt: "Labareda",
+				de: "Auflodern"
 			},
-			damage: 50,
+			damage: 20,
 		},
 	],
 
@@ -55,15 +60,16 @@ const card: Card = {
 
 	retreat: 2,
 
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 725419,
-				tcgplayer: 516513
-			}
-		}
-	]
+	thirdParty: {
+		cardmarket: 725419
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

@@ -18,7 +18,7 @@ const card: Card = {
 
 	dexId: [906],
 
-	hp: 70,
+	hp: 60,
 
 	types: ["Grass"],
 
@@ -40,7 +40,12 @@ const card: Card = {
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				en: "Leafage",
+				en: "Seed Bomb",
+				fr: "Canon Graine",
+				es: "Bomba Germen",
+				it: "Semebomba",
+				pt: "Bomba de Sementes",
+				de: "Samenbomben"
 			},
 			damage: 20,
 		},
@@ -55,15 +60,16 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 725418,
-				tcgplayer: 516512
-			}
-		}
-	]
+	thirdParty: {
+		cardmarket: 725418
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

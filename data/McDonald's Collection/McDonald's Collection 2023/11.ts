@@ -18,7 +18,7 @@ const card: Card = {
 
 	dexId: [950],
 
-	hp: 130,
+	hp: 100,
 
 	types: ["Fighting"],
 
@@ -26,7 +26,7 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Fighting", "Fighting"],
+			cost: ["Fighting"],
 			name: {
 				en: "Vise Grip",
 				fr: "Force Poigne",
@@ -35,16 +35,26 @@ const card: Card = {
 				pt: "Agarramento Compressor",
 				de: "Klammer"
 			},
-			damage: 50,
+			damage: 20,
 		},
 		{
 			cost: ["Fighting", "Colorless", "Colorless"],
 			name: {
-				en: "Adrenaline Hammer",
+				en: "Rock Smash",
+				fr: "Éclate-Roc",
+				es: "Golpe Roca",
+				it: "Spaccaroccia",
+				pt: "Quebra-Rocha",
+				de: "Zertrümmerer"
 			},
-			damage: 130,
+			damage: 50,
 			effect: {
-				en: "This Pokémon is now Confused.",
+				en: "Flip a coin. If heads, this attack does 30 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
+				pt: "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
+				de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
 			},
 		},
 	],
@@ -56,17 +66,18 @@ const card: Card = {
 		},
 	],
 
-	retreat: 3,
+	retreat: 2,
 
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 725428,
-				tcgplayer: 516522
-			}
-		}
-	]
+	thirdParty: {
+		cardmarket: 725428
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

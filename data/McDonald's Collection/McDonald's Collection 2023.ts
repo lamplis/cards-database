@@ -23,6 +23,10 @@ const s2023sv: Set = {
 	abbreviations: {
 		official: "MCD23",
 		fr: "M23"
+	},
+
+	thirdParty: {
+		cardmarket: 5430
 	}
 }
 

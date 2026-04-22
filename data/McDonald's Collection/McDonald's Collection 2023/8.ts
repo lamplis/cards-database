@@ -18,7 +18,7 @@ const card: Card = {
 
 	dexId: [941],
 
-	hp: 120,
+	hp: 90,
 
 	types: ["Lightning"],
 
@@ -35,23 +35,28 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless", "Colorless"],
+			cost: ["Lightning"],
 			name: {
-				en: "Skill Dive",
+				en: "Peck",
+				fr: "Picpic",
+				es: "Picotazo",
+				it: "Beccata",
+				pt: "Bicada",
+				de: "Pikser"
 			},
-			effect: {
-				en: "This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			},
+			damage: 30,
 		},
 		{
-			cost: ["Lightning", "Colorless", "Colorless"],
+			cost: ["Lightning", "Colorless"],
 			name: {
-				en: "Thunder Blast",
+				en: "Electro Ball",
+				fr: "Boule Élek",
+				es: "Bola Voltio",
+				it: "Energisfera",
+				pt: "Bola Elétrica",
+				de: "Elektroball"
 			},
-			effect: {
-				en: "Discard a Lightning Energy from this Pokémon",
-			},
-			damage: 140,
+			damage: 60,
 		},
 	],
 
@@ -62,24 +67,18 @@ const card: Card = {
 		},
 	],
 
-	resistances: [
-		{
-			type: "Fighting",
-			value: "-30"
-		}
-	],
+	retreat: 0,
 
-	retreat: 1,
+	thirdParty: {
+		cardmarket: 725425
+	},
 
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 725425,
-				tcgplayer: 516519
-			}
-		}
-	]
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card
