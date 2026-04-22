@@ -87,11 +87,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
 			thirdParty: {
 				cardmarket: 273696,
 				tcgplayer: 42346
 			}
+		},
+		{
+			type: "holo",
+			subtype: "unlimited"
 		},
 		{
 			type: "holo",
@@ -106,13 +110,8 @@ const card: Card = {
 			type: "holo",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 106996,
 				cardmarket: 660227
 			}
-		},
-		{
-			type: "holo",
-			subtype: "1999-2000-copyright",
 		}
 	],
 
@@ -122,6 +121,7 @@ const card: Card = {
 		it: "Il suo cervello è più potente di un supercomputer. Dicono che abbia un quoziente di intelligenza di 5.000. LIV 42 N.65",
 		de: "Sein Gehirn übertrifft einen Supercomputer. Sein Intelligenzquotient soll 5000 betragen."
 	},
+
 }
 
 export default card
