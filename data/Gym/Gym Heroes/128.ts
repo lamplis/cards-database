@@ -13,14 +13,13 @@ const card: Card = {
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		cardmarket: 274264,
-		tcgplayer: 85454
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274264,
+				tcgplayer: 85454
+			}
 		},
 		{
 			type: "normal",
@@ -30,4 +29,3 @@ const card: Card = {
 }
 
 export default card
-

@@ -11,14 +11,13 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	thirdParty: {
-		cardmarket: 274235,
-		tcgplayer: 84182
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274235,
+				tcgplayer: 84182
+			}
 		},
 		{
 			type: "normal",
@@ -28,4 +27,3 @@ const card: Card = {
 }
 
 export default card
-
