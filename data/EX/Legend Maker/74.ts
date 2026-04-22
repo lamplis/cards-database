@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Zwischen den Zügen lege 4 Schadensmarken anstelle von 2 Schadensmarken auf Pokémon, die verbrannt sind. Der Spezielle Zustand verbrannt kann nicht mehr durch Entwickeln oder Rückentwickeln entfernt werden.",
 	},
 
-	thirdParty: {
-		cardmarket: 276951,
-		tcgplayer: 85579
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276951,
+				tcgplayer: 85579
+			}
 		},
 		{
 			type: "normal",

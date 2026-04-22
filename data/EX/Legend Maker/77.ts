@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Einmal während jedes Zuges kann der jeweilige Spieler ein Amonitas, Kabuto, Aerodactyl, Aerodactyl ex, Liliep oder Anorith von seiner Hand auf seine Bank legen. Behandle dieses neue Pokémon als Basis-Pokémon.",
 	},
 
-	thirdParty: {
-		cardmarket: 276954,
-		tcgplayer: 89574
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276954,
+				tcgplayer: 89574
+			}
 		},
 		{
 			type: "normal",

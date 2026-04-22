@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Jeder Spieler kann nicht mehr als 3 Pokémon auf der Bank haben.\n\nWenn Riesiger Bumstumpf ins Spiel kommt, legt jeder Spieler so lange Pokémon (inklusive der an diese angelegten Karten) auf den Ablagestapel, bis sich nur noch 3 Pokémon auf der Bank befinden. (Du musst als Erster Pokémon ablegen.)",
 	},
 
-	thirdParty: {
-		cardmarket: 276952,
-		tcgplayer: 85697
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276952,
+				tcgplayer: 85697
+			}
 		},
 		{
 			type: "normal",

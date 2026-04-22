@@ -19,14 +19,13 @@ const card: Card = {
 		fr: "Énergie réaction fournit une Énergie Incolore.",
 	},
 
-	thirdParty: {
-		cardmarket: 276959,
-		tcgplayer: 88649
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276959,
+				tcgplayer: 88649
+			}
 		},
 		{
 			type: "normal",

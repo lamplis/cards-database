@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Immer zwischen den Zügen legt jeder Spieler 1 Schadensmarke auf alle Pokémon, die eine Poké-Power haben.",
 	},
 
-	thirdParty: {
-		cardmarket: 276949,
-		tcgplayer: 84538
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276949,
+				tcgplayer: 84538
+			}
 		},
 		{
 			type: "normal",

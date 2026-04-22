@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Ziehe 3 Karten. Dein Gegner kann dann ebenfalls 1 Karte ziehen.",
 	},
 
-	thirdParty: {
-		cardmarket: 276950,
-		tcgplayer: 85431
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276950,
+				tcgplayer: 85431
+			}
 		},
 		{
 			type: "normal",
@@ -35,7 +34,7 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["jun-hasebe"]
-		},
+		}
 	]
 }
 

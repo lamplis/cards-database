@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Einmal während jedes Zuges durchsucht der jeweilige Spieler, wenn sich keine Spezialenergiekarten in seinem Ablagestapel befinden, seinen Ablagestapel nach einer Basis-Energiekarte, zeigt sie seinem Gegner und nimmt sie dann auf die Hand.",
 	},
 
-	thirdParty: {
-		cardmarket: 276953,
-		tcgplayer: 88355
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276953,
+				tcgplayer: 88355
+			}
 		},
 		{
 			type: "normal",
