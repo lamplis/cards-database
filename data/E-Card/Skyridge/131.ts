@@ -30,17 +30,15 @@ const card: Card = {
 		de: "Lege diese Karte an 1 deiner entwickelten -, -, oder -Pokémon im Spiel an. Dieses Pokémon kann den Angriff dieser Karte anstatt seines eigenen verwenden. Lege am Ende deines Zuges die Wunder-Sphäre (Gamma) auf deinen Ablagestapel."
 	},
 
-	thirdParty: {
-		cardmarket: 275389,
-		tcgplayer: 87499
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 87499
+			}
 		},
 		{
-			type: 'reverse',
+			type: 'reverse'
 		}
 	]
 }

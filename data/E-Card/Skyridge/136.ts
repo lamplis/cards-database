@@ -28,17 +28,15 @@ const card: Card = {
 		de: "Lege diese Karte an 1 deiner Pokémon im Spiel an. Dieses Pokémon kann den Angriff dieser Karte anstatt seines eigenen verwenden. Lege am Ende deines Zuges das Geheimnis Schild S auf deinen Ablagestapel."
 	},
 
-	thirdParty: {
-		cardmarket: 275394,
-		tcgplayer: 87672
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 87672
+			}
 		},
 		{
-			type: 'reverse',
+			type: 'reverse'
 		}
 	]
 }

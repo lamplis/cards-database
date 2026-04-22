@@ -16,17 +16,15 @@ const card: Card = {
 		de: "Wähle 4 Basis Energiekarten aus deinem Ablagestapel (falls dort weniger Basis Energiekarten vorhanden sind, nimm sie alle), zeige sie deinem Gegner und nimm sie auf deine Hand."
 	},
 
-	thirdParty: {
-		cardmarket: 275383,
-		tcgplayer: 85471
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85471
+			}
 		},
 		{
-			type: 'reverse',
+			type: 'reverse'
 		}
 	]
 }

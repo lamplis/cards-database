@@ -16,17 +16,15 @@ const card: Card = {
 		de: "Wähle 2 Karten aus deinem Deck und mische den Rest deines Decks. Lege die gewählten Karten in beliebiger Reihenfolge oben auf dein Deck."
 	},
 
-	thirdParty: {
-		cardmarket: 275396,
-		tcgplayer: 87887
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 87887
+			}
 		},
 		{
-			type: 'reverse',
+			type: 'reverse'
 		},
 		{
 			type: 'normal',

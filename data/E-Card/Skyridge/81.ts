@@ -57,12 +57,13 @@ const card: Card = {
 		},
 	],
 
+
 	variants: [
 		{
-			type: 'normal',
+			type: 'normal'
 		},
 		{
-			type: 'reverse',
+			type: 'reverse'
 		}
 	]
 }

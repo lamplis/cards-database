@@ -16,17 +16,15 @@ const card: Card = {
 		de: "Schaue dir die 4 untersten Karten deines Decks an. Nimm 2 dieser Karten auf deine Hand und lege die übrigen Karten in beliebiger Reihenfolge unter dein Deck zurück."
 	},
 
-	thirdParty: {
-		cardmarket: 275398,
-		tcgplayer: 90155
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 90155
+			}
 		},
 		{
-			type: 'reverse',
+			type: 'reverse'
 		},
 		{
 			type: 'normal',
