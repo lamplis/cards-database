@@ -65,13 +65,20 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 605992
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 605994
+			}
+		},
+		{
+			type: "normal",
+			cardmarketLabels: ["Wt Ww Fes", "The Defending"],
+			thirdParty: {
+				cardmarket: 605992
+			}
 		}
 	]
 }
