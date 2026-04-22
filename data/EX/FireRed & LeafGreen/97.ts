@@ -19,13 +19,13 @@ const card: Card = {
 		de: "Wirf 1 Münze. Bei \"Kopf\" tausche 1 Verteidigendes Pokémon gegen 1 der Pokémon auf der Bank deines Gegners aus. Dein Gegner wählt aus, welches Verteidigende Pokémon getauscht wird."
 	},
 
-	thirdParty: {
-		cardmarket: 276273
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276273
+			}
 		},
 		{
 			type: "holo",
@@ -38,7 +38,7 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["michael-gonzalez"]
-		},
+		}
 	]
 }
 

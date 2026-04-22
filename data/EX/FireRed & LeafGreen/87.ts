@@ -19,14 +19,13 @@ const card: Card = {
 		de: "If you have any cards in your hand, shuffel 1 of them into your deck, then draw 3 cards.",
 	},
 
-	thirdParty: {
-		cardmarket: 276263,
-		tcgplayer: 83838
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276263,
+				tcgplayer: 83838
+			}
 		},
 		{
 			type: "holo",

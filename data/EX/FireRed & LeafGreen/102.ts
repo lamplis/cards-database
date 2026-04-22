@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Switch 1 of your Active Pokémon with 1 of your Benched Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 276278,
-		tcgplayer: 89712
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276278,
+				tcgplayer: 89712
+			}
 		},
 		{
 			type: "holo",

@@ -19,13 +19,13 @@ const card: Card = {
 		de: "Wirf 1 Münze. Bei \"Kopf\" durchsuche dein Deck nach einem basis-Pokémon pder einer Evolutionskarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 	},
 
-	thirdParty: {
-		cardmarket: 276271
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276271
+			}
 		},
 		{
 			type: "holo",

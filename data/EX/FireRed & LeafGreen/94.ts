@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Any Pokémon (both yours and your opponent's) with maximum HP less than 70 can't use any Poke-Power",
 	},
 
-	thirdParty: {
-		cardmarket: 276270,
-		tcgplayer: 87603
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276270,
+				tcgplayer: 87603
+			}
 		},
 		{
 			type: "holo",

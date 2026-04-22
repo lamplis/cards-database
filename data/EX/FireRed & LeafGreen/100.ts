@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Search your dicard pile for a Supporter card, show it to your opponent, and put it into your hand."
 	},
 
-	thirdParty: {
-		cardmarket: 276276,
-		tcgplayer: 90426
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276276,
+				tcgplayer: 90426
+			}
 		},
 		{
 			type: "holo",

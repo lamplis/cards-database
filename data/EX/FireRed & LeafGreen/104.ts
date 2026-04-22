@@ -79,19 +79,18 @@ const card: Card = {
 	
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 276280,
-		tcgplayer: 83900
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276280,
+				tcgplayer: 83900
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["hiroki-yano"]
-		},
+		}
 	]
 }
 

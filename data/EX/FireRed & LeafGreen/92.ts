@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Durchsuche dein Deck nach einem Basis-Pokémon (kein Pokémon-ex) und lege es auf deine Bank. Mische dein Deck danach."
 	},
 
-	thirdParty: {
-		cardmarket: 276268,
-		tcgplayer: 85895
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276268,
+				tcgplayer: 85895
+			}
 		},
 		{
 			type: "holo",
@@ -35,7 +34,7 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["jeremy-maron"]
-		},
+		}
 	]
 }
 
