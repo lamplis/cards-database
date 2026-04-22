@@ -91,11 +91,17 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660201
+			},
 		},
 		{
 			type: "normal",
 			subtype: "1999-2000-copyright",
-		}
+			thirdParty: {
+				cardmarket: 273722
+			},
+		},
 	],
 	description: {
 		fr: "Il utilise l'oignon qu'il a dans la bouche comme une épée d'acier.",
@@ -103,7 +109,6 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 273722,
 		tcgplayer: 42368
 	}
 }

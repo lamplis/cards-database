@@ -76,7 +76,6 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 273753,
 		tcgplayer: 42402
 	},
 	variants: [
@@ -96,6 +95,53 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273753
+			},
+		},
+		{
+			type: "V2",
+			cardmarketLabels: ["Leh D", "Reustance", "Rete"],
+		},
+		{
+			type: "V4",
+			cardmarketLabels: ["Thunder Jolt Flip a coin. If", "tails. Pikachu does I0 damage", "icself;"],
+		},
+		{
+			type: "V5",
+			cardmarketLabels: ["itsell: Pikachu does I0 damage Su"],
+		},
+		{
+			type: "V6",
+			cardmarketLabels: ["Attention: Oversized Card", "Not Tournament Legal"],
+		},
+		{
+			type: "V2",
+			cardmarketLabels: ["Leh D", "Reustance", "Rete"],
+			thirdParty: {
+				cardmarket: 660169
+			}
+		},
+		{
+			type: "V4",
+			cardmarketLabels: ["Thunder Jolt Flip a coin. If", "tails. Pikachu does I0 damage", "icself;"],
+			thirdParty: {
+				cardmarket: 275568
+			}
+		},
+		{
+			type: "V5",
+			cardmarketLabels: ["itsell: Pikachu does I0 damage Su"],
+			thirdParty: {
+				cardmarket: 275586
+			}
+		},
+		{
+			type: "V6",
+			cardmarketLabels: ["Attention: Oversized Card", "Not Tournament Legal"],
+			thirdParty: {
+				cardmarket: 362859
+			}
 		}
 	],
 }

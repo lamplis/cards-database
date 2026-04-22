@@ -100,11 +100,17 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660209
+			},
 		},
 		{
 			type: "normal",
 			subtype: "1999-2000-copyright",
-		}
+			thirdParty: {
+				cardmarket: 273714
+			},
+		},
 	],
 
 	description: {
@@ -113,7 +119,6 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 273714,
 		tcgplayer: 42359
 	}
 }

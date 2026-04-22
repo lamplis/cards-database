@@ -86,11 +86,17 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660203
+			},
 		},
 		{
 			type: "normal",
 			subtype: "1999-2000-copyright",
-		}
+			thirdParty: {
+				cardmarket: 273720
+			},
+		},
 	],
 	weaknesses: [
 		{
@@ -105,7 +111,6 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 273720,
 		tcgplayer: 42366
 	}
 }

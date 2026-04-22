@@ -20,9 +20,7 @@ const card: Card = {
 		it: "Guarda un massimo di 5 carte in cima al tuo mazzo e rimettile nell'ordine che vuoi."
 	},
 
-	thirdParty: {
-		cardmarket: 273782
-	},
+
 	variants: [
 		{
 			type: "normal",
@@ -36,11 +34,17 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660119
+			},
 		},
 		{
 			type: "normal",
 			subtype: "1999-2000-copyright",
-		}
+			thirdParty: {
+				cardmarket: 273782
+			},
+		},
 	],
 }
 

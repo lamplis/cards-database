@@ -17,7 +17,6 @@ const card: Card = {
 	energyType: "Normal",
 
 	thirdParty: {
-		cardmarket: 273797,
 		tcgplayer: 42350
 	},
 	variants: [
@@ -33,11 +32,17 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660096
+			},
 		},
 		{
 			type: "normal",
 			subtype: "1999-2000-copyright",
-		}
+			thirdParty: {
+				cardmarket: 273797
+			},
+		},
 	],
 }
 

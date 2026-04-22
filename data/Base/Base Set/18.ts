@@ -91,11 +91,17 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660210
+			},
 		},
 		{
 			type: "normal",
 			subtype: "1999-2000-copyright",
-		}
+			thirdParty: {
+				cardmarket: 273713
+			},
+		},
 	],
 
 	resistances: [
@@ -111,7 +117,6 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 273713,
 		tcgplayer: 42358
 	}
 }

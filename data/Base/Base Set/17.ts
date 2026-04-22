@@ -108,6 +108,20 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273712
+			},
+		},
+		{
+			type: "V2",
+			cardmarketLabels: ["Eyliesiieeieeemaiie", "Resis", "Speed Cod Strack"],
+		},
+		{
+			type: "V2",
+			cardmarketLabels: ["Eyliesiieeieeemaiie", "Resis", "Speed Cod Strack"],
+			thirdParty: {
+				cardmarket: 660211
+			}
 		}
 	],
 
@@ -117,7 +131,6 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 273712,
 		tcgplayer: 42357
 	}
 }

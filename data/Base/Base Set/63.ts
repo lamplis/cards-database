@@ -80,7 +80,6 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 273758,
 		tcgplayer: 42408
 	},
 	variants: [
@@ -96,10 +95,27 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660164
+			},
 		},
 		{
 			type: "normal",
 			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273758
+			},
+		},
+		{
+			type: "V3",
+			cardmarketLabels: ["Attention: Oversized Card", "Not Tournament Legal"],
+		},
+		{
+			type: "V3",
+			cardmarketLabels: ["Attention: Oversized Card", "Not Tournament Legal"],
+			thirdParty: {
+				cardmarket: 547246
+			}
 		}
 	],
 }

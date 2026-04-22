@@ -97,7 +97,6 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 273699,
 		tcgplayer: 42382
 	},
 
@@ -118,6 +117,20 @@ const card: Card = {
 		{
 			type: "holo",
 			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273699
+			},
+		},
+		{
+			type: "V2",
+			cardmarketLabels: ["Firc Spin Decu"],
+		},
+		{
+			type: "V2",
+			cardmarketLabels: ["Firc Spin Decu"],
+			thirdParty: {
+				cardmarket: 660224
+			}
 		}
 	],
 

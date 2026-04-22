@@ -95,16 +95,28 @@ const card: Card = {
 		{
 			type: "holo",
 			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660213
+			},
 		},
 		{
 			type: "holo",
 			subtype: "1999-2000-copyright",
-		}
+			thirdParty: {
+				cardmarket: 273710
+			},
+		},
+		{
+			type: "holo",
+			cardmarketLabels: ["Defencing Pckemon"],
+			thirdParty: {
+				cardmarket: 273938
+			}
+		},
 	],
 
 
 	thirdParty: {
-		cardmarket: 273710,
 		tcgplayer: 42355
 	}
 }

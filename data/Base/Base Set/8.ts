@@ -82,6 +82,7 @@ const card: Card = {
 		it: "I suoi muscoli supersviluppati gli permettono di tirare pugni capaci di mandare in orbita gli avversari. LIV 67 N.68"
 	},
 
+
 	variants: [
 		{
 			type: "holo",
@@ -95,17 +96,20 @@ const card: Card = {
 		{
 			type: "holo",
 			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660220
+			},
 		},
 		{
 			type: "holo",
 			subtype: "1999-2000-copyright",
-		}
+			thirdParty: {
+				cardmarket: 273703
+			},
+		},
 	],
 
 
-	thirdParty: {
-		cardmarket: 273703
-	}
 }
 
 export default card

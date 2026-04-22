@@ -20,9 +20,7 @@ const card: Card = {
 		it: "Scambia una carta Pokémon Base o una carta Evoluzione che hai in mano con una carta Pokémon Base o una carta Evoluzione nel tuo mazzo. Mostra entrambe le carte al tuo avversario e poi mischia il mazzo.",	
 	},
 
-	thirdParty: {
-		cardmarket: 273772
-	},
+
 	variants: [
 		{
 			type: "normal",
@@ -36,11 +34,17 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660140
+			},
 		},
 		{
 			type: "normal",
 			subtype: "1999-2000-copyright",
-		}
+			thirdParty: {
+				cardmarket: 273772
+			},
+		},
 	],
 }
 

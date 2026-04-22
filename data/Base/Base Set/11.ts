@@ -102,16 +102,21 @@ const card: Card = {
 		{
 			type: "holo",
 			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660217
+			},
 		},
 		{
 			type: "holo",
 			subtype: "1999-2000-copyright",
-		}
+			thirdParty: {
+				cardmarket: 273706
+			},
+		},
 	],
 
 
 	thirdParty: {
-		cardmarket: 273706,
 		tcgplayer: 42351
 	}
 }

@@ -83,7 +83,6 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 273737,
 		tcgplayer: 42385
 	},
 	variants: [
@@ -99,11 +98,17 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660186
+			},
 		},
 		{
 			type: "normal",
 			subtype: "1999-2000-copyright",
-		}
+			thirdParty: {
+				cardmarket: 273737
+			},
+		},
 	],
 }
 
