@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Verhindere alle Effekte von Angriffen, inklusive Schaden, die dem Pokémon, an das Mysteriöser Splitter angelegt ist, von gegnerischen Pokémon-ex zugefügt werden. Lege Mysteriöser Splitter am Ende des nächsten Zuges deines Gegners auf deinen Ablagestapel."
 	},
 
-	thirdParty: {
-		cardmarket: 277162,
-		tcgplayer: 87669
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277162,
+				tcgplayer: 87669
+			}
 		},
 		{
 			type: "normal",

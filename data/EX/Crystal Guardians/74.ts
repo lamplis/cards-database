@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Solange Kristall des Stillstandes an einem Aktiven Pokémon anliegt, können Pokémon (deine und die deines Gegners) keine Poké-Power und Poké-Body benutzen."
 	},
 
-	thirdParty: {
-		cardmarket: 277155,
-		tcgplayer: 84158
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277155,
+				tcgplayer: 84158
+			}
 		},
 		{
 			type: "normal",

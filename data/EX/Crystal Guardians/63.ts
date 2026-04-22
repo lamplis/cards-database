@@ -66,23 +66,25 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 277144,
-		tcgplayer: 89491
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277144,
+				tcgplayer: 89491
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["set-logo"]
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 450418
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["city-championships"]
-		},
+		}
 	]
 }
 

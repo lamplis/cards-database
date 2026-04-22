@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Solange diese Karte an ein Pokémon angelegt ist, erhält das Pokémon den Typ . Wenn das Pokémon angreift, lege diese Karte am Ende deines Zuges auf deinen Ablagestapel."
 	},
 
-	thirdParty: {
-		cardmarket: 277157,
-		tcgplayer: 84521
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277157,
+				tcgplayer: 84521
+			}
 		},
 		{
 			type: "normal",

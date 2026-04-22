@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Das Pokémon, an das diese Karte anliegt, kann jeden Angriff seiner Basis- oder Phase 1-Pokémon-Karten verwenden. (Du musst die Energiekosten für diesen Angriff trotzdem bezahlen.) Wenn dieses Pokémon angreift, lege die Karte am Ende des Zuges auf den Ablagestapel."
 	},
 
-	thirdParty: {
-		cardmarket: 277161,
-		tcgplayer: 87308
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277161,
+				tcgplayer: 87308
+			}
 		},
 		{
 			type: "normal",

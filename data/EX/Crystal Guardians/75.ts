@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Jede Spezialenergiekarte, die 2 oder mehr Energie liefert (deine und die deines Gegners), liefert jetzt nur noch 1  Energie, Poké-Power und Poké-Body haben keine Einfluss hierauf.",
 	},
 
-	thirdParty: {
-		cardmarket: 277156,
-		tcgplayer: 84516
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277156,
+				tcgplayer: 84516
+			}
 		},
 		{
 			type: "normal",

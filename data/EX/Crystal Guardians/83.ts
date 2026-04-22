@@ -19,13 +19,13 @@ const card: Card = {
 		de: "Schau dir die obersten 3 Karten deines Decks an. Wähle aus den 3 Karten eine Basis-Pokémon-Karte, Evolutionskarte oder Energiekarte. Zeige sie deinem Gegner und nimm sie auf die Hand. Die anderen 2 Karten legst du in beliebiger Reihenfolge auf dein Deck."
 	},
 
-	thirdParty: {
-		cardmarket: 277164
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277164
+			}
 		},
 		{
 			type: "normal",

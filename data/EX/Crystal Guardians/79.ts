@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Verhindere alle Effekte von Angriffen, inklusive Schaden, die durch Aktive Pokémon (deins oder das deines Gegners) verursacht werden. Wenn ein Aktives Pokémon einen Angriff einsetzt, wird dieser Angriff ohne Auswirkungen beendet und der Holon-Kreis auf deinen Ablagestapel gelegt.",
 	},
 
-	thirdParty: {
-		cardmarket: 277160,
-		tcgplayer: 86135
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277160,
+				tcgplayer: 86135
+			}
 		},
 		{
 			type: "normal",

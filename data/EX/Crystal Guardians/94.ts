@@ -80,14 +80,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 277175,
-		tcgplayer: 86332
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86332
+			}
 		},
 		{
 			type: "holo",
@@ -95,8 +93,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["jason-klaczynski"]
-		},
+			stamp: ["jason-klaczynski"],
+			thirdParty: {
+				cardmarket: 277175
+			}
+		}
 	]
 }
 

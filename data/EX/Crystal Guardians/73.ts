@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Durchsuche dein Deck nach einer Basis-Pokémon-Karte oder einer Evolutionskarte (kein Pokémon-ex), zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach.",
 	},
 
-	thirdParty: {
-		cardmarket: 277154,
-		tcgplayer: 84156
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277154,
+				tcgplayer: 84156
+			}
 		},
 		{
 			type: "normal",

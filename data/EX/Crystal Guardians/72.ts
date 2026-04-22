@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Durchsuche dein Deck nach einer Pokémon-Ausrüstungs-Karte und einer Basis-Energiekarte. Zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach.",
 	},
 
-	thirdParty: {
-		cardmarket: 277153,
-		tcgplayer: 84125
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277153,
+				tcgplayer: 84125
+			}
 		},
 		{
 			type: "normal",
