@@ -27,7 +27,8 @@ const bwp: Set = {
 	},
 
 	thirdParty: {
-		tcgplayer: 1407
+		tcgplayer: 1407,
+		cardmarket: 1611
 	}
 }
 
