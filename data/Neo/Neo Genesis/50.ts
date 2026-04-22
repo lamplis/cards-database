@@ -63,14 +63,13 @@ const card: Card = {
 		fr: "Il convertit la lumière solaire en énergie. Dans l'obscurité après le coucher du soleil, il ferme ses pétales et demeure immobile."
 	},
 
-	thirdParty: {
-		cardmarket: 274450,
-		tcgplayer: 89612
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274450,
+				tcgplayer: 89612
+			}
 		},
 		{
 			type: "normal",

@@ -80,14 +80,13 @@ const card: Card = {
 		fr: "Il est très timide. Il a peur de se déplacer seul, mais il est très actif lorsqu'il est en groupe."
 	},
 
-	thirdParty: {
-		cardmarket: 274463,
-		tcgplayer: 86699
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274463,
+				tcgplayer: 86699
+			}
 		},
 		{
 			type: "normal",

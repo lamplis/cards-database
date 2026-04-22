@@ -73,14 +73,13 @@ const card: Card = {
 		fr: "Si de l'électricité statique s'accumule dans son corps, sa toison double de volume. Tout contact avec lui vous électrocute."
 	},
 
-	thirdParty: {
-		cardmarket: 274465,
-		tcgplayer: 87193
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274465,
+				tcgplayer: 87193
+			}
 		},
 		{
 			type: "normal",

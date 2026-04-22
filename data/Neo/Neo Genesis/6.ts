@@ -76,14 +76,13 @@ const card: Card = {
 		fr: "Ce puissant Pokémon enfonce sa corne très recherchée sous le ventre de ses ennemis, puis les soulève et les jette au loin."
 	},
 
-	thirdParty: {
-		cardmarket: 274406,
-		tcgplayer: 86059
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274406,
+				tcgplayer: 86059
+			}
 		},
 		{
 			type: "holo",

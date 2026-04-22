@@ -18,14 +18,13 @@ const card: Card = {
 		de: "If you have any Benched Pokémon, your opponent chooses 1 of them and switches it with your Active Pokémon. Then, if your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 274500,
-		tcgplayer: 84891
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274500,
+				tcgplayer: 84891
+			}
 		},
 		{
 			type: "normal",

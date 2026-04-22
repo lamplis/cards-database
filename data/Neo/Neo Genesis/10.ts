@@ -80,14 +80,13 @@ const card: Card = {
 		fr: "Le souffle de Meganium peut redonner vie aux plantes mortes."
 	},
 
-	thirdParty: {
-		cardmarket: 274410,
-		tcgplayer: 87286
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274410,
+				tcgplayer: 87286
+			}
 		},
 		{
 			type: "holo",

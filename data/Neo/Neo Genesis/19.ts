@@ -19,14 +19,13 @@ const card: Card = {
 		fr: "Les dégâts infligés au Pokémon sur lequel Énergie Métal est attachée sont réduits de 10 (avant application de la Faiblesse et de la Résistance). Si le Pokémon sur lequel Énergie Métal est attachée n'est pas Métal, chaque fois qu'il inflige des dégâts à un Pokémon, réduisez ces dégâts de 10 (après application de la Faiblesse et de la Résistance).",
 	},
 
-	thirdParty: {
-		cardmarket: 274419,
-		tcgplayer: 87368
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274419,
+				tcgplayer: 87368
+			}
 		},
 		{
 			type: "holo",

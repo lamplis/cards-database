@@ -81,14 +81,13 @@ const card: Card = {
 		fr: "Son lait très riche est le meilleur breuvage pour les malades ou les souffreteux."
 	},
 
-	thirdParty: {
-		cardmarket: 274441,
-		tcgplayer: 87461
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274441,
+				tcgplayer: 87461
+			}
 		},
 		{
 			type: "normal",

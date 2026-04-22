@@ -18,14 +18,13 @@ const card: Card = {
 		de: "If the Pokémon Focus Band is attached to would be Knocked Out by your opponent's attack, flip a coin. If heads, that Pokémon is now Knocked Out and its remaining HP become 10 instead. Then, discard Focus Band."
 	},
 
-	thirdParty: {
-		cardmarket: 274486,
-		tcgplayer: 85536
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274486,
+				tcgplayer: 85536
+			}
 		},
 		{
 			type: "normal",

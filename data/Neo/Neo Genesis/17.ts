@@ -80,14 +80,13 @@ const card: Card = {
 		fr: "Dans ses moments de rage, il devient tellement chaud que tout ce qu'il touche prend feu."
 	},
 
-	thirdParty: {
-		cardmarket: 274417,
-		tcgplayer: 90098
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274417,
+				tcgplayer: 90098
+			}
 		},
 		{
 			type: "holo",

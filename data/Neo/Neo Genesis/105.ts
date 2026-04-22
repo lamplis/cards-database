@@ -19,14 +19,13 @@ const card: Card = {
 		fr: "Énergie recyclable fournit 1 énergie Incolore. (N'est pas considérée comme une carte Énergie de base.)",
 	},
 
-	thirdParty: {
-		cardmarket: 274505,
-		tcgplayer: 88654
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274505,
+				tcgplayer: 88654
+			}
 		},
 		{
 			type: "normal",

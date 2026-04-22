@@ -57,14 +57,13 @@ const card: Card = {
 		fr: "Lorsqu'il est attaqué par un ennemi plus gros que lui, il nage rapidement hors d'atteinte en contrôlant habilement sa nageoire dorsale."
 	},
 
-	thirdParty: {
-		cardmarket: 274462,
-		tcgplayer: 86185
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274462,
+				tcgplayer: 86185
+			}
 		},
 		{
 			type: "normal",

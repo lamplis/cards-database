@@ -18,14 +18,13 @@ const card: Card = {
 		de: "Draw 2 cards. Then, shuffle 2 cards from your hand into your deck."
 	},
 
-	thirdParty: {
-		cardmarket: 274487,
-		tcgplayer: 87241
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274487,
+				tcgplayer: 87241
+			}
 		},
 		{
 			type: "normal",

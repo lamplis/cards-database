@@ -79,14 +79,13 @@ const card: Card = {
 		fr: "On prétend qu'il se manifeste auprès des gens généreux et bienfaisants, et les couvre de bonheur."
 	},
 
-	thirdParty: {
-		cardmarket: 274416,
-		tcgplayer: 89939
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274416,
+				tcgplayer: 89939
+			}
 		},
 		{
 			type: "holo",

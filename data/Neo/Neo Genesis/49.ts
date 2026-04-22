@@ -85,14 +85,13 @@ const card: Card = {
 		fr: "La fleur du sommet de sa tête s'ouvre et se ferme en fonction des fluctuations de températures."
 	},
 
-	thirdParty: {
-		cardmarket: 274449,
-		tcgplayer: 89252
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274449,
+				tcgplayer: 89252
+			}
 		},
 		{
 			type: "normal",

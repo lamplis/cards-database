@@ -84,14 +84,13 @@ const card: Card = {
 		fr: "Son corps a été compressé à une profondeur incroyable. Il en résulte qu'il est plus dur que le diamant."
 	},
 
-	thirdParty: {
-		cardmarket: 274415,
-		tcgplayer: 89555
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274415,
+				tcgplayer: 89555
+			}
 		},
 		{
 			type: "holo",

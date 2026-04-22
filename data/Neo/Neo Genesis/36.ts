@@ -81,14 +81,13 @@ const card: Card = {
 		fr: "Ce qui semble être de la bave est en fait un miel sucré. Il est très collant et adhère obstinément si on le touche."
 	},
 
-	thirdParty: {
-		cardmarket: 274436,
-		tcgplayer: 85778
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274436,
+				tcgplayer: 85778
+			}
 		},
 		{
 			type: "normal",

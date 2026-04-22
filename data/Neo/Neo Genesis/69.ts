@@ -73,14 +73,13 @@ const card: Card = {
 		fr: "Il serpente et ondule à travers le sol. Le rugissement bruyant de son excavation résonne très loin."
 	},
 
-	thirdParty: {
-		cardmarket: 274469,
-		tcgplayer: 87875
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274469,
+				tcgplayer: 87875
+			}
 		},
 		{
 			type: "normal",

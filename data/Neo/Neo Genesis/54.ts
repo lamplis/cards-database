@@ -69,18 +69,20 @@ const card: Card = {
 		fr: "Ses feuilles au parfum agréable lui permettent de vérifier l'humidité et la température."
 	},
 
-	thirdParty: {
-		cardmarket: 274453,
-		tcgplayer: 84273
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274454,
+				tcgplayer: 84273
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 547251
+			}
 		},
 		{
 			type: "normal",

@@ -18,14 +18,13 @@ const card: Card = {
 		de: "Wirf eine Münze. Bei 'Kopf' nimm eine Evolutionskarte aus deinem Ablagestapel auf deine Hand, wenn dort eine ist. Bei 'Zahl' nimm eine Basis-Pokémonkarte aus deinem Ablagestapel auf deine Hand, wenn dort eine ist."
 	},
 
-	thirdParty: {
-		cardmarket: 274503,
-		tcgplayer: 89633
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274503,
+				tcgplayer: 89633
+			}
 		},
 		{
 			type: "normal",

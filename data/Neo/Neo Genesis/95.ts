@@ -18,13 +18,13 @@ const card: Card = {
 		de: "Shuffle your deck. Then, look at up to 5 cards from the top of your deck and rearrange them as you like."
 	},
 
-	thirdParty: {
-		cardmarket: 274495
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274495
+			}
 		},
 		{
 			type: "normal",

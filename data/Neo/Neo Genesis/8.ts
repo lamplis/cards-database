@@ -76,14 +76,13 @@ const card: Card = {
 		fr: "On prétend qu'il se cache dans des grottes sous-marines. Il peut créer des tourbillons rien que par son bâillement."
 	},
 
-	thirdParty: {
-		cardmarket: 274408,
-		tcgplayer: 86440
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274408,
+				tcgplayer: 86440
+			}
 		},
 		{
 			type: "holo",

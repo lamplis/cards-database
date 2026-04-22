@@ -68,14 +68,13 @@ const card: Card = {
 		fr: "Un doux parfum s'élève des feuilles du sommet de sa tête. Il est doux et adore absorber les rayons du soleil."
 	},
 
-	thirdParty: {
-		cardmarket: 274453,
-		tcgplayer: 84272
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274453,
+				tcgplayer: 84272
+			}
 		},
 		{
 			type: "normal",

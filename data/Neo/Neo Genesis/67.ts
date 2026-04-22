@@ -75,14 +75,13 @@ const card: Card = {
 		fr: "Comme ses ailes ne sont pas complètement développées, il doit sauter pour se déplacer. Il observe toujours quelque chose."
 	},
 
-	thirdParty: {
-		cardmarket: 274467,
-		tcgplayer: 87681
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274467,
+				tcgplayer: 87681
+			}
 		},
 		{
 			type: "normal",

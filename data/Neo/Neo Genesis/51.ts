@@ -57,14 +57,13 @@ const card: Card = {
 		fr: "Un proverbe prétend que celui qui pourra réveiller un Togepi endormi sera récompensé par un grand bonheur."
 	},
 
-	thirdParty: {
-		cardmarket: 274451,
-		tcgplayer: 89929
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274451,
+				tcgplayer: 89929
+			}
 		},
 		{
 			type: "normal",

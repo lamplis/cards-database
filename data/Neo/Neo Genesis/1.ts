@@ -63,14 +63,13 @@ const card: Card = {
 		fr: "La pointe de sa queue luit intensément et on l'aperçoit de très loin. Il sert de balise aux gens perdus."
 	},
 
-	thirdParty: {
-		cardmarket: 274401,
-		tcgplayer: 83534
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274401,
+				tcgplayer: 83534
+			}
 		},
 		{
 			type: "holo",

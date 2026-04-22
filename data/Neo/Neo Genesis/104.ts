@@ -19,14 +19,13 @@ const card: Card = {
 		fr: "Si le Pokémon sur lequel est attachée Énergie obscurité inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), cette attaque inflige 10 dégâts supplémentaires au Pokémon Défenseur.",
 	},
 
-	thirdParty: {
-		cardmarket: 274504,
-		tcgplayer: 84695
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274504,
+				tcgplayer: 84695
+			}
 		},
 		{
 			type: "normal",

@@ -72,14 +72,13 @@ const card: Card = {
 		fr: "On prétend que lorsqu'il est poursuivi, il attire son attaquant sur de sombres pistes de montagne où le traqueur se perd."
 	},
 
-	thirdParty: {
-		cardmarket: 274424,
-		tcgplayer: 87646
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274424,
+				tcgplayer: 87646
+			}
 		},
 		{
 			type: "normal",

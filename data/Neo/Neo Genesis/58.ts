@@ -68,14 +68,13 @@ const card: Card = {
 		fr: "Sa queue possède son propre cerveau. Prenez garde ! Si vous vous approchez, elle peut réagir à votre odeur et vous mordre."
 	},
 
-	thirdParty: {
-		cardmarket: 274458,
-		tcgplayer: 85726
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274458,
+				tcgplayer: 85726
+			}
 		},
 		{
 			type: "normal",

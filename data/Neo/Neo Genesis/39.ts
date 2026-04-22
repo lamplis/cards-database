@@ -69,14 +69,13 @@ const card: Card = {
 		fr: "Lorsque les étoiles scintillent dans le ciel nocturne, Ledian voltige en répandant une poudre brillante."
 	},
 
-	thirdParty: {
-		cardmarket: 274439,
-		tcgplayer: 86692
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274439,
+				tcgplayer: 86692
+			}
 		},
 		{
 			type: "normal",

@@ -63,14 +63,13 @@ const card: Card = {
 		fr: "Un Pokémon très prudent, il se dresse sur sa queue pour avoir une meilleure vue des alentours."
 	},
 
-	thirdParty: {
-		cardmarket: 274471,
-		tcgplayer: 89062
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274471,
+				tcgplayer: 89062
+			}
 		},
 		{
 			type: "normal",
