@@ -36,6 +36,10 @@ const card: Card = {
 	},
 
 energyType: "Special",
+
+	thirdParty: {
+		cardmarket: 280556
+	}
 }
 
 export default card
