@@ -54,19 +54,18 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 274351,
-		tcgplayer: 86521
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274351,
+				tcgplayer: 86521
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"]
-		},
+		}
 	]
 }
 

@@ -59,14 +59,13 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 274305,
-		tcgplayer: 83986
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274305,
+				tcgplayer: 83986
+			}
 		},
 		{
 			type: "normal",
@@ -74,7 +73,7 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["wotc"],
+			stamp: ["wotc"]
 		}
 	]
 }
