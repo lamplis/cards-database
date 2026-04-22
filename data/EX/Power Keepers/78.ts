@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Schau dir die obersten 7 Karten deines Decks an. Wähle aus den 7 Karten eine Basis-Pokémon-Karte oder Evolutionskarte, zeige sie deinem Gegner und nimm sie auf die Hand. Die anderen 6 Karten legst du auf dein Deck. Mische dein Deck danach."
 	},
 
-	thirdParty: {
-		cardmarket: 277384,
-		tcgplayer: 87255
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277384,
+				tcgplayer: 87255
+			}
 		},
 		{
 			type: "normal",
@@ -36,4 +35,3 @@ const card: Card = {
 }
 
 export default card
-

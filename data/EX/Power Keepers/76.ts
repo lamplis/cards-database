@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Alle -Pokémon beider Spieler (außer Pokémon-ex) haben keine Schwäche mehr.",
 	},
 
-	thirdParty: {
-		cardmarket: 277382,
-		tcgplayer: 85751
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277382,
+				tcgplayer: 85751
+			}
 		},
 		{
 			type: "normal",
@@ -36,4 +35,3 @@ const card: Card = {
 }
 
 export default card
-

@@ -79,14 +79,12 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 277398,
-		tcgplayer: 83456
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 83456
+			}
 		},
 		{
 			type: "holo",
@@ -94,7 +92,10 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["tom-roos"]
+			stamp: ["tom-roos"],
+			thirdParty: {
+				cardmarket: 277398
+			}
 		}
 	]
 }

@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Entwickelte -Pokémon, entwickelte -Pokémon und entwickelte -Pokémon beider Spieler können keine Poké-Power oder Poké-Body anwenden.",
 	},
 
-	thirdParty: {
-		cardmarket: 277377,
-		tcgplayer: 83741
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277377,
+				tcgplayer: 83741
+			}
 		},
 		{
 			type: "normal",
@@ -36,4 +35,3 @@ const card: Card = {
 }
 
 export default card
-

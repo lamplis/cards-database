@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Lege 1 Basis-Energiekarte, die an einem deiner Pokémon angelegt ist, an ein anderes deiner Pokémon an."
 	},
 
-	thirdParty: {
-		cardmarket: 277381,
-		tcgplayer: 85256
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277381,
+				tcgplayer: 85256
+			}
 		},
 		{
 			type: "normal",
@@ -36,4 +35,3 @@ const card: Card = {
 }
 
 export default card
-

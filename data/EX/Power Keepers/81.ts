@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Durchsuche dein Deck nach bis zu 3 Karten in beliebiger Kombination aus Unterstützerkarten und Stadion-Karten, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach.",
 	},
 
-	thirdParty: {
-		cardmarket: 277387,
-		tcgplayer: 88976
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277387,
+				tcgplayer: 88976
+			}
 		},
 		{
 			type: "normal",

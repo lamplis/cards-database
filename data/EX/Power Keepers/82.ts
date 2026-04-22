@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Alle -Pokémon beider Spieler können nicht mehr schlafen, verwirrt oder gelähmt sein.",
 	},
 
-	thirdParty: {
-		cardmarket: 277388,
-		tcgplayer: 89203
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277388,
+				tcgplayer: 89203
+			}
 		},
 		{
 			type: "normal",
@@ -36,4 +35,3 @@ const card: Card = {
 }
 
 export default card
-

@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Ziehe so viele Karten, wie dein Gegner Pokémon im Spiel hat.\nWenn du 7 oder mehr Karten (inklusive dieser Karte) auf der Hand hast, kannst du diese Karte nicht spielen.",
 	},
 
-	thirdParty: {
-		cardmarket: 277389,
-		tcgplayer: 89568
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277389,
+				tcgplayer: 89568
+			}
 		},
 		{
 			type: "normal",

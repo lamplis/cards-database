@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Ziehe so lange Karten von deinem Deck, bis du 6 Karten auf deiner Hand hast.",
 	},
 
-	thirdParty: {
-		cardmarket: 277386,
-		tcgplayer: 88383
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277386,
+				tcgplayer: 88383
+			}
 		},
 		{
 			type: "normal",
@@ -36,4 +35,3 @@ const card: Card = {
 }
 
 export default card
-

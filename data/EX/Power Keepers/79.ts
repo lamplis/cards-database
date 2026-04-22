@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Jeder Spieler bezahlt   weniger, um seine -Pokémon zurückzuziehen.",
 	},
 
-	thirdParty: {
-		cardmarket: 277385,
-		tcgplayer: 88010
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277385,
+				tcgplayer: 88010
+			}
 		},
 		{
 			type: "normal",

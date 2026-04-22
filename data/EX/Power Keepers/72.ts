@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Alle Schadenspunkte, die Aktiven -Pokémon (deine und die deines Gegners) durch einen gegnerischen Angriff zugefügt werden, werden um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden).",
 	},
 
-	thirdParty: {
-		cardmarket: 277378,
-		tcgplayer: 84921
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277378,
+				tcgplayer: 84921
+			}
 		},
 		{
 			type: "normal",
@@ -36,4 +35,3 @@ const card: Card = {
 }
 
 export default card
-
