@@ -15,6 +15,10 @@ const card: Card = {
 	effect: {
 		en: "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 		fr: "Choisissez dans votre deck une carte Énergie de base, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck."
+	},
+
+	thirdParty: {
+		cardmarket: 278024
 	}
 }
 

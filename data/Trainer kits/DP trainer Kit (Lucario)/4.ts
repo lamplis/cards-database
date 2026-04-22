@@ -70,7 +70,11 @@ const card: Card = {
 		en: "MACHOKE's boundless power is very dangerous, so it wears a belt that suppresses its energy."
 	},
 
-	retreat: 2
+	retreat: 2,
+
+	thirdParty: {
+		cardmarket: 278015
+	}
 }
 
 export default card

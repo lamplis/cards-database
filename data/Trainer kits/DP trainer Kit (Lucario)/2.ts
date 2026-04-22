@@ -78,7 +78,11 @@ const card: Card = {
 		en: "GRAVELER make their homes on sheer cliff faces by gouging out numerous horizontal holes."
 	},
 
-	retreat: 3
+	retreat: 3,
+
+	thirdParty: {
+		cardmarket: 278011
+	}
 }
 
 export default card

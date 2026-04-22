@@ -61,7 +61,11 @@ const card: Card = {
 		en: "The aura that emanates from its body intensifies to alert others if it is afraid or sad."
 	},
 
-	retreat: 1
+	retreat: 1,
+
+	thirdParty: {
+		cardmarket: 278019
+	}
 }
 
 export default card

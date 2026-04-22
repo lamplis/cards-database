@@ -66,7 +66,11 @@ const card: Card = {
 		en: "It has the ability to sense the auras of all things. It understands human speech."
 	},
 
-	retreat: 1
+	retreat: 1,
+
+	thirdParty: {
+		cardmarket: 278014
+	}
 }
 
 export default card

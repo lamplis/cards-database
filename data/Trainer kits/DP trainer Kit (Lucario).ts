@@ -24,7 +24,8 @@ const set: Set = {
 		fr: "LUC"
 	},
 	thirdParty: {
-		tcgplayer: 610
+		tcgplayer: 610,
+		cardmarket: 1628
 	}
 }
 

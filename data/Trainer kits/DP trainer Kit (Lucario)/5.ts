@@ -58,7 +58,11 @@ const card: Card = {
 		en: "It hefts a GRAVELER repeatedly to strengthen its entire body. It uses every type of martial arts."
 	},
 
-	retreat: 2
+	retreat: 2,
+
+	thirdParty: {
+		cardmarket: 278018
+	}
 }
 
 export default card

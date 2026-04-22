@@ -70,7 +70,11 @@ const card: Card = {
 		en: "They flock in great numbers. Though small, they flap their wings with great power."
 	},
 	
-	retreat: 1
+	retreat: 1,
+
+	thirdParty: {
+		cardmarket: 278021
+	}
 }
 
 export default card
