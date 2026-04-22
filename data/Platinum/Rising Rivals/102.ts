@@ -20,14 +20,13 @@ const card: Card = {
 
 	energyType: "Special",
 
-	thirdParty: {
-		cardmarket: 278676,
-		tcgplayer: 90248
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278676,
+				tcgplayer: 90248
+			}
 		},
 		{
 			type: "reverse"
@@ -38,7 +37,10 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["david-cohen"]
+			stamp: ["david-cohen"],
+			thirdParty: {
+				cardmarket: 450453
+			}
 		}
 	]
 }

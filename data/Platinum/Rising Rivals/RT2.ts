@@ -96,14 +96,13 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 278569
-	},
-
 	variants: [
 		{
 			type: "reverse",
-			foil: "cracked-ice"
+			foil: "cracked-ice",
+			thirdParty: {
+				cardmarket: 278569
+			}
 		}
 	]
 }

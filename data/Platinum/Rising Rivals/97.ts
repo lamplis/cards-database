@@ -20,14 +20,13 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
-	thirdParty: {
-		cardmarket: 278671,
-		tcgplayer: 90156
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278671,
+				tcgplayer: 90156
+			}
 		},
 		{
 			type: "reverse"
@@ -35,6 +34,13 @@ const card: Card = {
 		{
 			type: "reverse",
 			foil: "league"
+		},
+		{
+			type: "V2",
+			cardmarketLabels: ["Ese", "Your Deck Imany Orders"],
+			thirdParty: {
+				cardmarket: 371555
+			}
 		}
 	]
 }

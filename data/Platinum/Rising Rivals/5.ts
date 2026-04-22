@@ -100,12 +100,14 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 278579,
-		tcgplayer: 85526
-	},
-
 	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278579,
+				tcgplayer: 85526
+			}
+		},
 		{
 			type: "holo"
 		},
@@ -113,12 +115,16 @@ const card: Card = {
 			type: "reverse"
 		},
 		{
-			type: "normal"
-		},
-		{
 			type: "holo",
 			stamp: ["david-cohen"]
 		},
+		{
+			type: "normal",
+			cardmarketLabels: ["No 479 Car Daa Conte", "Gun Hs", "Eecenrnert Nek"],
+			thirdParty: {
+				cardmarket: 278573
+			}
+		}
 	]
 }
 

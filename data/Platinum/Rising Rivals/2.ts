@@ -83,17 +83,23 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 278576,
-		tcgplayer: 83738
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278576,
+				tcgplayer: 83738
+			}
 		},
 		{
 			type: "reverse"
+		},
+		{
+			type: "holo",
+			cardmarketLabels: ["Aye", "419 Marsa Pebtrmon Mt Icg", "Lan Wwe Ame"],
+			thirdParty: {
+				cardmarket: 278569
+			}
 		}
 	]
 }

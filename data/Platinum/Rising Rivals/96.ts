@@ -20,14 +20,13 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	thirdParty: {
-		cardmarket: 278670,
-		tcgplayer: 89809
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278670,
+				tcgplayer: 89809
+			}
 		},
 		{
 			type: "reverse"
@@ -38,7 +37,10 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["tsubasa-nakamura"]
+			stamp: ["tsubasa-nakamura"],
+			thirdParty: {
+				cardmarket: 450413
+			}
 		},
 		{
 			type: "normal",

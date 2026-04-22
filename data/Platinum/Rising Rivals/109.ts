@@ -76,18 +76,19 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 278683,
-		tcgplayer: 86952
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86952
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["david-cohen"]
+			stamp: ["david-cohen"],
+			thirdParty: {
+				cardmarket: 278683
+			}
 		},
 		{
 			type: "normal",

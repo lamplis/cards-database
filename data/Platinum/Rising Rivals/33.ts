@@ -71,14 +71,13 @@ const card: Card = {
 
 	retreat: 4,
 
-	thirdParty: {
-		cardmarket: 278607,
-		tcgplayer: 89390
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278607,
+				tcgplayer: 89390
+			}
 		},
 		{
 			type: "reverse"
@@ -86,6 +85,13 @@ const card: Card = {
 		{
 			type: "reverse",
 			foil: "league"
+		},
+		{
+			type: "V2",
+			cardmarketLabels: ["The", "Tes", "Ts Nre X"],
+			thirdParty: {
+				cardmarket: 371543
+			}
 		}
 	]
 }

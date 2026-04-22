@@ -72,14 +72,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278582,
-		tcgplayer: 86888
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278582,
+				tcgplayer: 86888
+			}
 		},
 		{
 			type: "reverse"
@@ -91,7 +90,7 @@ const card: Card = {
 		{
 			type: "holo",
 			stamp: ["yuta-komatsuda"]
-		},
+		}
 	]
 }
 
