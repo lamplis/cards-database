@@ -26,20 +26,43 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless", "Colorless", "Colorless"],
+			cost: ["Fighting"],
 			name: {
-				en: "Claw Clash",
+				en: "Raging Claws",
+				fr: "Griffes Enragées",
+				es: "Garras Rabiosas",
+				it: "Artigli Furiosi",
+				pt: "Garras Furiosas",
+				de: "Rasende Klauen"
 			},
-			damage: 70,
+			damage: "20+",
+			effect: {
+				en: "This attack does 10 more damage for each damage counter on this Pokémon.",
+				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur ce Pokémon.",
+				es: "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
+				it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",
+				pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon.",
+				de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte mehr zu."
+			},
 		},
 		{
-			cost: ["Fighting", "Fighting", "Fighting", "Colorless"],
+			cost: ["Fighting", "Fighting", "Colorless"],
 			name: {
 				en: "Wild Impact",
+				fr: "Impact Sauvage",
+				es: "Impacto Salvaje",
+				it: "Impatto Selvaggio",
+				pt: "Impacto Selvagem",
+				de: "Wildeinschlag"
 			},
-			damage: 190,
+			damage: 130,
 			effect: {
-				en: "Discard 3 Energy from this Pokémon.",
+				en: "During your next turn, this Pokémon can't attack.",
+				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+				es: "Durante tu próximo turno, este Pokémon no puede atacar.",
+				it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+				pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+				de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 			},
 		},
 	],
@@ -53,15 +76,16 @@ const card: Card = {
 
 	retreat: 2,
 
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 802830,
-				tcgplayer: 614377
-			}
-		}
-	]
+	thirdParty: {
+		cardmarket: 802830
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

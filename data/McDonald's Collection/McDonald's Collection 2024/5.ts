@@ -26,18 +26,28 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Psychic"],
+			cost: ["Colorless"],
 			name: {
-				en: "Stampede",
+				en: "Mumble",
+				fr: "Murmure",
+				es: "Murmullo",
+				it: "Borbottio",
+				pt: "Murmúrio",
+				de: "Murmeln"
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				en: "Magical Shot",
+				en: "Psyshot",
+				fr: "Piqûre Psy",
+				es: "Disparo Psi",
+				it: "Psicosparo",
+				pt: "Tiro Psíquico",
+				de: "Psychoschuss"
 			},
-			damage: 30,
+			damage: 20,
 		},
 	],
 
@@ -57,15 +67,16 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 802827,
-				tcgplayer: 614374
-			}
-		}
-	]
+	thirdParty: {
+		cardmarket: 802827
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

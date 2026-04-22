@@ -28,13 +28,27 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				en: "Continuous Steps",
+				en: "Tackle",
+				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
-			effect: {
-				en: "Flip a coin until you get tails. This attack does 30 damage for each heads."
+			damage: 10,
+		},
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				en: "Bite",
+				fr: "Morsure",
+				es: "Mordisco",
+				it: "Morso",
+				pt: "Mordida",
+				de: "Biss"
 			},
-			damage: "30x",
-		}
+			damage: 20,
+		},
 	],
 
 	weaknesses: [
@@ -46,15 +60,16 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 802835,
-				tcgplayer: 614382
-			}
-		},
-	]
+	thirdParty: {
+		cardmarket: 802835
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card
