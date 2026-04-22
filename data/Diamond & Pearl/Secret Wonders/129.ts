@@ -20,17 +20,16 @@ const card: Card = {
 
 	energyType: "Special",
 
-	thirdParty: {
-		cardmarket: 277882,
-		tcgplayer: 84690
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277882,
+				tcgplayer: 84690
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

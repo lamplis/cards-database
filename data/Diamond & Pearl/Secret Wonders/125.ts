@@ -20,17 +20,16 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
-	thirdParty: {
-		cardmarket: 277878,
-		tcgplayer: 88815
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277878,
+				tcgplayer: 88815
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "reverse",
@@ -38,7 +37,10 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["paul-atanassov"]
+			stamp: ["paul-atanassov"],
+			thirdParty: {
+				cardmarket: 371549
+			}
 		},
 		{
 			type: "normal",

@@ -84,21 +84,27 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 277754,
-		tcgplayer: 83541
-	},
-
 	variants: [
 		{
-			type: "holo",
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277754,
+				tcgplayer: 83541
+			}
 		},
 		{
-			type: "reverse",
+			type: "holo"
+		},
+		{
+			type: "reverse"
 		},
 		{
 			type: "normal",
-		},
+			cardmarketLabels: ["Wcd Tristan Robinson", "Not Tournament Legal"],
+			thirdParty: {
+				cardmarket: 869293
+			}
+		}
 	]
 }
 

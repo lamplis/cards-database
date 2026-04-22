@@ -66,12 +66,16 @@ const card: Card = {
 
 	retreat: 1,
 
+
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277850
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

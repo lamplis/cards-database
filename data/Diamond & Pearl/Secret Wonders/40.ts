@@ -88,22 +88,21 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 277793,
-		tcgplayer: 90532
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277793,
+				tcgplayer: 90532
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "normal",
 			stamp: ["countdown-calendar"]
-		},
+		}
 	]
 }
 

@@ -20,17 +20,16 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
-	thirdParty: {
-		cardmarket: 277877,
-		tcgplayer: 88765
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277877,
+				tcgplayer: 88765
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

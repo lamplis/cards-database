@@ -70,22 +70,21 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 277831,
-		tcgplayer: 84049
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277831,
+				tcgplayer: 84049
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "normal",
 			stamp: ["countdown-calendar"]
-		},
+		}
 	]
 }
 

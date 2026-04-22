@@ -72,22 +72,21 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 277757,
-		tcgplayer: 85272
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277757,
+				tcgplayer: 85272
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "holo",
 			foil: "cracked-ice"
-		},
+		}
 	]
 }
 
