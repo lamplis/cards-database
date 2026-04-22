@@ -35,14 +35,12 @@ const card: Card = {
 		{
 			type: "normal",
 		thirdParty: {
-			cardmarket: 851192
-		},
+			cardmarket: 851192,
+			tcgplayer: 654460
+		}
 		},
 		{
-			type: "reverse",
-		thirdParty: {
-			cardmarket: 851192
-		},
+			type: "reverse"
 		},
 		{
 			type: "holo",
@@ -51,16 +49,10 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["player-rewards-program"],
-		thirdParty: {
-			cardmarket: 851192
-		},
+			stamp: ["player-rewards-program"]
 		}
 	],
 
-	thirdParty: {
-		tcgplayer: 654460
-	}
 }
 
 export default card

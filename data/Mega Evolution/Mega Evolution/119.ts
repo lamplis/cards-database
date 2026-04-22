@@ -35,14 +35,12 @@ const card: Card = {
 		{
 			type: "normal",
 		thirdParty: {
-			cardmarket: 851190
-		},
+			cardmarket: 851190,
+			tcgplayer: 654458
+		}
 		},
 		{
-			type: "reverse",
-		thirdParty: {
-			cardmarket: 851190
-		},
+			type: "reverse"
 		},
 		{
 			type: "holo",
@@ -51,30 +49,18 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["player-rewards-program"],
-		thirdParty: {
-			cardmarket: 851190
-		},
+			stamp: ["player-rewards-program"]
 		},
 		{
 			type: "normal",
-			stamp: ["regional-championships"],
-		thirdParty: {
-			cardmarket: 851190
-		},
+			stamp: ["regional-championships"]
 		},
 		{
 			type: "normal",
-			stamp: ["regional-championships", "staff"],
-		thirdParty: {
-			cardmarket: 851190
-		},
+			stamp: ["regional-championships", "staff"]
 		}
 	],
 
-	thirdParty: {
-		tcgplayer: 654458
-	}
 }
 
 export default card
