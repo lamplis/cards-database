@@ -23,7 +23,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279333,
+				tcgplayer: 87366
+			}
 		},
 		{
 			type: "reverse"
@@ -32,12 +36,15 @@ const card: Card = {
 			type: "reverse",
 			foil: "league"
 		},
+		{
+			type: "V2",
+			cardmarketLabels: ["Vee Sn", "Metal Enediy Es", "Some"],
+			thirdParty: {
+				cardmarket: 371566
+			}
+		}
 	],
 
-	thirdParty: {
-		cardmarket: 279333,
-		tcgplayer: 87366
-	}
 }
 
 export default card

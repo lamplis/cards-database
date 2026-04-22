@@ -23,7 +23,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279332,
+				tcgplayer: 84693
+			}
 		},
 		{
 			type: "reverse"
@@ -32,14 +36,17 @@ const card: Card = {
 			type: "reverse",
 			foil: "league"
 		},
+		{
+			type: "V2",
+			cardmarketLabels: ["The Pohimo Oath", "Dots More-D The", "Weokness And Read", "Darkness"],
+			thirdParty: {
+				cardmarket: 371568
+			}
+		}
 	],
 
 	hp: 0,
 
-	thirdParty: {
-		cardmarket: 279332,
-		tcgplayer: 84693
-	}
 }
 
 export default card
