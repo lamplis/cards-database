@@ -19,7 +19,8 @@ const card: Card = {
 	energyType: "Normal",
 
 	thirdParty: {
-		tcgplayer: 98184
+		tcgplayer: 98184,
+		cardmarket: 281947
 	}
 }
 
