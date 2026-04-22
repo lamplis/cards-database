@@ -82,14 +82,13 @@ const card: Card = {
 		fr: "Il se nourrit d'œufs volés dans des nids. Ses griffes crochues percent les défenses de l'ennemi."
 	},
 
-	thirdParty: {
-		cardmarket: 277599,
-		tcgplayer: 89369
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277599,
+				tcgplayer: 89369
+			}
 		},
 		{
 			type: "reverse"

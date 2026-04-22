@@ -79,14 +79,13 @@ const card: Card = {
 		fr: "Ils volent en nombre. Bien que minuscule, il bat des ailes avec une vigueur impressionnante."
 	},
 
-	thirdParty: {
-		cardmarket: 277600,
-		tcgplayer: 89520
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277600,
+				tcgplayer: 89520
+			}
 		},
 		{
 			type: "reverse"

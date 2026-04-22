@@ -84,14 +84,13 @@ const card: Card = {
 		fr: "Ce Pokémon nocturne est attiré par les lueurs de la ville et aime les feuilles des arbres urbains."
 	},
 
-	thirdParty: {
-		cardmarket: 277524,
-		tcgplayer: 85057
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277524,
+				tcgplayer: 85057
+			}
 		},
 		{
 			type: "reverse"

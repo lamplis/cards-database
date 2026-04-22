@@ -82,14 +82,13 @@ const card: Card = {
 		fr: "Cette brute arrogante n'hésite pas à voler le nid d'autres Pokémon pour s'y installer."
 	},
 
-	thirdParty: {
-		cardmarket: 277535,
-		tcgplayer: 88464
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277535,
+				tcgplayer: 88464
+			}
 		},
 		{
 			type: "reverse"

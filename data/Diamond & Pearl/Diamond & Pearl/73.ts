@@ -72,14 +72,13 @@ const card: Card = {
 		fr: "Il frappe l'ennemi en déroulant violemment ses oreilles. Cela peut faire pleurer un adulte."
 	},
 
-	thirdParty: {
-		cardmarket: 277572,
-		tcgplayer: 84037
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277572,
+				tcgplayer: 84037
+			}
 		},
 		{
 			type: "reverse"

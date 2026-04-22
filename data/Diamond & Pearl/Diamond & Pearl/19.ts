@@ -91,14 +91,13 @@ const card: Card = {
 		fr: "Il est très agressif. Il pique sa proie avec son long museau étroit et absorbe sa vitalité."
 	},
 
-	thirdParty: {
-		cardmarket: 277518,
-		tcgplayer: 83758
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277518,
+				tcgplayer: 83758
+			}
 		},
 		{
 			type: "reverse"

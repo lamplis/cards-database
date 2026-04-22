@@ -71,14 +71,13 @@ const card: Card = {
 		fr: "Un Pokémon qui vit près de l'eau. Au sol, il se déplace rapidement en rebondissant sur sa grosse queue"
 	},
 
-	thirdParty: {
-		cardmarket: 277568,
-		tcgplayer: 83690
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277568,
+				tcgplayer: 83690
+			}
 		},
 		{
 			type: "reverse"

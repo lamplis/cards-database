@@ -82,14 +82,13 @@ const card: Card = {
 		fr: "Il se tient toujours sur un pied. Il ne prend jamais appui sur les deux, même en cas d'attaque."
 	},
 
-	thirdParty: {
-		cardmarket: 277584,
-		tcgplayer: 86172
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277584,
+				tcgplayer: 86172
+			}
 		},
 		{
 			type: "reverse"

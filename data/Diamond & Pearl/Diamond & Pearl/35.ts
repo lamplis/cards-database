@@ -81,14 +81,13 @@ const card: Card = {
 		fr: "Il roule des boules de poils pleines d'électricité statique et les range dans des souches avec des Baies."
 	},
 
-	thirdParty: {
-		cardmarket: 277534,
-		tcgplayer: 87897
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277534,
+				tcgplayer: 87897
+			}
 		},
 		{
 			type: "reverse"

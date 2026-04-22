@@ -72,14 +72,13 @@ const card: Card = {
 		fr: "La coquille sur son dos est faite de terre. Elle durcit lorsqu'il s'abreuve. Il vit le long des lacs."
 	},
 
-	thirdParty: {
-		cardmarket: 277602,
-		tcgplayer: 90071
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277602,
+				tcgplayer: 90071
+			}
 		},
 		{
 			type: "reverse"
@@ -87,7 +86,10 @@ const card: Card = {
 		{
 			type: "normal",
 			size: "jumbo",
-			stamp: ["25th-celebration"]
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 547281
+			}
 		},
 		{
 			type: "reverse",

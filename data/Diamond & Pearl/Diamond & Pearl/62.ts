@@ -78,14 +78,13 @@ const card: Card = {
 		fr: "Il niche dans des rochers du ruisseau qu'il évide avec sa corne. Il donnerait sa vie pour ses œufs."
 	},
 
-	thirdParty: {
-		cardmarket: 277561,
-		tcgplayer: 89026
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277561,
+				tcgplayer: 89026
+			}
 		},
 		{
 			type: "reverse"

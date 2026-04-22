@@ -87,14 +87,13 @@ const card: Card = {
 		fr: "Le son de sa flûte d'herbe déstabilise l'auditeur. Il vit au plus profond des forêts."
 	},
 
-	thirdParty: {
-		cardmarket: 277556,
-		tcgplayer: 87825
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277556,
+				tcgplayer: 87825
+			}
 		},
 		{
 			type: "reverse"

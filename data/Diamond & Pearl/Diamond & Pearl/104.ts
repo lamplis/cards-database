@@ -75,14 +75,13 @@ const card: Card = {
 		fr: "Il adore manger des feuilles. Si un Etourmi l'attaque, il riposte avec les piquants de son postérieur."
 	},
 
-	thirdParty: {
-		cardmarket: 277603,
-		tcgplayer: 90651
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277603,
+				tcgplayer: 90651
+			}
 		},
 		{
 			type: "reverse"

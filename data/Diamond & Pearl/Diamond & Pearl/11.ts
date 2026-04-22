@@ -77,14 +77,13 @@ const card: Card = {
 		fr: "Il peut modeler l'espace. Les mythes de Sinnoh en parlent comme d'une divinité ancienne."
 	},
 
-	thirdParty: {
-		cardmarket: 277510,
-		tcgplayer: 87906
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277510,
+				tcgplayer: 87906
+			}
 		},
 		{
 			type: "reverse"

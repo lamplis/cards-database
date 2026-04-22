@@ -77,14 +77,13 @@ const card: Card = {
 		fr: "Son estomac peut digérer n'importe quel type de nourriture, même quand elle est moisie ou pourrie."
 	},
 
-	thirdParty: {
-		cardmarket: 277536,
-		tcgplayer: 89389
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277536,
+				tcgplayer: 89389
+			}
 		},
 		{
 			type: "reverse"

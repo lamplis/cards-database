@@ -78,14 +78,13 @@ const card: Card = {
 		fr: "Il ressemble à un gland pendu à une branche. Il adore effrayer les autres Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 277596,
-		tcgplayer: 89043
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277596,
+				tcgplayer: 89043
+			}
 		},
 		{
 			type: "reverse"

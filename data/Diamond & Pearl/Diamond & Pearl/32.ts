@@ -81,14 +81,13 @@ const card: Card = {
 		fr: "Il a développé son sixième sens grâce au yoga. Ses mouvements sont gracieux."
 	},
 
-	thirdParty: {
-		cardmarket: 277531,
-		tcgplayer: 87275
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277531,
+				tcgplayer: 87275
+			}
 		},
 		{
 			type: "reverse"

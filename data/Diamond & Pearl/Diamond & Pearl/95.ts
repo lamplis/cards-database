@@ -79,14 +79,13 @@ const card: Card = {
 		fr: "Sa peau est très épaisse et sa charge peut détruire un immeuble. Dommage qu'il soit stupide."
 	},
 
-	thirdParty: {
-		cardmarket: 277594,
-		tcgplayer: 88742
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277594,
+				tcgplayer: 88742
+			}
 		},
 		{
 			type: "reverse"

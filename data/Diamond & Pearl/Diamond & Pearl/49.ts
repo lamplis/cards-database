@@ -84,14 +84,13 @@ const card: Card = {
 		fr: "Il vit en forêt près de l'eau. En journée, il la quitte pour dorer sa carapace feuillue au soleil."
 	},
 
-	thirdParty: {
-		cardmarket: 277548,
-		tcgplayer: 85916
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277548,
+				tcgplayer: 85916
+			}
 		},
 		{
 			type: "reverse"

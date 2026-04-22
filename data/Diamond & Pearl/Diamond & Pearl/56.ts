@@ -79,14 +79,13 @@ const card: Card = {
 		fr: "Pour intimider ses agresseurs, il gonfle les flammes de sa queue pour paraître plus grand."
 	},
 
-	thirdParty: {
-		cardmarket: 277555,
-		tcgplayer: 87570
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277555,
+				tcgplayer: 87570
+			}
 		},
 		{
 			type: "reverse"

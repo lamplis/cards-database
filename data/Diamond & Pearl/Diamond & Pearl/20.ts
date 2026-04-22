@@ -81,14 +81,13 @@ const card: Card = {
 		fr: "Il construit des barrages de boue et d'écorce le long des fleuves. C'est un ouvrier de renom."
 	},
 
-	thirdParty: {
-		cardmarket: 277519,
-		tcgplayer: 83817
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277519,
+				tcgplayer: 83817
+			}
 		},
 		{
 			type: "reverse"

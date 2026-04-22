@@ -81,14 +81,13 @@ const card: Card = {
 		fr: "Son galop dépasse les 240 km/h. Il file comme une flèche, laissant flotter sa crinière ardente."
 	},
 
-	thirdParty: {
-		cardmarket: 277558,
-		tcgplayer: 88583
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277558,
+				tcgplayer: 88583
+			}
 		},
 		{
 			type: "reverse"

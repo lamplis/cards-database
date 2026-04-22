@@ -82,14 +82,13 @@ const card: Card = {
 		fr: "La petite boule renferme les délicieux nutriments sucrés dont il a besoin pour évoluer."
 	},
 
-	thirdParty: {
-		cardmarket: 277574,
-		tcgplayer: 84259
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277574,
+				tcgplayer: 84259
+			}
 		},
 		{
 			type: "reverse"

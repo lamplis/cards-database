@@ -72,14 +72,13 @@ const card: Card = {
 		fr: "Il nage élégamment en agitant sa nageoire caudale comme si c'était une robe. Il a l'allure d'une reine."
 	},
 
-	thirdParty: {
-		cardmarket: 277583,
-		tcgplayer: 85807
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277583,
+				tcgplayer: 85807
+			}
 		},
 		{
 			type: "reverse"

@@ -75,14 +75,13 @@ const card: Card = {
 		fr: "Il saisit sa proie avec les pinces de sa queue, lui injecte un poison et la retient jusqu'à ce qu'il agisse."
 	},
 
-	thirdParty: {
-		cardmarket: 277598,
-		tcgplayer: 89273
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277598,
+				tcgplayer: 89273
+			}
 		},
 		{
 			type: "reverse"

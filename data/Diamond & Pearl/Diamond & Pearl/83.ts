@@ -75,14 +75,13 @@ const card: Card = {
 		fr: "Il griffe quand il est en colère et ronronne quand il est heureux. Certains aiment ce côté lunatique."
 	},
 
-	thirdParty: {
-		cardmarket: 277582,
-		tcgplayer: 85758
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277582,
+				tcgplayer: 85758
+			}
 		},
 		{
 			type: "reverse"

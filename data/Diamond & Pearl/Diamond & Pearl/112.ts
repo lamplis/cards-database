@@ -20,14 +20,13 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
-	thirdParty: {
-		cardmarket: 277611,
-		tcgplayer: 88407
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277611,
+				tcgplayer: 88407
+			}
 		},
 		{
 			type: "reverse"
@@ -39,7 +38,7 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["professor-program"]
-		},
+		}
 	]
 }
 

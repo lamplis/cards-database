@@ -78,14 +78,13 @@ const card: Card = {
 		fr: "Un Pokémon qui en regroupe trois autres. Il est toujours occupé à apporter du nectar à Apireine."
 	},
 
-	thirdParty: {
-		cardmarket: 277578,
-		tcgplayer: 84392
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277578,
+				tcgplayer: 84392
+			}
 		},
 		{
 			type: "reverse"

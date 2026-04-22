@@ -78,14 +78,13 @@ const card: Card = {
 		fr: "Un Pokémon amical qui analyse les mouvements subtils de l'eau de mer grâce à ses deux antennes."
 	},
 
-	thirdParty: {
-		cardmarket: 277554,
-		tcgplayer: 87186
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277554,
+				tcgplayer: 87186
+			}
 		},
 		{
 			type: "reverse"

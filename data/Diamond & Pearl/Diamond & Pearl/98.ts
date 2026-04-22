@@ -65,29 +65,31 @@ const card: Card = {
 		fr: "Sa fourrure étincelle en cas de danger. Il profite du fait que l'ennemi est aveuglé pour s'enfuir."
 	},
 
-	thirdParty: {
-		cardmarket: 277597,
-		tcgplayer: 89172
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277597,
+				tcgplayer: 89172
+			}
 		},
 		{
 			type: "reverse"
 		},
 		{
 			type: "normal",
-			stamp: ["set-logo"]
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 450383
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["city-championships"],
+			stamp: ["city-championships"]
 		},
 		{
 			type: "normal",
-			stamp: ["city-championships","staff"],
+			stamp: ["city-championships","staff"]
 		}
 	]
 }

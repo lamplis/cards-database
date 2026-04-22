@@ -71,14 +71,13 @@ const card: Card = {
 		fr: "On dirait qu'il pleure constamment. En fait, il régule ses fluides corporels en éliminant le surplus."
 	},
 
-	thirdParty: {
-		cardmarket: 277570,
-		tcgplayer: 83936
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277570,
+				tcgplayer: 83936
+			}
 		},
 		{
 			type: "reverse"

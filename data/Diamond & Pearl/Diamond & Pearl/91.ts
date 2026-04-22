@@ -82,14 +82,13 @@ const card: Card = {
 		fr: "Il adore se faufiler derrière les gens la nuit pour les effrayer avec son cri strident."
 	},
 
-	thirdParty: {
-		cardmarket: 277590,
-		tcgplayer: 87506
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277590,
+				tcgplayer: 87506
+			}
 		},
 		{
 			type: "reverse"

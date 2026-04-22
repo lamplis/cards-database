@@ -54,14 +54,13 @@ const card: Card = {
 		fr: "Il muscle son corps en soulevant régulièrement un Gravalanch. Il est rompu à tous les arts martiaux."
 	},
 
-	thirdParty: {
-		cardmarket: 277585,
-		tcgplayer: 86995
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277585,
+				tcgplayer: 86995
+			}
 		},
 		{
 			type: "reverse"

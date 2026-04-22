@@ -88,14 +88,13 @@ const card: Card = {
 		fr: "Il bande ses muscles pour projeter des pierres ou des Racaillou depuis le creux de ses paumes."
 	},
 
-	thirdParty: {
-		cardmarket: 277511,
-		tcgplayer: 88745
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277511,
+				tcgplayer: 88745
+			}
 		},
 		{
 			type: "reverse"

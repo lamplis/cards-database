@@ -83,14 +83,13 @@ const card: Card = {
 		fr: "Il attire ses proies avec son doux parfum et les achève grâce aux fouets d'épines de ses bras."
 	},
 
-	thirdParty: {
-		cardmarket: 277512,
-		tcgplayer: 88826
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277512,
+				tcgplayer: 88826
+			}
 		},
 		{
 			type: "reverse"

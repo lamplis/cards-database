@@ -87,14 +87,13 @@ const card: Card = {
 		fr: "Il survole les forêts et les champs en quête de Pokémon Insecte. Ils forment de grandes volées."
 	},
 
-	thirdParty: {
-		cardmarket: 277563,
-		tcgplayer: 89513
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277563,
+				tcgplayer: 89513
+			}
 		},
 		{
 			type: "reverse"

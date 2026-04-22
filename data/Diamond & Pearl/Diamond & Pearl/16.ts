@@ -88,14 +88,13 @@ const card: Card = {
 		fr: "Un Pokémon sauvage qui a le courage de défier des ennemis beaucoup plus grands que lui."
 	},
 
-	thirdParty: {
-		cardmarket: 277515,
-		tcgplayer: 89508
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277515,
+				tcgplayer: 89508
+			}
 		},
 		{
 			type: "reverse"

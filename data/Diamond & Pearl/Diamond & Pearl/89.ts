@@ -75,14 +75,13 @@ const card: Card = {
 		fr: "Il ne mange qu'une Baie par jour. La faim lui a forgé une volonté de fer."
 	},
 
-	thirdParty: {
-		cardmarket: 277588,
-		tcgplayer: 87284
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277588,
+				tcgplayer: 87284
+			}
 		},
 		{
 			type: "reverse"

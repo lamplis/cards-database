@@ -70,14 +70,13 @@ const card: Card = {
 		fr: "Il escalade prestement les falaises escarpées et vit sur les sommets. Sa flamme s'éteint quand il dort."
 	},
 
-	thirdParty: {
-		cardmarket: 277575,
-		tcgplayer: 84282
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277575,
+				tcgplayer: 84282
+			}
 		},
 		{
 			type: "reverse"
@@ -85,7 +84,10 @@ const card: Card = {
 		{
 			type: "normal",
 			size: "jumbo",
-			stamp: ["25th-celebration"]
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 547286
+			}
 		},
 		{
 			type: "reverse",
@@ -98,7 +100,7 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["pokemon-day"]
-		},
+		}
 	]
 }
 

@@ -86,14 +86,13 @@ const card: Card = {
 		fr: "Il somnole la journée et s'envole en grands groupes le soir venu. Nul ne sait où ils vont."
 	},
 
-	thirdParty: {
-		cardmarket: 277523,
-		tcgplayer: 84943
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277523,
+				tcgplayer: 84943
+			}
 		},
 		{
 			type: "reverse"

@@ -80,14 +80,13 @@ const card: Card = {
 		fr: "Il s'accroche en enroulant sa soie autour des branches. Il reste immobile en attendant d'évoluer."
 	},
 
-	thirdParty: {
-		cardmarket: 277562,
-		tcgplayer: 89212
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277562,
+				tcgplayer: 89212
+			}
 		},
 		{
 			type: "reverse"

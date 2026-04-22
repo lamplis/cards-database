@@ -58,14 +58,13 @@ const card: Card = {
 		fr: "Il cherche désespérément à cacher sa queue noire. Certains pensent qu'elle renferme un secret."
 	},
 
-	thirdParty: {
-		cardmarket: 277540,
-		tcgplayer: 90620
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277540,
+				tcgplayer: 90620
+			}
 		},
 		{
 			type: "reverse"

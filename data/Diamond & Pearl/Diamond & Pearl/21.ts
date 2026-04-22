@@ -84,14 +84,13 @@ const card: Card = {
 		fr: "Il attire sa proie avec sa salive odorante avant de la croquer. Il lui faut une journée pour l'avaler."
 	},
 
-	thirdParty: {
-		cardmarket: 277520,
-		tcgplayer: 84099
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277520,
+				tcgplayer: 84099
+			}
 		},
 		{
 			type: "reverse"

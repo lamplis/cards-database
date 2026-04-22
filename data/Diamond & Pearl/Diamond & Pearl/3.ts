@@ -89,25 +89,29 @@ const card: Card = {
 		fr: "Il place le bout de ses deux queues sur son ennemi et libère une décharge de 20 000 volts."
 	},
 
-	thirdParty: {
-		cardmarket: 277502,
-		tcgplayer: 85121
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 85121
+			}
 		},
 		{
 			type: "reverse"
 		},
 		{
 			type: "normal",
-			stamp: ["regional-championships"]
+			stamp: ["regional-championships"],
+			thirdParty: {
+				cardmarket: 277502
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["regional-championships","staff"]
+			stamp: ["regional-championships","staff"],
+			thirdParty: {
+				cardmarket: 449463
+			}
 		}
 	]
 }

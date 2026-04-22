@@ -88,14 +88,13 @@ const card: Card = {
 		fr: "Ils vivent par groupe de 4 ou 5 en région froide et chassent de façon très organisée."
 	},
 
-	thirdParty: {
-		cardmarket: 277539,
-		tcgplayer: 90531
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277539,
+				tcgplayer: 90531
+			}
 		},
 		{
 			type: "reverse"

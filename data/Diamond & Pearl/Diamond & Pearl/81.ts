@@ -84,14 +84,13 @@ const card: Card = {
 		fr: "Ce Pokémon dévore l'électricité des centrales. Il est responsable de la majorité des coupures de courant."
 	},
 
-	thirdParty: {
-		cardmarket: 277580,
-		tcgplayer: 85114
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277580,
+				tcgplayer: 85114
+			}
 		},
 		{
 			type: "reverse"

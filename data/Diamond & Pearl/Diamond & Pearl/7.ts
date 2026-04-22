@@ -85,21 +85,23 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 277506,
-		tcgplayer: 86946
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277506,
+				tcgplayer: 86946
+			}
 		},
 		{
 			type: "reverse"
 		},
 		{
 			type: "holo",
-			stamp: ["national-championships"]
+			stamp: ["national-championships"],
+			thirdParty: {
+				cardmarket: 449898
+			}
 		},
 		{
 			type: "holo",

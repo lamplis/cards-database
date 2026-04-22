@@ -90,14 +90,13 @@ const card: Card = {
 		fr: "Son cerveau s'est développé depuis qu'il tient debout. Sa corne peut traverser la pierre la plus dure."
 	},
 
-	thirdParty: {
-		cardmarket: 277559,
-		tcgplayer: 88734
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277559,
+				tcgplayer: 88734
+			}
 		},
 		{
 			type: "reverse"

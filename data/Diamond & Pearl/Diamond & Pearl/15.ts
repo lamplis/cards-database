@@ -89,14 +89,13 @@ const card: Card = {
 		fr: "Il attaque en projetant un liquide fétide du bout de sa queue. Il peut tirer à 50 mètres."
 	},
 
-	thirdParty: {
-		cardmarket: 277514,
-		tcgplayer: 89279
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277514,
+				tcgplayer: 89279
+			}
 		},
 		{
 			type: "reverse"

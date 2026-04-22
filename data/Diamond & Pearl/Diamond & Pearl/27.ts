@@ -87,14 +87,13 @@ const card: Card = {
 		fr: "On dit que lorsqu'Ectoplasma se cache dans l'ombre, la température alentour chute de 5°C."
 	},
 
-	thirdParty: {
-		cardmarket: 277526,
-		tcgplayer: 85675
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277526,
+				tcgplayer: 85675
+			}
 		},
 		{
 			type: "reverse"

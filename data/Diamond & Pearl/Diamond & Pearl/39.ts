@@ -88,14 +88,13 @@ const card: Card = {
 		fr: "Son abdomen est un rayon où vivent ses larves, élevées avec le nectar récolté par Apitrini."
 	},
 
-	thirdParty: {
-		cardmarket: 277538,
-		tcgplayer: 90327
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277538,
+				tcgplayer: 90327
+			}
 		},
 		{
 			type: "reverse"

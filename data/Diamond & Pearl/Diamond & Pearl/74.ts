@@ -81,14 +81,13 @@ const card: Card = {
 		fr: "On peut lui enseigner quelques mots. S'il s'agit d'un groupe, ils retiendront les mêmes phrases."
 	},
 
-	thirdParty: {
-		cardmarket: 277573,
-		tcgplayer: 84239
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277573,
+				tcgplayer: 84239
+			}
 		},
 		{
 			type: "reverse"

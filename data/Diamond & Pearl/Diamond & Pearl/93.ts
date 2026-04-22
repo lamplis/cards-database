@@ -70,14 +70,13 @@ const card: Card = {
 		fr: "Il est fier et déteste accepter la nourriture qu'on lui offre. Son pelage épais le protège du froid."
 	},
 
-	thirdParty: {
-		cardmarket: 277592,
-		tcgplayer: 88142
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277592,
+				tcgplayer: 88142
+			}
 		},
 		{
 			type: "reverse"
@@ -85,7 +84,10 @@ const card: Card = {
 		{
 			type: "normal",
 			size: "jumbo",
-			stamp: ["25th-celebration"]
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 547291
+			}
 		},
 		{
 			type: "reverse",

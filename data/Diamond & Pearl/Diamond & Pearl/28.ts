@@ -76,14 +76,13 @@ const card: Card = {
 		fr: "Il arpente la forêt en quête de sève, son mets favori. Il est assez fort pour projeter l'ennemi."
 	},
 
-	thirdParty: {
-		cardmarket: 277527,
-		tcgplayer: 86064
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277527,
+				tcgplayer: 86064
+			}
 		},
 		{
 			type: "reverse"

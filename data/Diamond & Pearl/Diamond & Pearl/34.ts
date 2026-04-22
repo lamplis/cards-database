@@ -88,14 +88,13 @@ const card: Card = {
 		fr: "Ses yeux sont particuliers. La plus petite source de lumière leur permet de distinguer les objets."
 	},
 
-	thirdParty: {
-		cardmarket: 277533,
-		tcgplayer: 87793
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277533,
+				tcgplayer: 87793
+			}
 		},
 		{
 			type: "reverse"
