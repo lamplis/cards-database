@@ -70,13 +70,17 @@ const card: Card = {
 		fr: "En apprenant à voler, Pikachu a surpassé sa faiblesse contre le Pokémon Combat."
 	},
 
+
 	variants: [
 		{
 			type: "normal",
-			stamp: ["pikachu-tail"]
+			thirdParty: {
+				cardmarket: 275444
+			}
 		},
 		{
 			type: "normal",
+			stamp: ["pikachu-tail"]
 		}
 	]
 }

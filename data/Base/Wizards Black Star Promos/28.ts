@@ -51,13 +51,17 @@ const card: Card = {
 		fr: "L'été, on aperçoit souvent des bandes de Pikachu surfant sur les vagues."
 	},
 
+
 	variants: [
 		{
 			type: "normal",
-			stamp: ["pikachu-tail"]
+			thirdParty: {
+				cardmarket: 275447
+			}
 		},
 		{
 			type: "normal",
+			stamp: ["pikachu-tail"]
 		}
 	]
 }

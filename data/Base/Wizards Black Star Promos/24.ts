@@ -55,14 +55,18 @@ const card: Card = {
 		fr: "Votre anniversaire : _________________________________________"
 	},
 
+
 	variants: [
 		{
 			type: "holo",
-			stamp: ["pikachu-tail"]
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 275443
+			}
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
+			stamp: ["pikachu-tail"]
 		}
 	]
 }

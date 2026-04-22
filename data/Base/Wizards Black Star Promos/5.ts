@@ -76,9 +76,13 @@ const card: Card = {
 		fr: "Ce Pokémon peut voler malgré sa taille imposante. On le dit capable de faire le tour de la Terre en 16 heures à peine."
 	},
 
+
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275424
+			}
 		},
 		{
 			type: "normal",

@@ -68,10 +68,14 @@ const card: Card = {
 		fr: "Unique et rare, son existence est remise en cause par les experts. Peu nombreux sont ceux qui l'ont vu."
 	},
 
+
 	variants: [
 		{
 			type: "holo",
-		},
+			thirdParty: {
+				cardmarket: 275428
+			}
+		}
 	]
 }
 

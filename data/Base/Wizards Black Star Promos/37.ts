@@ -71,9 +71,13 @@ const card: Card = {
 		fr: "Il lance des coups de pieds tournant. S'il tournoie assez vite, il peut s'enfoncer dans le sol."
 	},
 
+
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275456
+			}
 		}
 	]
 }

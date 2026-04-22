@@ -68,9 +68,13 @@ const card: Card = {
 		fr: "Il adore mordre et tirer les cheveux des gens par surprise, rien que pour voir leur expression horrifiée."
 	},
 
+
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275458
+			}
 		}
 	]
 }

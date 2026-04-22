@@ -66,13 +66,17 @@ const card: Card = {
 		fr: "Il utilise sa queue sensible pour explorer son environnement et réagit violemment si on l'attrape par la queue."
 	},
 
+
 	variants: [
 		{
 			type: "normal",
-			stamp: ["pikachu-tail"]
+			thirdParty: {
+				cardmarket: 275445
+			}
 		},
 		{
 			type: "normal",
+			stamp: ["pikachu-tail"]
 		}
 	]
 }

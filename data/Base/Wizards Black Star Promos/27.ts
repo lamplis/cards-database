@@ -57,13 +57,17 @@ const card: Card = {
 		},
 	],
 
+
 	variants: [
 		{
 			type: "normal",
-			stamp: ["pikachu-tail"]
+			thirdParty: {
+				cardmarket: 275446
+			}
 		},
 		{
 			type: "normal",
+			stamp: ["pikachu-tail"]
 		}
 	]
 }

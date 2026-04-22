@@ -57,13 +57,20 @@ const card: Card = {
 		},
 	],
 
+
 	variants: [
 		{
 			type: "holo",
-			foil: "cosmos"
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 576708
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275430
+			}
 		}
 	]
 }

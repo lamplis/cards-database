@@ -45,9 +45,13 @@ const card: Card = {
 		fr: "À cause de son étrange forme en étoile, les gens pensent qu'il est arrivé ici sur un météore."
 	},
 
+
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275450
+			}
 		}
 	]
 }

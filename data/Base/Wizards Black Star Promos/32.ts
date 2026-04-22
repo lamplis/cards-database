@@ -59,9 +59,13 @@ const card: Card = {
 		fr: "À l'âge adulte, il a tendance à laisser ses camarades imprimer leurs empreintes sur son dos."
 	},
 
+
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275451
+			}
 		}
 	]
 }

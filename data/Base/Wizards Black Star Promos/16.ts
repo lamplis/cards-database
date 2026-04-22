@@ -11,9 +11,13 @@ const card: Card = {
 
 	set: Set,
 
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275435
+			}
 		}
 	]
 }

@@ -62,9 +62,13 @@ const card: Card = {
 		},
 	],
 
+
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275468
+			}
 		}
 	]
 }

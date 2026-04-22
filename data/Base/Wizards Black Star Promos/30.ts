@@ -67,9 +67,13 @@ const card: Card = {
 		fr: "Même si ce n'est qu'un poussin, il utilise un poison pour repousser ses ennemis quand il se sent menacé."
 	},
 
+
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275449
+			}
 		}
 	]
 }

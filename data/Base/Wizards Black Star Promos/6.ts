@@ -75,10 +75,14 @@ const card: Card = {
 		fr: "Un Pokémon légendaire réputé pour sa beauté. Il galope si vite qu'il semble voler."
 	},
 
+
 	variants: [
 		{
 			type: "normal",
-		},
+			thirdParty: {
+				cardmarket: 275425
+			}
+		}
 	]
 }
 

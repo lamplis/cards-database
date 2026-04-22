@@ -50,10 +50,21 @@ const card: Card = {
 		},
 	],
 
+
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275429
+			}
 		},
+		{
+			type: "V2",
+			cardmarketLabels: ["Non-Holo"],
+			thirdParty: {
+				cardmarket: 576707
+			}
+		}
 	]
 }
 

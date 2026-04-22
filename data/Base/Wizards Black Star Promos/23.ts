@@ -55,9 +55,13 @@ const card: Card = {
 		fr: "Ce Pokémon légendaire est connu pour se montrer partout où il y a un orage."
 	},
 
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275442
+			}
 		},
 		{
 			type: "normal",

@@ -55,9 +55,13 @@ const card: Card = {
 		fr: "On prétend que ce Pokémon légendaire refroidit l'eau contenue dans l'air en hiver, au point de provoquer des chutes de neige."
 	},
 
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275441
+			}
 		},
 		{
 			type: "normal",

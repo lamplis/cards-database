@@ -45,9 +45,13 @@ const card: Card = {
 		fr: "Bien qu'il ne soit pas encore très doué pour stocker l'électricité, il peut tout de même envoyer de petites secousses s'il est amusé ou surpris."
 	},
 
+
 	variants: [
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275454
+			}
 		}
 	]
 }

@@ -67,9 +67,17 @@ const card: Card = {
 		fr: "Alors qu'il trompe ses ennemis avec son air niais, ce Pokémon rusé utilise des pouvoirs psychokinésiques."
 	},
 
+
 	variants: [
 		{
 			type: "normal"
+		},
+		{
+			type: "V1",
+			cardmarketLabels: ["Pokeball Reverse"],
+			thirdParty: {
+				cardmarket: 275439
+			}
 		}
 	]
 }
