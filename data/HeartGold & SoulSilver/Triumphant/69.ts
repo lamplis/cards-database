@@ -75,6 +75,10 @@ const card: Card = {
 		en: "Although not very combative, it will torment its foes with poison spikes if it is threatened in any way."
 	},
 
+	thirdParty: {
+		cardmarket: 279599
+	},
+
 	variants: {
 		normal: true,
 		reverse: true,

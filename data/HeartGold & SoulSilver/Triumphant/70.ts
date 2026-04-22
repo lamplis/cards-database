@@ -72,6 +72,10 @@ const card: Card = {
 		en: "It raises its big ears to check its surroundings. It will strike first if it senses any danger."
 	},
 
+	thirdParty: {
+		cardmarket: 279600
+	},
+
 	variants: {
 		normal: true,
 		reverse: true,
