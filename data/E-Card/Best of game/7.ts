@@ -29,18 +29,20 @@ const card: Card = {
 		}
 	}],
 
-	thirdParty: {
-		cardmarket: 275417,
-		tcgplayer: 84666
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275417,
+				tcgplayer: 84666
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["winner"]
+			stamp: ["winner"],
+			thirdParty: {
+				cardmarket: 283085
+			}
 		},
 		{
 			type: "normal",

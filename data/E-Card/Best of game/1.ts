@@ -47,26 +47,31 @@ const card: Card = {
 		}
 	}],
 
-	thirdParty: {
-		cardmarket: 275411,
-		tcgplayer: 85106
-	},
-
 	variants: [
 		{
 			type: "reverse",
-			foil: "cosmos"
-		},
-		{
-			type: "reverse",
 			foil: "cosmos",
-			stamp: ["winner"]
+			thirdParty: {
+				cardmarket: 275411,
+				tcgplayer: 85106
+			}
 		},
 		{
 			type: "reverse",
 			foil: "cosmos",
 			stamp: ["winner"],
-			size: "jumbo"
+			thirdParty: {
+				cardmarket: 283081
+			}
+		},
+		{
+			type: "reverse",
+			foil: "cosmos",
+			stamp: ["winner"],
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 362860
+			}
 		}
 	]
 }

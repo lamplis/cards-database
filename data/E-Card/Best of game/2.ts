@@ -39,26 +39,45 @@ const card: Card = {
 		damage: 40
 	}],
 
-	thirdParty: {
-		cardmarket: 275412,
-		tcgplayer: 86098
-	},
-
 	variants: [
 		{
 			type: "reverse",
-			foil: "cosmos"
-		},
-		{
-			type: "reverse",
 			foil: "cosmos",
-			stamp: ["winner"]
+			thirdParty: {
+				cardmarket: 275421,
+				tcgplayer: 86098
+			}
 		},
 		{
 			type: "reverse",
 			foil: "cosmos",
 			stamp: ["winner"],
-			size: "jumbo"
+			thirdParty: {
+				cardmarket: 275412
+			}
+		},
+		{
+			type: "reverse",
+			foil: "cosmos",
+			stamp: ["winner"],
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 283082
+			}
+		},
+		{
+			type: "V3",
+			cardmarketLabels: ["Maree", "Attention Oversized Card", "Not Tournament Legal"],
+			thirdParty: {
+				cardmarket: 362861
+			}
+		},
+		{
+			type: "V3",
+			cardmarketLabels: ["Eee", "Attention Oversized Card", "Not Tournament Legal"],
+			thirdParty: {
+				cardmarket: 362863
+			}
 		}
 	]
 }

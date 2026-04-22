@@ -39,13 +39,20 @@ const card: Card = {
 		}
 	}],
 
+
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275415
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["winner"]
+			stamp: ["winner"],
+			thirdParty: {
+				cardmarket: 280571
+			}
 		},
 		{
 			type: "normal",
