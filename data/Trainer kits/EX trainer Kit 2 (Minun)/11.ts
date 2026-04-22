@@ -14,6 +14,10 @@ const card: Card = {
 	set: Set,
 	stage: "Basic",
 	energyType: "Normal",
+
+	thirdParty: {
+		cardmarket: 277197
+	}
 }
 
 export default card
