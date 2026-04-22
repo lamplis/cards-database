@@ -81,15 +81,14 @@ const card: Card = {
 		fr: "Se déplace en colonies dans les endroits sombres. Il se déplace grâce aux ultrasons."
 	},
 
-	thirdParty: {
-		cardmarket: 273918,
-		tcgplayer: 44459
-	},
-
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273918,
+				tcgplayer: 44459
+			}
 		},
 		{
 			type: "normal",

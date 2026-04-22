@@ -18,15 +18,14 @@ const card: Card = {
 		de: "Mische deine hand in dein Deck. Wirf eine Münze. Bei 'Kopf' ziehe acht Karten. Bei 'Zahl' ziehe eine Karte."
 	},
 
-	thirdParty: {
-		cardmarket: 273921,
-		tcgplayer: 44462
-	},
-
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273921,
+				tcgplayer: 44462
+			}
 		},
 		{
 			type: "normal",

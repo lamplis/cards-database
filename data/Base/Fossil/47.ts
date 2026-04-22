@@ -57,15 +57,14 @@ const card: Card = {
 		fr: "Il vit dans les plaines et les montagnes. On le confond souvent avec un petit caillou."
 	},
 
-	thirdParty: {
-		cardmarket: 273908,
-		tcgplayer: 44449
-	},
-
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273908,
+				tcgplayer: 44449
+			}
 		},
 		{
 			type: "normal",

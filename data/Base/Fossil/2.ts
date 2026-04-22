@@ -78,21 +78,26 @@ const card: Card = {
 		fr: "Le légendaire oiseau des glaces. On dit qu'il apparaît aux gens perdus dans les sommets."
 	},
 
-	thirdParty: {
-		cardmarket: 273863,
-		tcgplayer: 106518
-	},
-
 	variants: [
 		{
 			type: "holo",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				tcgplayer: 106518
+			}
 		},
 		{
 			type: "holo",
 			stamp: ["1st-edition"],
 			foil: "galaxy"
 		},
+		{
+			type: "V1",
+			cardmarketLabels: ["Cosmos Holo"],
+			thirdParty: {
+				cardmarket: 273863
+			}
+		}
 	]
 }
 

@@ -71,15 +71,14 @@ const card: Card = {
 		fr: "S'il est pressé, ses jambes s'allongent progressivement. Il court alors très rapidement."
 	},
 
-	thirdParty: {
-		cardmarket: 273868,
-		tcgplayer: 44430
-	},
-
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273883,
+				tcgplayer: 44430
+			}
 		},
 		{
 			type: "normal",

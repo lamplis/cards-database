@@ -74,15 +74,14 @@ const card: Card = {
 		fr: "Ce Pokémon en voie d'extinction peut transporter des passagers sur son dos par-delà les océans."
 	},
 
-	thirdParty: {
-		cardmarket: 273871,
-		tcgplayer: 106527
-	},
-
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273886,
+				tcgplayer: 106527
+			}
 		},
 		{
 			type: "normal",

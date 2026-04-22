@@ -83,15 +83,14 @@ const card: Card = {
 		fr: "Il se roule en boule hérissée de piques s'il est menacé. Il peut ainsi s'enfuir ou attaquer."
 	},
 
-	thirdParty: {
-		cardmarket: 273902,
-		tcgplayer: 44443
-	},
-
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273902,
+				tcgplayer: 44443
+			}
 		},
 		{
 			type: "normal",

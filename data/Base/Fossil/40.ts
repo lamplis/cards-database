@@ -80,15 +80,14 @@ const card: Card = {
 		fr: "Un Pokémon préhistorique qui disparut quand sa coquille devint trop lourde à déplacer."
 	},
 
-	thirdParty: {
-		cardmarket: 273901,
-		tcgplayer: 44442
-	},
-
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273901,
+				tcgplayer: 44442
+			}
 		},
 		{
 			type: "normal",

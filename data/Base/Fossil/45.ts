@@ -83,15 +83,14 @@ const card: Card = {
 		fr: "Deux Smogo peuvent se combiner en un Smogogo en combinant leurs gaz."
 	},
 
-	thirdParty: {
-		cardmarket: 273906,
-		tcgplayer: 44447
-	},
-
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273906,
+				tcgplayer: 44447
+			}
 		},
 		{
 			type: "normal",

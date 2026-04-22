@@ -78,15 +78,14 @@ const card: Card = {
 		fr: "Le légendaire oiseau des glaces. On dit qu'il apparaît aux gens perdus dans les sommets."
 	},
 
-	thirdParty: {
-		cardmarket: 273863,
-		tcgplayer: 44425
-	},
-
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273863,
+				tcgplayer: 44425
+			}
 		},
 		{
 			type: "normal",

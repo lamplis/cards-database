@@ -69,15 +69,14 @@ const card: Card = {
 		fr: "Ses pinces ne sont pas seulenent de puissante armes, elles lui servent à conserver son équilibre quand il narche de travers."
 	},
 
-	thirdParty: {
-		cardmarket: 273912,
-		tcgplayer: 44453
-	},
-
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273912,
+				tcgplayer: 44453
+			}
 		},
 		{
 			type: "normal",

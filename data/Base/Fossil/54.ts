@@ -71,15 +71,14 @@ const card: Card = {
 		fr: "Protégé par une carapace très résistante, il est vulnérable quand celle-ci s'ouvre."
 	},
 
-	thirdParty: {
-		cardmarket: 273915,
-		tcgplayer: 44456
-	},
-
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273915,
+				tcgplayer: 44456
+			}
 		},
 		{
 			type: "normal",

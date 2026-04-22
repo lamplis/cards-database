@@ -64,21 +64,20 @@ const card: Card = {
 		fr: "Il doit garder sa queue en contact avec le sol pour éviter toute électrocution."
 	},
 
-	thirdParty: {
-		cardmarket: 273875,
-		tcgplayer: 44423
-	},
-
 	variants: [
 		{
 			type: "holo",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273875,
+				tcgplayer: 44423
+			}
 		},
 		{
 			type: "holo",
 			stamp: ["1st-edition"],
 			foil: "galaxy"
-		},
+		}
 	]
 }
 

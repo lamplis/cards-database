@@ -72,15 +72,14 @@ const card: Card = {
 		fr: "Vivant dans les tas d'ordures, il se nourrit des déchets polluants rejetés par les usines."
 	},
 
-	thirdParty: {
-		cardmarket: 273909,
-		tcgplayer: 44450
-	},
-
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273909,
+				tcgplayer: 44450
+			}
 		},
 		{
 			type: "normal",
