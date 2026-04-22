@@ -35,7 +35,7 @@ export async function cardToCardSimple(id: string, card: Card, lang: SupportedLa
 	}
 }
 
-function variantsDetailedToVariants(variants_detailed: Array<variant_detailed>): CardSingle['variants'] {
+export function variantsDetailedToVariants(variants_detailed: Array<variant_detailed>): CardSingle['variants'] {
 	return {
 		firstEdition: variants_detailed?.some((variant) => variant.stamp?.some((stamp) => stamp === '1st-edition')) ?? false,
 		holo: variants_detailed?.some((variant) => variant.type === 'holo') ?? false,
@@ -45,7 +45,7 @@ function variantsDetailedToVariants(variants_detailed: Array<variant_detailed>):
 	}
 }
 
-function variantsToVariantsDetailed(variants: CardSingle['variants'],lang: SupportedLanguages): Array<ApiVariantDetailed> {
+export function variantsToVariantsDetailed(variants: CardSingle['variants'],lang: SupportedLanguages): Array<ApiVariantDetailed> {
 	const result: Array<ApiVariantDetailed> = [];
 	const addVariant = (type: string, stamps: string[] = []) => {
 		result.push({
