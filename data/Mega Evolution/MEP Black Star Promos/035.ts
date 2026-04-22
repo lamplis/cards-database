@@ -50,7 +50,11 @@ const card: Card = {
 	}],
 
 	retreat: 4,
-	regulationMark: "J"
+	regulationMark: "J",
+
+	thirdParty: {
+		cardmarket: 873719
+	}
 }
 
 export default card

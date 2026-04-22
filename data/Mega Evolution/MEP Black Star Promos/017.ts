@@ -67,20 +67,22 @@ const card: Card = {
 
 	illustrator: "Krgc",
 
-	thirdParty: {
-        tcgplayer: 663193,
-        cardmarket: 857400
-	},
-
     variants: [
 		{
 			type: "holo",
-			stamp: ["set-logo"]
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 857400,
+				tcgplayer: 663193
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["set-logo","staff"]
-		},
+			stamp: ["set-logo","staff"],
+			thirdParty: {
+				cardmarket: 859018
+			}
+		}
     ]
 }
 

@@ -73,17 +73,20 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 654597,
-		cardmarket: 851047
-	},
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 851055,
+				tcgplayer: 654597
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["pokemon-center"]
+			stamp: ["pokemon-center"],
+			thirdParty: {
+				cardmarket: 851056
+			}
 		}
 	]
 }

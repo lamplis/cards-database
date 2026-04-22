@@ -28,11 +28,15 @@ const card: Card = {
 		pt: "Uma vez durante o turno de cada jogador, aquele jogador poderá curar 10 pontos de dano de cada um dos seus próprios Pokémon. Se um jogador curar qualquer dano desta forma, o turno dele acabará."
 	},
 
+
 	variants: [
 		{
 			type: "holo",
-			stamp: ["ace-trainer"]
-		},
+			stamp: ["ace-trainer"],
+			thirdParty: {
+				cardmarket: 850977
+			}
+		}
 	]
 }
 

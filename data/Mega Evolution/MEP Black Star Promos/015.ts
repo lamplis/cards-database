@@ -52,20 +52,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Shiburingaru",
 
-	thirdParty: {
-        tcgplayer: 663189,
-        cardmarket: 857393
-	},
-
     variants: [
 		{
 			type: "holo",
-			stamp: ["set-logo"]
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 857393,
+				tcgplayer: 663189
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["set-logo","staff"]
-		},
+			stamp: ["set-logo","staff"],
+			thirdParty: {
+				cardmarket: 859015
+			}
+		}
     ]
 }
 

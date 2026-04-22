@@ -67,20 +67,22 @@ const card: Card = {
 
 	illustrator: "Oswaldo KATO",
 
-	thirdParty: {
-        tcgplayer: 663191,
-        cardmarket: 857396
-	},
-
     variants: [
 		{
 			type: "holo",
-			stamp: ["set-logo"]
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 857396,
+				tcgplayer: 663191
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["set-logo","staff"]
-		},
+			stamp: ["set-logo","staff"],
+			thirdParty: {
+				cardmarket: 859016
+			}
+		}
     ]
 }
 
