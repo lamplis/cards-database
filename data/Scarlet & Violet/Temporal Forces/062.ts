@@ -62,7 +62,10 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 761971
+			}
 		},
 		{
 			type: "reverse"
@@ -72,15 +75,22 @@ const card: Card = {
 			foil: "cosmos"
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760692
+			}
+		},
+		{
+			type: "V3",
+			cardmarketLabels: ["Lariat", "Gaton"],
+			thirdParty: {
+				cardmarket: 821592
+			}
 		}
 	],
 
 	illustrator: "Takeshi Nakamura",
 
-	thirdParty: {
-		cardmarket: 760692
-	}
 }
 
 export default card

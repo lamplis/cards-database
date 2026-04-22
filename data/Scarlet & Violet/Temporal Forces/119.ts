@@ -71,14 +71,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 804337
+			}
 		},
 		{
 			type: "reverse"
 		},
 		{
 			type: "normal",
-			stamp: ["set-logo"]
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 761974
+			}
 		},
 		{ 
 			type: "holo",
@@ -86,26 +92,35 @@ const card: Card = {
 		},
 		{ 
 			type: "normal",
-			stamp: ["eb-games"]
+			stamp: ["eb-games"],
+			thirdParty: {
+				cardmarket: 761962
+			}
 		},
 		{ 
 			type: "normal",
-			stamp: ["gamestop"]
+			stamp: ["gamestop"],
+			thirdParty: {
+				cardmarket: 762531
+			}
 		},
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 760749
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["player-rewards-program"]
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 762532
+			}
 		}
 	],
 
 	illustrator: "Teeziro",
 
-	thirdParty: {
-		cardmarket: 760749
-	}
 }
 
 export default card

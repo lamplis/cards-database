@@ -47,26 +47,35 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760681
+			}
 		},
 		{
 			type: "reverse"
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 800144
+			}
 		},
 		{
 			type: "reverse",
 			stamp: ["pokemon-day"]
+		},
+		{
+			type: "V3",
+			thirdParty: {
+				cardmarket: 870424
+			}
 		}
 	],
 
 	illustrator: "kodama",
 
-	thirdParty: {
-		cardmarket: 760681
-	}
 }
 
 export default card

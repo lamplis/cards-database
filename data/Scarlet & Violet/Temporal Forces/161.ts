@@ -30,10 +30,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760791
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "reverse",
@@ -43,12 +46,9 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["player-rewards-program"]
-		},
+		}
 	],
 
-	thirdParty: {
-		cardmarket: 760791
-	}
 }
 
 export default card

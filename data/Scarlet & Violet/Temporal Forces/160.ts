@@ -30,10 +30,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760790
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "normal",
@@ -43,9 +46,6 @@ const card: Card = {
 
 	illustrator: "Ryuta Fuse",
 
-	thirdParty: {
-		cardmarket: 760790
-	}
 }
 
 export default card

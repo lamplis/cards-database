@@ -30,7 +30,10 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760778
+			}
 		},
 		{
 			type: "reverse"
@@ -44,9 +47,6 @@ const card: Card = {
 
 	illustrator: "AYUMI ODASHIMA",
 
-	thirdParty: {
-		cardmarket: 760778
-	}
 }
 
 export default card

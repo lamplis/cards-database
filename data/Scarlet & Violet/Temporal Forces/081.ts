@@ -69,15 +69,24 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760711
+			}
 		},
 		{
 			type: "holo",
-			size: "jumbo"
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 762530
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["player-rewards-program"]
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 855027
+			}
 		},
 		{
 			type: "holo",
@@ -88,9 +97,6 @@ const card: Card = {
 
 	illustrator: "5ban Graphics",
 
-	thirdParty: {
-		cardmarket: 760711
-	}
 }
 
 export default card

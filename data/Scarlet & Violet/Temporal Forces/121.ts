@@ -62,21 +62,33 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 761963
+			}
 		},
 		{
 			type: "reverse"
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
-		},
-		{
-			type: "normal"
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 804338
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["player-rewards-program"]
+			thirdParty: {
+				cardmarket: 760751
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 761975
+			}
 		},
 		{
 			type: "normal",
@@ -86,9 +98,6 @@ const card: Card = {
 
 	illustrator: "GOSSAN",
 
-	thirdParty: {
-		cardmarket: 760751
-	}
 }
 
 export default card

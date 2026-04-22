@@ -79,19 +79,22 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760642
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["player-rewards-program"]
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 865202
+			}
 		}
 	],
 
 	illustrator: "PLANETA Tsuji",
 
-	thirdParty: {
-		cardmarket: 760642
-	}
 }
 
 export default card

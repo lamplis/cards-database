@@ -61,7 +61,10 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760747
+			}
 		},
 		{
 			type: "reverse"
@@ -70,9 +73,6 @@ const card: Card = {
 
 	illustrator: "Oswaldo KATO",
 
-	thirdParty: {
-		cardmarket: 760747
-	}
 }
 
 export default card

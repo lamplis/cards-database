@@ -60,7 +60,10 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760707
+			}
 		},
 		{
 			type: "reverse"
@@ -71,15 +74,15 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["trick-or-trade"]
+			stamp: ["trick-or-trade"],
+			thirdParty: {
+				cardmarket: 766664
+			}
 		}
 	],
 
 	illustrator: "kawayoo",
 
-	thirdParty: {
-		cardmarket: 760707
-	}
 }
 
 export default card

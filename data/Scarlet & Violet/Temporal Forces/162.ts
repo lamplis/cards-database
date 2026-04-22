@@ -34,13 +34,13 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["player-rewards-program"]
-		},
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 760792
+			}
+		}
 	],
 
-	thirdParty: {
-		cardmarket: 760792
-	}
 }
 
 export default card

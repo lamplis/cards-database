@@ -49,15 +49,15 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760797
+			}
 		}
 	],
 
 	illustrator: "Makura Tami",
 
-	thirdParty: {
-		cardmarket: 760797
-	}
 }
 
 export default card

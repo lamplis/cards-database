@@ -53,7 +53,10 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760712
+			}
 		},
 		{
 			type: "reverse"
@@ -62,9 +65,6 @@ const card: Card = {
 
 	illustrator: "Natsumi Miyanose",
 
-	thirdParty: {
-		cardmarket: 760712
-	}
 }
 
 export default card

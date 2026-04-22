@@ -79,18 +79,38 @@ const card: Card = {
 
 	variants: [
 		{
+			type: "normal",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 760664
+			}
+		},
+		{
 			type: "holo"
 		},
 		{
-			type: "normal",
-			size: "jumbo"
+			type: "V3",
+			cardmarketLabels: ["attention Oversized Card", "Not Tournament Legal", "Ots"],
+			thirdParty: {
+				cardmarket: 864136
+			}
+		},
+		{
+			type: "V4",
+			thirdParty: {
+				cardmarket: 865201
+			}
+		},
+		{
+			type: "V5",
+			cardmarketLabels: ["Tournament"],
+			thirdParty: {
+				cardmarket: 865203
+			}
 		}
 	],
 	illustrator: "N-DESIGN Inc.",
 
-	thirdParty: {
-		cardmarket: 760664
-	}
 }
 
 export default card

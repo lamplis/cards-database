@@ -86,15 +86,15 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["player-rewards-program"]
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 760651
+			}
 		}
 	],
 
 	illustrator: "otumami",
 
-	thirdParty: {
-		cardmarket: 760651
-	}
 }
 
 export default card

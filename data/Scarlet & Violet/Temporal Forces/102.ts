@@ -60,7 +60,10 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760732
+			}
 		},
 		{
 			type: "reverse"
@@ -73,9 +76,6 @@ const card: Card = {
 
 	illustrator: "Fujimoto Gold",
 
-	thirdParty: {
-		cardmarket: 760732
-	}
 }
 
 export default card

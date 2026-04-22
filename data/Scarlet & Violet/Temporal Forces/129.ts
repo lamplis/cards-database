@@ -70,7 +70,10 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760759
+			}
 		},
 		{
 			type: "reverse"
@@ -78,15 +81,12 @@ const card: Card = {
 		{
 			type: "holo",
 			stamp: ["player-rewards-program"],
-			foil: "cosmos",
+			foil: "cosmos"
 		}
 	],
 
 	illustrator: "Teeziro",
 
-	thirdParty: {
-		cardmarket: 760759
-	}
 }
 
 export default card

@@ -49,22 +49,29 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760756
+			}
 		},
 		{
 			type: "reverse"
 		},
 		{
 			type: "holo",
-			foil: "cosmos",
+			foil: "cosmos"
+		},
+		{
+			type: "V2",
+			cardmarketLabels: ["Hino Pre Foct Ttchar", "Inent Can Tar Ety", "Thane Ted"],
+			thirdParty: {
+				cardmarket: 800145
+			}
 		}
 	],
 
 	illustrator: "ryoma uratsuka",
 
-	thirdParty: {
-		cardmarket: 760756
-	}
 }
 
 export default card
