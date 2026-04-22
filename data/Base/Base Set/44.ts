@@ -68,11 +68,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
 			thirdParty: {
 				cardmarket: 273739,
 				tcgplayer: 42387
-			},
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -87,22 +91,20 @@ const card: Card = {
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 107041,
 				cardmarket: 660184
-			},
+			}
 		},
 		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
+			type: "V3",
+			cardmarketLabels: ["Attention: Oversized Card", "Not Tournament Legal"]
 		},
 		{
-			type: "normal",
-			size: "jumbo",
-			stamp: ["pikachu"],
+			type: "V3",
+			cardmarketLabels: ["Attention: Oversized Card", "Not Tournament Legal"],
 			thirdParty: {
 				cardmarket: 547236
-			},
-		},
+			}
+		}
 	],
 }
 

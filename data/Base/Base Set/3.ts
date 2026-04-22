@@ -89,11 +89,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
 			thirdParty: {
 				cardmarket: 273698,
 				tcgplayer: 42371
 			}
+		},
+		{
+			type: "holo",
+			subtype: "unlimited"
 		},
 		{
 			type: "holo",
@@ -108,13 +112,8 @@ const card: Card = {
 			type: "holo",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 106998,
-				cardmarket: 660225,
+				cardmarket: 660225
 			}
-		},
-		{
-			type: "holo",
-			subtype: "1999-2000-copyright",
 		}
 	],
 
@@ -125,6 +124,7 @@ const card: Card = {
 		it: "Pokémon raro ed elusivo; di lui si dice che porti felicità a coloro che riescono ad acchiapparlo. LIV 55 N.113",
 		de: "Ein seltenes und schwer zu fangendes Pokémon. Man sagt, daß es denen Glück bringen soll, die es zu fangen vermögen."
 	},
+
 }
 
 export default card

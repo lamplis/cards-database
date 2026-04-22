@@ -80,11 +80,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
 			thirdParty: {
 				cardmarket: 273717,
 				tcgplayer: 42363
 			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -99,13 +103,8 @@ const card: Card = {
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 107017,
 				cardmarket: 660206
 			}
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
 		}
 	],
 
@@ -128,9 +127,9 @@ const card: Card = {
 	description: {
 		en: "Very protective of its sprawling territory, this Pokémon will fiercely peck at any intruder.",
 		fr: "Il protège son territoire avec ardeur et repousse à coups de bec tout intrus.",
-		it: "Istintivamente protettivo del suo ampio territorio di caccia, questo Pokémon si serve del suo becco appuntito per attaccare con forza qualsiasi nuovo intruso. LIV 36 N.17",
-		de: "Sehr auf eigenes Territorium bedacht, vertreibt dieses Pokémon aggressiv jeden Eindringling."
-	}
+		it:"Istintivamente protettivo del suo ampio territorio di caccia, questo Pokémon si serve del suo becco appuntito per attaccare con forza qualsiasi nuovo intruso. LIV 36 N.17"
+	},
+
 }
 
 export default card

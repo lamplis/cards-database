@@ -78,11 +78,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
 			thirdParty: {
 				cardmarket: 273716,
 				tcgplayer: 42362
 			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -97,13 +101,8 @@ const card: Card = {
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 107016,
 				cardmarket: 660207
 			}
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
 		}
 	],
 
@@ -119,9 +118,9 @@ const card: Card = {
 	description: {
 		en: "It stores electrical energy under very high pressure. It often explodes with little or no provocation.",
 		fr: "Il emmagasine des quantités énormes de courant électrique sous pression pouvant exploser.",
-		it: "Conserva energia elettrica sotto altissima pressione. Spesso esplode senza o con minima provocazione. LIV 40 N.102",
-		de: "Es speichert elektrische Energie unter sehr hohem Druck. Es explodiert oftmals ohne äußere Einwirkung."
-	}
+		it: "Conserva energia elettrica sotto altissima pressione. Spesso esplode senza o con minima provocazione. LIV 40 N.102"
+	},
+
 }
 
 export default card

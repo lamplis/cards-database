@@ -63,14 +63,19 @@ const card: Card = {
 		de: "Spitzt die Ohren, um Gefahr zu wittern. Das große, mächtige Horn sondert Gift ab."
 	},
 
+
+
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
 			thirdParty: {
-				tcgplayer: 42399,
 				cardmarket: 273750
-			},
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -85,13 +90,8 @@ const card: Card = {
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 107052,
 				cardmarket: 660173
-			},
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
+			}
 		}
 	],
 }

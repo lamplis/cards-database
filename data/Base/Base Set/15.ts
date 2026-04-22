@@ -90,11 +90,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
 			thirdParty: {
 				cardmarket: 273710,
 				tcgplayer: 42355
 			}
+		},
+		{
+			type: "holo",
+			subtype: "unlimited"
 		},
 		{
 			type: "holo",
@@ -109,15 +113,18 @@ const card: Card = {
 			type: "holo",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 107010,
-				cardmarket: 660213,
+				cardmarket: 660213
 			}
 		},
 		{
 			type: "holo",
-			subtype: "1999-2000-copyright",
+			cardmarketLabels: ["Defencing Pckemon"],
+			thirdParty: {
+				cardmarket: 273938
+			}
 		}
 	],
+
 
 }
 
