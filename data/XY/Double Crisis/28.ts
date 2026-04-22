@@ -22,7 +22,7 @@ const card: Card = {
 	trainerType: "Stadium",
 
 	thirdParty: {
-		cardmarket: 282539,
+		cardmarket: 563748,
 		tcgplayer: 97074
 	}
 }
