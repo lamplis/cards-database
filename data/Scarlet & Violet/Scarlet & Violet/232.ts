@@ -81,9 +81,9 @@ const card: Card = {
 	illustrator: "PLANETA Hiiragi",
 
 	thirdParty: {
-        cardmarket: 702528,
-        tcgplayer: 490090
-    }
+		cardmarket: 702528,
+		tcgplayer: 490090
+	}
 }
 
 export default card

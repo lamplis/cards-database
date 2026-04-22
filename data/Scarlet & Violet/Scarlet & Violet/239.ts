@@ -36,9 +36,9 @@ const card: Card = {
 	illustrator: "yuu",
 
 	thirdParty: {
-        cardmarket: 702535,
-        tcgplayer: 490097
-    }
+		cardmarket: 702535,
+		tcgplayer: 490097
+	}
 }
 
 export default card

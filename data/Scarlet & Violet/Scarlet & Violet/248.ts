@@ -75,9 +75,9 @@ const card: Card = {
 	illustrator: "KEIICHIRO ITO",
 
 	thirdParty: {
-        cardmarket: 702544,
-        tcgplayer: 490291
-    }
+		cardmarket: 702544,
+		tcgplayer: 490291
+	}
 }
 
 export default card

@@ -77,9 +77,9 @@ const card: Card = {
 	illustrator: "Ryota Murayama",
 
 	thirdParty: {
-        cardmarket: 702543,
-        tcgplayer: 490044
-    }
+		cardmarket: 702543,
+		tcgplayer: 490044
+	}
 }
 
 export default card

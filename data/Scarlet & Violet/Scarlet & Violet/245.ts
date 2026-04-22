@@ -83,9 +83,9 @@ const card: Card = {
 	illustrator: "Jiro Sasumo",
 
 	thirdParty: {
-        cardmarket: 702541,
-        tcgplayer: 486623
-    }
+		cardmarket: 702541,
+		tcgplayer: 486623
+	}
 }
 
 export default card

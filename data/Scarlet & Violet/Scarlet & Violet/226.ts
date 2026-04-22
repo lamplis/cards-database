@@ -83,9 +83,9 @@ const card: Card = {
 	illustrator: "PLANETA Tsuji",
 
 	thirdParty: {
-        cardmarket: 702522,
-        tcgplayer: 490084
-    }
+		cardmarket: 702522,
+		tcgplayer: 490084
+	}
 }
 
 export default card

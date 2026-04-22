@@ -66,9 +66,9 @@ const card: Card = {
 	illustrator: "Toshinao Aoki",
 
 	thirdParty: {
-        cardmarket: 702500,
-        tcgplayer: 490064
-    }
+		cardmarket: 702500,
+		tcgplayer: 490064
+	}
 }
 
 export default card

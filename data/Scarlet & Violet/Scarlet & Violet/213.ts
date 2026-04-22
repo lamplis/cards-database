@@ -66,9 +66,9 @@ const card: Card = {
 	illustrator: "Tika Matsuno",
 
 	thirdParty: {
-        cardmarket: 702509,
-        tcgplayer: 487086
-    }
+		cardmarket: 702509,
+		tcgplayer: 487086
+	}
 }
 
 export default card

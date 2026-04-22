@@ -68,9 +68,9 @@ const card: Card = {
 	illustrator: "Mina Nakai",
 
 	thirdParty: {
-        cardmarket: 702513,
-        tcgplayer: 490075
-    }
+		cardmarket: 702513,
+		tcgplayer: 490075
+	}
 }
 
 export default card

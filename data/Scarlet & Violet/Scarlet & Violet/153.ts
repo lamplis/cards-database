@@ -74,9 +74,9 @@ const card: Card = {
 	illustrator: "Kagemaru Himeno",
 
 	thirdParty: {
-        cardmarket: 702449,
-        tcgplayer: 488045
-    }
+		cardmarket: 702449,
+		tcgplayer: 488045
+	}
 }
 
 export default card

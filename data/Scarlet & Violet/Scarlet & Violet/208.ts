@@ -77,9 +77,9 @@ const card: Card = {
 	illustrator: "zig",
 
 	thirdParty: {
-        cardmarket: 702504,
-        tcgplayer: 490068
-    }
+		cardmarket: 702504,
+		tcgplayer: 490068
+	}
 }
 
 export default card

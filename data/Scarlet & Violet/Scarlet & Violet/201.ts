@@ -55,9 +55,9 @@ const card: Card = {
 	illustrator: "Akira Komayama",
 
 	thirdParty: {
-        cardmarket: 702497,
-        tcgplayer: 490049
-    }
+		cardmarket: 702497,
+		tcgplayer: 490049
+	}
 }
 
 export default card
