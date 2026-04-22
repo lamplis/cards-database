@@ -19,17 +19,16 @@ const card: Card = {
 		de: "Durchsuche dein Deck nach einem Pokémon mit",
 	},
 
-	thirdParty: {
-		cardmarket: 276050,
-		tcgplayer: 87270
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276050,
+				tcgplayer: 87270
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "normal",

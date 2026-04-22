@@ -19,17 +19,16 @@ const card: Card = {
 		de: "Wirf zwei Münzen. Durchsuche dein Deck für jeden Kopf nach einer Basispokémonkarte und nimm sie auf die Hand. Mische dein Deck danach."
 	},
 
-	thirdParty: {
-		cardmarket: 276049,
-		tcgplayer: 84985
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276049,
+				tcgplayer: 84985
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

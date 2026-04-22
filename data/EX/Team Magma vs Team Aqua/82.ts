@@ -19,17 +19,16 @@ const card: Card = {
 		de: "Search your deck for up to 2 in any combination of Basic Pokémon with Team Magma in its name and basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
 	},
 
-	thirdParty: {
-		cardmarket: 276059,
-		tcgplayer: 89814
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276059,
+				tcgplayer: 89814
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "normal",

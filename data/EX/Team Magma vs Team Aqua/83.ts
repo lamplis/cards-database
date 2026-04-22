@@ -19,17 +19,16 @@ const card: Card = {
 		de: "Whenever any player plays a basic Pokémon that doesn't have Team Magma in its name from his or her hand, that player puts 1 damage counter on that Pokémon.",
 	},
 
-	thirdParty: {
-		cardmarket: 276060,
-		tcgplayer: 89815
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276060,
+				tcgplayer: 89815
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

@@ -19,17 +19,16 @@ const card: Card = {
 		de: "Durchsuche dein Deck nach einem Pokémon mit \"Aqua's\" im Namen. Mische dein Deck danach. Behandle das neue Pokémon wie ein Basispokémon. Ist es ein Phase 2 Pokémon, lege zwei Schadensmarken auf das Pokémon.",
 	},
 
-	thirdParty: {
-		cardmarket: 276048,
-		tcgplayer: 83612
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276048,
+				tcgplayer: 83612
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

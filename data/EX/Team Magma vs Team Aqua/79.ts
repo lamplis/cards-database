@@ -36,12 +36,16 @@ const card: Card = {
 		},
 	],
 
+
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276056
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }
