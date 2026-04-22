@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Search your deck for a card that evolves from your Active Pokémon (choose 1 if there are 2) and put it on your Active Pokémon. (This counts as evolving that Pokémon.) Shuffle your Deck afterward.",
 	},
 
-	thirdParty: {
-		tcgplayer: 90465,
-		cardmarket: 276596
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276596,
+				tcgplayer: 90465
+			}
 		},
 		{
 			type: "holo",

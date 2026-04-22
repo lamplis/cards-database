@@ -70,14 +70,13 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 88016,
-		cardmarket: 276570
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276570,
+				tcgplayer: 88016
+			}
 		},
 		{
 			type: "holo",
@@ -86,7 +85,7 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["nintendo-world"]
-		},
+		}
 	]
 }
 

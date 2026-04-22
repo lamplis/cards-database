@@ -62,14 +62,13 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 90037,
-		cardmarket: 276581
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276581,
+				tcgplayer: 90037
+			}
 		},
 		{
 			type: "holo",
@@ -78,7 +77,7 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["gen-con"]
-		},
+		}
 	]
 }
 

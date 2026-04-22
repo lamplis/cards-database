@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Each player's  Evolved Pokémon,  Evolved Pokémon, and  Evolved Pokémon can't use any Poké-Powers or Poké-Bodies.",
 	},
 
-	thirdParty: {
-		tcgplayer: 83740,
-		cardmarket: 276586
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276586,
+				tcgplayer: 83740
+			}
 		},
 		{
 			type: "holo",

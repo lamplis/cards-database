@@ -79,14 +79,13 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		tcgplayer: 86841,
-		cardmarket: 276546
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276546,
+				tcgplayer: 86841
+			}
 		},
 		{
 			type: "holo",
@@ -94,11 +93,17 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["regional-championships"]
+			stamp: ["regional-championships"],
+			thirdParty: {
+				cardmarket: 449698
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["state-championships"]
+			stamp: ["state-championships"],
+			thirdParty: {
+				cardmarket: 449703
+			}
 		}
 	]
 }

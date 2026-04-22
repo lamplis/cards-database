@@ -18,14 +18,13 @@ const card: Card = {
 		de: "Die Doppel-Regenbogen-Energie kann nur an ein entwickeltes Pokémon angelegt werden (außer Pokémon-ex). Solange sie im Spiel ist, liefert die Doppel-Regenbogen-Energie jeden Typ von Energie, aber nur 2 Energien auf einmal. (Solange nicht im Spiel, zählt sie nicht als Basisenergiekarte und hat keinen anderen Effekt, als Energie zu liefern.) Jeglicher Schaden, der dem verteidigenden Pokémon zugefügt wird, wird um 10 verringert (nachdem Schwäche und Resistenz verrechnet wurden). Wenn das Pokémon, das die Doppel-Regenbogen-Energie trägt, kein entwickeltes Pokémon mehr sein sollte, lege diese Karte ab."
 	},
 
-	thirdParty: {
-		tcgplayer: 84892,
-		cardmarket: 276598
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276598,
+				tcgplayer: 84892
+			}
 		},
 		{
 			type: "holo",

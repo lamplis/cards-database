@@ -19,14 +19,13 @@ const card: Card = {
 		de: "At any time between turns, if the Pokémon this card is attached to is affected by any Special Conditions, remove all of them. Then, discard Lum Berry."
 	},
 
-	thirdParty: {
-		tcgplayer: 86920,
-		cardmarket: 276589
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276589,
+				tcgplayer: 86920
+			}
 		},
 		{
 			type: "holo",
