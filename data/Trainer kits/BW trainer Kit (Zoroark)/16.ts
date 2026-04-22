@@ -26,7 +26,11 @@ const card: Card = {
 		de: "Nimm 2 Basis-Energiekarten von deinem Ablagestapel auf deine Hand."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+
+	thirdParty: {
+		cardmarket: 280071
+	}
 }
 
 export default card

@@ -70,6 +70,10 @@ const card: Card = {
 	},
 
 	retreat: 1,
+
+	thirdParty: {
+		cardmarket: 280066
+	}
 }
 
 export default card

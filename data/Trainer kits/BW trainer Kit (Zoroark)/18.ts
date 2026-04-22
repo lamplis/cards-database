@@ -26,7 +26,11 @@ const card: Card = {
 		de: "Nimm 1 Pokémon von deiner Hand, zeige es deinem Gegner und lege es auf dein Deck. Wenn du das machst, durchsuche dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+
+	thirdParty: {
+		cardmarket: 280065
+	}
 }
 
 export default card
