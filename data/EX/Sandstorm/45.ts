@@ -77,22 +77,21 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275822,
-		tcgplayer: 86814
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275822,
+				tcgplayer: 86814
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "normal",
 			stamp: ["michael-gonzalez"]
-		},
+		}
 	]
 }
 

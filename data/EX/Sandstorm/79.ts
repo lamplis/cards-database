@@ -72,17 +72,16 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275856,
-		tcgplayer: 89262
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275856,
+				tcgplayer: 89262
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "normal",
@@ -90,7 +89,7 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["kevin-nguyen"],
+			stamp: ["kevin-nguyen"]
 		}
 	]
 }
