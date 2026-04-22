@@ -18,17 +18,15 @@ const card: Card = {
 		de: "Mische dein Deck. Schaue dir dann die 7 obersten Karten deines Decks an. Wähle 1 dieser Karten und nimm sie auf deine Hand. Mische danach die anderen Karten in dein Deck.",
 	},
 
-	thirdParty: {
-		cardmarket: 275199,
-		tcgplayer: 85541
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85541
+			}
 		},
 		{
-			type: 'reverse',
+			type: 'reverse'
 		}
 	]
 }

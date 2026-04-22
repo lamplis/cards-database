@@ -18,17 +18,16 @@ const card: Card = {
 		de: "Nimm 5 Baby-Pokémon-,Basis-Pokémon-,Entwicklungs- und/oder Basis-Energiekarten aus deinem Ablagestapel und zeige sie deinem Gegner. Mische sie in dein Deck.",
 	},
 
-	thirdParty: {
-		cardmarket: 275212,
-		tcgplayer: 90006
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275212,
+				tcgplayer: 90006
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "normal",

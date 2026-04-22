@@ -93,17 +93,15 @@ const card: Card = {
 		type: "Poke-BODY"
 	}],
 
-	thirdParty: {
-		cardmarket: 275096,
-		tcgplayer: 87695
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 87695
+			}
 		},
 		{
-			type: 'reverse',
+			type: 'reverse'
 		}
 	]
 }

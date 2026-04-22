@@ -18,16 +18,13 @@ const card: Card = {
 		de: "Once during each of his or her turns, whenever a player attaches an Energy card from his or her hand to 1 of his or her Benched Pokémon, he or she removes 1 damage counter, if any, from that Pokémon.",
 	},
 
-	thirdParty: {
-		cardmarket: 275207
-	},
 
 	variants: [
 		{
-			type: 'normal',
+			type: 'normal'
 		},
 		{
-			type: 'reverse',
+			type: 'reverse'
 		}
 	]
 }

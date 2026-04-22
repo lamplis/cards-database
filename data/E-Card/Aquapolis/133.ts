@@ -18,17 +18,15 @@ const card: Card = {
 		de: "Look at the top 6 cards of your deck. Take all basic Energy cards you find there, show them to your opponent, and then put them into your hand. Shuffle your deck afterward.",
 	},
 
-	thirdParty: {
-		cardmarket: 275209,
-		tcgplayer: 89056
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89056
+			}
 		},
 		{
-			type: 'reverse',
+			type: 'reverse'
 		}
 	]
 }

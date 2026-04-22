@@ -18,16 +18,16 @@ const card: Card = {
 		de: "Durchsuche dein Deck nach bis zu 2 Baby- und/oder Basis-Pokémonkarten und lege sie auf deine Bank. Mische dein Deck danach.",
 	},
 
-	thirdParty: {
-		cardmarket: 275206
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275206
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "normal",

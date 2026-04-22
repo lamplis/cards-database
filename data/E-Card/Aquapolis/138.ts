@@ -18,17 +18,15 @@ const card: Card = {
 		de: "Einmal in jedem eigenem Zug (vor dem Angriff) darf jeder Spieler eine Münze werfen. Bei 'Kopf' wählt der Spieler 1 seiner entwickelten Pokémon im Spiel und legt die oberste Entwicklungskarte dieses Pokémon auf seinen Ablagestapel, rückentwickelt es also. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt.",
 	},
 
-	thirdParty: {
-		cardmarket: 275214,
-		tcgplayer: 90158
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 90158
+			}
 		},
 		{
-			type: 'reverse',
+			type: 'reverse'
 		}
 	]
 }

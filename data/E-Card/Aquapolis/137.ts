@@ -18,17 +18,15 @@ const card: Card = {
 		de: "Search your deck for up to 2 Technical Machine and/or Pokémon Tool cards, show them to your opponent, and then put then into your hand. Shuffle your deck afterward.",
 	},
 
-	thirdParty: {
-		cardmarket: 275213,
-		tcgplayer: 90030
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 90030
+			}
 		},
 		{
-			type: 'reverse',
+			type: 'reverse'
 		}
 	]
 }

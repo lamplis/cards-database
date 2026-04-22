@@ -18,17 +18,16 @@ const card: Card = {
 		de: "As long as this card is attached, this Pokémon has no Weakness.",
 	},
 
-	thirdParty: {
-		cardmarket: 275217,
-		tcgplayer: 90530
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275217,
+				tcgplayer: 90530
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "normal",

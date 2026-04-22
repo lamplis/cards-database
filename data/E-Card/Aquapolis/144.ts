@@ -19,17 +19,15 @@ const card: Card = {
 		fr: "Attachez Énergie multicolore à un de vos Pokémon. Tant qu'Énergie multicolore est en jeu, elle remplace n'importe quel type d'Énergie mais ne fournit que 1 Énergie différente à la fois. (N'est pas considérée comme une carte Énergie de base quand elle n'est pas en jeu.) Quand vous attachez cette carte depuis votre main à l'un de vos Pokémon, placez un marqueur de dégâts sur ce Pokémon.",
 	},
 
-	thirdParty: {
-		cardmarket: 275220,
-		tcgplayer: 88552
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 88552
+			}
 		},
 		{
-			type: 'reverse',
+			type: 'reverse'
 		}
 	]
 }

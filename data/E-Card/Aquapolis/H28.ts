@@ -99,14 +99,13 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 275112,
-		tcgplayer: 90114
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275112,
+				tcgplayer: 90114
+			}
 		}
 	]
 }

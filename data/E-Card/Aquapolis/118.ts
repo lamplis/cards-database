@@ -18,17 +18,15 @@ const card: Card = {
 		de: "Once during each player´s turn (before attacking), if that player´s Bench isn´t full, that player flips a coin. If heads, that player shows hi or her opponent a basic Energy card from his or her hand. Then, that player searches his or her deck for a Basic Pokémon card of the same type (color) as the revealed Energy card and puts it onto his or her Bench. The player shuffle his or her deck afterward.",
 	},
 
-	thirdParty: {
-		cardmarket: 275194,
-		tcgplayer: 83563
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 83563
+			}
 		},
 		{
-			type: 'reverse',
+			type: 'reverse'
 		}
 	]
 }

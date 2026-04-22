@@ -18,17 +18,15 @@ const card: Card = {
 		de: "Lege bis zu 2 Basis-Energiekarten aus deiner Hand auf deinen Ablagestapel. Hast du auf diese Weise 1 Basis-Energiekarte abgelegt, ziehe 3 Karten. Hast du auf diese Weise 2 Basis-Energiekarten abgelegt, ziehe 5 Karten.",
 	},
 
-	thirdParty: {
-		cardmarket: 275202,
-		tcgplayer: 86360
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 86360
+			}
 		},
 		{
-			type: 'reverse',
+			type: 'reverse'
 		}
 	]
 }

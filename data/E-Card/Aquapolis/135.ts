@@ -18,17 +18,15 @@ const card: Card = {
 		de: "Wird das Pokémon, an das diese Karte angelegt ist, während des Zuges deines Gegners durch Schaden eines Angriffs des Aktiven Pokémons deines Gegners kampfunfähig, kannst du bis zu 2 Basis-Energiekarten, die an dein Aktives Pokémon angelegt waren, auf deine Hand zurücknehmen."
 	},
 
-	thirdParty: {
-		cardmarket: 275211,
-		tcgplayer: 89919
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89919
+			}
 		},
 		{
-			type: 'reverse',
+			type: 'reverse'
 		}
 	]
 }

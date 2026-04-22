@@ -18,17 +18,15 @@ const card: Card = {
 		de: "Move a basic Energy from 1 of your Pokémon to another of your Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 275196,
-		tcgplayer: 85253
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85253
+			}
 		},
 		{
-			type: 'reverse',
+			type: 'reverse'
 		}
 	]
 }

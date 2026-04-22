@@ -18,17 +18,15 @@ const card: Card = {
 		de: "Hat am Ende eines Zuges das Pokémon, an das diese Karte angelegt ist, 20 KP oder weniger, entferne 3 Schadensmarken von diesem Pokémon und lege diese Karte auf deinen Ablagestapel."
 	},
 
-	thirdParty: {
-		cardmarket: 275201,
-		tcgplayer: 86040
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 86040
+			}
 		},
 		{
-			type: 'reverse',
+			type: 'reverse'
 		}
 	]
 }

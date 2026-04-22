@@ -82,14 +82,13 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 275113,
-		tcgplayer: 90139
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275113,
+				tcgplayer: 90139
+			}
 		}
 	]
 }
