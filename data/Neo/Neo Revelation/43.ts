@@ -78,14 +78,13 @@ const card: Card = {
 		fr: "Si quelqu'un tente de s'introduire dans son jardin de poireaux, il utilise son arme pour le faire partir."
 	},
 
-	thirdParty: {
-		cardmarket: 274629,
-		tcgplayer: 85382
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274629,
+				tcgplayer: 85382
+			}
 		},
 		{
 			type: "normal",
@@ -95,4 +94,3 @@ const card: Card = {
 }
 
 export default card
-

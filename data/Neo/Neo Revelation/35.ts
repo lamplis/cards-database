@@ -76,14 +76,13 @@ const card: Card = {
 		type: "Pokemon Power"
 	}],
 
-	thirdParty: {
-		cardmarket: 274621,
-		tcgplayer: 87955
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274621,
+				tcgplayer: 87955
+			}
 		},
 		{
 			type: "normal",
@@ -93,4 +92,3 @@ const card: Card = {
 }
 
 export default card
-

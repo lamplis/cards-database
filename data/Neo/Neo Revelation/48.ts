@@ -85,14 +85,13 @@ const card: Card = {
 		fr: "Comme il est très insouciant et peu attentif, il se cogne dans les rochers ou les quilles des bateaux quand il nage."
 	},
 
-	thirdParty: {
-		cardmarket: 274634,
-		tcgplayer: 88469
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274634,
+				tcgplayer: 88469
+			}
 		},
 		{
 			type: "normal",
@@ -102,4 +101,3 @@ const card: Card = {
 }
 
 export default card
-

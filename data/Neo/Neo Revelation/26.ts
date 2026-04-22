@@ -73,14 +73,13 @@ const card: Card = {
 		fr: "Il se déguise en arbre pour éviter les attaques. Il déteste l'eau, aussi il disparaît dès qu'il se met à pleuvoir."
 	},
 
-	thirdParty: {
-		cardmarket: 274612,
-		tcgplayer: 89590
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274612,
+				tcgplayer: 89590
+			}
 		},
 		{
 			type: "normal",
@@ -90,4 +89,3 @@ const card: Card = {
 }
 
 export default card
-

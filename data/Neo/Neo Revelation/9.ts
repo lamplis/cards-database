@@ -80,14 +80,13 @@ const card: Card = {
 		fr: "Il dérive au gré des vents saisonniers et sème ses spores cotonneuses dans le monde entier pour se reproduire."
 	},
 
-	thirdParty: {
-		cardmarket: 274595,
-		tcgplayer: 86362
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274595,
+				tcgplayer: 86362
+			}
 		},
 		{
 			type: "holo",

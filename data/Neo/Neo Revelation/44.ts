@@ -52,14 +52,13 @@ const card: Card = {
 		fr: "Il s'aide de ses bras pour gravir les pentes des montagnes les plus raides. Il fait tourner ses poings s'il est en colère."
 	},
 
-	thirdParty: {
-		cardmarket: 274630,
-		tcgplayer: 85683
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274630,
+				tcgplayer: 85683
+			}
 		},
 		{
 			type: "normal",
@@ -69,4 +68,3 @@ const card: Card = {
 }
 
 export default card
-

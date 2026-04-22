@@ -82,14 +82,13 @@ const card: Card = {
 		fr: "Ayant grandi dans un nid de ronces, ses oisillons ont les ailes durcies à force d'être griffées par les épines."
 	},
 
-	thirdParty: {
-		cardmarket: 274609,
-		tcgplayer: 89233
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274609,
+				tcgplayer: 89233
+			}
 		},
 		{
 			type: "normal",
@@ -99,4 +98,3 @@ const card: Card = {
 }
 
 export default card
-

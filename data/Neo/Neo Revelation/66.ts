@@ -71,14 +71,13 @@ const card: Card = {
 		fr: "Un Pokémon faible et pathétique. Il lui arrive de temps en temps de parvenir à sauter assez haut, mais il ne monte jamais au-delà de 2m."
 	},
 
-	thirdParty: {
-		cardmarket: 274652,
-		tcgplayer: 89166
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274652,
+				tcgplayer: 89166
+			}
 		},
 		{
 			type: "normal",
@@ -88,4 +87,3 @@ const card: Card = {
 }
 
 export default card
-

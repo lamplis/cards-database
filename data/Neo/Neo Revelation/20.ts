@@ -68,14 +68,13 @@ const card: Card = {
 		fr: "On prétend qu'il est le gardien des mers. La rumeur veut qu'il apparaisse les nuits de tempête."
 	},
 
-	thirdParty: {
-		cardmarket: 274606,
-		tcgplayer: 86904
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274606,
+				tcgplayer: 86904
+			}
 		},
 		{
 			type: "normal",
@@ -85,4 +84,3 @@ const card: Card = {
 }
 
 export default card
-

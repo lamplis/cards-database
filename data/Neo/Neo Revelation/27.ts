@@ -74,14 +74,13 @@ const card: Card = {
 		fr: "Un Pokémon qui court de par le monde. On raconte que les vents du Nord se mettent à souffler quand il apparaît."
 	},
 
-	thirdParty: {
-		cardmarket: 274600,
-		tcgplayer: 89599
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274613,
+				tcgplayer: 89599
+			}
 		},
 		{
 			type: "normal",
@@ -91,4 +90,3 @@ const card: Card = {
 }
 
 export default card
-

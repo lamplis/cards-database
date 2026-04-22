@@ -74,14 +74,13 @@ const card: Card = {
 		fr: "Un Pokémon qui court de par le monde en poussant des aboiements qui ressemblent à des coups de tonnerre."
 	},
 
-	thirdParty: {
-		cardmarket: 274599,
-		tcgplayer: 88530
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274608,
+				tcgplayer: 88530
+			}
 		},
 		{
 			type: "normal",
@@ -91,4 +90,3 @@ const card: Card = {
 }
 
 export default card
-

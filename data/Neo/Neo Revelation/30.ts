@@ -81,14 +81,13 @@ const card: Card = {
 		fr: "De nature libre et peu souciante, il se moque de perdre des fragments de pierre en roulant sur les pentes des montagnes."
 	},
 
-	thirdParty: {
-		cardmarket: 274616,
-		tcgplayer: 85885
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274616,
+				tcgplayer: 85885
+			}
 		},
 		{
 			type: "normal",
@@ -98,4 +97,3 @@ const card: Card = {
 }
 
 export default card
-

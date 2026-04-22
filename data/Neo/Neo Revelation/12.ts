@@ -86,14 +86,13 @@ const card: Card = {
 		fr: "Cette version améliorée de Porygon est conçue pour l'exploration spatiale. Cependant, elle ne peut pas voler."
 	},
 
-	thirdParty: {
-		cardmarket: 274598,
-		tcgplayer: 88322
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274598,
+				tcgplayer: 88322
+			}
 		},
 		{
 			type: "holo",

@@ -74,14 +74,13 @@ const card: Card = {
 		fr: "On dit de lui qu'il est la réincarnation des vents boréals. Il peut instantanément purifier l'eau sale et boueuse."
 	},
 
-	thirdParty: {
-		cardmarket: 274600,
-		tcgplayer: 89597
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274600,
+				tcgplayer: 89597
+			}
 		},
 		{
 			type: "holo",

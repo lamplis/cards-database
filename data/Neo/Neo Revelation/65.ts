@@ -85,14 +85,13 @@ const card: Card = {
 		fr: "Dès qu'il apparaît, il devient violent. Il reste enragé jusqu'à ce que tout ce qui l'entoure soit détruit."
 	},
 
-	thirdParty: {
-		cardmarket: 274651,
-		tcgplayer: 89164
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274651,
+				tcgplayer: 89164
+			}
 		},
 		{
 			type: "normal",
@@ -102,4 +101,3 @@ const card: Card = {
 }
 
 export default card
-

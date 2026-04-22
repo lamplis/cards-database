@@ -74,14 +74,13 @@ const card: Card = {
 		fr: "Son cri déclenche des éruptions volcaniques. Incapable de contrôler son extrême puissance, il fonce tête baissée dans tout le pays."
 	},
 
-	thirdParty: {
-		cardmarket: 274592,
-		tcgplayer: 85266
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274592,
+				tcgplayer: 85266
+			}
 		},
 		{
 			type: "holo",

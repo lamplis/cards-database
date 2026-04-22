@@ -79,14 +79,13 @@ const card: Card = {
 		fr: "La carapace qu'il porte sur le dos n'est qu'une excroissance de peau, refroidie et durcie. Elle se brise au moindre contact."
 	},
 
-	thirdParty: {
-		cardmarket: 274619,
-		tcgplayer: 87012
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274619,
+				tcgplayer: 87012
+			}
 		},
 		{
 			type: "normal",
@@ -96,4 +95,3 @@ const card: Card = {
 }
 
 export default card
-

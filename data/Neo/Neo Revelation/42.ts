@@ -73,14 +73,13 @@ const card: Card = {
 		fr: "Au fond de l'océan, il fait clignoter ses lumières constamment pour communiquer."
 	},
 
-	thirdParty: {
-		cardmarket: 274628,
-		tcgplayer: 84299
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274628,
+				tcgplayer: 84299
+			}
 		},
 		{
 			type: "normal",
@@ -90,4 +89,3 @@ const card: Card = {
 }
 
 export default card
-

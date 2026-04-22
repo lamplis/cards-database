@@ -80,14 +80,13 @@ const card: Card = {
 		fr: "Il attrape ses ennemis avec les ventouses de ses tentacules et les écrase d'un coup de sa tête dure."
 	},
 
-	thirdParty: {
-		cardmarket: 274620,
-		tcgplayer: 87830
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274620,
+				tcgplayer: 87830
+			}
 		},
 		{
 			type: "normal",
@@ -97,4 +96,3 @@ const card: Card = {
 }
 
 export default card
-

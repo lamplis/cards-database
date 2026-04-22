@@ -73,14 +73,13 @@ const card: Card = {
 		fr: "Ses pattes cachent des griffes aiguisées. S'il est attaqué, il sort ses griffes et surprend son ennemi."
 	},
 
-	thirdParty: {
-		cardmarket: 274610,
-		tcgplayer: 89366
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274610,
+				tcgplayer: 89366
+			}
 		},
 		{
 			type: "normal",
@@ -90,4 +89,3 @@ const card: Card = {
 }
 
 export default card
-

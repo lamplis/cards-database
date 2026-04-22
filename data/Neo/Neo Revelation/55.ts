@@ -77,14 +77,13 @@ const card: Card = {
 		fr: "Il est d'humeur joueuse et agitée. Bon nombre de personnes aiment batifoler avec lui parce qu'il est affectueux."
 	},
 
-	thirdParty: {
-		cardmarket: 274641,
-		tcgplayer: 89411
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274641,
+				tcgplayer: 89411
+			}
 		},
 		{
 			type: "normal",
@@ -94,4 +93,3 @@ const card: Card = {
 }
 
 export default card
-

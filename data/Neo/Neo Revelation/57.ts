@@ -77,14 +77,13 @@ const card: Card = {
 		fr: "S'il sent quelque chose d'alléchant, il se précipite vers la source de l'arôme."
 	},
 
-	thirdParty: {
-		cardmarket: 274643,
-		tcgplayer: 89697
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274643,
+				tcgplayer: 89697
+			}
 		},
 		{
 			type: "normal",
@@ -94,4 +93,3 @@ const card: Card = {
 }
 
 export default card
-
