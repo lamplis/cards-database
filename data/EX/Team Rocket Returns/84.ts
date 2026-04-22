@@ -17,13 +17,13 @@ const card: Card = {
 		de: "Search your discard pile for Basic Pokémon and Evolution cards. You may either show 1 Basic Pokémon or Evolution card to your opponent and put it into your hand, or show a combination of 3 Basic Pokémon and Evolution cards to your opponent nd shuffle them into your deck."
 	},
 
-	thirdParty: {
-		cardmarket: 276376
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276376
+			}
 		},
 		{
 			type: "holo",

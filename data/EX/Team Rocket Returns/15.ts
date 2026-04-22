@@ -95,14 +95,13 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276307,
-		tcgplayer: 84587
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276307,
+				tcgplayer: 84587
+			}
 		},
 		{
 			type: "holo",
@@ -111,7 +110,7 @@ const card: Card = {
 		{
 			type: "holo",
 			foil: "cosmos"
-		},
+		}
 	]
 }
 

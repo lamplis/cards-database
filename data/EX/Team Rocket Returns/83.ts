@@ -17,14 +17,13 @@ const card: Card = {
 		de: "Shuffle your hand into your deck. Then, count the number of cards in your opponent's hand an draw that many cards."
 	},
 
-	thirdParty: {
-		cardmarket: 276375,
-		tcgplayer: 84424
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276375,
+				tcgplayer: 84424
+			}
 		},
 		{
 			type: "holo",
