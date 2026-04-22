@@ -6,6 +6,12 @@ const card: Card = {
 		728,
 	],
 	set: Set,
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false,
+	},
 	name: {
 		en: "Popplio",
 		fr: "Otaquin",
@@ -17,13 +23,16 @@ const card: Card = {
 		"Water",
 	],
 	stage: "Basic",
+	thirdParty: {
+		cardmarket: 301846,
+		tcgplayer: 152684
+	},
 	attacks: [
 		{
 			cost: [
 				"Water",
 			],
 			name: {
-				en: "Pound",
 				fr: "Écras'Face",
 			},
 			damage: "10",
@@ -34,25 +43,11 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun",
 				fr: "Pistolet à O",
 			},
 			damage: "20",
 		},
 	],
-
-	illustrator: "Kouki Saitou",
-
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 301846,
-				tcgplayer: 152684
-			}
-		}
-	]
 }
 
 export default card
-

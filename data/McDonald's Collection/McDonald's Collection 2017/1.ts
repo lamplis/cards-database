@@ -6,6 +6,12 @@ const card: Card = {
 		722,
 	],
 	set: Set,
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: false,
+		firstEdition: false,
+	},
 	name: {
 		en: "Rowlet",
 		fr: "Brindibou",
@@ -17,13 +23,16 @@ const card: Card = {
 		"Grass",
 	],
 	stage: "Basic",
+	thirdParty: {
+		cardmarket: 301843,
+		tcgplayer: 152681
+	},
 	attacks: [
 		{
 			cost: [
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
 				fr: "Charge",
 			},
 			damage: "10",
@@ -34,25 +43,11 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leafage",
 				fr: "Feuillage",
 			},
 			damage: "20",
 		},
 	],
-
-	illustrator: "Megumi Mizutani",
-
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 301843,
-				tcgplayer: 152681
-			}
-		}
-	]
 }
 
 export default card
-

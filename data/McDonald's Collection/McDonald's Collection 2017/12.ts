@@ -6,6 +6,12 @@ const card: Card = {
 		734,
 	],
 	set: Set,
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: false,
+		firstEdition: false,
+	},
 	name: {
 		en: "Yungoos",
 		fr: "Manglouton",
@@ -17,13 +23,16 @@ const card: Card = {
 		"Colorless",
 	],
 	stage: "Basic",
+	thirdParty: {
+		cardmarket: 301854,
+		tcgplayer: 152693
+	},
 	attacks: [
 		{
 			cost: [
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
 				fr: "Charge",
 			},
 			damage: "10",
@@ -34,25 +43,11 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
 				fr: "Morsure",
 			},
 			damage: "20",
 		},
 	],
-
-	illustrator: "match",
-
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 301854,
-				tcgplayer: 152693
-			}
-		}
-	]
 }
 
 export default card
-

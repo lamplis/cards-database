@@ -6,6 +6,12 @@ const card: Card = {
 		739,
 	],
 	set: Set,
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false,
+	},
 	name: {
 		en: "Crabrawler",
 		fr: "Crabagarre",
@@ -17,6 +23,10 @@ const card: Card = {
 		"Fighting",
 	],
 	stage: "Basic",
+	thirdParty: {
+		cardmarket: 301849,
+		tcgplayer: 152687
+	},
 	attacks: [
 		{
 			cost: [
@@ -24,7 +34,6 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Punch",
 				fr: "Koud'Poing",
 			},
 			damage: "20",
@@ -36,25 +45,11 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crabhammer",
 				fr: "Pince-Masse",
 			},
 			damage: "40",
 		},
 	],
-
-	illustrator: "Shin Nagasawa",
-
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 301849,
-				tcgplayer: 152687
-			}
-		}
-	]
 }
 
 export default card
-
