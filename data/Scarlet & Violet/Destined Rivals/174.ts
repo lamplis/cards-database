@@ -33,6 +33,7 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "I",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -44,10 +45,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 826048,
 				tcgplayer: 630830
 			}
-		},
+		}
 	],
 }
 

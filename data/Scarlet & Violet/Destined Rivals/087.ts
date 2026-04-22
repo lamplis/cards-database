@@ -51,6 +51,7 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "I",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -62,24 +63,17 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 825961,
 				tcgplayer: 630821
 			}
 		},
 		{
 			type: "holo",
-			stamp: ["set-logo"],
-			thirdParty: {
-				cardmarket: 826182,
-			}
+			stamp: ["set-logo"]
 		},
 		{
 			type: "holo",
-			stamp: ["set-logo", "staff"],
-			thirdParty: {
-				cardmarket: 833946,
-			}
-		},
+			stamp: ["set-logo", "staff"]
+		}
 	],	
 }
 

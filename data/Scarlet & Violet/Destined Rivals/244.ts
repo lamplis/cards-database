@@ -33,6 +33,7 @@ const card: Card = {
 	trainerType: "Stadium",
 	regulationMark: "I",
 
+
 	variants: [
 		{
 			type: "holo",
@@ -41,7 +42,7 @@ const card: Card = {
 				cardmarket: 826118,
 				tcgplayer: 633044
 			}
-		},
+		}
 	],
 }
 

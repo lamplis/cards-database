@@ -65,14 +65,8 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+
 	variants: [
-		{
-			type: "reverse",
-			thirdParty: {
-				cardmarket: 825956,
-				tcgplayer: 632892
-			}
-		},
 		{
 			type: "holo",
 			thirdParty: {
@@ -80,6 +74,12 @@ const card: Card = {
 				tcgplayer: 632892
 			}
 		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 632892
+			}
+		}
 	],
 }
 

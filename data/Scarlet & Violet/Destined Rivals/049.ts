@@ -74,41 +74,34 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "I",
 
+
 	variants: [
-		{
-			type: "reverse",
-			thirdParty: {
-				cardmarket: 825923,
-				tcgplayer: 630816
-			}
-		},
-		{
-			type: "holo",
-			thirdParty: {
-				cardmarket: 825923,
-				tcgplayer: 630816
-			}
-		},
-		{
-			type: "holo",
-			stamp: ["set-logo"],
-			thirdParty: {
-				cardmarket: 826180,
-			}
-		},
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 828101,
+				cardmarket: 825923,
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 630816
 			}
 		},
 		{
 			type: "holo",
-			stamp: ["set-logo", "staff"],
 			thirdParty: {
-				cardmarket: 833945,
+				tcgplayer: 630816
 			}
 		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"]
+		}
 	],
 }
 
