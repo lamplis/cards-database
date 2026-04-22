@@ -16,13 +16,18 @@ const card: Card = {
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		tcgplayer: 42442
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273793,
+				tcgplayer: 42442
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -31,18 +36,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			subtype: "shadowless",
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
-			thirdParty: {
-				cardmarket: 273793
-			},
+			subtype: "shadowless"
 		},
 		{
 			type: "V2",
-			cardmarketLabels: ["Soy"],
+			cardmarketLabels: ["Soy"]
 		},
 		{
 			type: "V2",

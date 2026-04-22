@@ -62,13 +62,18 @@ const card: Card = {
 		it: "Morde quasiasi cosa quando attacca. Piccolo e velocissimo, è una presenza comune in molti luoghi. LIV 9 N.19"
 	},
 
-	thirdParty: {
-		tcgplayer: 42406
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273756,
+				tcgplayer: 42406
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -80,15 +85,8 @@ const card: Card = {
 			subtype: "shadowless",
 			thirdParty: {
 				cardmarket: 660166
-			},
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
-			thirdParty: {
-				cardmarket: 273756
-			},
-		},
+			}
+		}
 	],
 }
 

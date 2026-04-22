@@ -74,7 +74,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273702,
+				tcgplayer: 42415
+			}
+		},
+		{
+			type: "holo",
+			subtype: "unlimited"
 		},
 		{
 			type: "holo",
@@ -86,21 +94,11 @@ const card: Card = {
 			subtype: "shadowless",
 			thirdParty: {
 				cardmarket: 660221
-			},
-		},
-		{
-			type: "holo",
-			subtype: "1999-2000-copyright",
-			thirdParty: {
-				cardmarket: 273702
-			},
-		},
+			}
+		}
 	],
 
 
-	thirdParty: {
-		tcgplayer: 42415
-	}
 }
 
 export default card

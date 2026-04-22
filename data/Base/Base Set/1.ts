@@ -86,7 +86,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273696,
+				tcgplayer: 42346
+			}
+		},
+		{
+			type: "holo",
+			subtype: "unlimited"
 		},
 		{
 			type: "holo",
@@ -98,15 +106,8 @@ const card: Card = {
 			subtype: "shadowless",
 			thirdParty: {
 				cardmarket: 660227
-			},
-		},
-		{
-			type: "holo",
-			subtype: "1999-2000-copyright",
-			thirdParty: {
-				cardmarket: 273696
-			},
-		},
+			}
+		}
 	],
 
 	description: {
@@ -114,9 +115,6 @@ const card: Card = {
 		it: "Il suo cervello è più potente di un supercomputer. Dicono che abbia un quoziente di intelligenza di 5.000. LIV 42 N.65"
 	},
 
-	thirdParty: {
-		tcgplayer: 42346
-	}
 }
 
 export default card

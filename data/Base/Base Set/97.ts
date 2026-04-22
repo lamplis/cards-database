@@ -16,13 +16,18 @@ const card: Card = {
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		tcgplayer: 42441
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273792,
+				tcgplayer: 42441
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -34,15 +39,8 @@ const card: Card = {
 			subtype: "shadowless",
 			thirdParty: {
 				cardmarket: 660105
-			},
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
-			thirdParty: {
-				cardmarket: 273792
-			},
-		},
+			}
+		}
 	],
 }
 

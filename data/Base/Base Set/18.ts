@@ -81,7 +81,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273713,
+				tcgplayer: 42358
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -93,15 +101,8 @@ const card: Card = {
 			subtype: "shadowless",
 			thirdParty: {
 				cardmarket: 660210
-			},
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
-			thirdParty: {
-				cardmarket: 273713
-			},
-		},
+			}
+		}
 	],
 
 	resistances: [
@@ -116,9 +117,6 @@ const card: Card = {
 		it: "Pokémon mistico con un'indole gentile. Ha l'abilità di cambiare le condizioni climatiche. LIV 33 N.148"
 	},
 
-	thirdParty: {
-		tcgplayer: 42358
-	}
 }
 
 export default card

@@ -20,13 +20,18 @@ const card: Card = {
 		it: "Tu e il tuo avversario vi mostrate le carte che avete in mano; poi ognuno rimette tutte le carte Addestramento che ha in mano nel proprio mazzo e lo rimischia."
 	},
 
-	thirdParty: {
-		tcgplayer: 42421
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273770,
+				tcgplayer: 42421
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -38,15 +43,8 @@ const card: Card = {
 			subtype: "shadowless",
 			thirdParty: {
 				cardmarket: 660143
-			},
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
-			thirdParty: {
-				cardmarket: 273770
-			},
-		},
+			}
+		}
 	],
 }
 

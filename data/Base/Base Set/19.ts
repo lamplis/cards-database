@@ -90,7 +90,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273714,
+				tcgplayer: 42359
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -102,15 +110,8 @@ const card: Card = {
 			subtype: "shadowless",
 			thirdParty: {
 				cardmarket: 660209
-			},
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
-			thirdParty: {
-				cardmarket: 273714
-			},
-		},
+			}
+		}
 	],
 
 	description: {
@@ -118,9 +119,6 @@ const card: Card = {
 		it: "Terzetto di Diglett che scatena disastrosi terremoti. LIV 36 N.51"
 	},
 
-	thirdParty: {
-		tcgplayer: 42359
-	}
 }
 
 export default card

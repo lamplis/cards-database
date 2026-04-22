@@ -75,7 +75,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273719,
+				tcgplayer: 42365
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -87,15 +95,8 @@ const card: Card = {
 			subtype: "shadowless",
 			thirdParty: {
 				cardmarket: 660204
-			},
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
-			thirdParty: {
-				cardmarket: 273719
-			},
-		},
+			}
+		}
 	],
 	weaknesses: [
 		{
@@ -109,9 +110,6 @@ const card: Card = {
 		it: "Quando rotea la coda incandescente, aumenta la temperatura a livelli insopportabilmente alti. LIV 32 N.5"
 	},
 
-	thirdParty: {
-		tcgplayer: 42365
-	}
 }
 
 export default card

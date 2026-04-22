@@ -68,13 +68,18 @@ const card: Card = {
 		it: "È una presenza comune nelle foreste e nei boschi. Sbatte le ali quando è a terra per alzare sabbia accecante. LIV 8 N.16"
 	},
 
-	thirdParty: {
-		tcgplayer: 42401
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273752,
+				tcgplayer: 42401
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -86,15 +91,8 @@ const card: Card = {
 			subtype: "shadowless",
 			thirdParty: {
 				cardmarket: 660171
-			},
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
-			thirdParty: {
-				cardmarket: 273752
-			},
-		},
+			}
+		}
 	],
 }
 

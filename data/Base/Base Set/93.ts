@@ -20,13 +20,18 @@ const card: Card = {
 		it: "Scegli un Pokémon nella Panchina del tuo avversario e scambialo con il suo Pokémon Attivo."
 	},
 
-	thirdParty: {
-		tcgplayer: 42437
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273788,
+				tcgplayer: 42437
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -38,15 +43,8 @@ const card: Card = {
 			subtype: "shadowless",
 			thirdParty: {
 				cardmarket: 660110
-			},
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
-			thirdParty: {
-				cardmarket: 273788
-			},
-		},
+			}
+		}
 	],
 }
 

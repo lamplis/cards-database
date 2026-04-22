@@ -20,13 +20,18 @@ const card: Card = {
 		it: "Scarta una carta Energia assegnata a uno dei tuoi Pokémon per poter togliere al massimo 4 segnalini danno da quel Pokémon." 
 	},
 
-	thirdParty: {
-		tcgplayer: 42434
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273785,
+				tcgplayer: 42434
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -38,15 +43,8 @@ const card: Card = {
 			subtype: "shadowless",
 			thirdParty: {
 				cardmarket: 660115
-			},
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
-			thirdParty: {
-				cardmarket: 273785
-			},
-		},
+			}
+		}
 	],
 }
 

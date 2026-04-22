@@ -79,7 +79,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273717,
+				tcgplayer: 42363
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -91,15 +99,8 @@ const card: Card = {
 			subtype: "shadowless",
 			thirdParty: {
 				cardmarket: 660206
-			},
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
-			thirdParty: {
-				cardmarket: 273717
-			},
-		},
+			}
+		}
 	],
 
 	weaknesses: [
@@ -121,9 +122,6 @@ const card: Card = {
 		it:"Istintivamente protettivo del suo ampio territorio di caccia, questo Pokémon si serve del suo becco appuntito per attaccare con forza qualsiasi nuovo intruso. LIV 36 N.17"
 	},
 
-	thirdParty: {
-		tcgplayer: 42363
-	}
 }
 
 export default card

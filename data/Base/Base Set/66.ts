@@ -83,13 +83,18 @@ const card: Card = {
 
 	},
 
-	thirdParty: {
-		tcgplayer: 42411
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273761,
+				tcgplayer: 42411
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -101,15 +106,8 @@ const card: Card = {
 			subtype: "shadowless",
 			thirdParty: {
 				cardmarket: 660161
-			},
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
-			thirdParty: {
-				cardmarket: 273761
-			},
-		},
+			}
+		}
 	],
 }
 

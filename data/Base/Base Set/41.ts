@@ -55,13 +55,18 @@ const card: Card = {
 		it: "Il corno che ha sulla testa è molto resistente e gli permette di sfondare anche le superfici di ghiaccio. LIV 12 N.86",
 	},
 
-	thirdParty: {
-		tcgplayer: 42384
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273736,
+				tcgplayer: 42384
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -73,15 +78,8 @@ const card: Card = {
 			subtype: "shadowless",
 			thirdParty: {
 				cardmarket: 660187
-			},
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
-			thirdParty: {
-				cardmarket: 273736
-			},
-		},
+			}
+		}
 	],
 }
 

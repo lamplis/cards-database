@@ -20,13 +20,18 @@ const card: Card = {
 		it: "Assegna la PlusPotenza al tuo Pokémon Attivo. Alla fine del tuo turno, scarta PlusPotenza. Se l'attacco di questo Pokémon danneggia il Pokémon Difensore (dopo aver applicato Debolezza e Resistenza), l'attacco infligge altri 10 danni al Pokémon Difensore."
 	},
 
-	thirdParty: {
-		tcgplayer: 42430
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273779,
+				tcgplayer: 42430
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -38,15 +43,8 @@ const card: Card = {
 			subtype: "shadowless",
 			thirdParty: {
 				cardmarket: 660122
-			},
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
-			thirdParty: {
-				cardmarket: 273779
-			},
-		},
+			}
+		}
 	],
 }
 

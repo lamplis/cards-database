@@ -81,7 +81,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273718,
+				tcgplayer: 42364
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -93,15 +101,8 @@ const card: Card = {
 			subtype: "shadowless",
 			thirdParty: {
 				cardmarket: 660205
-			},
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
-			thirdParty: {
-				cardmarket: 273718
-			},
-		},
+			}
+		}
 	],
 
 	weaknesses: [
@@ -116,9 +117,6 @@ const card: Card = {
 		it: "Pokémon da sempre ammirato per il suo fiero aspetto. Corre con grande agilità, come se avesse le ali. LIV 45 N.59"
 	},
 
-	thirdParty: {
-		tcgplayer: 42364
-	}
 }
 
 export default card

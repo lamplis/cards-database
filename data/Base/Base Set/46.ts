@@ -75,13 +75,18 @@ const card: Card = {
 		it: "Ovviamente preferisce luoghi molto caldi. Se gli capita di trovarsi sotto la pioggia, si dice che esca vapore dalla punta della sua coda."
 	},
 
-	thirdParty: {
-		tcgplayer: 42389
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273741,
+				tcgplayer: 42389
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -93,18 +98,11 @@ const card: Card = {
 			subtype: "shadowless",
 			thirdParty: {
 				cardmarket: 660182
-			},
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
-			thirdParty: {
-				cardmarket: 273741
-			},
+			}
 		},
 		{
 			type: "V3",
-			cardmarketLabels: ["Attention: Oversized Card", "Not Tournament Legal"],
+			cardmarketLabels: ["Attention: Oversized Card", "Not Tournament Legal"]
 		},
 		{
 			type: "V3",

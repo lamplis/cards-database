@@ -75,13 +75,18 @@ const card: Card = {
 		it: "Quando diversi Pokémon di questo tipo si riuniscono, generano tanta energia elettrica da scatenare delle tempeste di fulmini. LIV 12 N.25"
 	},
 
-	thirdParty: {
-		tcgplayer: 42402
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273753,
+				tcgplayer: 42402
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -90,30 +95,23 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			subtype: "shadowless",
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
-			thirdParty: {
-				cardmarket: 273753
-			},
+			subtype: "shadowless"
 		},
 		{
 			type: "V2",
-			cardmarketLabels: ["Leh D", "Reustance", "Rete"],
+			cardmarketLabels: ["Leh D", "Reustance", "Rete"]
 		},
 		{
 			type: "V4",
-			cardmarketLabels: ["Thunder Jolt Flip a coin. If", "tails. Pikachu does I0 damage", "icself;"],
+			cardmarketLabels: ["Thunder Jolt Flip a coin. If", "tails. Pikachu does I0 damage", "icself;"]
 		},
 		{
 			type: "V5",
-			cardmarketLabels: ["itsell: Pikachu does I0 damage Su"],
+			cardmarketLabels: ["itsell: Pikachu does I0 damage Su"]
 		},
 		{
 			type: "V6",
-			cardmarketLabels: ["Attention: Oversized Card", "Not Tournament Legal"],
+			cardmarketLabels: ["Attention: Oversized Card", "Not Tournament Legal"]
 		},
 		{
 			type: "V2",

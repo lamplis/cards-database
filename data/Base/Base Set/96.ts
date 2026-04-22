@@ -21,13 +21,18 @@ const card: Card = {
 		fr: "Fournit Incolore Incolore énergies. Ne compte pas comme une carte Énergie de base.",
 	},
 
-	thirdParty: {
-		tcgplayer: 42440
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273791,
+				tcgplayer: 42440
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -39,15 +44,8 @@ const card: Card = {
 			subtype: "shadowless",
 			thirdParty: {
 				cardmarket: 660106
-			},
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
-			thirdParty: {
-				cardmarket: 273791
-			},
-		},
+			}
+		}
 	],
 }
 

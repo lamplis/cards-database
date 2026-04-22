@@ -89,13 +89,18 @@ const card: Card = {
 		it: "Usa i suoi baffi per mantenere l'equilibrio. Sembra che rallenti se i baffi gli vengono tagliati. LIV 41 N.20"
 	},
 
-	thirdParty: {
-		tcgplayer: 42383
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273735,
+				tcgplayer: 42383
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -107,15 +112,8 @@ const card: Card = {
 			subtype: "shadowless",
 			thirdParty: {
 				cardmarket: 660188
-			},
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
-			thirdParty: {
-				cardmarket: 273735
-			},
-		},
+			}
+		}
 	],
 }
 
