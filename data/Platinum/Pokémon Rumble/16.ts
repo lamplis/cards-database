@@ -51,13 +51,13 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 278857
-	},
 
 	variants:[
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				cardmarket: 293372
+			}
 		}
 	]
 }
