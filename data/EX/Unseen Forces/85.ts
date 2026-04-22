@@ -19,14 +19,13 @@ const card: Card = {
 		de: "As long as Fluffy Berry is attached to a Pokémon, that Pokémon's Retreat Cost is 0."
 	},
 
-	thirdParty: {
-		cardmarket: 276731,
-		tcgplayer: 85520
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276731,
+				tcgplayer: 85520
+			}
 		},
 		{
 			type: "normal",

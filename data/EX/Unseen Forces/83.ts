@@ -19,14 +19,13 @@ const card: Card = {
 		de: "As long as Energy Root is attached to a Pokémon, that Pokémon gets +20 HP and can't use any Poké-Powers or Poké-Bodies."
 	},
 
-	thirdParty: {
-		cardmarket: 276729,
-		tcgplayer: 85235
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276729,
+				tcgplayer: 85235
+			}
 		},
 		{
 			type: "normal",

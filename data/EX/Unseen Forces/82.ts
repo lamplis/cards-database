@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Flip a coin. If heads, choose 1 Energy card attached to 1 of your opponent's Pokémon and discard it."
 	},
 
-	thirdParty: {
-		cardmarket: 276728,
-		tcgplayer: 85223
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276728,
+				tcgplayer: 85223
+			}
 		},
 		{
 			type: "normal",

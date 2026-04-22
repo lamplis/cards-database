@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
 	},
 
-	thirdParty: {
-		cardmarket: 276740,
-		tcgplayer: 85241
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276740,
+				tcgplayer: 85241
+			}
 		},
 		{
 			type: "normal",

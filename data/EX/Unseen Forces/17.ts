@@ -95,14 +95,16 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276663,
-		tcgplayer: 90103
-	},
-
 	variants: [
 		{
-			type: "holo",
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276663,
+				tcgplayer: 90103
+			}
+		},
+		{
+			type: "holo"
 		},
 		{
 			type: "holo",
@@ -110,6 +112,10 @@ const card: Card = {
 		},
 		{
 			type: "normal",
+			cardmarketLabels: ["La Ore", "1 0meniiel"],
+			thirdParty: {
+				cardmarket: 276641
+			}
 		}
 	]
 }

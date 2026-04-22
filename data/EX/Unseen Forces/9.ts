@@ -85,14 +85,16 @@ const card: Card = {
 	
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 276655,
-		tcgplayer: 87291
-	},
-
 	variants: [
 		{
-			type: "holo",
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276655,
+				tcgplayer: 87291
+			}
+		},
+		{
+			type: "holo"
 		},
 		{
 			type: "holo",
@@ -100,6 +102,10 @@ const card: Card = {
 		},
 		{
 			type: "normal",
+			cardmarketLabels: ["Hidden Power", "Switch Of Your Opponents Benched Poker", "Your Opponent Choos"],
+			thirdParty: {
+				cardmarket: 276631
+			}
 		}
 	]
 }

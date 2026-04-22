@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Move a basic Energy card attached to 1 of your Pokémon to another of your Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 276730,
-		tcgplayer: 85255
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276730,
+				tcgplayer: 85255
+			}
 		},
 		{
 			type: "normal",

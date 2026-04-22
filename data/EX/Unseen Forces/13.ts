@@ -91,14 +91,16 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276659,
-		tcgplayer: 89305
-	},
-
 	variants: [
 		{
-			type: "holo",
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276659,
+				tcgplayer: 89305
+			}
+		},
+		{
+			type: "holo"
 		},
 		{
 			type: "holo",
@@ -106,6 +108,10 @@ const card: Card = {
 		},
 		{
 			type: "normal",
+			cardmarketLabels: ["Hidden Power", "Search Your Deck Card That Evolves", "Pokmon Damage Cou"],
+			thirdParty: {
+				cardmarket: 276622
+			}
 		}
 	]
 }

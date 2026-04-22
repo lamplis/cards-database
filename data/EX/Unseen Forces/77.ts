@@ -67,14 +67,13 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276723,
-		tcgplayer: 89857
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276723,
+				tcgplayer: 89857
+			}
 		},
 		{
 			type: "normal",

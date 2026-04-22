@@ -19,14 +19,13 @@ const card: Card = {
 		de: "If the Pokémon that Curse Powder is attached to is your Active Pokémon and is Knocked Out by damage from an opponent's attack, put 3 damage counters on the Attacking Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 276726,
-		tcgplayer: 84537
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276726,
+				tcgplayer: 84537
+			}
 		},
 		{
 			type: "normal",
