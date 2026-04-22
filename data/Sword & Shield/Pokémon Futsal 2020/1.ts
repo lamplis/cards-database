@@ -45,6 +45,10 @@ const card: Card = {
 
 	regulationMark: "D",
 
+	thirdParty: {
+		cardmarket: 506930
+	},
+
 	variants: {
 		normal: false,
 		reverse: false,

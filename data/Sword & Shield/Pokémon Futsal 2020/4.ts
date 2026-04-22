@@ -47,7 +47,11 @@ const card: Card = {
 		}
 	}],
 
-	regulationMark: "D"
+	regulationMark: "D",
+
+	thirdParty: {
+		cardmarket: 569468
+	}
 }
 
 export default card

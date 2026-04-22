@@ -41,7 +41,11 @@ const card: Card = {
 		damage: 20
 	}],
 
-	regulationMark: "D"
+	regulationMark: "D",
+
+	thirdParty: {
+		cardmarket: 574871
+	}
 }
 
 export default card

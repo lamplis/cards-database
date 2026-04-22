@@ -18,6 +18,10 @@ const swshp: Set = {
 
 	abbreviations: {
 		official: "FUT20"
+	},
+
+	thirdParty: {
+		cardmarket: 3510
 	}
 }
 
