@@ -78,14 +78,13 @@ const card: Card = {
 		fr: "Bien que les Colossinge aient toujours été mauvais, il semble que depuis peu, ils deviennent de plus en plus vicieux et frénétiques."
 	},
 
-	thirdParty: {
-		cardmarket: 274096,
-		tcgplayer: 84641
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274096,
+				tcgplayer: 84641
+			}
 		},
 		{
 			type: "normal",

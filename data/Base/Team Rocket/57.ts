@@ -73,14 +73,13 @@ const card: Card = {
 		fr: "On a récemment découvert que les Tadmorv prennent forme dans les usines de traitement des déchets, et peuvent se déplacer vers les villes à travers les égouts.."
 	},
 
-	thirdParty: {
-		cardmarket: 274110,
-		tcgplayer: 85905
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274110,
+				tcgplayer: 85905
+			}
 		},
 		{
 			type: "normal",

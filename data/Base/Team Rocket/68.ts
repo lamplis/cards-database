@@ -53,14 +53,13 @@ const card: Card = {
 		fr: "Ce mignon Pokémon charme les gens avec ses yeux innocents. Il passe ses journées à nager"
 	},
 
-	thirdParty: {
-		cardmarket: 274121,
-		tcgplayer: 89484
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274121,
+				tcgplayer: 89484
+			}
 		},
 		{
 			type: "normal",

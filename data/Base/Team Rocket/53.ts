@@ -57,14 +57,13 @@ const card: Card = {
 		fr: "La capture du premier Minidraco a inspiré la quêtre d'autres Pokémon légendaires."
 	},
 
-	thirdParty: {
-		cardmarket: 274106,
-		tcgplayer: 84928
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274106,
+				tcgplayer: 84928
+			}
 		},
 		{
 			type: "normal",

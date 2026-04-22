@@ -86,14 +86,13 @@ const card: Card = {
 		fr: "On le trouvait habituellement dans les profondeurs de l'océan, mais il a été vu récemment dans des eaux peu profondes."
 	},
 
-	thirdParty: {
-		cardmarket: 274061,
-		tcgplayer: 84607
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274078,
+				tcgplayer: 84607
+			}
 		},
 		{
 			type: "normal",

@@ -82,14 +82,13 @@ const card: Card = {
 		fr: "Il est parfois appelé \"Le dieu destructeur\". Ses ailes le supportent en dépit de sa masse imposante."
 	},
 
-	thirdParty: {
-		cardmarket: 274058,
-		tcgplayer: 84584
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 274058,
+				tcgplayer: 84584
+			}
 		},
 		{
 			type: "holo",

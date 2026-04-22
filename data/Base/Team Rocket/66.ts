@@ -79,14 +79,13 @@ const card: Card = {
 		fr: "Ses plats favoris sont les noix, les châtaignes, le fromage et le lait."
 	},
 
-	thirdParty: {
-		cardmarket: 274119,
-		tcgplayer: 88611
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274119,
+				tcgplayer: 88611
+			}
 		},
 		{
 			type: "normal",

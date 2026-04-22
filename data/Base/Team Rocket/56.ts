@@ -72,14 +72,13 @@ const card: Card = {
 		fr: "Un carnivore qui avale ses proies en entier. Roucool et Piafabec sont ses plats favoris."
 	},
 
-	thirdParty: {
-		cardmarket: 274109,
-		tcgplayer: 85099
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274109,
+				tcgplayer: 85099
+			}
 		},
 		{
 			type: "normal",

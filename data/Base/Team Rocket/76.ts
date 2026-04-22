@@ -18,14 +18,13 @@ const card: Card = {
 		de: "Lege eine Karte von deiner hand ab, um diese Karte zu spielen. Dein gegner mischt seine oder ihre hand in sein oder ihr Deck und zieht dann vier Karten."
 	},
 
-	thirdParty: {
-		cardmarket: 274129,
-		tcgplayer: 86270
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274129,
+				tcgplayer: 86270
+			}
 		},
 		{
 			type: "normal",

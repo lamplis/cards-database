@@ -75,14 +75,13 @@ const card: Card = {
 		fr: "Certains chercheurs pensent que Electrode pourrait être une forme d'énergie au lieu de posséder un corps réel."
 	},
 
-	thirdParty: {
-		cardmarket: 274087,
-		tcgplayer: 84590
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274087,
+				tcgplayer: 84590
+			}
 		},
 		{
 			type: "normal",

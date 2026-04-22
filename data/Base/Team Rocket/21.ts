@@ -84,14 +84,13 @@ const card: Card = {
 		fr: "Comme possédé, il crache du feu tel un volcan, essayant de brûler tout ce qu'il voit."
 	},
 
-	thirdParty: {
-		cardmarket: 274057,
-		tcgplayer: 84573
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274074,
+				tcgplayer: 84573
+			}
 		},
 		{
 			type: "normal",

@@ -77,14 +77,13 @@ const card: Card = {
 		fr: "Il est pratiquement impossible de se défendre contre les quatre bras d'un Mackogneur."
 	},
 
-	thirdParty: {
-		cardmarket: 274063,
-		tcgplayer: 84619
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 274063,
+				tcgplayer: 84619
+			}
 		},
 		{
 			type: "holo",

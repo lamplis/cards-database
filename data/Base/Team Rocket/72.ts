@@ -18,14 +18,13 @@ const card: Card = {
 		de: "Look at your opponent's hand. If he or she has any Trainer cards, choose 1 of them. Your opponent shuffle that card into his or her deck."
 	},
 
-	thirdParty: {
-		cardmarket: 274069,
-		tcgplayer: 88792
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274069,
+				tcgplayer: 88792
+			}
 		},
 		{
 			type: "normal",
