@@ -72,18 +72,17 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 84763,
-		cardmarket: 276419
-	},
-
 	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276419,
+				tcgplayer: 84763
+			}
+		},
 		{
 			type: "holo",
 			stamp: ["set-logo"]
-		},
-		{
-			type: "normal",
 		},
 		{
 			type: "holo",
@@ -91,7 +90,10 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["destiny-deoxys"]
+			stamp: ["destiny-deoxys"],
+			thirdParty: {
+				cardmarket: 449433
+			}
 		},
 		{
 			type: "normal",

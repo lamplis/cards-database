@@ -72,12 +72,14 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 88625,
-		cardmarket: 276425
-	},
-
 	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276425,
+				tcgplayer: 88625
+			}
+		},
 		{
 			type: "holo",
 			stamp: ["set-logo"]
@@ -88,15 +90,12 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-		},
-		{
-			type: "normal",
 			stamp: ["gym-challenge"]
 		},
 		{
 			type: "normal",
 			stamp: ["pokemon-day"]
-		},
+		}
 	]
 }
 

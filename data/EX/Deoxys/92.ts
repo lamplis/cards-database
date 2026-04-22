@@ -19,27 +19,28 @@ const card: Card = {
 		de: "Whenever an attack from the Pokémon that Strength Charm is attached to does damage to the Active Pokémon, the attack does 10 more damage (before applying Weakness and Resistance). Discard Strength Charm at the end of the turn in which this Pokémon attacks."
 	},
 
-	thirdParty: {
-		tcgplayer: 89575,
-		cardmarket: 276495
-	},
-
 	variants: [
 		{
 			type: "holo",
-			stamp: ["set-logo"]
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 89575
+			}
 		},
 		{
-			type: "holo",
+			type: "holo"
 		},
 		{
 			type: "normal",
-			stamp: ["michael-gonzalez"]
+			stamp: ["michael-gonzalez"],
+			thirdParty: {
+				cardmarket: 276495
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["jimmy-ballard"]
-		},
+		}
 	]
 }
 

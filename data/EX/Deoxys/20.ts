@@ -91,23 +91,22 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		tcgplayer: 87013,
-		cardmarket: 276423
-	},
-
 	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276423,
+				tcgplayer: 87013
+			}
+		},
 		{
 			type: "holo",
 			stamp: ["set-logo"]
 		},
 		{
 			type: "normal",
-		},
-		{
-			type: "normal",
 			stamp: ["michael-gonzalez"]
-		},
+		}
 	]
 }
 

@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Flip a coin. If heads, draw the bottom 3 cards of your deck. If tails, draw the top2 cards of your deck.",
 	},
 
-	thirdParty: {
-		tcgplayer: 88384,
-		cardmarket: 276493
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276493,
+				tcgplayer: 88384
+			}
 		},
 		{
 			type: "holo",

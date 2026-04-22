@@ -19,23 +19,22 @@ const card: Card = {
 		de: "Ignore Poke-Bodies for all Basic Pokémon in play (both yours and your opponent's) (excluding Pokémon-ex and Pokémon that has an owner in its name).",
 	},
 
-	thirdParty: {
-		tcgplayer: 89434,
-		cardmarket: 276494
-	},
-
 	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276494,
+				tcgplayer: 89434
+			}
+		},
 		{
 			type: "holo",
 			stamp: ["set-logo"]
 		},
 		{
 			type: "normal",
-		},
-		{
-			type: "normal",
 			stamp: ["10th-anniversary"]
-		},
+		}
 	]
 }
 
