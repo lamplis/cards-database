@@ -23,10 +23,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279069
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "reverse",
@@ -35,36 +38,36 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp : ["mychael-bryan"],
+			thirdParty: {
+				cardmarket: 450098
+			}
 		},
 		{
 			type: "normal",
-			stamp : ["yuta-komatsuda"],
+			stamp : ["yuta-komatsuda"]
 		},
 		{
 			type: "normal",
-			stamp : ["yuka-furusawa"],
+			stamp : ["yuka-furusawa"]
 		},
 		{
 			type: "normal",
-			stamp : ["gustavo-wada"],
+			stamp : ["gustavo-wada"]
 		},
 		{
 			type: "normal",
-			stamp : ["christopher-kan"],
+			stamp : ["christopher-kan"]
 		},
 		{
 			type: "normal",
-			stamp : ["ross-cawthorn"],
+			stamp : ["ross-cawthorn"]
 		},
 		{
 			type: "normal",
-			stamp : ["david-cohen"],
+			stamp : ["david-cohen"]
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279069
-	}
 }
 
 export default card

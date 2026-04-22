@@ -67,21 +67,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279039,
+				tcgplayer: 86182
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "normal",
-			stamp : ["yuka-furusawa"],
+			stamp : ["yuka-furusawa"]
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279039,
-		tcgplayer: 86182
-	}
 }
 
 export default card

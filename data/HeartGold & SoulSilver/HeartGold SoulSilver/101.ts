@@ -21,33 +21,37 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279073
+			}
+		},
+		{
+			type: "reverse"
 		},
 		{
 			type: "reverse",
-		},
-		{
-			type: "reverse",
-			foil: "professor-program",
+			foil: "professor-program"
 		},
 		{
 			type: "normal",
-			stamp : ["yuta-komatsuda"],
+			stamp : ["yuta-komatsuda"]
 		},
 		{
 			type: "normal",
-			stamp : ["gustavo-wada"],
+			stamp : ["gustavo-wada"]
 		},
 		{
 			type: "normal",
-			stamp : ["christopher-kan"],
+			stamp : ["christopher-kan"]
 		},
 		{
 			type: "normal",
-			stamp : ["igor-costa"],
-		},
+			stamp : ["igor-costa"]
+		}
 	],
 
 	hp: 0

@@ -81,26 +81,29 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279050,
+				tcgplayer: 88095
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["pokemon-day"]
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "normal",
 			stamp : ["snowflake"],
-			languages: ["de"]
-		},
+			languages: ["de"],
+			thirdParty: {
+				cardmarket: 573477
+			}
+		}
 	],
 
-	thirdParty: {
-		cardmarket: 279050,
-		tcgplayer: 88095
-	}
 }
 
 export default card

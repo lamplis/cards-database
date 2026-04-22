@@ -81,9 +81,13 @@ const card: Card = {
 		en: "If it eats the plant stalk it carries as emergency rations, it runs off in search of a new stalk."
 	},
 
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278991
+			}
 		},
 		{
 			type: "reverse"

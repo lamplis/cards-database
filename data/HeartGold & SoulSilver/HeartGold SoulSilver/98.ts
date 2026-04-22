@@ -23,10 +23,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279070
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "reverse",
@@ -35,18 +38,18 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp : ["yuta-komatsuda"],
+			thirdParty: {
+				cardmarket: 450103
+			}
 		},
 		{
 			type: "normal",
-			stamp : ["yuka-furusawa"],
-		},
+			stamp : ["yuka-furusawa"]
+		}
 	],
 
 	hp: 0,
 
-	thirdParty: {
-		cardmarket: 279070
-	}
 }
 
 export default card

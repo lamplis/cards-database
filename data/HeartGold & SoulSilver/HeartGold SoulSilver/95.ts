@@ -23,7 +23,10 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279067
+			}
 		},
 		{
 			type: "reverse"
@@ -32,9 +35,6 @@ const card: Card = {
 
 	hp: 0,
 
-	thirdParty: {
-		cardmarket: 279067
-	}
 }
 
 export default card

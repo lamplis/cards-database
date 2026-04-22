@@ -67,21 +67,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279049,
+				tcgplayer: 88003
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "normal",
-			stamp : ["ross-cawthorn"],
+			stamp : ["ross-cawthorn"]
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279049,
-		tcgplayer: 88003
-	}
 }
 
 export default card

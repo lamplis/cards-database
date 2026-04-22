@@ -100,18 +100,18 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279079,
+				tcgplayer: 84878
+			}
 		},
 		{
 			type: "holo",
-			stamp : ["ross-cawthorn"],
-		},
+			stamp : ["ross-cawthorn"]
+		}
 	],
 
-	thirdParty: {
-		cardmarket: 279012,
-		tcgplayer: 84878
-	}
 }
 
 export default card

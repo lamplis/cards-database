@@ -85,15 +85,15 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279084
+			}
 		}
 	],
 
 	hp: 140,
 
-	thirdParty: {
-		cardmarket: 279083
-	}
 }
 
 export default card

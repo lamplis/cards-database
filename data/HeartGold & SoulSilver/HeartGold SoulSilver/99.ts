@@ -23,10 +23,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279071
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "reverse",
@@ -34,15 +37,12 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp : ["gustavo-wada"],
+			stamp : ["gustavo-wada"]
 		}
 	],
 
 	hp: 0,
 
-	thirdParty: {
-		cardmarket: 279071
-	}
 }
 
 export default card

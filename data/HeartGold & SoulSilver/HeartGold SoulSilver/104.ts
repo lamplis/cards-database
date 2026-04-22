@@ -23,27 +23,30 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279076,
+				tcgplayer: 88548
+			}
+		},
+		{
+			type: "reverse"
 		},
 		{
 			type: "reverse",
-		},
-		{
-			type: "reverse",
-			foil: "player-reward",
+			foil: "player-reward"
 		},
 		{
 			type: "normal",
 			stamp : ["ross-cawthorn"],
-		},
+			thirdParty: {
+				cardmarket: 450228
+			}
+		}
 	],
 
 	hp: 0,
 
-	thirdParty: {
-		cardmarket: 279076,
-		tcgplayer: 88548
-	}
 }
 
 export default card
