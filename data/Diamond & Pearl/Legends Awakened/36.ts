@@ -76,14 +76,13 @@ const card: Card = {
 		fr: "Son corps est fait de glace datant de l'ère glaciaire. Il contrôle un air gelé de -200 °C."
 	},
 
-	thirdParty: {
-		cardmarket: 278185,
-		tcgplayer: 88657
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278185,
+				tcgplayer: 88657
+			}
 		},
 		{
 			type: "reverse"

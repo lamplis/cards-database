@@ -78,14 +78,13 @@ const card: Card = {
 		fr: "L'odeur du nectar de sa bouche est si répugnante qu'elle agresse les narines à deux kilomètres."
 	},
 
-	thirdParty: {
-		cardmarket: 278245,
-		tcgplayer: 85785
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278246,
+				tcgplayer: 85785
+			}
 		},
 		{
 			type: "reverse"

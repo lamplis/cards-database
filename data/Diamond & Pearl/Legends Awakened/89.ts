@@ -71,14 +71,13 @@ const card: Card = {
 		fr: "Sa nature robuste lui permet de vivre sur n'importe quel terrain. Ses pinces ne lâchent jamais prise."
 	},
 
-	thirdParty: {
-		cardmarket: 278238,
-		tcgplayer: 84435
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278238,
+				tcgplayer: 84435
+			}
 		},
 		{
 			type: "reverse"

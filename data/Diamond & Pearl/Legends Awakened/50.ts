@@ -75,9 +75,13 @@ const card: Card = {
 		fr: "Son aspect change avec la météo. On a récemment découvert que ses molécules étaient pareilles à l'eau."
 	},
 
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278199
+			}
 		},
 		{
 			type: "reverse"

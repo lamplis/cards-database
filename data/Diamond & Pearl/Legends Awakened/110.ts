@@ -73,14 +73,13 @@ const card: Card = {
 		fr: "Son dos bosse renferme une lave bouillonnante. Elle refroidit par temps de pluie, ce qui le ralentit."
 	},
 
-	thirdParty: {
-		cardmarket: 278259,
-		tcgplayer: 87814
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278259,
+				tcgplayer: 87814
+			}
 		},
 		{
 			type: "reverse"

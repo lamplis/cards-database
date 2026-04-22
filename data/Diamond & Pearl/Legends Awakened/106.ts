@@ -76,14 +76,13 @@ const card: Card = {
 		fr: "Son regard s'anime à la vue d'un objet brillant. C'est un Pokémon nocturne."
 	},
 
-	thirdParty: {
-		cardmarket: 278255,
-		tcgplayer: 87320
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 278255,
+				tcgplayer: 87320
+			}
 		},
 		{
 			type: "reverse"

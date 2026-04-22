@@ -74,14 +74,13 @@ const card: Card = {
 		fr: "Il préfère les climats chauds et humides. Ses lianes peuvent capturer une proie en un clin d'œil."
 	},
 
-	thirdParty: {
-		cardmarket: 278234,
-		tcgplayer: 83809
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278234,
+				tcgplayer: 83809
+			}
 		},
 		{
 			type: "reverse"

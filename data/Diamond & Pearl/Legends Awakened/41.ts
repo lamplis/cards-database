@@ -75,14 +75,13 @@ const card: Card = {
 		fr: "Il tire son énergie du charbon qu'il brûle dans sa carapace et crache de la suie noire en cas de danger."
 	},
 
-	thirdParty: {
-		cardmarket: 278190,
-		tcgplayer: 89970
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278190,
+				tcgplayer: 89970
+			}
 		},
 		{
 			type: "reverse"

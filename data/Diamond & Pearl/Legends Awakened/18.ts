@@ -81,14 +81,13 @@ const card: Card = {
 		fr: "Il a gagné la côte après son évolution. Une armure robuste recouvre son corps."
 	},
 
-	thirdParty: {
-		cardmarket: 278167,
-		tcgplayer: 83621
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278167,
+				tcgplayer: 83621
+			}
 		},
 		{
 			type: "reverse"

@@ -70,14 +70,13 @@ const card: Card = {
 		fr: "Il grandit sous terre et se repère grâce à ses antennes car ses yeux sont quasiment aveugles."
 	},
 
-	thirdParty: {
-		cardmarket: 278257,
-		tcgplayer: 87760
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278257,
+				tcgplayer: 87760
+			}
 		},
 		{
 			type: "reverse"

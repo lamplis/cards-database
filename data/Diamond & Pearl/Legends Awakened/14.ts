@@ -84,14 +84,13 @@ const card: Card = {
 		fr: "Il vit dans la couche d'ozone, au-dessus des nuages. Il est invisible depuis le sol."
 	},
 
-	thirdParty: {
-		cardmarket: 278163,
-		tcgplayer: 88627
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278163,
+				tcgplayer: 88627
+			}
 		},
 		{
 			type: "reverse"

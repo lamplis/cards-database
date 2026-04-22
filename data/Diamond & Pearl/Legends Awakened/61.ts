@@ -81,14 +81,13 @@ const card: Card = {
 		fr: "Il ressent toutes les auras. Il comprend le langage humain."
 	},
 
-	thirdParty: {
-		cardmarket: 278210,
-		tcgplayer: 86876
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278210,
+				tcgplayer: 86876
+			}
 		},
 		{
 			type: "reverse"

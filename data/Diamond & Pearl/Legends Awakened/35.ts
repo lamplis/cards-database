@@ -82,14 +82,13 @@ const card: Card = {
 		fr: "Il possède de sacrés biscoteaux. Il peut parcourir sans relâche l'Océan Pacifique."
 	},
 
-	thirdParty: {
-		cardmarket: 278184,
-		tcgplayer: 88278
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278184,
+				tcgplayer: 88278
+			}
 		},
 		{
 			type: "reverse"

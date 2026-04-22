@@ -79,14 +79,13 @@ const card: Card = {
 		fr: "Il pleure en pensant à sa mère disparue, et ses larmes résonnent dans son crâne creux."
 	},
 
-	thirdParty: {
-		cardmarket: 278239,
-		tcgplayer: 84534
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278239,
+				tcgplayer: 84534
+			}
 		},
 		{
 			type: "reverse"

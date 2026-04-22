@@ -77,14 +77,13 @@ const card: Card = {
 		fr: "Il exprime ses émotions en modulant son cri. Ce Pokémon rusé chasse en meute pour abattre ses proies."
 	},
 
-	thirdParty: {
-		cardmarket: 278252,
-		tcgplayer: 86229
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278252,
+				tcgplayer: 86229
+			}
 		},
 		{
 			type: "reverse"

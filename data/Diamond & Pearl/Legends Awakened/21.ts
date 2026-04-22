@@ -82,14 +82,13 @@ const card: Card = {
 		fr: "Il vit dans les hauts-fonds des mers chaudes. Il déterre sa proie du sable quand la marée se retire."
 	},
 
-	thirdParty: {
-		cardmarket: 278170,
-		tcgplayer: 84454
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278170,
+				tcgplayer: 84454
+			}
 		},
 		{
 			type: "reverse"

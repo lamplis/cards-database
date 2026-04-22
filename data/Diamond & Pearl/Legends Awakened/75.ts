@@ -79,14 +79,13 @@ const card: Card = {
 		fr: "Ses 80 tentacules ligotent ses proies et les retiennent jusqu'à ce que son poison fasse effet."
 	},
 
-	thirdParty: {
-		cardmarket: 278224,
-		tcgplayer: 89877
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278224,
+				tcgplayer: 89877
+			}
 		},
 		{
 			type: "reverse"

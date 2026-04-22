@@ -86,14 +86,13 @@ const card: Card = {
 		fr: "Il est formé de deux TERHAL soudés. Son corps de fer résiste à un choc avec un avion à réaction."
 	},
 
-	thirdParty: {
-		cardmarket: 278213,
-		tcgplayer: 87378
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278213,
+				tcgplayer: 87378
+			}
 		},
 		{
 			type: "reverse"

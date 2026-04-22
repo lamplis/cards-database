@@ -79,14 +79,13 @@ const card: Card = {
 		fr: "Les femmes Dresseurs raffolent de sa sublime fourrure. Il ne possède pas de nid."
 	},
 
-	thirdParty: {
-		cardmarket: 278172,
-		tcgplayer: 84740
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278172,
+				tcgplayer: 84740
+			}
 		},
 		{
 			type: "reverse"

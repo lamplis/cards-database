@@ -94,14 +94,13 @@ const card: Card = {
 		fr: "Un Pokémon extrêmement prudent. Il couvre son corps de ses oreilles pelucheuses en cas de danger."
 	},
 
-	thirdParty: {
-		cardmarket: 278182,
-		tcgplayer: 86824
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278182,
+				tcgplayer: 86824
+			}
 		},
 		{
 			type: "reverse"

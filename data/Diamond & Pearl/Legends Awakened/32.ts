@@ -74,14 +74,13 @@ const card: Card = {
 		fr: "On dit qu'il a fait monter les eaux en causant des pluies diluviennes. Il somnolait dans une fosse marine."
 	},
 
-	thirdParty: {
-		cardmarket: 278181,
-		tcgplayer: 86549
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278181,
+				tcgplayer: 86549
+			}
 		},
 		{
 			type: "reverse"

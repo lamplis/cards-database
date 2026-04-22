@@ -79,14 +79,13 @@ const card: Card = {
 		fr: "Un Pokémon très snob. La taille du joyau qui orne son front alimente bien des débats parmi ses fans."
 	},
 
-	thirdParty: {
-		cardmarket: 278217,
-		tcgplayer: 87986
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278217,
+				tcgplayer: 87986
+			}
 		},
 		{
 			type: "reverse"

@@ -77,14 +77,13 @@ const card: Card = {
 		fr: "Une légende tenace veut que ce Pokémon ait traîné les continents en les attachant à des cordes."
 	},
 
-	thirdParty: {
-		cardmarket: 278164,
-		tcgplayer: 88661
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278164,
+				tcgplayer: 88661
+			}
 		},
 		{
 			type: "reverse"

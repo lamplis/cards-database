@@ -90,14 +90,13 @@ const card: Card = {
 		fr: "L'électricité libérée par ses griffes peut assommer l'ennemi. Il vit en petits groupes."
 	},
 
-	thirdParty: {
-		cardmarket: 278211,
-		tcgplayer: 86940
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278211,
+				tcgplayer: 86940
+			}
 		},
 		{
 			type: "reverse"

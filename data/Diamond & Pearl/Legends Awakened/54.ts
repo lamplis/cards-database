@@ -77,14 +77,13 @@ const card: Card = {
 		fr: "On l'appelle \"jungle sur pattes\". Si une tête devient trop grosse, elle tombe et produit un NOEUNOEUF."
 	},
 
-	thirdParty: {
-		cardmarket: 278203,
-		tcgplayer: 85361
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278203,
+				tcgplayer: 85361
+			}
 		},
 		{
 			type: "reverse"

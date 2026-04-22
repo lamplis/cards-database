@@ -73,14 +73,13 @@ const card: Card = {
 		fr: "Il est principalement composé d'un estomac dont les sucs digestifs dissolvent tout ce qu'il avale."
 	},
 
-	thirdParty: {
-		cardmarket: 278247,
-		tcgplayer: 85977
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278247,
+				tcgplayer: 85977
+			}
 		},
 		{
 			type: "reverse"

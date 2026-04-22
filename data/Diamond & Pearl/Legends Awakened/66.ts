@@ -88,14 +88,13 @@ const card: Card = {
 		fr: "Il traque ses proies en groupe. Il ne désobéira jamais aux ordres d'un bon Dresseur."
 	},
 
-	thirdParty: {
-		cardmarket: 278215,
-		tcgplayer: 87447
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278215,
+				tcgplayer: 87447
+			}
 		},
 		{
 			type: "reverse"

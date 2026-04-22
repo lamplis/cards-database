@@ -78,14 +78,13 @@ const card: Card = {
 		fr: "Il dialogue avec les siens par impulsions magnétiques. En bande, ils se déplacent à l'unisson."
 	},
 
-	thirdParty: {
-		cardmarket: 278232,
-		tcgplayer: 83789
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278233,
+				tcgplayer: 83789
+			}
 		},
 		{
 			type: "reverse"

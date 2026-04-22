@@ -81,14 +81,13 @@ const card: Card = {
 		fr: "La lumière de LANTURN surgit des profondeurs. On le surnomme \"étoile des profondeurs\"."
 	},
 
-	thirdParty: {
-		cardmarket: 278207,
-		tcgplayer: 86609
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278208,
+				tcgplayer: 86609
+			}
 		},
 		{
 			type: "reverse"

@@ -88,14 +88,13 @@ const card: Card = {
 		fr: "Il guette sa proie, pendu à une branche la tête en bas, et s'en saisit à la première occasion."
 	},
 
-	thirdParty: {
-		cardmarket: 278154,
-		tcgplayer: 85772
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278204,
+				tcgplayer: 85772
+			}
 		},
 		{
 			type: "reverse"

@@ -75,14 +75,13 @@ const card: Card = {
 		fr: "Même le béton cède sous ses poings dévastateurs. Au combat, il s'essouffle au bout de 3 minutes."
 	},
 
-	thirdParty: {
-		cardmarket: 278248,
-		tcgplayer: 86093
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278248,
+				tcgplayer: 86093
+			}
 		},
 		{
 			type: "reverse"

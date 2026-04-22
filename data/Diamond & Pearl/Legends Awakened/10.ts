@@ -88,20 +88,19 @@ const card: Card = {
 		fr: "Il est né de la fusion de plusieurs Métang. Ses quatre cerveaux en font l'égal d'un superordinateur."
 	},
 
-	thirdParty: {
-		cardmarket: 278159,
-		tcgplayer: 87338
-	},
-
 	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278159,
+				tcgplayer: 87338
+			}
+		},
 		{
 			type: "holo"
 		},
 		{
 			type: "reverse"
-		},
-		{
-			type: "normal",
 		}
 	]
 }

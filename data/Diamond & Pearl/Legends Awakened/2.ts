@@ -91,21 +91,23 @@ const card: Card = {
 		fr: "On raconte qu'il vit quelque part en mer. Il guide les équipages naufragés jusqu'à la terre ferme."
 	},
 
-	thirdParty: {
-		cardmarket: 278151,
-		tcgplayer: 84913
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278151,
+				tcgplayer: 84913
+			}
 		},
 		{
 			type: "reverse"
 		},
 		{
 			type: "holo",
-			stamp: ["national-championships"]
+			stamp: ["national-championships"],
+			thirdParty: {
+				cardmarket: 449448
+			}
 		},
 		{
 			type: "holo",

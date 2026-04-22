@@ -86,20 +86,19 @@ const card: Card = {
 		fr: "Les ondes de choc qu'il génère en battant des ailes infligent de graves blessures internes."
 	},
 
-	thirdParty: {
-		cardmarket: 278166,
-		tcgplayer: 90690
-	},
-
 	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278166,
+				tcgplayer: 90690
+			}
+		},
 		{
 			type: "holo"
 		},
 		{
 			type: "reverse"
-		},
-		{
-			type: "normal",
 		}
 	]
 }

@@ -83,14 +83,13 @@ const card: Card = {
 		fr: "Il avale tout en une bouchée. Ses follicules sécrètent des fluides toxiques qui endorment l'ennemi."
 	},
 
-	thirdParty: {
-		cardmarket: 278221,
-		tcgplayer: 89673
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278221,
+				tcgplayer: 89673
+			}
 		},
 		{
 			type: "reverse"

@@ -76,14 +76,13 @@ const card: Card = {
 		fr: "Il vient d'un virus extraterrestre arrivé avec une météorite et ayant subi une mutation génétique."
 	},
 
-	thirdParty: {
-		cardmarket: 278174,
-		tcgplayer: 84769
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278174,
+				tcgplayer: 84769
+			}
 		},
 		{
 			type: "reverse"

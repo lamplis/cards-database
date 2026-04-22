@@ -82,14 +82,13 @@ const card: Card = {
 		fr: "Il est si timide qu'il ne se déplace qu'au milieu d'un essaim. Il exprime ses émotions par l'odeur."
 	},
 
-	thirdParty: {
-		cardmarket: 278253,
-		tcgplayer: 86704
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278253,
+				tcgplayer: 86704
+			}
 		},
 		{
 			type: "reverse"

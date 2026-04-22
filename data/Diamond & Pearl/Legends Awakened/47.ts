@@ -83,14 +83,13 @@ const card: Card = {
 		fr: "Il porte des volcans sur son dos. Quand le magma remonte, il frissonne et entre en éruption."
 	},
 
-	thirdParty: {
-		cardmarket: 278196,
-		tcgplayer: 84093
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278196,
+				tcgplayer: 84093
+			}
 		},
 		{
 			type: "reverse"

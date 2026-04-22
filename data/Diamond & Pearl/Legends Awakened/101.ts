@@ -78,14 +78,13 @@ const card: Card = {
 		fr: "Il combat en tournoyant comme une toupie. La force centrifuge décuple sa puissance destructrice."
 	},
 
-	thirdParty: {
-		cardmarket: 278250,
-		tcgplayer: 86116
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278250,
+				tcgplayer: 86116
+			}
 		},
 		{
 			type: "reverse"

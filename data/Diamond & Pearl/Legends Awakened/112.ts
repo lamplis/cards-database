@@ -71,14 +71,13 @@ const card: Card = {
 		fr: "En journée, il plante ses piedsracines dans le sol. La nuit, il se promène en semant des graines."
 	},
 
-	thirdParty: {
-		cardmarket: 278260,
-		tcgplayer: 87844
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278261,
+				tcgplayer: 87844
+			}
 		},
 		{
 			type: "reverse"

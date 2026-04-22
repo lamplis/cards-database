@@ -74,14 +74,13 @@ const card: Card = {
 		fr: "Il niche à l'ombre du corail. Quand il se sent menacé, il disparaît dans un nuage d'encre opaque."
 	},
 
-	thirdParty: {
-		cardmarket: 278251,
-		tcgplayer: 86191
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278251,
+				tcgplayer: 86191
+			}
 		},
 		{
 			type: "reverse"

@@ -78,14 +78,13 @@ const card: Card = {
 		fr: "Après avoir choisi sa cible, il fonce dessus tête baissée. Il est réputé pour sa nature violente."
 	},
 
-	thirdParty: {
-		cardmarket: 278223,
-		tcgplayer: 89764
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278223,
+				tcgplayer: 89764
+			}
 		},
 		{
 			type: "reverse"

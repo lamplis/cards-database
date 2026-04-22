@@ -88,14 +88,13 @@ const card: Card = {
 		fr: "À la fin de la saison des pluies, il sort danser en plein air, attiré par la chaleur du soleil."
 	},
 
-	thirdParty: {
-		cardmarket: 278169,
-		tcgplayer: 83800
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278169,
+				tcgplayer: 83800
+			}
 		},
 		{
 			type: "reverse"

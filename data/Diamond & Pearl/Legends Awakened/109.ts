@@ -72,14 +72,13 @@ const card: Card = {
 		fr: "Son nez est un aimant, c'est pourquoi ce Pokémon fait toujours face au nord."
 	},
 
-	thirdParty: {
-		cardmarket: 278258,
-		tcgplayer: 87801
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278258,
+				tcgplayer: 87801
+			}
 		},
 		{
 			type: "reverse"

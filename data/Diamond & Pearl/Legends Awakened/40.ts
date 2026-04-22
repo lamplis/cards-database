@@ -69,14 +69,13 @@ const card: Card = {
 		fr: "Une carapace d'insecte laissée à l'abandon. On dit qu'il vole l'âme de celui qui regarde à l'intérieur."
 	},
 
-	thirdParty: {
-		cardmarket: 278189,
-		tcgplayer: 89119
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278189,
+				tcgplayer: 89119
+			}
 		},
 		{
 			type: "reverse"

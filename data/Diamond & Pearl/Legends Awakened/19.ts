@@ -74,14 +74,13 @@ const card: Card = {
 		fr: "On l'appelle \"être de la volonté\". Il dort au fond d'un lac pour maintenir l'équilibre du monde."
 	},
 
-	thirdParty: {
-		cardmarket: 278168,
-		tcgplayer: 83675
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278168,
+				tcgplayer: 83675
+			}
 		},
 		{
 			type: "reverse"
@@ -92,7 +91,10 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["tsubasa-nakamura"]
+			stamp: ["tsubasa-nakamura"],
+			thirdParty: {
+				cardmarket: 371564
+			}
 		},
 		{
 			type: "normal",

@@ -76,14 +76,13 @@ const card: Card = {
 		fr: "Il hante les grottes volcaniques. Il rampe au mut et au plafond grâce à ses pieds en forme de croix."
 	},
 
-	thirdParty: {
-		cardmarket: 278155,
-		tcgplayer: 86048
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278179,
+				tcgplayer: 86048
+			}
 		},
 		{
 			type: "reverse"
@@ -94,7 +93,10 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["regional-championships"]
+			stamp: ["regional-championships"],
+			thirdParty: {
+				cardmarket: 449628
+			}
 		},
 		{
 			type: "normal",

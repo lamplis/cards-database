@@ -97,14 +97,13 @@ const card: Card = {
 		fr: "Jadis, les gens prenaient son étrange hurlement pour l'appel de la Faucheuse."
 	},
 
-	thirdParty: {
-		cardmarket: 278206,
-		tcgplayer: 86208
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278206,
+				tcgplayer: 86208
+			}
 		},
 		{
 			type: "reverse"

@@ -74,14 +74,13 @@ const card: Card = {
 		fr: "Ses pattes élastiques s'allongent, ce qui ne manque jamais de surprendre au premier combat."
 	},
 
-	thirdParty: {
-		cardmarket: 278249,
-		tcgplayer: 86106
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278249,
+				tcgplayer: 86106
+			}
 		},
 		{
 			type: "reverse"

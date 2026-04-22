@@ -72,21 +72,23 @@ const card: Card = {
 		fr: "On l'appelle \"Pokémon mirage\" en raison de sa rareté. On a découvert sa mue."
 	},
 
-	thirdParty: {
-		cardmarket: 278240,
-		tcgplayer: 84935
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278240,
+				tcgplayer: 84935
+			}
 		},
 		{
 			type: "reverse"
 		},
 		{
 			type: "normal",
-			stamp: ["city-championships"]
+			stamp: ["city-championships"],
+			thirdParty: {
+				cardmarket: 449453
+			}
 		},
 		{
 			type: "normal",

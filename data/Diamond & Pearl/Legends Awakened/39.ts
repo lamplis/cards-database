@@ -83,14 +83,13 @@ const card: Card = {
 		fr: "Son corps invulnérable fut forgé par la pression souterraine durant des dizaines de milliers d'années."
 	},
 
-	thirdParty: {
-		cardmarket: 278188,
-		tcgplayer: 88677
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278188,
+				tcgplayer: 88677
+			}
 		},
 		{
 			type: "reverse"

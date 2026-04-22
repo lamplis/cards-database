@@ -54,14 +54,13 @@ const card: Card = {
 		fr: "Il a la capacité de modifier sa structure cellulaire pour prendre l'apparence de ce qu'il voit."
 	},
 
-	thirdParty: {
-		cardmarket: 278176,
-		tcgplayer: 84843
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278176,
+				tcgplayer: 84843
+			}
 		},
 		{
 			type: "reverse"

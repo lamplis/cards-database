@@ -74,14 +74,13 @@ const card: Card = {
 		fr: "On l'appelle \"être du savoir\". On raconte que son regard a le pouvoir d'effacer la mémoire."
 	},
 
-	thirdParty: {
-		cardmarket: 278192,
-		tcgplayer: 90260
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278192,
+				tcgplayer: 90260
+			}
 		},
 		{
 			type: "reverse"
@@ -92,7 +91,10 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["tsubasa-nakamura"]
+			stamp: ["tsubasa-nakamura"],
+			thirdParty: {
+				cardmarket: 371544
+			}
 		},
 		{
 			type: "normal",

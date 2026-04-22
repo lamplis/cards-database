@@ -83,21 +83,23 @@ const card: Card = {
 		fr: "La météo change brusquement lorsqu'il est entouré d'une aura. On dit qu'il peuple les mers et les lacs."
 	},
 
-	thirdParty: {
-		cardmarket: 278201,
-		tcgplayer: 84900
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 449443,
+				tcgplayer: 84900
+			}
 		},
 		{
 			type: "reverse"
 		},
 		{
 			type: "normal",
-			stamp: ["state-championships"]
+			stamp: ["state-championships"],
+			thirdParty: {
+				cardmarket: 278201
+			}
 		},
 		{
 			type: "normal",

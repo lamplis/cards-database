@@ -74,14 +74,13 @@ const card: Card = {
 		fr: "Ces six œufs communiquent par télépathie. Ils peuvent se réunir rapidement si on les sépare."
 	},
 
-	thirdParty: {
-		cardmarket: 278242,
-		tcgplayer: 85348
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278242,
+				tcgplayer: 85348
+			}
 		},
 		{
 			type: "reverse"

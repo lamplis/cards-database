@@ -81,14 +81,13 @@ const card: Card = {
 		fr: "Un ancêtre Pokémon réanimé à partir d'un fossile. Il vivait en mer et chassait avec ses pinces."
 	},
 
-	thirdParty: {
-		cardmarket: 278195,
-		tcgplayer: 83561
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278195,
+				tcgplayer: 83561
+			}
 		},
 		{
 			type: "reverse"

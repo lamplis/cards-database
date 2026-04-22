@@ -80,14 +80,13 @@ const card: Card = {
 		fr: "Momartik gèle ses ennemis grâce à son souffle à -50°C. Ça ne se voit pas, mais son corps est creux."
 	},
 
-	thirdParty: {
-		cardmarket: 278152,
-		tcgplayer: 85572
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278152,
+				tcgplayer: 85572
+			}
 		},
 		{
 			type: "reverse"
