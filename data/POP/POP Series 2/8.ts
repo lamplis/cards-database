@@ -18,6 +18,10 @@ const card: Card = {
 		fr: "Choisissez 1 des Pokémon que vous avez en jeu (sauf les Pokémon-ex). Reprenez dans votre main ce Pokémon ainsi que toutes les cartes qui lui sont attachées.",
 	},
 
+	thirdParty: {
+		cardmarket: 277439
+	},
+
 	variants: {
 		normal: true,
 		reverse: false,
