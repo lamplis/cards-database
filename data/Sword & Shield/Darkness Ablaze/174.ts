@@ -28,6 +28,10 @@ const card: Card = {
 	energyType: "Special",
 	regulationMark: "D",
 
+	thirdParty: {
+		cardmarket: 483749
+	},
+
 	variants: {
 		normal: true,
 		reverse: true,

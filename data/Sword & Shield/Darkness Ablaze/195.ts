@@ -28,6 +28,10 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "D",
 
+	thirdParty: {
+		cardmarket: 483869
+	},
+
 	variants: {
 		normal: false,
 		reverse: false,
