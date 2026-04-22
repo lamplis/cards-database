@@ -25,7 +25,11 @@ const card: Card = {
 		de: "Wirf 1 Münze. Bei \"Kopf\" kannst du 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon austauschen."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+
+	thirdParty: {
+		cardmarket: 281637
+	}
 }
 
 export default card
