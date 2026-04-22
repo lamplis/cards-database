@@ -35,9 +35,13 @@ const card: Card = {
 		},
 	],
 
+
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276158
+			}
 		}, {
 			type: "holo",
 			foil: "energy"

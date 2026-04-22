@@ -19,18 +19,17 @@ const card: Card = {
 		de: "Don't apply Weakness for all Pokémon in play (excluding Pokémon-ex and Pokémon that has an owner in its name).",
 	},
 
-	thirdParty: {
-		cardmarket: 276161,
-		tcgplayer: 83556
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276161,
+				tcgplayer: 83556
+			}
 		},
 		{
 			type: "holo",
-			foil: "energy",
+			foil: "energy"
 		},
 		{
 			type: "normal",

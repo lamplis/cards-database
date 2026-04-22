@@ -19,23 +19,22 @@ const card: Card = {
 		de: "Any damage done by attacks from  Pokémon and  Pokémon (both yours and your opponent's) is not affected by Resistance.",
 	},
 
-	thirdParty: {
-		cardmarket: 276165,
-		tcgplayer: 87088
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276165,
+				tcgplayer: 87088
+			}
 		},
 		{
 			type: "holo",
-			foil: "energy",
+			foil: "energy"
 		},
 		{
 			type: "normal",
 			stamp: ["kevin-nguyen"]
-		},
+		}
 	]
 }
 

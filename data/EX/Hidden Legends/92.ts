@@ -19,18 +19,17 @@ const card: Card = {
 		de: "Draw a number of cards, up to the number of your opponent's Pokémon in play.\nIf you have more than 7 cards (including this one) in your hand, you can't play this card.",
 	},
 
-	thirdParty: {
-		cardmarket: 276166,
-		tcgplayer: 89569
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276166,
+				tcgplayer: 89569
+			}
 		},
 		{
 			type: "holo",
-			foil: "energy",
+			foil: "energy"
 		},
 		{
 			type: "normal",

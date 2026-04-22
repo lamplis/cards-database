@@ -19,18 +19,17 @@ const card: Card = {
 		de: "At any time between turns, each player puts 1 damage counter on his or her Pokémon-ex with maximum HP of at least 100.",
 	},
 
-	thirdParty: {
-		cardmarket: 276162,
-		tcgplayer: 84781
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276162,
+				tcgplayer: 84781
+			}
 		},
 		{
 			type: "holo",
-			foil: "energy",
+			foil: "energy"
 		},
 		{
 			type: "normal",

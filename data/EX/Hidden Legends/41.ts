@@ -73,22 +73,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276115,
-		tcgplayer: 86978
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276115,
+				tcgplayer: 86978
+			}
 		},
 		{
 			type: "holo",
-			foil: "energy",
+			foil: "energy"
 		},
 		{
 			type: "normal",
-			stamp: ["state-championships"]
+			stamp: ["state-championships"],
+			thirdParty: {
+				cardmarket: 449908
+			}
 		}
 	]
 }

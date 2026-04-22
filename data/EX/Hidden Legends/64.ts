@@ -69,14 +69,13 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276138,
-		tcgplayer: 86992
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276138,
+				tcgplayer: 86992
+			}
 		},
 		{
 			type: "holo",
@@ -85,6 +84,12 @@ const card: Card = {
 		{
 			type: "holo",
 			stamp: ["city-championships"]
+		},
+		{
+			type: "V2",
+			thirdParty: {
+				cardmarket: 449913
+			}
 		}
 	]
 }

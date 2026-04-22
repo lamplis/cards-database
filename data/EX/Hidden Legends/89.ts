@@ -19,23 +19,22 @@ const card: Card = {
 		de: "Whenever any player attaches an Energy card from his or her hand to  Pokémon,  Pokémon, or  Pokémon, remove any Special Conditions from that Pokémon.",
 	},
 
-	thirdParty: {
-		cardmarket: 276163,
-		tcgplayer: 86290
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276163,
+				tcgplayer: 86290
+			}
 		},
 		{
 			type: "holo",
-			foil: "energy",
+			foil: "energy"
 		},
 		{
 			type: "normal",
 			stamp: ["curran-hill"]
-		},
+		}
 	]
 }
 
