@@ -3,56 +3,28 @@ import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
 	name: {
-		fr: "Caninos",
+		fr: "Reptincel",
 	},
-
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
-	illustrator: "MAHOU",
 
 	set: Set,
-	dexId: [58],
-	hp: 80,
+	dexId: [5],
+	hp: 90,
 	types: ["Fire"],
 
-	stage: "Basic",
-	retreat: 2,
+	stage: "Stage1",
 
-	attacks: [
-		{
-			cost: ["Fire", "Colorless", "Colorless"],
-			name: {
-				fr: "Bélier"
-			},
-			effect: {
-				fr: "Ce Pokémon s'inflige 20 dégâts."
-			},
-			damage: 60
-		}
-	],
+	thirdParty: {
+		cardmarket: 362776
+	},
 
-	weaknesses: [
-		{
-			type: "Water",
-			value: "×2"
-		}
-	],
-
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 362776,
-			}
-		},
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 362776,
-			}
-		}
-	]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

@@ -3,60 +3,28 @@ import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
 	name: {
-		fr: "Wailmer",
+		fr: "Goupix",
 	},
-
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
-	illustrator: "Miki Tanaka",
 
 	set: Set,
-	dexId: [320],
-	hp: 120,
-	types: ["Water"],
+	dexId: [37],
+	hp: 60,
+	types: ["Fire"],
 
 	stage: "Basic",
-	retreat: 3,
 
-	weaknesses: [
-		{
-			type: "Grass",
-			value: "×2"
-		},
-	],
+	thirdParty: {
+		cardmarket: 362785
+	},
 
-	attacks: [
-		{
-			cost: ["Water", "Colorless"],
-			name: {
-				fr: "Trempette"
-			},
-			damage: 20
-		},
-		{
-			cost: ["Water", "Water", "Water","Colorless"],
-			name: {
-				fr: "Surf"
-			},
-			damage: 70
-		}
-	],
-
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 362785,
-			}
-		},
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 362785,
-			}
-		}
-	]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

@@ -2,66 +2,29 @@ import { Card } from '../../../interfaces'
 import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
-    name: {
-        fr: "Bébécaille",
-    },
+	name: {
+		fr: "Voltali",
+	},
+	rarity: "Common",
+	category: "Pokemon",
 
-    rarity: "None",
-    category: "Pokemon",
-    illustrator: "match",
+	set: Set,
+	dexId: [135],
+	hp: 90,
+	types: ["Lightning"],
 
-    set: Set,
-    dexId: [782],
-    hp: 60,
-    types: ["Dragon"],
+	stage: "Stage1",
 
-    stage: "Basic",
-    retreat: 2,
+	thirdParty: {
+		cardmarket: 362805
+	},
 
-    weaknesses: [
-        {
-            type: "Fairy",
-            value: "×2"
-        }
-    ],
-
-    abilities: [
-        {
-            type: "Ability",
-            name: {
-                fr: "Pare-Balles"
-            },
-            effect: {
-                fr: "Ce Pokémon subit 10 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance)."
-            }
-        }
-    ],
-
-    attacks: [
-        {
-            cost: ["Lightning", "Fighting"],
-            name: {
-                fr: "Dracogriffe"
-            },
-            damage: 30
-        }
-    ],
-
-    variants: [
-        {
-            type: 'normal',
-            thirdParty: {
-                cardmarket: 362805,
-            }
-        },
-        {
-            type: 'holo',
-            thirdParty: {
-                cardmarket: 362805,
-            }
-        }
-    ]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

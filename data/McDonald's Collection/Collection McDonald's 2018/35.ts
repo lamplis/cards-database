@@ -2,57 +2,29 @@ import { Card } from '../../../interfaces'
 import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
-    name: {
-        fr: "Miaouss",
-    },
+	name: {
+		fr: "Pyroli",
+	},
+	rarity: "Common",
+	category: "Pokemon",
 
-    rarity: "None",
-    category: "Pokemon",
-    illustrator: "Kagemaru Himeno",
+	set: Set,
+	dexId: [136],
+	hp: 100,
+	types: ["Fire"],
 
-    set: Set,
-    dexId: [52],
-    hp: 60,
-    types: ["Colorless"],
+	stage: "Stage1",
 
-    stage: "Basic",
-    retreat: 1,
+	thirdParty: {
+		cardmarket: 362806
+	},
 
-    weaknesses: [
-        {
-            type: "Fighting",
-            value: "×2"
-        }
-    ],
-
-    attacks: [
-        {
-            cost: ["Colorless"],
-            name: {
-                fr: "Bluff"
-            },
-            effect: {
-                fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
-            },
-            damage: 10
-        }
-    ],
-
-    variants: [
-        {
-            type: 'normal',
-            thirdParty: {
-                cardmarket: 362806,
-            }
-        },
-        {
-            type: 'holo',
-            thirdParty: {
-                cardmarket: 362806,
-            }
-        }
-    ]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

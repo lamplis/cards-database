@@ -3,60 +3,28 @@ import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
 	name: {
-		fr: "Goupix d'Alola",
+		fr: "Tortank",
 	},
-
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
-	illustrator: "You Iribi",
 
 	set: Set,
-	dexId: [37],
-	hp: 60,
+	dexId: [9],
+	hp: 140,
 	types: ["Water"],
 
-	stage: "Basic",
-	retreat: 1,
+	stage: "Stage2",
 
-	weaknesses: [
-		{
-			type: "Metal",
-			value: "×2"
-		},
-	],
+	thirdParty: {
+		cardmarket: 362780
+	},
 
-	attacks: [
-		{
-			name: {
-				fr: "Flambeau"
-			},
-			effect: {
-				fr: "Cherchez jusqu'à 2 Pokémon dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck."
-			}
-		},
-		{
-			cost: ["Colorless", "Colorless"],
-			name: {
-				fr: "Verglas"
-			},
-			damage: 20,
-		},
-	],
-
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 362780,
-			}
-		},
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 362780,
-			}
-		}
-	]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card

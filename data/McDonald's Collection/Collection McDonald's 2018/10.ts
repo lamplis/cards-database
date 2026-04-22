@@ -3,55 +3,28 @@ import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
 	name: {
-		fr: "Psykokwak",
+		fr: "Pikachu",
 	},
-
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
-	illustrator: "Shibuzoh.",
 
 	set: Set,
-	dexId: [54],
-	hp: 70,
-	types: ["Water"],
+	dexId: [25],
+	hp: 60,
+	types: ["Lightning"],
 
 	stage: "Basic",
-	retreat: 2,
 
-	weaknesses: [
-		{
-			type: "Grass",
-			value: "×2"
-		},
-	],
+	thirdParty: {
+		cardmarket: 362781
+	},
 
-	attacks: [
-		{
-			cost: ["Colorless"],
-			name: {
-				fr: "Vague de Confusion"
-			},
-			effect: {
-				fr: "Les deux Pokémon Actifs sont maintenant Confus."
-			}
-		},
-	],
-
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 362781,
-			}
-		},
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 362781,
-			}
-		}
-	]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

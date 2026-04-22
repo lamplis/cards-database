@@ -2,63 +2,29 @@ import { Card } from '../../../interfaces'
 import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
-    name: {
-        fr: "Mucuscule",
-    },
+	name: {
+		fr: "Aquali",
+	},
+	rarity: "Common",
+	category: "Pokemon",
 
-    rarity: "None",
-    category: "Pokemon",
-    illustrator: "Asako Ito",
+	set: Set,
+	dexId: [134],
+	hp: 110,
+	types: ["Water"],
 
-    set: Set,
-    dexId: [704],
-    hp: 50,
-    types: ["Dragon"],
+	stage: "Stage1",
 
-    stage: "Basic",
-    retreat: 1,
+	thirdParty: {
+		cardmarket: 362804
+	},
 
-    weaknesses: [
-        {
-            type: "Fairy",
-            value: "×2"
-        }
-    ],
-
-    attacks: [
-        {
-            cost: ["Colorless"],
-            name: {
-                fr: "Écume"
-            },
-            effect: {
-                fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
-            }
-        },
-        {
-            cost: ["Water", "Fairy"],
-            name: {
-                fr: "Charge"
-            },
-            damage: 20
-        }
-    ],
-
-    variants: [
-        {
-            type: 'normal',
-            thirdParty: {
-                cardmarket: 362804,
-            }
-        },
-        {
-            type: 'holo',
-            thirdParty: {
-                cardmarket: 362804,
-            }
-        }
-    ]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

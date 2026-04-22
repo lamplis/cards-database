@@ -5,10 +5,8 @@ const card: Card = {
 	name: {
 		fr: "Salamèche",
 	},
-
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
-	illustrator: "Sanosuke Sakuma",
 
 	set: Set,
 	dexId: [4],
@@ -16,46 +14,17 @@ const card: Card = {
 	types: ["Fire"],
 
 	stage: "Basic",
-	retreat: 1,
 
-	weaknesses: [
-		{
-			type: "Water",
-			value: "×2"
-		}
-	],
-	
-	attacks: [
-		{
-			cost: ["Colorless"],
-			name: {
-				fr: "Griffe"
-			},
-			damage: 20
-		},
-		{
-			cost: ["Fire", "Colorless"],
-			name: {
-				fr: "Queue de Flammes"
-			},
-			damage: 20
-		}
-	],
+	thirdParty: {
+		cardmarket: 362775
+	},
 
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 362775,
-			}
-		},
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 362775,
-			}
-		}
-	]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card

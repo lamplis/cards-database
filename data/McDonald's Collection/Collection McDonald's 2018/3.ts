@@ -3,65 +3,28 @@ import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
 	name: {
-		fr: "Sovkipou",
+		fr: "Florizarre",
 	},
-
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
-	illustrator: "Kagemaru Himeno",
 
 	set: Set,
-	dexId: [767],
-	hp: 70,
+	dexId: [3],
+	hp: 140,
 	types: ["Grass"],
 
-	stage: "Basic",
-	retreat: 3,
+	stage: "Stage2",
 
-	weaknesses: [
-		{
-			type: "Fire",
-			value: "×2"
-		}
-	],
+	thirdParty: {
+		cardmarket: 362774
+	},
 
-	abilities: [
-		{
-			type: "Ability",
-			name: {
-				fr: "Escampette"
-			},
-			effect: {
-				fr: "Pendant votre premier tour, ce Pokémon n'a pas de Coût de Retraite."
-			}
-		}
-	],
-
-	attacks: [
-		{
-			cost: ["Grass", "Colorless", "Colorless"],
-			name: {
-				fr: "Ronge"
-			},
-			damage: 30
-		}
-	],
-
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 362774,
-			}
-		},
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 362774,
-			}
-		}
-	]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

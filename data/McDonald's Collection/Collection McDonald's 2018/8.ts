@@ -3,61 +3,28 @@ import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
 	name: {
-		fr: "Sabelette d'Alola",
+		fr: "Carabaffe",
 	},
-
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
-	illustrator: "Mizue",
 
 	set: Set,
-	dexId: [27],
-	hp: 60,
+	dexId: [8],
+	hp: 80,
 	types: ["Water"],
 
-	stage: "Basic",
-	retreat: 1,
+	stage: "Stage1",
 
-	weaknesses: [
-		{
-			type: "Metal",
-			value: "×2"
-		},
-	],
+	thirdParty: {
+		cardmarket: 362779
+	},
 
-	attacks: [
-		{
-			name: {
-				fr: "Boul'Armure"
-			},
-			effect: {
-				fr: "Lancez une pièce. Si c'est face, évitez tous les dégâts infligés à ce Pokémon par des attaques pendant le prochain tour de votre adversaire."
-			}
-		},
-		{
-			cost: ["Water", "Colorless", "Colorless"],
-			name: {
-				fr: "Ball'Glace"
-			},
-			damage: 30,
-		},
-	],
-
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 362779,
-			}
-		},
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 362779,
-			}
-		}
-	]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

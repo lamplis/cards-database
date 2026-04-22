@@ -3,69 +3,28 @@ import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
 	name: {
-		fr: "Passerouge",
+		fr: "Phyllali",
 	},
-
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
-	illustrator: "You Iribi",
 
 	set: Set,
-	dexId: [661],
-	hp: 50,
-	types: ["Colorless"],
+	dexId: [470],
+	hp: 90,
+	types: ["Grass"],
 
-	stage: "Basic",
-	retreat: 1,
+	stage: "Stage1",
 
-	weaknesses: [
-		{
-			type: "Lightning",
-			value: "×2"
-		}
-	],
+	thirdParty: {
+		cardmarket: 362809
+	},
 
-	resistances: [
-		{
-			type: "Fighting",
-			value: "-20"
-		}
-	],
-
-	attacks: [
-		{
-			cost: ["Colorless"],
-			name: {
-				fr: "Rugissement"
-			},
-			effect: {
-				fr: "Pendant le prochain tour de votre adversaire, les attaques du Pokémon Défenseur infligent 20 dégâts de moins (avant application de la Faiblesse et de la Résistance)."
-			}
-		},
-		{
-			cost: ["Colorless", "Colorless"],
-			name: {
-				fr: "Battement"
-			},
-			damage: 20
-		}
-	],
-
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 362810,
-			}
-		},
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 362810,
-			}
-		}
-	]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

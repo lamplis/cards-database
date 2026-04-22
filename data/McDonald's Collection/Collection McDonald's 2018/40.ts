@@ -3,62 +3,28 @@ import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
 	name: {
-		fr: "Nounourson",
+		fr: "Nymphali",
 	},
-
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
-	illustrator: "Sekio",
 
 	set: Set,
-	dexId: [759],
-	hp: 70,
-	types: ["Colorless"],
+	dexId: [700],
+	hp: 90,
+	types: ["Fairy"],
 
-	stage: "Basic",
-	retreat: 2,
+	stage: "Stage1",
 
-	weaknesses: [
-		{
-			type: "Fighting",
-			value: "×2"
-		}
-	],
+	thirdParty: {
+		cardmarket: 362811
+	},
 
-	attacks: [
-		{
-			cost: ["Colorless"],
-			name: {
-				fr: "Regard Touchant"
-			},
-			effect: {
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
-			}
-		},
-		{
-			cost: ["Colorless", "Colorless"],
-			name: {
-				fr: "Charge"
-			},
-			damage: 20
-		}
-	],
-
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 362811,
-			}
-		},
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 362811,
-			}
-		}
-	]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

@@ -3,67 +3,28 @@ import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
 	name: {
-		fr: "Chartor",
+		fr: "Dracaufeu",
 	},
-
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
-	illustrator: "sui",
 
 	set: Set,
-	dexId: [324],
-	hp: 110,
+	dexId: [6],
+	hp: 150,
 	types: ["Fire"],
 
-	stage: "Basic",
-	retreat: 3,
+	stage: "Stage2",
 
-	weaknesses: [
-		{
-			type: "Water",
-			value: "×2"
-		},
-	],
+	thirdParty: {
+		cardmarket: 362777
+	},
 
-	resistances: [],
-
-	attacks: [
-		{
-			cost: ["Fire"],
-			name: {
-				fr: "Roussi"
-			},
-			effect: {
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé."
-			}
-		},
-		{
-			cost: ["Fire", "Colorless"],
-			name: {
-				fr: "Plaquage"
-			},
-			damage: 50,
-			effect: {
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
-			}
-		},
-	],
-
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 362777,
-			}
-		},
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 362777,
-			}
-		}
-	]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

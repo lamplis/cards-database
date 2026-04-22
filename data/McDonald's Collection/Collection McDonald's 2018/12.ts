@@ -3,65 +3,28 @@ import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
 	name: {
-		fr: "Cadoizo",
+		fr: "Mélofée",
 	},
-
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
-	illustrator: "sui",
 
 	set: Set,
-	dexId: [225],
-	hp: 90,
-	types: ["Water"],
+	dexId: [35],
+	hp: 60,
+	types: ["Fairy"],
 
 	stage: "Basic",
-	retreat: 1,
 
-	weaknesses: [
-		{
-			type: "Metal",
-			value: "×2"
-		},
-	],
+	thirdParty: {
+		cardmarket: 362783
+	},
 
-	attacks: [
-		{
-			cost: ["Colorless"],
-			name: {
-				fr: "Nombreux Cadeaux"
-			},
-			effect: {
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Pour chaque côté face, vous pouvez chercher une carte dans votre deck puis l'ajouter à votre main. Mélangez ensuite votre deck."
-			}
-		},
-		{
-			cost: ["Water"],
-			name: {
-				fr: "Attaque Surprise"
-			},
-			damage: 40,
-			effect: {
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
-			}
-		},
-	],
-
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 362783,
-			}
-		},
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 362783,
-			}
-		}
-	]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

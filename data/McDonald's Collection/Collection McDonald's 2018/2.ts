@@ -3,62 +3,28 @@ import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
 	name: {
-		fr: "Croquine",
+		fr: "Herbizarre",
 	},
-
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
-	illustrator: "Akira Komayama",
 
 	set: Set,
-	dexId: [761],
-	hp: 60,
+	dexId: [2],
+	hp: 80,
 	types: ["Grass"],
 
-	stage: "Basic",
-	retreat: 1,
+	stage: "Stage1",
 
-	weaknesses: [
-		{
-			type: "Fire",
-			value: "×2"
-		}
-	],
+	thirdParty: {
+		cardmarket: 362773
+	},
 
-	attacks: [
-		{
-			cost: ["Grass"],
-			name: {
-				fr: "Doux Parfum"
-			},
-			effect: {
-				fr: "Soignez 30 dégâts à l'un de vos Pokémon."
-			}
-		},
-		{
-			cost: ["Colorless"],
-			name: {
-				fr: "Trempette"
-			},
-			damage: 10
-		}
-	],
-
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 362773,
-			}
-		},
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 362773,
-			}
-		}
-	]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

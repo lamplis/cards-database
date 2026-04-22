@@ -2,61 +2,29 @@ import { Card } from '../../../interfaces'
 import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
-    name: {
-        fr: "Riolu",
-    },
+	name: {
+		fr: "Machoc",
+	},
+	rarity: "Common",
+	category: "Pokemon",
 
-    rarity: "None",
-    category: "Pokemon",
-    illustrator: "Saya Tsuruta",
+	set: Set,
+	dexId: [66],
+	hp: 70,
+	types: ["Fighting"],
 
-    set: Set,
-    dexId: [447],
-    hp: 70,
-    types: ["Fighting"],
+	stage: "Basic",
 
-    stage: "Basic",
-    retreat: 1,
+	thirdParty: {
+		cardmarket: 362795
+	},
 
-    weaknesses: [
-        {
-            type: "Psychic",
-            value: "×2"
-        },
-    ],
-
-    attacks: [
-        {
-			cost: ["Fighting"],
-            name: {
-                fr: "Koud'Poing"
-            },
-            damage: 10
-        },
-        {
-			cost: ["Fighting", "Fighting"],
-            name: {
-                fr: "Balayage"
-            },
-            damage: 30
-        }
-    ],
-
-    variants: [
-        {
-            type: 'normal',
-            thirdParty: {
-                cardmarket: 362795,
-            }
-        },
-        {
-            type: 'holo',
-            thirdParty: {
-                cardmarket: 362795,
-            }
-        }
-    ]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-
