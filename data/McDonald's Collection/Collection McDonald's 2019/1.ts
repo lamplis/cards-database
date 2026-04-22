@@ -5,51 +5,26 @@ const card: Card = {
 	name: {
 		fr: "Bulbizarre",
 	},
-
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
-	illustrator: "Mizue",
 
 	set: Set,
 	dexId: [1],
-	hp: 70,
+	hp: 60,
 	types: ["Grass"],
 
 	stage: "Basic",
-	retreat: 2,
 
-	weaknesses: [
-		{
-			type: "Fire",
-			value: "×2"
-		},
-	],
+	thirdParty: {
+		cardmarket: 479674
+	},
 
-	attacks: [
-		{
-			cost: ["Grass", "Colorless"],
-			name: {
-				fr: "Tranch'Herbe"
-			},
-			damage: 30,
-		},
-	],
-
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 479674,
-			}
-		},
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 581844,
-			}
-		}
-	]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

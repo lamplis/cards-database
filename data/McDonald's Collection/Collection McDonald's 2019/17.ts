@@ -3,56 +3,28 @@ import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Magicarpe",
+		fr: "Grodoudou",
 	},
-
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
-	illustrator: "Sekio",
 
 	set: Set,
-	dexId: [129],
-	hp: 30,
-	types: ["Water"],
+	dexId: [40],
+	hp: 100,
+	types: ["Fairy"],
 
-	stage: "Basic",
-	retreat: 1,
+	stage: "Stage1",
 
-	weaknesses: [
-		{
-			type: "Lightning",
-			value: "×2"
-		},
-	],
+	thirdParty: {
+		cardmarket: 479754
+	},
 
-	attacks: [
-		{
-			cost: ["Water"],
-			name: {
-				fr: "Éclaboussure"
-			},
-			damage: "10+",
-			effect: {
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires."
-			}
-		},
-	],
-
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 479754,
-			}
-		},
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 581860,
-			}
-		}
-	]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

@@ -3,56 +3,28 @@ import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Chenipan",
+		fr: "Herbizarre",
 	},
-
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
-	illustrator: "Sekio",
 
 	set: Set,
-	dexId: [10],
-	hp: 50,
+	dexId: [2],
+	hp: 80,
 	types: ["Grass"],
 
-	stage: "Basic",
-	retreat: 1,
+	stage: "Stage1",
 
-	weaknesses: [
-		{
-			type: "Fire",
-			value: "×2"
-		},
-	],
+	thirdParty: {
+		cardmarket: 479679
+	},
 
-	attacks: [
-		{
-			cost: ["Grass"],
-			name: {
-				fr: "Attaque Surprise"
-			},
-			damage: 20,
-			effect: {
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
-			}
-		},
-	],
-
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 479679,
-			}
-		},
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 581845,
-			}
-		}
-	]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

@@ -3,56 +3,28 @@ import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Salamèche",
+		fr: "Tortank",
 	},
-
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
-	illustrator: "tetsuya koizumi",
 
 	set: Set,
-	dexId: [4],
-	hp: 70,
-	types: ["Fire"],
+	dexId: [9],
+	hp: 140,
+	types: ["Water"],
 
-	stage: "Basic",
-	retreat: 2,
+	stage: "Stage2",
 
-	weaknesses: [
-		{
-			type: "Water",
-			value: "×2"
-		},
-	],
+	thirdParty: {
+		cardmarket: 479714
+	},
 
-	attacks: [
-		{
-			cost: ["Fire", "Colorless"],
-			name: {
-				fr: "Crocs Feu"
-			},
-			damage: 20,
-			effect: {
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé."
-			}
-		},
-	],
-
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 479714,
-			}
-		},
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 581852,
-			}
-		}
-	]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

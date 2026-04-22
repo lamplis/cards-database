@@ -3,56 +3,28 @@ import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Chétiflor",
+		fr: "Salamèche",
 	},
-
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
-	illustrator: "Masako Yamashita",
 
 	set: Set,
-	dexId: [69],
-	hp: 60,
-	types: ["Grass"],
+	dexId: [4],
+	hp: 70,
+	types: ["Fire"],
 
 	stage: "Basic",
-	retreat: 1,
 
-	weaknesses: [
-		{
-			type: "Fire",
-			value: "×2"
-		},
-	],
+	thirdParty: {
+		cardmarket: 479689
+	},
 
-	attacks: [
-		{
-			cost: ["Grass", "Colorless"],
-			name: {
-				fr: "Pâté"
-			},
-			damage: 20,
-			effect: {
-				fr: "Soignez 10 dégâts à ce Pokémon."
-			}
-		},
-	],
-
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 479689,
-			}
-		},
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 581847,
-			}
-		}
-	]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

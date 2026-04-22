@@ -2,57 +2,29 @@ import { Card } from '../../../interfaces'
 import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
-    name: {
-        fr: "Minidraco",
-    },
+	name: {
+		fr: "Mentali",
+	},
+	rarity: "Common",
+	category: "Pokemon",
 
-    rarity: "None",
-    category: "Pokemon",
-    illustrator: "Ayaka Yoshida",
+	set: Set,
+	dexId: [196],
+	hp: 90,
+	types: ["Psychic"],
 
-    set: Set,
-    dexId: [147],
-    hp: 60,
-    types: ["Dragon"],
+	stage: "Stage1",
 
-    stage: "Basic",
-    retreat: 2,
+	thirdParty: {
+		cardmarket: 479854
+	},
 
-    weaknesses: [
-        {
-            type: "Fairy",
-            value: "×2"
-        },
-    ],
-
-    attacks: [
-        {
-            cost: ["Lightning"],
-            name: {
-                fr: "Ligotage"
-            },
-            damage: 10,
-            effect: {
-                fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
-            }
-        },
-    ],
-
-    variants: [
-        {
-            type: 'normal',
-            thirdParty: {
-                cardmarket: 479854,
-            }
-        },
-        {
-            type: 'holo',
-            thirdParty: {
-                cardmarket: 581888,
-            }
-        }
-    ]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

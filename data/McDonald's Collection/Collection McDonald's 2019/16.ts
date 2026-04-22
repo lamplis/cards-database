@@ -3,53 +3,28 @@ import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Stari",
+		fr: "Rondoudou",
 	},
-
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
-	illustrator: "Yukiko Baba",
 
 	set: Set,
-	dexId: [120],
+	dexId: [39],
 	hp: 60,
-	types: ["Water"],
+	types: ["Fairy"],
 
 	stage: "Basic",
-	retreat: 1,
 
-	weaknesses: [
-		{
-			type: "Grass",
-			value: "×2"
-		},
-	],
+	thirdParty: {
+		cardmarket: 479749
+	},
 
-	attacks: [
-		{
-			cost: ["Colorless"],
-			name: {
-				fr: "Attaque Tournante"
-			},
-			damage: 10,
-		},
-	],
-
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 479749,
-			}
-		},
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 581859,
-			}
-		}
-	]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

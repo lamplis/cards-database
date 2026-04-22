@@ -3,63 +3,28 @@ import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Scarabrute",
+		fr: "Carabaffe",
 	},
-
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
-	illustrator: "Suwama Chiaki",
 
 	set: Set,
-	dexId: [127],
-	hp: 110,
-	types: ["Grass"],
+	dexId: [8],
+	hp: 80,
+	types: ["Water"],
 
-	stage: "Basic",
-	retreat: 2,
+	stage: "Stage1",
 
-	weaknesses: [
-		{
-			type: "Fire",
-			value: "×2"
-		},
-	],
+	thirdParty: {
+		cardmarket: 479709
+	},
 
-	attacks: [
-		{
-			cost: ["Grass"],
-			name: {
-				fr: "Empoigne Puissante"
-			},
-			damage: 20,
-			effect: {
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
-			}
-		},
-		{
-			cost: ["Colorless", "Colorless", "Colorless"],
-			name: {
-				fr: "Enfoncement"
-			},
-			damage: 70,
-		},
-	],
-
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 479709,
-			}
-		},
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 581851,
-			}
-		}
-	]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

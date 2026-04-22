@@ -3,53 +3,28 @@ import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Évoli",
+		fr: "Nymphali",
 	},
-
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
-	illustrator: "Atsuko Nishida",
 
 	set: Set,
-	dexId: [133],
-	hp: 60,
-	types: ["Colorless"],
+	dexId: [700],
+	hp: 90,
+	types: ["Fairy"],
 
-	stage: "Basic",
-	retreat: 1,
+	stage: "Stage1",
 
-	weaknesses: [
-		{
-			type: "Fighting",
-			value: "×2"
-		},
-	],
+	thirdParty: {
+		cardmarket: 479874
+	},
 
-	attacks: [
-		{
-			cost: ["Colorless"],
-			name: {
-				fr: "Ronge"
-			},
-			damage: 20,
-		},
-	],
-
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 479874,
-			}
-		},
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 581895,
-			}
-		}
-	]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

@@ -2,65 +2,29 @@ import { Card } from '../../../interfaces'
 import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
-    name: {
-        fr: "Taupiqueur d'Alola",
-    },
+	name: {
+		fr: "Aquali",
+	},
+	rarity: "Common",
+	category: "Pokemon",
 
-    rarity: "None",
-    category: "Pokemon",
-    illustrator: "Megumi Mizutani",
+	set: Set,
+	dexId: [134],
+	hp: 110,
+	types: ["Water"],
 
-    set: Set,
-    dexId: [50],
-    hp: 50,
-    types: ["Metal"],
+	stage: "Stage1",
 
-    stage: "Basic",
-    retreat: 1,
+	thirdParty: {
+		cardmarket: 479834
+	},
 
-    weaknesses: [
-        {
-            type: "Fire",
-            value: "×2"
-        },
-    ],
-
-    resistances: [
-        {
-            type: "Psychic",
-            value: "-20"
-        },
-    ],
-
-    attacks: [
-        {
-            cost: ["Colorless"],
-            name: {
-                fr: "Spéléologue"
-            },
-            damage: 0,
-            effect: {
-                fr: "Regardez les 3 cartes du dessus de votre deck et replacez-les dans l'ordre de votre choix."
-            }
-        },
-        {
-            cost: ["Metal"],
-            name: {
-                fr: "Coud'Boue"
-            },
-            damage: 10,
-        },
-    ],
-
-    variants: [
-        {
-            type: 'holo',
-            thirdParty: {
-                cardmarket: 479839,
-            }
-        }
-    ]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

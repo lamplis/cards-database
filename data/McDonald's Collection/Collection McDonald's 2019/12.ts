@@ -3,55 +3,28 @@ import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Sabelette d'Alola",
+		fr: "Mélofée",
 	},
-
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
-	illustrator: "Shin Nagasawa",
 
 	set: Set,
-	dexId: [27],
+	dexId: [35],
 	hp: 60,
-	types: ["Water"],
+	types: ["Fairy"],
 
 	stage: "Basic",
-	retreat: 1,
 
-	weaknesses: [
-		{
-			type: "Metal",
-			value: "×2"
-		},
-	],
+	thirdParty: {
+		cardmarket: 479729
+	},
 
-	attacks: [
-		{
-			name: {
-				fr: "Combo-Griffe"
-			},
-			damage: "10×",
-			effect: {
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face."
-			}
-		},
-	],
-
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 479729,
-			}
-		},
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 581855,
-			}
-		}
-	]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

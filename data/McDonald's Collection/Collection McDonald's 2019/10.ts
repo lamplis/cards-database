@@ -3,65 +3,28 @@ import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Magmar",
+		fr: "Pikachu",
 	},
-
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
-	illustrator: "Yumi",
 
 	set: Set,
-	dexId: [126],
-	hp: 80,
-	types: ["Fire"],
+	dexId: [25],
+	hp: 60,
+	types: ["Lightning"],
 
 	stage: "Basic",
-	retreat: 2,
 
-	weaknesses: [
-		{
-			type: "Water",
-			value: "×2"
-		},
-	],
+	thirdParty: {
+		cardmarket: 479719
+	},
 
-	attacks: [
-		{
-			cost: ["Fire"],
-			name: {
-				fr: "Feu Contrôlé"
-			},
-			effect: {
-				fr: "Défaussez la carte du dessus du deck de votre adversaire."
-			}
-		},
-		{
-			cost: ["Fire", "Fire", "Colorless"],
-			name: {
-				fr: "Lance-Flammes"
-			},
-			damage: 80,
-			effect: {
-				fr: "Défaussez une Énergie de ce Pokémon."
-			}
-		},
-	],
-
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 479719,
-			}
-		},
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 581853,
-			}
-		}
-	]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

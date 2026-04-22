@@ -2,61 +2,29 @@ import { Card } from '../../../interfaces'
 import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
-    name: {
-        fr: "Rhinocorne",
-    },
+	name: {
+		fr: "Ectoplasma",
+	},
+	rarity: "Common",
+	category: "Pokemon",
 
-    rarity: "None",
-    category: "Pokemon",
-    illustrator: "miki kudo",
+	set: Set,
+	dexId: [94],
+	hp: 130,
+	types: ["Psychic"],
 
-    set: Set,
-    dexId: [111],
-    hp: 80,
-    types: ["Fighting"],
+	stage: "Stage2",
 
-    stage: "Basic",
-    retreat: 3,
+	thirdParty: {
+		cardmarket: 479824
+	},
 
-    weaknesses: [
-        {
-            type: "Grass",
-            value: "×2"
-        },
-    ],
-
-    attacks: [
-        {
-            cost: ["Colorless", "Colorless"],
-            name: {
-                fr: "Allonger"
-            },
-            damage: 20,
-        },
-        {
-            cost: ["Fighting", "Fighting", "Colorless"],
-            name: {
-                fr: "Empal'Korne"
-            },
-            damage: 60,
-        },
-    ],
-
-    variants: [
-        {
-            type: 'normal',
-            thirdParty: {
-                cardmarket: 479824,
-            }
-        },
-        {
-            type: 'holo',
-            thirdParty: {
-                cardmarket: 581880,
-            }
-        }
-    ]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

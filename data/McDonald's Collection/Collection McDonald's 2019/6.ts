@@ -3,63 +3,28 @@ import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Saquedeneu",
+		fr: "Dracaufeu",
 	},
-
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
-	illustrator: "Ken Sugimori",
 
 	set: Set,
-	dexId: [114],
-	hp: 80,
-	types: ["Grass"],
+	dexId: [6],
+	hp: 150,
+	types: ["Fire"],
 
-	stage: "Basic",
-	retreat: 2,
+	stage: "Stage2",
 
-	weaknesses: [
-		{
-			type: "Fire",
-			value: "×2"
-		},
-	],
+	thirdParty: {
+		cardmarket: 479699
+	},
 
-	attacks: [
-		{
-			cost: ["Colorless", "Colorless"],
-			name: {
-				fr: "Gifle Douce"
-			},
-			damage: 20,
-		},
-		{
-			cost: ["Grass", "Colorless", "Colorless"],
-			name: {
-				fr: "Étreinte"
-			},
-			damage: 40,
-			effect: {
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
-			}
-		},
-	],
-
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 479699,
-			}
-		},
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 581849,
-			}
-		}
-	]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-

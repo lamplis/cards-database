@@ -3,61 +3,28 @@ import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Goupix d'Alola",
+		fr: "Mélodelfe",
 	},
-
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
-	illustrator: "Tomokazu Komiya",
 
 	set: Set,
-	dexId: [37],
-	hp: 60,
-	types: ["Water"],
+	dexId: [36],
+	hp: 100,
+	types: ["Fairy"],
 
-	stage: "Basic",
-	retreat: 1,
+	stage: "Stage1",
 
-	weaknesses: [
-		{
-			type: "Metal",
-			value: "×2"
-		},
-	],
+	thirdParty: {
+		cardmarket: 479734
+	},
 
-	attacks: [
-		{
-			name: {
-				fr: "Hurlement"
-			},
-			effect: {
-				fr: "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc."
-			}
-		},
-		{
-			cost: ["Water"],
-			name: {
-				fr: "Verglas"
-			},
-			damage: 10,
-		},
-	],
-
-	variants: [
-		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 479734,
-			}
-		},
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 581856,
-			}
-		}
-	]
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 }
 
 export default card
-
