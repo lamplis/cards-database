@@ -81,14 +81,13 @@ const card: Card = {
 		fr: "S'il agite ses ailes très vite, il peut provoquer des ondes de choc qui font exploser toutes les vitres du voisinage."
 	},
 
-	thirdParty: {
-		cardmarket: 274528,
-		tcgplayer: 90681
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274547,
+				tcgplayer: 90681
+			}
 		},
 		{
 			type: "normal",
@@ -98,4 +97,3 @@ const card: Card = {
 }
 
 export default card
-

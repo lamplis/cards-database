@@ -89,14 +89,13 @@ const card: Card = {
 		fr: "Il ramasse du miel tous les jours en le frottant contre les poils de ses pattes pour le rapporter dans son nid."
 	},
 
-	thirdParty: {
-		cardmarket: 274530,
-		tcgplayer: 84061
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274530,
+				tcgplayer: 84061
+			}
 		},
 		{
 			type: "normal",
@@ -106,4 +105,3 @@ const card: Card = {
 }
 
 export default card
-

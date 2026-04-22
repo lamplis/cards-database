@@ -85,14 +85,13 @@ const card: Card = {
 		fr: "En Amérique du Sud, on dit que son œil droit voit l'avenir et le gauche, le passé."
 	},
 
-	thirdParty: {
-		cardmarket: 274563,
-		tcgplayer: 90660
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274563,
+				tcgplayer: 90660
+			}
 		},
 		{
 			type: "normal",
@@ -102,4 +101,3 @@ const card: Card = {
 }
 
 export default card
-

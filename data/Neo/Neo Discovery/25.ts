@@ -76,14 +76,13 @@ const card: Card = {
 		fr: "Dans l'eau, il rentre ses pattes pour devenir plus compact, puis il agite sa carapace pour nager plus vite."
 	},
 
-	thirdParty: {
-		cardmarket: 274517,
-		tcgplayer: 86394
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274536,
+				tcgplayer: 86394
+			}
 		},
 		{
 			type: "normal",
@@ -93,4 +92,3 @@ const card: Card = {
 }
 
 export default card
-

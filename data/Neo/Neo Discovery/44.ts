@@ -79,14 +79,13 @@ const card: Card = {
 		fr: "La spirale sur son ventre ondule subtilement. A force de la regarder, on risque de s'assoupir."
 	},
 
-	thirdParty: {
-		cardmarket: 274555,
-		tcgplayer: 88262
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274555,
+				tcgplayer: 88262
+			}
 		},
 		{
 			type: "normal",
@@ -96,4 +95,3 @@ const card: Card = {
 }
 
 export default card
-

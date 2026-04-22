@@ -63,14 +63,13 @@ const card: Card = {
 		fr: "Quand il se fait remarquer, ce Pokémon fuit à reculons en plantant furieusement sa queue dans le sol."
 	},
 
-	thirdParty: {
-		cardmarket: 274565,
-		tcgplayer: 85007
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274565,
+				tcgplayer: 85007
+			}
 		},
 		{
 			type: "normal",
@@ -80,4 +79,3 @@ const card: Card = {
 }
 
 export default card
-

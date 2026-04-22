@@ -81,14 +81,13 @@ const card: Card = {
 		fr: "Quand il est énervé, ce Pokémon se protège avec une sueur empoisonnée émise par ses pores."
 	},
 
-	thirdParty: {
-		cardmarket: 274524,
-		tcgplayer: 90142
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274543,
+				tcgplayer: 90142
+			}
 		},
 		{
 			type: "normal",
@@ -98,4 +97,3 @@ const card: Card = {
 }
 
 export default card
-

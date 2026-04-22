@@ -79,14 +79,13 @@ const card: Card = {
 		fr: "Quand la nuit tombe, les anneaux de son corps se mettent à luire, éveillant la peur dans le cœur de ceux qui sont dans les parages."
 	},
 
-	thirdParty: {
-		cardmarket: 274524,
-		tcgplayer: 90137
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274524,
+				tcgplayer: 90137
+			}
 		},
 		{
 			type: "holo",

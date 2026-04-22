@@ -75,14 +75,13 @@ const card: Card = {
 		fr: "Il ne cesse de grandir et de changer de peau. La pointe de sa tête est très recherchée à cause de sa beauté."
 	},
 
-	thirdParty: {
-		cardmarket: 274548,
-		tcgplayer: 84437
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274548,
+				tcgplayer: 84437
+			}
 		},
 		{
 			type: "normal",
@@ -92,4 +91,3 @@ const card: Card = {
 }
 
 export default card
-

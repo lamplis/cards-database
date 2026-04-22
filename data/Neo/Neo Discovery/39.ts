@@ -70,14 +70,13 @@ const card: Card = {
 		fr: "Il utilise différents types d'aboiements pour communiquer avec les autres de son espèce et pour chasser sa proie."
 	},
 
-	thirdParty: {
-		cardmarket: 274516,
-		tcgplayer: 86218
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274550,
+				tcgplayer: 86218
+			}
 		},
 		{
 			type: "normal",
@@ -87,4 +86,3 @@ const card: Card = {
 }
 
 export default card
-

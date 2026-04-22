@@ -76,14 +76,13 @@ const card: Card = {
 		fr: "S'il trouve du miel, sa marque en forme de croissant se met à luire. Il se lèche toujours les pattes parce qu'elles sont couvertes de miel."
 	},
 
-	thirdParty: {
-		cardmarket: 274576,
-		tcgplayer: 89855
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274576,
+				tcgplayer: 89855
+			}
 		},
 		{
 			type: "normal",
@@ -93,4 +92,3 @@ const card: Card = {
 }
 
 export default card
-

@@ -76,14 +76,13 @@ const card: Card = {
 		fr: "Pour traquer leur proie, ils se localisent mutuellement avec des aboiements compris par eux seuls."
 	},
 
-	thirdParty: {
-		cardmarket: 274516,
-		tcgplayer: 86216
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274516,
+				tcgplayer: 86216
+			}
 		},
 		{
 			type: "holo",

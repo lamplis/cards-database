@@ -93,14 +93,13 @@ const card: Card = {
 		fr: "Il sait monter aux arbres, mais il préfère casser les troncs avec ses pattes avant pour manger les baies qui sont tombées."
 	},
 
-	thirdParty: {
-		cardmarket: 274526,
-		tcgplayer: 90250
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274545,
+				tcgplayer: 90250
+			}
 		},
 		{
 			type: "normal",
@@ -110,4 +109,3 @@ const card: Card = {
 }
 
 export default card
-

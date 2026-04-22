@@ -59,14 +59,13 @@ const card: Card = {
 		fr: "Il tisse une toile en utilisant un fil fin mais solide, puis il attend tranquillement sa proie."
 	},
 
-	thirdParty: {
-		cardmarket: 274575,
-		tcgplayer: 89452
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274575,
+				tcgplayer: 89452
+			}
 		},
 		{
 			type: "normal",
@@ -76,4 +75,3 @@ const card: Card = {
 }
 
 export default card
-

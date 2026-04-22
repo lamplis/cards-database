@@ -18,14 +18,13 @@ const card: Card = {
 		de: "Search your deck for a card with Unown in its name and put it onto your Bench. Shuffle your deck afterward. (You can't play this card if your Bench is full.)"
 	},
 
-	thirdParty: {
-		cardmarket: 274585,
-		tcgplayer: 88845
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274585,
+				tcgplayer: 88845
+			}
 		},
 		{
 			type: "normal",
@@ -35,4 +34,3 @@ const card: Card = {
 }
 
 export default card
-

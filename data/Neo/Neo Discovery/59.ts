@@ -63,14 +63,13 @@ const card: Card = {
 		fr: "Il picore souvent le sol à la recherche de nourriture mais, de temps en temps, il saute sur les branches pour picorer des pousses."
 	},
 
-	thirdParty: {
-		cardmarket: 274570,
-		tcgplayer: 87680
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274570,
+				tcgplayer: 87680
+			}
 		},
 		{
 			type: "normal",
@@ -80,4 +79,3 @@ const card: Card = {
 }
 
 export default card
-

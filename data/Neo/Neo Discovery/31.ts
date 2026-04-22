@@ -85,14 +85,13 @@ const card: Card = {
 		fr: "Son corps est invulnérable à toutes les attaques, alors il s'empresse de défier ses ennemis."
 	},
 
-	thirdParty: {
-		cardmarket: 274523,
-		tcgplayer: 90116
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274542,
+				tcgplayer: 90116
+			}
 		},
 		{
 			type: "normal",
@@ -102,4 +101,3 @@ const card: Card = {
 }
 
 export default card
-

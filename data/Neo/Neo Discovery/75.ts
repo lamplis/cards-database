@@ -18,14 +18,13 @@ const card: Card = {
 		de: "Flip 2 coins. For each heads, search your deck for a Basic Energy card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
 	},
 
-	thirdParty: {
-		cardmarket: 274586,
-		tcgplayer: 85209
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274586,
+				tcgplayer: 85209
+			}
 		},
 		{
 			type: "normal",
@@ -35,4 +34,3 @@ const card: Card = {
 }
 
 export default card
-
