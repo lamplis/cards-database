@@ -25,7 +25,11 @@ const card: Card = {
 		de: "Einmal während seines Zuges darf jeder Spieler, falls er 6 Pokémon im Spiel hat, 10 Schadenspunkte bei jedem seiner Pokémon heilen."
 	},
 
-	trainerType: "Stadium"
+	trainerType: "Stadium",
+
+	thirdParty: {
+		cardmarket: 469739
+	}
 }
 
 export default card
