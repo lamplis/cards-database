@@ -74,6 +74,7 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "J",
 
+
 	variants: [
 	{
 		type: "normal",
@@ -98,6 +99,13 @@ const card: Card = {
 			tcgplayer: 677128
 		}
 	},
+		{
+			type: "V3",
+			cardmarketLabels: ["Cosmos Holo"],
+			thirdParty: {
+				cardmarket: 870107
+			}
+		}
 ],
 }
 

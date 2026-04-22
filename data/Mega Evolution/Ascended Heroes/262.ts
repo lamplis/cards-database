@@ -31,12 +31,19 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "I",
 
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
-				cardmarket: 869873,
 				tcgplayer: 676074
+			}
+		},
+		{
+			type: "V2",
+			cardmarketLabels: ["Pokeball Reverse"],
+			thirdParty: {
+				cardmarket: 869873
 			}
 		}
 	],

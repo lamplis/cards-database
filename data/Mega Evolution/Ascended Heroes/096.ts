@@ -76,6 +76,7 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+
 	variants: [
 	{
 		type: "holo",
@@ -88,7 +89,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "pokeball",
 		thirdParty: {
-			cardmarket: 870287,
+			cardmarket: 870288,
 			tcgplayer: 676928
 		}
 	},
@@ -96,10 +97,10 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870288,
+			cardmarket: 870287,
 			tcgplayer: 677068
 		}
-	},
+	}
 ],
 }
 

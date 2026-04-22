@@ -61,12 +61,19 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "J",
 
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
-				cardmarket: 869642,
 				tcgplayer: 675843
+			}
+		},
+		{
+			type: "V1",
+			cardmarketLabels: ["Pokeball Reverse"],
+			thirdParty: {
+				cardmarket: 869642
 			}
 		}
 	],

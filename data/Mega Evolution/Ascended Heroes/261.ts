@@ -31,6 +31,7 @@ const card: Card = {
 	trainerType: "Stadium",
 	regulationMark: "H",
 
+
 	variants: [
 		{
 			type: "holo",

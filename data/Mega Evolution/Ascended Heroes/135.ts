@@ -85,12 +85,19 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
-				cardmarket: 869746,
 				tcgplayer: 675947
+			}
+		},
+		{
+			type: "V1",
+			cardmarketLabels: ["Cosmos Holo", "Pokeball Reverse"],
+			thirdParty: {
+				cardmarket: 869746
 			}
 		}
 	],

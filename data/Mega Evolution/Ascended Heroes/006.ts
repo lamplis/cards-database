@@ -66,6 +66,7 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "J",
 
+
 	variants: [
 		{
 			type: "holo",
@@ -89,7 +90,7 @@ const card: Card = {
 				cardmarket: 870144,
 				tcgplayer: 676996
 			}
-		},
+		}
 	],
 }
 

@@ -66,11 +66,19 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "I",
 
+
 	variants: [
 	{
 		type: "normal",
 		thirdParty: {
 			cardmarket: 869730,
+			tcgplayer: 675931
+		}
+	},
+	{
+		type: "reverse",
+		thirdParty: {
+			cardmarket: 870324,
 			tcgplayer: 675931
 		}
 	},
@@ -86,10 +94,9 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870324,
 			tcgplayer: 677086
 		}
-	},
+	}
 ],
 }
 

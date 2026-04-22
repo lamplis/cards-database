@@ -31,6 +31,7 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "H",
 
+
 	variants: [
 		{
 			type: "holo",

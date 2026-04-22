@@ -83,6 +83,7 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "H",
 
+
 	variants: [
 		{
 			type: "holo",

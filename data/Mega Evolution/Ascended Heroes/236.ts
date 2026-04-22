@@ -56,6 +56,7 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "J",
 
+
 	variants: [
 		{
 			type: "holo",

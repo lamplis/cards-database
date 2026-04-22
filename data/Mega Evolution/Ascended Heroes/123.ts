@@ -42,6 +42,7 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+
 	variants: [
 	{
 		type: "normal",
@@ -54,7 +55,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "duskball",
 		thirdParty: {
-			cardmarket: 870110,
+			cardmarket: 870329,
 			tcgplayer: 676949
 		}
 	},
@@ -62,10 +63,17 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870329,
+			cardmarket: 870330,
 			tcgplayer: 677089
 		}
 	},
+		{
+			type: "V3",
+			cardmarketLabels: ["Cosmos Holo"],
+			thirdParty: {
+				cardmarket: 870110
+			}
+		}
 ],
 }
 

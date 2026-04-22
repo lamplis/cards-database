@@ -31,14 +31,8 @@ const card: Card = {
 	trainerType: "Tool",
 	regulationMark: "I",
 
+
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 869792,
-			tcgplayer: 675993
-		}
-	},
 	{
 		type: "reverse",
 		thirdParty: {
@@ -46,6 +40,12 @@ const card: Card = {
 			tcgplayer: 675993
 		}
 	},
+	{
+		type: "normal",
+		thirdParty: {
+			tcgplayer: 675993
+		}
+	}
 ],
 }
 

@@ -56,6 +56,7 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "J",
 
+
 	variants: [
 	{
 		type: "normal",
@@ -79,7 +80,7 @@ const card: Card = {
 			cardmarket: 870284,
 			tcgplayer: 677066
 		}
-	},
+	}
 ],
 }
 

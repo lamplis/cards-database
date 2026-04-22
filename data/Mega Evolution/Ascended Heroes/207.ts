@@ -31,18 +31,18 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "I",
 
+
 	variants: [
 	{
-		type: "normal",
+		type: "reverse",
 		thirdParty: {
 			cardmarket: 869818,
 			tcgplayer: 676019
 		}
 	},
 	{
-		type: "reverse",
+		type: "normal",
 		thirdParty: {
-			cardmarket: 869818,
 			tcgplayer: 676019
 		}
 	}

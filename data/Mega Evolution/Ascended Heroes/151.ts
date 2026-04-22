@@ -66,6 +66,7 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+
 	variants: [
 	{
 		type: "normal",
@@ -78,7 +79,6 @@ const card: Card = {
 		type: "reverse",
 		foil: "loveball",
 		thirdParty: {
-			cardmarket: 870371,
 			tcgplayer: 676970
 		}
 	},
@@ -86,10 +86,23 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870372,
 			tcgplayer: 677110
 		}
 	},
+		{
+			type: "V1",
+			cardmarketLabels: ["Energy Reverse", "Pokeball Reverse"],
+			thirdParty: {
+				cardmarket: 870371
+			}
+		},
+		{
+			type: "V2",
+			cardmarketLabels: ["Pokeball Reverse"],
+			thirdParty: {
+				cardmarket: 870372
+			}
+		}
 ],
 }
 

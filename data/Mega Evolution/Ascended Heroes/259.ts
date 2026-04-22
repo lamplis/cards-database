@@ -31,6 +31,7 @@ const card: Card = {
 	trainerType: "Tool",
 	regulationMark: "H",
 
+
 	variants: [
 		{
 			type: "holo",

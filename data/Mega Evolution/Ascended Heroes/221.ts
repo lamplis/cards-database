@@ -50,12 +50,19 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "H",
 
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
-				cardmarket: 869832,
 				tcgplayer: 676033
+			}
+		},
+		{
+			type: "V2",
+			cardmarketLabels: ["Pokeball Reverse"],
+			thirdParty: {
+				cardmarket: 869832
 			}
 		}
 	],
