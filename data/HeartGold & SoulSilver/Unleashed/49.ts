@@ -74,14 +74,18 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279205,
+				tcgplayer: 86192
+			}
 		},
 		{
 			type: "reverse"
 		},
 		{
 			type: "normal",
-			stamp: ["gustavo-wada"],
+			stamp: ["gustavo-wada"]
 		},
 		{
 			type: "normal",
@@ -90,10 +94,6 @@ const card: Card = {
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279205,
-		tcgplayer: 86192
-	}
 }
 
 export default card

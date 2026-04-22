@@ -94,7 +94,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279180,
+				tcgplayer: 89563
+			}
 		},
 		{
 			type: "reverse"
@@ -107,12 +111,15 @@ const card: Card = {
 			type: "reverse",
 			foil: "league"
 		},
+		{
+			type: "V2",
+			cardmarketLabels: ["Al Tui", "Peau", "Sop Ale"],
+			thirdParty: {
+				cardmarket: 371565
+			}
+		}
 	],
 
-	thirdParty: {
-		cardmarket: 279180,
-		tcgplayer: 89563
-	}
 }
 
 export default card

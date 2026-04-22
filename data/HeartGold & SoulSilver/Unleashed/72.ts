@@ -23,21 +23,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279228,
+				tcgplayer: 84988
+			}
 		},
 		{
 			type: "reverse"
 		},
 		{
 			type: "normal",
-			stamp: ["igor-costa"],
+			stamp: ["igor-costa"]
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279228,
-		tcgplayer: 84988
-	}
 }
 
 export default card

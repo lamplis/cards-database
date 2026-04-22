@@ -21,16 +21,20 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279231
+			}
 		},
 		{
 			type: "reverse"
 		},
 		{
 			type: "normal",
-			stamp: ["christopher-kan"],
+			stamp: ["christopher-kan"]
 		}
 	],
 

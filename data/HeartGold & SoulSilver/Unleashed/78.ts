@@ -23,7 +23,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279234,
+				tcgplayer: 86359
+			}
 		},
 		{
 			type: "reverse"
@@ -31,23 +35,22 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["michael-pramawat"],
+			thirdParty: {
+				cardmarket: 449093
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["yuka-furusawa"],
+			stamp: ["yuka-furusawa"]
 		},
 		{
 			type: "normal",
-			stamp: ["gustavo-wada"],
+			stamp: ["gustavo-wada"]
 		}
 	],
 
 	hp: 0,
 
-	thirdParty: {
-		cardmarket: 279234,
-		tcgplayer: 86359
-	}
 }
 
 export default card

@@ -88,7 +88,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279161,
+				tcgplayer: 87517
+			}
 		},
 		{
 			type: "reverse"
@@ -101,13 +105,9 @@ const card: Card = {
 			type: "reverse",
 			foil: "league",
 			stamp: ["staff"]
-		},
+		}
 	],
 
-	thirdParty: {
-		cardmarket: 279161,
-		tcgplayer: 87517
-	}
 }
 
 export default card

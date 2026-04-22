@@ -80,21 +80,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279196,
+				tcgplayer: 89016
+			}
 		},
 		{
 			type: "reverse"
 		},
 		{
 			type: "normal",
-			stamp: ["gustavo-wada"],
-		},
+			stamp: ["gustavo-wada"]
+		}
 	],
 
-	thirdParty: {
-		cardmarket: 279196,
-		tcgplayer: 89016
-	}
 }
 
 export default card

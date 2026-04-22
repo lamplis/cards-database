@@ -27,12 +27,15 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279250
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["ross-cawthorn"],
-		},
+			stamp: ["ross-cawthorn"]
+		}
 	],
 
 	attacks: [
@@ -69,9 +72,6 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279250
-	}
 }
 
 export default card

@@ -79,7 +79,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279193,
+				tcgplayer: 88268
+			}
 		},
 		{
 			type: "reverse"
@@ -91,14 +95,16 @@ const card: Card = {
 		{
 			type: "reverse",
 			foil: "league",
-			stamp: ["staff"],
+			stamp: ["staff"]
 		},
+		{
+			type: "V2",
+			thirdParty: {
+				cardmarket: 450133
+			}
+		}
 	],
 
-	thirdParty: {
-		cardmarket: 279193,
-		tcgplayer: 88268
-	}
 }
 
 export default card

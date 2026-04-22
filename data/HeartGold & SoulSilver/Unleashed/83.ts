@@ -23,7 +23,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279239,
+				tcgplayer: 89640
+			}
 		},
 		{
 			type: "reverse"
@@ -35,15 +39,14 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["mychael-bryan"],
-		},
+			thirdParty: {
+				cardmarket: 450423
+			}
+		}
 	],
 
 	hp: 0,
 
-	thirdParty: {
-		cardmarket: 279239,
-		tcgplayer: 89640
-	}
 }
 
 export default card

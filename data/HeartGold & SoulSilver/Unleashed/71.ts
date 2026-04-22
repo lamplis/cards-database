@@ -21,13 +21,17 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279227
+			}
 		},
 		{
 			type: "reverse"
-		},
+		}
 	],
 
 	hp: 0

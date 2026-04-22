@@ -23,7 +23,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279238,
+				tcgplayer: 88595
+			}
 		},
 		{
 			type: "reverse"
@@ -35,35 +39,34 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["michael-pramawat"],
+			thirdParty: {
+				cardmarket: 450263
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["yuka-furusawa"],
+			stamp: ["yuka-furusawa"]
 		},
 		{
 			type: "normal",
-			stamp: ["gustavo-wada"],
+			stamp: ["gustavo-wada"]
 		},
 		{
 			type: "normal",
-			stamp: ["christopher-kan"],
+			stamp: ["christopher-kan"]
 		},
 		{
 			type: "normal",
-			stamp: ["ross-cawthorn"],
+			stamp: ["ross-cawthorn"]
 		},
 		{
 			type: "normal",
-			stamp: ["david-cohen"],
+			stamp: ["david-cohen"]
 		}
 	],
 
 	hp: 0,
 
-	thirdParty: {
-		cardmarket: 279238,
-		tcgplayer: 88595
-	}
 }
 
 export default card

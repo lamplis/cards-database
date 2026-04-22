@@ -89,17 +89,17 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279251
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["ross-cawthorn"],
-		},
+			stamp: ["ross-cawthorn"]
+		}
 	],
 
-	thirdParty: {
-		cardmarket: 279250
-	}
 }
 
 export default card

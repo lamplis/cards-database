@@ -27,8 +27,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		},
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279248
+			}
+		}
 	],
 
 	attacks: [
@@ -66,9 +69,6 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279248
-	}
 }
 
 export default card
