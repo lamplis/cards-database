@@ -55,22 +55,24 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275707,
-		tcgplayer: 87605
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275707,
+				tcgplayer: 87605
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "normal",
 			size: "jumbo",
-			stamp: ["25th-celebration"]
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 547276
+			}
 		},
 		{
 			type: "normal",
