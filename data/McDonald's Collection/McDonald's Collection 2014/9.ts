@@ -10,6 +10,12 @@ const card: Card = {
 		en: "To entangle its opponents in battle, it extrudes white threads as sweet and sticky as cotton candy."
 	},
 	set: Set,
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false,
+	},
 	name: {
 		en: "Swirlix",
 		fr: "Sucroquin",
@@ -21,6 +27,10 @@ const card: Card = {
 		"Fairy",
 	],
 	stage: "Basic",
+	thirdParty: {
+		cardmarket: 281661,
+		tcgplayer: 110414
+	},
 	attacks: [
 		{
 			cost: [
@@ -49,18 +59,6 @@ const card: Card = {
 		}
 	],
 	retreat: 1,
-	variants: [
-		{
-			type: 'holo',
-			stamp: ["mcdonalds"],
-
-			thirdParty: {
-				cardmarket: 281661,
-				tcgplayer: 110414
-			}
-		}
-	]
 }
 
 export default card
-

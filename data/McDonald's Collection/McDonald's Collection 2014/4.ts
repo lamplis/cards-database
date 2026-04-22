@@ -10,6 +10,12 @@ const card: Card = {
 	description: {
 		en: "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked."
 	},
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false,
+	},
 	name: {
 		en: "Froakie",
 		fr: "Grenousse",
@@ -21,6 +27,10 @@ const card: Card = {
 		"Water",
 	],
 	stage: "Basic",
+	thirdParty: {
+		cardmarket: 281656,
+		tcgplayer: 110409
+	},
 	attacks: [
 		{
 			cost: [
@@ -51,21 +61,10 @@ const card: Card = {
 		},
 	],
 	resistances: [
-
+		
 	],
 	retreat: 1,
-	variants: [
-		{
-			type: 'holo',
-			stamp: ["mcdonalds"],
 
-			thirdParty: {
-				cardmarket: 281656,
-				tcgplayer: 110409
-			}
-		}
-	]
 }
 
 export default card
-

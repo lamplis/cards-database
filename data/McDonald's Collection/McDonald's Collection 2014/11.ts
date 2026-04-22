@@ -10,6 +10,12 @@ const card: Card = {
 		en: "These friendly Pokémon send signals to one another with beautiful chirps and tail-feather movements."
 	},
 	set: Set,
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false,
+	},
 	name: {
 		en: "Fletchling",
 		fr: "Passerouge",
@@ -21,6 +27,10 @@ const card: Card = {
 		"Colorless",
 	],
 	stage: "Basic",
+	thirdParty: {
+		cardmarket: 281663,
+		tcgplayer: 110416
+	},
 	attacks: [
 		{
 			cost: [
@@ -50,18 +60,6 @@ const card: Card = {
 		}
 	],
 	retreat: 1,
-	variants: [
-		{
-			type: 'holo',
-			stamp: ["mcdonalds"],
-
-			thirdParty: {
-				cardmarket: 281663,
-				tcgplayer: 110416
-			}
-		}
-	]
 }
 
 export default card
-

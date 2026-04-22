@@ -24,7 +24,8 @@ const s2014xy: Set = {
 	},
 
 	thirdParty: {
-		tcgplayer: 1692
+		tcgplayer: 1692,
+		cardmarket: 1625
 	}
 }
 
