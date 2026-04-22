@@ -10,7 +10,9 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [471],
+	dexId: [
+		471,
+	],
 	hp: 90,
 	types: [
 		"Water",
@@ -28,7 +30,7 @@ const card: Card = {
 				fr: "Vive-Attaque",
 			},
 			effect: {
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				fr: "Lancez une pièce. Si c'est face, cetter attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: "10+",
 
@@ -56,15 +58,12 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 361724,
-			}
-		}
-	]
+
+
+
+	thirdParty: {
+		cardmarket: 361724
+	}
 }
 
 export default card

@@ -3,64 +3,60 @@ import Set from "../Collection McDonald's 2013"
 
 const card: Card = {
 	name: {
-		fr: "Noctali",
+		fr: "Nymphali",
 	},
-	illustrator: "Kouki Saitou",
-	rarity: "None",
+	illustrator: "5ban Graphics",
+	rarity: "Common",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [197],
-	hp: 100,
-	types: ["Darkness"],
+	dexId: [700],
+	hp: 90,
+	types: ["Fairy"],
 
 	stage: "Stage1",
 
 	attacks: [
 		{
-			cost: ["Colorless"],
+			cost: ["Fairy"],
 			name: {
-				fr: "Onde Folie",
+				fr: "Regard Touchant",
 			},
 			effect: {
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 20,
 		},
 		{
-			cost: ["Darkness", "Colorless"],
+			cost: ["Fairy", "Colorless", "Colorless"],
 			name: {
-				fr: "Dépouillage des Ombres",
+				fr: "Vent Féérique",
 			},
 			effect: {
-				fr: "Lancez 2 pièces. Si vous obtenez 2 côtés face, défaussez toutes les Énergies attachées au Pokémon Défenseur.",
+				fr: "Déplacez une Énergie du Pokémon Défenseur vers 1 des Pokémon de Banc de votre adversaire.",
 			},
 			damage: 60,
 		},
 	],
 	weaknesses: [
 		{
-			type: "Fighting",
+			type: "Metal",
 			value: "x2"
 		},
 	],
 	resistances: [
 		{
-			type: "Psychic",
+			type: "Darkness",
 			value: "-20"
 		},
 	],
 
-	retreat: 2,
+	retreat: 1,
 
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 361729,
-			}
-		}
-	]
+	thirdParty: {
+		cardmarket: 361729
+	}
 }
 
 export default card
+

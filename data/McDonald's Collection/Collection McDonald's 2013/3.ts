@@ -3,58 +3,54 @@ import Set from "../Collection McDonald's 2013"
 
 const card: Card = {
 	name: {
-		fr: "Aquali",
+		fr: "Voltali",
 	},
-	illustrator: "Akira Komayama",
-	rarity: "None",
+	illustrator: "Kouki Saitou",
+	rarity: "Common",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [134],
-	hp: 100,
-	types: ["Water"],
+	dexId: [135],
+	hp: 80,
+	types: ["Lightning"],
 
 	stage: "Stage1",
 
 	attacks: [
 		{
-			cost: ["Water"],
+			cost: ["Lightning"],
 			name: {
-				fr: "Ocroupi",
+				fr: "Coup d'Jus",
 			},
 			effect: {
-				fr: "Inflige 20 dégats à I des Pokémon de Banc_de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 20,
 		},
 		{
-			cost: ["Water", "Colorless", "Colorless"],
+			cost: ["Colorless", "Colorless"],
 			name: {
-				fr: "Spirale Epuisante",
+				fr: "Crocs Éclair",
 			},
 			effect: {
-				fr: "Soignez 20 dégâts à ce Pokémon",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			},
-			damage: 60,
+			damage: "30+",
 		},
 	],
 	weaknesses: [
 		{
-			type: "Lightning",
+			type: "Fighting",
 			value: "x2"
 		},
 	],
 
-	retreat: 2,
+	retreat: 0,
 
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 361723,
-			}
-		}
-	]
+	thirdParty: {
+		cardmarket: 361723
+	}
 }
 
 export default card
+

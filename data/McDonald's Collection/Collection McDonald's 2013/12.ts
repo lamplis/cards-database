@@ -3,48 +3,51 @@ import Set from "../Collection McDonald's 2013"
 
 const card: Card = {
 	name: {
-		fr: "Évoli",
+		fr: "Genesect",
 	},
-	illustrator: "Kagemaru Himeno",
-	rarity: "None",
+	illustrator: "5ban Graphics",
+	rarity: "Common",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [133],
-	hp: 60,
-	types: ["Colorless"],
+	dexId: [649],
+	hp: 110,
+	types: ["Grass"],
 
 	stage: "Basic",
 
 	attacks: [
 		{
-			cost: ["Colorless"],
+			cost: ["Grass"],
 			name: {
-				fr: "Attaque Surprise",
-			},
-			effect: {
-				fr: "Lancez une pièce. Si c̕ est pile, cette attaque ne fait rien",
+				fr: "Tranche",
 			},
 			damage: 20,
+		},
+		{
+			cost: ["Grass", "Grass", "Colorless"],
+			name: {
+				fr: "Techno Buster",
+			},
+			effect: {
+				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+			},
+			damage: 80,
 		},
 	],
 	weaknesses: [
 		{
-			type: "Fighting",
+			type: "Fire",
 			value: "x2"
 		},
 	],
 
 	retreat: 1,
 
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 361732,
-			}
-		}
-	]
+	thirdParty: {
+		cardmarket: 361732
+	}
 }
 
 export default card
+

@@ -3,16 +3,16 @@ import Set from "../Collection McDonald's 2013"
 
 const card: Card = {
 	name: {
-		fr: "Baggiguane",
+		fr: "Pikachu",
 	},
-	illustrator: "Kagemaru Himeno",
-	rarity: "None",
+	illustrator: "5ban Graphics",
+	rarity: "Common",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [559],
+	dexId: [25],
 	hp: 60,
-	types: ["Darkness"],
+	types: ["Lightning"],
 
 	stage: "Basic",
 
@@ -20,13 +20,22 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				fr: "Botte Secrète",
+				fr: "Groz'Yeux",
 			},
 			effect: {
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
-			damage: "10+",
-		}
+		},
+		{
+			cost: ["Lightning", "Colorless"],
+			name: {
+				fr: "Électacle",
+			},
+			effect: {
+				fr: "Ce Pokémon s'inflige 10 dégâts.",
+			},
+			damage: 30,
+		},
 	],
 	weaknesses: [
 		{
@@ -34,23 +43,13 @@ const card: Card = {
 			value: "x2"
 		},
 	],
-	resistances: [
-		{
-			type: "Psychic",
-			value: "-20"
-		},
-	],
 
-	retreat: 2,
+	retreat: 1,
 
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 361730,
-			}
-		}
-	]
+	thirdParty: {
+		cardmarket: 361730
+	}
 }
 
 export default card
+

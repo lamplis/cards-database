@@ -3,58 +3,51 @@ import Set from "../Collection McDonald's 2013"
 
 const card: Card = {
 	name: {
-		fr: "Pyroli",
+		fr: "Aquali",
 	},
-	illustrator: "Rya Ueda",
-	rarity: "None",
+	illustrator: "Kouki Saitou",
+	rarity: "Common",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [136],
-	hp: 90,
-	types: ["Fire"],
+	dexId: [134],
+	hp: 100,
+	types: ["Water"],
 
 	stage: "Stage1",
 
 	attacks: [
 		{
-			cost: ["Colorless"],
+			cost: ["Water"],
 			name: {
-				fr: "Jet de Sable",
-			},
-			effect: {
-				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c'est pile, son attaque ne fait rien.",
+				fr: "Pistolet à O",
 			},
 			damage: 20,
 		},
 		{
-			cost: ["Fire", "Colorless", "Colorless"],
+			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				fr: "Flamme Tranchante",
+				fr: "Aqua-Jet",
 			},
 			effect: {
-				fr: "Vous pouvez défausser une Energie feu & attachée à ce Pokémon. Dans ce cas, cette attaque inflige 30 dégâts supplémentaires",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
 			},
-			damage: "60+",
+			damage: "40+",
 		},
 	],
 	weaknesses: [
 		{
-			type: "Water",
+			type: "Grass",
 			value: "x2"
 		},
 	],
 
 	retreat: 2,
 
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 361722,
-			}
-		}
-	]
+	thirdParty: {
+		cardmarket: 361722
+	}
 }
 
 export default card
+

@@ -3,61 +3,51 @@ import Set from "../Collection McDonald's 2013"
 
 const card: Card = {
 	name: {
-		fr: "Zorua",
+		fr: "Mewtwo",
 	},
-	illustrator: "Shin Nagasawa",
-	rarity: "None",
+	illustrator: "5ban Graphics",
+	rarity: "Common",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [570],
-	hp: 50,
-	types: ["Darkness"],
+	dexId: [150],
+	hp: 120,
+	types: ["Psychic"],
 
 	stage: "Basic",
 
 	attacks: [
 		{
-			cost: ["Darkness"],
+			cost: ["Psychic", "Colorless"],
 			name: {
-				fr: "Collision",
-			},
-			damage: 10,
-		},
-		{
-			cost: ["Darkness", "Colorless"],
-			name: {
-				fr: "Botte Secrète",
+				fr: "Choc Mental",
 			},
 			effect: {
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
-			damage: "20+",
-		}
+			damage: 30,
+		},
+		{
+			cost: ["Psychic", "Psychic", "Colorless"],
+			name: {
+				fr: "Ball'Ombre",
+			},
+			damage: 80,
+		},
 	],
 	weaknesses: [
 		{
-			type: "Fighting",
-			value: "x2"
-		},
-	],
-	resistances: [
-		{
 			type: "Psychic",
-			value: "-20"
+			value: "x2"
 		},
 	],
 
 	retreat: 2,
 
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 361731,
-			}
-		}
-	]
+	thirdParty: {
+		cardmarket: 361731
+	}
 }
 
 export default card
+
