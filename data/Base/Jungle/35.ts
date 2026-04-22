@@ -77,14 +77,13 @@ const card: Card = {
 		fr: "On raconte que si une de ses têtes se détache, elle se transforme en un Nœunœuf."
 	},
 
-	thirdParty: {
-		cardmarket: 273832,
-		tcgplayer: 45138
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273832,
+				tcgplayer: 45138
+			}
 		},
 		{
 			type: "normal",

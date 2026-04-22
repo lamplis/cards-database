@@ -80,14 +80,13 @@ const card: Card = {
 		fr: "Il ne retire jamais son casque en os. Personne n'a jamais vu le visage de ce Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 273847,
-		tcgplayer: 45153
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273847,
+				tcgplayer: 45153
+			}
 		},
 		{
 			type: "normal",

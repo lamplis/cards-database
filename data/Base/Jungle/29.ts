@@ -87,14 +87,13 @@ const card: Card = {
 		fr: "Les motifs ocres de ses ailes changent en fonction de son type de poison."
 	},
 
-	thirdParty: {
-		cardmarket: 273810,
-		tcgplayer: 106991
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273826,
+				tcgplayer: 106991
+			}
 		},
 		{
 			type: "normal",

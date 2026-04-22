@@ -84,14 +84,13 @@ const card: Card = {
 		fr: "Il chasse en surveillant la surface de l'eau et en plongeant pour attraper des proies faciles."
 	},
 
-	thirdParty: {
-		cardmarket: 273805,
-		tcgplayer: 45134
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273805,
+				tcgplayer: 45134
+			}
 		},
 		{
 			type: "holo",
@@ -99,7 +98,7 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			subtype: "missing-expansion-symbol",
+			subtype: "missing-expansion-symbol"
 		}
 	],
 }

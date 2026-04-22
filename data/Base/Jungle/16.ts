@@ -86,14 +86,13 @@ const card: Card = {
 		fr: "En cas de danger, il gonfle d'air son corps doux et potelé dans des proportions gigantesques."
 	},
 
-	thirdParty: {
-		cardmarket: 273813,
-		tcgplayer: 45127
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273813,
+				tcgplayer: 45127
+			}
 		},
 		{
 			type: "holo",
@@ -101,7 +100,7 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			subtype: "missing-expansion-symbol",
+			subtype: "missing-expansion-symbol"
 		}
 	],
 }

@@ -73,14 +73,13 @@ const card: Card = {
 		fr: "Quand il ne peut écraser sa proie avec sa pince, il la secoue et l'envoie dans les airs."
 	},
 
-	thirdParty: {
-		cardmarket: 273806,
-		tcgplayer: 45135
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273806,
+				tcgplayer: 45135
+			}
 		},
 		{
 			type: "holo",
@@ -88,12 +87,12 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			subtype: "missing-expansion-symbol",
+			subtype: "missing-expansion-symbol"
 		},
 		{
 			type: "holo",
 			stamp: ["1st-edition-scratch-error"]
-		},
+		}
 	],
 }
 

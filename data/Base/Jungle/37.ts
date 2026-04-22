@@ -78,14 +78,13 @@ const card: Card = {
 		fr: "Le liquide qui s'écoule de sa bouche est comestible. Il sert à appâter sa proie."
 	},
 
-	thirdParty: {
-		cardmarket: 273834,
-		tcgplayer: 45140
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273834,
+				tcgplayer: 45140
+			}
 		},
 		{
 			type: "normal",

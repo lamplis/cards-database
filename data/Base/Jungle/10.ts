@@ -77,14 +77,13 @@ const card: Card = {
 		fr: "Rapide et agile comme un ninja, il se déplace si vite qu'il crée l'illusion d'être en groupe."
 	},
 
-	thirdParty: {
-		cardmarket: 273807,
-		tcgplayer: 45121
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273807,
+				tcgplayer: 45121
+			}
 		},
 		{
 			type: "holo",
@@ -92,7 +91,7 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			subtype: "missing-expansion-symbol",
+			subtype: "missing-expansion-symbol"
 		}
 	],
 }

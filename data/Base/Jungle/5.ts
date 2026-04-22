@@ -82,14 +82,13 @@ const card: Card = {
 		fr: "Son enfant ne quitte la poche ventrale protectrice qu'à l'âge de 3 ans."
 	},
 
-	thirdParty: {
-		cardmarket: 273802,
-		tcgplayer: 45131
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273802,
+				tcgplayer: 45131
+			}
 		},
 		{
 			type: "holo",
@@ -97,7 +96,7 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			subtype: "missing-expansion-symbol",
+			subtype: "missing-expansion-symbol"
 		}
 	],
 }

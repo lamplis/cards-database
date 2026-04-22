@@ -77,14 +77,13 @@ const card: Card = {
 		fr: "Dérangez-le pendant qu'il mime et il se battra en distribuant des volées de claques."
 	},
 
-	thirdParty: {
-		cardmarket: 273803,
-		tcgplayer: 106984
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273819,
+				tcgplayer: 106984
+			}
 		},
 		{
 			type: "normal",

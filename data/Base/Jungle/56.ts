@@ -64,14 +64,13 @@ const card: Card = {
 		fr: "Il adore les pièces de monnaie. Il hante les rues à la recherche de pièces oubliées par les passants."
 	},
 
-	thirdParty: {
-		cardmarket: 273853,
-		tcgplayer: 45159
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273853,
+				tcgplayer: 45159
+			}
 		},
 		{
 			type: "normal",
@@ -79,7 +78,14 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			subtype: "gold-border",
+			subtype: "gold-border"
+		},
+		{
+			type: "V2",
+			cardmarketLabels: ["Adores Objects Wanders The Streets On A Nightly", "Basis To Fook For Dropped Change", "Ciws"],
+			thirdParty: {
+				cardmarket: 275571
+			}
 		}
 	],
 }

@@ -89,14 +89,13 @@ const card: Card = {
 		fr: "En combat, il bat des ailes très rapidement pour projeter des poudres toxiques sur ses ennemis."
 	},
 
-	thirdParty: {
-		cardmarket: 273830,
-		tcgplayer: 45136
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273830,
+				tcgplayer: 45136
+			}
 		},
 		{
 			type: "normal",
@@ -105,7 +104,7 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["d-edition-error"]
-		},
+		}
 	],
 }
 

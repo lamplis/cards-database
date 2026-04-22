@@ -73,9 +73,13 @@ const card: Card = {
 		fr: "Ce Pokémon est hérissé de dards empoisonnés. Les femelles ont des dards plus petits."
 	},
 
+
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273854
+			}
 		},
 		{
 			type: "normal",

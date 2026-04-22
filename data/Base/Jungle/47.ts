@@ -83,14 +83,13 @@ const card: Card = {
 		fr: "Une fois sa cible en vue, il la charge furieusement en fouettant l'air de sa queue."
 	},
 
-	thirdParty: {
-		cardmarket: 273844,
-		tcgplayer: 45150
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273844,
+				tcgplayer: 45150
+			}
 		},
 		{
 			type: "normal",

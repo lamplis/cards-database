@@ -70,14 +70,13 @@ const card: Card = {
 		fr: "Les champignons sur son dos se nourrissent des nutriments de leur hôte insectoïde."
 	},
 
-	thirdParty: {
-		cardmarket: 273856,
-		tcgplayer: 45162
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273856,
+				tcgplayer: 45162
+			}
 		},
 		{
 			type: "normal",

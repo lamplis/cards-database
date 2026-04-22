@@ -76,14 +76,13 @@ const card: Card = {
 		fr: "Quand ses yeux s'illuminent, il chante une mystérieuse berceuse."
 	},
 
-	thirdParty: {
-		cardmarket: 273851,
-		tcgplayer: 45157
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273851,
+				tcgplayer: 45157
+			}
 		},
 		{
 			type: "normal",

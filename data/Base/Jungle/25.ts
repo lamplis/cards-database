@@ -73,14 +73,13 @@ const card: Card = {
 		fr: "Quand il ne peut écraser sa proie avec sa pince, il la secoue et l'envoie dans les airs."
 	},
 
-	thirdParty: {
-		cardmarket: 273806,
-		tcgplayer: 106987
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273822,
+				tcgplayer: 106987
+			}
 		},
 		{
 			type: "normal",

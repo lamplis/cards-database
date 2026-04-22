@@ -78,14 +78,13 @@ const card: Card = {
 		fr: "Il vit en colonie dans la jungle mais personne n'en est jamais revenu vivant."
 	},
 
-	thirdParty: {
-		cardmarket: 273811,
-		tcgplayer: 45125
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273811,
+				tcgplayer: 45125
+			}
 		},
 		{
 			type: "holo",
@@ -93,7 +92,7 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			subtype: "missing-expansion-symbol",
+			subtype: "missing-expansion-symbol"
 		}
 	],
 }

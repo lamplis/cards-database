@@ -84,14 +84,13 @@ const card: Card = {
 		fr: "Très apprécié pour sa fourrure, il est difficile à apprivoiser en raison de son caractère rétif."
 	},
 
-	thirdParty: {
-		cardmarket: 273839,
-		tcgplayer: 45145
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273839,
+				tcgplayer: 45145
+			}
 		},
 		{
 			type: "normal",

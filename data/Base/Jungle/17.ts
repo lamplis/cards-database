@@ -84,14 +84,13 @@ const card: Card = {
 		fr: "Une sorte de petite fée très rare. Il se cache en apercevant un être humain."
 	},
 
-	thirdParty: {
-		cardmarket: 273798,
-		tcgplayer: 106979
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273814,
+				tcgplayer: 106979
+			}
 		},
 		{
 			type: "holo",
