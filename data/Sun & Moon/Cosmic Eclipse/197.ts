@@ -36,6 +36,9 @@ const card: Card = {
 	},
 	trainerType: "Item",
 
+	thirdParty: {
+		cardmarket: 408594
+	}
 }
 
 export default card
