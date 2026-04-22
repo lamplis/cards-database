@@ -28,6 +28,13 @@ const card: Card = {
 		}
 	}],
 
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
 	name: {
 		en: "Purrloin",
 		fr: "Chacripan"
@@ -37,18 +44,10 @@ const card: Card = {
 	hp: 60,
 	types: ["Darkness"],
 
-	variants: [
-		{
-			type: 'holo',
-			stamp: ["mcdonalds"],
-
-			thirdParty: {
-				cardmarket: 281786,
-				tcgplayer: 88463
-			}
-		}
-	]
+	thirdParty: {
+		tcgplayer: 88463,
+		cardmarket: 281786
+	}
 }
 
 export default card
-

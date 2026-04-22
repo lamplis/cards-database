@@ -38,6 +38,13 @@ const card: Card = {
 		}
 	}],
 
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	},
+
 	name: {
 		en: "Klang",
 		fr: "Clic"
@@ -47,18 +54,10 @@ const card: Card = {
 	hp: 80,
 	types: ["Metal"],
 
-	variants: [
-		{
-			type: 'holo',
-			stamp: ["mcdonalds"],
-
-			thirdParty: {
-				cardmarket: 281788,
-				tcgplayer: 86478
-			}
-		}
-	]
+	thirdParty: {
+		tcgplayer: 86478,
+		cardmarket: 281788
+	}
 }
 
 export default card
-

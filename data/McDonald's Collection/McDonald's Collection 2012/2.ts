@@ -33,6 +33,13 @@ const card: Card = {
 		damage: 20
 	}],
 
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
 	name: {
 		en: "Pansage",
 		fr: "Feuillajou"
@@ -42,18 +49,10 @@ const card: Card = {
 	hp: 70,
 	types: ["Grass"],
 
-	variants: [
-		{
-			type: 'holo',
-			stamp: ["mcdonalds"],
-
-			thirdParty: {
-				cardmarket: 281779,
-				tcgplayer: 87937
-			}
-		}
-	]
+	thirdParty: {
+		tcgplayer: 87937,
+		cardmarket: 281779
+	}
 }
 
 export default card
-

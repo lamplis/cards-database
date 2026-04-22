@@ -33,6 +33,13 @@ const card: Card = {
 		damage: 20
 	}],
 
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
 	name: {
 		en: "Dwebble",
 		fr: "Crabicoque"
@@ -42,18 +49,10 @@ const card: Card = {
 	hp: 60,
 	types: ["Grass"],
 
-	variants: [
-		{
-			type: 'holo',
-			stamp: ["mcdonalds"],
-
-			thirdParty: {
-				cardmarket: 281780,
-				tcgplayer: 85065
-			}
-		}
-	]
+	thirdParty: {
+		tcgplayer: 85065,
+		cardmarket: 281780
+	}
 }
 
 export default card
-

@@ -25,7 +25,8 @@ const s2012bw: Set = {
 	},
 
 	thirdParty: {
-		tcgplayer: 1427
+		tcgplayer: 1427,
+		cardmarket: 1624
 	}
 }
 

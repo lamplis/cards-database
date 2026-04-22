@@ -40,6 +40,13 @@ const card: Card = {
 		}
 	}],
 
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
 	name: {
 		en: "Emolga",
 		fr: "Emolga"
@@ -49,18 +56,10 @@ const card: Card = {
 	hp: 70,
 	types: ["Lightning"],
 
-	variants: [
-		{
-			type: 'holo',
-			stamp: ["mcdonalds"],
-
-			thirdParty: {
-				cardmarket: 281783,
-				tcgplayer: 85193
-			}
-		}
-	]
+	thirdParty: {
+		tcgplayer: 85193,
+		cardmarket: 281783
+	}
 }
 
 export default card
-

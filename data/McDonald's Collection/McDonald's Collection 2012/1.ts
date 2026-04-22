@@ -35,6 +35,13 @@ const card: Card = {
 		damage: 30
 	}],
 
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
 	name: {
 		en: "Servine",
 		fr: "Lianaja"
@@ -44,18 +51,10 @@ const card: Card = {
 	hp: 80,
 	types: ["Grass"],
 
-	variants: [
-		{
-			type: 'holo',
-			stamp: ["mcdonalds"],
-
-			thirdParty: {
-				cardmarket: 281778,
-				tcgplayer: 89081
-			}
-		}
-	]
+	thirdParty: {
+		tcgplayer: 89081,
+		cardmarket: 281778
+	}
 }
 
 export default card
-
