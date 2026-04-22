@@ -28,6 +28,13 @@ const card: Card = {
 		}
 	}],
 
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
 	name: {
 		en: "Sandile",
 		fr: "Mascaïman"
@@ -37,16 +44,10 @@ const card: Card = {
 	hp: 70,
 	types: ["Fighting"],
 
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 281797,
-				tcgplayer: 88913
-			}
-		}
-	]
+	thirdParty: {
+		tcgplayer: 88913,
+		cardmarket: 281797
+	}
 }
 
 export default card
-

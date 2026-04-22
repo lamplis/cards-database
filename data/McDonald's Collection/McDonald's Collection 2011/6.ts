@@ -28,6 +28,13 @@ const card: Card = {
 		}
 	}],
 
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
 	name: {
 		en: "Blitzle",
 		fr: "Zébibron"
@@ -36,17 +43,11 @@ const card: Card = {
 	rarity: "None",
 	hp: 60,
 	types: ["Lightning"],
-	
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 281795,
-				tcgplayer: 83929
-			}
-		}
-	]
+
+	thirdParty: {
+		tcgplayer: 83929,
+		cardmarket: 281795
+	}
 }
 
 export default card
-

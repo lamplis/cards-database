@@ -25,7 +25,8 @@ const s2011bw: Set = {
 		fr: "M11"
 	},
 	thirdParty: {
-		tcgplayer: 1401
+		tcgplayer: 1401,
+		cardmarket: 1623
 	}
 }
 

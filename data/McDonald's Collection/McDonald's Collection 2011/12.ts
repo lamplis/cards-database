@@ -28,6 +28,13 @@ const card: Card = {
 		}
 	}],
 
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
 	name: {
 		en: "Audino",
 		fr: "Nanméouïe"
@@ -37,16 +44,10 @@ const card: Card = {
 	hp: 80,
 	types: ["Colorless"],
 
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 281801,
-				tcgplayer: 83660
-			}
-		}
-	]
+	thirdParty: {
+		tcgplayer: 83660,
+		cardmarket: 281801
+	}
 }
 
 export default card
-

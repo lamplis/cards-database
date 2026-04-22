@@ -35,6 +35,13 @@ const card: Card = {
 		}
 	}],
 
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
 	name: {
 		en: "Zorua",
 		fr: "Zorua"
@@ -44,16 +51,10 @@ const card: Card = {
 	hp: 50,
 	types: ["Darkness"],
 
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 281798,
-				tcgplayer: 90758
-			}
-		}
-	]
+	thirdParty: {
+		tcgplayer: 90758,
+		cardmarket: 281798
+	}
 }
 
 export default card
-
