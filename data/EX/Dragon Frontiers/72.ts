@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Jeder Schaden, der dem Pokémon, an dem Dämpfender Talisman angelegt ist, durch gegnerische Angriffe zugefügt wird, wird um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden). Lege Dämpfender Talisman am Ende des nächsten Zuges deines Gegners auf den Ablagestapel"
 	},
 
-	thirdParty: {
-		cardmarket: 277277,
-		tcgplayer: 84013
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277277,
+				tcgplayer: 84013
+			}
 		},
 		{
 			type: "normal",

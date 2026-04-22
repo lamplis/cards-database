@@ -19,14 +19,13 @@ const card: Card = {
 		fr: "Énergie Super ne peut être attachée qu'à un Pokémon Évolué. Défaussez Énergie Super à la fin du tour où elle a été attachée. Énergie Super fournit de l'Énergie Incolore Incolore Incolore. Le Pokémon auquel Énergie Super est attachée ne peut pas battre en retraite. Si le Pokémon auquel Énergie Super est attachée n'est pas un Pokémon Évolué, défaussez-la.",
 	},
 
-	thirdParty: {
-		cardmarket: 277292,
-		tcgplayer: 83940
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277292,
+				tcgplayer: 83940
+			}
 		},
 		{
 			type: "normal",

@@ -69,14 +69,18 @@ const card: Card = {
 		},
 	],
 
+
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 277306
+			}
 		},
 		{
 			type: "holo",
 			stamp: ["dylan-lefavour"]
-		},
+		}
 	]
 
 

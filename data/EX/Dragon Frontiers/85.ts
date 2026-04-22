@@ -19,14 +19,13 @@ const card: Card = {
 		fr: "Si le Pokémon auquel Énergie Holon GL est attachée possède également une carte Énergie de base Plante, il ne peut pas être affecté par des États Spéciaux. Si le Pokémon auquel Énergie Holon GL est attachée possède également une carte Énergie de base Électrique, les dégâts infligés par l'attaque du Pokémon-ex de votre adversaire sont réduits de 10. Ignorez ces effets si Énergie Holon GL est attachée à un Pokémon-ex.",
 	},
 
-	thirdParty: {
-		cardmarket: 277290,
-		tcgplayer: 86139
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277290,
+				tcgplayer: 86139
+			}
 		},
 		{
 			type: "normal",

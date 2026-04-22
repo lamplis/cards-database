@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Wenn ein Angriff des Pokémon, an dem Stärkeamulett angelegt ist, Aktiven Pokémon Schaden zufügt (bevor Schwäche und Resistenz verrechnet werden), fügt dieser Angriff 10 weitere Schadenspunkte zu. Wenn das Pokémon angreift, lege Stärkeamulett am Ende des Zuges auf den Ablagestapel."
 	},
 
-	thirdParty: {
-		cardmarket: 277286,
-		tcgplayer: 89576
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277286,
+				tcgplayer: 89576
+			}
 		},
 		{
 			type: "normal",

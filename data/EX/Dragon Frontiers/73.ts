@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Mische deine Handkarten in dein Deck. Zähle danach die Anzahl der Karten auf der Hand deines Gegners. Ziehe ebenso viele Karten.",
 	},
 
-	thirdParty: {
-		cardmarket: 277278,
-		tcgplayer: 84425
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277278,
+				tcgplayer: 84425
+			}
 		},
 		{
 			type: "normal",

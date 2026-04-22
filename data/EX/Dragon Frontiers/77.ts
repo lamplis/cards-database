@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Durchsuche dein Deck nach bis zu 2 Basis-Energiekarten, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach. Oder: Durchsuche deinen Ablagestapel nach bis zu 2 Basis-Energiekarten, zeige sie deinem Gegner und nimm sie auf die Hand.",
 	},
 
-	thirdParty: {
-		cardmarket: 277282,
-		tcgplayer: 87602
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277282,
+				tcgplayer: 87602
+			}
 		},
 		{
 			type: "normal",

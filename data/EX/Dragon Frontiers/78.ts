@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Wirf 2 Münzen. Wenn beide \"Kopf\" zeigen, durchsuche dienen Ablagestapel nach einer Basis-Pokémon- oder Evolutionskarte, zeige sie deinem Gegner und nimm sie auf die Hand. Wenn beide \"Zahl\" zeigen, durchsuche deinen Ablagestapel nach einer Trainerkarte, zeige sie deinem Gegner und nimm sie auf die Hand."
 	},
 
-	thirdParty: {
-		cardmarket: 277283,
-		tcgplayer: 87852
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277283,
+				tcgplayer: 87852
+			}
 		},
 		{
 			type: "normal",
