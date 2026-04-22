@@ -5,6 +5,10 @@ const card: Card = {
 	dexId: [635],
 	set: Set,
 
+	thirdParty: {
+		cardmarket: 576737
+	},
+
 	variants: {
 		normal: false,
 		reverse: false,

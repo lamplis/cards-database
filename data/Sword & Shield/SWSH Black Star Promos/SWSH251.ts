@@ -29,6 +29,10 @@ const card: Card = {
     regulationMark: "F",
     illustrator: "Mitsuhiro Arita",
 
+    thirdParty: {
+    	cardmarket: 691252
+    },
+
     variants: {
         normal: false,
         reverse: false,
