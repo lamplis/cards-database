@@ -19,11 +19,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
 			thirdParty: {
 				cardmarket: 273793,
 				tcgplayer: 42442
-			},
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -36,15 +40,18 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			subtype: "shadowless",
-			thirdParty: {
-				tcgplayer: 107094,
-				cardmarket: 660103
-			},
+			subtype: "shadowless"
 		},
 		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
+			type: "V2",
+			cardmarketLabels: ["Soy"]
+		},
+		{
+			type: "V2",
+			cardmarketLabels: ["Soy"],
+			thirdParty: {
+				cardmarket: 660103
+			}
 		}
 	],
 }

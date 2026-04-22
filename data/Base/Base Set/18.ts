@@ -82,11 +82,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
 			thirdParty: {
 				cardmarket: 273713,
 				tcgplayer: 42358
 			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -101,13 +105,8 @@ const card: Card = {
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 107013,
 				cardmarket: 660210
 			}
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
 		}
 	],
 
@@ -123,9 +122,9 @@ const card: Card = {
 	description: {
 		en: "A mystical Pokémon that exudes a gentle aura. Has the ability to change climate conditions.",
 		fr: "Un Pokémon légendaire plein de charme. Il peut contrôler les variations climatiques.",
-		it: "Pokémon mistico con un'indole gentile. Ha l'abilità di cambiare le condizioni climatiche. LIV 33 N.148",
-		de: "Ein mystisches Pokémon, das eine sanfte Aura verbreitet. Hat die Fähigkeit, Klimabedingungen zu verändern."
-	}
+		it: "Pokémon mistico con un'indole gentile. Ha l'abilità di cambiare le condizioni climatiche. LIV 33 N.148"
+	},
+
 }
 
 export default card

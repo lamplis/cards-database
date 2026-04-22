@@ -26,11 +26,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
 			thirdParty: {
 				cardmarket: 273788,
 				tcgplayer: 42437
-			},
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -45,13 +49,8 @@ const card: Card = {
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 107090,
 				cardmarket: 660110
-			},
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
+			}
 		}
 	],
 }

@@ -83,11 +83,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
 			thirdParty: {
 				cardmarket: 273722,
 				tcgplayer: 42368
 			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -102,21 +106,16 @@ const card: Card = {
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 107024,
 				cardmarket: 660201
 			}
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
 		}
 	],
 	description: {
 		en: "The sprig of green onions it holds is its weapon. This sprig is used much like a metal sword.",
 		fr: "Il utilise l'oignon qu'il a dans la bouche comme une épée d'acier.",
-		it: "Il porro che impugna è il suo simbolo e lo usa come una spada d'acciaio. LIV 20 N.83",
-		de: "Er hält die Lauchstange wie eine Waffe. Die Stange wird ähnlich wie ein Schwert verwendet."
-	}
+		it: "Il porro che impugna è il suo simbolo e lo usa come una spada d'acciaio. LIV 20 N.83"
+	},
+
 }
 
 export default card
