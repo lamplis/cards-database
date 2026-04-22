@@ -36,6 +36,9 @@ const card: Card = {
 	},
 	trainerType: "Supporter",
 
+	thirdParty: {
+		cardmarket: 369079
+	}
 }
 
 export default card
