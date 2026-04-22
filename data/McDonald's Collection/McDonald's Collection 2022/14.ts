@@ -46,6 +46,7 @@ const card: Card = {
 
 	retreat: 2,
 
+
 	variants: [
 		{
 			type: 'holo',
@@ -58,4 +59,3 @@ const card: Card = {
 }
 
 export default card
-

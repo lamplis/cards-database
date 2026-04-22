@@ -18,7 +18,7 @@ const card: Card = {
 
 	dexId: [494],
 
-	hp: 60,
+	hp: 70,
 
 	types: ["Fire"],
 
@@ -28,12 +28,34 @@ const card: Card = {
 		{
 			cost: ["Fire"],
 			name: {
-				en: "Victory Dive",
+				en: "V-Flame",
+				fr: "V-Flamme",
+				es: "V-Llama",
+				it: "V-Fiamma",
+				pt: "V-Chama",
+				de: "V-Flamme"
 			},
+			damage: 10,
+		},
+		{
+			cost: ["Fire", "Colorless"],
+			name: {
+				en: "Fire Spin",
+				fr: "Danse Flammes",
+				es: "Giro Fuego",
+				it: "Turbofuoco",
+				pt: "Giro de Fogo",
+				de: "Feuerwirbel"
+			},
+			damage: 50,
 			effect: {
-				en: "You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck."
+				en: "Discard 2 Energy from this Pokémon.",
+				fr: "Défaussez 2 Énergies de ce Pokémon.",
+				es: "Descarta 2 Energías de este Pokémon.",
+				it: "Scarta due Energie da questo Pokémon.",
+				pt: "Descarte 2 Energias deste Pokémon.",
+				de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
-			damage: 30,
 		},
 	],
 
@@ -45,16 +67,17 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 670470,
-				tcgplayer: 281493
-			}
-		}
-	]
+
+	thirdParty: {
+		cardmarket: 670470
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

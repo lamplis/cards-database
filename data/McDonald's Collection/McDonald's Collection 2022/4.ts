@@ -18,7 +18,7 @@ const card: Card = {
 
 	dexId: [58],
 
-	hp: 80,
+	hp: 70,
 
 	types: ["Fire"],
 
@@ -26,20 +26,28 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless"],
+			cost: ["Fire"],
 			name: {
-				en: "Warm Up",
+				en: "Gnaw",
+				fr: "Ronge",
+				es: "Roer",
+				it: "Rosicchiamento",
+				pt: "Roída",
+				de: "Nagen"
 			},
-			effect: {
-				en: "Search your deck for a Fire Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck."
-			}
+			damage: 10,
 		},
 		{
-			cost: ["Fire", "Colorless", "Colorless"],
+			cost: ["Fire", "Colorless"],
 			name: {
-				en: "Combustion",
+				en: "Flare",
+				fr: "Flamboiement",
+				es: "Llamarada",
+				it: "Vampata",
+				pt: "Labareda",
+				de: "Auflodern"
 			},
-			damage: 30,
+			damage: 20,
 		},
 	],
 
@@ -51,16 +59,17 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 670469,
-				tcgplayer: 281503
-			}
-		}
-	]
+
+	thirdParty: {
+		cardmarket: 670469
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

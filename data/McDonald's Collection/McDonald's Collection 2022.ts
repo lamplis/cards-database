@@ -23,6 +23,10 @@ const s2022swsh: Set = {
 	abbreviations: {
 		official: "MCD22",
 		fr: "M22"
+	},
+
+	thirdParty: {
+		cardmarket: 5135
 	}
 }
 

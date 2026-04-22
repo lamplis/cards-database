@@ -18,33 +18,36 @@ const card: Card = {
 
 	dexId: [722],
 
-	hp: 50,
+	hp: 60,
 
 	types: ["Grass"],
 
 	stage: "Basic",
 
-	abilities: [
-		{
-			type: "Ability",
-			name: {
-				en: "Sky Circus"
-			},
-			effect: {
-				en: "If you played Bird Keeper from your hand during this turn, ignore all Energy in this Pokémon's attack costs"
-			}
-		}
-	],
-
 	attacks: [
 		{
-			cost: ["Colorless", "Colorless", "Colorless"],
+			cost: ["Colorless"],
 			name: {
-				en: "Wind Shard",
+				en: "Peck",
+				fr: "Picpic",
+				es: "Picotazo",
+				it: "Beccata",
+				pt: "Bicada",
+				de: "Pikser"
 			},
-			effect: {
-				en: "This attack does 60 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
-			}
+			damage: 10,
+		},
+		{
+			cost: ["Grass", "Colorless"],
+			name: {
+				en: "Razor Leaf",
+				fr: "Tranch'Herbe",
+				es: "Hoja Afilada",
+				it: "Foglielama",
+				pt: "Folha Navalha",
+				de: "Rasierblatt"
+			},
+			damage: 20,
 		},
 	],
 
@@ -56,16 +59,17 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 670467,
-				tcgplayer: 281473
-			}
-		}
-	]
+
+	thirdParty: {
+		cardmarket: 670467
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

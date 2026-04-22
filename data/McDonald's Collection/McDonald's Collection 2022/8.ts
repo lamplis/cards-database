@@ -18,7 +18,7 @@ const card: Card = {
 
 	dexId: [170],
 
-	hp: 70,
+	hp: 60,
 
 	types: ["Lightning"],
 
@@ -26,16 +26,28 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Lightning"],
+			cost: ["Colorless"],
 			name: {
-				en: "Electro Ball",
-				fr: "Boule Élek",
-				es: "Bola Voltio",
-				it: "Energisfera",
-				pt: "Bola Elétrica",
-				de: "Elektroball"
+				en: "Gentle Slap",
+				fr: "Gifle Douce",
+				es: "Bofetada Gentil",
+				it: "Schiaffetto",
+				pt: "Tapinha",
+				de: "Sanfter Hieb"
 			},
 			damage: 10,
+		},
+		{
+			cost: ["Lightning", "Colorless"],
+			name: {
+				en: "Zap Kick",
+				fr: "Coup d'Jus",
+				es: "Patada Eléctrica",
+				it: "Elettrocalcio",
+				pt: "Chute Elétrico",
+				de: "Stromtritt"
+			},
+			damage: 20,
 		},
 	],
 
@@ -47,16 +59,17 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 670473,
-				tcgplayer: 281491
-			}
-		}
-	]
+
+	thirdParty: {
+		cardmarket: 670473
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

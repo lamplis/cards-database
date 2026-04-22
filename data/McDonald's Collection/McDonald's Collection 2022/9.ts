@@ -18,7 +18,7 @@ const card: Card = {
 
 	dexId: [180],
 
-	hp: 100,
+	hp: 90,
 
 	types: ["Lightning"],
 
@@ -35,7 +35,19 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Lightning", "Colorless"],
+			cost: ["Lightning"],
+			name: {
+				en: "Static Shock",
+				fr: "Choc Statique",
+				es: "Electrochoque",
+				it: "Elettroshock",
+				pt: "Choque Estático",
+				de: "Statischer Schock"
+			},
+			damage: 20,
+		},
+		{
+			cost: ["Lightning", "Colorless", "Colorless"],
 			name: {
 				en: "Electro Ball",
 				fr: "Boule Élek",
@@ -44,7 +56,7 @@ const card: Card = {
 				pt: "Bola Elétrica",
 				de: "Elektroball"
 			},
-			damage: 50,
+			damage: 60,
 		},
 	],
 
@@ -56,16 +68,17 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 670474,
-				tcgplayer: 281478
-			}
-		}
-	]
+
+	thirdParty: {
+		cardmarket: 670474
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

@@ -18,7 +18,7 @@ const card: Card = {
 
 	dexId: [131],
 
-	hp: 110,
+	hp: 100,
 
 	types: ["Water"],
 
@@ -26,44 +26,50 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless"],
+			cost: ["Water"],
 			name: {
-				en: "Wintry Call",
+				en: "Surf",
+				fr: "Surf",
+				es: "Surf",
+				it: "Surf",
+				pt: "Surfar",
+				de: "Surfer"
 			},
-			effect: {
-				en: "Search your deck for up to 2 Melony cards, reveal them, and put them into your hand. Then, shuffle your deck."
-			}
+			damage: 20,
 		},
 		{
-			cost: ["Water", "Colorless"],
+			cost: ["Water", "Water", "Colorless"],
 			name: {
-				en: "Icy Wind",
+				en: "Hydro Pump",
+				fr: "Hydrocanon",
+				es: "Hidrobomba",
+				it: "Idropompa",
+				pt: "Jato d'Água",
+				de: "Hydropumpe"
 			},
-			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep."
-			},
-			damage: 50,
+			damage: 70,
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Metal",
+			type: "Lightning",
 			value: "×2"
 		},
 	],
 
-	retreat: 1,
+	retreat: 2,
 
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 670471,
-				tcgplayer: 281485
-			}
-		}
-	]
+	thirdParty: {
+		cardmarket: 670471
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

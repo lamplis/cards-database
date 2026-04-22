@@ -26,16 +26,19 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Lightning"],
+			cost: ["Colorless"],
 			name: {
-				en: "Energize",
+				en: "Gnaw",
+				fr: "Ronge",
+				es: "Roer",
+				it: "Rosicchiamento",
+				pt: "Roída",
+				de: "Nagen"
 			},
-			effect: {
-				en: "Attach a Lightning Energy card from your discard pile to this Pokémon."
-			}
+			damage: 10,
 		},
 		{
-			cost: ["Lightning", "Colorless", "Colorless"],
+			cost: ["Lightning", "Colorless"],
 			name: {
 				en: "Electro Ball",
 				fr: "Boule Élek",
@@ -56,16 +59,17 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	
-	variants: [
-		{
-			type: 'holo',
-			thirdParty: {
-				cardmarket: 670472,
-				tcgplayer: 282523
-			}
-		}
-	]
+
+	thirdParty: {
+		cardmarket: 670472
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card
