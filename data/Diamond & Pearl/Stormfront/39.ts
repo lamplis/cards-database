@@ -89,14 +89,13 @@ const card: Card = {
 		fr: "Il vit dans les jungles denses. Il saute de branche en branche pour approcher de sa proie."
 	},
 
-	thirdParty: {
-		cardmarket: 278337,
-		tcgplayer: 85942
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278337,
+				tcgplayer: 85942
+			}
 		},
 		{
 			type: "reverse"

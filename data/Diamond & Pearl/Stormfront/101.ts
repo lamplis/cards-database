@@ -76,14 +76,13 @@ const card: Card = {
 		fr: "Depuis sa naissance, une petite flamme brûle au bout de sa queue. Si cette flamme s'éteint, la vie de ce Pokémon s'éteindra elle aussi."
 	},
 
-	thirdParty: {
-		cardmarket: 278399,
-		tcgplayer: 84216
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278399,
+				tcgplayer: 84216
+			}
 		}
 	]
 }

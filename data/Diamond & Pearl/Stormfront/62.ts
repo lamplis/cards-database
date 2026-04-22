@@ -83,14 +83,13 @@ const card: Card = {
 		fr: "Le corps de ce Pokémon est composé de gaz à 95%. Une bourrasque suffit à le disperser."
 	},
 
-	thirdParty: {
-		cardmarket: 278360,
-		tcgplayer: 85653
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278360,
+				tcgplayer: 85653
+			}
 		},
 		{
 			type: "reverse"
@@ -98,7 +97,7 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["jason-martinez"]
-		},
+		}
 	]
 }
 

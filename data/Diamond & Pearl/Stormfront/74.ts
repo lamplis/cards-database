@@ -78,14 +78,13 @@ const card: Card = {
 		fr: "Il vit sur les monts enneigés. Ignorant des coutumes humaines, il lui arrive d'être très indiscret."
 	},
 
-	thirdParty: {
-		cardmarket: 278372,
-		tcgplayer: 89406
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278372,
+				tcgplayer: 89406
+			}
 		},
 		{
 			type: "reverse"

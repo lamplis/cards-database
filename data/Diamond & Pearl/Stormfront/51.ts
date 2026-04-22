@@ -87,14 +87,13 @@ const card: Card = {
 		fr: "Son corps est prisonnier d'une armure dure comme l'acier, mais il vole à plus de 300 km/h."
 	},
 
-	thirdParty: {
-		cardmarket: 278349,
-		tcgplayer: 89241
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278349,
+				tcgplayer: 89241
+			}
 		},
 		{
 			type: "reverse"

@@ -86,17 +86,28 @@ const card: Card = {
 		fr: "Il se laisse porter par les vents lorsque son corps est gonflé d'électricité à en éclater."
 	},
 
-	thirdParty: {
-		cardmarket: 278334,
-		tcgplayer: 85158
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278335,
+				tcgplayer: 85158
+			}
 		},
 		{
 			type: "reverse"
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 690596
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805426
+			}
 		}
 	]
 }

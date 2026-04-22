@@ -90,14 +90,13 @@ const card: Card = {
 		fr: "Son corps est creux. On raconte que celui qui regarde à l'intérieur finira aspiré par le néant."
 	},
 
-	thirdParty: {
-		cardmarket: 278332,
-		tcgplayer: 85030
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278333,
+				tcgplayer: 85030
+			}
 		},
 		{
 			type: "reverse"
@@ -105,7 +104,7 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["michael-pramawat"]
-		},
+		}
 	]
 }
 

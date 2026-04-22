@@ -76,17 +76,22 @@ const card: Card = {
 		fr: "La crinière et la queue ardentes lui donnant sa superbe poussent une heure après sa naissance."
 	},
 
-	thirdParty: {
-		cardmarket: 278369,
-		tcgplayer: 88288
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278369,
+				tcgplayer: 88288
+			}
 		},
 		{
 			type: "reverse"
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 857646
+			}
 		}
 	]
 }

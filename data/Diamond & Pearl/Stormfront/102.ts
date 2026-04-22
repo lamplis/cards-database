@@ -80,14 +80,13 @@ const card: Card = {
 		fr: "Il se sert de sa queue pour faire tomber ses adversaires. Une fois qu'ils sont au sol, il les lacère de ses griffes acérées."
 	},
 
-	thirdParty: {
-		cardmarket: 278400,
-		tcgplayer: 84232
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278400,
+				tcgplayer: 84232
+			}
 		}
 	]
 }

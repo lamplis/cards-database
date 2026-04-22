@@ -87,14 +87,13 @@ const card: Card = {
 		fr: "Il se protège en expulsant un fluide nocif par son derrière. La puanteur dure 24 heures."
 	},
 
-	thirdParty: {
-		cardmarket: 278374,
-		tcgplayer: 89586
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278374,
+				tcgplayer: 89586
+			}
 		},
 		{
 			type: "reverse"

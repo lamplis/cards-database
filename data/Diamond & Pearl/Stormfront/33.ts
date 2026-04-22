@@ -71,17 +71,23 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278331,
-		tcgplayer: 84011
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278331,
+				tcgplayer: 84011
+			}
 		},
 		{
 			type: "reverse"
+		},
+		{
+			type: "normal",
+			cardmarketLabels: ["Tam", "Eee Ren Oreo On Ones beet Nie"],
+			thirdParty: {
+				cardmarket: 769207
+			}
 		}
 	]
 }

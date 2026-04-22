@@ -84,14 +84,13 @@ const card: Card = {
 		fr: "Ses plantes de pieds sont couvertes d'épines qui lui permettent de marcher au mur et au plafond"
 	},
 
-	thirdParty: {
-		cardmarket: 278377,
-		tcgplayer: 90040
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278377,
+				tcgplayer: 90040
+			}
 		},
 		{
 			type: "reverse"

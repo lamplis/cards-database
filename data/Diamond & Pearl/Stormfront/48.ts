@@ -88,14 +88,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278346,
-		tcgplayer: 88853
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278346,
+				tcgplayer: 88853
+			}
 		},
 		{
 			type: "reverse"
@@ -107,7 +106,7 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["mychael-bryan"]
-		},
+		}
 	]
 }
 

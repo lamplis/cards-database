@@ -88,14 +88,13 @@ const card: Card = {
 		fr: "L'antenne sur sa tête capte les ondes radio du monde des esprits lui ordonnant d'y porter des gens."
 	},
 
-	thirdParty: {
-		cardmarket: 278299,
-		tcgplayer: 85038
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278315,
+				tcgplayer: 85038
+			}
 		},
 		{
 			type: "reverse"

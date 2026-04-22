@@ -84,14 +84,13 @@ const card: Card = {
 		fr: "Un Pokémon né de l'esprit des gens et des Pokémon. Il aime les saisons chaudes et humides."
 	},
 
-	thirdParty: {
-		cardmarket: 278297,
-		tcgplayer: 84957
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278356,
+				tcgplayer: 84957
+			}
 		},
 		{
 			type: "reverse"

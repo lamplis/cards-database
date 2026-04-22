@@ -92,14 +92,13 @@ const card: Card = {
 		fr: "Il ne voit rien à cause de sa fourrure touffue et se repère à l'aide de son nez délicat."
 	},
 
-	thirdParty: {
-		cardmarket: 278344,
-		tcgplayer: 88119
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278344,
+				tcgplayer: 88119
+			}
 		},
 		{
 			type: "reverse"
@@ -111,7 +110,7 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["pre-release","staff"]
-		},
+		}
 	]
 }
 

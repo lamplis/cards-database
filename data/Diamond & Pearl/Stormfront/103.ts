@@ -89,14 +89,13 @@ const card: Card = {
 		fr: "Ses ailes peuvent le faire voler à plus de 1 400 mètres d'altitude. Ce Pokémon crache du feu à des températures très élevées."
 	},
 
-	thirdParty: {
-		cardmarket: 278401,
-		tcgplayer: 84190
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278401,
+				tcgplayer: 84190
+			}
 		}
 	]
 }

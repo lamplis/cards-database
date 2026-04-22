@@ -85,14 +85,13 @@ const card: Card = {
 		fr: "Il adore les champignons qui poussent sous l'herbe morte. Il trouve aussi des sources chaudes."
 	},
 
-	thirdParty: {
-		cardmarket: 278375,
-		tcgplayer: 89704
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278375,
+				tcgplayer: 89704
+			}
 		},
 		{
 			type: "reverse"

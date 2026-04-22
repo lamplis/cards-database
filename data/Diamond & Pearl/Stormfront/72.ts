@@ -76,14 +76,13 @@ const card: Card = {
 		fr: "Les Roselia élevés dans une eau claire et potable font de ravissantes fleurs bariolées."
 	},
 
-	thirdParty: {
-		cardmarket: 278370,
-		tcgplayer: 88821
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278370,
+				tcgplayer: 88821
+			}
 		},
 		{
 			type: "reverse"

@@ -82,14 +82,13 @@ const card: Card = {
 		fr: "Les poches sur ses joues sont encore trop petites pour accumuler beaucoup d'électricité."
 	},
 
-	thirdParty: {
-		cardmarket: 278343,
-		tcgplayer: 88019
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278343,
+				tcgplayer: 88019
+			}
 		},
 		{
 			type: "reverse"

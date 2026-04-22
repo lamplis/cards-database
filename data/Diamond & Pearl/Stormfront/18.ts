@@ -97,14 +97,13 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 278316,
-		tcgplayer: 85676
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278316,
+				tcgplayer: 85676
+			}
 		},
 		{
 			type: "reverse"
@@ -112,7 +111,7 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["jason-martinez"]
-		},
+		}
 	]
 }
 

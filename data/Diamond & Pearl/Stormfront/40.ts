@@ -84,22 +84,30 @@ const card: Card = {
 		fr: "Il peut traverser n'importe quel obstacle. Il rôde dans les murs pour surveiller ses ennemis."
 	},
 
-	thirdParty: {
-		cardmarket: 278338,
-		tcgplayer: 86028
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278338,
+				tcgplayer: 86028
+			}
 		},
 		{
 			type: "reverse"
 		},
 		{
 			type: "normal",
-			stamp: ["jason-martinez"]
+			stamp: ["jason-martinez"],
+			thirdParty: {
+				cardmarket: 608490
+			}
 		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 293396
+			}
+		}
 	]
 }
 

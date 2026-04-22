@@ -20,14 +20,13 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	thirdParty: {
-		cardmarket: 278384,
-		tcgplayer: 86953
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278384,
+				tcgplayer: 86953
+			}
 		},
 		{
 			type: "reverse"
@@ -55,7 +54,7 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["yuka-furusawa"]
-		},
+		}
 	]
 }
 

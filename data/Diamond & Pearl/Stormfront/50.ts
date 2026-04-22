@@ -86,14 +86,13 @@ const card: Card = {
 		fr: "Ses cellules ont commencé à changer dans sa robuste coquille. Il la perd en évoluant."
 	},
 
-	thirdParty: {
-		cardmarket: 278348,
-		tcgplayer: 89128
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278348,
+				tcgplayer: 89128
+			}
 		},
 		{
 			type: "reverse"

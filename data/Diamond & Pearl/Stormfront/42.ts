@@ -90,14 +90,13 @@ const card: Card = {
 		fr: "Il est formé de trois Magnéti liés par magnétisme. En groupe, ils déclenchent un orage magnétique"
 	},
 
-	thirdParty: {
-		cardmarket: 278340,
-		tcgplayer: 87108
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278340,
+				tcgplayer: 87108
+			}
 		},
 		{
 			type: "reverse"

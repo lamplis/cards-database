@@ -85,17 +85,22 @@ const card: Card = {
 		fr: "Il ressemble à une Poké Ball. Ce Pokémon dangereux peut exploser ou s'électrifier au toucher."
 	},
 
-	thirdParty: {
-		cardmarket: 278296,
-		tcgplayer: 90420
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817233,
+				tcgplayer: 90420
+			}
 		},
 		{
 			type: "reverse"
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278379
+			}
 		}
 	]
 }

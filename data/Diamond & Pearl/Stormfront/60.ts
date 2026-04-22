@@ -83,14 +83,13 @@ const card: Card = {
 		fr: "Il poursuit assidûment sa proie, où qu'elle aille. Il n'abandonne sa traque qu'au lever du soleil."
 	},
 
-	thirdParty: {
-		cardmarket: 278298,
-		tcgplayer: 85053
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278358,
+				tcgplayer: 85053
+			}
 		},
 		{
 			type: "reverse"

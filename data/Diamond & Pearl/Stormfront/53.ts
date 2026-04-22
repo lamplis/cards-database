@@ -82,14 +82,13 @@ const card: Card = {
 		fr: "Il rêve de pouvoir voler un jour. Pour l'heure, il s'entraîne en sautant du haut des falaises."
 	},
 
-	thirdParty: {
-		cardmarket: 278351,
-		tcgplayer: 83698
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278351,
+				tcgplayer: 83698
+			}
 		},
 		{
 			type: "reverse"

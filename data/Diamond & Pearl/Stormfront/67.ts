@@ -80,14 +80,13 @@ const card: Card = {
 		fr: "Ses extrémités génèrent les vagues électromagnétiques qui le font voler. Il se nourrit d'électricité."
 	},
 
-	thirdParty: {
-		cardmarket: 278364,
-		tcgplayer: 87083
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278365,
+				tcgplayer: 87083
+			}
 		},
 		{
 			type: "reverse"
