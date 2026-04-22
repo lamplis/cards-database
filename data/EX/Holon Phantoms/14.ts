@@ -86,18 +86,18 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276984
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 276984
+			}
 		},
 		{
 			type: "holo",
 			stamp: ["set-logo"]
-		},
+		}
 	]
 }
 

@@ -19,19 +19,18 @@ const card: Card = {
 		de: "Lege 1 Karte von deiner Hand auf deinen Ablagestapel. Wenn du das nicht machen kannst, kannst du diese Karte nicht spielen.\n\nZiehe 3 Karten. Wenn du ein Pokémon, auf dem δ zu sehen ist, auf den Ablagestapel gelegt hast, ziehe stattdessen 4 Karten.",
 	},
 
-	thirdParty: {
-		cardmarket: 277055,
-		tcgplayer: 86134
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277055,
+				tcgplayer: 86134
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["set-logo"]
-		},
+		}
 	]
 }
 

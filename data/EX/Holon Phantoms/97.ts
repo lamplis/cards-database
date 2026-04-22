@@ -19,19 +19,18 @@ const card: Card = {
 		fr: "Attachez Énergie Métal Obscur à 1 de vos Pokémon. Lorsqu'elle est en jeu, Énergie Métal Obscur fournit les types d'énergie Obscurité et Métal (mais seulement un à la fois). (Elle ne compte pas comme carte Énergie de base lorsqu'elle n'est pas en jeu et n'a pas d'autre effet que de fournir de l'Énergie.)",
 	},
 
-	thirdParty: {
-		cardmarket: 277067,
-		tcgplayer: 84629
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277067,
+				tcgplayer: 84629
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["set-logo"]
-		},
+		}
 	]
 }
 

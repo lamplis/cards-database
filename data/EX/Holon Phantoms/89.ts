@@ -19,19 +19,18 @@ const card: Card = {
 		de: "Wirf 1 Münze. Ziehe bei \"Kopf\" die untersten 3 Karten deines Decks. Ziehe bei \"Zahl\" die obersten 2 Karten deines Decks.",
 	},
 
-	thirdParty: {
-		cardmarket: 277059,
-		tcgplayer: 88386
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277059,
+				tcgplayer: 88386
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["set-logo"]
-		},
+		}
 	]
 }
 

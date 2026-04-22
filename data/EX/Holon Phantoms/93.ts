@@ -34,19 +34,18 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 277063,
-		tcgplayer: 88812
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277063,
+				tcgplayer: 88812
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["set-logo"]
-		},
+		}
 	]
 }
 

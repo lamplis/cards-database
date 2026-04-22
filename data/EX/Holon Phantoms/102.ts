@@ -75,10 +75,14 @@ const card: Card = {
 		},
 	],
 
+
 	variants: [
 		{
-			type: "holo"
-		},
+			type: "holo",
+			thirdParty: {
+				cardmarket: 277072
+			}
+		}
 	]
 
 

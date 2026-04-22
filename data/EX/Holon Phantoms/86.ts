@@ -19,19 +19,18 @@ const card: Card = {
 		de: "Wirf 1 Münze. Bei \"Kopf\" durchsuche dein Deck nach einem Amonitas, Kabuto, Aerodactyl, Aerodactyl ex, Liliep oder Anorith und lege es auf deine Bank. Mische dein Deck danach. Bei \"Zahl\" lege ein Amonitas, Kabuto, Aerodactyl, Aerodactyl ex, Liliep oder Anorith von deiner Hand auf deine Bank. Behandle das neue Pokémon auf der Bank als Basis-Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 277056,
-		tcgplayer: 86143
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277056,
+				tcgplayer: 86143
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["set-logo"]
-		},
+		}
 	]
 }
 
