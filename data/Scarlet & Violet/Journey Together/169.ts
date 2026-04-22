@@ -51,6 +51,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "sowsow",
 
+
 	variants: [
 		{
 			type: "holo",
@@ -58,7 +59,7 @@ const card: Card = {
 				cardmarket: 817322,
 				tcgplayer: 623596
 			}
-		},
+		}
 	],
 }
 

@@ -82,6 +82,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Tetsu Kayama",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -93,10 +94,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817157,
 				tcgplayer: 623432
 			}
-		},
+		}
 	],
 }
 

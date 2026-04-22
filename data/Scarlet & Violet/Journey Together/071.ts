@@ -41,6 +41,7 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Haru Akasaka",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -52,10 +53,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817223,
 				tcgplayer: 623498
 			}
-		},
+		}
 	],
 }
 

@@ -60,28 +60,25 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Takeshi Nakamura",
 
+
 	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817193,
+				tcgplayer: 623468
+			}
+		},
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817193,
 				tcgplayer: 623468
 			}
 		},
 		{
 			type: "holo",
-			thirdParty: {
-				cardmarket: 817193,
-				tcgplayer: 623468
-			}
-		},
-		{
-			type: "holo",
-			foil: "cosmos",
-			thirdParty: {
-				cardmarket: 851017,
-			}
-		},
+			foil: "cosmos"
+		}
 	],
 }
 

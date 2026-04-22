@@ -73,6 +73,7 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "PLANETA Igarashi",
 
+
 	variants: [
 		{
 			type: "holo",
@@ -83,19 +84,13 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			stamp: ["set-logo"],
-			thirdParty: {
-				cardmarket: 855660,
-			}
+			stamp: ["set-logo"]
 		},
 		{
 			type: "holo",
 			stamp: ["set-logo"],
-			size: "jumbo",
-			thirdParty: {
-				cardmarket: 855661,
-			}
-		},
+			size: "jumbo"
+		}
 	],
 }
 

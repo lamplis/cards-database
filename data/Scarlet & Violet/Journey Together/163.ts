@@ -74,6 +74,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Terada Tera",
 
+
 	variants: [
 		{
 			type: "holo",
@@ -81,7 +82,7 @@ const card: Card = {
 				cardmarket: 817315,
 				tcgplayer: 623590
 			}
-		},
+		}
 	],
 }
 

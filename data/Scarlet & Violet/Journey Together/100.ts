@@ -50,6 +50,7 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "AKIRA EGAWA",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -61,10 +62,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817252,
 				tcgplayer: 623527
 			}
-		},
+		}
 	],
 }
 

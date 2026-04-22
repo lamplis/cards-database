@@ -82,6 +82,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Megumi Mizutani",
 
+
 	variants: [
 		{
 			type: "holo",
@@ -89,7 +90,7 @@ const card: Card = {
 				cardmarket: 817338,
 				tcgplayer: 623612
 			}
-		},
+		}
 	],
 }
 

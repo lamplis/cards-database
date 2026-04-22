@@ -64,6 +64,7 @@ const card: Card = {
 	illustrator: "aspara",
 
 
+
 	variants: [
 		{
 			type: "normal",
@@ -75,10 +76,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817238,
 				tcgplayer: 623513
 			}
-		},
+		}
 	],
 }
 

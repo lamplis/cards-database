@@ -41,6 +41,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Tomomi Ozaki",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -52,17 +53,13 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817287,
 				tcgplayer: 623562
 			}
 		},
 		{
 			type: "holo",
-			foil: "cosmos",
-			thirdParty: {
-				cardmarket: 819346,
-			}
-		},
+			foil: "cosmos"
+		}
 	],
 }
 

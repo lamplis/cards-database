@@ -84,9 +84,6 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "5ban Graphics",
 
-	thirdParty: {
-		cardmarket: 817331
-	},
 
 	variants: [
 		{
@@ -95,7 +92,7 @@ const card: Card = {
 				cardmarket: 817331,
 				tcgplayer: 623605
 			}
-		},
+		}
 	],
 }
 

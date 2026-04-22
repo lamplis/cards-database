@@ -51,6 +51,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Tomokazu Komiya",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -62,10 +63,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817279,
 				tcgplayer: 623554
 			}
-		},
+		}
 	],
 }
 

@@ -31,6 +31,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "MARINA Chikazawa",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -42,7 +43,6 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817302,
 				tcgplayer: 623577
 			}
 		},

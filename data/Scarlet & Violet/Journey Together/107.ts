@@ -75,14 +75,8 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "rika",
 
+
 	variants: [
-		{
-			type: "reverse",
-			thirdParty: {
-				cardmarket: 817259,
-				tcgplayer: 623534
-			}
-		},
 		{
 			type: "holo",
 			thirdParty: {
@@ -90,6 +84,12 @@ const card: Card = {
 				tcgplayer: 623534
 			}
 		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 623534
+			}
+		}
 	],
 }
 

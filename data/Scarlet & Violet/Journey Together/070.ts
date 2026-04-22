@@ -65,6 +65,7 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Sanosuke Sakuma",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -76,10 +77,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817222,
 				tcgplayer: 623497
 			}
-		},
+		}
 	],
 }
 

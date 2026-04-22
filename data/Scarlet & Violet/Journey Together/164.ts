@@ -74,6 +74,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "saino misaki",
 
+
 	variants: [
 		{
 			type: "holo",
@@ -81,7 +82,7 @@ const card: Card = {
 				cardmarket: 817316,
 				tcgplayer: 623591
 			}
-		},
+		}
 	],
 }
 

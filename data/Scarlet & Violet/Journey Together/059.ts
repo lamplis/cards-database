@@ -42,6 +42,7 @@ const card: Card = {
 	illustrator: "miki kudo",
 
 
+
 	variants: [
 		{
 			type: "normal",
@@ -53,10 +54,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817211,
 				tcgplayer: 623486
 			}
-		},
+		}
 	],
 }
 

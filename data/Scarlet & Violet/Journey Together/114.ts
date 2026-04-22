@@ -82,6 +82,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "toriyufu",
 
+
 	variants: [
 		{
 			type: "holo",
@@ -92,19 +93,13 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			stamp: ["set-logo"],
-			thirdParty: {
-				cardmarket: 853515,
-			}
+			stamp: ["set-logo"]
 		},
 		{
 			type: "holo",
 			stamp: ["set-logo"],
-			size: "jumbo",
-			thirdParty: {
-				cardmarket: 853517,
-			}
-		},
+			size: "jumbo"
+		}
 	],
 }
 

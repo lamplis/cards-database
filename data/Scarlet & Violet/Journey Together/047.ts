@@ -51,6 +51,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Kazumasa Yasukuni",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -62,7 +63,6 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817199,
 				tcgplayer: 623474
 			}
 		},

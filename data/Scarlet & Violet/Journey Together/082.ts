@@ -75,6 +75,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Uta",
 
+
 	variants: [
 		{
 		type: "holo",
@@ -86,10 +87,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817234,
 				tcgplayer: 623509
 			}
-		},
+		}
 		
 	],
 }

@@ -51,6 +51,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Natsumi Yoshida",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -62,10 +63,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817281,
 				tcgplayer: 623556
 			}
-		},
+		}
 	],
 }
 

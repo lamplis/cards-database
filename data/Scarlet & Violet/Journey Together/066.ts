@@ -49,6 +49,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Saya Tsuruta",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -60,10 +61,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817218,
 				tcgplayer: 623493
 			}
-		},
+		}
 	],
 }
 

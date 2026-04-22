@@ -84,6 +84,7 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "takuyoa",
 
+
 	variants: [
 		{
 			type: "holo",
@@ -94,10 +95,7 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			stamp: ["set-logo"],
-			thirdParty: {
-				cardmarket: 841284,
-			}
+			stamp: ["set-logo"]
 		},
 		{
 			type: 'holo',

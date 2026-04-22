@@ -55,6 +55,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Izucch",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -66,10 +67,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817213,
 				tcgplayer: 623488
 			}
-		},
+		}
 	],
 }
 

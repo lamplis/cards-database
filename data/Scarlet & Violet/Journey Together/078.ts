@@ -64,6 +64,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Aliya Chen",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -75,10 +76,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817230,
 				tcgplayer: 623505
 			}
-		},
+		}
 	],
 }
 

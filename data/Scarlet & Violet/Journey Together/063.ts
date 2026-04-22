@@ -74,14 +74,8 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Mitsuhiro Arita",
 
+
 	variants: [
-		{
-			type: "reverse",
-			thirdParty: {
-				cardmarket: 817215,
-				tcgplayer: 623490
-			}
-		},
 		{
 			type: "holo",
 			thirdParty: {
@@ -89,6 +83,12 @@ const card: Card = {
 				tcgplayer: 623490
 			}
 		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 623490
+			}
+		}
 	],
 }
 

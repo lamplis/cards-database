@@ -84,6 +84,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "KEIICHIRO ITO",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -95,10 +96,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817244,
 				tcgplayer: 623519
 			}
-		},
+		}
 	],
 }
 

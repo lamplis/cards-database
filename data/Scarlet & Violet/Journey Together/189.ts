@@ -82,6 +82,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "takuyoa",
 
+
 	variants: [
 		{
 			type: "holo",
@@ -90,7 +91,7 @@ const card: Card = {
 				cardmarket: 817342,
 				tcgplayer: 623616
 			}
-		},
+		}
 	],
 }
 

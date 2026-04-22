@@ -41,6 +41,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Jiro Sasumo",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -52,10 +53,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817249,
 				tcgplayer: 623524
 			}
-		},
+		}
 	],
 }
 

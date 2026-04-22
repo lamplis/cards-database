@@ -31,6 +31,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Hideki Ishikawa",
 
+
 	variants: [
 		{
 			type: "holo",
@@ -38,7 +39,7 @@ const card: Card = {
 				cardmarket: 817334,
 				tcgplayer: 623608
 			}
-		},
+		}
 	],
 }
 

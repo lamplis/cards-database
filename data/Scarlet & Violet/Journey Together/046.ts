@@ -84,6 +84,7 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Takeshi Nakamura",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -95,10 +96,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817198,
 				tcgplayer: 623473
 			}
-		},
+		}
 	],
 }
 

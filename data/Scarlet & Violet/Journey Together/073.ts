@@ -74,6 +74,7 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Nisota Niso",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -85,10 +86,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817225,
 				tcgplayer: 623500
 			}
-		},
+		}
 	],
 }
 

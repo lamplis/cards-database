@@ -41,6 +41,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Shimaris Yukichi",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -52,10 +53,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817153,
 				tcgplayer: 623428
 			}
-		},
+		}
 	],
 }
 

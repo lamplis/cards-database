@@ -30,6 +30,7 @@ const card: Card = {
 	energyType: "Special",
 	regulationMark: "I",
 
+
 	variants: [
 		{
 			type: "holo",
@@ -38,7 +39,7 @@ const card: Card = {
 				cardmarket: 817343,
 				tcgplayer: 623617
 			}
-		},
+		}
 	],
 }
 

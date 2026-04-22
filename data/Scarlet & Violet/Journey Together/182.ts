@@ -75,6 +75,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "akagi",
 
+
 	variants: [
 		{
 			type: "holo",
@@ -82,7 +83,7 @@ const card: Card = {
 				cardmarket: 817335,
 				tcgplayer: 623609
 			}
-		},
+		}
 	],
 }
 

@@ -84,6 +84,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "GIDORA",
 
+
 	variants: [
 		{
 			type: "holo",
@@ -91,7 +92,7 @@ const card: Card = {
 				cardmarket: 817318,
 				tcgplayer: 623593
 			}
-		},
+		}
 	],
 }
 

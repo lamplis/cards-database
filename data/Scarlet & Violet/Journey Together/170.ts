@@ -41,6 +41,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "MINAMINAMI Take",
 
+
 	variants: [
 		{
 			type: "holo",
@@ -48,7 +49,7 @@ const card: Card = {
 				cardmarket: 817323,
 				tcgplayer: 623597
 			}
-		},
+		}
 	],
 }
 

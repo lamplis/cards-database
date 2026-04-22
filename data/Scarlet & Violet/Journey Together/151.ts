@@ -31,6 +31,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "AYUMI ODASHIMA",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -42,16 +43,12 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817303,
 				tcgplayer: 623578
 			}
 		},
 		{
 			type: "holo",
-			foil: "cosmos",
-			thirdParty: {
-				cardmarket: 822532,
-			}
+			foil: "cosmos"
 		},
 		{
 			type: 'holo',

@@ -60,14 +60,8 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "satoma",
 
+
 	variants: [
-		{
-			type: "reverse",
-			thirdParty: {
-				cardmarket: 817155,
-				tcgplayer: 623430
-			}
-		},
 		{
 			type: "holo",
 			thirdParty: {
@@ -75,6 +69,12 @@ const card: Card = {
 				tcgplayer: 623430
 			}
 		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 623430
+			}
+		}
 	],
 }
 

@@ -74,6 +74,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Takumi Wada",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -85,10 +86,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817254,
 				tcgplayer: 623529
 			}
-		},
+		}
 	],
 }
 

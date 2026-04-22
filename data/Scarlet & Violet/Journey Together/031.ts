@@ -75,6 +75,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "5ban Graphics",
 
+
 	variants: [
 		{
 			type: "holo",
@@ -82,7 +83,7 @@ const card: Card = {
 				cardmarket: 817183,
 				tcgplayer: 623458
 			}
-		},
+		}
 	],
 }
 

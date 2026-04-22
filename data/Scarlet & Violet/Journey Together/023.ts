@@ -50,6 +50,7 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Fujimoto Gold",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -61,10 +62,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817175,
 				tcgplayer: 623450
 			}
-		},
+		}
 	],
 }
 

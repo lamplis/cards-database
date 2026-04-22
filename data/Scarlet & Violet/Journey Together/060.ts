@@ -72,6 +72,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Anesaki Dynamic",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -83,10 +84,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817212,
 				tcgplayer: 623487
 			}
-		},
+		}
 	],
 }
 

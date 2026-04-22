@@ -41,6 +41,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "kurumitsu",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -52,17 +53,13 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817204,
 				tcgplayer: 623479
 			}
 		},
 		{
 			type: "holo",
-			foil: "cosmos",
-			thirdParty: {
-				cardmarket: 819348,
-			}
-		},
+			foil: "cosmos"
+		}
 	],
 }
 

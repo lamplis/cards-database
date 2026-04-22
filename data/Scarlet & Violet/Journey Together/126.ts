@@ -50,6 +50,7 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "En Morikura",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -61,10 +62,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817278,
 				tcgplayer: 623553
 			}
-		},
+		}
 	],
 }
 

@@ -84,6 +84,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Yuu Nishida",
 
+
 	variants: [
 		{
 			type: "holo",
@@ -91,7 +92,7 @@ const card: Card = {
 				cardmarket: 817336,
 				tcgplayer: 623610
 			}
-		},
+		}
 	],
 }
 

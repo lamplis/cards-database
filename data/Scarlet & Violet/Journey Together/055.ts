@@ -75,25 +75,24 @@ const card: Card = {
 	illustrator: "chibi",
 
 
+
 	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817207,
+			}
+		},
 		{
 			type: "holo",
 			thirdParty: {
-				cardmarket: 817207,
 				tcgplayer: 623482
 			}
 		},
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817207,
 				tcgplayer: 623482
-			}
-		},
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 819252,
 			}
 		},
 		{

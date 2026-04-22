@@ -84,6 +84,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "AKIRA EGAWA",
 
+
 	variants: [
 		{
 			type: "holo",
@@ -95,16 +96,12 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817247,
 				tcgplayer: 623522
 			}
 		},
 		{
 			type: "holo",
-			foil: "cosmos",
-			thirdParty: {
-				cardmarket: 851019,
-			}
+			foil: "cosmos"
 		},
 		{
 			type: 'normal',

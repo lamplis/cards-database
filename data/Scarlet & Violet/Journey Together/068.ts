@@ -73,6 +73,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Narumi Sato",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -84,10 +85,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817220,
 				tcgplayer: 623495
 			}
-		},
+		}
 	],
 }
 

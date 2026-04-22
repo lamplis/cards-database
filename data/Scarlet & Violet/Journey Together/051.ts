@@ -51,6 +51,7 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "PLANETA Igarashi",
 
+
 	variants: [
 		{
 			type: "holo",
@@ -58,7 +59,7 @@ const card: Card = {
 				cardmarket: 817203,
 				tcgplayer: 623478
 			}
-		},
+		}
 	],
 }
 

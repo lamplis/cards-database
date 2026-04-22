@@ -65,6 +65,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Miki Tanaka",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -76,10 +77,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817264,
 				tcgplayer: 623539
 			}
-		},
+		}
 	],
 }
 

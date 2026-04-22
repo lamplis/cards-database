@@ -60,6 +60,7 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Jerky",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -71,10 +72,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817284,
 				tcgplayer: 623559
 			}
-		},
+		}
 	],
 }
 

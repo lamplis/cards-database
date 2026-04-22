@@ -84,28 +84,25 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Shiburingaru",
 
+
 	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817237,
+				tcgplayer: 623512
+			}
+		},
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817237,
 				tcgplayer: 623512
 			}
 		},
 		{
 			type: "holo",
-			thirdParty: {
-				cardmarket: 817237,
-				tcgplayer: 623512
-			}
-		},
-		{
-			type: "holo",
-			foil: "cosmos",
-			thirdParty: {
-				cardmarket: 851018,
-			}
-		},
+			foil: "cosmos"
+		}
 	],
 }
 

@@ -73,6 +73,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "5ban Graphics",
 
+
 	variants: [
 		{
 			type: "holo",

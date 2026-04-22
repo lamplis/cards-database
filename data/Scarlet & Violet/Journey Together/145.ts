@@ -31,6 +31,7 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "GOSSAN",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -42,10 +43,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817297,
 				tcgplayer: 623572
 			}
-		},
+		}
 	],
 }
 

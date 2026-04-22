@@ -58,6 +58,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "OKUBO",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -69,10 +70,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817154,
 				tcgplayer: 623429
 			}
-		},
+		}
 	],
 }
 

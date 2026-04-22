@@ -31,6 +31,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Studio Bora Inc.",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -42,10 +43,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817308,
 				tcgplayer: 623583
 			}
-		},
+		}
 	],
 }
 

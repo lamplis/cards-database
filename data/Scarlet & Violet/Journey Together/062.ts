@@ -64,6 +64,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Oswaldo KATO",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -75,10 +76,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817214,
 				tcgplayer: 623489
 			}
-		},
+		}
 	],
 }
 

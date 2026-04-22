@@ -82,6 +82,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "takuyoa",
 
+
 	variants: [
 		{
 			type: "holo",

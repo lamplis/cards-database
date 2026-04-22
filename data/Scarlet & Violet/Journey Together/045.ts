@@ -64,6 +64,7 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "HYOGONOSUKE",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -75,10 +76,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817197,
 				tcgplayer: 623472
 			}
-		},
+		}
 	],
 }
 

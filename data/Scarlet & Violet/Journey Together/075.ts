@@ -74,6 +74,7 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "PLANETA Mochizuki",
 
+
 	variants: [
 		{
 			type: "holo",
@@ -84,11 +85,8 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			size: "jumbo",
-			thirdParty: {
-				cardmarket: 855659,
-			}
-		},
+			size: "jumbo"
+		}
 	],
 }
 

@@ -60,6 +60,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Scav",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -71,10 +72,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817233,
 				tcgplayer: 623508
 			}
-		},
+		}
 	],
 }
 

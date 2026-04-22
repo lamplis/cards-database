@@ -31,6 +31,7 @@ const card: Card = {
 	regulationMark: "G",
 	illustrator: "Taira Akitsu",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -42,10 +43,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817307,
 				tcgplayer: 623582
 			}
-		},
+		}
 	],
 }
 

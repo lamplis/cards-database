@@ -74,6 +74,7 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Masako Tomii",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -85,10 +86,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817241,
 				tcgplayer: 623516
 			}
-		},
+		}
 	],
 }
 

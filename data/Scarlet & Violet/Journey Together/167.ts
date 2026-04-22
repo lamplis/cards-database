@@ -65,6 +65,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Bun Toujo",
 
+
 	variants: [
 		{
 			type: "holo",
@@ -75,11 +76,8 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			stamp: ["set-logo"],
-			thirdParty: {
-				cardmarket: 817768,
-			}
-		},
+			stamp: ["set-logo"]
+		}
 	],
 }
 

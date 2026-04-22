@@ -63,6 +63,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Takumi Wada",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -74,17 +75,13 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817184,
 				tcgplayer: 623459
 			}
 		},
 		{
 			type: "holo",
-			stamp: ["snowflake"],
-			thirdParty: {
-				cardmarket: 845411,
-			}
-		},
+			stamp: ["snowflake"]
+		}
 	],
 }
 

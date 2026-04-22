@@ -74,14 +74,8 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Jerky",
 
+
 	variants: [
-		{
-			type: "reverse",
-			thirdParty: {
-				cardmarket: 817189,
-				tcgplayer: 623464
-			}
-		},
 		{
 			type: "holo",
 			thirdParty: {
@@ -89,6 +83,12 @@ const card: Card = {
 				tcgplayer: 623464
 			}
 		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 623464
+			}
+		}
 	],
 }
 

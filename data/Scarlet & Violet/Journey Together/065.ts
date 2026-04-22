@@ -63,6 +63,7 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "aspara",
 
+
 	variants: [
 		{
 			type: "normal",
@@ -74,10 +75,9 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 817217,
 				tcgplayer: 623492
 			}
-		},
+		}
 	],
 }
 

@@ -84,6 +84,7 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "PLANETA Mochizuki",
 
+
 	variants: [
 		{
 			type: "holo",
@@ -91,7 +92,7 @@ const card: Card = {
 				cardmarket: 817163,
 				tcgplayer: 623438
 			}
-		},
+		}
 	],
 }
 

@@ -71,6 +71,7 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Susumu Maeya",
 
+
 	variants: [
 		{
 			type: "holo",
@@ -78,7 +79,7 @@ const card: Card = {
 				cardmarket: 817337,
 				tcgplayer: 623611
 			}
-		},
+		}
 	],
 }
 
