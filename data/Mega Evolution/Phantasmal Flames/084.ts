@@ -92,7 +92,8 @@ const card: Card = {
 				tcgplayer: 662188
 			}
 		}
-	],	
+	],
+
 }
 
 export default card

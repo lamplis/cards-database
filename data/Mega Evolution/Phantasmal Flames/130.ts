@@ -54,7 +54,6 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
-			foil: "gold",
 			thirdParty: {
 				cardmarket: 857705,
 				tcgplayer: 662185
@@ -66,9 +65,7 @@ const card: Card = {
 		type: "Water",
 		value: "x2"
 	}],
-  
 	illustrator: 'Takuyoa'
-
 }
 
 export default card

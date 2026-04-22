@@ -74,20 +74,14 @@ const card: Card = {
 			}
 		},
 		{
-			type: "reverse",
-			thirdParty: {
-				cardmarket: 857592,
-				tcgplayer: 662219
-			}
+			type: "reverse"
 		},
 		{
 			type: "holo",
-			stamp: ["set-logo"],
-			thirdParty: {
-				cardmarket: 858504
-			}
+			stamp: ["set-logo"]
 		}
 	],
+
 }
 
 export default card

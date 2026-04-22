@@ -50,16 +50,11 @@ const card: Card = {
 			}
 		},
 		{
-			type: "reverse",
-			thirdParty: {
-				cardmarket: 857587,
-				tcgplayer: 662144
-			}
+			type: "reverse"
 		}
 	],
 
-	illustrator: "Uninori",
-  
+	illustrator: "Uninori"
 }
 
 export default card

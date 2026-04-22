@@ -61,33 +61,21 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			foil: "cosmos",
-			thirdParty: {
-				cardmarket: 867791
-			}
+			foil: "cosmos"
 		},
 		{
-			type: "reverse",
-			thirdParty: {
-				cardmarket: 857601,
-				tcgplayer: 662229
-			}
+			type: "reverse"
 		},
 		{
 			type: "holo",
-			stamp: ["eb-games"],
-			thirdParty: {
-				cardmarket: 858506
-			}
+			stamp: ["eb-games"]
 		},
 		{
 			type: "holo",
-			stamp: ["gamestop"],
-			thirdParty: {
-				cardmarket: 858505
-			}
+			stamp: ["gamestop"]
 		}
 	],
+
 }
 
 export default card
