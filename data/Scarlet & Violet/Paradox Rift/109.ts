@@ -73,14 +73,11 @@ const card: Card = {
 		},
 		{
 			type: 'holo'
-		},
+		}
 	],
 
 	illustrator: "AKIRA EGAWA",
 
-	thirdParty: {
-		cardmarket: 740627
-	}
 }
 
 export default card

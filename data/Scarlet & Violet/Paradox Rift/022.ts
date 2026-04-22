@@ -66,14 +66,11 @@ const card: Card = {
 		},
 		{
 			type: 'holo'
-		},
+		}
 	],
 
 	illustrator: "Nisota Niso",
 
-	thirdParty: {
-		cardmarket: 740498
-	}
 }
 
 export default card
