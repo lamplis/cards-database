@@ -26,7 +26,11 @@ const card: Card = {
 		de: "Verschiebe 1 an 1 deiner Pokémon angelegte Basis-Energie auf ein anderes deiner Pokémon."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+
+	thirdParty: {
+		cardmarket: 280110
+	}
 }
 
 export default card

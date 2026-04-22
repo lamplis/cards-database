@@ -15,7 +15,11 @@ const card: Card = {
 
 	rarity: "None",
 	category: "Energy",
-	energyType: "Normal"
+	energyType: "Normal",
+
+	thirdParty: {
+		cardmarket: 280104
+	}
 }
 
 export default card
