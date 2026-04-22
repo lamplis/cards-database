@@ -93,11 +93,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
 			thirdParty: {
 				cardmarket: 273714,
 				tcgplayer: 42359
 			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -112,22 +116,17 @@ const card: Card = {
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 107014,
 				cardmarket: 660209
 			}
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
 		}
 	],
 
 	description: {
 		en: "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
 		fr: "Un groupe de Taupiqueur. Ils créent des séismes en creusant à plus de 100 km de profondeur.",
-		it: "Terzetto di Diglett che scatena disastrosi terremoti. LIV 36 N.51",
-		de: "Die Digda-Drillinge lösen gewaltige Erdbeben durch Tunnel von 80 Kilometern Länge aus."
-	}
+		it: "Terzetto di Diglett che scatena disastrosi terremoti. LIV 36 N.51"
+	},
+
 }
 
 export default card
