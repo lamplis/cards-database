@@ -49,7 +49,7 @@ const card: Card = {
 				cardmarket: 742003,
 				tcgplayer: 524064
 			}
-		},
+		}
 	],
 
 	illustrator: "GOSSAN",

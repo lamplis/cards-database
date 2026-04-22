@@ -42,7 +42,7 @@ const card: Card = {
 				cardmarket: 742013,
 				tcgplayer: 524048
 			}
-		},
+		}
 	],
 
 	illustrator: "Hitoshi Ariga",

@@ -38,7 +38,7 @@ const card: Card = {
 				cardmarket: 741982,
 				tcgplayer: 524016
 			}
-		},
+		}
 	],
 
 	illustrator: "Kouki Saitou",

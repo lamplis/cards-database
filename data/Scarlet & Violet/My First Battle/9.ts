@@ -52,7 +52,7 @@ const card: Card = {
 				cardmarket: 741976,
 				tcgplayer: 523985
 			}
-		},
+		}
 	],
 
 	illustrator: "Kurata So",

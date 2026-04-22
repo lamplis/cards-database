@@ -38,7 +38,7 @@ const card: Card = {
 				cardmarket: 741978,
 				tcgplayer: 524008
 			}
-		},
+		}
 	],
 
 	illustrator: "Gemi",

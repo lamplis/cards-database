@@ -42,7 +42,7 @@ const card: Card = {
 				cardmarket: 742006,
 				tcgplayer: 524068
 			}
-		},
+		}
 	],
 
 	illustrator: "hncl",

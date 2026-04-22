@@ -42,7 +42,7 @@ const card: Card = {
 				cardmarket: 741977,
 				tcgplayer: 524007
 			}			
-		},
+		}
 	],
 
 	illustrator: "Narumi Sato",

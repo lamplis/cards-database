@@ -52,7 +52,7 @@ const card: Card = {
 				cardmarket: 742011,
 				tcgplayer: 524046
 			}
-		},
+		}
 	],
 
 	illustrator: "ryoma uratsuka",

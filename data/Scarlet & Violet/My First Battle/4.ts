@@ -38,7 +38,7 @@ const card: Card = {
 				cardmarket: 741979,
 				tcgplayer: 524010
 			}
-		},
+		}
 	],
 
 	illustrator: "Natsumi Yashida",

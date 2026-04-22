@@ -34,7 +34,7 @@ const card: Card = {
 				cardmarket: 742018,
 				tcgplayer: 524056
 			}
-		},
+		}
 	],
 
 	illustrator: "Akira Kamayama",

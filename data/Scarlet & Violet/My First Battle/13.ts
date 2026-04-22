@@ -42,7 +42,7 @@ const card: Card = {
 				cardmarket: 741992,
 				tcgplayer: 524092
 			}
-		},
+		}
 	],
 
 	illustrator: "Mina Nakai",

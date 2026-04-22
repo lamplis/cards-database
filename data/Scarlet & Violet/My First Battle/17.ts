@@ -52,7 +52,7 @@ const card: Card = {
 				cardmarket: 741999,
 				tcgplayer: 524061
 			}
-		},
+		}
 	],
 
 	illustrator: "Saino Misaki",

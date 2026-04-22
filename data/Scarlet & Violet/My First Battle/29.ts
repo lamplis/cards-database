@@ -37,7 +37,7 @@ const card: Card = {
 				cardmarket: 742016,
 				tcgplayer: 524054
 			}
-		},
+		}
 	],
 
 	illustrator: "Amelicart",

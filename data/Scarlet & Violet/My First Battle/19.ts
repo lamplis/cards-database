@@ -34,7 +34,7 @@ const card: Card = {
 				cardmarket: 742002,
 				tcgplayer: 524063
 			}
-		},
+		}
 	],
 
 	illustrator: "Shibuzoh",

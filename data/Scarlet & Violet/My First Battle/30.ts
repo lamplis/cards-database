@@ -49,7 +49,7 @@ const card: Card = {
 				cardmarket: 742017,
 				tcgplayer: 524055
 			}
-		},
+		}
 	],
 
 	illustrator: "NC Empire",

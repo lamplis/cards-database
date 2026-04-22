@@ -52,7 +52,7 @@ const card: Card = {
 				cardmarket: 741975,
 				tcgplayer: 523984
 			}
-		},
+		}
 	],
 
 	illustrator: "Saya Tsuruta",

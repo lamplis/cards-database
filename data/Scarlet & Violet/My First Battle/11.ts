@@ -34,7 +34,7 @@ const card: Card = {
 				cardmarket: 741990,
 				tcgplayer: 524087
 			}
-		},
+		}
 	],
 
 	illustrator: "Mina Nakai",

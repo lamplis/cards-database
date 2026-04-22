@@ -42,7 +42,7 @@ const card: Card = {
 				cardmarket: 741994,
 				tcgplayer: 524097
 			}
-		},
+		}
 	],
 
 	illustrator: "Ryuta Fuse",

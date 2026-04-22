@@ -49,7 +49,7 @@ const card: Card = {
 				cardmarket: 742005,
 				tcgplayer: 524066
 			}
-		},
+		}
 	],
 
 	illustrator: "miki kudo",

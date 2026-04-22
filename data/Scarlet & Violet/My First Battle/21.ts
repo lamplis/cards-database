@@ -42,7 +42,7 @@ const card: Card = {
 				cardmarket: 742004,
 				tcgplayer: 524065
 			}
-		},
+		}
 	],
 
 	illustrator: "OKACHEKE",

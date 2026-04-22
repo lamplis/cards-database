@@ -25,13 +25,8 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "blue-border",
-			stamp: ["squirtle", "pokeball"],
-
-			thirdParty: {
-				cardmarket: 742022,
-				tcgplayer: 524041
-			}
-		},
+			stamp: ["squirtle", "pokeball"]
+		}
 	],
 }
 

@@ -41,7 +41,7 @@ const card: Card = {
 				cardmarket: 741993,
 				tcgplayer: 524094
 			}
-		},
+		}
 	],
 
 	illustrator: "nisimana",

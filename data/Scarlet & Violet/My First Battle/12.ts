@@ -37,7 +37,7 @@ const card: Card = {
 				cardmarket: 741991,
 				tcgplayer: 524091
 			}
-		},
+		}
 	],
 
 	illustrator: "Kagemaru Himeno",

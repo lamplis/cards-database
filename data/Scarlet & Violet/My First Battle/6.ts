@@ -45,7 +45,7 @@ const card: Card = {
 				cardmarket: 741981,
 				tcgplayer: 524015
 			}
-		},
+		}
 	],
 
 	illustrator: "nagimiso",
