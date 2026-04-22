@@ -92,7 +92,7 @@ const card: Card = {
 	stage: "Basic",
 
 	thirdParty: {
-		cardmarket: 288206,
+		cardmarket: 286277,
 		tcgplayer: 111537
 	}
 }
