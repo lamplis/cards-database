@@ -20,14 +20,13 @@ const card: Card = {
 
 	energyType: "Special",
 
-	thirdParty: {
-		cardmarket: 278542,
-		tcgplayer: 88547
-	},
-
 	variants:[
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				cardmarket: 278542,
+				tcgplayer: 88547
+			}
 		},
 		{
 			type:"reverse"

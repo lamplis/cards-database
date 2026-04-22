@@ -75,21 +75,23 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 278474,
-		tcgplayer: 86878
-	},
-
 	variants:[
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				cardmarket: 278474,
+				tcgplayer: 86878
+			}
 		},
 		{
 			type:"reverse"
 		},
 		{
 			type:"normal",
-			stamp: ["pre-release"]
+			stamp: ["pre-release"],
+			thirdParty: {
+				cardmarket: 684384
+			}
 		},
 		{
 			type:"normal",

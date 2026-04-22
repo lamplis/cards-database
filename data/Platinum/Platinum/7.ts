@@ -82,14 +82,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278428,
-		tcgplayer: 84810
-	},
-
 	variants:[
 		{
-			type:"holo"
+			type:"holo",
+			thirdParty: {
+				cardmarket: 278428,
+				tcgplayer: 84810
+			}
 		},
 		{
 			type:"reverse"
@@ -100,12 +99,15 @@ const card: Card = {
 		},
 		{
 			type:"holo",
-			stamp: ["tsubasa-nakamura"]
+			stamp: ["tsubasa-nakamura"],
+			thirdParty: {
+				cardmarket: 371546
+			}
 		},
 		{
 			type:"holo",
 			stamp: ["yuta-komatsuda"]
-		},
+		}
 	]
 }
 

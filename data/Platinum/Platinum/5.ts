@@ -79,17 +79,23 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 278426,
-		tcgplayer: 84804
-	},
-
 	variants:[
 		{
-			type:"holo"
+			type:"holo",
+			thirdParty: {
+				cardmarket: 278426,
+				tcgplayer: 84804
+			}
 		},
 		{
 			type:"reverse"
+		},
+		{
+			type: "holo",
+			cardmarketLabels: ["Led", "West Jad", "Been", "Kagemere Honenve"],
+			thirdParty: {
+				cardmarket: 278421
+			}
 		}
 	]
 }

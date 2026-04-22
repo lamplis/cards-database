@@ -20,14 +20,13 @@ const card: Card = {
 
 	trainerType: "Stadium",
 
-	thirdParty: {
-		cardmarket: 278525,
-		tcgplayer: 83991
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278525,
+				tcgplayer: 83991
+			}
 		},
 		{
 			type: "reverse"
@@ -38,7 +37,10 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["stephen-silvestro"]
+			stamp: ["stephen-silvestro"],
+			thirdParty: {
+				cardmarket: 371570
+			}
 		},
 		{
 			type: "normal",
