@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Lege 1 Karte von deiner Hand auf den Ablagestapel. Wenn du das nicht machen kannst, kannst du diese Karte nicht spielen.\n\nWenn du weniger Karten auf der Hand hast als dein Gegner, ziehe so viele Karten von deinem Deck, bis ihr beide die gleiche Anzahl Karten auf der Hand habt.",
 	},
 
-	thirdParty: {
-		cardmarket: 276860,
-		tcgplayer: 86152
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276860,
+				tcgplayer: 86152
+			}
 		},
 		{
 			type: "normal",
@@ -51,7 +50,7 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["akira-miyazaki"]
-		},
+		}
 	]
 }
 

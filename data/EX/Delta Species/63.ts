@@ -72,14 +72,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276798,
-		tcgplayer: 84840
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276826,
+				tcgplayer: 84840
+			}
 		},
 		{
 			type: "normal",
@@ -88,7 +87,7 @@ const card: Card = {
 		{
 			type: "holo",
 			stamp: ["comic-con"]
-		},
+		}
 	]
 }
 

@@ -19,14 +19,13 @@ const card: Card = {
 		de: "Switch 1 of your Active Pokémon with 1 of your Benched Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 276865,
-		tcgplayer: 89713
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276865,
+				tcgplayer: 89713
+			}
 		},
 		{
 			type: "normal",
@@ -35,7 +34,7 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["jason-klaczynski"]
-		},
+		}
 	]
 }
 

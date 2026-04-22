@@ -19,14 +19,13 @@ const card: Card = {
 		fr: "Les dégâts infligés par des attaques au Pokémon auquel Énergie Métal est attachée sont réduits de 10 (après application de la Faiblesse et de la Résistance). Ignorez cet effet si le Pokémon auquel Énergie Métal est attachée n'est pas un Pokémon Métal. Énergie Métal fournit de l'Énergie Métal. (Elle ne compte pas comme carte Énergie de Base.)",
 	},
 
-	thirdParty: {
-		cardmarket: 276870,
-		tcgplayer: 87359
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276870,
+				tcgplayer: 87359
+			}
 		},
 		{
 			type: "normal",
@@ -36,4 +35,3 @@ const card: Card = {
 }
 
 export default card
-

@@ -21,14 +21,13 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	thirdParty: {
-		cardmarket: 276852,
-		tcgplayer: 84986
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276852,
+				tcgplayer: 84986
+			}
 		},
 		{
 			type: "normal",
@@ -37,7 +36,7 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["jason-klaczynski"]
-		},
+		}
 	]
 }
 

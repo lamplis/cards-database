@@ -68,14 +68,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276785,
-		tcgplayer: 86157
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276785,
+				tcgplayer: 86157
+			}
 		},
 		{
 			type: "normal",
@@ -92,7 +91,7 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["jeremy-scharff-kim"]
-		},
+		}
 
 	]
 }

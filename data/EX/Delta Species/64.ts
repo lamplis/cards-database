@@ -72,14 +72,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276798,
-		tcgplayer: 84841
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276827,
+				tcgplayer: 84841
+			}
 		},
 		{
 			type: "normal",
@@ -88,7 +87,7 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["games-expo"]
-		},
+		}
 	]
 }
 

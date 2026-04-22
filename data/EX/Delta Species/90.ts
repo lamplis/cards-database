@@ -21,14 +21,13 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	thirdParty: {
-		cardmarket: 276853,
-		tcgplayer: 85896
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276853,
+				tcgplayer: 85896
+			}
 		},
 		{
 			type: "normal",
@@ -37,7 +36,7 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["miska-saari"]
-		},
+		}
 	]
 }
 
