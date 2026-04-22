@@ -47,10 +47,14 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
+
 	variants:[
 		{
 			type: "holo",
-			stamp: ["horizons"]
+			stamp: ["horizons"],
+			thirdParty: {
+				cardmarket: 784941
+			}
 		}
 	]
 }

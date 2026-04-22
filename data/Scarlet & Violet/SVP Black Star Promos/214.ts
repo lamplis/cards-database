@@ -37,11 +37,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+
 	variants: [
 		{
 			type: "normal",
-			stamp: ["illustration-contest-2024"]
-		},
+			stamp: ["illustration-contest-2024"],
+			thirdParty: {
+				cardmarket: 810398
+			}
+		}
 	]
 }
 

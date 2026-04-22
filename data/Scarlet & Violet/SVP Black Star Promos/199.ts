@@ -52,7 +52,14 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
+
 	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826137
+			}
+		},
 		{
 			type: "holo",
 			subtype: "cosmos"

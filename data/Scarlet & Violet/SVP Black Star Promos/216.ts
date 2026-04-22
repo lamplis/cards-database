@@ -67,9 +67,13 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "I",
 
+
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 832225
+			}
 		},
 		{
 			type: "holo",

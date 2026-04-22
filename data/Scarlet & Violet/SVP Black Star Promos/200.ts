@@ -48,7 +48,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
+
 	variants: [
+		{
+			type: "holo",
+			cardmarketLabels: ["Foress Fevers", "Prio Of Prokdensesn", "Pene"],
+			thirdParty: {
+				cardmarket: 826138
+			}
+		},
 		{
 			type: "holo",
 			subtype: "cosmos"

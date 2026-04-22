@@ -41,16 +41,26 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+
 	variants: [
 		{
 			type: "normal",
-			stamp: ["worlds-2025"]
+			stamp: ["worlds-2025"],
+			thirdParty: {
+				cardmarket: 832224
+			}
 		},
 		{
 			type: "reverse",
 			foil: "league",
 			stamp: ["winner"]
 		},
+		{
+			type: "V6",
+			thirdParty: {
+				cardmarket: 838393
+			}
+		}
 	]
 }
 

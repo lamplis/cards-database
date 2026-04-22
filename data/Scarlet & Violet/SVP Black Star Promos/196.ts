@@ -66,13 +66,24 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
+
 	variants:[
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 821616
+			}
 		},
 		{
 			type: "lenticular",
 			size: "jumbo"
+		},
+		{
+			type: "V2",
+			cardmarketLabels: ["Tournament"],
+			thirdParty: {
+				cardmarket: 821617
+			}
 		}
 	]
 }

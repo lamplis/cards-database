@@ -66,9 +66,13 @@ const card: Card = {
 
 	regulationMark: "I",
 
+
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 830109
+			}
 		}
 	]
 }

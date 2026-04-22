@@ -27,7 +27,11 @@ const card: Card = {
 
 	trainerType: "Stadium",
 	regulationMark: "G",
-	illustrator: "Naoki Saito"
+	illustrator: "Naoki Saito",
+
+	thirdParty: {
+		cardmarket: 726924
+	}
 }
 
 export default card

@@ -48,7 +48,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
+
 	variants: [
+		{
+			type: "holo",
+			cardmarketLabels: ["Carrying Its Baby Inap", "Targasitien Swift On", "Sihhagponsnts With"],
+			thirdParty: {
+				cardmarket: 826141
+			}
+		},
 		{
 			type: "holo",
 			subtype: "cosmos"

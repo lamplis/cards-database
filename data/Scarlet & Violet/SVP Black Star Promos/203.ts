@@ -62,6 +62,7 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
+
 	variants: [
 		{
 			type: "holo",
@@ -69,7 +70,17 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			stamp: ["pokemon-center"]
+			stamp: ["pokemon-center"],
+			thirdParty: {
+				cardmarket: 826852
+			}
+		},
+		{
+			type: "V2",
+			cardmarketLabels: ["Am Aur Oo", "Okmon Center Stampe", "Elite Trainer Box Promo"],
+			thirdParty: {
+				cardmarket: 827833
+			}
 		}
 	]
 }

@@ -19,14 +19,21 @@ const card: Card = {
 
 	regulationMark: "I",
 
+
 	variants: [
 		{
 			type: "normal",
-			stamp: ["worlds-2025"]
+			stamp: ["worlds-2025"],
+			thirdParty: {
+				cardmarket: 844367
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["worlds-2025","staff"]
+			stamp: ["worlds-2025","staff"],
+			thirdParty: {
+				cardmarket: 845339
+			}
 		},
 		{
 			type: "normal",
@@ -47,7 +54,7 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["worlds-2025","finalist"]
-		},
+		}
 	]
 }
 
