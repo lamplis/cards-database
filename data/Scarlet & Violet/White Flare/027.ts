@@ -95,7 +95,7 @@ const card: Card = {
 				cardmarket: 836542,
 				tcgplayer: 642311
 			}
-		},
+		}
 	],
 }
 
