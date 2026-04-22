@@ -11,17 +11,16 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	thirdParty: {
-		cardmarket: 274875,
-		tcgplayer: 88332
-	},
-
 	variants: [
 		{
-			type: "reverse"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274875,
+				tcgplayer: 88332
+			}
 		},
 		{
-			type: "normal"
+			type: "reverse"
 		}
 	]
 }

@@ -12,17 +12,16 @@ const card: Card = {
 	set: Set,
 	hp: 10,
 
-	thirdParty: {
-		cardmarket: 274874,
-		tcgplayer: 87668
-	},
-
 	variants: [
 		{
-			type: "reverse"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274874,
+				tcgplayer: 87668
+			}
 		},
 		{
-			type: "normal"
+			type: "reverse"
 		}
 	]
 }

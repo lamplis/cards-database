@@ -64,17 +64,23 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 274766,
-		tcgplayer: 83496
-	},
-
 	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274766,
+				tcgplayer: 83496
+			}
+		},
 		{
 			type: "reverse"
 		},
 		{
-			type: "holo"
+			type: "V2",
+			cardmarketLabels: ["Attention Oversized Card", "Not Tournament Legal", "Canes"],
+			thirdParty: {
+				cardmarket: 362871
+			}
 		}
 	]
 }

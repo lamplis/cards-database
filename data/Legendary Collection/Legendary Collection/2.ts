@@ -64,17 +64,23 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 274767,
-		tcgplayer: 83643
-	},
-
 	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274767,
+				tcgplayer: 83643
+			}
+		},
 		{
 			type: "reverse"
 		},
 		{
-			type: "holo"
+			type: "V2",
+			cardmarketLabels: ["Pra", "dmey"],
+			thirdParty: {
+				cardmarket: 362872
+			}
 		}
 	]
 }

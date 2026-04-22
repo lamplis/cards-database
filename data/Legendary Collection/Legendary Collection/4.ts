@@ -66,20 +66,26 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 274769,
-		tcgplayer: 84569
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274769,
+				tcgplayer: 84569
+			}
 		},
 		{
 			type: "reverse"
 		},
 		{
 			type: "holo"
+		},
+		{
+			type: "V2",
+			cardmarketLabels: ["Attention Oversized Card", "Not Tournament Legal", "Pgp Pie &"],
+			thirdParty: {
+				cardmarket: 362874
+			}
 		}
 	]
 }

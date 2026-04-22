@@ -74,20 +74,29 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 274768,
-		tcgplayer: 84196
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274768,
+				tcgplayer: 84196
+			}
 		},
 		{
 			type: "reverse"
 		},
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 855023
+			}
+		},
+		{
+			type: "V2",
+			cardmarketLabels: ["Sears Ese", "Attention Oversized Card", "Not Tournament Legal"],
+			thirdParty: {
+				cardmarket: 362873
+			}
 		}
 	]
 }
