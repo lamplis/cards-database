@@ -21,14 +21,18 @@ const card: Card = {
 		it: "Metti una carta Evoluzione di Fase 2 che hai in mano direttamente sul Pokémon Base corrispondente. Puoi giocare questa carta solo quando ti sarebbe comunque permesso evolvere quel Pokémon.",
 	},
 
+
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
 			thirdParty: {
-				cardmarket: 273771,
-				tcgplayer: 42422
-			},
+				cardmarket: 273771
+			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -43,13 +47,8 @@ const card: Card = {
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 107074,
 				cardmarket: 660142
-			},
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
+			}
 		}
 	],
 }

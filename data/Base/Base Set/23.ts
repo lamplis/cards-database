@@ -82,11 +82,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
+			subtype: "1999-2000-copyright",
 			thirdParty: {
 				cardmarket: 273718,
 				tcgplayer: 42364
 			}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
 		},
 		{
 			type: "normal",
@@ -101,13 +105,8 @@ const card: Card = {
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 107018,
 				cardmarket: 660205
 			}
-		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright",
 		}
 	],
 
@@ -126,6 +125,7 @@ const card: Card = {
 		it: "Pokémon da sempre ammirato per il suo fiero aspetto. Corre con grande agilità, come se avesse le ali. LIV 45 N.59",
 		de: "Ein Pokémon, das schon lange für seine Schönheit bewundert wird. Es läuft anmutig wie auf Flügeln."
 	},
+
 }
 
 export default card
