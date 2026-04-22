@@ -19,17 +19,16 @@ const card: Card = {
 		de: "Jeder Spieler mischt seine Handkarten zurück in sein Deck. Du und dein Gegner spielen \"Schere-Stein-Papier\". Der Gewinner zieht bis zu 6 Karten, der Verlierer bis zu 3 Karten. (Du ziehst zuerst.)",
 	},
 
-	thirdParty: {
-		cardmarket: 277744,
-		tcgplayer: 89811
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277744,
+				tcgplayer: 89811
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "normal",

@@ -19,17 +19,16 @@ const card: Card = {
 		de: "Wenn Pokémon (deine und die deines Gegners) eine Schwäche haben, dann wird der entsprechende Schaden nicht um den Schwäche-Wert dieses Pokémon erhöht, sondern verdoppelt.",
 	},
 
-	thirdParty: {
-		cardmarket: 277741,
-		tcgplayer: 86586
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277741,
+				tcgplayer: 86586
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "normal",

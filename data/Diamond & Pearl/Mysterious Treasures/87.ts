@@ -77,17 +77,16 @@ const card: Card = {
 		fr: "Un Pokémon qui se nourrit de terre. Après avoir dévoré une montagne, il s'endort pour grandir."
 	},
 
-	thirdParty: {
-		cardmarket: 277716,
-		tcgplayer: 86642
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277716,
+				tcgplayer: 86642
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

@@ -81,17 +81,16 @@ const card: Card = {
 		fr: "Il projette des boules de feu de 2000°C à bout de bras. Il vit dans les cratères volcaniques."
 	},
 
-	thirdParty: {
-		cardmarket: 277641,
-		tcgplayer: 87055
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277641,
+				tcgplayer: 87055
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

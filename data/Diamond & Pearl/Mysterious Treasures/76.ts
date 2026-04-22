@@ -76,21 +76,20 @@ const card: Card = {
 		fr: "Il est censé apporter la joie. Ce Pokémon charitable offre ses œufs aux blessés."
 	},
 
-	thirdParty: {
-		cardmarket: 277705,
-		tcgplayer: 84175
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277705,
+				tcgplayer: 84175
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "normal",
-			stamp: ["paul-atanassov"],
+			stamp: ["paul-atanassov"]
 		}
 	]
 }

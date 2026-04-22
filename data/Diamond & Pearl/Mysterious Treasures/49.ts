@@ -73,17 +73,16 @@ const card: Card = {
 		fr: "Sa queue contient un minuscule cerveau. Elle mord l'ennemi qui essaie de le frapper dans le dos."
 	},
 
-	thirdParty: {
-		cardmarket: 277678,
-		tcgplayer: 85731
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277678,
+				tcgplayer: 85731
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

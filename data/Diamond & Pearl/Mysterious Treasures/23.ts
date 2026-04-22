@@ -84,17 +84,16 @@ const card: Card = {
 		fr: "Il vole rapidement et sans faire de bruit grâce à ses quatre ailes. C'est un Pokémon nocturne."
 	},
 
-	thirdParty: {
-		cardmarket: 277652,
-		tcgplayer: 84487
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277652,
+				tcgplayer: 84487
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

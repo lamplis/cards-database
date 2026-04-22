@@ -71,17 +71,16 @@ const card: Card = {
 		fr: "Il a le pouvoir de voyager dans le temps. Cependant, on dit qu'il n'apparaît qu'en temps de paix."
 	},
 
-	thirdParty: {
-		cardmarket: 277636,
-		tcgplayer: 84146
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277636,
+				tcgplayer: 84146
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

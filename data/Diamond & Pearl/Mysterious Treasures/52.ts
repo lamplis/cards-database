@@ -69,17 +69,16 @@ const card: Card = {
 		fr: "Ce Pokémon aime ce qui est rond et blanc et transporte un caillou en forme d'œuf pour imiter Leveinard."
 	},
 
-	thirdParty: {
-		cardmarket: 277681,
-		tcgplayer: 86006
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277681,
+				tcgplayer: 86006
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "normal",

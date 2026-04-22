@@ -79,17 +79,16 @@ const card: Card = {
 		fr: "Il hante les fissures dans la roche et les trous au fond de la mer. Ses ventouses ne lâchent jamais prise."
 	},
 
-	thirdParty: {
-		cardmarket: 277686,
-		tcgplayer: 87832
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277686,
+				tcgplayer: 87832
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

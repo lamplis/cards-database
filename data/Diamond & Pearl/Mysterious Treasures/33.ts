@@ -81,17 +81,16 @@ const card: Card = {
 		fr: "Son violent coup de tête est assez puissant pour pulvériser les matériaux les plus résistants"
 	},
 
-	thirdParty: {
-		cardmarket: 277662,
-		tcgplayer: 88569
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277662,
+				tcgplayer: 88569
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "holo",

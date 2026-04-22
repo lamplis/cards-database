@@ -81,17 +81,16 @@ const card: Card = {
 		fr: "Ses deux cerveaux semblent communiquer leurs émotions grâce à un lien télépathique."
 	},
 
-	thirdParty: {
-		cardmarket: 277709,
-		tcgplayer: 84863
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277709,
+				tcgplayer: 84863
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

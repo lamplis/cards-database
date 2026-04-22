@@ -69,17 +69,16 @@ const card: Card = {
 		fr: "Il émet des cris en agitant l'orbe à l'arrière de sa gorge. Il avance par bonds désordonnés."
 	},
 
-	thirdParty: {
-		cardmarket: 277671,
-		tcgplayer: 84313
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277671,
+				tcgplayer: 84313
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "normal",

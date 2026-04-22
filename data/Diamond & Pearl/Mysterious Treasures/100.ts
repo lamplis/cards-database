@@ -72,17 +72,16 @@ const card: Card = {
 		fr: "Selon un vieux dicton des régions enneigées : \"Stalgamin dans la maison, richesse à l'horizon\"."
 	},
 
-	thirdParty: {
-		cardmarket: 277729,
-		tcgplayer: 89402
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277729,
+				tcgplayer: 89402
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

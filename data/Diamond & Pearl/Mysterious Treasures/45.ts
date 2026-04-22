@@ -79,17 +79,16 @@ const card: Card = {
 		fr: "Son corps est couvert d'un grand manteau blanc qui, dans la neige, le dissimule aux yeux des prédateurs."
 	},
 
-	thirdParty: {
-		cardmarket: 277674,
-		tcgplayer: 84790
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277674,
+				tcgplayer: 84790
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

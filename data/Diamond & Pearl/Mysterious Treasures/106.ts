@@ -67,17 +67,16 @@ const card: Card = {
 		fr: "Il broie tout ce qu'il trouve avec ses mâchoires puissantes. Même son dresseur doit s'en méfier."
 	},
 
-	thirdParty: {
-		cardmarket: 277735,
-		tcgplayer: 89998
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277735,
+				tcgplayer: 89998
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

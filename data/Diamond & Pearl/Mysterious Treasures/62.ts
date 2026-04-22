@@ -61,17 +61,16 @@ const card: Card = {
 		fr: "Il fait souvent tourner des objets sur son museau pour connaitre leur odeur et leur texture."
 	},
 
-	thirdParty: {
-		cardmarket: 277691,
-		tcgplayer: 89032
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277691,
+				tcgplayer: 89032
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

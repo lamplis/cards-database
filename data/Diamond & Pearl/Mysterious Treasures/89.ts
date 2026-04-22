@@ -74,17 +74,16 @@ const card: Card = {
 		fr: "Ce Pokémon est réputé pour être le plus faible au monde. Nul ne sait comment son espèce perdure."
 	},
 
-	thirdParty: {
-		cardmarket: 277718,
-		tcgplayer: 87029
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277718,
+				tcgplayer: 87029
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

@@ -73,17 +73,16 @@ const card: Card = {
 		fr: "On l'appelle \"être de l'émotion\". Il enseigne aux hommes la beauté de la tristesse, la douleur et la joie."
 	},
 
-	thirdParty: {
-		cardmarket: 277643,
-		tcgplayer: 87331
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277643,
+				tcgplayer: 87331
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "holo",

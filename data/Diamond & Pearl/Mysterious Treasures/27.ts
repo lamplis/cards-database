@@ -80,17 +80,16 @@ const card: Card = {
 		fr: "Il croise ses bras affûtés devant son torse pour crier. Il compose tout un tas de mélodies."
 	},
 
-	thirdParty: {
-		cardmarket: 277656,
-		tcgplayer: 86532
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277656,
+				tcgplayer: 86532
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

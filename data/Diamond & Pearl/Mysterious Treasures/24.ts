@@ -77,17 +77,16 @@ const card: Card = {
 		fr: "On l'appelle \" jungle sur pattes \". Si une tête devient trop grosse, elle tombe et produit un Noeunoeuf"
 	},
 
-	thirdParty: {
-		cardmarket: 277653,
-		tcgplayer: 85360
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277653,
+				tcgplayer: 85360
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

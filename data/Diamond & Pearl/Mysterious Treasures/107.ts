@@ -57,17 +57,16 @@ const card: Card = {
 		fr: "Il envoie des boules de feu. Avec l'âge, ses six queues en forment de nouvelles."
 	},
 
-	thirdParty: {
-		cardmarket: 277736,
-		tcgplayer: 90441
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277736,
+				tcgplayer: 90441
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

@@ -73,12 +73,16 @@ const card: Card = {
 		fr: "Bien qu'il rechigne à se battre, une goutte du poison sécrété par ses piquants peut s'avérer fatale."
 	},
 
+
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277720
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

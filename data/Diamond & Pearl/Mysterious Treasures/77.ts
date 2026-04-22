@@ -77,17 +77,16 @@ const card: Card = {
 		fr: "Il jauge la température et l'humidité grâce à la feuille sur sa tête. Il raffole des bains de soleil."
 	},
 
-	thirdParty: {
-		cardmarket: 277706,
-		tcgplayer: 84278
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277706,
+				tcgplayer: 84278
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

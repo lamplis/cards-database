@@ -62,17 +62,16 @@ const card: Card = {
 		fr: "La chaleur de ses flammes intimide l'ennemi. Elles s'intensifient lorsqu'il se prépare à combattre."
 	},
 
-	thirdParty: {
-		cardmarket: 277689,
-		tcgplayer: 88485
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277689,
+				tcgplayer: 88485
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

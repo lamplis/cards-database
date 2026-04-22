@@ -79,17 +79,16 @@ const card: Card = {
 		fr: "Il attaque en projetant des flammes. Il se dissimule derrière les vagues de chaleur qu'il produit."
 	},
 
-	thirdParty: {
-		cardmarket: 277645,
-		tcgplayer: 90105
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277645,
+				tcgplayer: 90105
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

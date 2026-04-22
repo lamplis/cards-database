@@ -76,17 +76,16 @@ const card: Card = {
 		fr: "Le Pokémon le plus fainéant du monde. Il s'allonge pour économiser ses forces et contre-attaquer."
 	},
 
-	thirdParty: {
-		cardmarket: 277663,
-		tcgplayer: 89291
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277663,
+				tcgplayer: 89291
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

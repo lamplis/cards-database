@@ -19,17 +19,16 @@ const card: Card = {
 		de: "Schau dir die untersten 7 Karten deines Decks an. Wähle aus diesen 7 Karten 1 Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Lege die restlichen Karten auf dein Deck. Mische dein Deck danach."
 	},
 
-	thirdParty: {
-		cardmarket: 277739,
-		tcgplayer: 85033
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277739,
+				tcgplayer: 85033
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

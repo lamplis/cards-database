@@ -68,17 +68,16 @@ const card: Card = {
 		fr: "Quand il bascule sa tête d'avant en arrière, ses antennes se heurtent dans un son de xylophone."
 	},
 
-	thirdParty: {
-		cardmarket: 277715,
-		tcgplayer: 86527
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277715,
+				tcgplayer: 86527
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "normal",

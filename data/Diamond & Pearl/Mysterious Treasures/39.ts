@@ -79,17 +79,16 @@ const card: Card = {
 		fr: "Il brise la glace avec ses grosses défenses. Sa graisse le protège du froid, mais aussi des attaques."
 	},
 
-	thirdParty: {
-		cardmarket: 277668,
-		tcgplayer: 90467
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277668,
+				tcgplayer: 90467
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

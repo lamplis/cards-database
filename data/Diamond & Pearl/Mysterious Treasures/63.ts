@@ -88,17 +88,16 @@ const card: Card = {
 		fr: "Un Pokémon qui vivait dans la jungle il y a 100 millions d'années. Son visage est très dur."
 	},
 
-	thirdParty: {
-		cardmarket: 277692,
-		tcgplayer: 89149
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277692,
+				tcgplayer: 89149
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

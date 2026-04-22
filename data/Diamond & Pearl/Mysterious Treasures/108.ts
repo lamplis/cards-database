@@ -76,17 +76,16 @@ const card: Card = {
 		fr: "Bien que dépourvu d'yeux, il repère les obstacles grâce aux ultrasons émis par sa gueule."
 	},
 
-	thirdParty: {
-		cardmarket: 277737,
-		tcgplayer: 90774
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277737,
+				tcgplayer: 90774
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

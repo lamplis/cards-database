@@ -72,17 +72,16 @@ const card: Card = {
 		fr: "Un expert de la pantomime dont les gestes façonnent de solides murs invisibles."
 	},
 
-	thirdParty: {
-		cardmarket: 277659,
-		tcgplayer: 87592
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277659,
+				tcgplayer: 87592
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

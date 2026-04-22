@@ -19,17 +19,16 @@ const card: Card = {
 		de: "Wähle 1 Karte von deiner Hand und lege sie auf dein Deck. Durchsuche dein Deck nach einer Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach. (Wenn diese Karte die einzige Karte auf deiner Hand ist, kannst du sie nicht spielen.)",
 	},
 
-	thirdParty: {
-		cardmarket: 277738,
-		tcgplayer: 83761
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277738,
+				tcgplayer: 83761
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "holo",

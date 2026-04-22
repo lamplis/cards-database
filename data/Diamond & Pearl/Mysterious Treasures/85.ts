@@ -56,17 +56,16 @@ const card: Card = {
 		fr: "Il niche dans les petits trous horizontaux des murs des grottes. Il bondit pour saisir sa proie."
 	},
 
-	thirdParty: {
-		cardmarket: 277714,
-		tcgplayer: 85698
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277714,
+				tcgplayer: 85698
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

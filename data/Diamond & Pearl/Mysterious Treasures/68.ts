@@ -80,17 +80,16 @@ const card: Card = {
 		fr: "Son cœur bat dix fois plus vite que la normale, c'est pourquoi il ne tient pas en place."
 	},
 
-	thirdParty: {
-		cardmarket: 277697,
-		tcgplayer: 90370
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277697,
+				tcgplayer: 90370
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

@@ -73,17 +73,16 @@ const card: Card = {
 		fr: "Il tisse une toile fine mais solide pour poser des pièges et se poste dans l'attente d'une proie."
 	},
 
-	thirdParty: {
-		cardmarket: 277732,
-		tcgplayer: 89457
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277732,
+				tcgplayer: 89457
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

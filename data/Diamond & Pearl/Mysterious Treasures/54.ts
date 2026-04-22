@@ -71,17 +71,16 @@ const card: Card = {
 		fr: "Il est né au milieu d'un volcan. Son corps est couvert de flammes qui flambent comme un soleil."
 	},
 
-	thirdParty: {
-		cardmarket: 277683,
-		tcgplayer: 87047
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277683,
+				tcgplayer: 87047
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

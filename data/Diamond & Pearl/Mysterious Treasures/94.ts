@@ -80,21 +80,20 @@ const card: Card = {
 		fr: "Il vit en forêt avec ses pairs. Il accumule l'électricité dans les poches de ses joues."
 	},
 
-	thirdParty: {
-		cardmarket: 277723,
-		tcgplayer: 88086
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277723,
+				tcgplayer: 88086
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "normal",
-			stamp: ["set-logo"],
+			stamp: ["set-logo"]
 		}
 	]
 }

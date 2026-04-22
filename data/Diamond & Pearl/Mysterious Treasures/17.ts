@@ -89,17 +89,16 @@ const card: Card = {
 		fr: "Lorsqu'il est en colère, il abat des montagnes et enterre des fleuves. On doit alors modifier les cartes."
 	},
 
-	thirdParty: {
-		cardmarket: 277646,
-		tcgplayer: 90119
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277646,
+				tcgplayer: 90119
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

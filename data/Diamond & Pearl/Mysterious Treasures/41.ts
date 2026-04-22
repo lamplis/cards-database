@@ -85,17 +85,16 @@ const card: Card = {
 		fr: "Le collier de bourgeons à son cou répand un arôme épicé qui vous donne du tonus."
 	},
 
-	thirdParty: {
-		cardmarket: 277670,
-		tcgplayer: 83747
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277670,
+				tcgplayer: 83747
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

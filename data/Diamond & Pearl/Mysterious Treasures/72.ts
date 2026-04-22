@@ -62,17 +62,16 @@ const card: Card = {
 		fr: "Il enduit son corps d'une substance visqueuse pour glisser et se libérer quand on l'agrippe."
 	},
 
-	thirdParty: {
-		cardmarket: 277701,
-		tcgplayer: 83729
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277701,
+				tcgplayer: 83729
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

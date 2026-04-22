@@ -86,17 +86,16 @@ const card: Card = {
 		fr: ": Ce Pokémon nocturne évolue en grandes volées escortées par des Cornèbre."
 	},
 
-	thirdParty: {
-		cardmarket: 277639,
-		tcgplayer: 86159
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277639,
+				tcgplayer: 86159
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

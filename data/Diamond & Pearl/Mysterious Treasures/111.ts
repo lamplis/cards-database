@@ -19,17 +19,16 @@ const card: Card = {
 		de: "Durchsuche dein Deck oder deinen Ablagestapel nach 1 Trainerkarte mit Fossil im Namen oder einer Evolutionskarte der Phase 1 oder Phase 2, die sich aus einem Fossil entwickelt. Zeige sie deinem Gegner und nimm sie auf die Hand. Falls du dein Deck durchsucht hast, mische es danach.",
 	},
 
-	thirdParty: {
-		cardmarket: 277740,
-		tcgplayer: 85556
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277740,
+				tcgplayer: 85556
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

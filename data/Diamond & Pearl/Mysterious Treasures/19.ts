@@ -79,17 +79,16 @@ const card: Card = {
 		fr: "C'est l'abominable homme des neiges. Il ensevelit les montagnes sous ses blizzards."
 	},
 
-	thirdParty: {
-		cardmarket: 277648,
-		tcgplayer: 83440
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277648,
+				tcgplayer: 83440
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "normal",

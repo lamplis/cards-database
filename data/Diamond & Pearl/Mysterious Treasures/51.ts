@@ -88,17 +88,16 @@ const card: Card = {
 		fr: "Gravalanch creuse son terrier à flanc de montagne en perçant des galeries horizontales."
 	},
 
-	thirdParty: {
-		cardmarket: 277680,
-		tcgplayer: 85892
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277680,
+				tcgplayer: 85892
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

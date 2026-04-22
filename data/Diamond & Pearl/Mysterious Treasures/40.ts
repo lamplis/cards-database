@@ -90,17 +90,16 @@ const card: Card = {
 		fr: "Il est attaché à son territoire. Il repousse l'ennemi en provoquant des secousses qui portent à 5 Km."
 	},
 
-	thirdParty: {
-		cardmarket: 277669,
-		tcgplayer: 90577
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277669,
+				tcgplayer: 90577
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

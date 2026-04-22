@@ -68,17 +68,16 @@ const card: Card = {
 		fr: "Il gagne la côte en roulant sur les blocs de glace car sa morphologie n'est pas adaptée à la nage."
 	},
 
-	thirdParty: {
-		cardmarket: 277731,
-		tcgplayer: 89448
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277731,
+				tcgplayer: 89448
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

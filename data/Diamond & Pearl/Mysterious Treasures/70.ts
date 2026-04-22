@@ -69,17 +69,16 @@ const card: Card = {
 		fr: "Il utilise sa queue pour cueillir les fruits inaccessibles. Elle est plus agile que ses mains."
 	},
 
-	thirdParty: {
-		cardmarket: 277699,
-		tcgplayer: 83489
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277699,
+				tcgplayer: 83489
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

@@ -78,17 +78,16 @@ const card: Card = {
 		fr: "Quand il mord, il ne lâche pas prise avant que ses crocs se brisent. Ils repoussent par la suite."
 	},
 
-	thirdParty: {
-		cardmarket: 277673,
-		tcgplayer: 84499
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277673,
+				tcgplayer: 84499
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

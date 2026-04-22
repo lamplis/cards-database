@@ -19,17 +19,16 @@ const card: Card = {
 		fr: "Attachez Énergies multiples à 1 de vos Pokémon. Lorsqu'elle est en jeu, Énergies multiples fournit tous les types d'énergie (mais seulement un à la fois). (Elle n'a pas d'autre effet que de fournir de l'Énergie.) Énergies multiples fournit une Énergie Incolore lorsqu'elle est attachée à un Pokémon qui possède déjà des cartes Énergie Spéciale.",
 	},
 
-	thirdParty: {
-		cardmarket: 277747,
-		tcgplayer: 87634
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277747,
+				tcgplayer: 87634
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "normal",

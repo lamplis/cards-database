@@ -73,17 +73,16 @@ const card: Card = {
 		fr: "Il crache un puissant jet d'eau pour abattre les proies volantes."
 	},
 
-	thirdParty: {
-		cardmarket: 277724,
-		tcgplayer: 88697
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277724,
+				tcgplayer: 88697
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

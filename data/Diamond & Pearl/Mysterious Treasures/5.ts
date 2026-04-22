@@ -77,17 +77,16 @@ const card: Card = {
 		fr: "Ce Pokémon au cœur d'or soigne les Pokémon malades. Il ressent la tristesse d'autrui."
 	},
 
-	thirdParty: {
-		cardmarket: 277634,
-		tcgplayer: 83921
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277634,
+				tcgplayer: 83921
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "holo",

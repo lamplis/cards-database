@@ -82,17 +82,16 @@ const card: Card = {
 		fr: "Il se nourrit du minéral de fer qu'il fore. Il défend son territoire en chargeant avec son corps d'acier."
 	},
 
-	thirdParty: {
-		cardmarket: 277682,
-		tcgplayer: 86580
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277682,
+				tcgplayer: 86580
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

@@ -72,17 +72,16 @@ const card: Card = {
 		fr: "Son langage comporte sept cris. Il les utilise pour faire vibrer l'air et projeter son ennemi."
 	},
 
-	thirdParty: {
-		cardmarket: 277651,
-		tcgplayer: 84295
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277651,
+				tcgplayer: 84295
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

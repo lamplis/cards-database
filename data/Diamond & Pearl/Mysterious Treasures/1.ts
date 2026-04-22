@@ -89,17 +89,23 @@ const card: Card = {
 		fr: "Il creuse des galeries à travers la pierre avec ses cornes d'acier pour trouver le fer qu'il apprécie."
 	},
 
-	thirdParty: {
-		cardmarket: 277630,
-		tcgplayer: 83478
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277630,
+				tcgplayer: 83478
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			cardmarketLabels: ["Cue Sar", "Shs Ved", "Vows"],
+			thirdParty: {
+				cardmarket: 699057
+			}
 		}
 	]
 }

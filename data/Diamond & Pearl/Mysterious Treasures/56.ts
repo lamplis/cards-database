@@ -74,17 +74,16 @@ const card: Card = {
 		fr: ":Ce Pokémon dresse ses piquants en cas de danger. Ils poussent moins vite que ceux de Nidorino."
 	},
 
-	thirdParty: {
-		cardmarket: 277685,
-		tcgplayer: 87736
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277685,
+				tcgplayer: 87736
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

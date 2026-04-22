@@ -72,17 +72,16 @@ const card: Card = {
 		fr: "On l'appelle \"être de la volonté\". Il dort au fond d'un lac pour maintenir l'équilibre du monde."
 	},
 
-	thirdParty: {
-		cardmarket: 277633,
-		tcgplayer: 83674
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277633,
+				tcgplayer: 83674
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "holo",

@@ -68,17 +68,16 @@ const card: Card = {
 		fr: "Il aime le sang des humains et des Pokémon. Il erre la nuit en quête d'un cou où planter ses crocs."
 	},
 
-	thirdParty: {
-		cardmarket: 277679,
-		tcgplayer: 85796
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277679,
+				tcgplayer: 85796
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

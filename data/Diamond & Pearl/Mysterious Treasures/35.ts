@@ -74,17 +74,16 @@ const card: Card = {
 		fr: "On pourrait le prendre pour un arbre, mais il est plus proche d'une pierre. L'eau est son point faible."
 	},
 
-	thirdParty: {
-		cardmarket: 277664,
-		tcgplayer: 89594
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277664,
+				tcgplayer: 89594
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

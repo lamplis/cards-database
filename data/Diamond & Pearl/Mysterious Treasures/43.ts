@@ -75,17 +75,16 @@ const card: Card = {
 		fr: "Il vivait dans la jungle il y a environ 100 millions d'années. Son crâne est dur comme du fer."
 	},
 
-	thirdParty: {
-		cardmarket: 277672,
-		tcgplayer: 84458
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277672,
+				tcgplayer: 84458
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

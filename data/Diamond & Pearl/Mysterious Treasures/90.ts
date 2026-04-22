@@ -78,17 +78,16 @@ const card: Card = {
 		fr: "On dit que rencontrer un Cornèbre la nuit est signe de mauvais augure."
 	},
 
-	thirdParty: {
-		cardmarket: 277719,
-		tcgplayer: 87652
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277719,
+				tcgplayer: 87652
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

@@ -72,17 +72,16 @@ const card: Card = {
 		fr: "Il dort 18 heures par jour. Même éveillé, il ne prend pas la peine de se lever pour se téléporter."
 	},
 
-	thirdParty: {
-		cardmarket: 277698,
-		tcgplayer: 83448
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277698,
+				tcgplayer: 83448
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

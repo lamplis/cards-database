@@ -78,17 +78,16 @@ const card: Card = {
 		fr: "Les griffes de ses poings sécrètent une toxine si atroce qu'une simple égratignure peut s'avérer fatale."
 	},
 
-	thirdParty: {
-		cardmarket: 277665,
-		tcgplayer: 90007
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277665,
+				tcgplayer: 90007
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

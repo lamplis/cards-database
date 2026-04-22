@@ -70,17 +70,16 @@ const card: Card = {
 		fr: "Des champignons appelés \"tochukaso\" poussent sur son dos. Ils évoluent avec le Paras hôte."
 	},
 
-	thirdParty: {
-		cardmarket: 277687,
-		tcgplayer: 87951
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277721,
+				tcgplayer: 87951
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

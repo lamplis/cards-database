@@ -86,17 +86,16 @@ const card: Card = {
 		fr: "Son corps est recouvert d'écailles solides. Il donnera sa vie pour secourir les petits de son terrier."
 	},
 
-	thirdParty: {
-		cardmarket: 277660,
-		tcgplayer: 87708
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277660,
+				tcgplayer: 87708
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

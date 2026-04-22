@@ -86,17 +86,16 @@ const card: Card = {
 		fr: "La découverte d'un de ces Pokémon sur un site de fouilles après 2 000 ans de sommeil a fait sensation."
 	},
 
-	thirdParty: {
-		cardmarket: 277635,
-		tcgplayer: 83992
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277635,
+				tcgplayer: 83992
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

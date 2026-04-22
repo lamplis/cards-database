@@ -69,17 +69,16 @@ const card: Card = {
 		fr: "Sa température corporelle avoisine les 600°C. Son souffle est jaune quand il est en bonne santé."
 	},
 
-	thirdParty: {
-		cardmarket: 277717,
-		tcgplayer: 87005
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277717,
+				tcgplayer: 87005
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

@@ -79,17 +79,16 @@ const card: Card = {
 		fr: "Il gèle l'humidité de l'air pour former une armure de glace protectrice autour de son corps."
 	},
 
-	thirdParty: {
-		cardmarket: 277654,
-		tcgplayer: 85755
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277654,
+				tcgplayer: 85755
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

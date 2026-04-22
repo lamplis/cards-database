@@ -87,17 +87,16 @@ const card: Card = {
 		fr: "Il libère l'électricité par sa crinière. Il crée un nuage d'orage pour appeler la foudre."
 	},
 
-	thirdParty: {
-		cardmarket: 277657,
-		tcgplayer: 87160
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277657,
+				tcgplayer: 87160
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

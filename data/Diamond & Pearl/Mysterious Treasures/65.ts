@@ -72,12 +72,16 @@ const card: Card = {
 		fr: "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou du Zarbi est apparu en premier."
 	},
 
+
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277694
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

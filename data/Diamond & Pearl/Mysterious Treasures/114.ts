@@ -19,17 +19,16 @@ const card: Card = {
 		de: "Decke solange Karten von deinem Deck auf, bis du eine Pokémon-Karte aufdeckst. Zeige die Pokémon-Karte deinem Gegner und nimm sie auf die Hand. Mische die übrigen aufgedeckten Karten zurück in dein Deck. (Falls du keine Pokémon-Karte aufgedeckt hast, mische alle aufgedeckten Karten zurück in dein Deck.)",
 	},
 
-	thirdParty: {
-		cardmarket: 277743,
-		tcgplayer: 88477
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277743,
+				tcgplayer: 88477
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

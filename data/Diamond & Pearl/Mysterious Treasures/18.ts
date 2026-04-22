@@ -72,17 +72,16 @@ const card: Card = {
 		fr: "On l'appelle \"être du savoir\". On raconte que son regard a le pouvoir d'effacer la mémoire."
 	},
 
-	thirdParty: {
-		cardmarket: 277647,
-		tcgplayer: 90259
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277647,
+				tcgplayer: 90259
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

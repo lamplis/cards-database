@@ -77,17 +77,16 @@ const card: Card = {
 		fr: "Selon une croyance ancienne, on peut utiliser ses écailles pour guérir les maladies incurables."
 	},
 
-	thirdParty: {
-		cardmarket: 277677,
-		tcgplayer: 85597
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277677,
+				tcgplayer: 85597
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "normal",

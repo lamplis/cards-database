@@ -68,17 +68,16 @@ const card: Card = {
 		fr: "Son nid est un véritable labyrinthe qu'il creuse à l'aide de sa queue. Il sait à peine voler."
 	},
 
-	thirdParty: {
-		cardmarket: 277676,
-		tcgplayer: 85010
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277676,
+				tcgplayer: 85010
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }
