@@ -22,7 +22,8 @@ const np: Set = {
 	releaseDate: "2003-10-01",
 
 	thirdParty: {
-		tcgplayer: 1423
+		tcgplayer: 1423,
+		cardmarket: 1608
 	}
 }
 

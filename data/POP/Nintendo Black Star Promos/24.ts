@@ -59,6 +59,9 @@ const card: Card = {
 
 
 
+	thirdParty: {
+		cardmarket: 275497
+	}
 }
 
 export default card
