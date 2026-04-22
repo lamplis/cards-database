@@ -25,7 +25,11 @@ const card: Card = {
 		de: "Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+
+	thirdParty: {
+		cardmarket: 281650
+	}
 }
 
 export default card

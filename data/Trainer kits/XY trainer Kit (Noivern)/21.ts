@@ -25,7 +25,11 @@ const card: Card = {
 		de: "Wirf 1 Münze. Durchsuche bei \"Kopf\" dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+
+	thirdParty: {
+		cardmarket: 281633
+	}
 }
 
 export default card

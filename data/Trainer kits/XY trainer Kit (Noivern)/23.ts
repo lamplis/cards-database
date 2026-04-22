@@ -33,7 +33,11 @@ const card: Card = {
 	resistances: [{
 		type: "Fighting",
 		value: "-20"
-	}]
+	}],
+
+	thirdParty: {
+		cardmarket: 281638
+	}
 }
 
 export default card
