@@ -19,17 +19,16 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	thirdParty: {
-		cardmarket: 278958,
-		tcgplayer: 85229
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278958,
+				tcgplayer: 85229
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

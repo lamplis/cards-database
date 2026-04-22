@@ -71,17 +71,23 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278883,
-		tcgplayer: 90009
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278869,
+				tcgplayer: 90009
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			cardmarketLabels: ["Limes Erste Ree Ona", "Fora Ware Ricres", "Pty"],
+			thirdParty: {
+				cardmarket: 278883
+			}
 		}
 	]
 }

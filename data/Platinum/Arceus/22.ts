@@ -78,17 +78,16 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 278894,
-		tcgplayer: 87163
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278894,
+				tcgplayer: 87163
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		}
 	]
 }

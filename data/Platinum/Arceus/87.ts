@@ -19,17 +19,16 @@ const card: Card = {
 
 	trainerType: "Tool",
 
-	thirdParty: {
-		cardmarket: 278959,
-		tcgplayer: 85369
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 278959,
+				tcgplayer: 85369
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "reverse",
@@ -37,7 +36,10 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["michael-pramawat"]
+			stamp: ["michael-pramawat"],
+			thirdParty: {
+				cardmarket: 371562
+			}
 		},
 		{
 			type: "normal",

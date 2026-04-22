@@ -74,17 +74,16 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278904,
-		tcgplayer: 89466
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 278904,
+				tcgplayer: 89466
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "reverse",
@@ -92,7 +91,10 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["michael-pramawat"]
+			stamp: ["michael-pramawat"],
+			thirdParty: {
+				cardmarket: 371560
+			}
 		}
 	]
 }

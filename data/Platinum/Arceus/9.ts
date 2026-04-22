@@ -71,21 +71,27 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 278881,
-		tcgplayer: 89674
-	},
-
 	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278871,
+				tcgplayer: 89674
+			}
+		},
 		{
 			type: "holo"
 		},
 		{
-			type: "normal",
+			type: "reverse"
 		},
 		{
-			type: "reverse",
-		},
+			type: "normal",
+			cardmarketLabels: ["Mop", "Courters On The Defending Ural The", "Entangle Tackle"],
+			thirdParty: {
+				cardmarket: 278881
+			}
+		}
 	]
 }
 

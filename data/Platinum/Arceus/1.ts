@@ -90,22 +90,28 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 278873,
-		tcgplayer: 84191
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278865,
+				tcgplayer: 84191
+			}
 		},
 		{
-			type: "reverse",
+			type: "reverse"
 		},
 		{
 			type: "reverse",
 			foil: "cracked-ice"
 		},
+		{
+			type: "holo",
+			cardmarketLabels: ["Aos", "Are", "Pps An A"],
+			thirdParty: {
+				cardmarket: 278873
+			}
+		}
 	]
 }
 
