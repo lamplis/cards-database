@@ -12,14 +12,13 @@ const card: Card = {
 	set: Set,
 	energyType: "Special",
 
-	thirdParty: {
-		cardmarket: 274047,
-		tcgplayer: 42454
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274047,
+				tcgplayer: 42454
+			}
 		}
 	]
 }
