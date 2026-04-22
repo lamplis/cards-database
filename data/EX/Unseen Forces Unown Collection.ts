@@ -18,7 +18,11 @@ const exu: Set = {
 		official: 28
 	},
 
-	releaseDate: "2005-08-22"
+	releaseDate: "2005-08-22",
+
+	thirdParty: {
+		cardmarket: 1548
+	}
 }
 
 export default exu
