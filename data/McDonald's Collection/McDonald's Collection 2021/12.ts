@@ -60,27 +60,16 @@ const card: Card = {
 		en: "The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick."
 	},
 
-	variants: [
-		{
-			type: 'normal',
-			stamp: ["25th-celebration"],
+	thirdParty: {
+		cardmarket: 538888
+	},
 
-			thirdParty: {
-				cardmarket: 538888,
-				tcgplayer: 232327
-			}
-		},
-		{
-			type: 'holo',
-			stamp: ["25th-celebration"],
-
-			thirdParty: {
-				cardmarket: 538893,
-				tcgplayer: 232327
-			}
-		}
-	]
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card
-

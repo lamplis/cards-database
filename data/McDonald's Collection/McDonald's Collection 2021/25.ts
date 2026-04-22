@@ -73,27 +73,17 @@ const card: Card = {
 	description: {
 		en: "Its nature is to store up electricity. Forests where nests of Pikachu live are dangerous, since the trees are so often struck by lightning."
 	},
-	variants: [
-		{
-			type: 'normal',
-			stamp: ["25th-celebration"],
 
-			thirdParty: {
-				cardmarket: 539018,
-				tcgplayer: 232339
-			}
-		},
-		{
-			type: 'holo',
-			stamp: ["25th-celebration"],
+	thirdParty: {
+		cardmarket: 539018
+	},
 
-			thirdParty: {
-				cardmarket: 539023,
-				tcgplayer: 232339
-			}
-		}
-	]
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card
-

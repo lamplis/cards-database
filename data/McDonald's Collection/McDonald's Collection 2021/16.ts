@@ -50,27 +50,17 @@ const card: Card = {
 	description: {
 		en: "A warm-up of running around gets fire energy coursing through this Pokémon’s body. Once that happens, it’s ready to fight at full power."
 	},
-	variants: [
-		{
-			type: 'normal',
-			stamp: ["25th-celebration"],
 
-			thirdParty: {
-				cardmarket: 538918,
-				tcgplayer: 232341
-			}
-		},
-		{
-			type: 'holo',
-			stamp: ["25th-celebration"],
+	thirdParty: {
+		cardmarket: 538928
+	},
 
-			thirdParty: {
-				cardmarket: 538933,
-				tcgplayer: 232341
-			}
-		}
-	]
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card
-

@@ -23,6 +23,10 @@ const s2021swsh: Set = {
 	abbreviations: {
 		official: "MCD21",
 		fr: "M21"
+	},
+
+	thirdParty: {
+		cardmarket: 3738
 	}
 }
 

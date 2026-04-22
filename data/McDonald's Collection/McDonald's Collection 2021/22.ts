@@ -64,27 +64,17 @@ const card: Card = {
 	description: {
 		en: "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked."
 	},
-	variants: [
-		{
-			type: 'normal',
-			stamp: ["25th-celebration"],
 
-			thirdParty: {
-				cardmarket: 538988,
-				tcgplayer: 232336
-			}
-		},
-		{
-			type: 'holo',
-			stamp: ["25th-celebration"],
+	thirdParty: {
+		cardmarket: 538988
+	},
 
-			thirdParty: {
-				cardmarket: 538993,
-				tcgplayer: 232336
-			}
-		}
-	]
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card
-

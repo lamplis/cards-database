@@ -55,28 +55,17 @@ const card: Card = {
 	description: {
 		en: "It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead."
 	},
-	
-	variants: [
-		{
-			type: 'normal',
-			stamp: ["25th-celebration"],
 
-			thirdParty: {
-				cardmarket: 538898,
-				tcgplayer: 232328
-			}
-		},
-		{
-			type: 'holo',
-			stamp: ["25th-celebration"],
+	thirdParty: {
+		cardmarket: 538898
+	},
 
-			thirdParty: {
-				cardmarket: 538903,
-				tcgplayer: 232328
-			}
-		}
-	]
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card
-

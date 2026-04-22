@@ -53,27 +53,16 @@ const card: Card = {
 		en: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon."
 	},
 
-	variants: [
-		{
-			type: 'normal',
-			stamp: ["25th-celebration"],
+	thirdParty: {
+		cardmarket: 538778
+	},
 
-			thirdParty: {
-				cardmarket: 538778,
-				tcgplayer: 232316
-			}
-		},
-		{
-			type: 'holo',
-			stamp: ["25th-celebration"],
-
-			thirdParty: {
-				cardmarket: 538783,
-				tcgplayer: 232316
-			}
-		}
-	]
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card
-

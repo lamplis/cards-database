@@ -64,27 +64,17 @@ const card: Card = {
 	description: {
 		en: "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold."
 	},
-    variants: [
-          {
-            type: 'normal',
-			stamp: ["25th-celebration"],
 
-			thirdParty: {
-				cardmarket: 538968,
-				tcgplayer: 232334
-			}
-          },
-          {
-            type: 'holo',
-			stamp: ["25th-celebration"],
+	thirdParty: {
+		cardmarket: 538968
+	},
 
-			thirdParty: {
-				cardmarket: 538973,
-				tcgplayer: 232334
-			}
-          }
-        ]
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card
-
