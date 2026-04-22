@@ -18,9 +18,13 @@ const card: Card = {
 		de: "Durchsuche dein Deck nach 1 Arceus-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 	},
 
+
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 689956
+			}
 		}
 	],
 }

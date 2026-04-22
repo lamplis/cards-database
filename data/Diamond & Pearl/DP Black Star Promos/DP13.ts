@@ -49,9 +49,13 @@ const card: Card = {
 		cost: ["Water"]
 	}],
 
+
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275546
+			}
 		}
 	]
 }

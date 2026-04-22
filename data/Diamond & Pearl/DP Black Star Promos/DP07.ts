@@ -75,9 +75,13 @@ const card: Card = {
 		fr: "Il vivait dans la jungle il y a environ 100 millions d'années. Son crâne est dur comme du fer."
 	},
 
+
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275548
+			}
 		}
 	],
 }

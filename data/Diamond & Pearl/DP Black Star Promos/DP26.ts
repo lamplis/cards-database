@@ -82,15 +82,22 @@ const card: Card = {
 		fr: "Il peut contrôler le temps. Les mythes de Sinnoh en parlent comme d'une divinité ancienne."
 	},
 
+
 	variants: [
 		{
 			type: "holo",
-			foil: "cosmos"
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 275560
+			}
 		},
 		{
 			type: "holo",
 			size: "jumbo",
-			foil: "cracked-ice"
+			foil: "cracked-ice",
+			thirdParty: {
+				cardmarket: 362913
+			}
 		},
 		{
 			type: "holo",

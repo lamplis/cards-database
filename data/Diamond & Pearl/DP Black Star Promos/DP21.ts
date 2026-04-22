@@ -83,9 +83,13 @@ const card: Card = {
 		fr: "Il devient agressif lorsque son corps contient trop d'électricité. Il la décharge par sa queue."
 	},
 
+
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275561
+			}
 		}
 	],
 }

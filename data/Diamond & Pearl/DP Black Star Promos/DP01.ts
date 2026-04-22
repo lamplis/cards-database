@@ -70,9 +70,13 @@ const card: Card = {
 		fr: "La coquille sur son dos est faite de terre. Elle durcit lorsqu'il s'abreuve. Il vit le long des lacs."
 	},
 
+
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275567
+			}
 		}
 	],
 }

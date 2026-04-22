@@ -52,9 +52,13 @@ const card: Card = {
 		},
 	],
 
+
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275555
+			}
 		}
 	],
 }

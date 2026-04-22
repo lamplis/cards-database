@@ -89,9 +89,13 @@ const card: Card = {
 		fr: "Il a évolué suite à son exposition à un champ magnétique spécial. Ses 3 unités génèrent du magnétisme."
 	},
 
+
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275524
+			}
 		}
 	],
 }

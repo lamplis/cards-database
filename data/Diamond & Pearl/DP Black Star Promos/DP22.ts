@@ -71,9 +71,13 @@ const card: Card = {
 		fr: "Il imite ses ennemis. Une fois imités, ils ne peuvent plus quitter ce Pokémon des yeux."
 	},
 
+
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275557
+			}
 		}
 	],
 }

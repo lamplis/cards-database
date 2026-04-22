@@ -59,13 +59,20 @@ const card: Card = {
 		fr: "On dit que son œuf a éclos dans le néant et qu'il est à l'origine de la création du monde."
 	},
 
+
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275529
+			}
 		},
 		{
 			type: "holo",
-			size: "jumbo"
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 362916
+			}
 		}
 	],
 }

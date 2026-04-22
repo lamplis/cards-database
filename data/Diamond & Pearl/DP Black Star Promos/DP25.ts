@@ -18,35 +18,39 @@ const card: Card = {
 		de: "Wirf 1 Münze. Entferne bei 'Kopf' 2 Schadensmarken von allen Aktiven Pokémon (1, falls nur 1 vorhanden). Bei 'Zahl' schlafen alle Aktiven Pokémon jetzt."
 	},
 
+
 	variants: [
 		{
 			type: "normal",
 			stamp: ["worlds-2008"],
+			thirdParty: {
+				cardmarket: 275559
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["worlds-2008","finalist"],
+			stamp: ["worlds-2008","finalist"]
 		},
 		{
 			type: "normal",
-			stamp: ["worlds-2008","quarter-finalist"],
+			stamp: ["worlds-2008","quarter-finalist"]
 		},
 		{
 			type: "normal",
-			stamp: ["worlds-2008","semi-finalist"],
+			stamp: ["worlds-2008","semi-finalist"]
 		},
 		{
 			type: "normal",
-			stamp: ["worlds-2008","staff"],
+			stamp: ["worlds-2008","staff"]
 		},
 		{
 			type: "normal",
-			stamp: ["worlds-2008","top-sixteen"],
+			stamp: ["worlds-2008","top-sixteen"]
 		},
 		{
 			type: "normal",
-			stamp: ["worlds-2008","top-thirty-two"],
-		},
+			stamp: ["worlds-2008","top-thirty-two"]
+		}
 	],
 }
 

@@ -76,7 +76,14 @@ const card: Card = {
 		},
 	],
 
+
 	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275558
+			}
+		},
 		{
 			type: "holo",
 			foil: "cosmos"
@@ -86,7 +93,11 @@ const card: Card = {
 			size: "jumbo"
 		},
 		{
-			type: "normal",
+			type: "V2",
+			cardmarketLabels: ["Eee Ee Ne A Pe Se Cees Vues", "Attention Oversized Card", "Not Tournament Legal"],
+			thirdParty: {
+				cardmarket: 362912
+			}
 		}
 	]
 

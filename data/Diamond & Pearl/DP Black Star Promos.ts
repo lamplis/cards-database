@@ -22,7 +22,8 @@ const dpp: Set = {
 	releaseDate: "2007-05-01",
 
 	thirdParty: {
-		tcgplayer: 1421
+		tcgplayer: 1421,
+		cardmarket: 1609
 	}
 }
 

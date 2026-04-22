@@ -59,10 +59,14 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+
 	variants: [
 		{
 			type: "holo",
-			foil: "cosmos"
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 275549
+			}
 		},
 		{
 			type: "holo",

@@ -80,14 +80,21 @@ const card: Card = {
 		fr: "Il vit en forêt avec ses pairs. Il accumule l'électricité dans les poches de ses joues."
 	},
 
+
 	variants: [
 		{
 			type: "holo",
-			foil: "cosmos"
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 275563
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["countdown-calendar"]
+			stamp: ["countdown-calendar"],
+			thirdParty: {
+				cardmarket: 787789
+			}
 		}
 	],
 }

@@ -78,7 +78,14 @@ const card: Card = {
 		fr: "Une légende tenace veut que ce Pokémon ait traîné les continents en les attachant à des cordes."
 	},
 
+
 	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275518
+			}
+		},
 		{
 			type: "holo",
 			foil: "cosmos"
@@ -88,7 +95,11 @@ const card: Card = {
 			size: "jumbo"
 		},
 		{
-			type: "normal",
+			type: "V2",
+			cardmarketLabels: ["Attention Oversized Card", "Not Tournamentlegal", "Oth"],
+			thirdParty: {
+				cardmarket: 362915
+			}
 		}
 	],
 }

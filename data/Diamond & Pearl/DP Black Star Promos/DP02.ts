@@ -68,9 +68,13 @@ const card: Card = {
 		fr: "Il escalade prestement les falaises escarpées et vit sur les sommets. Sa flamme s'éteint quand il dort."
 	},
 
+
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275550
+			}
 		}
 	],
 }
