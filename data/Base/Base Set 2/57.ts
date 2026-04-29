@@ -71,7 +71,6 @@ const card: Card = {
 		en: "Capable of living in or out of water. When out of water, it sweats to keep its body slimy.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

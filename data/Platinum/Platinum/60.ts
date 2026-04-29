@@ -77,17 +77,12 @@ const card: Card = {
 
 	retreat: 3,
 
-	description: {
-		en: "It freely controls three small units called Mini-Noses using magnetic force.",
-		de: "Es steuert drei kleine Einheiten mithilfe von starkem Magnetismus. Man nennt sie Mininasen."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 88377,
-				cardmarket: 278481
+				cardmarket: 278481,
+				tcgplayer: 88377
 			}
 		},
 		{

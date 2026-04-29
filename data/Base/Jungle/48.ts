@@ -88,7 +88,6 @@ const card: Card = {
 		de: "Es spuckt Giftpuder, um den Feind bewegungsunfähig zu machen, und erledigt ihn dann ganz mit einem Sprühnebel an Säure."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

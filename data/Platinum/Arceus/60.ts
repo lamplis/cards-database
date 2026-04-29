@@ -66,17 +66,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "The small ball is not only filled with nutrients, it is also tasty. Starly try to peck it off.",
-		de: "Der kleine Ball ist nicht nur voller Nährstoffe, sondern auch noch schmackhaft. STARALILI pickt oft danach."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 84263,
-				cardmarket: 278932
+				cardmarket: 278932,
+				tcgplayer: 84263
 			}
 		},
 		{

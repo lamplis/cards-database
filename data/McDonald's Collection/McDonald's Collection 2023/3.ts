@@ -26,7 +26,9 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless"],
+			cost: [
+				"Colorless",
+			],
 			name: {
 				en: "Pound",
 				fr: "Écras'Face",
@@ -35,15 +37,18 @@ const card: Card = {
 				pt: "Pancada",
 				de: "Klaps"
 			},
-			damage: 10,
+			damage: 10
 		},
 		{
-			cost: ["Water", "Colorless"],
+			cost: [
+				"Water",
+				"Colorless",
+			],
 			name: {
 				en: "Kick",
-				de: "Tritt"
+				fr: "Koud'Pied"
 			},
-			damage: 20,
+			damage: 20
 		},
 	],
 

@@ -80,16 +80,11 @@ const card: Card = {
 	],
 	retreat: 3,
 
-	description: {
-		en: "Metang combined to form it. With four brains, it has the intelligence of a supercomputer."
-	},
-
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
-				tcgplayer: 87339,
-				cardmarket: 278689
+				cardmarket: 278698
 			}
 		},
 		{

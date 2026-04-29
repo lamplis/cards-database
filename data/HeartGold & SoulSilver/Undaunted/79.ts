@@ -30,6 +30,9 @@ const card: Card = {
 			}
 		},
 		{
+			type: "reverse"
+		},
+		{
 			type: "reverse",
 			thirdParty: {
 				cardmarket: 279332,
@@ -48,10 +51,6 @@ const card: Card = {
 
 	hp: 0,
 
-	types: [
-		"Darkness"
-	],
-	retreat: 0
 }
 
 export default card

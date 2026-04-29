@@ -24,7 +24,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Krabby",
-		fr: "Krabby"
+		fr: "Krabby",
+		es: "Krabby",
+		it: "Krabby",
+		pt: "Krabby",
+		de: "Krabby"
 	},
 
 	attacks: [{

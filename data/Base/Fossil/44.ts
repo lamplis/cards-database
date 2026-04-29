@@ -81,7 +81,6 @@ const card: Card = {
 		de: "Die Tentakel bleiben normalerweise kurz, lassen sich aber auf der Jagd ausfahren, um die Beute zu fangen und bewegungsunfähig zu machen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

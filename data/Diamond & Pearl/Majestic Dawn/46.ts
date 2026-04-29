@@ -75,19 +75,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It is nearly impossible to parry its attacking scythes. Its movements are like a ninja's.",
-		de: "Es ist fast unmöglich, seinen Sensen auszuweichen, da es mit der Schnelligkeit eines Ninja zuschlägt."
-	},
-
-	thirdParty: {
-		cardmarket: 278095,
-		tcgplayer: 89000
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278095,
+				tcgplayer: 89000
+			}
 		},
 		{
 			type: "reverse"

@@ -85,14 +85,13 @@ const card: Card = {
 		de: "Sein Herz schlägt schneller als das anderer Lebewesen. Daher kann es nicht für einen Moment still sitzen."
 	},
 
-	thirdParty: {
-		cardmarket: 277697,
-		tcgplayer: 90370
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277697,
+				tcgplayer: 90370
+			}
 		},
 		{
 			type: "reverse",

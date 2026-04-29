@@ -65,11 +65,6 @@ const card: Card = {
 	],
 	retreat: 2,
 
-
-	description: {
-		en: "This Pokémon makes a loud jangling noise when it shakes its petals to spread poison powder.",
-	},
-
 	variants: [
 		{
 			type: "reverse",

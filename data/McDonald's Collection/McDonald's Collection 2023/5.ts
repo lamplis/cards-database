@@ -35,24 +35,31 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless", "Colorless"],
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
 			name: {
 				en: "Hammer In",
-				de: "Einhämmern"
+				fr: "Enfoncement"
 			},
-			damage: 50,
+			damage: 50
 		},
 		{
-			cost: ["Water", "Colorless", "Colorless"],
+			cost: [
+				"Water",
+				"Colorless",
+				"Colorless",
+			],
 			name: {
 				en: "Sweeping Tackle",
-				de: "Fege-Tackle"
+				fr: "Charge Balayante"
 			},
 			damage: "200-",
 			effect: {
 				en: "This attack does 20 less damage for each damage counter on this",
-				de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 20 Schadenspunkte weniger zu."
-			},
+				fr: "Cette attaque inflige 20 dégâts de moins pour chaque marqueur de dégâts sur ce Pokémon."
+			}
 		},
 	],
 

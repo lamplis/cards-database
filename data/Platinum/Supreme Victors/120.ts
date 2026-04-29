@@ -71,15 +71,10 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 88093,
 				cardmarket: 278811
 			}
 		},

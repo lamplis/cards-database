@@ -20,18 +20,13 @@ const card: Card = {
 		de: "Remove all Special Conditions from each of your Pokémon."
 	},
 
-	thirdParty: {
-		tcgplayer: 84888,
-		cardmarket: 276587
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 84888,
-				cardmarket: 276587
-			},
+				cardmarket: 276587,
+				tcgplayer: 84888
+			}
 		},
 		{
 			type: "reverse",

@@ -89,7 +89,6 @@ const card: Card = {
 		de: "Seine harten Schuppen bieten ihm starken Schutz. Es nutzt seine massige Gestalt für kräftige Bewegungen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

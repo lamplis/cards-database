@@ -90,14 +90,13 @@ const card: Card = {
 		de: "Sein Körper ist hart wie Fels. Es lässt mit Hochdruck Gas ab, um wie eine Rakete nach oben zu schießen."
 	},
 
-	thirdParty: {
-		cardmarket: 278345,
-		tcgplayer: 88452
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278345,
+				tcgplayer: 88452
+			}
 		},
 		{
 			type: "reverse"

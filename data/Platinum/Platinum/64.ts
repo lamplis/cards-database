@@ -77,17 +77,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Its heart beats at a tenfold tempo, so it cannot sit still even for a moment.",
-		de: "Sein Herz schlägt schneller als das anderer Lebewesen. Daher kann es nicht für einen Moment still sitzen."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 90371,
-				cardmarket: 278485
+				cardmarket: 278485,
+				tcgplayer: 90371
 			}
 		},
 		{

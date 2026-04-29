@@ -77,7 +77,6 @@ const card: Card = {
 		de: "Seine Schale ist sehr haltbar, dadurch kann es überleben, selbst wenn die Schale angeknackst ist."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

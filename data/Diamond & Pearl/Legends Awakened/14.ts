@@ -86,14 +86,13 @@ const card: Card = {
 		de: "Es lebt in der Ozonschicht hoch über den Wolken und kann vom Boden aus nicht gesehen werden."
 	},
 
-	thirdParty: {
-		cardmarket: 278163,
-		tcgplayer: 88627
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278163,
+				tcgplayer: 88627
+			}
 		},
 		{
 			type: "reverse"

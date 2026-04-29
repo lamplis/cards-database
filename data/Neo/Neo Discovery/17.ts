@@ -83,7 +83,6 @@ const card: Card = {
 		de: "Wenn es sehr schnell flattert, kann es Druckwellen erzeugen, die Fensterscheiben zerspringen lassen."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

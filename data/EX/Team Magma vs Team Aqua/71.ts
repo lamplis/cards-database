@@ -20,12 +20,11 @@ const card: Card = {
 		de: "Du kannst in jedem Zug nur eine Unterstützerkarte spielen. Wenn du diese Karte ausspielst, lege sie neben dein Aktives Pokémon. Lege diese Karte am Ende deines Zuges auf deinen Ablagestapel. Durchsuche dein Deck nach einem Pokémon mit „Team Aqua“ im Namen und lege es auf deine Bank. Mische dein Deck danach. Behandle das Pokémon wie ein Basis-Pokémon. Wenn es sich um ein Pokémon der Phase 2 handelt, lege 2 Schadensmarken darauf."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 275848,
+				cardmarket: 276048,
 				tcgplayer: 83612
 			}
 		},

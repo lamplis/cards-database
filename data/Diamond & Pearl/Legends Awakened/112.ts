@@ -73,14 +73,13 @@ const card: Card = {
 		de: "Tagsüber verankert es sich mit seinen Wurzelfüßen im Boden. Nachts wandert es und verteilt Samen."
 	},
 
-	thirdParty: {
-		cardmarket: 278260,
-		tcgplayer: 87844
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278260,
+				tcgplayer: 87844
+			}
 		},
 		{
 			type: "reverse"

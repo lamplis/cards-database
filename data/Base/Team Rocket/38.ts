@@ -85,7 +85,6 @@ const card: Card = {
 		de: "Ein gefährliches Pokémon, wenn es erzürnt ist. Es spielt gerne mit der Elektrizität, die es in seinem Körper speichert, und schockt Menschen damit."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

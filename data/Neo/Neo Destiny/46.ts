@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Es erzeugt seine Flammen, indem es Luft in eine bestimmte Blase in seinem Körper saugt und diese dann auf über 1500 Grad erhitzt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

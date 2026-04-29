@@ -38,24 +38,28 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Tri Howl",
-				de: "Dreifacher Jauler"
+				fr: "Triple Hurlement"
 			},
 			effect: {
 				en: "Once during your turn, you may look at the top 3 cards of your deck and attach any number of Energy cards you find there to your Pokémon in any way you like. Discard the other cards.",
-				de: "Einmal während deines Zuges kannst du dir die obersten 3 Karten deines Decks anschauen und beliebig viele Energiekarten, die du dort findest, beliebig an deine Pokémon anlegen. Lege die anderen Karten auf deinen Ablagestapel."
+				fr: "Une fois pendant votre tour, vous pouvez regarder les 3 cartes du dessus de votre deck, puis attacher le nombre voulu de cartes Énergie que vous y trouvez à vos Pokémon, comme il vous plaît. Défaussez les autres cartes."
 			}
-		}
+		},
 	],
 
 	attacks: [
 		{
-			cost: ["Darkness", "Darkness", "Colorless"],
+			cost: [
+				"Darkness",
+				"Darkness",
+				"Colorless",
+			],
 			name: {
 				en: "Dark Cutter",
-				de: "Dunkler Zerschneider"
+				fr: "Tranch'Obscur"
 			},
-			damage: 160,
-		}
+			damage: 160
+		},
 	],
 
 	weaknesses: [

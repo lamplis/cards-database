@@ -86,14 +86,13 @@ const card: Card = {
 		de: "Mit einem süßen Duft lockt es Beute an, die es dann mit den dornigen Ranken in seinen Armen schlägt."
 	},
 
-	thirdParty: {
-		cardmarket: 277512,
-		tcgplayer: 88826
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277512,
+				tcgplayer: 88826
+			}
 		},
 		{
 			type: "reverse"

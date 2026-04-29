@@ -75,14 +75,13 @@ const card: Card = {
 		de: "Sein Körper besteht fast nur aus Magen. Seine starken Verdauungssäfte zersetzen alles sehr schnell."
 	},
 
-	thirdParty: {
-		cardmarket: 278247,
-		tcgplayer: 85977
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278247,
+				tcgplayer: 85977
+			}
 		},
 		{
 			type: "reverse"

@@ -1,3 +1,4 @@
+import Set from "../SC1a"
 import { Card } from "../../../interfaces"
 import Set from "../SC1a"
 

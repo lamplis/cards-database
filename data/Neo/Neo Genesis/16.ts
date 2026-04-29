@@ -82,7 +82,6 @@ const card: Card = {
 		de: "Man sagt, dass es vor gutherzigen, fürsorglichen Menschen erscheint und sie mit Glückseligkeit erfüllt."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

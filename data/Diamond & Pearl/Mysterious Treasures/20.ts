@@ -83,14 +83,13 @@ const card: Card = {
 		de: "Es befestigt Seide an der Beute und lässt sie frei. Es folgt dem Seidenfaden zur Beute u. ihren Freunden."
 	},
 
-	thirdParty: {
-		cardmarket: 277649,
-		tcgplayer: 83617
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277649,
+				tcgplayer: 83617
+			}
 		},
 		{
 			type: "reverse",

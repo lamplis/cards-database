@@ -88,7 +88,6 @@ const card: Card = {
 		de: "Wenn die Strombeutel in seinen Wangen ganz aufgeladen sind, stehen beide Ohren hoch."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -109,4 +108,3 @@ const card: Card = {
 }
 
 export default card
-

@@ -16,7 +16,7 @@ const card: Card = {
 
 	suffix: "ex",
 	illustrator: "5ban Graphics",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 380,
 	types: ["Grass"],
@@ -95,8 +95,8 @@ const card: Card = {
 		{
 			type: "holo",
 			thirdParty: {
-				cardmarket: 859011,
-				tcgplayer: 666905
+				cardmarket: 851074,
+				tcgplayer: 654342
 			}
 		},
 		{

@@ -20,7 +20,6 @@ const card: Card = {
 		de: "Lege Sinelbeere an 1 deiner Pokémon an, das keine Pokémon-Ausrüstung hat. Wenn das Pokémon kampfunfähig gemacht wird, lege Sinelbeere auf den Ablagestapel. Wenn zu irgendeinem Zeitpunkt zwischen den Zügen auf dem Pokémon, an dem die Sinelbeere angelegt ist, mindestens 2 Schadensmarken liegen, entferne 2 Schadensmarken von dem Pokémon. Lege Sinelbeere danach auf deinen Ablagestapel."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

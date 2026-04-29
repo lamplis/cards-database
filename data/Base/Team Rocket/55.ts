@@ -81,7 +81,6 @@ const card: Card = {
 		de: "Ein seltenes und einzigartiges Pokémon, über das man nicht viel weiß, da nur wenige gefangen wurden."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -74,7 +74,6 @@ const card: Card = {
 		de: "Seine Schläge kommen pfeilschnell, aber es kann nur etwa drei Minuten kämpfen, bevor es ermüdet und eine Pause braucht."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

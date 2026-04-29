@@ -20,12 +20,11 @@ const card: Card = {
 		de: "Lege Team Aqua Gürtel an 1 deiner Pokémon mit „Team Aqua“ im Namen an, das keine Pokémon-Ausrüstung hat. Wenn das Pokémon kampfunfähig gemacht wird, lege Team Aqua Gürtel auf den Ablagestapel. Wenn Team Aqua Gürtel an deinem Aktiven Pokémon angelegt ist, kannst du zu einem beliebigen Zeitpunkt zwischen zwei Zügen dein Deck nach einem Pokémon durchsuchen, das sich aus diesem Aktiven Pokémon entwickelt und es darauf legen (das zählt als Entwickeln des Pokémon). Mische dein Deck danach und lege Team Aqua Gürtel auf deinen Ablagestapel."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 275853,
+				cardmarket: 276053,
 				tcgplayer: 89769
 			}
 		},

@@ -73,17 +73,12 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It never forgets any attack it endured while in the cocoon. After evolution, it seeks payback.",
-		de: "Es vergisst keinen Angriff, den es im Kokon erdulden musste. Nach der Entwicklung sinnt es auf Rache."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 84122,
-				cardmarket: 278465
+				cardmarket: 278465,
+				tcgplayer: 84122
 			}
 		},
 		{

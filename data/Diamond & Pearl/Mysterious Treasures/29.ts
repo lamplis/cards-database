@@ -85,14 +85,13 @@ const card: Card = {
 		de: "Wenn das Meer ruhig ist, kann man vielleicht einen Schwarm MANTAX sehen, die schnell vorbeischwimmen."
 	},
 
-	thirdParty: {
-		cardmarket: 277658,
-		tcgplayer: 87183
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277658,
+				tcgplayer: 87183
+			}
 		},
 		{
 			type: "reverse",

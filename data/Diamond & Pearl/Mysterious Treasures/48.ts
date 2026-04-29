@@ -82,14 +82,13 @@ const card: Card = {
 		de: "Es gibt einen uralten Glauben, dass Medizin, die aus seinen Schuppen gewonnen wird, alles heilen kann."
 	},
 
-	thirdParty: {
-		cardmarket: 277677,
-		tcgplayer: 85597
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277677,
+				tcgplayer: 85597
+			}
 		},
 		{
 			type: "reverse",

@@ -15,17 +15,19 @@ const card: Card = {
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		cardmarket: 277413,
-		tcgplayer: 88422
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277413,
+				tcgplayer: 88422
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
 		}
 	]
 }
 
 export default card
-

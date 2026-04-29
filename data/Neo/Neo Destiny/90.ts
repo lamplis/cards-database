@@ -71,7 +71,6 @@ const card: Card = {
 		de: "Es hat eine Art Radar, mit dem es die Insekten, von denen es sich ernährt, selbst in tiefster Dunkelheit finden kann."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -87,7 +87,6 @@ const card: Card = {
 		de: "Da ihre Nester in Dornenbüschen sind, werden schon bei den Küken die Flügel durch Kratzer der Dornen hart."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -108,4 +107,3 @@ const card: Card = {
 }
 
 export default card
-

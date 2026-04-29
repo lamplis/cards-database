@@ -86,7 +86,6 @@ const card: Card = {
 		de: "Da es ein fröhliches Gemüt hat, ist es ihm egal, ob ein paar Teile aus ihm herausbrechen, während es die Berge herunterrollt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -107,4 +106,3 @@ const card: Card = {
 }
 
 export default card
-

@@ -91,14 +91,13 @@ const card: Card = {
 		de: "Sein Körper ist hohl. Man sagt, dass diejenigen, die in den Körper blicken, hineingezogen werden."
 	},
 
-	thirdParty: {
-		cardmarket: 277546,
-		tcgplayer: 85028
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277546,
+				tcgplayer: 85028
+			}
 		},
 		{
 			type: "reverse"

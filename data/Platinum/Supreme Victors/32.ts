@@ -66,16 +66,11 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-	description: {
-		en: "Because it turns active on nights of the full moon, it is said to have some link to the lunar phases."
-	},
 
-	retreat: 0,
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 86927,
 				cardmarket: 278723
 			}
 		},

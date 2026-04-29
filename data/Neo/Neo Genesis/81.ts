@@ -76,7 +76,6 @@ const card: Card = {
 		de: "Seine gut entwickelten Kiefer sind kräftig und fähig, alles zu zermalmen. Selbst sein Trainer muss Vorsicht walten lassen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

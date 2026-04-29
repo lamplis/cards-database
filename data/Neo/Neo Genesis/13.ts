@@ -88,7 +88,6 @@ const card: Card = {
 		de: "Seine kräftigen Flügel sehen schwer aus, aber sie sind eigentlich hohl und leicht, und lassen es frei im Himmel fliegen."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

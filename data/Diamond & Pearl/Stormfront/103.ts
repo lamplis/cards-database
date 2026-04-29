@@ -92,14 +92,13 @@ const card: Card = {
 		de: "Dieses POKéMON kann mit seinen Flügeln eine Höhe von bis zu 1400 Metern erreichen.Es verspuckt sehr heißes Feuer."
 	},
 
-	thirdParty: {
-		cardmarket: 278401,
-		tcgplayer: 84190
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278401,
+				tcgplayer: 84190
+			}
 		}
 	]
 }

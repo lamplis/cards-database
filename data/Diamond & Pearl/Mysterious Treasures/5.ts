@@ -82,14 +82,13 @@ const card: Card = {
 		de: "Dieses gutherzige PKMN pflegt kranke PKMN gesund. Es spürt die Traurigkeit anderer Lebewesen."
 	},
 
-	thirdParty: {
-		cardmarket: 277634,
-		tcgplayer: 83921
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277634,
+				tcgplayer: 83921
+			}
 		},
 		{
 			type: "reverse",

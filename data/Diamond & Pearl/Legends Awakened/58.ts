@@ -85,14 +85,13 @@ const card: Card = {
 		de: "LANTURNs Licht kann aus großen Tiefen heraufscheinen. Man nennt es auch “Tiefseestern”."
 	},
 
-	thirdParty: {
-		cardmarket: 278207,
-		tcgplayer: 86608
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278207,
+				tcgplayer: 86608
+			}
 		},
 		{
 			type: "reverse"

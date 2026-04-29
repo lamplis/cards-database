@@ -71,16 +71,11 @@ const card: Card = {
 	],
 	retreat: 2,
 
-	description: {
-		en: "Each of its hands contains different toxins, but both hands can jab with near-fatal power."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 88829,
-				cardmarket: 278772
+				cardmarket: 278731
 			}
 		},
 		{

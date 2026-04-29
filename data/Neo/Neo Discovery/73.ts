@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Wähle eines deiner entwickelten Pokémon. Nimm die Evolutionskarte der höchsten Phase von diesem Pokémon auf deine Hand zurück. (Du kannst ein Pokémon nicht in dem Zug entwickeln, in dem du es rückentwickelt hast.)"
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -40,4 +39,3 @@ const card: Card = {
 }
 
 export default card
-

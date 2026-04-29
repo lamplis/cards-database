@@ -75,19 +75,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It tugs on the hands of children to steal them away. However, it gets pulled around instead.",
-		de: "Es zieht Kinder an den Händen, um sie mitzunehmen. Doch stets wird es dabei durch die Gegend gezogen."
-	},
-
-	thirdParty: {
-		cardmarket: 278110,
-		tcgplayer: 84955
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278110,
+				tcgplayer: 84955
+			}
 		},
 		{
 			type: "reverse"

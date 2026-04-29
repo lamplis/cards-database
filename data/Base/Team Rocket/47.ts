@@ -74,7 +74,6 @@ const card: Card = {
 		de: "Neuere Forschung hat das Vorkommen von Drachen-DNS in dieser Pokémon-Art offenbart."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

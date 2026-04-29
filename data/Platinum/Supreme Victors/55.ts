@@ -73,15 +73,10 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "If it senses strong sunlight, it opens its folded petals to absorb the sun's rays with its whole body."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 84254,
 				cardmarket: 278746
 			}
 		},

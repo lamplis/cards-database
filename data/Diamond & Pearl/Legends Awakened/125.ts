@@ -69,19 +69,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Its body is virtually composed of water. It shoots strange beams from its crystal-like eyes.",
-		de: "Sein Körper besteht aus Wasser. Aus seinen kristallartigen Augen verschießt es eigenartige Strahlen."
-	},
-
-	thirdParty: {
-		cardmarket: 278274,
-		tcgplayer: 89868
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278274,
+				tcgplayer: 89868
+			}
 		},
 		{
 			type: "reverse"

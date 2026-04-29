@@ -75,19 +75,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It lives in caves on the seafloor and creates giant whirlpools every time it moves.",
-		de: "Es lebt in Höhlen auf dem Meeresgrund. Jedes Mal, wenn es sich bewegt, entsteht ein Strudel."
-	},
-
-	thirdParty: {
-		cardmarket: 278156,
-		tcgplayer: 86446
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278156,
+				tcgplayer: 86446
+			}
 		},
 		{
 			type: "reverse"

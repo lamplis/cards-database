@@ -67,11 +67,6 @@ const card: Card = {
 	],
 	retreat: 2,
 
-
-	description: {
-		en: "This Pokémon uses its six-foot tongue as if it were a hand. The origin of its anaesthetic properties is still a mystery.",
-	},
-
 	variants: [
 		{
 			type: "normal",

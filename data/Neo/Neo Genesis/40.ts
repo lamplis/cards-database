@@ -72,7 +72,6 @@ const card: Card = {
 		de: "Es mag kalte Klimata nicht, also bläst es glühende Flammen, um sich die Umgebung angenehm zu gestalten."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

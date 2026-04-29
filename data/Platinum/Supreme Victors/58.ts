@@ -72,15 +72,10 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "It is a common sight around fishing ports. It is known to rescue people and carry off prey."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 85514,
 				cardmarket: 278749
 			}
 		},

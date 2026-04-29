@@ -92,7 +92,6 @@ const card: Card = {
 		de: "Der Nachkömmling verläßt vor dem Alter von drei Jahren nur selten den Beutel der Mutter."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -81,7 +81,6 @@ const card: Card = {
 		de: "Es trägt stets ein Pendel bei sich. Es erscheint manchmal zur Abenddämmerung auf weniger befahrenen Straßen und in der Nähe von Schulen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -14,18 +14,16 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Search your discard pile for up to 5 in any combination of Pokémon and basic Energy cards. Show them to your opponent and shuffle them into your deck.",
-		fr: "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. À la fin du tour, défaussez-la.",
-		de: "Durchsuche deinen Ablagestapel nach bis zu 5 Karten in beliebiger Kombination aus Pokémon- und Basis-Energiekarten, zeige sie deinem Gegner und mische sie in dein Deck."
+		fr: "Choisissez dans votre pile de défausse n'importe quelle combinaison de jusqu'à 5 Pokémon et cartes Énergie de base. Montrez-les à votre adversaire et mélangez-les à votre deck.",
+		de: "Durchsuche deinen Ablagestapel nach bis zu 5 Karten in beliebiger Kombination aus Pokémon- und Basis-Energiekarten, zeige sie deinem Gegner und mische sie in dein Deck.",
 	},
 
 	trainerType: "Supporter",
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 87921,
 				cardmarket: 278830
 			}
 		},

@@ -70,17 +70,12 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It loves to feed on strong electricity. It occasionally appears around large power plants and so on.",
-		de: "Es konsumiert am liebsten Elektrizität. Gelegentlich sieht man es in der Nähe von Kraftwerken."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"holo",
 			thirdParty: {
-				tcgplayer: 85116,
-				cardmarket: 278549
+				cardmarket: 278549,
+				tcgplayer: 85116
 			}
 		}
 	]

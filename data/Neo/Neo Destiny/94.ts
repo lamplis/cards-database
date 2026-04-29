@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Schaue dir die Preiskarten deines Gegners an. Du kannst entscheiden, ob dein Gegner sie in sein Deck zurückmischt. Wenn du dies tust, nimmt dein Gegner hinterher ebenso viele Karten oben von seinem Deck und legt sie als neue Preiskarten beiseite (ohne sie anzuschauen)."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

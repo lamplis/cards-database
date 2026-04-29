@@ -83,7 +83,6 @@ const card: Card = {
 		de: "Wenn das Muschas, das an seinem Schwanz hängt, abgetrennt wird, wird es zu einem normalen Flegmon."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

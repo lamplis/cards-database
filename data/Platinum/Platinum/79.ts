@@ -71,17 +71,12 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It loves crossing the sea with people and Pokémon on its back. It understands human speech.",
-		de: "Es liebt es, das Meer mit PKMN und Menschen auf dem Rücken zu überqueren. Es versteht die Menschen."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 86619,
-				cardmarket: 278500
+				cardmarket: 278500,
+				tcgplayer: 86619
 			}
 		},
 		{

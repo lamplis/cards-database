@@ -75,14 +75,13 @@ const card: Card = {
 		de: "Es ahmt seinen Gegner nach. Der kann den Blick danach nicht von ihm abwenden."
 	},
 
-	thirdParty: {
-		cardmarket: 277589,
-		tcgplayer: 87469
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277589,
+				tcgplayer: 87469
+			}
 		},
 		{
 			type: "reverse"

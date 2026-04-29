@@ -58,7 +58,6 @@ const card: Card = {
 		de: "Sein gasartiger Körper erlaubt ihm, fast überall hineinzukommen, aber es muss sich vor starken Winden in Acht nehmen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

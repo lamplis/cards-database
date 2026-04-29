@@ -67,17 +67,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It controls balls of fire. As it grows, its six tails split from their tips to make more tails.",
-		de: "Es beherrscht Feuerbälle. Während es wächst, teilen sich seine sechs Schweife, um weitere zu bilden."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 90442,
-				cardmarket: 278420
+				cardmarket: 278420,
+				tcgplayer: 90442
 			}
 		},
 		{

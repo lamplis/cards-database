@@ -72,7 +72,6 @@ const card: Card = {
 		de: "Wenn mehrere dieser Pokémon sich versammeln, kann ihre Elektrizität Gewitter verursachen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

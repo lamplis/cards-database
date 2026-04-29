@@ -80,14 +80,13 @@ const card: Card = {
 		de: "Es lebt im Schnee der Berge. Es hatte bisher kaum Kontakt zu Menschen und ist daher sehr neugierig."
 	},
 
-	thirdParty: {
-		cardmarket: 278372,
-		tcgplayer: 89406
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278372,
+				tcgplayer: 89406
+			}
 		},
 		{
 			type: "reverse"

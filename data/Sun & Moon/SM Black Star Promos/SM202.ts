@@ -11,8 +11,8 @@ const card: Card = {
 		de: "Hutsassa"
 	},
 
-	illustrator: "MAHOU",
-	rarity: "Promo",
+	illustrator: undefined,
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	set: Set,
 

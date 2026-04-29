@@ -72,7 +72,6 @@ const card: Card = {
 		de: "Ihre Gestalt erinnert an Hieroglyphen auf alten Steintafeln. Ob ein Zusammenhang besteht, ist unklar."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -93,4 +92,3 @@ const card: Card = {
 }
 
 export default card
-

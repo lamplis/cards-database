@@ -74,14 +74,13 @@ const card: Card = {
 		de: "Ein außerirdischer Virus kam mit einem Meteor auf die Erde. Seine DNA mutierte. So entstand DEOXYS."
 	},
 
-	thirdParty: {
-		cardmarket: 278175,
-		tcgplayer: 84779
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278175,
+				tcgplayer: 84779
+			}
 		},
 		{
 			type: "reverse"

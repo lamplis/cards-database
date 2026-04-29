@@ -87,7 +87,6 @@ const card: Card = {
 		de: "Schleicht sich geräuschlos an seine Beute heran und greift hinterrücks an, wobei es seine Beute oft mit nur einem Biss tötet."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

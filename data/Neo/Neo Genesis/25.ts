@@ -76,7 +76,6 @@ const card: Card = {
 		de: "Seine Pfoten verbergen scharfe Krallen. Wenn es angegriffen wird, zeigt es plötzlich seine Krallen und erschreckt den Feind damit."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -79,14 +79,13 @@ const card: Card = {
 		de: "Es hat Nerven wie Drahtseile, nichts kann es erschüttern. Es ist agiler und aktiver, als es scheint."
 	},
 
-	thirdParty: {
-		cardmarket: 278352,
-		tcgplayer: 83827
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278352,
+				tcgplayer: 83827
+			}
 		},
 		{
 			type: "reverse"

@@ -20,6 +20,17 @@ const swsh9: Set = {
 		official: 172
 	},
 
+	subsets: {
+		TG: {
+			name: {
+				en: "Trainer Gallery"
+			},
+			cardCount: {
+				official: 30
+			}
+		}
+	},
+
 	releaseDate: "2022-02-25",
 
 	abbreviations: {

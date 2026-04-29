@@ -87,7 +87,6 @@ const card: Card = {
 		de: "Manchmal der „Gott der Zerstörung“ genannt. Seine Flügel halten es trotz seines ernormen Gewichts in der Luft."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

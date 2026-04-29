@@ -78,14 +78,13 @@ const card: Card = {
 		de: "Von Geburt an brennt die Flamme auf seiner Schwanzspitze. Sobald sie erlischt, erlischt auch sein Lebenslicht."
 	},
 
-	thirdParty: {
-		cardmarket: 278399,
-		tcgplayer: 84216
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278399,
+				tcgplayer: 84216
+			}
 		}
 	]
 }

@@ -79,7 +79,6 @@ const card: Card = {
 		en: "Protected by an armor-like hide, it is capable of living in molten lava of 3600 degrees.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

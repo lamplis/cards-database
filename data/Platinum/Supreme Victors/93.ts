@@ -61,16 +61,11 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "For some time after its birth, it grows by gaining nourishment from the seed on its back."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				cardmarket: 278784,
-				tcgplayer: 84035
+				cardmarket: 278784
 			}
 		},
 		{

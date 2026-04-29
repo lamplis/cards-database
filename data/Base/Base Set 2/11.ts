@@ -73,7 +73,6 @@ const card: Card = {
 		en: "Uses its powerful tail in battle to smash, constrict, then break its prey's bones.",
 	},
 
-
 	variants: [
 		{
 			type: "holo",

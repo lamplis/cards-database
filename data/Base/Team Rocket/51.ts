@@ -91,7 +91,6 @@ const card: Card = {
 		de: "Die Vorderzähne eines Rattikarl sind unglaublich stark; es kann damit ein zweistöckiges Haus in fünf Minuten zerstören."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

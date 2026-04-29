@@ -81,14 +81,13 @@ const card: Card = {
 		de: "Es baut Nester, indem es Steine im Fluss mit seinem Horn aushöhlt. Es verteidigt seine Eier mit dem Leben."
 	},
 
-	thirdParty: {
-		cardmarket: 277561,
-		tcgplayer: 89026
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277561,
+				tcgplayer: 89026
+			}
 		},
 		{
 			type: "reverse"

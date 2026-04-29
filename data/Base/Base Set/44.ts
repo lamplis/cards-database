@@ -86,13 +86,10 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
-			thirdParty: {
-				cardmarket: 660184
-			}
 		},
 		{
 			type: "normal",
-			subtype: "1999-2000-copyright"
+			subtype: "1999-2000-copyright",
 		}
 	],
 }

@@ -72,17 +72,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison.",
-		de: "Eingehüllt in seinen gasförmigen, Gift enthaltenden Körper würde jeder in Ohnmacht fallen."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 85654,
-				cardmarket: 278908
+				cardmarket: 278908,
+				tcgplayer: 85654
 			}
 		},
 		{

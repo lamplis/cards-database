@@ -91,14 +91,13 @@ const card: Card = {
 		de: "Sein ganzer Körper ist mit harten Schuppen bedeckt. Es beschützt sein Junges mit seinem Leben."
 	},
 
-	thirdParty: {
-		cardmarket: 277660,
-		tcgplayer: 87708
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277660,
+				tcgplayer: 87708
+			}
 		},
 		{
 			type: "reverse",

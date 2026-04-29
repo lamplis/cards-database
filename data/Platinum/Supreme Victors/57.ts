@@ -74,16 +74,11 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "At dusk, swarms of them are carried aloft on winds. When noticed, they suddenly vanish."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 84947,
-				cardmarket: 278748
+				cardmarket: 278694
 			}
 		},
 		{

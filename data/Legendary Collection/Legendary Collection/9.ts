@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A Pokémon capable of controlling water, so it is capable of creating giant whirlpools."
+		en: "A Pokémon capable of controlling water, so it is capable of creating giant whirlpools.",
 	},
 
 	variants: [

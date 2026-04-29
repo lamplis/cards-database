@@ -68,19 +68,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It lives along bodies of water. Its body shape changed to suit its habitat.",
-		de: "Es lebt in der Nähe von Wasser. Seine Körperform hat sich seiner Umgebung angepasst."
-	},
-
-	thirdParty: {
-		cardmarket: 278122,
-		tcgplayer: 89142
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278122,
+				tcgplayer: 89142
+			}
 		},
 		{
 			type: "reverse"

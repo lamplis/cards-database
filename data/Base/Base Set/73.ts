@@ -20,13 +20,14 @@ const card: Card = {
 		de: "Dein Gegner mischt die Karten seiner Hand in seinen Stapel und zieht sieben neue Karten.",
 		it: "Il tuo avversario rimette le carte che ha in mano nel proprio mazzo, le mischia e poi pesca 7 carte."
 	},
+
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
 			thirdParty: {
-				cardmarket: 273768
-			}
+				tcgplayer: 86271
+			},
 		},
 		{
 			type: "normal",
@@ -41,12 +42,12 @@ const card: Card = {
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				cardmarket: 660146
-			}
+				tcgplayer: 107070
+			},
 		},
 		{
 			type: "normal",
-			subtype: "1999-2000-copyright"
+			subtype: "1999-2000-copyright",
 		}
 	],
 }

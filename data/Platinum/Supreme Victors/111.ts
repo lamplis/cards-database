@@ -71,15 +71,10 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "The faster the units at its sides rotate, the greater the magnetic force they generate."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 87084,
 				cardmarket: 278802
 			}
 		},

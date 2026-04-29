@@ -65,15 +65,10 @@ const card: Card = {
 	],
 	retreat: 2,
 
-	description: {
-		en: "A Pokémon that lives on icebergs. It swims in the sea using the point on its head to break up ice."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 89054,
 				cardmarket: 278816
 			}
 		},

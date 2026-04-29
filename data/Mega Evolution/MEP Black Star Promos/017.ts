@@ -14,19 +14,9 @@ const card: Card = {
 		pt: "Toxtricity"
 	},
 
-	evolveFrom: {
-		en: "Toxel",
-		fr: "Toxizap",
-		es: "Toxel",
-		'es-mx': "Toxel",
-		de: "Toxel",
-		it: "Toxel",
-		pt: "Toxel",
-	},
-
-	illustrator: "Krgc",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
+
 	dexId: [849],
 	hp: 140,
 	types: ["Darkness"],

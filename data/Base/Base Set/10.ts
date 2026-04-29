@@ -105,13 +105,10 @@ const card: Card = {
 		{
 			type: "holo",
 			subtype: "shadowless",
-			thirdParty: {
-				cardmarket: 660218
-			}
 		},
 		{
 			type: "holo",
-			subtype: "1999-2000-copyright"
+			subtype: "1999-2000-copyright",
 		}
 	],
 

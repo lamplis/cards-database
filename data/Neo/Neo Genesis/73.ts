@@ -77,7 +77,6 @@ const card: Card = {
 		de: "Es faulenzt sorgenlos in der Nähe von Wasser. Falls etwas seinen Schweif beißt, merkt es das einen ganzen langen Tag nicht."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

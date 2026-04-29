@@ -76,17 +76,12 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "The leer that floats in darkness belongs to a Gengar delighting in casting curses on people.",
-		de: "Der heimtückische Blick im Dunkel gehört einem GENGAR, das sich freut, Flüche auszustoßen."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 85678,
-				cardmarket: 278888
+				cardmarket: 278888,
+				tcgplayer: 85678
 			}
 		},
 		{

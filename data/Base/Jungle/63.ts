@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Lebt im Schatten hoher Bäume, wo es Insekten frißt. Es wird nachts von Licht angezogen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

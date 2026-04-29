@@ -75,14 +75,13 @@ const card: Card = {
 		de: "Es wurde bei einem Vulkanausbruch geboren. Sein Körper ist von hellen Flammen umgeben."
 	},
 
-	thirdParty: {
-		cardmarket: 277683,
-		tcgplayer: 87047
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277683,
+				tcgplayer: 87047
+			}
 		},
 		{
 			type: "reverse",

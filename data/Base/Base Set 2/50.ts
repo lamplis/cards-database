@@ -63,7 +63,6 @@ const card: Card = {
 		en: "In the distant past, it was stronger than its horribly weak descendants that exist today.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -19,13 +19,13 @@ const card: Card = {
 		de: "Wirf 3 Münzen. Nimm für jeden „Kopf“ eine Basis-Energiekarte von deinem Ablagestapel auf deine Hand. Falls du nicht genug Basis-Energiekarten in deinem Ablagestapel hast, nimm so viele wie möglich auf deine Hand."
 	},
 
-	variants: [
+	variants:[
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 85226,
-				cardmarket: 275016
-			},
+				cardmarket: 275016,
+				tcgplayer: 85226
+			}
 		},
 		{
 			type: "reverse",

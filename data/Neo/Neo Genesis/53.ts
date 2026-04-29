@@ -72,7 +72,6 @@ const card: Card = {
 		de: "Ein süßes Aroma weht aus dem Blatt auf seinem Kopf. Es ist gelehrig und saugt gerne Sonnenstrahlen auf."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -50,7 +50,6 @@ const card: Card = {
 		en: "Loves to build its muscles. It trains in all styles of martial arts to become even stronger.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

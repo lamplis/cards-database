@@ -80,19 +80,13 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "It has the stamina to fly all day on its broad wings. It fights by using its sharp beak.",
-		de: "Es hat genügend Ausdauer, den ganzen Tag zu fliegen. Sein scharfer Schnabel dient als Waffe."
-	},
-
-	thirdParty: {
-		cardmarket: 278085,
-		tcgplayer: 85398
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278085,
+				tcgplayer: 85398
+			}
 		},
 		{
 			type: "reverse"

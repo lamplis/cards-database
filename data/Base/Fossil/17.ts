@@ -82,7 +82,6 @@ const card: Card = {
 		de: "Ein legendäres Vogel-Pokémon, dem man nachsagt, dass es Todgeweihten erscheint, die sich in Gletschern verirrt haben."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

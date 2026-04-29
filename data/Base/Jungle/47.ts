@@ -93,7 +93,6 @@ const card: Card = {
 		de: "Wenn es einen Feind als Ziel auserkoren hat, startet es mit den heftig wedelnden langen Schwänzen einen Ganzkörperangriff."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

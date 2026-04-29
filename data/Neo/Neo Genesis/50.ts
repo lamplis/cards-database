@@ -68,7 +68,6 @@ const card: Card = {
 		de: "Es verwandelt Sonnenlicht in Energie. In der Dunkelheit nach dem Sonnenuntergang schließt es seine Blätter und wird still."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

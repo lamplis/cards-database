@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Wenn seine Flossen anfangen zu vibrieren, wird es bald Regen geben."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

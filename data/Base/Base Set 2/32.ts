@@ -69,7 +69,6 @@ const card: Card = {
 		en: "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -20,13 +20,13 @@ const card: Card = {
 		de: "Du kannst in jedem Zug nur eine Unterstützerkarte spielen. Wenn du diese Karte ausspielst, lege sie neben dein Aktives Pokémon. Lege diese Karte am Ende deines Zuges auf deinen Ablagestapel. Falls du mindestens eine Karte auf deiner Hand hast, mische 1 davon in dein Deck und ziehe dann 3 Karten.",
 	},
 
-	variants: [
+	variants:[
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 83837,
-				cardmarket: 275012
-			},
+				cardmarket: 275012,
+				tcgplayer: 83837
+			}
 		},
 		{
 			type: "reverse",

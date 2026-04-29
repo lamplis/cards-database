@@ -1,0 +1,139 @@
+branch_name	release_date	serie_folder	set_folder	card_count	insertions	deletions	net_insertions	new_file_count	localized_additions	is_tcgp	priority_tier	priority_score	excluded_reason
+pr/Scarlet-Violet-SVP-Black-Star-Promos	2023-03-31	Scarlet & Violet	SVP Black Star Promos	226	403	274	129	1	35	0	1	549	
+pr/Sword-Shield-Celebrations	2021-10-08	Sword & Shield	Celebrations	18	193	101	92	0	70	0	1	670	
+pr/Sun-Moon-Cosmic-Eclipse	2019-11-01	Sun & Moon	Cosmic Eclipse	22	59	55	4	0	44	0	1	378	
+pr/Sun-Moon-Team-Up	2019-01-31	Sun & Moon	Team Up	19	38	38	0	0	38	0	1	323	
+pr/Trainer-kits-XY-trainer-Kit-Latios	2015-04-29	Trainer kits	XY trainer Kit (Latios)	14	296	0	296	0	36	0	1	598	
+pr/Trainer-kits-XY-trainer-Kit-Latias	2015-04-29	Trainer kits	XY trainer Kit (Latias)	11	235	36	199	0	33	0	1	474	
+pr/Trainer-kits-XY-trainer-Kit-Bisharp	2014-11-01	Trainer kits	XY trainer Kit (Bisharp)	15	288	0	288	0	33	0	1	567	
+pr/EX-Power-Keepers	2007-02-17	EX	Power Keepers	15	50	39	11	0	34	0	1	298	
+pr/EX-Dragon-Frontiers	2006-11-08	EX	Dragon Frontiers	15	39	24	15	0	32	0	1	286	
+pr/E-Card-Aquapolis	2003-01-15	E-Card	Aquapolis	23	121	94	27	0	58	0	1	514	
+pr/Scarlet-Violet-Destined-Rivals	2025-05-30	Scarlet & Violet	Destined Rivals	5	10	10	0	0	10	0	2	85	
+pr/Scarlet-Violet-Prismatic-Evolutions	2025-01-17	Scarlet & Violet	Prismatic Evolutions	11	22	22	0	0	22	0	2	187	
+pr/Scarlet-Violet-Surging-Sparks	2024-11-08	Scarlet & Violet	Surging Sparks	4	8	8	0	0	8	0	2	68	
+pr/Scarlet-Violet-Twilight-Masquerade	2024-05-24	Scarlet & Violet	Twilight Masquerade	5	10	10	0	0	10	0	2	85	
+pr/Scarlet-Violet-Paradox-Rift	2023-11-03	Scarlet & Violet	Paradox Rift	4	8	8	0	0	8	0	2	68	
+pr/Sword-Shield-Battle-Styles	2021-03-19	Sword & Shield	Battle Styles	10	20	20	0	0	20	0	2	170	
+pr/Sword-Shield-Vivid-Voltage	2020-11-13	Sword & Shield	Vivid Voltage	7	14	14	0	0	14	0	2	119	
+pr/Sword-Shield-Darkness-Ablaze	2020-08-14	Sword & Shield	Darkness Ablaze	5	10	10	0	0	10	0	2	85	
+pr/Sword-Shield-Rebel-Clash	2020-05-01	Sword & Shield	Rebel Clash	9	18	18	0	0	18	0	2	153	
+pr/Sword-Shield-Sword-Shield	2020-02-07	Sword & Shield	Sword & Shield	5	10	10	0	0	10	0	2	85	
+pr/Sword-Shield-SWSH-Black-Star-Promos	2019-11-15	Sword & Shield	SWSH Black Star Promos	287	491	287	204	0	28	0	2	548	
+pr/Sun-Moon-Unified-Minds	2019-08-02	Sun & Moon	Unified Minds	7	46	12	34	0	14	0	2	153	
+pr/Sun-Moon-Unbroken-Bonds	2019-05-03	Sun & Moon	Unbroken Bonds	11	22	22	0	0	22	0	2	187	
+pr/Sun-Moon-Lost-Thunder	2018-11-02	Sun & Moon	Lost Thunder	12	24	24	0	0	24	0	2	204	
+pr/Sun-Moon-Dragon-Majesty	2018-09-07	Sun & Moon	Dragon Majesty	7	15	15	0	0	14	0	2	119	
+pr/Sun-Moon-Forbidden-Light	2018-05-04	Sun & Moon	Forbidden Light	9	18	18	0	0	18	0	2	153	
+pr/Sun-Moon-Ultra-Prism	2018-02-02	Sun & Moon	Ultra Prism	5	10	10	0	0	10	0	2	85	
+pr/Sun-Moon-Crimson-Invasion	2017-11-03	Sun & Moon	Crimson Invasion	4	8	8	0	0	8	0	2	68	
+pr/Trainer-kits-SM-trainer-Kit-Lycanroc	2017-04-21	Trainer kits	SM trainer Kit (Lycanroc)	10	224	0	224	0	26	0	2	442	
+pr/Trainer-kits-SM-trainer-Kit-Alolan-Raichu	2017-04-21	Trainer kits	SM trainer Kit (Alolan Raichu)	6	143	0	143	0	17	0	2	285	
+pr/Trainer-kits-XY-trainer-Kit-Pikachu-Libre	2016-04-27	Trainer kits	XY trainer Kit (Pikachu Libre)	10	206	0	206	0	22	0	2	392	
+pr/Trainer-kits-XY-trainer-Kit-Suicune	2016-04-27	Trainer kits	XY trainer Kit (Suicune)	11	188	0	188	0	22	0	2	375	
+pr/XY-BREAKpoint	2016-02-03	XY	BREAKpoint	4	8	8	0	0	8	0	2	68	
+pr/XY-BREAKthrough	2015-11-04	XY	BREAKthrough	4	8	8	0	0	8	0	2	68	
+pr/XY-Double-Crisis	2015-03-25	XY	Double Crisis	4	34	26	8	0	10	0	2	92	
+pr/XY-Primal-Clash	2015-02-04	XY	Primal Clash	8	16	16	0	0	16	0	2	136	
+pr/Trainer-kits-XY-trainer-Kit-Wigglytuff	2014-11-01	Trainer kits	XY trainer Kit (Wigglytuff)	13	222	0	222	0	27	0	2	451	
+pr/Trainer-kits-XY-trainer-Kit-Sylveon	2014-03-12	Trainer kits	XY trainer Kit (Sylveon)	10	194	0	194	0	22	0	2	380	
+pr/Trainer-kits-XY-trainer-Kit-Noivern	2014-03-12	Trainer kits	XY trainer Kit (Noivern)	6	67	0	67	0	9	0	2	145	
+pr/Trainer-kits-BW-trainer-Kit-Excadrill	2011-09-01	Trainer kits	BW trainer Kit (Excadrill)	7	117	71	46	0	16	0	2	181	
+pr/Call-of-Legends-Call-of-Legends	2011-02-09	Call of Legends	Call of Legends	9	18	9	9	0	18	0	2	162	
+pr/HeartGold-SoulSilver-Triumphant	2010-11-03	HeartGold & SoulSilver	Triumphant	4	82	45	37	0	16	0	2	169	
+pr/HeartGold-SoulSilver-Undaunted	2010-08-18	HeartGold & SoulSilver	Undaunted	4	56	26	30	0	9	0	2	106	
+pr/HeartGold-SoulSilver-Unleashed	2010-05-12	HeartGold & SoulSilver	Unleashed	6	125	68	57	0	24	0	2	255	
+pr/HeartGold-SoulSilver-HGSS-Black-Star-Promos	2010-02-11	HeartGold & SoulSilver	HGSS Black Star Promos	27	145	25	120	2	0	0	2	187	
+pr/HeartGold-SoulSilver-HeartGold-SoulSilver	2010-02-10	HeartGold & SoulSilver	HeartGold SoulSilver	2	55	20	35	0	12	0	2	133	
+pr/Platinum-Supreme-Victors	2009-08-19	Platinum	Supreme Victors	5	10	10	0	0	10	0	2	85	
+pr/Platinum-Rising-Rivals	2009-05-16	Platinum	Rising Rivals	11	36	30	6	0	24	0	2	209	
+pr/Platinum-Platinum	2009-02-11	Platinum	Platinum	5	30	24	6	0	14	0	2	123	
+pr/Diamond-Pearl-Stormfront	2008-11-01	Diamond & Pearl	Stormfront	3	15	6	9	0	8	0	2	76	
+pr/Diamond-Pearl-Legends-Awakened	2008-08-01	Diamond & Pearl	Legends Awakened	8	54	42	12	0	24	0	2	212	
+pr/Diamond-Pearl-Majestic-Dawn	2008-05-01	Diamond & Pearl	Majestic Dawn	5	56	43	13	0	20	0	2	178	
+pr/Trainer-kits-DP-trainer-Kit-Lucario	2007-09-01	Trainer kits	DP trainer Kit (Lucario)	5	51	21	30	0	15	0	2	155	
+pr/Diamond-Pearl-Mysterious-Treasures	2007-08-01	Diamond & Pearl	Mysterious Treasures	10	40	31	9	0	24	0	2	211	
+pr/EX-Crystal-Guardians	2006-08-30	EX	Crystal Guardians	6	21	12	9	0	14	0	2	127	
+pr/EX-Holon-Phantoms	2006-05-03	EX	Holon Phantoms	11	42	31	11	0	26	0	2	230	
+pr/EX-Legend-Maker	2006-02-13	EX	Legend Maker	10	40	32	8	0	24	0	2	210	
+pr/EX-Delta-Species	2005-10-31	EX	Delta Species	12	24	19	5	0	24	0	2	209	
+pr/EX-Unseen-Forces	2005-08-22	EX	Unseen Forces	7	14	9	5	0	14	0	2	124	
+pr/EX-Emerald	2005-05-09	EX	Emerald	9	18	15	3	0	18	0	2	156	
+pr/EX-Deoxys	2005-02-01	EX	Deoxys	7	14	11	3	0	14	0	2	122	
+pr/EX-FireRed-LeafGreen	2004-09-01	EX	FireRed & LeafGreen	6	12	11	1	0	12	0	2	103	
+pr/EX-Hidden-Legends	2004-06-01	EX	Hidden Legends	8	53	40	13	0	22	0	2	197	
+pr/EX-Team-Magma-vs-Team-Aqua	2004-03-01	EX	Team Magma vs Team Aqua	10	20	18	2	0	20	0	2	172	
+pr/EX-Dragon	2003-11-24	EX	Dragon	4	8	8	0	0	8	0	2	68	
+pr/EX-Sandstorm	2003-09-18	EX	Sandstorm	5	30	23	7	0	14	0	2	124	
+pr/EX-Ruby-Sapphire	2003-07-01	EX	Ruby & Sapphire	5	10	7	3	0	10	0	2	88	
+pr/E-Card-Expedition-Base-Set	2002-09-15	E-Card	Expedition Base Set	9	30	24	6	0	20	0	2	175	
+pr/Neo-Neo-Destiny	2002-02-28	Neo	Neo Destiny	5	10	9	1	0	10	0	2	86	
+pr/Neo-Neo-Genesis	2000-12-16	Neo	Neo Genesis	4	8	5	3	0	8	0	2	71	
+pr/Base-Team-Rocket	2000-04-24	Base	Team Rocket	4	8	4	4	0	8	0	2	72	
+pr/Mega-Evolution-Ascended-Heroes	2026-01-30	Mega Evolution	Ascended Heroes	243	493	7	486	0	0	0	3	606	
+pr/Mega-Evolution-Mega-Evolution	2025-09-26	Mega Evolution	Mega Evolution	3	6	6	0	0	6	0	3	51	
+pr/Scarlet-Violet-151	2023-09-22	Scarlet & Violet	151	3	6	6	0	0	6	0	3	51	
+pr/Scarlet-Violet-Paldea-Evolved	2023-06-09	Scarlet & Violet	Paldea Evolved	3	6	6	0	0	6	0	3	51	
+pr/Sun-Moon-Celestial-Storm	2018-08-03	Sun & Moon	Celestial Storm	3	6	6	0	0	6	0	3	51	
+pr/Sun-Moon-SM-Black-Star-Promos	2017-02-03	Sun & Moon	SM Black Star Promos	244	284	248	36	0	0	0	3	156	
+pr/XY-Ancient-Origins	2015-08-12	XY	Ancient Origins	3	6	6	0	0	6	0	3	51	
+pr/XY-XY-Black-Star-Promos	2013-10-12	XY	XY Black Star Promos	216	233	216	17	0	2	0	3	153	
+pr/Black-White-BW-Black-Star-Promos	2011-04-26	Black & White	BW Black Star Promos	101	101	101	0	0	0	0	3	101	
+pr/Diamond-Pearl-DP-Black-Star-Promos	2007-05-01	Diamond & Pearl	DP Black Star Promos	56	69	60	9	0	6	0	3	113	
+pr/EX-Unseen-Forces-Unown-Collection	2005-08-22	EX	Unseen Forces Unown Collection	1	5	1	4	0	5	0	3	45	
+pr/POP-Nintendo-Black-Star-Promos	2003-10-01	POP	Nintendo Black Star Promos	40	66	40	26	0	3	0	3	90	
+pr/Base-Wizards-Black-Star-Promos	1999-07-01	Base	Wizards Black Star Promos	53	53	53	0	0	0	0	3	53	
+pr/Mega-Evolution-Eternals	2026-10-16	Mega Evolution	Eternals	0	21	0	21	1	2	0	4	-500	
+pr/Mega-Evolution-Radiant-Ruby-Shining-Sapphire	2026-08-07	Mega Evolution	Radiant Ruby & Shining Sapphire	0	21	0	21	1	2	0	4	-500	
+pr/Mega-Evolution-Chaos-Rising	2026-06-19	Mega Evolution	Chaos Rising	0	21	0	21	1	2	0	4	-500	
+pr/Mega-Evolution-Perfect-Order	2026-04-11	Mega Evolution	Perfect Order	0	21	0	21	1	2	0	4	-500	
+pr/Scarlet-Violet-Black-Bolt	2025-07-17	Scarlet & Violet	Black Bolt	2	4	4	0	0	4	0	4	-500	
+pr/Scarlet-Violet-White-Flare	2025-07-17	Scarlet & Violet	White Flare	2	4	4	0	0	4	0	4	-500	
+pr/Scarlet-Violet-Journey-Together	2025-03-28	Scarlet & Violet	Journey Together	2	4	4	0	0	4	0	4	-500	
+pr/Scarlet-Violet-Temporal-Forces	2024-03-22	Scarlet & Violet	Temporal Forces	1	2	2	0	0	2	0	4	-500	
+pr/Scarlet-Violet-Paldean-Fates	2024-01-26	Scarlet & Violet	Paldean Fates	1	2	2	0	0	2	0	4	-500	
+pr/Sword-Shield-Crown-Zenith	2023-01-20	Sword & Shield	Crown Zenith	0	11	0	11	0	0	0	4	-500	
+pr/Sword-Shield-Silver-Tempest	2022-11-11	Sword & Shield	Silver Tempest	0	11	0	11	0	0	0	4	-500	
+pr/Sword-Shield-Lost-Origin	2022-09-09	Sword & Shield	Lost Origin	0	11	0	11	0	0	0	4	-500	
+pr/Sword-Shield-Astral-Radiance	2022-05-27	Sword & Shield	Astral Radiance	0	11	0	11	0	0	0	4	-500	
+pr/Sword-Shield-Brilliant-Stars	2022-02-25	Sword & Shield	Brilliant Stars	0	11	0	11	0	0	0	4	-500	
+pr/Sword-Shield-Shining-Fates	2021-02-19	Sword & Shield	Shining Fates	0	11	0	11	0	0	0	4	-500	
+pr/Sun-Moon-Hidden-Fates	2019-08-23	Sun & Moon	Hidden Fates	3	6	6	0	0	3	0	4	-500	
+pr/Sun-Moon-Shining-Legends	2017-10-06	Sun & Moon	Shining Legends	1	2	2	0	0	2	0	4	-500	
+pr/XY-Steam-Siege	2016-08-03	XY	Steam Siege	1	2	2	0	0	2	0	4	-500	
+pr/XY-Fates-Collide	2016-05-02	XY	Fates Collide	2	4	4	0	0	4	0	4	-500	
+pr/XY-Generations	2016-02-22	XY	Generations	0	12	0	12	0	1	0	4	-500	
+pr/XY-Roaring-Skies	2015-05-06	XY	Roaring Skies	2	4	4	0	0	4	0	4	-500	
+pr/XY-Furious-Fists	2014-08-13	XY	Furious Fists	2	4	4	0	0	4	0	4	-500	
+pr/Black-White-Legendary-Treasures	2013-11-06	Black & White	Legendary Treasures	0	12	0	12	0	1	0	4	-500	
+pr/McDonald-s-Collection-Promo-McDonald-s-2013	2013-11-01	McDonald's Collection	Promo McDonald's 2013	1	1	1	0	0	0	0	4	-500	
+pr/Diamond-Pearl-Great-Encounters	2008-02-01	Diamond & Pearl	Great Encounters	2	4	4	0	0	4	0	4	-500	
+pr/Diamond-Pearl-Secret-Wonders	2007-11-01	Diamond & Pearl	Secret Wonders	1	2	2	0	0	2	0	4	-500	
+pr/Diamond-Pearl-Diamond-Pearl	2007-05-01	Diamond & Pearl	Diamond & Pearl	1	2	2	0	0	2	0	4	-500	
+pr/POP-POP-Series-5	2007-03-01	POP	POP Series 5	0	1	0	1	0	1	0	4	-500	
+pr/POP-POP-Series-4	2006-08-01	POP	POP Series 4	1	1	1	0	0	1	0	4	-500	
+pr/POP-POP-Series-3	2006-04-01	POP	POP Series 3	2	2	2	0	0	2	0	4	-500	
+pr/Trainer-kits-EX-trainer-Kit-2-Minun	2006-03-01	Trainer kits	EX trainer Kit 2 (Minun)	1	2	2	0	0	1	0	4	-500	
+pr/Trainer-kits-EX-trainer-Kit-2-Plusle	2006-03-01	Trainer kits	EX trainer Kit 2 (Plusle)	1	1	1	0	0	1	0	4	-500	
+pr/POP-POP-Series-2	2005-08-01	POP	POP Series 2	3	3	3	0	0	3	0	4	-500	
+pr/Neo-Neo-Revelation	2001-09-21	Neo	Neo Revelation	2	4	4	0	0	4	0	4	-500	
+pr/Base-Base-Set	1999-01-09	Base	Base Set	4	5	4	1	0	4	0	4	-500	
+pr/Black-White-Radiant-Collection		Black & White	Radiant Collection	0	0	21	-21	0	0	0	4	-500	
+pr/Pok-mon-TCG-Pocket-Genetic-Apex	2024-10-30	Pokémon TCG Pocket	Genetic Apex	106	624	106	518	0	518	1	3	4648	
+pr/Mega-Evolution-MEP-Black-Star-Promos	2025-09-26	Mega Evolution	MEP Black Star Promos	49	2170	10	2160	39	574	0	1	7581	fails validate (rarity "Black Star Promo" not allowed by interfaces.d.ts)
+pr/McDonald-s-Collection-McDonald-s-Collection-2024	2024-12-04	McDonald's Collection	McDonald's Collection 2024	15	1262	0	1262	16	326	0	1	4205	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-McDonald-s-Collection-2023	2023-08-01	McDonald's Collection	McDonald's Collection 2023	15	1224	0	1224	16	296	0	1	3927	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-McDonald-s-Collection-2022	2022-08-03	McDonald's Collection	McDonald's Collection 2022	15	1173	0	1173	16	276	0	1	3716	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-McDonald-s-Collection-2021	2021-02-09	McDonald's Collection	McDonald's Collection 2021	25	1799	0	1799	26	80	0	1	2984	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-Collection-McDonald-s-2019	2019-10-30	McDonald's Collection	Collection McDonald's 2019	40	1897	0	1897	41	152	0	1	3973	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-McDonald-s-Collection-2019	2019-10-15	McDonald's Collection	McDonald's Collection 2019	12	639	0	639	13	3	0	1	935	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-McDonald-s-Collection-2018	2018-10-19	McDonald's Collection	McDonald's Collection 2018	12	389	0	389	13	2	0	1	677	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-Collection-McDonald-s-2018	2018-06-13	McDonald's Collection	Collection McDonald's 2018	40	1846	0	1846	41	146	0	1	3874	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-McDonald-s-Collection-2017	2017-08-03	McDonald's Collection	McDonald's Collection 2017	12	620	0	620	13	42	0	1	1228	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-McDonald-s-Collection-2016	2016-08-20	McDonald's Collection	McDonald's Collection 2016	12	592	0	592	13	43	0	1	1208	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-McDonald-s-Collection-2015	2015-11-27	McDonald's Collection	McDonald's Collection 2015	12	617	0	617	13	42	0	1	1225	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-McDonald-s-Collection-2014	2014-05-23	McDonald's Collection	McDonald's Collection 2014	12	803	0	803	13	39	0	1	1387	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-Collection-McDonald-s-2013	2013-11-01	McDonald's Collection	Collection McDonald's 2013	12	650	0	650	13	54	0	1	1354	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-McDonald-s-Collection-2012	2012-06-15	McDonald's Collection	McDonald's Collection 2012	12	703	0	703	13	50	0	1	1375	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-McDonald-s-Collection-2011	2011-06-17	McDonald's Collection	McDonald's Collection 2011	12	687	0	687	13	47	0	1	1335	skip McDonald's sets (already pending PR)
+pr/Mega-Evolution-Phantasmal-Flames	2025-11-14	Mega Evolution	Phantasmal Flames	3	6	6	0	0	6	0	3	51	closed low-value first PR (cosmetic/truncated text scope)

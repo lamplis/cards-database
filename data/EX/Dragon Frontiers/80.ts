@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Mische deine Handkarten in dein Deck und ziehe dann 5 Karten.",
 	},
 
-	thirdParty: {
-		cardmarket: 277285,
-		tcgplayer: 88404
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277285,
+				tcgplayer: 88404
+			}
 		},
 		{
 			type: "normal",

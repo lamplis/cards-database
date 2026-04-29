@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Alle im Spiel befindlichen Pokémon, auf denen δ zu sehen ist (deine und die deines Gegners), haben keine Schwäche mehr und können keine Poké-Power einsetzen.",
 	},
 
-	thirdParty: {
-		cardmarket: 277279,
-		tcgplayer: 86146
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277279,
+				tcgplayer: 86146
+			}
 		},
 		{
 			type: "normal",

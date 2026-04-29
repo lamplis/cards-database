@@ -85,7 +85,6 @@ const card: Card = {
 		de: "Es möchte am liebsten alleine gelassen werden, und daher wird es manchmal von skrupellosen Menschen manipuliert."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

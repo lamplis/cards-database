@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Da es an manchen Stellen seines Körpers riesige Mengen an Elektrizität speichert, kann es dort keine Wolle mehr wachsen lassen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

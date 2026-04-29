@@ -50,7 +50,6 @@ const card: Card = {
 		de: "Es bewegt seinen Kopf immer langsam nach vorne und wieder zurück, als ob es versuchen würde, jemand zu küssen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -71,4 +70,3 @@ const card: Card = {
 }
 
 export default card
-

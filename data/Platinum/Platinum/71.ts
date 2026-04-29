@@ -74,17 +74,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "The trio is together from birth. It constantly gathers honey from flowers to please VESPIQUEN.",
-		de: "Dieses Trio ist von Geburt an zusammen. Fleißig bringt es Blütenhonig zu HONWEISEL."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 84395,
-				cardmarket: 278492
+				cardmarket: 278492,
+				tcgplayer: 84395
 			}
 		},
 		{

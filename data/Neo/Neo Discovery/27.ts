@@ -87,7 +87,6 @@ const card: Card = {
 		de: "Wenn drei oder mehr Quaxos zusammenkommen, singen sie so laut, dass es eher wie Gebrüll wirkt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -108,4 +107,3 @@ const card: Card = {
 }
 
 export default card
-

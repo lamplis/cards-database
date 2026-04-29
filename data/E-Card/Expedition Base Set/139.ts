@@ -20,13 +20,13 @@ const card: Card = {
 		de: "Wirf 2 Münzen. Durchsuche für jeden „Kopf“ dein Deck nach einer Basis-Pokémonkarte (allerdings keiner Baby-Pokémonkarte), zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
 	},
 
-	variants: [
+	variants:[
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 84984,
-				cardmarket: 275014
-			},
+				cardmarket: 275014,
+				tcgplayer: 84984
+			}
 		},
 		{
 			type: "reverse",

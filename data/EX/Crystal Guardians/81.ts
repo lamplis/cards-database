@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Lege Mysteriöser Splitter an 1 deiner Pokémon an (kein Pokémon-ex), an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn Mysteriöser Splitter an einem Pokémon-ex angelegt ist, lege diese Karte auf deinen Ablagestapel. Verhindere alle Effekte von Angriffen, inklusive Schaden, die dem Pokémon, an das Mysteriöser Splitter angelegt ist, von gegnerischen Pokémon-ex zugefügt werden. Lege Mysteriöser Splitter am Ende des nächsten Zuges deines Gegners auf deinen Ablagestapel."
 	},
 
-	thirdParty: {
-		cardmarket: 277162,
-		tcgplayer: 87669
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277162,
+				tcgplayer: 87669
+			}
 		},
 		{
 			type: "normal",

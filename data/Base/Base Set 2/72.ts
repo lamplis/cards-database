@@ -53,11 +53,6 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints.",
-	},
-
-
 	variants: [
 		{
 			type: "normal",

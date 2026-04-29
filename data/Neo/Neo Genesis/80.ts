@@ -74,7 +74,6 @@ const card: Card = {
 		de: "Es ist klein, aber grob und roh. Es zögert nicht, alles, was sich bewegt, zu beißen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -17,7 +17,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Vous ne pouvez jouer cette carte que si le Pokémon Actif de votre adversaire est un Pokémon de Niveau 2.\n\nCherchez jusqu’à 2 cartes dans votre deck, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+		fr: "Vous ne pouvez jouer cette carte que si le Pokémon Actif de votre adversaire est un Pokémon de Niveau 2.\n\nCherchez jusqu'à 2 cartes dans votre deck, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 		en: "You can play this card only if your opponent’s Active Pokémon is a Stage 2 Pokémon.\n\nSearch your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
 		es: "Puedes jugar esta carta solo si el Pokémon Activo de tu rival es un Pokémon de Fase 2.\n\nBusca en tu baraja hasta 2 cartas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Puoi giocare questa carta solo se il Pokémon attivo del tuo avversario è un Pokémon di Fase 2.\n\nCerca nel tuo mazzo fino a due carte e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",

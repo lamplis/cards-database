@@ -77,19 +77,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Its fine fur feels sublime to the touch. It can expand its body by inhaling air.",
-		de: "Sein feines Fell fühlt sich herrlich an. Es kann sich größer machen, indem es Luft einatmet."
-	},
-
-	thirdParty: {
-		cardmarket: 277934,
-		tcgplayer: 90598
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277934,
+				tcgplayer: 90598
+			}
 		},
 		{
 			type: "reverse"

@@ -72,14 +72,13 @@ const card: Card = {
 		de: "Es schüttelt seinen Kopf, so dass die beiden Antennen sich berühren und wie ein Xylophon klingen."
 	},
 
-	thirdParty: {
-		cardmarket: 277715,
-		tcgplayer: 86527
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277715,
+				tcgplayer: 86527
+			}
 		},
 		{
 			type: "reverse",

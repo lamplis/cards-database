@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Schaue dir die Karten auf der Hand deines Gegners an und wähle eine Karte davon. Dein Gegner mischt diese Karte in sein Deck. Dann darf er bis zu zwei Karten ziehen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

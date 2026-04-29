@@ -77,7 +77,6 @@ const card: Card = {
 		de: "Bewegt sich lautlos und verstohlen. Frisst die Eier von Vogel-Pokémon wie z.B. Taubsi und Habitak."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

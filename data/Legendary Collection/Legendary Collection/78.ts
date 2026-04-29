@@ -59,7 +59,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories."
+		en: "Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories.",
 	},
 
 	variants: [

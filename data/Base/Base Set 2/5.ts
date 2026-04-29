@@ -75,7 +75,6 @@ const card: Card = {
 		en: "A timid Fairy Pokémon that is rarely seen. It will run and hide the moment it senses people.",
 	},
 
-
 	variants: [
 		{
 			type: "holo",

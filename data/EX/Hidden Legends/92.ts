@@ -17,16 +17,15 @@ const card: Card = {
 	effect: {
 		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Draw a number of cards up to the number of your opponent's Pokémon in play. If you have more than 7 cards (including this one) in your hand, you can't play this card.",
 		fr: "Vous pouvez piocher autant de cartes que votre adversaire possède de Pokémon en jeu.",
-		de: "Draw a number of cards, up to the number of your opponent's Pokémon in play.\nIf you have more than 7 cards (including this one) in your hand, you can't play this card."
+		de: "Draw a number of cards, up to the number of your opponent's Pokémon in play.\nIf you have more than 7 cards (including this one) in your hand, you can't play this card.",
 	},
 
-	retreat: 0,
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 89569,
-				cardmarket: 276166
+				cardmarket: 276166,
+				tcgplayer: 89569
 			}
 		},
 		{

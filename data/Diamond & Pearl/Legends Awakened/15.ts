@@ -79,14 +79,13 @@ const card: Card = {
 		de: "Es gibt eine Legende, wonach dieses PKMN die Kontinente mit einem Seil gezogen hat."
 	},
 
-	thirdParty: {
-		cardmarket: 278164,
-		tcgplayer: 88661
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278164,
+				tcgplayer: 88661
+			}
 		},
 		{
 			type: "reverse"

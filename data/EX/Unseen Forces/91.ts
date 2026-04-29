@@ -20,14 +20,13 @@ const card: Card = {
 		de: "At any time between turns, if the Pokémon this card is attached to has at least 3 damage counters on it, remove 3 damage counters from it. Then, discard Sitrus Berry."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 89231,
-				cardmarket: 276737
-			},
+				cardmarket: 276737,
+				tcgplayer: 89231
+			}
 		},
 		{
 			type: "reverse",

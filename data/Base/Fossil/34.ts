@@ -88,7 +88,6 @@ const card: Card = {
 		de: "Sobald es zuschlägt, saugt es dann noch weitere Energie aus seinem Opfer, nachdem es zum Fliegen zu schwer geworden ist."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

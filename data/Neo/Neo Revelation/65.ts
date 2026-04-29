@@ -89,10 +89,9 @@ const card: Card = {
 		de: "Sobald es auftaucht, fängt es an, herumzuwüten. Es verbleibt in seiner Raserei, bis es alles um sich herum demoliert hat."
 	},
 
-
 	variants: [
 		{
-			type: "holo",
+			type: "normal",
 			thirdParty: {
 				cardmarket: 274651,
 				tcgplayer: 89164
@@ -110,4 +109,3 @@ const card: Card = {
 }
 
 export default card
-

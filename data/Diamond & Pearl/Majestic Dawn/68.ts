@@ -71,19 +71,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It hides food under its long body hair. However, it forgets it has hidden the food.",
-		de: "Unter seinem langen Fell versteckt es Nahrung. Aber es vergisst, dass es sie dort versteckt hat."
-	},
-
-	thirdParty: {
-		cardmarket: 278117,
-		tcgplayer: 87638
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278117,
+				tcgplayer: 87638
+			}
 		},
 		{
 			type: "reverse"

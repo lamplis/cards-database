@@ -5,49 +5,41 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Oddish"
+		en: "Oddish",
+		pt: "Oddish"
 	},
 
+
 	illustrator: "Miranda Branley",
-	rarity: "Promo",
+
+	rarity: "Black Star Promo",
 	category: "Pokemon",
+
 	dexId: [43],
 	hp: 60,
 	types: ["Grass"],
 	stage: "Basic",
 
-	attacks: [{
-		cost: ["Grass"],
+	attacks: [
+		{
+			cost: ["Grass"],
 
-		name: {
-			en: "Razor Leaf"
-		},
+			name: {
+				en: "Razor Leaf",
+				pt: "Folha Navalha"
+			},
 
-		damage: 10
-	}, {
-		cost: ["Grass", "Grass"],
+			effect: {
+				en: "This attack does 20 damage for each Colorless Energy in your opponent's Active Pokémon Retreat Cost.",
+				pt: "Este ataque causará 20 pontos de dano para cada Energia Incolor no custo de Recuo do Pokémon Ativo do seu oponente."
+			},
 
-		name: {
-			en: "Grass Knot"
-		},
-
-		effect: {
-			en: "This attack does 20 damage for each {C} in your opponent's Active Pokémon's Retreat Cost.",
-		},
-
-		damage: "20×"
-	}],
-
-	weaknesses: [{
-		type: "Fire",
-		value: "x2"
-	}],
+		}
+	],
 
 	retreat: 1,
-	regulationMark: "G",
-	description: {
-		en: "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
-	},
+	regulationMark: "H",
+
 	variants: [
 		{
 			type: "normal",

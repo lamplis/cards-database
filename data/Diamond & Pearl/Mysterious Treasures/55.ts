@@ -90,14 +90,13 @@ const card: Card = {
 		de: "Seine Antenne besitzt ein Augenmuster. Seine vier Flügel erlauben es, in alle Richtungen zu fliegen."
 	},
 
-	thirdParty: {
-		cardmarket: 277684,
-		tcgplayer: 87248
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277684,
+				tcgplayer: 87248
+			}
 		},
 		{
 			type: "reverse",

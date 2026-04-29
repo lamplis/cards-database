@@ -60,14 +60,13 @@ const card: Card = {
 		de: "Es nistet in kleinen Löchern in Höhlenwänden. Es springt Beute, die sich zu nah heranwagt, an."
 	},
 
-	thirdParty: {
-		cardmarket: 277714,
-		tcgplayer: 85698
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277714,
+				tcgplayer: 85698
+			}
 		},
 		{
 			type: "reverse",

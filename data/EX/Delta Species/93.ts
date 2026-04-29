@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Discard a card from your hand. If you can't discard a card from your hand, you can't play this card. Search your deck for up to 3 Basic Pokémon that each has 100 HP or less, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
 	},
 
-	thirdParty: {
-		cardmarket: 276856,
-		tcgplayer: 86147
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276856,
+				tcgplayer: 86147
+			}
 		},
 		{
 			type: "normal",

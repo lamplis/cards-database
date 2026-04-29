@@ -61,15 +61,10 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "It spins its two tails like a screw to propel itself through water. The tails also slice clinging seaweed."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 84021,
 				cardmarket: 278783
 			}
 		},

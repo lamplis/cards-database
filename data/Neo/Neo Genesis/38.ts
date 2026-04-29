@@ -77,7 +77,6 @@ const card: Card = {
 		de: "Das Licht, das es ausstrahlt, ist so hell, dass es die Meeresoberfläche aus einer Tiefe von drei Meilen beleuchten kann."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

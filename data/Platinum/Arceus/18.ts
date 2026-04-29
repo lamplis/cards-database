@@ -72,17 +72,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It prevents prey from escaping by instantaneously freezing moisture in the air.",
-		de: "Es verhindert, dass Beute flieht, indem es die Feuchtigkeit in der Luft augenblicklich einfriert."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 85756,
-				cardmarket: 278890
+				cardmarket: 278890,
+				tcgplayer: 85756
 			}
 		},
 		{

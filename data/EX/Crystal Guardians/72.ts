@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Du kannst in jedem Zug nur eine Unterstützerkarte spielen. Wenn du diese Karte ausspielst, lege sie neben dein Aktives Pokémon. Lege diese Karte am Ende deines Zuges auf deinen Ablagestapel. Durchsuche dein Deck nach einer Pokémon-Ausrüstungs-Karte und einer Basis-Energiekarte. Zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach.",
 	},
 
-	thirdParty: {
-		cardmarket: 277153,
-		tcgplayer: 84125
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277153,
+				tcgplayer: 84125
+			}
 		},
 		{
 			type: "normal",

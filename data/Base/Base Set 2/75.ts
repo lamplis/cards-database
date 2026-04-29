@@ -58,11 +58,6 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "Almost invisible, this gaseous Pokémon cloaks the target and puts it to sleep without notice.",
-	},
-
-
 	variants: [
 		{
 			type: "normal",

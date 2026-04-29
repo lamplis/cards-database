@@ -66,18 +66,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "Its colors and shapes differ from region to region. In the Sinnoh region, two types are confirmed.",
-	},
-
-	thirdParty: {
-		cardmarket: 277859,
-		tcgplayer: 89141
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277859,
+				tcgplayer: 89141
+			}
 		},
 		{
 			type: "reverse",

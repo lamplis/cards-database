@@ -76,7 +76,6 @@ const card: Card = {
 		de: "Obwohl es schon ewig ausgestorben ist, kann es in seltenen Fällen genetisch aus Fossilien wiederbelebt werden."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

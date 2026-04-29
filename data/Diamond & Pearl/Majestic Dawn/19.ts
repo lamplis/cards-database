@@ -79,19 +79,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It has a flame sac in its body. Its body temperature tops 1,650 degrees Fahrenheit before battle.",
-		de: "In seinem Körper befindet sich eine Flamme. Seine Körpertemperatur liegt vor dem Kampf bei 900 Grad."
-	},
-
-	thirdParty: {
-		cardmarket: 278068,
-		tcgplayer: 85496
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278068,
+				tcgplayer: 85496
+			}
 		},
 		{
 			type: "reverse"

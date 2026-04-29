@@ -68,7 +68,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Uses its powerful tail in battle to smash, constrict, then break its prey's bones."
+		en: "Uses its powerful tail in battle to smash, constrict, then break its prey's bones.",
 	},
 
 	variants: [

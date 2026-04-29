@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Lege Goldbeere an eines deiner Pokémon an, das keine Pokémon-Ausrüstung hat. Wenn zu irgendeinem Zeitpunkt zwischen den Zügen mindestens vier Schadensmarken auf dem Pokémon liegen, an das du Goldbeere angelegt hast, kannst du vier von ihnen entfernen. Lege dann Goldbeere ab. Wenn zu Beginn eines Zugs mindestens vier Schadensmarken auf dem Pokémon liegen, an das du Goldbeere angelegt hast, entferne vier von ihnen und lege Goldbeere ab."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

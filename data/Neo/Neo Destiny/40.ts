@@ -92,7 +92,6 @@ const card: Card = {
 		de: "Dieses Pokémon hat weiches, feines Haar. Wenn es geärgert wird, wächst es plötzlich an und stürmt auf diejenigen los, die eine Gefahr bedeuten."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

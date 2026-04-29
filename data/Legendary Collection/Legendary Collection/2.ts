@@ -65,7 +65,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains."
+		en: "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.",
 	},
 
 	variants: [

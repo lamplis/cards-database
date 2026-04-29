@@ -15,7 +15,7 @@ const card: Card = {
 		de: "Forschung des Professors"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Trainer",
 
 	effect: {

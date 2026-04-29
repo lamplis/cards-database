@@ -62,7 +62,6 @@ const card: Card = {
 		de: "Es macht seine Haut gerne dicker, indem es sie mit Baumrinde verstärkt. Das zusätzliche Gewicht kümmert es nicht."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -83,4 +82,3 @@ const card: Card = {
 }
 
 export default card
-

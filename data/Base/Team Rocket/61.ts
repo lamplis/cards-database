@@ -75,7 +75,6 @@ const card: Card = {
 		de: "Obwohl eigentlich ganz freundlich, wird es schnell böse, wenn es nicht bekommt, was es will."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

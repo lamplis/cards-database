@@ -17,12 +17,6 @@ const card: Card = {
 
 	energyType: "Normal",
 
-	hp: 0,
-
-	types: [
-		"Fighting"
-	],
-	retreat: 0,
 	variants: [
 		{
 			type: "normal",
@@ -30,8 +24,10 @@ const card: Card = {
 				cardmarket: 279092,
 				tcgplayer: 85444
 			}
-		},
+		}
 	],
+
+	hp: 0,
 
 }
 

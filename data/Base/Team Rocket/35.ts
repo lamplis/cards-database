@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Ein jähzorniges Pokémon, das nicht unter Kontrolle gebracht werden kann, wenn es erzürnt ist. Es kann Feuer speien, das heißer als 1000° ist."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

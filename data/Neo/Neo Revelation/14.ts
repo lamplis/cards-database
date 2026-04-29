@@ -78,7 +78,6 @@ const card: Card = {
 		de: "Ihm wird nachgesagt, dass es eine Wiedergeburt der Nordwinde ist und dadurch verdrecktes und schlammiges Wasser von allem Dreck befreien kann."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

@@ -68,7 +68,6 @@ const card: Card = {
 		de: "Es verbringt seine Tage damit, von Klippen herabzuhängen und sich auf jede Beute, die es entdeckt, zu stürzen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -77,7 +77,6 @@ const card: Card = {
 		de: "Da seine Flügel noch nicht voll ausgewachsen sind, muss es hüpfen, um sich zurechtzufinden. Es starrt immer irgendetwas an."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

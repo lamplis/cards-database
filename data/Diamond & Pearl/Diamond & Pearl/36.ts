@@ -85,14 +85,13 @@ const card: Card = {
 		de: "Dieses PKMN ist ein Grobian, der sich in die Nester anderer PKMN einnistet und sie sich damit aneignet."
 	},
 
-	thirdParty: {
-		cardmarket: 277535,
-		tcgplayer: 88464
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277535,
+				tcgplayer: 88464
+			}
 		},
 		{
 			type: "reverse"

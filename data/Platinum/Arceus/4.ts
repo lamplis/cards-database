@@ -72,17 +72,12 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It is thought that this Pokémon came onto land because its prey adapted to life on land.",
-		de: "Man geht davon aus, dass dieses PKMN an Land kam, weil seine Beute ebenfalls irgendwann an Land kam."
-	},
-
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
-				tcgplayer: 86400,
-				cardmarket: 278876
+				cardmarket: 278876,
+				tcgplayer: 86400
 			}
 		},
 		{

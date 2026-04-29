@@ -66,7 +66,6 @@ const card: Card = {
 		en: "A scientist created this Pokémon after years of horrific gene-splicing and DNA engineering experiments.",
 	},
 
-
 	variants: [
 		{
 			type: "holo",

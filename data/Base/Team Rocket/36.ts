@@ -83,7 +83,6 @@ const card: Card = {
 		de: "Seine Pollen haben einen solch strengen Geruch, dass es sich sogar manchmal selbst verwirrt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

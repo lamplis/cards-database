@@ -27,29 +27,29 @@ const card: Card = {
 		de: "Mittels Telepathie kann es mit Menschen kommunizieren. Mit seinen Daunen, die das Licht brechen, kann es sein Aussehen verändern."
 	},
 
-	attacks: [{
-		name: {
-			en: "Psychic Sphere",
-			fr: "Sphère Psy",
-			de: "Psychosphäre"
+	attacks: [
+		{
+			name: {
+				en: "Psychic Sphere",
+				fr: "Sphère Psy",
+			},
+			damage: 20,
+			effect: {
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			},
 		},
-
-		damage: 20
-	}, {
-		name: {
-			en: "Psychic Prism",
-			fr: "Prisme Psy",
-			de: "Psychoprisma"
+		{
+			name: {
+				en: "Psychic Prism",
+				fr: "Prisme Psy",
+			},
+			damage: "60+",
+			effect: {
+				en: "Flip a coin. If heads, this attack does 20 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+			},
 		},
-
-		damage: "60+",
-
-		effect: {
-			en: "Flip a coin. If heads, this attack does 20 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
-			de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
-		}
-	}],
+	],
 
 	weaknesses: [{
 		type: "Psychic",

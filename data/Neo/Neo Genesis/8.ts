@@ -81,7 +81,6 @@ const card: Card = {
 		de: "Man sagt ihm nach, dass es sich oft in Unterwasserhöhlen versteckt. Es kann durch Gähnen Strudel erzeugen."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

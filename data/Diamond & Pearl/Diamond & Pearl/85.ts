@@ -84,14 +84,13 @@ const card: Card = {
 		de: "Es steht ständig auf einem Fuß. Selbst wenn es angreift, stellt es sich nicht auf beide Beine."
 	},
 
-	thirdParty: {
-		cardmarket: 277584,
-		tcgplayer: 86172
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277584,
+				tcgplayer: 86172
+			}
 		},
 		{
 			type: "reverse"

@@ -10,7 +10,7 @@ const card: Card = {
 		fr: "Théffroi",
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 30,
 	types: ["Psychic"],

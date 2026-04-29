@@ -18,14 +18,13 @@ const card: Card = {
 		de: "Each player plays with his or her Prize cards face up for the rest of the game."
 	},
 
-
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 276403,
 				tcgplayer: 86075
-			},
+			}
 		},
 	],
 

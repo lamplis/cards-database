@@ -11,15 +11,13 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	effect: {
-		en: "Each player shuffles his or her hand into his or her deck and draws a new hand of the same number of cards."
-	},
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 88873,
-			},
+				cardmarket: 274261,
+				tcgplayer: 88873
+			}
 		},
 		{
 			type: "normal",
@@ -33,4 +31,3 @@ const card: Card = {
 }
 
 export default card
-

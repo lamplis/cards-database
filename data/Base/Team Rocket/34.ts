@@ -80,7 +80,6 @@ const card: Card = {
 		de: "Einige Forscher haben die Hypothese aufgestellt, dass es sich bei Lektrobal nicht um ein Wesen mit einem Körper handelt, sondern eine Energieform."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

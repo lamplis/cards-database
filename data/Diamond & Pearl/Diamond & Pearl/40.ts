@@ -91,14 +91,13 @@ const card: Card = {
 		de: "Es lebt in kalten Gebieten in Gruppen von 4 oder 5 PKMN, die bei der Jagd großes Geschick zeigen."
 	},
 
-	thirdParty: {
-		cardmarket: 277539,
-		tcgplayer: 90531
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277539,
+				tcgplayer: 90531
+			}
 		},
 		{
 			type: "reverse"

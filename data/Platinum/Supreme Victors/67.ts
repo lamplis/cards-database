@@ -70,15 +70,10 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "Its sturdy legs give it sure footing, even in mud. It burrows into dirt to sleep."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 87240,
 				cardmarket: 278758
 			}
 		},

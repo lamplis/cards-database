@@ -71,19 +71,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It moves by spinning on its foot. It is a rare Pokémon that was discovered in ancient ruins.",
-		de: "Es bewegt sich, indem es sich auf seinem Fuß dreht. Ein seltenes PKMN, das in alten Ruinen lebte."
-	},
-
-	thirdParty: {
-		cardmarket: 277962,
-		tcgplayer: 83716
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277962,
+				tcgplayer: 83716
+			}
 		},
 		{
 			type: "reverse"

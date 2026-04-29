@@ -63,11 +63,6 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "Lives about three feet underground, where it feeds on plant roots. It sometimes appears above ground.",
-	},
-
-
 	variants: [
 		{
 			type: "normal",

@@ -76,16 +76,11 @@ const card: Card = {
 			value: "-20"
 		},
 	],
-	description: {
-		en: "Because it moves so quickly, it sometimes becomes unseeable. It congregates around tree sap."
-	},
 
-	retreat: 0,
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 87787,
 				cardmarket: 278764
 			}
 		},

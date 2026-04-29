@@ -24,7 +24,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Drowzee",
-		fr: "Soporifik"
+		fr: "Soporifik",
+		es: "Drowzee",
+		it: "Drowzee",
+		pt: "Drowzee",
+		de: "Traumato"
 	},
 
 	abilities: [{

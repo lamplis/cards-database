@@ -35,27 +35,34 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless", "Colorless"],
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
 			name: {
 				en: "Skill Dive",
-				de: "Geübter Sturzflug"
+				fr: "Plongeon Contrôlé"
 			},
 			effect: {
 				en: "This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				de: "Diese Attacke fügt 1 Pokémon deines Gegners 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
-			},
+				fr: "Cette attaque inflige 50 dégâts à l'un des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			}
 		},
 		{
-			cost: ["Lightning", "Colorless", "Colorless"],
+			cost: [
+				"Lightning",
+				"Colorless",
+				"Colorless",
+			],
 			name: {
 				en: "Thunder Blast",
-				de: "Donnerkeil"
+				fr: "Grondement de Tonnerre"
 			},
 			effect: {
 				en: "Discard a Lightning Energy from this Pokémon",
-				de: "Lege 1 {L}-Energie von diesem Pokémon auf deinen Ablagestapel."
+				fr: "Défaussez une Énergie {L} de ce Pokémon."
 			},
-			damage: 140,
+			damage: 140
 		},
 	],
 

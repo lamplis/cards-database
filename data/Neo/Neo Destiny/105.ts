@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Du kannst diese Karte nicht spielen, wenn du fünf oder mehr Karten auf deiner Hand hast (einschließlich dieser hier). Ziehe so viele Karten, bis du genau vier Karten auf deiner Hand hast."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

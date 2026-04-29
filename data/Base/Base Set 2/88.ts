@@ -52,7 +52,6 @@ const card: Card = {
 		en: "Its newly grown legs prevent it from running. It appears to prefer swimming over trying to stand.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -78,19 +78,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It cheers on friends with pom-poms made of sparks. It drains power from telephone poles.",
-		de: "Es feuert Freunde mit Pompons an, die aus Funken bestehen. Es holt sich Energie aus Telegrafenmasten."
-	},
-
-	thirdParty: {
-		cardmarket: 278077,
-		tcgplayer: 88169
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278077,
+				tcgplayer: 88169
+			}
 		},
 		{
 			type: "reverse"

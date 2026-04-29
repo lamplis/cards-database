@@ -82,14 +82,13 @@ const card: Card = {
 		de: "Ein sehr stolzes Pokémon. Für Fans ist die Größe des Juwels auf seiner Stirn Anlass für Diskussionen."
 	},
 
-	thirdParty: {
-		cardmarket: 278217,
-		tcgplayer: 87986
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278217,
+				tcgplayer: 87986
+			}
 		},
 		{
 			type: "reverse"

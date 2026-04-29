@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Alola-Sandamer GX"
 	},
 
-	illustrator: "5ban Graphics",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Water"],

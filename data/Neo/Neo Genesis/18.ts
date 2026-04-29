@@ -85,7 +85,6 @@ const card: Card = {
 		de: "Es beherrscht einen geheimen, verheerenden Trick. Es reibt sein brennendes Fell aneinander, um so riesige Explosionen auszulösen."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

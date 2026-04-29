@@ -79,10 +79,9 @@ const card: Card = {
 		de: "Es verwendet seine hoch entwickelten psychischen Kräfte, um seine Gegner zu besiegen, bevor diese überhaupt Zeit zum Denken haben."
 	},
 
-
 	variants: [
 		{
-			type: "holo",
+			type: "normal",
 			thirdParty: {
 				cardmarket: 274761,
 				tcgplayer: 89167

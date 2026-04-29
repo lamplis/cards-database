@@ -8,8 +8,8 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Common",
-	category: "Pokemon",
+	rarity: "Black Star Promo",
+	category: "Trainer",
 	set: Set,
 
 	dexId: [

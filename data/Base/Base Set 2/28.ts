@@ -78,7 +78,6 @@ const card: Card = {
 		en: "Very protective of its sprawling territory, this Pokémon will fiercely peck at any intruder.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

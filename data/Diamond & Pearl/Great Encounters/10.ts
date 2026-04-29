@@ -86,19 +86,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It ensnares prey by extending arms made of vines. Losing arms to predators does not trouble it.",
-		de: "Es umwickelt Beute, indem es seine Arme, die aus Ranken bestehen, verlängert."
-	},
-
-	thirdParty: {
-		cardmarket: 277912,
-		tcgplayer: 89751
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 277912,
+				tcgplayer: 89751
+			}
 		},
 		{
 			type: "reverse"

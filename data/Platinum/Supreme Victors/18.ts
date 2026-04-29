@@ -77,16 +77,11 @@ const card: Card = {
 	],
 	retreat: 4,
 
-	description: {
-		en: "It has volcanoes on its back. If magma builds up in its body, it shudders, then erupts violently."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				cardmarket: 278709,
-				tcgplayer: 84094,
+				cardmarket: 278709
 			}
 		},
 		{
