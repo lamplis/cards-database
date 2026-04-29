@@ -88,7 +88,6 @@ const card: Card = {
 		de: "Es kann mehr als einen Viertelliter Blut auf einmal trinken. Wenn es zuviel Blut saugt, wird es zu schwer und fliegt nur noch unbeholfen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -109,4 +108,3 @@ const card: Card = {
 }
 
 export default card
-

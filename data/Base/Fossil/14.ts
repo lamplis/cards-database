@@ -69,7 +69,6 @@ const card: Card = {
 		de: "Sein langer Schweif dient ihm als Erdung zum Schutz vor seiner eigenen Hochspannung."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

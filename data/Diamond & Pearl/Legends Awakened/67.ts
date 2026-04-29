@@ -87,14 +87,13 @@ const card: Card = {
 		de: "Es bewegt sich so schnell, dass es manchmal unsichtbar zu sein scheint. Es liebt Baumsaft."
 	},
 
-	thirdParty: {
-		cardmarket: 278216,
-		tcgplayer: 87786
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278216,
+				tcgplayer: 87786
+			}
 		},
 		{
 			type: "reverse"

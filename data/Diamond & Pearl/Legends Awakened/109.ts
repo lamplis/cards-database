@@ -74,14 +74,13 @@ const card: Card = {
 		de: "Seine Nase ist ein Magnet. Daher sieht das PKMN immer nach Norden."
 	},
 
-	thirdParty: {
-		cardmarket: 278258,
-		tcgplayer: 87801
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278258,
+				tcgplayer: 87801
+			}
 		},
 		{
 			type: "reverse"

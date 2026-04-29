@@ -73,14 +73,13 @@ const card: Card = {
 		de: "Seine Körpertemperatur liegt bei etwa 600 Grad. Ist es gesund, atmet es gelbe Flammen aus."
 	},
 
-	thirdParty: {
-		cardmarket: 277717,
-		tcgplayer: 87005
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277717,
+				tcgplayer: 87005
+			}
 		},
 		{
 			type: "reverse",

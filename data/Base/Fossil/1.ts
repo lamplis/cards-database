@@ -81,7 +81,6 @@ const card: Card = {
 		de: "Ein wildes Pokémon aus der Urzeit, das dem Gegner mit seinen sägeartigen Fangzähnen an die Gurgel geht."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

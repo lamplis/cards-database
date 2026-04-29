@@ -66,11 +66,6 @@ const card: Card = {
 	],
 	retreat: 1,
 
-
-	description: {
-		en: "After lulling its enemies with its large eyes, this Pokémon sings them to sleep with a relaxing melody.",
-	},
-
 	variants: [
 		{
 			type: "normal",

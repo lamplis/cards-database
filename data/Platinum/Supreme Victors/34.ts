@@ -76,15 +76,10 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "It gains the ability to see the aura of its opponents by honing its mind through starvation."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 87276,
 				cardmarket: 278725
 			}
 		},

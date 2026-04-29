@@ -71,7 +71,6 @@ const card: Card = {
 		en: "Its central core glows with the seven colors of the rainbow. Some people value this core as a gem.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

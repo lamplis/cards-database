@@ -50,10 +50,9 @@ const card: Card = {
 		de: "Aufgrund seiner ungewöhnlichen sternenförmigen Silhouette glauben Leute, dass es auf einem Meteor hierherkam."
 	},
 
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 274420,
 				tcgplayer: 84362

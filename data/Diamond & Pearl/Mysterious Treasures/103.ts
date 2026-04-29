@@ -77,14 +77,13 @@ const card: Card = {
 		de: "Es baut eine Falle, indem es ein Netz mit dünner, starker Seide spinnt. Es wartet still auf Beute."
 	},
 
-	thirdParty: {
-		cardmarket: 277732,
-		tcgplayer: 89457
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277732,
+				tcgplayer: 89457
+			}
 		},
 		{
 			type: "reverse",

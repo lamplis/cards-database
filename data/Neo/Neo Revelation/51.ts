@@ -76,7 +76,6 @@ const card: Card = {
 		de: "Es sammelt in seiner Muschel Beeren. Um Angriffe zu vermeiden, versteckt es sich zwischen Felsen und verhält sich ganz still."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -97,4 +96,3 @@ const card: Card = {
 }
 
 export default card
-

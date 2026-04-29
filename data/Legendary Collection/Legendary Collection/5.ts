@@ -65,7 +65,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Sometimes called \"The God of Destruction.\" Its wings are able to support it in spite of its massive weight."
+		en: "Sometimes called \"The God of Destruction.\" Its wings are able to support it in spite of its massive weight.",
 	},
 
 	variants: [

@@ -93,13 +93,12 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 278297
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278297
+			}
 		}
 	]
 }

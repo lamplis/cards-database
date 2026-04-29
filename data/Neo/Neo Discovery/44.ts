@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Der Strudel auf seinem Bauch bewegt sich in Wellen. Wenn man zu genau hinschaut, kann man Kopfweh bekommen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -105,4 +104,3 @@ const card: Card = {
 }
 
 export default card
-

@@ -84,14 +84,13 @@ const card: Card = {
 		de: "Es ist so scheu, dass es sich nur bewegt, wenn es sich in einem Schwarm befindet."
 	},
 
-	thirdParty: {
-		cardmarket: 278253,
-		tcgplayer: 86704
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278253,
+				tcgplayer: 86704
+			}
 		},
 		{
 			type: "reverse"

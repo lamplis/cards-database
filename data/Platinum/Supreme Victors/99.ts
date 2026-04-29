@@ -70,15 +70,10 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "The trio is together from birth. It constantly gathers honey from flowers to please Vespiquen."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 84396,
 				cardmarket: 278790
 			}
 		},

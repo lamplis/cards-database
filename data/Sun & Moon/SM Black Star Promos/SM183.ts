@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Pikachu"
 	},
 
-	illustrator: "Aya Kusube",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Lightning"],

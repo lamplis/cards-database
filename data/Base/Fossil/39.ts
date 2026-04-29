@@ -86,7 +86,6 @@ const card: Card = {
 		de: "Im Schlund von Vulkanen anzutreffen, aber extrem schwer auszumachen. Dieses Pokémon wird nur höchst selten eingefangen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

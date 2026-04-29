@@ -66,17 +66,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Once it takes aim at its foe, it makes a headlong charge. It is famous for its violent nature.",
-		de: "Sobald es einen Gegner ins Visier genommen hat, rennt es mit dem Kopf voran auf ihn zu."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 89765,
-				cardmarket: 278519
+				cardmarket: 278519,
+				tcgplayer: 89765
 			}
 		},
 		{

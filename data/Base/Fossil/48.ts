@@ -76,7 +76,6 @@ const card: Card = {
 		de: "Erscheint in schmutzigen Gegenden. Nährt sich bestens vom verunreinigten Klärschlamm, der aus Fabriken abgepumpt wird."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

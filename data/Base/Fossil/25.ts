@@ -78,7 +78,6 @@ const card: Card = {
 		de: "Ein Pokémon, das von Jägern fast ausgerottet wurde. Es kann Menschen übers Wasser transportieren."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

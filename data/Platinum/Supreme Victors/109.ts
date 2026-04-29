@@ -61,15 +61,10 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "Its legs are short. Whenever it stumbles, its stiff antennae clack with a xylophone-like sound."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 86529,
 				cardmarket: 278800
 			}
 		},

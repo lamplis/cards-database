@@ -83,16 +83,11 @@ const card: Card = {
 	],
 	retreat: 4,
 
-	description: {
-		en: "It can launch a rock held in its hand like a missile by tightening then expanding muscles instantly."
-	},
-
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
-				cardmarket: 278701,
-				tcgplayer: 88746,
+				cardmarket: 278701
 			}
 		},
 		{

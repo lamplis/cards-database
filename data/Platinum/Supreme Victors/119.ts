@@ -67,16 +67,11 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "Mushrooms named tochukaso grow on its back. They grow along with the host Paras."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 87952,
-				cardmarket: 278810
+				cardmarket: 278729
 			}
 		},
 		{

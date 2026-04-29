@@ -65,17 +65,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It digs into the ground with its tail and makes a mazelike nest. It can fly just a little.",
-		de: "Es gräbt sich mit seinem Schweif in die Erde und baut ein labyrinthartiges Nest. Es kann kaum fliegen."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 85011,
-				cardmarket: 278494
+				cardmarket: 278494,
+				tcgplayer: 85011
 			}
 		},
 		{

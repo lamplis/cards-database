@@ -87,7 +87,6 @@ const card: Card = {
 		de: "Wenn sein gruseliges Geheule zu hören ist, flüchten andere Pokémon zitternd in ihre Schlupfwinkel zurück."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -108,4 +107,3 @@ const card: Card = {
 }
 
 export default card
-

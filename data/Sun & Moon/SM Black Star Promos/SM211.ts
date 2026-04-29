@@ -11,8 +11,8 @@ const card: Card = {
 		de: "Glurak GX"
 	},
 
-	illustrator: "aky CG Works",
-	rarity: "Promo",
+	illustrator: undefined,
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	set: Set,
 

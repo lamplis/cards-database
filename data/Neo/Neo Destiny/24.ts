@@ -89,7 +89,6 @@ const card: Card = {
 		de: "Die Anzahl der Punkte auf seinem Rücken steigt und sinkt mit der Anzahl Sterne, die am Nachthimmel zu sehen sind."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

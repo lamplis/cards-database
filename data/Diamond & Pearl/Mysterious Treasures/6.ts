@@ -91,14 +91,13 @@ const card: Card = {
 		de: "Dieses PKMN fand man bei Grabungen auf einer Baustelle, an deren Ort es 2 000 Jahre geschlafen hatte."
 	},
 
-	thirdParty: {
-		cardmarket: 277635,
-		tcgplayer: 83992
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277635,
+				tcgplayer: 83992
+			}
 		},
 		{
 			type: "reverse",

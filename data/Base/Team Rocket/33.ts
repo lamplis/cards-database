@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Wie es sich für ein legendäres Pokémon gehört, hat es viele seltsame Fähigkeiten, darunter auch, es regnen oder schneien zu lassen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

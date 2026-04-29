@@ -80,7 +80,6 @@ const card: Card = {
 		de: "Um viele Giftstacheln abschießen zu können, muss es seinen Körper zuschwellen, indem es fast 10 Liter Wasser auf einmal trinkt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -101,4 +100,3 @@ const card: Card = {
 }
 
 export default card
-

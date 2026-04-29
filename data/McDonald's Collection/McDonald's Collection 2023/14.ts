@@ -26,18 +26,24 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless"],
+			cost: [
+				"Colorless",
+			],
 			name: {
 				en: "Touring",
-				de: "Spritztour"
+				fr: "Virée Touristique"
 			},
 			effect: {
 				en: "Draw 2 cards.",
-				de: "Ziehe 2 Karten."
-			},
+				fr: "Piochez 2 cartes."
+			}
 		},
 		{
-			cost: ["Colorless", "Colorless", "Colorless"],
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
 			name: {
 				en: "Speed Attack",
 				fr: "Attaque Rapide",
@@ -46,7 +52,7 @@ const card: Card = {
 				pt: "Ataque Veloz",
 				de: "Tempoangriff"
 			},
-			damage: 100,
+			damage: 100
 		},
 	],
 

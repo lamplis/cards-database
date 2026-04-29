@@ -75,11 +75,6 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "It has a violent disposition and stabs foes with its horn, which oozes poison upon impact.",
-		de: "Es ist aggressiv und greift seine Gegner mit dem Horn an, welches bei Berührung Gift absondert."
-	},
-
 	variants: [
 		{
 			type: "normal",

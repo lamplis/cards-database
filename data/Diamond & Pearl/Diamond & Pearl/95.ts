@@ -81,14 +81,13 @@ const card: Card = {
 		de: "Sein Körper ist von einer dicken Haut umgeben und es kann wackelige Gebäude zum Einsturz bringen."
 	},
 
-	thirdParty: {
-		cardmarket: 277594,
-		tcgplayer: 88742
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277594,
+				tcgplayer: 88742
+			}
 		},
 		{
 			type: "reverse"

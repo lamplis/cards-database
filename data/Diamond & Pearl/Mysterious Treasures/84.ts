@@ -66,14 +66,13 @@ const card: Card = {
 		de: "Viele von ihnen leben auf Bergpfaden, halb vergraben und Bergsteiger beobachtend."
 	},
 
-	thirdParty: {
-		cardmarket: 277713,
-		tcgplayer: 85690
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277713,
+				tcgplayer: 85690
+			}
 		},
 		{
 			type: "reverse",

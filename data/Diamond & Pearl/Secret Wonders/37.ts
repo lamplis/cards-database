@@ -82,18 +82,13 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "Its fangs rip through sheet iron. It swims at 75 mph and is known as \"The Bully of the Sea.\"",
-	},
-
-	thirdParty: {
-		cardmarket: 277790,
-		tcgplayer: 89099
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277790,
+				tcgplayer: 89099
+			}
 		},
 		{
 			type: "reverse",

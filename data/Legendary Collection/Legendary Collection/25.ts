@@ -65,7 +65,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When it locks eyes with an enemy, it will use a mix of psi moves such as Hypnosis and Confusion."
+		en: "When it locks eyes with an enemy, it will use a mix of psi moves such as Hypnosis and Confusion.",
 	},
 
 	variants: [

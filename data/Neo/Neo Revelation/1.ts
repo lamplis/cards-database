@@ -86,7 +86,6 @@ const card: Card = {
 		de: "Das helle Licht auf seiner Schwanzspitze kann von weitem gesehen werden. Es dient schon seit langen Zeiten als Signalgeber."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

@@ -87,7 +87,6 @@ const card: Card = {
 		de: "Wie besessen speit es Feuer wie ein Vulkan und versucht alles in seinem Blickfeld zu verbrennen."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

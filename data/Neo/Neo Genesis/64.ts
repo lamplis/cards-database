@@ -68,7 +68,6 @@ const card: Card = {
 		de: "Während es frei im offenen Ozean schwimmt, kann es aus dem Wasser und über die Wellen fliegen, falls es genügend Geschwindigkeit entwickelt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

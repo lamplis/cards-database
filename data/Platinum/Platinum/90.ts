@@ -66,17 +66,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It forcefully squirts water. The water jet never misses prey even if the REMORAID is deep in the sea.",
-		de: "Sein starker Wasserstrahl verfehlt seine Gegner auch dann nicht, wenn das REMORAID unter Wasser ist."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 88698,
-				cardmarket: 278511
+				cardmarket: 278511,
+				tcgplayer: 88698
 			}
 		},
 		{

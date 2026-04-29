@@ -78,14 +78,13 @@ const card: Card = {
 		de: "Spannt es seinen Körper und seine Flügel, sieht es aus wie ein Jet. Es fliegt mit Schallgeschwindigkeit."
 	},
 
-	thirdParty: {
-		cardmarket: 277638,
-		tcgplayer: 85621
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277638,
+				tcgplayer: 85621
+			}
 		},
 		{
 			type: "reverse",

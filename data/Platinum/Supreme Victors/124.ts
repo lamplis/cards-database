@@ -53,15 +53,10 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "To protect itself from attackers, it curls up into a ball. It lives in arid regions with minimal rainfall."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 88925,
 				cardmarket: 278815
 			}
 		},

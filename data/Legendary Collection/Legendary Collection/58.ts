@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A prehistoric Pokémon that died out when its heavy shell made it impossible for it to catch prey."
+		en: "A prehistoric Pokémon that died out when its heavy shell made it impossible for it to catch prey.",
 	},
 
 	variants: [

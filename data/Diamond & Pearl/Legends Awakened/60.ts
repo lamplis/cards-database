@@ -91,14 +91,13 @@ const card: Card = {
 		de: "Es zieht Energie aus dem Licht der Sterne. Je mehr Sterne zu sehen sind, desto größer ist sein Muster."
 	},
 
-	thirdParty: {
-		cardmarket: 278209,
-		tcgplayer: 86694
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278209,
+				tcgplayer: 86694
+			}
 		},
 		{
 			type: "reverse"

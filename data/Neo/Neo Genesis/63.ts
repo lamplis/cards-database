@@ -82,7 +82,6 @@ const card: Card = {
 		de: "Es ist sehr furchtsam. Es hat Angst, alleine wegzugehen, aber in der Gruppe ist es aktiv."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

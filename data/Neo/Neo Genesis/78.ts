@@ -78,7 +78,6 @@ const card: Card = {
 		de: "Es kann plötzlich aus dem Himmel fallen. Falls es von einem Habitak angegriffen wird, schüttelt es seine Blätter gewaltsam."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

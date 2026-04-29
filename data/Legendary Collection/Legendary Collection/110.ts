@@ -11,10 +11,6 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	effect: {
-		en: "Remove up to 2 damage counters from 1 of your Pokémon."
-	},
-
 	variants: [
 		{
 			type: "reverse",

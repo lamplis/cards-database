@@ -77,7 +77,6 @@ const card: Card = {
 		de: "Um nicht vom Wind weggeblasen zu werden, sammeln sie sich in Scharen. Sie wissen eine leichte Brise jedoch durchaus zu schätzen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

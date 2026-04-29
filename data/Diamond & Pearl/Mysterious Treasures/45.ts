@@ -84,14 +84,13 @@ const card: Card = {
 		de: "Sein Körper ist mit einem weißen Fell bedeckt, das es im Schnee fast unsichtbar für Gegner macht."
 	},
 
-	thirdParty: {
-		cardmarket: 277674,
-		tcgplayer: 84790
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277674,
+				tcgplayer: 84790
+			}
 		},
 		{
 			type: "reverse",

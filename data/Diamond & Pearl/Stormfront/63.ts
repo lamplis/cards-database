@@ -85,14 +85,13 @@ const card: Card = {
 		de: "Dieses PKMN frisst das Erdreich. Hat es einen Berg verspeist, schläft es ein, um zu wachsen."
 	},
 
-	thirdParty: {
-		cardmarket: 278361,
-		tcgplayer: 86643
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278361,
+				tcgplayer: 86643
+			}
 		},
 		{
 			type: "reverse"

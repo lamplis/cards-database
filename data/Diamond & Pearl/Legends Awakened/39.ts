@@ -85,14 +85,13 @@ const card: Card = {
 		de: "Im Laufe der Jahrtausende, die es unterirdisch lebte, wurde sein Körper durch Druck u. Wärme hart."
 	},
 
-	thirdParty: {
-		cardmarket: 278188,
-		tcgplayer: 88677
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278188,
+				tcgplayer: 88677
+			}
 		},
 		{
 			type: "reverse"

@@ -65,7 +65,6 @@ const card: Card = {
 		en: "After birth, its back swells and hardens into a shell. It powerfully sprays foam from its mouth.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

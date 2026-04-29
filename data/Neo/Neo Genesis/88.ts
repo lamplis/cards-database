@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Schaue dir die sieben obersten Karten deines Decks an. Falls darunter Trainerkarten sind, kannst du eine von diesen deinem Gegner zeigen und auf deine Hand nehmen. Mische dein Deck danach. Du kannst in diesem Zug keine weiteren Trainerkarten mehr spielen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -63,7 +63,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It loves nothing better than to be left alone, and so sometimes ends up being manipulated by unscrupulous people."
+		en: "It loves nothing better than to be left alone, and so sometimes ends up being manipulated by unscrupulous people.",
 	},
 
 	variants: [

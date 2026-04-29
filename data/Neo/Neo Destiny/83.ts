@@ -73,7 +73,6 @@ const card: Card = {
 		de: "Es ist sehr klein und nicht besonders kräftig. Wenn es angegriffen wird, kann es nicht viel mehr tun, als seine Blätter zu rütteln und zu hoffen, dass das den Feind vertreibt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

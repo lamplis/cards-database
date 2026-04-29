@@ -76,11 +76,6 @@ const card: Card = {
 	],
 	retreat: 1,
 
-
-	description: {
-		en: "The poison scales on its wings are waterproof, allowing this Pokémon to be active even on rainy days.",
-	},
-
 	variants: [
 		{
 			type: "normal",

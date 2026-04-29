@@ -82,10 +82,9 @@ const card: Card = {
 		de: "Dieses uralte Pokémon verwendet seine rasiermesserscharfen Klauen, um seine Opfer aufzuschlitzen und an ihr Blut heranzukommen."
 	},
 
-
 	variants: [
 		{
-			type: "holo",
+			type: "normal",
 			thirdParty: {
 				cardmarket: 274760,
 				tcgplayer: 89165

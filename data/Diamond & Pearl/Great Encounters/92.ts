@@ -71,19 +71,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It communicates with others by lighting up its rear at night. It loves ILLUMISE's sweet aroma.",
-		de: "Es kommuniziert mit anderen, indem es sein Hinterteil zum Leuchten bringt. Es liebt ILLUMISEs Duft."
-	},
-
-	thirdParty: {
-		cardmarket: 277994,
-		tcgplayer: 90399
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277994,
+				tcgplayer: 90399
+			}
 		},
 		{
 			type: "reverse"

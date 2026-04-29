@@ -73,11 +73,6 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "With its huge and magnificent wings, it can keep aloft without ever having to land for rest.",
-	},
-
-
 	variants: [
 		{
 			type: "normal",

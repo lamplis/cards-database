@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Durchsuche deinen Ablagestapel nach bis zu 3 Karten in beliebiger Kombination aus Pokémon- und Basis-Energiekarten. Zeige sie deinem Gegner und mische sie in dein Deck."
 	},
 
-	thirdParty: {
-		cardmarket: 277742,
-		tcgplayer: 87750
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277742,
+				tcgplayer: 87750
+			}
 		},
 		{
 			type: "reverse",

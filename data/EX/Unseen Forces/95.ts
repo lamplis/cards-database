@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Remove 2 damage counters from 1 of your Pokémon (remove 1 damage counter if that Pokémon has only 1)."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 88337,
-				cardmarket: 276741
-			},
+				cardmarket: 276741,
+				tcgplayer: 88337
+			}
 		},
 		{
 			type: "reverse",

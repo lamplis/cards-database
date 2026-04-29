@@ -81,7 +81,6 @@ const card: Card = {
 		de: "Obwohl es tagsüber unheimlich aktiv ist, bewegt es sich gar nicht mehr, sobald die Sonne untergegangen ist."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -76,17 +76,12 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "It can see clearly through walls to track down its prey and seek its lost young.",
-		de: "Es kann durch Wände sehen und spürt auf diese Weise Beute und verlorengegangene Junge auf."
-	},
-
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
-				tcgplayer: 86949,
-				cardmarket: 278877
+				cardmarket: 278877,
+				tcgplayer: 86949
 			}
 		},
 		{

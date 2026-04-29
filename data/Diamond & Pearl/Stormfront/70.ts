@@ -87,14 +87,13 @@ const card: Card = {
 		de: "Es lebt zusammen mit anderen in Wäldern. In seinen Backentaschen speichert es Elektrizität."
 	},
 
-	thirdParty: {
-		cardmarket: 278368,
-		tcgplayer: 88090
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278368,
+				tcgplayer: 88090
+			}
 		},
 		{
 			type: "reverse"

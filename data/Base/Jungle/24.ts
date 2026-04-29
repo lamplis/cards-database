@@ -93,7 +93,6 @@ const card: Card = {
 		de: "Auf der Jagd fliegt es mit einer hohen Geschwindigkeit knapp über der Wasseroberfläche, um nichtsahnende Beute wie z.B. Karpador einzufangen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

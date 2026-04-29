@@ -76,19 +76,17 @@ const card: Card = {
 
 
 	description: {
-		en: "Its lovely scales are described as rainbow colored. They change color depending on the viewing angle."
+		en: "Its lovely scales are described as rainbow colored. They change color depending on the viewing angle.",
 	},
 
 	variants: [
 		{
 			type: "reverse",
 			thirdParty: {
-				tcgplayer: 87456,
 				cardmarket: 278689
 			}
-		},
-	],
-
+		}
+	]
 }
 
 export default card

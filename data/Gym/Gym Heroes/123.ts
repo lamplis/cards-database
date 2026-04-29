@@ -13,15 +13,13 @@ const card: Card = {
 
 	cameoDexIds: [116],
 
-	effect: {
-		en: "You and your opponent play a game of Rock-Paper-Scissors. The winner shuffles his or her hand into his or her deck and draws a new hand of 5 cards. (If you don't know how to play Rock-Paper-Scissors, flip a coin to decide who's the winner.)"
-	},
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 87527,
-			},
+				cardmarket: 274259,
+				tcgplayer: 87527
+			}
 		},
 		{
 			type: "normal",

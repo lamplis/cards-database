@@ -86,7 +86,6 @@ const card: Card = {
 		de: "Den mittleren Teil seines Körpers nennt man Kern. Jedesmal, wenn man ihn sieht, scheint er in einer anderen Farbe zu glühen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -107,4 +106,3 @@ const card: Card = {
 }
 
 export default card
-

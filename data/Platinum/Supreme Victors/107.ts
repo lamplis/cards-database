@@ -68,15 +68,10 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "Though it appears very elegant when swimming with fins unfurled, it can jab powerfully with its horn."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 85809,
 				cardmarket: 278798
 			}
 		},

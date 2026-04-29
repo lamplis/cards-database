@@ -91,10 +91,6 @@ const card: Card = {
 	suffix: "ex",
 	illustrator: "5ban Graphics",
 
-	thirdParty: {
-		cardmarket: 817331
-	},
-
 	variants: [
 		{
 			type: "holo",

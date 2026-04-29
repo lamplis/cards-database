@@ -61,7 +61,6 @@ const card: Card = {
 		de: "Ein sanftes grasendes Pokémon, das Reiter auf seinem Rücken duldet. Jeder Möchtegern-Reiter muss aber vorsichtig sein, um sich nicht zu verbrennen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

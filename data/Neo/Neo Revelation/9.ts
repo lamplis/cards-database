@@ -83,7 +83,6 @@ const card: Card = {
 		de: "Gelegentliche Winde treiben und verbreiten seine baumwollartigen Sporen über die ganze Welt und sorgen für mehr Nachwuchs."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

@@ -76,18 +76,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It races around the world to purify fouled water. It dashes away with the north wind.",
-	},
-
-	thirdParty: {
-		cardmarket: 277772,
-		tcgplayer: 89604
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277772,
+				tcgplayer: 89604
+			}
 		},
 		{
 			type: "reverse",

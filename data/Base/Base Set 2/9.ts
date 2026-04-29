@@ -74,7 +74,6 @@ const card: Card = {
 		en: "Formed by several Magnemites linked together. It frequently appears when sunspots flare up.",
 	},
 
-
 	variants: [
 		{
 			type: "holo",

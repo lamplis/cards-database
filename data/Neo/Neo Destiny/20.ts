@@ -83,7 +83,6 @@ const card: Card = {
 		de: "Immer wenn es gähnt, gibt das Muschas auf seinem Kopf ein Enzym frei, das es sofort klüger macht."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Wirf eine Münze. Ziehe bei „Kopf“ vier Karten."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

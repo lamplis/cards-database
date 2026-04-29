@@ -81,7 +81,6 @@ const card: Card = {
 		de: "Seine große Schere könnte 10.000 KP Schaden zufügen, wenn sie wegen ihrer Größe nicht so unhandlich wäre."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

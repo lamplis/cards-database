@@ -86,19 +86,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It has a steel-hard body. It intimidates foes by upraising its eye-patterned pincers.",
-		de: "Sein Körper ist stahlhart. Es bedroht seine Gegner, indem es die Augen auf seinen Scheren zeigt."
-	},
-
-	thirdParty: {
-		cardmarket: 278078,
-		tcgplayer: 88961
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278078,
+				tcgplayer: 88961
+			}
 		},
 		{
 			type: "reverse"

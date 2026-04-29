@@ -72,7 +72,6 @@ const card: Card = {
 		de: "Sein Schwanz hat ein eigenes Gehirn, das auf Anregungen wie zum Beispiel Gerüche reagieren kann. Viele, die das nicht erwartet haben, sind schon unvermutet gebissen worden."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

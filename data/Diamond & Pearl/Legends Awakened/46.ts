@@ -84,14 +84,13 @@ const card: Card = {
 		de: "Ein Vorfahre der PKMN, der aus einem Fossil neu belebt wurde. Es lebte im Meer und jagte mit Klauen."
 	},
 
-	thirdParty: {
-		cardmarket: 278195,
-		tcgplayer: 83561
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278195,
+				tcgplayer: 83561
+			}
 		},
 		{
 			type: "reverse"

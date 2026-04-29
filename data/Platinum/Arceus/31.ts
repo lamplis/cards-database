@@ -78,17 +78,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "The leaves that grow on its arms can slice down thick trees. It is without peer in jungle combat.",
-		de: "Die Blätter an seinen Armen können dicke Bäume fällen. Im Dschungelkampf gibt es kein stärkeres PKMN."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 88952,
-				cardmarket: 278902
+				cardmarket: 278902,
+				tcgplayer: 88952
 			}
 		},
 		{

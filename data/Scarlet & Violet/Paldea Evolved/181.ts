@@ -17,7 +17,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		fr: "Vous ne pouvez utiliser cette carte que s'il vous reste plus de cartes Récompense qu'à votre adversaire.\nSoignez 60 dégâts de l'un de vos Pokémon.",
+		fr: "Vous ne pouvez utiliser cette carte que s'il vous reste plus de cartes Récompense qu'à votre adversaire.\n\nSoignez 60 dégâts de l'un de vos Pokémon.",
 		en: "You can use this card only if you have more Prize cards remaining than your opponent.\n\nHeal 60 damage from 1 of your Pokémon.",
 		es: "Puedes usar esta carta solo si te quedan más cartas de Premio que a tu rival.\nCura 60 puntos de daño a uno de tus Pokémon.",
 		it: "Puoi usare questa carta solo se hai più carte Premio rimanenti del tuo avversario.\nCura uno dei tuoi Pokémon da 60 danni.",

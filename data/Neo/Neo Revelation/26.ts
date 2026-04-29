@@ -77,7 +77,6 @@ const card: Card = {
 		de: "Es tarnt sich selbst als Baum, um nicht angegriffen zu werden. Es mag kein Wasser und wird daher verschwinden, wenn es anfängt zu regnen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -98,4 +97,3 @@ const card: Card = {
 }
 
 export default card
-

@@ -20,14 +20,12 @@ const card: Card = {
 		de: "Wirf 1 Münze. Bei \"Kopf\" tausche 1 Verteidigendes Pokémon gegen 1 der Pokémon auf der Bank deines Gegners aus. Dein Gegner wählt aus, welches Verteidigende Pokémon getauscht wird."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 276273,
-				tcgplayer: 88239,
-			},
+				cardmarket: 276273
+			}
 		},
 		{
 			type: "reverse",

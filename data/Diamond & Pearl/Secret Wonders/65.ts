@@ -80,18 +80,13 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "It blooms when the weather warms. It floats in the sky to soak up as much sunlight as possible.",
-	},
-
-	thirdParty: {
-		cardmarket: 277818,
-		tcgplayer: 89256
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277818,
+				tcgplayer: 89256
+			}
 		},
 		{
 			type: "reverse",

@@ -91,7 +91,6 @@ const card: Card = {
 		de: "Sein ganzer Körper ist von einer stahlharten Muschel geschützt. Was darin lauert, ist bislang ein Geheimnis."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

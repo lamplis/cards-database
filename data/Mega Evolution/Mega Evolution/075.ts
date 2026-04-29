@@ -60,28 +60,31 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			thirdParty: {
-				cardmarket: 851146,
-				tcgplayer: 654414
-			}
+		thirdParty: {
+			cardmarket: 851146,
+			tcgplayer: 654414
+		},
 		},
 		{
 			type: "reverse",
-			thirdParty: {
-				cardmarket: 851146,
-				tcgplayer: 654414
-			}
+		thirdParty: {
+			cardmarket: 851146
+		},
 		},
 		{
 			type: "holo",
 			stamp: ["player-rewards-program"],
-			foil: "cosmos",
+			foil: "cosmos"
 		},
 		{
 			type: "normal",
 			stamp: ["player-rewards-program"],
+		thirdParty: {
+			cardmarket: 851146
+		},
 		}
 	],
+
 }
 
 export default card

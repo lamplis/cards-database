@@ -79,18 +79,13 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "It loves the honey of flowers and steals honey collected by COMBEE.",
-	},
-
-	thirdParty: {
-		cardmarket: 277786,
-		tcgplayer: 87580
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277786,
+				tcgplayer: 87580
+			}
 		},
 		{
 			type: "reverse",

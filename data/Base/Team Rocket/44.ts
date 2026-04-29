@@ -79,7 +79,6 @@ const card: Card = {
 		de: "Ein wildes, unkontrollierbares Pokémon. Wenn es galoppiert, sieht es wie ein Komet aus, der durch den Himmel streift."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

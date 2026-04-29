@@ -80,7 +80,6 @@ const card: Card = {
 		de: "Es benutzt das feine Haar, mit dem sein Körper bedeckt ist, um Luftströme zu spüren und die Aktionen seines Gegners zu erahnen."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

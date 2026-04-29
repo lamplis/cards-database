@@ -65,11 +65,6 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "Eats bugs in grassy areas. It has to flap its short wings at high speeds to stay airborne.",
-	},
-
-
 	variants: [
 		{
 			type: "normal",

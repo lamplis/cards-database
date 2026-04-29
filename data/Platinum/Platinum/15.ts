@@ -74,17 +74,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "The flowers all over its body burst into bloom if it is lovingly hugged and senses gratitude.",
-		de: "Wird es umarmt, empfindet es Dankbarkeit, was wiederum dazu führt, dass seine Blumen blühen."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"holo",
 			thirdParty: {
-				tcgplayer: 89107,
-				cardmarket: 278435
+				cardmarket: 278435,
+				tcgplayer: 89107
 			}
 		},
 		{

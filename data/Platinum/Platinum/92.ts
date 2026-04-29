@@ -73,17 +73,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live.",
-		de: "Es liebt Rachegefühle. Diese PKMN hängen sich an Dachrinnen von Häusern, in denen Rachsüchtige leben."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 89201,
-				cardmarket: 278513
+				cardmarket: 278513,
+				tcgplayer: 89201
 			}
 		},
 		{

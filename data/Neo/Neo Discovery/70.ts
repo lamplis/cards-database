@@ -62,7 +62,6 @@ const card: Card = {
 		de: "Sein Giftstachel ist sehr gefährlich. Sein buntgefärbter Körper soll seine Feinde warnen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -83,4 +82,3 @@ const card: Card = {
 }
 
 export default card
-

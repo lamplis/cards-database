@@ -69,19 +69,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Its shell is said to be stuffed with happiness that it shares with kindhearted people.",
-		de: "Seine Schale ist mit Glücksgefühlen gefüllt, die es mit gutherzigen Lebewesen teilt."
-	},
-
-	thirdParty: {
-		cardmarket: 277990,
-		tcgplayer: 89934
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277990,
+				tcgplayer: 89934
+			}
 		},
 		{
 			type: "reverse"

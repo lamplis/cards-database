@@ -84,18 +84,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It whips up sandstorms with powerful flaps of its wings. It is known as \"The Desert Spirit.\"",
-	},
-
-	thirdParty: {
-		cardmarket: 277758,
-		tcgplayer: 85525
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277758,
+				tcgplayer: 85525
+			}
 		},
 		{
 			type: "reverse",

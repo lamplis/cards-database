@@ -79,19 +79,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It swims as fast as a jet boat. The edges of its wings are sharp and can slice apart drifting ice.",
-		de: "Es schwimmt so schnell wie ein Rennboot. Seine Flügel haben scharfe Seiten und können Packeis schneiden."
-	},
-
-	thirdParty: {
-		cardmarket: 278066,
-		tcgplayer: 85198
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278066,
+				tcgplayer: 85198
+			}
 		},
 		{
 			type: "reverse"

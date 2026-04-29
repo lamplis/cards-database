@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Wenn sich bereits eine Karte mit diesem Namen im Spiel befindet, kannst du diese Karte nicht spielen. Jeder Spieler kann nicht mehr als 3 Pokémon auf der Bank haben. Wenn Riesiger Baumstamm ins Spiel kommt, legt jeder der Spieler so lange Pokémon (inklusive der an diese angelegte Karten) auf den Ablagestapel, bis sich nur noch 3 Pokémon auf der Bank befinden. (Du musst als erster ein Pokémon ablegen.)",
 	},
 
-	thirdParty: {
-		cardmarket: 276952,
-		tcgplayer: 85697
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276952,
+				tcgplayer: 85697
+			}
 		},
 		{
 			type: "normal",

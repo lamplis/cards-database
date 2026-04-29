@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Passimian"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	dexId: [766],
 
 	cameoDexIds: [817],

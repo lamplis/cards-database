@@ -56,17 +56,12 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "At rest, it looks just like a rock. Carelessly stepping on it will make it swing its fists angrily.",
-		de: "Ruhend sieht es fast wie ein Felsen aus. Tritt man auf KLEINSTEIN, wird es wütend mit den Fäusten wirbeln."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 85693,
-				cardmarket: 278937
+				cardmarket: 278937,
+				tcgplayer: 85693
 			}
 		},
 		{

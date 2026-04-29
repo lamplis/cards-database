@@ -50,11 +50,6 @@ const card: Card = {
 	],
 	retreat: 2,
 
-
-	description: {
-		en: "This Pokémon has a unique cry, as all three of its heads are always talking independently of one another.",
-	},
-
 	variants: [
 		{
 			type: "normal",
