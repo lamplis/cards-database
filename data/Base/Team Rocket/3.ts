@@ -86,7 +86,6 @@ const card: Card = {
 		de: "Ein aggressives Pokémon, das alles in seinem Blickfeld angreift."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

@@ -57,7 +57,6 @@ const card: Card = {
 		de: "Seine Schwanzflosse bauscht sich wie ein elegantes Abendkleid, was ihm den Spitznamen „Wasserkönigin“ verleiht."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

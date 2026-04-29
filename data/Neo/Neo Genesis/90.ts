@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Dein Gegner kann fünf Basis-Pokémon-, Evolutions- und/oder Basis-Energiekarten in seinem Ablagestapel auswählen. (Falls dein Gegner nicht so viele hat, wählt er alle oder keine.) Falls dein Gegner Karten auswählt, mischt er diese Karten in sein Deck. Unabhängig von seiner Entscheidung kannst du das ebenfalls tun und du kannst in diesem Zug keine weiteren Trainerkarten mehr spielen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

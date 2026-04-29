@@ -84,14 +84,13 @@ const card: Card = {
 		de: "Es gibt starken Magnetismus ab. Es steuert drei kleine Einheiten, die sich Mininasen nennen."
 	},
 
-	thirdParty: {
-		cardmarket: 278162,
-		tcgplayer: 88375
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278162,
+				tcgplayer: 88375
+			}
 		},
 		{
 			type: "reverse"

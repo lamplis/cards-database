@@ -85,7 +85,6 @@ const card: Card = {
 		de: "Es rollt beim Schwimmen seine langen Ohren ein, damit kein Wasser hineinkommt."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

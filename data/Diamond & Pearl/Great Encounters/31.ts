@@ -77,19 +77,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It grows by feeding on gases released by garbage. Though very rare, triplets have been found.",
-		de: "Es wächst, indem es Gase aufnimmt, die aus dem Müll aufsteigen. Selten kann man Drillinge von ihnen finden."
-	},
-
-	thirdParty: {
-		cardmarket: 277933,
-		tcgplayer: 90562
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277933,
+				tcgplayer: 90562
+			}
 		},
 		{
 			type: "reverse"

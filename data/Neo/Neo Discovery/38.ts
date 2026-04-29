@@ -79,7 +79,6 @@ const card: Card = {
 		de: "Seine unnatürlich angeordnete DNA wird von seiner Umgebung beeinflusst. Es entwickelt sich mit seiner Umwelt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -100,4 +99,3 @@ const card: Card = {
 }
 
 export default card
-

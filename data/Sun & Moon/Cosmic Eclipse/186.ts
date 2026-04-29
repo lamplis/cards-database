@@ -17,7 +17,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Défaussez 3 cartes du dessus du deck de chaque joueur.\n\nLorsque vous jouez cette carte, vous pouvez défausser 3 autres cartes de votre main. Dans ce cas, chaque joueur défausse ses Pokémon de Banc jusqu’à avoir 3 Pokémon de Banc. Votre adversaire défausse en premier.",
+		fr: "Défaussez 3 cartes du dessus du deck de chaque joueur.\n\nLorsque vous jouez cette carte, vous pouvez défausser 3 autres cartes de votre main. Dans ce cas, chaque joueur défausse ses Pokémon de Banc jusqu'à avoir 3 Pokémon de Banc. Votre adversaire défausse en premier.",
 		en: "Discard 3 cards from the top of each player’s deck.\n\nWhen you play this card, you may discard 3 other cards from your hand. If you do, each player discards their Benched Pokémon until they have 3 Benched Pokémon. Your opponent discards first.",
 		es: "Descarta 3 cartas de la parte superior de la baraja de cada jugador.\n\nCuando juegues esta carta, puedes descartar otras 3 cartas de tu mano. Si lo haces, cada jugador descarta sus Pokémon en Banca hasta tener 3 Pokémon en Banca. Tu rival descarta primero.",
 		it: "Scarta le prime tre carte del mazzo di ciascun giocatore.\n\nQuando giochi questa carta, puoi scartare altre tre carte che hai in mano. Se lo fai, ciascun giocatore scarta i propri Pokémon in panchina fino ad averne tre. Il tuo avversario scarta per primo.",

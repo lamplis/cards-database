@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Wirf zwei Münzen. Wenn beide „Kopf“ zeigen, nimm eine Baby-Pokémon-, Basis-Pokémon- oder Entwicklungskarte aus deinem Ablagestapel zurück auf deine Hand. Wenn beide „Zahl“ zeigen, nimm eine Trainerkarte aus deinem Ablagestapel auf deine Hand."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -40,4 +39,3 @@ const card: Card = {
 }
 
 export default card
-

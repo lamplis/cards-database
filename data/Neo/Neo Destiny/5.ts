@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Dank seiner kraftvollen Muskeln kann es sich viel schneller fortbewegen, als man bei so einem dicken Bauch annimmt."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

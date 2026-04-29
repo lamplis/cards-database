@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Wähle 1 deiner Basis-Pokémon im Spiel. Falls du eine Phase 1 oder Phase 2 Karte auf der Hand hast, die sich aus diesem Pokémon entwickelt, lege sie auf das Basis-Pokémon. (Das zählt als Entwickeln des gewählten Pokémon.)"
 	},
 
-	thirdParty: {
-		cardmarket: 277060,
-		tcgplayer: 88591
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277060,
+				tcgplayer: 88591
+			}
 		},
 		{
 			type: "normal",

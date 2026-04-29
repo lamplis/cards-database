@@ -91,14 +91,13 @@ const card: Card = {
 		de: "Seine großen Fächer erzeugen Böen, die eine Geschwindigkeit von 30 m/sek erreichen können."
 	},
 
-	thirdParty: {
-		cardmarket: 277513,
-		tcgplayer: 89157
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277513,
+				tcgplayer: 89157
+			}
 		},
 		{
 			type: "reverse"

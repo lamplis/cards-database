@@ -72,7 +72,6 @@ const card: Card = {
 		de: "Viele Menschen finden es so niedlich und versuchen es in den Arm zu nehmen, ziehen sich dann aber Verbrennungen von seinem Schweif zu."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

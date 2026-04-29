@@ -76,19 +76,13 @@ const card: Card = {
 
 	retreat: 3,
 
-	description: {
-		en: "The larger pincer has 10,000-horsepower strength. However, it is so heavy, it is difficult to aim.",
-		de: "Die großen Scheren haben eine Stärke von 10 000 PS. Aber sie sind schwer und kaum zu handhaben."
-	},
-
-	thirdParty: {
-		cardmarket: 277922,
-		tcgplayer: 86457
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277922,
+				tcgplayer: 86457
+			}
 		},
 		{
 			type: "reverse"

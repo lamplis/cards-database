@@ -84,14 +84,13 @@ const card: Card = {
 		de: "Es löst in den Bergen, wo ewiger Schnee liegt, Blizzards aus. Es ist ein scheußlicher Schneemann."
 	},
 
-	thirdParty: {
-		cardmarket: 277648,
-		tcgplayer: 83440
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277648,
+				tcgplayer: 83440
+			}
 		},
 		{
 			type: "reverse",

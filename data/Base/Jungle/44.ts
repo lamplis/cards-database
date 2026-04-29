@@ -91,7 +91,6 @@ const card: Card = {
 		de: "Immer konkurrenzbereit jagt dieses Pokémon hinter jedem sich schnell bewegenden Objekt in der Hoffnung auf ein Rennen hinterher."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

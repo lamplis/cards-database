@@ -75,14 +75,13 @@ const card: Card = {
 		de: "Ein PKMN, das aus 108 Geistern besteht. Es ist an einen Spalt in einem mysteriösen Stein gebunden."
 	},
 
-	thirdParty: {
-		cardmarket: 278165,
-		tcgplayer: 89465
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278165,
+				tcgplayer: 89465
+			}
 		},
 		{
 			type: "reverse"

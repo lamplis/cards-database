@@ -73,19 +73,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It has a gutsy spirit that makes it bravely take on tough foes. It flies in search of warm climates.",
-		de: "Es ist sehr mutig und stellt sich auch starken Gegnern. Es sucht ständig nach warmen Regionen."
-	},
-
-	thirdParty: {
-		cardmarket: 278273,
-		tcgplayer: 89735
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278273,
+				tcgplayer: 89735
+			}
 		},
 		{
 			type: "reverse"

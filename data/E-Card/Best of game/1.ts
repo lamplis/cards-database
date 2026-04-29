@@ -63,6 +63,14 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 275411,
 				tcgplayer: 85106
+			}
+		},
+		{
+			type: "reverse",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 275411,
+				tcgplayer: 85106
 			},
 		},
 		{

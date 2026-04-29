@@ -69,7 +69,6 @@ const card: Card = {
 		en: "Often hides in water to stalk unweary prey. When swimming quickly, it moves its ears to maintain balance.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

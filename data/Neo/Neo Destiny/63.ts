@@ -76,7 +76,6 @@ const card: Card = {
 		de: "Schon von Geburt an ist dieses Pokémon groß, und es wächst jedes Mal weiter, wenn es sich häutet."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

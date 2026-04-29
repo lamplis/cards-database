@@ -67,17 +67,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "The electric sacs in its cheeks are small. If even a little electricity leaks, it becomes shocked.",
-		de: "Tritt auch nur eine geringe Menge Elektrizität aus seinen Backen aus, bekommt es einen Schlag."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 88021,
-				cardmarket: 278897
+				cardmarket: 278897,
+				tcgplayer: 88021
 			}
 		},
 		{

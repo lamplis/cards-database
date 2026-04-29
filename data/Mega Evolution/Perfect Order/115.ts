@@ -35,8 +35,8 @@ const card: Card = {
 		{
 			type: "holo",
 			thirdParty: {
-				tcgplayer: 684326,
-				cardmarket: 877532
+				cardmarket: 877532,
+				tcgplayer: 684326
 			}
 		}
 	],

@@ -121,6 +121,7 @@ export function setToBrief(set: SDKSet): SetResume {
 		cardCount: {
 			total: set.cardCount.total,
 			official: set.cardCount.official
-		}
-	}
+		},
+		serie: set.serie
+	} as SetResume
 }

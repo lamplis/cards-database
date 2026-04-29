@@ -61,7 +61,6 @@ const card: Card = {
 		de: "Obwohl es an Land tapsig ist, bewegt es sich graziös durch die Eismeere, in denen es daheim ist."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Wirf 1 Münze. Wähle bei „Kopf“ 1 Energiekarte, die an 1 Pokémon deines Gegners angelegt ist, und lege sie auf seinen Ablagestapel."
 	},
 
-	thirdParty: {
-		cardmarket: 277380,
-		tcgplayer: 85224
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277380,
+				tcgplayer: 85224
+			}
 		},
 		{
 			type: "normal",

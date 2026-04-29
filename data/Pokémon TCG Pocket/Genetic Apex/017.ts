@@ -24,7 +24,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Venonat",
-		fr: "Mimitoss"
+		fr: "Mimitoss",
+		es: "Venonat",
+		it: "Venonat",
+		pt: "Venonat",
+		de: "Bluzuk"
 	},
 
 	attacks: [{

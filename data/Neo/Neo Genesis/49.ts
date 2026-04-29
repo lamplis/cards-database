@@ -88,7 +88,6 @@ const card: Card = {
 		de: "Die Blüte oben auf seinem Kopf öffnet und schließt sich, wenn sich die Temperatur nach oben oder unten verändert."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -72,14 +72,13 @@ const card: Card = {
 		de: "Es gräbt sich mit seinem Schweif in die Erde und baut ein labyrinthartiges Nest. Es kann kaum fliegen."
 	},
 
-	thirdParty: {
-		cardmarket: 277676,
-		tcgplayer: 85010
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277676,
+				tcgplayer: 85010
+			}
 		},
 		{
 			type: "reverse",

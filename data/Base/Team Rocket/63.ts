@@ -75,7 +75,6 @@ const card: Card = {
 		de: "Es wandert nachts umher und sät seinen Samen für mehr Myraplas."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

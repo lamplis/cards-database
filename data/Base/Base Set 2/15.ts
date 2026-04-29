@@ -74,7 +74,6 @@ const card: Card = {
 		en: "An adept swimmer at both the front crawl and breaststroke. Easily overtakes the best human swimmers.",
 	},
 
-
 	variants: [
 		{
 			type: "holo",

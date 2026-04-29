@@ -83,7 +83,6 @@ const card: Card = {
 		de: "Seine schlanke Figur macht es zu einem perfekten Schwimmer. Es schlitzt Beute mit seinen Klauen auf und saugt ihre Körperflüssigkeiten ab."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

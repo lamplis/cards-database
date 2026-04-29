@@ -79,7 +79,6 @@ const card: Card = {
 		de: "Es hebt seinen Schweif, um seine Umgebung zu überprüfen. Der Schweif wird manchmal in dieser Pose vom Blitz getroffen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

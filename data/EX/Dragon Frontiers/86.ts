@@ -20,14 +20,13 @@ const card: Card = {
 		fr: "Si le Pokémon auquel Énergie Holon WP est attachée possède également une carte Énergie de base Eau, prévenez tous les effets, dégâts exclus, qui lui sont infligés par le Pokémon de votre adversaire. Si le Pokémon auquel Énergie Holon WP est attachée possède également une carte Énergie de base Psy, son Coût de retraite est de 0. Ignorez ces effets si Énergie Holon WP est attachée à un Pokémon-ex.",
 	},
 
-	thirdParty: {
-		cardmarket: 277291,
-		tcgplayer: 86141
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277291,
+				tcgplayer: 86141
+			}
 		},
 		{
 			type: "normal",

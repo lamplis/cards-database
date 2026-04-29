@@ -7,7 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Venusaur",
-		fr: "Florizarre",
+		fr: "Florizarre"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -21,7 +21,7 @@ const card: Card = {
 		{
 			name: {
 				en: "Solarbeam",
-				fr: "Lance-Soleil",
+				fr: "Lance-Soleil"
 			},
 			damage: 60,
 			cost: [
@@ -29,7 +29,7 @@ const card: Card = {
 				"Grass",
 				"Grass",
 				"Grass",
-			],
+			]
 		},
 	],
 

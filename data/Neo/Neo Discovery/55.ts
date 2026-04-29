@@ -61,7 +61,6 @@ const card: Card = {
 		de: "Sein Körper ist so leicht, dass es sich mit seinen Füßen am Boden festkrallen muss, um nicht davongeweht zu werden."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -82,4 +81,3 @@ const card: Card = {
 }
 
 export default card
-

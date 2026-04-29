@@ -85,7 +85,6 @@ const card: Card = {
 		de: "Falls seine Raserei den Höhepunkt erreicht, wird es so heiß, dass alles, was mit ihm in Berührung kommt, sofort in Flammen aufgeht."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

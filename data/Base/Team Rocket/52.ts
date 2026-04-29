@@ -78,7 +78,6 @@ const card: Card = {
 		de: "Es folgt den Onix-Pokémon in ihre Tunnel, um dort nach übriggebliebenen Essensresten zu suchen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -57,7 +57,6 @@ const card: Card = {
 		de: "Seine Zielgenauigkeit ist legendär. Das Wasser, dass es verschießt, kann selbst sich bewegende Ziele aus über 90 Meter Entfernung treffen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -78,4 +77,3 @@ const card: Card = {
 }
 
 export default card
-

@@ -85,7 +85,6 @@ const card: Card = {
 		de: "Dieses Pokémon ist vollkommen von nicht feuerfestem Fell bedeckt. Es kann jeder Art von Feuerangriff widerstehen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

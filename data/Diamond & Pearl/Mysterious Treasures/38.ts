@@ -87,14 +87,13 @@ const card: Card = {
 		de: "Es durchstreift sein Revier und markiert Bäume, die Früchte oder Beeren tragen, mit Kratzern."
 	},
 
-	thirdParty: {
-		cardmarket: 277667,
-		tcgplayer: 90253
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277667,
+				tcgplayer: 90253
+			}
 		},
 		{
 			type: "reverse",

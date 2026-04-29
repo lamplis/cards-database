@@ -79,7 +79,6 @@ const card: Card = {
 		en: "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage.",
 	},
 
-
 	variants: [
 		{
 			type: "holo",

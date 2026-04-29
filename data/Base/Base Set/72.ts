@@ -41,11 +41,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			subtype: "shadowless"
+			subtype: "shadowless",
 		},
 		{
 			type: "normal",
-			subtype: "1999-2000-copyright"
+			subtype: "1999-2000-copyright",
 		}
 	],
 }

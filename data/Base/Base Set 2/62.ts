@@ -75,7 +75,6 @@ const card: Card = {
 		en: "When it targets an enemy, it charges furiously while whipping its body with its long tails.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

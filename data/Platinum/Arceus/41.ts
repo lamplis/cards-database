@@ -75,17 +75,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
-		de: "Lauert in der Dunkelheit. Die Berührung seiner gasförmigen Hand erzeugt endloses Schaudern."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 86029,
-				cardmarket: 278913
+				cardmarket: 278913,
+				tcgplayer: 86029
 			}
 		},
 		{

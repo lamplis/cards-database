@@ -13,15 +13,13 @@ const card: Card = {
 
 	cameoDexIds: [15, 71, 94, 98, 125, 130, 134, 139],
 
-	effect: {
-		en: "Put a Basic Pokémon or Evolution card from your hand face down in front of you and tell your opponent its name. Your opponent guesses the length of that Pokémon. Flip the card over. If your opponent guessed right, he or she draws 2 cards. If your opponent guessed wrong, you draw 2 cards. Either way, return the card to your hand."
-	},
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 83879,
-			},
+				cardmarket: 274233,
+				tcgplayer: 83879
+			}
 		},
 		{
 			type: "normal",

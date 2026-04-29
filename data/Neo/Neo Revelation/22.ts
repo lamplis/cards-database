@@ -76,7 +76,6 @@ const card: Card = {
 		de: "Ein Pokémon, das durch das Land rennt und dessen Gebell wie rollender Donner klingt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -97,4 +96,3 @@ const card: Card = {
 }
 
 export default card
-

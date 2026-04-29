@@ -70,7 +70,6 @@ const card: Card = {
 		de: "In flachen Gewässern anzutreffen. Angler, die sie versehentlich an der Leine haben, werden oft mit ihrer ätzenden Säure bestraft."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

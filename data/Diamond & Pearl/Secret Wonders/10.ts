@@ -80,18 +80,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "Its feathers are in seven colors. It is said that anyone seeing it is promised eternal happiness.",
-	},
-
-	thirdParty: {
-		cardmarket: 277763,
-		tcgplayer: 86124
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277763,
+				tcgplayer: 86124
+			}
 		},
 		{
 			type: "reverse",

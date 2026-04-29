@@ -65,11 +65,6 @@ const card: Card = {
 	],
 	retreat: 2,
 
-
-	description: {
-		en: "Its nonchalant reaction to everything somehow gives this Pokémon an imposing presence.",
-	},
-
 	variants: [
 		{
 			type: "reverse",

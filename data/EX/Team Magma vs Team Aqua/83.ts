@@ -20,12 +20,11 @@ const card: Card = {
 		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Immer wenn ein Spieler ein Basis-Pokémon ohne „Team Magma“ im Namen von der Hand ins Spiel bringt, legt er 1 Schadensmarke auf das Pokémon."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 275860,
+				cardmarket: 276060,
 				tcgplayer: 89815
 			}
 		},

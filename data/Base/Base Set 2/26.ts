@@ -74,7 +74,6 @@ const card: Card = {
 		en: "The infant rarely ventures out of its mother's protective pouch until it is three years old.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

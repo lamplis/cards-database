@@ -85,7 +85,6 @@ const card: Card = {
 		de: "Lässt seiner Beute mit seinem Starren das Blut in den Adern gefrieren. Falls du einem begegnen solltest, erinnere dich daran, ihm nicht in die Augen zu blicken."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

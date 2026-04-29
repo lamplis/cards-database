@@ -88,7 +88,6 @@ const card: Card = {
 		de: "Ein würziges Aroma strömt aus seiner Halsgegend. Das Aroma wirkt wie ein Belebungsmittel, um die Gesundheit wiederherzustellen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

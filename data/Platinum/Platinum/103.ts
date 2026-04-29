@@ -66,17 +66,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Often targeted by bird Pokémon, it desperately resists by releasing poison from its tail spikes.",
-		de: "Es wird oft von Vogel-Pokémon angegriffen, wehrt sich aber mit Gift aus seinen Schwanzspitzen."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 90652,
-				cardmarket: 278524
+				cardmarket: 278524,
+				tcgplayer: 90652
 			}
 		},
 		{

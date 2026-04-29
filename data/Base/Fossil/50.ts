@@ -72,7 +72,6 @@ const card: Card = {
 		de: "Dieses Pokémon ist ein zum Leben erwecktes Fossil, das aus einer Gegend stammt, die vor Urzeiten einmal Meeresgrund gewesen ist."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

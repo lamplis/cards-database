@@ -87,7 +87,6 @@ const card: Card = {
 		de: "Entsteht aus mehreren miteinander verbundenen Magnetilos. Sie kommen oft beim Aufflackern von Sonnenflecken zum Vorschein."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

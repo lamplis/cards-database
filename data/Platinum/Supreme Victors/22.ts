@@ -74,15 +74,10 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "An ancient clay figurine that came to life as a Pokémon from exposure to a mysterious ray of light."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 84338,
 				cardmarket: 278713
 			}
 		},

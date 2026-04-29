@@ -77,7 +77,6 @@ const card: Card = {
 		de: "Ein fleischfressendes Pokémon, das Käfer in eine Falle lockt und sie dann frißt. Es verwendet seine Wurzelfüße, um notwendige Feuchtigkeit aufzusaugen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -81,14 +81,13 @@ const card: Card = {
 		de: "Ihr Schwarm ist stets groß. Obwohl es kleine PKMN sind, schwingen sie ihre Flügel mit enormer Kraft."
 	},
 
-	thirdParty: {
-		cardmarket: 277600,
-		tcgplayer: 89520
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277600,
+				tcgplayer: 89520
+			}
 		},
 		{
 			type: "reverse"

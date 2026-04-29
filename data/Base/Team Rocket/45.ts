@@ -83,7 +83,6 @@ const card: Card = {
 		de: "Ein Pokémon, das fähig ist, Wasser zu beherrschen, so dass es riesige Strudel produzieren kann."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

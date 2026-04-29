@@ -71,7 +71,6 @@ const card: Card = {
 		de: "Eine Legende besagt, dass sein Körper in sieben Farben glüht. Außerdem heißt es, dass sich ein Regenbogen hinter ihm bildet, wenn es fliegt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -92,4 +91,3 @@ const card: Card = {
 }
 
 export default card
-

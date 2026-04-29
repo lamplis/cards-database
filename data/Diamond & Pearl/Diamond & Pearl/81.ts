@@ -86,14 +86,13 @@ const card: Card = {
 		de: "Die Hälfte aller Stromausfälle wird durch dieses PKMN ausgelöst, das in E-Werken Elektrizität frisst."
 	},
 
-	thirdParty: {
-		cardmarket: 277580,
-		tcgplayer: 85114
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277580,
+				tcgplayer: 85114
+			}
 		},
 		{
 			type: "reverse"

@@ -71,7 +71,6 @@ const card: Card = {
 		en: "The sprig of green onions it holds is its weapon. This sprig is used much like a metal sword.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

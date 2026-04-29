@@ -98,7 +98,6 @@ const card: Card = {
 		de: "Obwohl es ein guter Kletterer ist, schüttelt es lieber die Bäume mit seinen Vorderpfoten an und isst heruntergefallenene Früchte."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

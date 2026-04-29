@@ -70,19 +70,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It walks in zigzag fashion. It is good at finding items in the grass and even in the ground.",
-		de: "Es läuft im Zickzack. Es hat das Talent, Items im Gras, aber auch im Boden, zu finden."
-	},
-
-	thirdParty: {
-		cardmarket: 277998,
-		tcgplayer: 90748
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277998,
+				tcgplayer: 90748
+			}
 		},
 		{
 			type: "reverse"

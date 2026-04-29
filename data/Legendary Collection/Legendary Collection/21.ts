@@ -72,10 +72,6 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "In battle, it flaps its wings at high speed to release highly toxic dust into the air."
-	},
-
 	variants: [
 		{
 			type: "reverse",

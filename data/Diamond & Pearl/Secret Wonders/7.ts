@@ -77,18 +77,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It will try to guard its trusted Trainer with its life. It has the ability to see the future.",
-	},
-
-	thirdParty: {
-		cardmarket: 277760,
-		tcgplayer: 85635
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277760,
+				tcgplayer: 85635
+			}
 		},
 		{
 			type: "reverse",

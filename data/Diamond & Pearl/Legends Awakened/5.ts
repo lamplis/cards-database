@@ -88,14 +88,13 @@ const card: Card = {
 		de: "Es hängt kopfüber von einem Ast und beobachtet seine Beute. Bei Gelegenheit stürzt es sich auf sie."
 	},
 
-	thirdParty: {
-		cardmarket: 278154,
-		tcgplayer: 85771
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278154,
+				tcgplayer: 85771
+			}
 		},
 		{
 			type: "reverse"

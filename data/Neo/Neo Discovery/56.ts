@@ -77,7 +77,6 @@ const card: Card = {
 		de: "In seltenen Fällen wurden einige als Fossilien gefunden. Sie versteinerten, während sie sich am Meeresboden versteckt hielten."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -98,4 +97,3 @@ const card: Card = {
 }
 
 export default card
-

@@ -53,20 +53,14 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "This legendary Pokémon is said to be present wherever there is a lightning storm."
-	},
-
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
-				tcgplayer: 90719,
-				cardmarket: 278841
+				cardmarket: 278739
 			}
-		},
-	],
-
+		}
+	]
 }
 
 export default card

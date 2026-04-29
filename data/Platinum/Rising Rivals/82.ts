@@ -67,11 +67,6 @@ const card: Card = {
 	],
 	retreat: 2,
 
-	description: {
-		en: "It rolls across ice floes to reach shore because its body is poorly shaped for swimming.",
-		de: "Es rollt über Eisschollen, um Land zu erreichen, da sein Körper zum Schwimmen nicht geeignet ist."
-	},
-
 	variants: [
 		{
 			type: "normal",

@@ -67,7 +67,6 @@ const card: Card = {
 		de: "Es hat den ganzen Tag lang Essen bei sich. Es gibt Geschichten über Leute, die dadurch vor dem Verhungern gerettet wurden."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

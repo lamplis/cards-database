@@ -76,19 +76,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It makes electricity with pouches in its cheeks and shoots charges from its tail. It lives atop trees.",
-		de: "In seinen Backentaschen produziert es Elektrizität und entlädt sie über den Schweif. Es lebt in Baumwipfeln."
-	},
-
-	thirdParty: {
-		cardmarket: 278092,
-		tcgplayer: 87900
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278092,
+				tcgplayer: 87900
+			}
 		},
 		{
 			type: "reverse"

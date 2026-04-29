@@ -83,14 +83,13 @@ const card: Card = {
 		de: "Es lebt tief auf dem Meeresboden. Das blinkende Muster auf seinen vier Rückenflossen zieht Beute an."
 	},
 
-	thirdParty: {
-		cardmarket: 277640,
-		tcgplayer: 86921
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277640,
+				tcgplayer: 86921
+			}
 		},
 		{
 			type: "reverse",

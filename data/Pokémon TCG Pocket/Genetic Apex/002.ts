@@ -24,7 +24,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Bulbasaur",
-		fr: "Bulbizarre"
+		fr: "Bulbizarre",
+		es: "Bulbasaur",
+		it: "Bulbasaur",
+		pt: "Bulbasaur",
+		de: "Bisasam"
 	},
 
 	attacks: [{

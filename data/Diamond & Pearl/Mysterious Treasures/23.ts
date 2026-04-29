@@ -87,14 +87,13 @@ const card: Card = {
 		de: "Seine vier Flügel erlauben es dem PKMN, schneller und leiser zu fliegen. Es ist nachtaktiv."
 	},
 
-	thirdParty: {
-		cardmarket: 277652,
-		tcgplayer: 84487
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277652,
+				tcgplayer: 84487
+			}
 		},
 		{
 			type: "reverse",

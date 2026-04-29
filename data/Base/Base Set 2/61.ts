@@ -50,7 +50,6 @@ const card: Card = {
 		en: "The protruding horn on its head is very hard. This horn is used for bashing through thick ice.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

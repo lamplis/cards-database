@@ -76,14 +76,13 @@ const card: Card = {
 		de: "Ein Experte der Pantomime. Es kann unsichtbare, aber solide Wände allein durch Gesten erzeugen."
 	},
 
-	thirdParty: {
-		cardmarket: 277659,
-		tcgplayer: 87592
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277659,
+				tcgplayer: 87592
+			}
 		},
 		{
 			type: "reverse",

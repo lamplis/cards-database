@@ -56,7 +56,6 @@ const card: Card = {
 		de: "Kommt normalerweise nur in Kraftwerken vor. Manchmal in Städten zu sehen, da es anscheinend Stromleitungen entlang wandert."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -64,11 +64,6 @@ const card: Card = {
 	],
 	retreat: 1,
 
-
-	description: {
-		en: "This Pokémon only calms down when there are no other animals or people around—which means no one has ever seen it when it's not angry.",
-	},
-
 	variants: [
 		{
 			type: "normal",

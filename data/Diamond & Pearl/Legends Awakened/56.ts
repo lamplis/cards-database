@@ -81,14 +81,13 @@ const card: Card = {
 		de: "Mit schwarzen Perlen verstärkt es seine Psycho-Kräfte. Mit einem Tanz kontrolliert es seine Gegner."
 	},
 
-	thirdParty: {
-		cardmarket: 278205,
-		tcgplayer: 85970
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278205,
+				tcgplayer: 85970
+			}
 		},
 		{
 			type: "reverse"

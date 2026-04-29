@@ -88,7 +88,6 @@ const card: Card = {
 		de: "Je länger die Stoßzähne, desto größer das Ansehen in der Herde."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

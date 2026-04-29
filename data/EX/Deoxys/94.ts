@@ -20,22 +20,17 @@ const card: Card = {
 		fr: "Énergie guérisseuse fournit une Énergie Incolore. Lorsque vous l'attachez de votre main à 1 de vos Pokémon, retirez à ce Pokémon 1 marqueur de dégât et tous ses États Spéciaux. Si Énergie guérisseuse est attachée à un Pokémon-ex, elle n'a pas d'autre effet que de fournir de l'Énergie.",
 	},
 
-
 	variants: [
 		{
-			type: "reverse",
-			stamp: ["set-logo"],
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 86037,
-				cardmarket: 276497
-			},
+				cardmarket: 276497,
+				tcgplayer: 86037
+			}
 		},
 		{
-			type: "normal",
-			thirdParty: {
-				tcgplayer: 86037,
-				cardmarket: 276497
-			},
+			type: "holo",
+			stamp: ["set-logo"]
 		},
 		{
 			type: "normal",
@@ -55,14 +50,9 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["jeremy-maron"],
-			thirdParty: {
-				tcgplayer: 477532,
-				cardmarket: 871583
-			},
-		},
-	],
-
+			stamp: ["jeremy-maron"]
+		}
+	]
 }
 
 export default card

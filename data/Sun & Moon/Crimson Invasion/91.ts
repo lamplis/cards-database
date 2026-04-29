@@ -17,7 +17,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Vous pouvez jouer cette carte seulement s’il vous reste plus de cartes Récompense que votre adversaire.\n\nÉchangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
+		fr: "Vous pouvez jouer cette carte seulement s'il vous reste plus de cartes Récompense que votre adversaire.\n\nÉchangez l'un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
 		en: "You can play this card only if you have more Prize cards remaining than your opponent.\n\nSwitch 1 of your opponent’s Benched Pokémon with their Active Pokémon.",
 		es: "Puedes jugar esta carta solo si te quedan más cartas de Premio que a tu rival.\n\nCambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
 		it: "Puoi giocare questa carta solo se hai più carte Premio rimanenti del tuo avversario.\n\nScambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",

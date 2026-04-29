@@ -80,14 +80,13 @@ const card: Card = {
 		de: "Es lebt in trockenen Regionen mit wenig Regen. Es rollt sich ein, um sich vor Gegnern zu schützen."
 	},
 
-	thirdParty: {
-		cardmarket: 277725,
-		tcgplayer: 88924
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277725,
+				tcgplayer: 88924
+			}
 		},
 		{
 			type: "reverse",

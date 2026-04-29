@@ -78,19 +78,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Its fur has the look and feel of velvet. The orb on its forehead glows when it uses psycho-power.",
-		de: "Sein Fell ist wie Samt. Setzt es Psycho-Kräfte ein, leuchtet die Kugel in seiner Stirn."
-	},
-
-	thirdParty: {
-		cardmarket: 278067,
-		tcgplayer: 85321
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278067,
+				tcgplayer: 85321
+			}
 		},
 		{
 			type: "reverse"

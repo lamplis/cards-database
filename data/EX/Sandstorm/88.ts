@@ -20,7 +20,6 @@ const card: Card = {
 		de: "Wähle 1 deiner Basis-Pokémon im Spiel. Falls du eine Phase 1 oder Phase 2 Karte auf der Hand hast, die sich aus diesem Pokémon entwickelt, lege sie auf das Basis-Pokémon. (Das zählt als Entwickeln des gewählten Pokémon.)"
 	},
 
-
 	variants: [
 		{
 			type: "normal",

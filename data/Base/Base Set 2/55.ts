@@ -69,7 +69,6 @@ const card: Card = {
 		en: "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Tausche 1 deiner Aktiven Pokémon gegen 1 Pokémon auf deiner Bank aus."
 	},
 
-	thirdParty: {
-		cardmarket: 277288,
-		tcgplayer: 89714
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277288,
+				tcgplayer: 89714
+			}
 		},
 		{
 			type: "normal",

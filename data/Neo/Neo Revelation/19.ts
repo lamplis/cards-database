@@ -80,7 +80,6 @@ const card: Card = {
 		de: "Es schläft tief auf dem Boden des Ozeans, um genügend Kraft zu sammeln. Es wird behauptet, dass Tornados entstehen, wenn es aufwacht."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -101,4 +100,3 @@ const card: Card = {
 }
 
 export default card
-

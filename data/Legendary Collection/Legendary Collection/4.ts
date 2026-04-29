@@ -67,14 +67,15 @@ const card: Card = {
 
 
 	description: {
-		en: "An aggressive Pokémon that tackles anything it sees."
+		en: "An aggressive Pokémon that tackles anything it sees.",
 	},
 
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 125088
+				cardmarket: 274769,
+				tcgplayer: 84569
 			}
 		},
 		{

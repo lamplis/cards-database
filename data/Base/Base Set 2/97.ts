@@ -66,7 +66,6 @@ const card: Card = {
 		en: "Lives in the shadows of tall trees where it eats insects. It is attracted by light at night.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

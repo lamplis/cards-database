@@ -82,14 +82,13 @@ const card: Card = {
 		de: "Dieses PKMN ist bei weiblichen Trainern aufgrund seines Fells beliebt."
 	},
 
-	thirdParty: {
-		cardmarket: 278172,
-		tcgplayer: 84740
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278172,
+				tcgplayer: 84740
+			}
 		},
 		{
 			type: "reverse"

@@ -69,13 +69,14 @@ const card: Card = {
 			value: "x2"
 		},
 	],
+
 	variants: [
 		{
 			type: 'normal',
 			thirdParty: {
-				tcgplayer: 87982,
-				cardmarket: 275300
-			},
+				cardmarket: 275300,
+				tcgplayer: 87982
+			}
 		},
 		{
 			type: 'reverse',

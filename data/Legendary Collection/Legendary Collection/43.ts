@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa."
+		en: "Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa.",
 	},
 
 	variants: [

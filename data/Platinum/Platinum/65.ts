@@ -76,17 +76,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity.",
-		de: "Man sagt, es werde 10 000 Jahre alt. Sein buschiger Schweif ist ein Symbol für langes Leben."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 90490,
-				cardmarket: 278486
+				cardmarket: 278486,
+				tcgplayer: 90490
 			}
 		},
 		{

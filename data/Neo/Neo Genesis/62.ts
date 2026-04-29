@@ -59,7 +59,6 @@ const card: Card = {
 		de: "Wenn es von einem größeren Feind angegriffen wird, schwimmt es schnell in Sicherheit, indem es mit seiner Rückenflosse geschickt steuert."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

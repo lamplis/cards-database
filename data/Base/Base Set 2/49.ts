@@ -73,7 +73,6 @@ const card: Card = {
 		en: "Its muscular body is so powerful that it must wear a power-save belt to help regulate its motions.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

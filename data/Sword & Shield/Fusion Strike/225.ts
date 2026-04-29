@@ -18,7 +18,7 @@ const card: Card = {
 
 	effect: {
 		en: "You can use this card only during your first turn.\n\nSearch your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
-		fr: "Vous ne pouvez utiliser cette carte que pendant votre premier tour.\nCherchez dans votre deck jusqu'à 2 Pokémon de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
+		fr: "Vous ne pouvez utiliser cette carte que pendant votre premier tour.\n\nCherchez dans votre deck jusqu'à 2 Pokémon de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
 		es: "Puedes usar esta carta solo durante tu primer turno.\nBusca en tu baraja hasta 2 Pokémon Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
 		it: "Puoi usare questa carta solo durante il tuo primo turno.\nCerca nel tuo mazzo fino a due Pokémon Base e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
 		pt: "Você só pode usar esta carta durante o seu primeiro turno.\nProcure por até 2 Pokémon Básicos no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",

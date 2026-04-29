@@ -63,16 +63,11 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "It attacks using its huge mouth. While its attacks are powerful, it hurts itself out of clumsiness, too."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				cardmarket: 278797,
-				tcgplayer: 85701,
+				cardmarket: 278797
 			}
 		},
 		{

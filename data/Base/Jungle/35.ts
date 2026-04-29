@@ -89,7 +89,6 @@ const card: Card = {
 		de: "Der Legende nach soll in seltenen Fällen eines seiner Köpfe abfallen und als Owei weiterleben."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

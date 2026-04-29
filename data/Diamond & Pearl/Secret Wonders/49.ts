@@ -77,18 +77,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It can't live without the stalk it holds. That's why it defends the stalk from attackers with its life.",
-	},
-
-	thirdParty: {
-		cardmarket: 277802,
-		tcgplayer: 85386
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277802,
+				tcgplayer: 85386
+			}
 		},
 		{
 			type: "reverse",

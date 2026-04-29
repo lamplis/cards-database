@@ -64,7 +64,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It emits special alpha waves from its body that induce headaches even to those just nearby."
+		en: "It emits special alpha waves from its body that induce headaches even to those just nearby.",
 	},
 
 	variants: [

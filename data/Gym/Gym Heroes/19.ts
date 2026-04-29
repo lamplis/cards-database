@@ -11,15 +11,13 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	effect: {
-		en: "Flip a coin. If heads, choose up to 3 cards at random from your opponent's hand (don't look at them). Your opponent shuffles those cards into his or her deck."
-	},
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
-				tcgplayer: 89897,
-			},
+				cardmarket: 274155,
+				tcgplayer: 89897
+			}
 		},
 		{
 			type: "holo",

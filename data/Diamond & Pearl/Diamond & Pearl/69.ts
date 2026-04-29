@@ -73,14 +73,13 @@ const card: Card = {
 		de: "Dieses PKMN lebt am Wasser. An Land bewegt es sich schnell, indem es auf seinem großen Schweif hüpft."
 	},
 
-	thirdParty: {
-		cardmarket: 277568,
-		tcgplayer: 83690
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277568,
+				tcgplayer: 83690
+			}
 		},
 		{
 			type: "reverse"

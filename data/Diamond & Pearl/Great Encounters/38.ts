@@ -73,19 +73,13 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "It lives at the bottom of the sea. In the springtime, its pink body turns more vivid for some reason.",
-		de: "Es lebt auf dem Grund des Meeres. Im Frühling wirkt die Farbe seines Körpers viel kräftiger."
-	},
-
-	thirdParty: {
-		cardmarket: 277940,
-		tcgplayer: 85844
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277940,
+				tcgplayer: 85844
+			}
 		},
 		{
 			type: "reverse"

@@ -91,14 +91,13 @@ const card: Card = {
 		de: "Seine Augen sind etwas Besonderes. Sie können selbst bei schwächstem Licht alles erkennen."
 	},
 
-	thirdParty: {
-		cardmarket: 277533,
-		tcgplayer: 87793
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277533,
+				tcgplayer: 87793
+			}
 		},
 		{
 			type: "reverse"

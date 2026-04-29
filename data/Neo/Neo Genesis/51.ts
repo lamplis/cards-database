@@ -61,7 +61,6 @@ const card: Card = {
 		de: "Ein Sprichwort behauptet, dass jeder Glück findet, der ein schlafendes Togepi zum Aufstehen bewegt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

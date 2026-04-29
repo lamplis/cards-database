@@ -74,7 +74,6 @@ const card: Card = {
 		de: "Es verwendet unterschiedliches Bellen, um mit anderen zu kommunizieren und um seine Beute zu verfolgen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -95,4 +94,3 @@ const card: Card = {
 }
 
 export default card
-

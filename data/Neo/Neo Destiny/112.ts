@@ -72,10 +72,9 @@ const card: Card = {
 		de: "Wenn ein Onix 100 Jahre oder länger lebt, wird seine Haut immer härter, manchmal sogar härter als Diamanten."
 	},
 
-
 	variants: [
 		{
-			type: "holo",
+			type: "normal",
 			thirdParty: {
 				cardmarket: 274764,
 				tcgplayer: 89170

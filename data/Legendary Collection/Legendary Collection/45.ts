@@ -46,7 +46,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Very protective of its territory. It will bark and bite to repel intruders from its space."
+		en: "Very protective of its territory. It will bark and bite to repel intruders from its space.",
 	},
 
 	variants: [

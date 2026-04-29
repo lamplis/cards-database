@@ -83,7 +83,6 @@ const card: Card = {
 		de: "Es bewegt sich so schnell, dass es für das menschliche Auge fast unsichtbar ist. Selbst wenn es sich nicht bewegt, verhindert seine Tarnung, dass es entdeckt wird."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

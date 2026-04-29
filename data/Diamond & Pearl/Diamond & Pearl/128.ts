@@ -15,14 +15,16 @@ const card: Card = {
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		cardmarket: 277627,
-		tcgplayer: 85442
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277627,
+				tcgplayer: 85442
+			}
+		},
+		{
+			type: "reverse"
 		}
 	]
 }

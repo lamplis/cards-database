@@ -93,7 +93,6 @@ const card: Card = {
 		de: "Wenn es auf einen Feind losstürmt, stehen die Haare auf seinem Rücken steil ab. Es ist sehr geräuschempfindlich."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -114,4 +113,3 @@ const card: Card = {
 }
 
 export default card
-

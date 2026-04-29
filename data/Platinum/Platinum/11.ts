@@ -96,12 +96,12 @@ const card: Card = {
 		},
 	],
 
-	variants: [
+	variants:[
 		{
 			type:"holo",
 			thirdParty: {
-				tcgplayer: 87162,
-				cardmarket: 278432
+				cardmarket: 278432,
+				tcgplayer: 87162
 			}
 		},
 		{

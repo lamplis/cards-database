@@ -79,19 +79,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "The pattern on its belly is for intimidation. It constricts foes while they are frozen in fear.",
-		de: "Das Muster auf seinem Bauch schüchtert Gegner ein. Sind sie vor Angst erstarrt, umklammert es sie."
-	},
-
-	thirdParty: {
-		cardmarket: 277935,
-		tcgplayer: 83570
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277935,
+				tcgplayer: 83570
+			}
 		},
 		{
 			type: "reverse"
