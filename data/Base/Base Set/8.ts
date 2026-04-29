@@ -87,19 +87,14 @@ const card: Card = {
 		de: "Mit Hilfe seiner erstaunlichen Muskeln versetzt es kräftige Schläge, die sein Opfer am Horizont verschwinden lassen können."
 	},
 
-
 	variants: [
 		{
 			type: "holo",
-			subtype: "1999-2000-copyright",
+			subtype: "unlimited",
 			thirdParty: {
 				cardmarket: 273703,
 				tcgplayer: 42425
 			}
-		},
-		{
-			type: "holo",
-			subtype: "unlimited"
 		},
 		{
 			type: "holo",
@@ -115,6 +110,10 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 660220
 			}
+		},
+		{
+			type: "holo",
+			subtype: "1999-2000-copyright"
 		}
 	],
 
