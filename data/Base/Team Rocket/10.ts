@@ -82,7 +82,6 @@ const card: Card = {
 		de: "Es ist fast unmöglich, sich gegen Machomeis vier kraftvolle Arme zu wehren."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

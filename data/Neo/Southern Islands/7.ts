@@ -67,11 +67,6 @@ const card: Card = {
 	],
 	retreat: 1,
 
-
-	description: {
-		en: "When it senses enemies approaching, this Pokémon releases an orange fluid from the joints in its legs and flees.",
-	},
-
 	variants: [
 		{
 			type: "reverse",

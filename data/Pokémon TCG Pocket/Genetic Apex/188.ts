@@ -24,7 +24,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pidgeotto",
-		fr: "Roucoups"
+		fr: "Roucoups",
+		es: "Pidgeotto",
+		it: "Pidgeotto",
+		pt: "Pidgeotto",
+		de: "Tauboga"
 	},
 
 	abilities: [{

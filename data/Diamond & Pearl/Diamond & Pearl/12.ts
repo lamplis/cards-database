@@ -91,14 +91,13 @@ const card: Card = {
 		de: "Es legt Steine in die Löcher seiner Hände und wirft sie mit Muskelkraft. Sogar GEOROK werden verwendet."
 	},
 
-	thirdParty: {
-		cardmarket: 277511,
-		tcgplayer: 88745
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277511,
+				tcgplayer: 88745
+			}
 		},
 		{
 			type: "reverse"

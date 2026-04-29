@@ -99,19 +99,13 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "It loves the honey of flowers and steals honey collected by Combee.",
-		de: "Es liebt Honig und stiehlt den Honig, der von WADRIBIE gesammelt wurde."
-	},
-
-	thirdParty: {
-		cardmarket: 278091,
-		tcgplayer: 87582
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278091,
+				tcgplayer: 87582
+			}
 		},
 		{
 			type: "reverse"

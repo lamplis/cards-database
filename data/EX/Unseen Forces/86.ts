@@ -20,22 +20,13 @@ const card: Card = {
 		de: "Draw a card. If you don't have any Stage 2 Evolved Pokémon in play, draw 2 more cards.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 87243,
-				cardmarket: 276732
-			},
-		},
-		{
-			type: "reverse",
-			stamp: ["set-logo"],
-			thirdParty: {
-				tcgplayer: 87243,
-				cardmarket: 276732
-			},
+				cardmarket: 276732,
+				tcgplayer: 87243
+			}
 		},
 		{
 			type: "normal",

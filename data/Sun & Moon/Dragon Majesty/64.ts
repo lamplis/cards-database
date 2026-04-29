@@ -17,7 +17,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Vous ne pouvez jouer cette carte que si l’un de vos Pokémon a été mis K.O. pendant le dernier tour de votre adversaire.\n\nAttachez jusqu’à 2 cartes Énergie de base de votre main à l’un de vos Pokémon Dragon.",
+		fr: "Vous ne pouvez jouer cette carte que si l'un de vos Pokémon a été mis K.O. pendant le dernier tour de votre adversaire.\n\nAttachez jusqu'à 2 cartes Énergie de base de votre main à l'un de vos Pokémon {N}.",
 		en: "You can play this card only if 1 of your Pokémon was Knocked Out during your opponent’s last turn.\n\nAttach up to 2 basic Energy cards from your hand to 1 of your Dragon Pokémon.",
 		es: "Puedes jugar esta carta solo si 1 de tus Pokémon quedó Fuera de Combate durante el último turno de tu rival.\n\nUne hasta 2 cartas de Energía Básica de tu mano a 1 de tus Pokémon Dragon.",
 		it: "Puoi giocare questa carta solo se uno dei tuoi Pokémon è stato messo KO durante l’ultimo turno del tuo avversario.\n\nAssegna a uno dei tuoi Pokémon Dragon fino a due carte Energia base dalla tua mano.",

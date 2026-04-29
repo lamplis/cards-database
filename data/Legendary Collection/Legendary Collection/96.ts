@@ -54,10 +54,6 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "Drifts in shallow seas. Anglers who hook them by accident are often punished by its stinging acid."
-	},
-
 	variants: [
 		{
 			type: "reverse",

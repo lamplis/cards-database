@@ -75,19 +75,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It flaps its small wings busily to fly. Using its beak, it searches in grass for prey.",
-		de: "Im Flug schlägt es eifrig mit den Flügeln. Mit seinem Schnabel sucht es im Gras nach Beute."
-	},
-
-	thirdParty: {
-		cardmarket: 278123,
-		tcgplayer: 89441
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278123,
+				tcgplayer: 89441
+			}
 		},
 		{
 			type: "reverse"

@@ -68,19 +68,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It conveys its feelings using different cries. It works in a pack to cleverly take down prey.",
-		de: "Durch unterschiedliche Schreie drückt es seine Gefühle aus. Diese PKMN jagen im Verbund nach Beute."
-	},
-
-	thirdParty: {
-		cardmarket: 277971,
-		tcgplayer: 86228
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277971,
+				tcgplayer: 86228
+			}
 		},
 		{
 			type: "reverse"

@@ -75,7 +75,6 @@ const card: Card = {
 		de: "Ein geheimnisvolles Pokémon. Man sagt, es handele sich um eine Lebensform aus einer anderen Dimension, während andere glauben, dass es aus Smog entstand."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

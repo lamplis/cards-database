@@ -85,19 +85,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Its cries sound like incantations. Those hearing it are tormented by headaches and hallucinations.",
-		de: "Seine Rufe klingen wie Beschwörungen. Die, die sie hören, kriegen Kopfschmerzen und Halluzinationen."
-	},
-
-	thirdParty: {
-		cardmarket: 277509,
-		tcgplayer: 87514
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277509,
+				tcgplayer: 87514
+			}
 		},
 		{
 			type: "reverse"

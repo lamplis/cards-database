@@ -83,14 +83,13 @@ const card: Card = {
 		de: "In seinem Kokon ist es heiß. Seine Körperzellen produzieren die Hitze, damit es sich entwickeln kann."
 	},
 
-	thirdParty: {
-		cardmarket: 277543,
-		tcgplayer: 84121
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277543,
+				tcgplayer: 84121
+			}
 		},
 		{
 			type: "reverse"

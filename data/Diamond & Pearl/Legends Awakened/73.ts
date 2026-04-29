@@ -90,14 +90,13 @@ const card: Card = {
 		de: "Es fliegt auf der Suche nach Beute ständig umher. Findet es Beute, stürzt es sich im Sturzflug auf sie."
 	},
 
-	thirdParty: {
-		cardmarket: 278222,
-		tcgplayer: 89694
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278222,
+				tcgplayer: 89694
+			}
 		},
 		{
 			type: "reverse"

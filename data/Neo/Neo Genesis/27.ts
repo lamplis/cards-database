@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Es spinnt Fäden nicht nur von hinten, sondern auch aus seinem Maul. Es lässt sich schwer entscheiden, was vorne und hinten ist."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

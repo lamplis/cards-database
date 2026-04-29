@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Wenn einer seiner Köpfe herunterfällt, verwandelt sich dieser in ein Owei, der sofort nach anderen Oweis Ausschau hält und dabei eine Art Telepathie verwendet."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

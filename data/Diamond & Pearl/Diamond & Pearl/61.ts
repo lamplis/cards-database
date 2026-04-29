@@ -60,14 +60,13 @@ const card: Card = {
 		de: "Die Aura, die dieses PKMN umgibt, verstärkt sich, wenn es zeigen will, dass es ängstlich oder traurig ist."
 	},
 
-	thirdParty: {
-		cardmarket: 277560,
-		tcgplayer: 88751
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277560,
+				tcgplayer: 88751
+			}
 		},
 		{
 			type: "reverse"

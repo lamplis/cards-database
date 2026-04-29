@@ -68,19 +68,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Its fiery rear end is fueled by gas made in its belly. Even rain can't extinguish the fire.",
-		de: "Das Feuer an seinem Hinterteil wird durch Gase im Bauch genährt. Selbst Regen löscht es nicht."
-	},
-
-	thirdParty: {
-		cardmarket: 278105,
-		tcgplayer: 84284
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278105,
+				tcgplayer: 84284
+			}
 		},
 		{
 			type: "reverse"

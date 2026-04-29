@@ -76,17 +76,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "If it senses strong sunlight, it opens its folded petals to absorb the sun's rays with its whole body.",
-		de: "Spürt es Sonnenlicht, öffnet es seine Blütenblätter und nimmt die Energie der Sonnenstrahlen auf."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 84255,
-				cardmarket: 278887
+				cardmarket: 278887,
+				tcgplayer: 84255
 			}
 		},
 		{

@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Search your discard pile for basic Energy cards. You may either show 1 basic Energy card to your opponent and put it into your hand, or show 3 basic Energy cards to your opponent and shuffle them into your deck."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 85217,
-				cardmarket: 276727
-			},
+				cardmarket: 276727,
+				tcgplayer: 85217
+			}
 		},
 		{
 			type: "reverse",

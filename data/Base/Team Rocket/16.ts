@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Schaue dir die Hand deines Gegners an. Falls er oder sie irgendwelche Trainerkarten hat, wähle eine von ihnen. Dein Gegner mischt diese Karte in sein oder ihr Deck."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

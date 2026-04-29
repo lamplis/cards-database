@@ -82,7 +82,6 @@ const card: Card = {
 		de: "Es hat eine perfekte Balance und kann aus jeder Position kräftige Tritte austeilen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

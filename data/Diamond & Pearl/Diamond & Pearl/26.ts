@@ -85,14 +85,13 @@ const card: Card = {
 		de: "Es treibt mithilfe einer Art Rettungsring auf dem Wasser und hilft dem, der zu ertrinken droht."
 	},
 
-	thirdParty: {
-		cardmarket: 277525,
-		tcgplayer: 85511
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277525,
+				tcgplayer: 85511
+			}
 		},
 		{
 			type: "reverse"

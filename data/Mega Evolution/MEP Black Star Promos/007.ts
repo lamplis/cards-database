@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Jiro Sasumo",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Water"],
@@ -73,9 +73,8 @@ const card: Card = {
 				cardmarket: 851053,
 				tcgplayer: 656257
 			}
-		},
-	],
+		}
+	]
 }
 
 export default card
-

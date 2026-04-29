@@ -50,7 +50,6 @@ const card: Card = {
 		en: "Long considered a mythical Pokémon until recently, when a small colony was found living underwater.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

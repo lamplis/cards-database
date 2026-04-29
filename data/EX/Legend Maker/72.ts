@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Wenn sich bereits eine Karte mit diesem Namen im Spiel befindet, kannst du diese Karte nicht spielen. Immer zwischen den Zügen legt jeder Spieler 1 Schadensmarke auf alle Pokémon, die eine Poké-Power haben.",
 	},
 
-	thirdParty: {
-		cardmarket: 276949,
-		tcgplayer: 84538
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276949,
+				tcgplayer: 84538
+			}
 		},
 		{
 			type: "normal",

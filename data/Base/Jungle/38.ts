@@ -90,7 +90,6 @@ const card: Card = {
 		de: "Seine Zunge lässt sich ausziehen wie die eines Chamäleons. Es hinterläßt ein stechendes Gefühl, wenn es Feinde leckt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

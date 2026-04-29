@@ -36,13 +36,18 @@ const card: Card = {
 	],
 	retreat: 2,
 
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 275417,
 				tcgplayer: 84666
-			},
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["winner"]
 		},
 		{
 			type: "normal",

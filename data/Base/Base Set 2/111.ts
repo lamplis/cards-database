@@ -11,11 +11,6 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	effect: {
-		en: "Your Active Pokémon is no longer Asleep, Confused, Paralyzed, or Poisoned.",
-	},
-
-
 	variants: [
 		{
 			type: "normal",

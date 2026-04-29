@@ -58,12 +58,14 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 88871,
-			},
+				cardmarket: 274364,
+				tcgplayer: 88871
+			}
 		},
 		{
 			type: "normal",

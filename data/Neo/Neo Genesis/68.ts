@@ -77,7 +77,6 @@ const card: Card = {
 		de: "Vom Mondlicht aufgeweckt, wandert es nachts aktiv umher. Während des Tages bleibt es geräuschlos im Untergrund."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

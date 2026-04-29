@@ -75,19 +75,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "The toxin made in its poison sacs is pumped to the knuckle claws through tubes down its arms.",
-		de: "Das Gift aus seinen Backentaschen wird über zwei Venen in seinen Armen zu den Fingergelenken gepumpt."
-	},
-
-	thirdParty: {
-		cardmarket: 278080,
-		tcgplayer: 90008
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278080,
+				tcgplayer: 90008
+			}
 		},
 		{
 			type: "reverse"

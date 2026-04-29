@@ -66,7 +66,6 @@ const card: Card = {
 		de: "Da sie die Kälte nicht gut vertragen, kuscheln sich Ledybas aneinander, um sich warmzuhalten, wenn die Temperatur fällt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -66,17 +66,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees F.",
-		de: "In seinem Inneren lodert ein Feuer. Es schleudert 1 000 Grad heiße Feuerbälle."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 89961,
-				cardmarket: 278520
+				cardmarket: 278520,
+				tcgplayer: 89961
 			}
 		},
 		{

@@ -35,7 +35,7 @@ export async function cardToCardSimple(id: string, card: Card, lang: SupportedLa
 	}
 }
 
-function variantsDetailedToVariants(variants_detailed: Array<variant_detailed>): CardSingle['variants'] {
+export function variantsDetailedToVariants(variants_detailed: Array<variant_detailed>): CardSingle['variants'] {
 	return {
 		firstEdition: variants_detailed?.some((variant) => variant.stamp?.some((stamp) => stamp === '1st-edition')) ?? false,
 		holo: variants_detailed?.some((variant) => variant.type === 'holo') ?? false,
@@ -45,7 +45,7 @@ function variantsDetailedToVariants(variants_detailed: Array<variant_detailed>):
 	}
 }
 
-function variantsToVariantsDetailed(variants: CardSingle['variants'],lang: SupportedLanguages): Array<ApiVariantDetailed> {
+export function variantsToVariantsDetailed(variants: CardSingle['variants'],lang: SupportedLanguages): Array<ApiVariantDetailed> {
 	const result: Array<ApiVariantDetailed> = [];
 	const addVariant = (type: string, stamps: string[] = []) => {
 		result.push({
@@ -73,7 +73,7 @@ function variantsToVariantsDetailed(variants: CardSingle['variants'],lang: Suppo
 	return result.length > 0 ? result : undefined;
 }
 
-function buildSetNumber(localId: string, card: Card): CardSingle['set_number'] {
+export function buildSetNumber(localId: string, card: Card): CardSingle['set_number'] {
 	const normalizedId = localId.toString()
 	const prefix = normalizedId.match(/^([A-Z]+)\d/)?.[1]
 	const subsetCount = prefix ? card.set.subsets?.[prefix]?.cardCount?.official : undefined
@@ -105,6 +105,7 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 		illustrator: card.illustrator,
 		image,
 		localId,
+		set_number: buildSetNumber(localId, card),
 		name: resolveText(card.name, lang) as string,
 
 		rarity: translate('rarity', card.rarity, lang) as any,
@@ -126,10 +127,11 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 
 				return {
 					...formattedVariant,
-					variantId
+					variantId,
+					image
 				} as ApiVariantDetailed
 			}))
-			: variantsToVariantsDetailed(card.variants, lang),
+			: (variantsToVariantsDetailed(card.variants, lang) ?? []).map((v) => ({ ...v, image })),
 
 		dexId: card.dexId,
 		cameoDexIds: card.cameoDexIds,
@@ -186,7 +188,6 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 			// images will be coming soon...
 		})) : undefined,
 		updated: await getCardLastEdit(localId, card, lang),
-		set_number: buildSetNumber(localId, card),
 
 		thirdParty: card.thirdParty ?? resolveRootThirdPartyFromVariants(card.variants)
 	}
@@ -273,6 +274,44 @@ export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Arr
 			return ra - rb
 		}
 		return a >= b ? 1 : -1
+	})
+}
+
+
+export function enhanceTrainerLegality(
+	compiled: Array<CardSingle>,
+	originals: Array<[string, Card]>,
+): Array<CardSingle> {
+	const nameToLegal = new Map<string, { standard: boolean; expanded: boolean }>()
+
+	for (let i = 0; i < compiled.length; i++) {
+		const original = originals[i]?.[1]
+		if (!original || original.category !== 'Trainer') continue
+
+		const enName = original.name.en
+		if (!enName) continue
+
+		const legal = compiled[i].legal
+		const existing = nameToLegal.get(enName) ?? { standard: false, expanded: false }
+		existing.standard = existing.standard || Boolean(legal?.standard)
+		existing.expanded = existing.expanded || Boolean(legal?.expanded)
+		nameToLegal.set(enName, existing)
+	}
+
+	return compiled.map((card, i) => {
+		const original = originals[i]?.[1]
+		if (!original || original.category !== 'Trainer') return card
+
+		const enName = original.name.en
+		if (!enName) return card
+
+		const merged = nameToLegal.get(enName)
+		if (!merged) return card
+
+		return {
+			...card,
+			legal: { standard: merged.standard, expanded: merged.expanded },
+		}
 	})
 }
 

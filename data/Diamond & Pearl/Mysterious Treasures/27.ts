@@ -85,14 +85,13 @@ const card: Card = {
 		de: "Wenn es ruft, verschränkt es seine messerartigen Arme vor der Brust. Es komponiert aus dem Stegreif."
 	},
 
-	thirdParty: {
-		cardmarket: 277656,
-		tcgplayer: 86532
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277656,
+				tcgplayer: 86532
+			}
 		},
 		{
 			type: "reverse",

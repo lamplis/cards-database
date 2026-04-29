@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Wirf eine Münze. Bei „Zahl“ fügst du deinem aktiven Pokémon 10 Schadenspunkte zu. Bei „Kopf“ wirft dein Gegner eine Münze. Bei „Zahl“ fügt dein Gegner seinem oder ihrem aktiven Pokémon 10 Schadenspunkte zu. Bei „Kopf“ wirfst du eine Münze. Fahre damit fort, bis ein Spieler „Zahl“ wirft."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

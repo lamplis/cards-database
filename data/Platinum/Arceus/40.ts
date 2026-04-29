@@ -60,17 +60,12 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "Almost all of its body is its stomach. Its harsh digestive juices quickly dissolve anything it swallows.",
-		de: "Sein Körper besteht fast nur aus Magen. Seine starken Verdauungssäfte zersetzen alles sehr schnell."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 85978,
-				cardmarket: 278912
+				cardmarket: 278912,
+				tcgplayer: 85978
 			}
 		},
 		{

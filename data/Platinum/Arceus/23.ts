@@ -71,17 +71,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It is thought that this Pokémon became extinct because its spiral shell grew too large.",
-		de: "Man geht davon aus, dass das PKMN ausgestorben ist, weil seine spiralförmige Schale zu groß wurde."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 87871,
-				cardmarket: 278895
+				cardmarket: 278895,
+				tcgplayer: 87871
 			}
 		},
 		{

@@ -17,7 +17,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Choisissez l’une de ces options :\n\n• Ajoutez une carte Énergie de base de votre pile de défausse à votre main.\n• Mélangez 3 cartes Énergie de base de votre pile de défausse avec votre deck.",
+		fr: "Choisissez l'une de ces options :\n\nAjoutez une carte Énergie de base de votre pile de défausse à votre main.\n\nMélangez 3 cartes Énergie de base de votre pile de défausse avec votre deck.",
 		en: "Choose 1:\n\n•Put a basic Energy card from your discard pile into your hand.\n•Shuffle 3 basic Energy cards from your discard pile into your deck.",
 		es: "Elige 1 opción:\n\n• Pon 1 carta de Energía Básica de tu pila de descartes en tu mano.\n• Pon 3 cartas de Energía Básica de tu pila de descartes en tu baraja y barájalas todas.",
 		it: "Scegli:\n\n• Prendi una carta Energia base dalla tua pila degli scarti e aggiungila alle carte che hai in mano.\n• Rimischia tre carte Energia base dalla tua pila degli scarti nel tuo mazzo.",

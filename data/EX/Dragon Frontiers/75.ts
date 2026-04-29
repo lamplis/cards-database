@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Lege 1 Karte von deiner Hand auf deinen Ablagestapel. Wenn du das nicht machen kannst, kannst du diese Karte nicht spielen.\n\nDurchsuche dein Deck nach bis zu 3 Basis-Pokémon, die jeweils 100 KP oder weniger haben, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach.",
 	},
 
-	thirdParty: {
-		cardmarket: 277280,
-		tcgplayer: 86148
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277280,
+				tcgplayer: 86148
+			}
 		},
 		{
 			type: "normal",

@@ -83,19 +83,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It is said to appear in front of kindly people to scatter a glowing down called \"joy dust.\"",
-		de: "Man sagt, es erscheint vor denen, die gutherzig sind, und verteilt glänzenden „Glücksstaub“."
-	},
-
-	thirdParty: {
-		cardmarket: 277957,
-		tcgplayer: 89943
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277957,
+				tcgplayer: 89943
+			}
 		},
 		{
 			type: "reverse"

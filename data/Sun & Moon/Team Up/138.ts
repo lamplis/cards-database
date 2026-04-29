@@ -17,7 +17,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Vous ne pouvez jouer cette carte que si vous défaussez un Pokémon Darkness de votre main.\n\nDéfaussez une carte Outil Pokémon ou une carte Énergie spéciale de l’un des Pokémon de votre adversaire, ou défaussez toute carte Stade en jeu.",
+		fr: "Vous ne pouvez jouer cette carte que si vous défaussez un Pokémon {D} de votre main.\n\nDéfaussez une carte Outil Pokémon ou une carte Énergie spéciale de l'un des Pokémon de votre adversaire, ou défaussez toute carte Stade en jeu.",
 		en: "You can play this card only if you discard a Darkness Pokémon from your hand.\n\nDiscard a Pokémon Tool or Special Energy card from 1 of your opponent’s Pokémon, or discard any Stadium card in play.",
 		es: "Puedes jugar esta carta solo si descartas 1 Pokémon Darkness de tu mano.\n\nDescarta 1 carta de Herramienta Pokémon o 1 carta de Energía Especial de 1 de los Pokémon de tu rival, o descarta cualquier carta de Estadio en juego.",
 		it: "Puoi giocare questa carta solo se scarti un Pokémon Darkness che hai in mano.\n\nScarta una carta Oggetto Pokémon o Energia speciale assegnata a uno dei Pokémon del tuo avversario oppure scarta una carta Stadio qualsiasi in gioco.",

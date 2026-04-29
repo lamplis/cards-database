@@ -70,17 +70,14 @@ const card: Card = {
 	],
 
 
-	retreat: 2,
-
 	variants: [
 		{
 			type: "holo",
-			foil: 'cracked-ice',
 			thirdParty: {
-				tcgplayer: 88659,
-				cardmarket: 276171
+				cardmarket: 276171,
+				tcgplayer: 88659
 			}
-		},
+		}
 	]
 }
 

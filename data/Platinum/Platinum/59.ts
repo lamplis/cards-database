@@ -73,17 +73,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Because every PRINPLUP considers itself to be the most important, they can never form a group.",
-		de: "Jedes PLIPRIN geht davon aus, dass es das wichtigste ist. Daher können sie keine Gruppen bilden."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 88371,
-				cardmarket: 278480
+				cardmarket: 278480,
+				tcgplayer: 88371
 			}
 		},
 		{

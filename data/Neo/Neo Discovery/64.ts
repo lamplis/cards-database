@@ -63,7 +63,6 @@ const card: Card = {
 		de: "Es spinnt sein ein Netz aus feinem, aber haltbaren Faden. Dann wartet es geduldig auf Beute, die sich darin verfängt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -84,4 +83,3 @@ const card: Card = {
 }
 
 export default card
-

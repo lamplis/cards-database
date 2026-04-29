@@ -58,7 +58,6 @@ const card: Card = {
 		de: "Es kann aus seinem Maul einen Wasserschwall ausstoßen, um sich mit hoher Geschwindigkeit rückwärts fortzubewegen. Das ermöglicht ihm, staunenden Gegnern zu entfliehen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

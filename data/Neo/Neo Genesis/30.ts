@@ -86,7 +86,6 @@ const card: Card = {
 		de: "Das in seinen Flügeln auf dem Rücken gespeicherte Mondlicht gibt ihm anscheinend die Fähigkeit, mitten in der Luft zu schweben."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

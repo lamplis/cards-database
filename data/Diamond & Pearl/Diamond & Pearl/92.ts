@@ -73,14 +73,13 @@ const card: Card = {
 		de: "Wenn es sich unter dem Boden mit bis zu 80 km/h bewegt, verursacht es Erschütterungen."
 	},
 
-	thirdParty: {
-		cardmarket: 277591,
-		tcgplayer: 87882
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277591,
+				tcgplayer: 87882
+			}
 		},
 		{
 			type: "reverse"

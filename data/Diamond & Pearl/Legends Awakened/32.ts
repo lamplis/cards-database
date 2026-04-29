@@ -76,14 +76,13 @@ const card: Card = {
 		de: "Man sagt, es habe die Meere vergrößert, indem es es regnen ließ. Es schlief in einem Meeresgraben."
 	},
 
-	thirdParty: {
-		cardmarket: 278181,
-		tcgplayer: 86549
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278181,
+				tcgplayer: 86549
+			}
 		},
 		{
 			type: "reverse"

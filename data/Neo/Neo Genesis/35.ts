@@ -93,7 +93,6 @@ const card: Card = {
 		de: "Es baut sich ein Nest für seinen langen und dürren Körper. Andere Pokémon können unmöglich in das Nest schlüpfen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

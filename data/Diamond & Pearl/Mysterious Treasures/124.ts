@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Wirf 3 Münzen. Durchsuche für jedes Mal, wenn die Münze „Kopf“ gezeigt hat, deinen Ablagestapel nach 1 Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand."
 	},
 
-	thirdParty: {
-		cardmarket: 277753,
-		tcgplayer: 89920
-	},
-
 	variants: [
 		{
-			type: "holo",
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277753,
+				tcgplayer: 89920
+			}
 		},
 		{
 			type: "normal",

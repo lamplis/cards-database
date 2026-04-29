@@ -82,7 +82,6 @@ const card: Card = {
 		de: "Falls es ihm nicht gelingt, sein Opfer in seinen Kneifzangen zu erdrücken, schwingt es sein Opfer durch die Luft und nimmt es auf die Hörner."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

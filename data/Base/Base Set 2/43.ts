@@ -68,7 +68,6 @@ const card: Card = {
 		en: "Because of its ability to slip through block walls, it is said to be from another dimension.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

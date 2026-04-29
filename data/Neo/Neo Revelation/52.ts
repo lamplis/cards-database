@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Es breitet seine Blütenblätter aus, um das Sonnenlicht aufzusaugen. Es schwebt sogar leicht in der Luft, um näher an die Sonne heranzukommen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -105,4 +104,3 @@ const card: Card = {
 }
 
 export default card
-

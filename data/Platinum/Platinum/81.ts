@@ -68,17 +68,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It looks like an aquatic plant and serves as a ferry to Pokémon that can't swim.",
-		de: "Es sieht aus wie eine Wasserpflanze. Es dient den PKMN, die nicht schwimmen können, als Fähre."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 86837,
-				cardmarket: 278419
+				cardmarket: 278419,
+				tcgplayer: 86837
 			}
 		},
 		{

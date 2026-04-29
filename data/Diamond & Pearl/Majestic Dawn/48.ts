@@ -72,19 +72,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It stands along paths pretending to be a tree. If it starts raining, it seems to disappear.",
-		de: "Es steht an Pfaden und tut so, als sei es ein Baum. Im Regen scheint es zu verschwinden."
-	},
-
-	thirdParty: {
-		cardmarket: 278097,
-		tcgplayer: 89595
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278097,
+				tcgplayer: 89595
+			}
 		},
 		{
 			type: "reverse"

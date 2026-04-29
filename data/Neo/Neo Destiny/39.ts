@@ -85,7 +85,6 @@ const card: Card = {
 		de: "Wenn es einem Gegner den Rücken zukehrt, ist das ein Anzeichen dafür, dass es sich auf einen Angriff vorbereitet."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

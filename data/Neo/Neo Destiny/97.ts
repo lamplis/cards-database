@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Lege Gegenangriffs-Klauen an eines deiner Pokémon an, das keine Pokémon-Ausrüstung hat. Wenn im Zug deines Gegners das Pokémon, an das die Gegenangriffs-Klauen angelegt ist und der Angriff deines Gegners ihm Schaden zufügt (auch, wenn es dadurch kampfunfähig wurde), wirf eine Münze. Legen bei „Kopf“ 2 Schadensmarken auf das Pokémon deines Gegners, das dich gerade angegriffen hat. Lege dann die Gegenangriffs-Klauen auf deinen Ablagestapel."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

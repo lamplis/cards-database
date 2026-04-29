@@ -75,7 +75,6 @@ const card: Card = {
 		en: "A rare and elusive Pokémon that is said to bring happiness to those who manage to catch it.",
 	},
 
-
 	variants: [
 		{
 			type: "holo",

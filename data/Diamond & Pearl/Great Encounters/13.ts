@@ -77,19 +77,13 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "Its best attack involves flying around at high speed, striking with poison needles, then flying off.",
-		de: "Sein bester Angriff: Schnell auf den Gegner zufliegen, mit Giftstacheln zustechen und davonfliegen."
-	},
-
-	thirdParty: {
-		cardmarket: 277915,
-		tcgplayer: 83770
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277915,
+				tcgplayer: 83770
+			}
 		},
 		{
 			type: "reverse"

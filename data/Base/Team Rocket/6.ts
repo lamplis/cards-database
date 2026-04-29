@@ -90,7 +90,6 @@ const card: Card = {
 		de: "Gräbt riesige Löcher in die Erde und versucht seinen Gegnern damit eine Falle zu stellen."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

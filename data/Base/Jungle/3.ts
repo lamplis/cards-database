@@ -94,7 +94,6 @@ const card: Card = {
 		de: "Beim Speichern von Wärmeenergie in seinem Körper erreicht es eine Temperatur von über 900 Grad."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

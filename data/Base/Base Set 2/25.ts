@@ -70,7 +70,6 @@ const card: Card = {
 		en: "It stores electrical energy under very high pressure. It often explodes with little or no provocation.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

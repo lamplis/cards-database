@@ -20,7 +20,6 @@ const card: Card = {
 		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-karte ins Spiel kommt. Alle Schadenspunkte, die von Angriffen von {C} Pokémon zugefügt werden, werden um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

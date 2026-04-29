@@ -80,16 +80,12 @@ const card: Card = {
 
 	retreat: 3,
 
-	description: {
-		en: "Its arms are made of plants that bind themselves to things. They grow back right away if cut.",
-		de: "Seine Arme bestehen aus Ranken, die sich an Dinge klammern und nach dem Abschneiden sofort nachwachsen."
-	},
-
-	variants: [		{
+	variants: [
+		{
 			type: "holo",
 			thirdParty: {
-				tcgplayer: 89753,
-				cardmarket: 278882
+				cardmarket: 278882,
+				tcgplayer: 89753
 			}
 		},
 		{

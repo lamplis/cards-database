@@ -20,12 +20,11 @@ const card: Card = {
 		de: "Lege Stärkeamulett an 1 deiner Pokémon an, das keine Pokémon-Ausrüstung hat. Wenn das Pokémon kampfunfähig gemacht wird, lege Stärkeamulett auf den Ablagestapel. Wenn ein Angriff des Pokémon, an dem Stärkeamulett angelegt ist, dem Aktiven Pokémon Schaden zufügt (bevor Schwäche und Resistenz verrechnet wurden), fügt der Angriff 10 zusätzliche Schadenspunkte zu. Lege Stärkeamulett am Ende des Zuges, in dem der Angriff stattfand, auf deinen Ablagestapel."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 275851,
+				cardmarket: 276051,
 				tcgplayer: 89578
 			}
 		},

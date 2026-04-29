@@ -77,7 +77,6 @@ const card: Card = {
 		de: "Nicht sehr beliebt bei den Mädchen, weil es sich so unmöglich aufführt. Es murmelt oft gedankenverloren vor sich hin."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

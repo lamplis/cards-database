@@ -50,7 +50,6 @@ const card: Card = {
 		en: "An enigmatic Pokémon that can effortlessly regenerate any appendage it loses in battle.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

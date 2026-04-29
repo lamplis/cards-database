@@ -11,15 +11,13 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	effect: {
-		en: "Attach Charity to your Active Pokémon. Unless that Pokémon gets Knocked Out, return Charity to your hand at the end of your turn. If that Pokémon attacks and does damage to the Defending Pokémon, you may reduce that damage by any amount (rounded to the nearest 10)."
-	},
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 84182,
-			},
+				cardmarket: 274235,
+				tcgplayer: 84182
+			}
 		},
 		{
 			type: "normal",
@@ -33,4 +31,3 @@ const card: Card = {
 }
 
 export default card
-

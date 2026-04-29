@@ -97,7 +97,6 @@ const card: Card = {
 		de: "Die staubähnlichen Schuppen, die seine Flügel bedecken, sind je nach Art ihres Giftes farbkodiert."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

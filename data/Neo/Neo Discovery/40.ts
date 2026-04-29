@@ -47,7 +47,6 @@ const card: Card = {
 		de: "Es hat einen sehr weichen Körper. Wenn es einmal ins Rollen gerät, wird es herumkugeln und nicht zu stoppen sein."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -68,4 +67,3 @@ const card: Card = {
 }
 
 export default card
-

@@ -84,14 +84,13 @@ const card: Card = {
 		de: "Es greift seine Gegner mit Feuer an. Dabei entsteht ein Hitzeflimmern, in dem es sich versteckt."
 	},
 
-	thirdParty: {
-		cardmarket: 277645,
-		tcgplayer: 90105
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277645,
+				tcgplayer: 90105
+			}
 		},
 		{
 			type: "reverse",

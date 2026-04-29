@@ -24,7 +24,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Graveler",
-		fr: "Gravalanch"
+		fr: "Gravalanch",
+		es: "Graveler",
+		it: "Graveler",
+		pt: "Graveler",
+		de: "Georok"
 	},
 
 	attacks: [{

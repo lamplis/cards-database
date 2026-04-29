@@ -76,7 +76,6 @@ const card: Card = {
 		de: "Es liegt tagelang in derselben Pose reglos in seinem Netz, wobei es darauf wartet, dass sein nichtsahnendes Opfer in seine Nähe gerät."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

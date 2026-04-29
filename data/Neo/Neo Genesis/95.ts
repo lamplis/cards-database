@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Mische dein Deck. Schaue dir dann bis zu fünf der obersten Karten deines Decks an und und lege sie in einer beliebigen Reihenfolge wieder auf dein Deck zurück."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

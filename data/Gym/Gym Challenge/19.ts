@@ -11,15 +11,13 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	effect: {
-		en: "If an attack from a Pokémon with Koga in its name does damage to a Defending Pokémon this turn, that Pokémon is then Poisoned."
-	},
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
-				tcgplayer: 86502,
-			},
+				cardmarket: 274287,
+				tcgplayer: 86502
+			}
 		},
 		{
 			type: "holo",

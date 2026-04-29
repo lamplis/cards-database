@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Tausche zwei Karten aus deiner Hand gegen vier Basis-Energiekarten aus deinem Ablagestapel. Falls du weniger als vier 4 Basis-Energiekarten dort hast, nimm sie alle."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -81,7 +81,6 @@ const card: Card = {
 		de: "Im Wasser klappt es seine Körperteile ein, um kompakter zu sein, und wackelt dann mit seiner Muschel, um schnell zu schwimmen."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

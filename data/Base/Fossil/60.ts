@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Mische deine Hand in dein Deck. Wirf eine Münze. Bei „Kopf“ ziehe acht Karten ziehen. Bei „Zahl“ ziehe eine Karte ziehen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

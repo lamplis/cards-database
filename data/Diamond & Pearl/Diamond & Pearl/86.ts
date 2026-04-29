@@ -56,14 +56,13 @@ const card: Card = {
 		de: "Es hebt GEOROK hoch, um seinen Körper zu trainieren. Außerdem übt es sich in jeder Art v. Kampfsport."
 	},
 
-	thirdParty: {
-		cardmarket: 277585,
-		tcgplayer: 86995
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277585,
+				tcgplayer: 86995
+			}
 		},
 		{
 			type: "reverse"

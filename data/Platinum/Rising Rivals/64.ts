@@ -76,11 +76,6 @@ const card: Card = {
 	],
 	retreat: 2,
 
-	description: {
-		en: "It shuts its nostrils tight then travels through sand as if walking. They form colonies of around ten.",
-		de: "Es schließt seine Nasenlöcher und reist dann durch den Sand. Bildet Kolonien mit einer Größe von ca. 10."
-	},
-
 	variants: [
 		{
 			type: "normal",

@@ -70,7 +70,6 @@ const card: Card = {
 		en: "It is vulnerable to attack because its shell is soft, exposing its weak and tender body.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

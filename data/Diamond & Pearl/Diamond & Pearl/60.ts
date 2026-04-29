@@ -93,14 +93,13 @@ const card: Card = {
 		de: "Sein Gehirn entwickelt sich, wenn es sich auf die Hinterbeine stellt. Mit dem Horn bohrt es durch Gestein."
 	},
 
-	thirdParty: {
-		cardmarket: 277559,
-		tcgplayer: 88734
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277559,
+				tcgplayer: 88734
+			}
 		},
 		{
 			type: "reverse"

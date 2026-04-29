@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Wenn es dunkel wird, fangen die Ringe in seinem Fell an zu glühen und jagen allen in der Nähe Angst ein."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

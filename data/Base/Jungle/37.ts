@@ -90,7 +90,6 @@ const card: Card = {
 		de: "Die von seiner Schnauze herunterlaufende Flüssigket ist nicht Geifer, sondern vielmehr Nektar zum Anlocken der Beute."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

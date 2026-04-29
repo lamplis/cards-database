@@ -86,14 +86,13 @@ const card: Card = {
 		de: "Es besitzt die Macht, die Zeit zu kontrollieren. In den Mythen von Sinnoh erscheint es als Gottheit."
 	},
 
-	thirdParty: {
-		cardmarket: 277500,
-		tcgplayer: 84798
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277500,
+				tcgplayer: 84798
+			}
 		},
 		{
 			type: "reverse"

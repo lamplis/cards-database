@@ -74,17 +74,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
-	description: {
-		en: "When Doduo evolves into this odd breed, one of its heads splits into two. It runs at nearly 40 mph."
-	},
 
-	retreat: 0,
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				cardmarket: 278716,
-				tcgplayer: 84853,
+				cardmarket: 278716
 			}
 		},
 		{

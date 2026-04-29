@@ -82,9 +82,7 @@ const card: Card = {
 		{
 			type: 'reverse',
 			thirdParty: {
-				cardmarket: 740627,
-				tcgplayer: 523781,
-				cardtrader: 265219
+				cardmarket: 740627
 			}
 		},
 		{
@@ -99,7 +97,6 @@ const card: Card = {
 
 	illustrator: "AKIRA EGAWA",
 
-	
 }
 
 export default card

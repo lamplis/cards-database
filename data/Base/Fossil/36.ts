@@ -85,7 +85,6 @@ const card: Card = {
 		de: "Sein felsenartiger Körper ist steinhart. Es hält sogar problemlos Dynamit-Explosionen stand."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

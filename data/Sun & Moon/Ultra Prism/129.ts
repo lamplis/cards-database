@@ -17,7 +17,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Vous pouvez jouer 4 cartes Trèfle Manquant à la fois.\n\n• Si vous avez joué une carte, regardez la carte du dessus de votre deck.\n• Si vous avez joué 4 cartes, récupérez une carte Récompense. (Cet effet agit une fois pour 4 cartes.)",
+		fr: "Vous pouvez jouer 4 cartes Trèfle Manquant à la fois.\n\nSi vous avez joué une carte, regardez la carte du dessus de votre deck.\n\nSi vous avez joué 4 cartes, récupérez une carte Récompense. (Cet effet agit une fois pour 4 cartes.)",
 		en: "You may play 4 Missing Clover cards at once.\n\n• If you played 1 card, look at the top card of your deck.\n• If you played 4 cards, take a Prize card. (This effect works one time for 4 cards.)",
 		es: "Puedes jugar 4 cartas de Trébol Perdido de una vez.\n\n• Si has jugado 1 carta, mira la primera carta de tu baraja.\n• Si has jugado 4 cartas, coge 1 carta de Premio. (Este efecto funciona 1 vez por 4 cartas).",
 		it: "Puoi giocare quattro carte Trifoglio Mancante alla volta.\n\n• Se giochi una carta, guarda la prima carta del tuo mazzo.\n• Se giochi quattro carte, prendi una carta Premio (questo effetto si applica una volta ogni quattro carte).",

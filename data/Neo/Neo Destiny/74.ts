@@ -68,7 +68,6 @@ const card: Card = {
 		de: "Dieses Pokémon hat sich perfekt an seine Meeresheimat angepasst. Es kann genug Kraft sammeln, um wie ein Wal aus dem Wasser zu springen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

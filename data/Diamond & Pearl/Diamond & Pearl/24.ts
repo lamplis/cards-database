@@ -89,14 +89,13 @@ const card: Card = {
 		de: "Tagsüber treibt es faul vor sich hin, nachts fliegt es mit anderen umher. Niemand weiß wohin."
 	},
 
-	thirdParty: {
-		cardmarket: 277523,
-		tcgplayer: 84943
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277523,
+				tcgplayer: 84943
+			}
 		},
 		{
 			type: "reverse"

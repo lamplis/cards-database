@@ -50,12 +50,14 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 86521,
-			},
+				cardmarket: 274351,
+				tcgplayer: 86521
+			}
 		},
 		{
 			type: "normal",

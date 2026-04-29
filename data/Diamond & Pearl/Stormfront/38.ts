@@ -87,14 +87,13 @@ const card: Card = {
 		de: "Ohne seinen Stock kann es nicht leben. Daher beschützt es den Stock mit seinem Leben."
 	},
 
-	thirdParty: {
-		cardmarket: 278336,
-		tcgplayer: 85387
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278336,
+				tcgplayer: 85387
+			}
 		},
 		{
 			type: "reverse"

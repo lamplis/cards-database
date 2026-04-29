@@ -63,7 +63,6 @@ const card: Card = {
 		en: "As it grows, the stone portions of its body harden to become similar to a diamond, though colored black.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

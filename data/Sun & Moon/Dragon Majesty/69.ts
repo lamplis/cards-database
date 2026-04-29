@@ -27,7 +27,7 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Vous ne pouvez jouer cette carte que si c’est votre dernière carte en main.\n\nPiochez 2 cartes pour chacun de vos Pokémon Fire en jeu.",
+		fr: "Vous ne pouvez jouer cette carte que si c'est votre dernière carte en main.\n\nPiochez 2 cartes pour chacun de vos Pokémon {R} en jeu.",
 		en: "You can play this card only when it is the last card in your hand.\n\nDraw 2 cards for each Fire Pokémon you have in play.",
 		es: "Puedes jugar esta carta solo cuando es la última carta en tu mano.\n\nRoba 2 cartas por cada Pokémon Fire que tengas en juego.",
 		it: "Puoi giocare questa carta solo se è l’ultima carta che hai in mano.\n\nPesca due carte per ogni Pokémon Fire che hai in gioco.",

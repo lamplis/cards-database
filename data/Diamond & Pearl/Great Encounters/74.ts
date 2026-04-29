@@ -68,19 +68,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "Lighter-than-air gases in its body keep it aloft. The gases not only smell, they are also explosive.",
-		de: "Gase, die leichter als Luft sind, lassen es schweben. Diese Gase stinken und sind explosiv."
-	},
-
-	thirdParty: {
-		cardmarket: 277976,
-		tcgplayer: 86496
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277976,
+				tcgplayer: 86496
+			}
 		},
 		{
 			type: "reverse"

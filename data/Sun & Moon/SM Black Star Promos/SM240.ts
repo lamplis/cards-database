@@ -2,7 +2,13 @@ import { Card } from '../../../interfaces'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
-	dexId: [196, 386],
+	dexId: [
+
+		196,
+
+		386,
+
+	],
 	set: Set,
 
 	name: {
@@ -14,8 +20,7 @@ const card: Card = {
 		de: "Psiana & Deoxys GX"
 	},
 
-	illustrator: "Hasuno",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 260,
 	types: ["Psychic"],

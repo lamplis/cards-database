@@ -78,18 +78,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It attracts prey with a sweet aroma, then downs it with thorny whips hidden in its arms.",
-	},
-
-	thirdParty: {
-		cardmarket: 277770,
-		tcgplayer: 88827
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277770,
+				tcgplayer: 88827
+			}
 		},
 		{
 			type: "reverse",

@@ -76,7 +76,6 @@ const card: Card = {
 		de: "Zuerst in einer Waffenfabrik entdeckt, ist dieses Pokémon jetzt fast überall zu finden."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

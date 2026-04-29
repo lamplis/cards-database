@@ -11,15 +11,13 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	effect: {
-		en: "Look at your opponent's hand. If he or she has any Basic Pokémon cards there, you may put any number of them onto your opponent's Bench (as long as there's room)."
-	},
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 85305,
-			},
+				cardmarket: 274246,
+				tcgplayer: 85305
+			}
 		},
 		{
 			type: "normal",
@@ -33,4 +31,3 @@ const card: Card = {
 }
 
 export default card
-

@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Als sein Kopf gebissen wurde, drangen Gifte in Flegmons Kopf ein und setzten außerordentliche Kräfte frei."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

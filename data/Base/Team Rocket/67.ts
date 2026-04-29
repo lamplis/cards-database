@@ -72,7 +72,6 @@ const card: Card = {
 		de: "Obwohl es weiß, wie man Fische fängt, konnte kein anderes intelligentes Verhalten bei ihm festgestellt werden."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

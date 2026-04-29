@@ -79,14 +79,13 @@ const card: Card = {
 		de: "Es lebt in vulkanischen Höhlen. Mit seinen kreuzförmigen Klauen kann es sogar an der Decke laufen."
 	},
 
-	thirdParty: {
-		cardmarket: 278155,
-		tcgplayer: 86047
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278155,
+				tcgplayer: 86047
+			}
 		},
 		{
 			type: "reverse"

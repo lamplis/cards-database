@@ -72,11 +72,6 @@ const card: Card = {
 	],
 	retreat: 2,
 
-	description: {
-		en: "It habitually spins things on its nose. By doing so, it learns textures and odors.",
-		de: "Es balanciert Dinge auf seiner Nase. Dabei lernt es etwas über die Beschaffenheit und den Geruch."
-	},
-
 	variants: [
 		{
 			type: "normal",

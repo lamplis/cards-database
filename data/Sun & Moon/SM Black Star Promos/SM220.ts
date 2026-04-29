@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Phione"
 	},
 
-	illustrator: "Kagemaru Himeno",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Water"],

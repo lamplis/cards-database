@@ -65,17 +65,12 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "When at an all-out gallop, its blazing mane sparkles, enhancing its beautiful appearance.",
-		de: "In vollem Galopp funkelt seine leuchtende Mähne, was wiederum seine Schönheit unterstreicht."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 88586,
-				cardmarket: 278900
+				cardmarket: 278900,
+				tcgplayer: 88586
 			}
 		},
 		{

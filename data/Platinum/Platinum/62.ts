@@ -82,17 +82,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It is outstandingly armored. As a result, it can eat grass and berries without having to fight.",
-		de: "Es ist sehr gut gepanzert und muss daher während des Essens von Gras und Beeren keinen Kampf fürchten."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 89151,
-				cardmarket: 278483
+				cardmarket: 278483,
+				tcgplayer: 89151
 			}
 		},
 		{

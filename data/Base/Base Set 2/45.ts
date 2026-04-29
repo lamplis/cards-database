@@ -67,7 +67,6 @@ const card: Card = {
 		en: "Merely by meditating, the Pokémon launches a powerful psychic energy attack.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

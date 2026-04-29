@@ -78,14 +78,13 @@ const card: Card = {
 		de: "Sein Körper besteht aus Stein. Bricht im Kampf etwas heraus, wird es durch Stein wieder ersetzt."
 	},
 
-	thirdParty: {
-		cardmarket: 278187,
-		tcgplayer: 88672
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278187,
+				tcgplayer: 88672
+			}
 		},
 		{
 			type: "reverse"

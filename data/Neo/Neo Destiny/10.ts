@@ -79,7 +79,6 @@ const card: Card = {
 		de: "Wenn es kämpft, schimmert und krümmt sich die Luft durch die Hitze, die es produziert."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

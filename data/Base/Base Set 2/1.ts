@@ -70,7 +70,6 @@ const card: Card = {
 		en: "Its brain can outperform a supercomputer. Its intelligence quotient is said to be 5000.",
 	},
 
-
 	variants: [
 		{
 			type: "holo",

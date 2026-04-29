@@ -83,7 +83,6 @@ const card: Card = {
 		de: "Immer mehr Leute versuchen ihr Glück an Spielautomaten, um ein Porygon zu gewinnen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

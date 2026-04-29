@@ -89,14 +89,13 @@ const card: Card = {
 		de: "Seine Krallen geben Elektrizität ab, die stark genug ist, jemanden bewusstlos zu machen."
 	},
 
-	thirdParty: {
-		cardmarket: 277551,
-		tcgplayer: 86939
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277551,
+				tcgplayer: 86939
+			}
 		},
 		{
 			type: "reverse"

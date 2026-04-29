@@ -12,11 +12,21 @@ const card: Card = {
 	},
 
 	illustrator: "Anesaki Dynamic",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [445, 487],
+	dexId: [
+
+
+		445,
+
+
+		487,
+
+
+	],
+
 	hp: 270,
 
 	types: [

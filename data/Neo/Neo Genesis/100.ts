@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Falls du mindestens ein Pokémon auf der Bank hast, wählt dein Gegner eines von ihnen und tauscht es mit deinem aktiven Pokémon aus. Falls dein Gegner mindestens ein Pokémon auf der Bank hat, wähle dann eines von diesen und tausche es mit seinem aktiven Pokémon aus."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

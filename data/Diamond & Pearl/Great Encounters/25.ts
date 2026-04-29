@@ -78,19 +78,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "When people bicker, it is said to arise from the depths of lakes to becalm violent hearts.",
-		de: "Wenn sich jemand streitet, steigt es aus den Tiefen des Sees empor, um die Streitenden zu beruhigen."
-	},
-
-	thirdParty: {
-		cardmarket: 277927,
-		tcgplayer: 87454
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277927,
+				tcgplayer: 87454
+			}
 		},
 		{
 			type: "reverse"

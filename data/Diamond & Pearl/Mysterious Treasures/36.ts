@@ -83,14 +83,13 @@ const card: Card = {
 		de: "Die Gelenke an seinen Klauen geben ein so starkes Gift ab, dass selbst ein kleiner Kratzer fatal ist."
 	},
 
-	thirdParty: {
-		cardmarket: 277665,
-		tcgplayer: 90007
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277665,
+				tcgplayer: 90007
+			}
 		},
 		{
 			type: "reverse",

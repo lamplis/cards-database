@@ -83,7 +83,6 @@ const card: Card = {
 		de: "Nichts, was es einmal in seine Tentakel gewickelt hat kann entkommen - sowohl in der Selbstverteidigung als auch beim Fangen von Nahrung."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

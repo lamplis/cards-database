@@ -84,14 +84,13 @@ const card: Card = {
 		de: "Nach seiner Entwicklung ging es an Land. Sein Körper ist von einer robusten Rüstung umgeben."
 	},
 
-	thirdParty: {
-		cardmarket: 278167,
-		tcgplayer: 83621
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278167,
+				tcgplayer: 83621
+			}
 		},
 		{
 			type: "reverse"

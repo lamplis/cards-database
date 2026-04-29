@@ -79,7 +79,6 @@ const card: Card = {
 		de: "Es wächst und häutet sich dauernd. Die Spitze auf seinem Kopf wird wegen ihrer Schönheit als Schatz betrachtet."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -100,4 +99,3 @@ const card: Card = {
 }
 
 export default card
-

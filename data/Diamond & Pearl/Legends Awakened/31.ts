@@ -81,14 +81,13 @@ const card: Card = {
 		de: "Man sagt, es kann alle tausend Jahre für eine Woche jeden Wunsch erfüllen."
 	},
 
-	thirdParty: {
-		cardmarket: 278180,
-		tcgplayer: 86328
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278180,
+				tcgplayer: 86328
+			}
 		},
 		{
 			type: "reverse"

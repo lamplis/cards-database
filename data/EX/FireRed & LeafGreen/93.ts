@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Flip a coin. If heads, choose 1 of your Pokémon (excluding Pokémon-ex) , and remove all Spezial Conditions and 6 damage counters from thad Pokémon (all if there are less than 6)."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 276269,
 				tcgplayer: 86731
-			},
+			}
 		},
 		{
 			type: "reverse",

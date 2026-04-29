@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Frage deinen Gegner, ob er oder sie die Herausforderung annimmt. Falls dein Gegner ablehnt (oder falls beide Bänke voll sind), ziehe zwei Karten. Falls dein Gegner annimmt, durchsucht ihr beide eure Decks nach beliebig vielen Basis-Pokémon-Karten und legt sie mit der Bildseite nach unten auf eure Bänke. (Ein Spieler kann dies nicht tun, falls seine oder ihre Bank voll ist.) Wenn ihr beide fertig seid, mischt eure Decks und dreht die herausgesuchten Karten mit der Bildseite nach oben um."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

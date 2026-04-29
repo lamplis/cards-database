@@ -74,19 +74,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "A Pokémon that appears to be a plant. It captures unwary prey by dousing them with a toxic powder.",
-		de: "Ein Pokémon, das wie eine Pflanze aussieht. Es fängt Beute, indem es giftigen Puder darüber verteilt."
-	},
-
-	thirdParty: {
-		cardmarket: 278276,
-		tcgplayer: 90554
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278276,
+				tcgplayer: 90554
+			}
 		},
 		{
 			type: "reverse"

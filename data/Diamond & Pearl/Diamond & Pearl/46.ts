@@ -84,14 +84,13 @@ const card: Card = {
 		de: "Ein PKMN, entstanden aus den Gefühlen von Menschen und PKMN. Es mag feuchte Jahreszeiten."
 	},
 
-	thirdParty: {
-		cardmarket: 277545,
-		tcgplayer: 84953
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277545,
+				tcgplayer: 84953
+			}
 		},
 		{
 			type: "reverse"

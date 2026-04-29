@@ -23,6 +23,10 @@ const card: Card = {
 	],
 	stage: "Basic",
 
+	effect: {
+		fr: "Pendant ce tour, les attaques de votre Pokémon infligent 10 dégâts supplémentaires aux Pokémon Actifs (avant application de la Faiblesse et de la Résistance).",
+	},
+
 	attacks: [{
 		cost: [
 			"Fighting",

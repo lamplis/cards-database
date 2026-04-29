@@ -62,13 +62,14 @@ const card: Card = {
 		it: "Drizza le orecchie per sentire il pericolo. Il più grande e potente dei suoi corni secerne veleno.",
 		de: "Spitzt die Ohren, um Gefahr zu wittern. Das große, mächtige Horn sondert Gift ab."
 	},
+
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
 			thirdParty: {
-				cardmarket: 273750
-			}
+				tcgplayer: 42399
+			},
 		},
 		{
 			type: "normal",
@@ -83,12 +84,12 @@ const card: Card = {
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				cardmarket: 660173
-			}
+				tcgplayer: 107052
+			},
 		},
 		{
 			type: "normal",
-			subtype: "1999-2000-copyright"
+			subtype: "1999-2000-copyright",
 		}
 	],
 }

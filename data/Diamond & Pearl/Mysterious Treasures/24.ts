@@ -82,14 +82,13 @@ const card: Card = {
 		de: "Man nennt es den „Laufenden Dschungel“. Wird ein Kopf zu groß, fällt er ab und wird zu einem OWEI."
 	},
 
-	thirdParty: {
-		cardmarket: 277653,
-		tcgplayer: 85360
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277653,
+				tcgplayer: 85360
+			}
 		},
 		{
 			type: "reverse",

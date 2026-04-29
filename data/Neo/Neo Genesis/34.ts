@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Da es zuviel Elektrizität speichert, entwickelt es Flecken, an denen selbst Daunenwolle nicht wachsen würde."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

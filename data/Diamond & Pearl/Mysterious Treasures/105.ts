@@ -77,14 +77,13 @@ const card: Card = {
 		de: "Es lässt Honig in seine Pranken eindringen, so dass es immer welchen dabeihat."
 	},
 
-	thirdParty: {
-		cardmarket: 277734,
-		tcgplayer: 89858
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277734,
+				tcgplayer: 89858
+			}
 		},
 		{
 			type: "reverse",

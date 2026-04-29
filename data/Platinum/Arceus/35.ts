@@ -69,17 +69,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "In the rocky mountains where Charmeleon live, their fiery tails shine at night like stars.",
-		de: "GLUTEXO leben in den Bergen. Die Flammen auf ihren Schweifspitzen leuchten in der Nacht wie Sterne."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 84233,
-				cardmarket: 278907
+				cardmarket: 278907,
+				tcgplayer: 84233
 			}
 		},
 		{

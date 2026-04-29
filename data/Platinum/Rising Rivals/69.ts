@@ -67,12 +67,17 @@ const card: Card = {
 	],
 	retreat: 2,
 
-	description: {
-		en: "In its desperation to gulp down food, it forgets about the food it has hidden under its fur.",
-		de: "Es ist so damit beschäftigt, Futter hinunterzuschlingen, dass es das Futter unter seinem Fell vergisst."
-	},
-
 	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278643,
+				tcgplayer: 87639
+			}
+		},
+		{
+			type: "reverse"
+		},
 		{
 			type: "normal",
 			thirdParty: {

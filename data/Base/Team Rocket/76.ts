@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Lege eine Karte von deiner Hand ab, um diese Karte zu spielen. Dein Gegner mischt seine oder ihre Hand in sein oder ihr Deck und zieht dann vier Karten."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

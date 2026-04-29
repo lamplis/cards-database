@@ -82,14 +82,13 @@ const card: Card = {
 		de: "MASCHOCKs unbegrenzte Kraft ist gefährlich, daher trägt es einen Gürtel, der die Kraft unterdrückt."
 	},
 
-	thirdParty: {
-		cardmarket: 277552,
-		tcgplayer: 86981
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277552,
+				tcgplayer: 86981
+			}
 		},
 		{
 			type: "reverse"

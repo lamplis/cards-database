@@ -68,7 +68,6 @@ const card: Card = {
 		de: "Wenn es läuft, presst es seine empfindliche Nase an den Boden und schnüffelt überall nach Essbarem."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

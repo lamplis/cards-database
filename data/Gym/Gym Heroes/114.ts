@@ -11,15 +11,13 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	effect: {
-		en: "Look at the top 7 cards of your deck. Choose 2 of those cards and put them into your hand. Discard the rest."
-	},
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 87554,
-			},
+				cardmarket: 274250,
+				tcgplayer: 87554
+			}
 		},
 		{
 			type: "normal",
@@ -33,4 +31,3 @@ const card: Card = {
 }
 
 export default card
-

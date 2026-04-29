@@ -74,14 +74,13 @@ const card: Card = {
 		de: "Über seine Antennen entlädt es Elektrizität, mit der es seinen Gegnern einen Schlag versetzt."
 	},
 
-	thirdParty: {
-		cardmarket: 278236,
-		tcgplayer: 84309
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278236,
+				tcgplayer: 84309
+			}
 		},
 		{
 			type: "reverse"

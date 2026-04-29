@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Jeder Spieler spielt für den Rest des Spiels mit offenen Preiskarten."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

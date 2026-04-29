@@ -26,24 +26,33 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless", "Colorless", "Colorless"],
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
 			name: {
 				en: "Claw Clash",
-				de: "Klauenschlitzer"
+				fr: "Tranch'Griffe"
 			},
-			damage: 70,
+			damage: 70
 		},
 		{
-			cost: ["Fighting", "Fighting", "Fighting", "Colorless"],
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Fighting",
+				"Colorless",
+			],
 			name: {
 				en: "Wild Impact",
-				de: "Tobende Fänge"
+				fr: "Croc Furieux"
 			},
 			damage: 190,
 			effect: {
 				en: "Discard 3 Energy from this Pokémon.",
-				de: "Lege 3 Energien von diesem Pokémon auf deinen Ablagestapel."
-			},
+				fr: "Défaussez 3 Énergies de ce Pokémon."
+			}
 		},
 	],
 

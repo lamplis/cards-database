@@ -80,7 +80,6 @@ const card: Card = {
 		de: "Es wird tief unter der Erde geboren und muss sich seinen Weg an die Oberfläche selber graben."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

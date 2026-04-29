@@ -71,10 +71,9 @@ const card: Card = {
 		de: "Die Flammen, die es ausatmet, sind so heiß, dass sie alles zum Schmelzen bringen können."
 	},
 
-
 	variants: [
 		{
-			type: "holo",
+			type: "normal",
 			thirdParty: {
 				cardmarket: 274759,
 				tcgplayer: 89163

@@ -63,7 +63,6 @@ const card: Card = {
 		de: "Kann den genetischen Code eines Gegners so schnell kopieren, dass es sich sofort in sein Ebenbild verwandeln kann."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

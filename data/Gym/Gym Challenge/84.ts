@@ -44,12 +44,14 @@ const card: Card = {
 			value: "x2"
 		},
 	],
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 86860,
-			},
+				cardmarket: 274352,
+				tcgplayer: 86860
+			}
 		},
 		{
 			type: "normal",

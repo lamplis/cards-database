@@ -81,7 +81,6 @@ const card: Card = {
 		de: "Aufgrund seiner Fähigkeit, durch Wände zu gleiten, sagt man ihm nach, dass es aus einer anderen Dimension stammt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

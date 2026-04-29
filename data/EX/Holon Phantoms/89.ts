@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Du kannst in jedem Zug nur eine Unterstützerkarte spielen. Wenn du diese Karte ausspielst, lege sie neben dein Aktives Pokémon. Lege diese Karte am Ende deines Zuges auf deinen Ablagestapel. Wirf 1 Münze. Ziehe bei „Kopf“ die untersten 3 Karten deines Decks. Ziehe bei „Zahl“ die obersten 2 Karten deines Decks.",
 	},
 
-	thirdParty: {
-		cardmarket: 277059,
-		tcgplayer: 88386
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277059,
+				tcgplayer: 88386
+			}
 		},
 		{
 			type: "normal",

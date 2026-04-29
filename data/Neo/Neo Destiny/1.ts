@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Sein hell leuchtender Schwanz kann in der Dunkelheit meilenweit gesehen werden, selbst von Schiffen auf hoher See."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

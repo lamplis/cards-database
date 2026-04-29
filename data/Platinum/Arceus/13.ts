@@ -76,17 +76,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "A Pokémon that roamed the skies in the dinosaur era. Its teeth are like saw blades.",
-		de: "Dieses PKMN flog zu Zeiten der Dinosaurier am Himmel. Seine Zähne sind wie Sägeblätter."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 83470,
-				cardmarket: 278885
+				cardmarket: 278885,
+				tcgplayer: 83470
 			}
 		},
 		{

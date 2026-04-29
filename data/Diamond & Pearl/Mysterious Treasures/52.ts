@@ -73,14 +73,13 @@ const card: Card = {
 		de: "Es liebt runde, weiße Dinge. Es trägt einen eiförmigen Stein bei sich, und imitiert damit CHANEIRA."
 	},
 
-	thirdParty: {
-		cardmarket: 277681,
-		tcgplayer: 86006
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277681,
+				tcgplayer: 86006
+			}
 		},
 		{
 			type: "reverse",

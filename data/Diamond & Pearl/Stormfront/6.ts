@@ -85,19 +85,13 @@ const card: Card = {
 
 	retreat: 3,
 
-	description: {
-		en: "It evolved from exposure to a special magnetic field. Three units generate magnetism.",
-		de: "Es entwickelte sich, als es einem besonderen Magnetfeld ausgesetzt wurde."
-	},
-
-	thirdParty: {
-		cardmarket: 278303,
-		tcgplayer: 87115
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278303,
+				tcgplayer: 87115
+			}
 		},
 		{
 			type: "reverse"

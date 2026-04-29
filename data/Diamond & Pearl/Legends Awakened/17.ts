@@ -89,14 +89,13 @@ const card: Card = {
 		de: "Durch die Bewegung seiner Flügel entstehen Schockwellen, die dem Gegner innere Verletzungen zufügen."
 	},
 
-	thirdParty: {
-		cardmarket: 278166,
-		tcgplayer: 90690
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278166,
+				tcgplayer: 90690
+			}
 		},
 		{
 			type: "reverse"

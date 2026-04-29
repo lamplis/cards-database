@@ -86,7 +86,6 @@ const card: Card = {
 		de: "Dieses legendäre chinesische Pokémon kann leicht an seiner riesigen wuscheligen Mähne erkannt werden."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

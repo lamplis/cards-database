@@ -88,14 +88,13 @@ const card: Card = {
 		de: "Es kann sich durch jedes Hindernis bewegen. Es versteckt sich in Wänden, um Gegner zu beobachten."
 	},
 
-	thirdParty: {
-		cardmarket: 277549,
-		tcgplayer: 86027
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277549,
+				tcgplayer: 86027
+			}
 		},
 		{
 			type: "reverse"

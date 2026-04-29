@@ -77,7 +77,6 @@ const card: Card = {
 		de: "Auf dem dunklen Meeresboden kann es sich nur durch dauernd aufblinkende Lichter verständigen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -98,4 +97,3 @@ const card: Card = {
 }
 
 export default card
-

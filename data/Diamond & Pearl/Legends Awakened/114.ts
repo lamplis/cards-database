@@ -66,19 +66,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Its skin is so thin, its internal organs are visible. It has trouble walking on its newly grown feet.",
-		de: "Seine Haut ist so dünn, dass man die inneren Organe sehen kann. Es hat Schwierigkeiten beim Laufen."
-	},
-
-	thirdParty: {
-		cardmarket: 278263,
-		tcgplayer: 88259
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278263,
+				tcgplayer: 88259
+			}
 		},
 		{
 			type: "reverse"

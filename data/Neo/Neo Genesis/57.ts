@@ -78,7 +78,6 @@ const card: Card = {
 		de: "Es ist furchtsam und rollt sich immer zu einem Ball zusammen. Wenn es angegriffen wird, entflammt es seinen Rücken zum Schutz."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

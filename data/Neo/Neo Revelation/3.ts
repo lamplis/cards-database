@@ -75,7 +75,6 @@ const card: Card = {
 		de: "Dieses Pokémon wandert durch die Zeit. In den Wäldern, in denen es erscheint, gedeihen Gras und Bäume besonders üppig."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

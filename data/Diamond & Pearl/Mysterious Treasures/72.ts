@@ -66,14 +66,13 @@ const card: Card = {
 		de: "Es bedeckt seinen Körper mit einer schleimigen Substanz und kann sich so aus Umklammerungen winden."
 	},
 
-	thirdParty: {
-		cardmarket: 277701,
-		tcgplayer: 83729
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277701,
+				tcgplayer: 83729
+			}
 		},
 		{
 			type: "reverse",

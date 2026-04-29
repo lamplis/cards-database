@@ -73,15 +73,10 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "Because of the way it floats aimlessly, an old folktale calls it a \"Signpost for Wandering Spirits.\""
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 84959,
 				cardmarket: 278794
 			}
 		},

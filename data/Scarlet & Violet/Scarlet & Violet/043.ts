@@ -84,7 +84,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "reverse"
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 702338,
+				tcgplayer: 487887
+			}
 		},
 		{
 			type: "holo"
@@ -93,15 +97,6 @@ const card: Card = {
 
 	illustrator: "Shinji Kanda",
 
-	description: {
-		en: "If the tail-biting Shellder is thrown off in a harsh battle, this Pokémon reverts to being an ordinary Slowpoke.",
-		de: "Wenn das Muschas an seiner Rute in einem harten Kampf abfällt, wird Lahmus wieder zu Flegmon."
-	},
-
-	thirdParty: {
-        cardmarket: 702338,
-        tcgplayer: 487887
-    }
 }
 
 export default card

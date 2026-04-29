@@ -83,14 +83,13 @@ const card: Card = {
 		de: "Sein eisiger Atem mit minus 50 Grad friert Gegner ein. Was aussieht wie sein Körper ist tatsächlich hohl."
 	},
 
-	thirdParty: {
-		cardmarket: 278152,
-		tcgplayer: 85572
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278152,
+				tcgplayer: 85572
+			}
 		},
 		{
 			type: "reverse"

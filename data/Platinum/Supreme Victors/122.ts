@@ -73,15 +73,10 @@ const card: Card = {
 	],
 	retreat: 2,
 
-	description: {
-		en: "Its powerful tackles can destroy anything. However, it is too slow witted to help people work."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 88743,
 				cardmarket: 278813
 			}
 		},

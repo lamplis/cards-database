@@ -85,7 +85,6 @@ const card: Card = {
 		de: "Es fängt seine Beute mit seinen Saugnapf-Tentakeln und zerschmettert sie dann mit seinem steinharten Kopf."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -106,4 +105,3 @@ const card: Card = {
 }
 
 export default card
-

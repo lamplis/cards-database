@@ -20,12 +20,11 @@ const card: Card = {
 		fr: "Énergie Aqua ne peut être attachée qu'à un Pokémon dont le nom comporte Team Aqua. Énergie Aqua fournit 2 Énergies à la fois, Eau et Obscurité. (Elle ne compte pas comme carte Énergie de base lorsqu'elle n'est pas en jeu et n'a pas d'autre effet que de fournir de l'Énergie.) À la fin de votre tour, défaussez Énergie Aqua."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 275863,
+				cardmarket: 276063,
 				tcgplayer: 83565
 			}
 		},

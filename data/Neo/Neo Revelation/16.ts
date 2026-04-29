@@ -61,7 +61,6 @@ const card: Card = {
 		de: "Wenn Celebi tief in einem Wald verschwindet, so wird behauptet, versteckt es dort ein Ei, das es aus der Zukunft mitgebracht hat."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -82,4 +81,3 @@ const card: Card = {
 }
 
 export default card
-

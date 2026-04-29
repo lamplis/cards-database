@@ -85,19 +85,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It will never appear where there is strife. Its sightings have become rare recently.",
-		de: "Es zeigt sich niemals dort, wo es Streitigkeiten gibt. In letzter Zeit wurde es nur selten gesehen."
-	},
-
-	thirdParty: {
-		cardmarket: 277913,
-		tcgplayer: 89923
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 277913,
+				tcgplayer: 89923
+			}
 		},
 		{
 			type: "reverse"

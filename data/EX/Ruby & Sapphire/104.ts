@@ -15,8 +15,8 @@ const card: Card = {
 	stage: "Basic",
 	energyType: "Normal",
 
-
-	variants: [		{
+	variants: [
+		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 275752,

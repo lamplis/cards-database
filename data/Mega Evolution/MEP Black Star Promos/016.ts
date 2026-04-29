@@ -14,9 +14,10 @@ const card: Card = {
 		pt: "Flygon"
 	},
 
-	illustrator: "Oswaldo KATO",
-  	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
+
+	dexId: [330],
 	hp: 150,
 	types: ["Fighting"],
 	stage: "Stage2",

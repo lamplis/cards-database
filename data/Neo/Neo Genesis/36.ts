@@ -86,7 +86,6 @@ const card: Card = {
 		de: "Was wie Sabber aussieht, ist eigentlich süßer Honig. Es ist sehr klebrig, und klebt bei Berührung hartnäckig."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

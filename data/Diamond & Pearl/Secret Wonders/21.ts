@@ -77,18 +77,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It senses disasters coming and appears before people only to warn them of impending danger.",
-	},
-
-	thirdParty: {
-		cardmarket: 277774,
-		tcgplayer: 83453
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277774,
+				tcgplayer: 83453
+			}
 		},
 		{
 			type: "reverse",

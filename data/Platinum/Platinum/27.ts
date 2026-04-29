@@ -79,17 +79,12 @@ const card: Card = {
 
 	retreat: 3,
 
-	description: {
-		en: "A Pokémon that is said to live in a world on the reverse side of ours. It appears in an ancient cemetery.",
-		de: "Ein PKMN, von dem man sagt, es lebt in der Spiegelwelt unserer Welt. Es erscheint auf alten Friedhöfen."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 85735,
-				cardmarket: 278430
+				cardmarket: 278430,
+				tcgplayer: 85735
 			}
 		},
 		{

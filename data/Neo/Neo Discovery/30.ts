@@ -67,7 +67,6 @@ const card: Card = {
 		de: "Eine besondere Flüssigkeit quillt aus seiner Schwanzspitze. Es malt diese Flüssigkeit überallhin, um damit sein Revier zu markieren."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -88,4 +87,3 @@ const card: Card = {
 }
 
 export default card
-

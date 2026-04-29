@@ -86,7 +86,6 @@ const card: Card = {
 		de: "Seine massiven Knochen sind tausendmal härter als menschliche Knochen. Es kann problemlos einen Wohnwagen umwerfen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

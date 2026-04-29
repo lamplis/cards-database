@@ -21,18 +21,16 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	hp: 0,
-
-	retreat: 0,
 	variants: [
 		{
-			type: "holo",
+			type: "normal",
 			thirdParty: {
-				cardmarket: 278972,
-				tcgplayer: 83509
+				cardmarket: 278972
 			}
-		},
+		}
 	],
+
+	hp: 0,
 
 }
 

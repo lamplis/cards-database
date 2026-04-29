@@ -75,7 +75,6 @@ const card: Card = {
 		de: "Seine harte Schale weist jeden Angriff ab. Es ist nur dann verwundbar, wenn seine Schale offen ist."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

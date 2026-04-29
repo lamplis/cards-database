@@ -79,19 +79,13 @@ const card: Card = {
 
 	retreat: 4,
 
-	description: {
-		en: "The biggest of all Pokémon. It can dive to a depth of almost 10,000 feet on only one breath.",
-		de: "Das größte PKMN. Es kann mit nur einem Atemzug in Tiefen bis 3.000 Meter tauchen."
-	},
-
-	thirdParty: {
-		cardmarket: 277932,
-		tcgplayer: 90459
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277932,
+				tcgplayer: 90459
+			}
 		},
 		{
 			type: "reverse"

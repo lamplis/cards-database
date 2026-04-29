@@ -86,14 +86,13 @@ const card: Card = {
 		de: "Es ist fast unmöglich, seinen Sensen auszuweichen, da es mit der Schnelligkeit eines Ninja zuschlägt."
 	},
 
-	thirdParty: {
-		cardmarket: 278347,
-		tcgplayer: 89001
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278347,
+				tcgplayer: 89001
+			}
 		},
 		{
 			type: "reverse"

@@ -21,11 +21,12 @@ const card: Card = {
 
 	trainerType: "Tool",
 
-	variants: [		{
+	variants:[
+		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 87306,
-				cardmarket: 278531
+				cardmarket: 278531,
+				tcgplayer: 87306
 			}
 		},
 		{

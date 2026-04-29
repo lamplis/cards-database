@@ -73,14 +73,13 @@ const card: Card = {
 		de: "Ein robustes PKMN, das sich jeder Umgebung anpassen kann. Seine Zangen geben keine Beute frei."
 	},
 
-	thirdParty: {
-		cardmarket: 278238,
-		tcgplayer: 84435
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278238,
+				tcgplayer: 84435
+			}
 		},
 		{
 			type: "reverse"

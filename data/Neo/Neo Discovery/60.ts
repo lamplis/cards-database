@@ -76,7 +76,6 @@ const card: Card = {
 		de: "Aus einem alten Fossil wiederbelebt benutzt dieses Pokémon Luft, die in seiner Muschel gespeichert ist, um im Wasser auf- und abzutauchen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -97,4 +96,3 @@ const card: Card = {
 }
 
 export default card
-

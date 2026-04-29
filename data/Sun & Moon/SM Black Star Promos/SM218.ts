@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Masskito"
 	},
 
-	illustrator: "Kouki Saitou",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Grass"],

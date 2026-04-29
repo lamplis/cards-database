@@ -86,14 +86,13 @@ const card: Card = {
 		de: "Auf seinem Rücken befinden sich Vulkane. Magma bildet sich in seinem Körper, die irgendwann ausbricht."
 	},
 
-	thirdParty: {
-		cardmarket: 278196,
-		tcgplayer: 84093
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278196,
+				tcgplayer: 84093
+			}
 		},
 		{
 			type: "reverse"

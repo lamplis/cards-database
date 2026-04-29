@@ -67,19 +67,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It emits cries by agitating an orb at the back of its throat. It moves with flouncing hops.",
-		de: "Es ruft, indem es eine Kugel in seiner Kehle bewegt. Es bewegt sich mit eiligen Hopsern fort."
-	},
-
-	thirdParty: {
-		cardmarket: 278107,
-		tcgplayer: 84314
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278107,
+				tcgplayer: 84314
+			}
 		},
 		{
 			type: "reverse"

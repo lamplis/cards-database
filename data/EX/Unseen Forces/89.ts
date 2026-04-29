@@ -20,22 +20,13 @@ const card: Card = {
 		de: "Durchsuche dein Deck nach einer Entwicklungskarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 88390,
-				cardmarket: 276735
-			},
-		},
-		{
-			type: "reverse",
-			stamp: ["set-logo"],
-			thirdParty: {
-				tcgplayer: 88390,
-				cardmarket: 276735
-			},
+				cardmarket: 276735,
+				tcgplayer: 88390
+			}
 		},
 		{
 			type: "normal",

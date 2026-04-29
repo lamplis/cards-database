@@ -76,14 +76,13 @@ const card: Card = {
 		de: "Im Land des Schnees sagt eine Legende, dass in ein Haus Wohlstand einzieht, wenn es darin lebt."
 	},
 
-	thirdParty: {
-		cardmarket: 277729,
-		tcgplayer: 89402
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277729,
+				tcgplayer: 89402
+			}
 		},
 		{
 			type: "reverse",

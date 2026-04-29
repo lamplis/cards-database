@@ -11,11 +11,6 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	effect: {
-		en: "Discard 2 of the other cards from your hand in order to put a Trainer card from your discard pile into your hand.",
-	},
-
-
 	variants: [
 		{
 			type: "normal",

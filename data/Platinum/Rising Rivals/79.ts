@@ -66,11 +66,6 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "Beware of pushing strongly on its squishy body, as it makes a mysterious purple fluid ooze out.",
-		de: "Nicht seinen Körper zusammendrücken, sonst sickert eine seltsame lilafarbene Flüssigkeit aus!"
-	},
-
 	variants: [
 		{
 			type: "normal",

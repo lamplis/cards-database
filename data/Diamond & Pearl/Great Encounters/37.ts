@@ -80,19 +80,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It floats using its well-developed floatation sac. It assists in the rescues of drowning people.",
-		de: "Es treibt mithilfe einer Art Rettungsring auf dem Wasser und hilft dem, der zu ertrinken droht."
-	},
-
-	thirdParty: {
-		cardmarket: 277939,
-		tcgplayer: 85513
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277939,
+				tcgplayer: 85513
+			}
 		},
 		{
 			type: "reverse"

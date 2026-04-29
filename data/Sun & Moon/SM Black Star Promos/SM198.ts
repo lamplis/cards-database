@@ -11,8 +11,8 @@ const card: Card = {
 		de: "Bisasam"
 	},
 
-	illustrator: "MPC Film",
-	rarity: "Promo",
+	illustrator: undefined,
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	set: Set,
 

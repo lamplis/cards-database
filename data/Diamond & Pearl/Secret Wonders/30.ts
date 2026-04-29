@@ -72,18 +72,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It cries sound like human speech. However, it is impossible to tell what it is trying to say.",
-	},
-
-	thirdParty: {
-		cardmarket: 277783,
-		tcgplayer: 86376
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277783,
+				tcgplayer: 86376
+			}
 		},
 		{
 			type: "reverse",

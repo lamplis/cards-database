@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Wähle eine Energiekarte auf deiner Hand, zeige sie deinem Gegner und mische sie in dein Deck. Wirf dann eine Münze. Durchsuche bei „Kopf“ dein Deck nach bis zu drei Basis-Energiekarten. Zeige diese deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -69,7 +69,6 @@ const card: Card = {
 		en: "If interrupted while miming, it will slap around the enemy with its broad hands.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

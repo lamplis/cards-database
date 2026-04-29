@@ -69,7 +69,6 @@ const card: Card = {
 		de: "Es hat 49 Zähne im Maul, die sich dauernd selbst ersetzen. Ziehe ihm einen Zahn, und ein neuer wächst nach."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

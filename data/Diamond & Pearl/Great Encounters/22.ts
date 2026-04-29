@@ -80,19 +80,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Its body is covered with a down that can refract light in such a way that it becomes invisible.",
-		de: "Sein Körper ist mit Daunen bedeckt, die das Licht so brechen, dass das PKMN unsichtbar wird."
-	},
-
-	thirdParty: {
-		cardmarket: 277924,
-		tcgplayer: 86651
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277924,
+				tcgplayer: 86651
+			}
 		},
 		{
 			type: "reverse"

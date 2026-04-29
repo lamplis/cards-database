@@ -38,27 +38,30 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Battle Sense",
-				de: "Kampfsinn"
+				fr: "Sens du Combat"
 			},
 			effect: {
 				en: "Once during your turn, you may look at the top 3 cards of your deck and put 1 of them into your hand. Discard the other cards.",
-				de: "Einmal während deines Zuges kannst du dir die obersten 3 Karten deines Decks anschauen und 1 davon auf deine Hand nehmen. Lege die anderen Karten auf deinen Ablagestapel."
+				fr: "Une fois pendant votre tour, vous pouvez regarder les 3 cartes du dessus de votre deck, puis ajouter l'une d'elles à votre main. Défaussez les autres cartes."
 			}
-		}
+		},
 	],
 
 	attacks: [
 		{
-			cost: ["Fire", "Fire"],
+			cost: [
+				"Fire",
+				"Fire",
+			],
 			name: {
 				en: "Royal Blaze",
-				de: "Königsflamme"
+				fr: "Flambée Royale"
 			},
 			damage: "100+",
 			effect: {
 				en: "This attack does 50 more damage for each Leon card in your discard pile.",
-				de: "Diese Attacke fügt für jede Delion-Karte in deinem Ablagestapel 50 Schadenspunkte mehr zu."
-			},
+				fr: "Cette attaque inflige 50 dégâts supplémentaires pour chaque carte Tarak dans votre pile de défausse."
+			}
 		},
 	],
 

@@ -20,8 +20,8 @@ const card: Card = {
 		de: "Durchsuche dein Deck nach 1 Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 	},
 
-
-	variants: [		{
+	variants: [
+		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 275738,

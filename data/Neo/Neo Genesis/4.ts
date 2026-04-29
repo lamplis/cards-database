@@ -85,7 +85,6 @@ const card: Card = {
 		de: "Wenn es mit seinen massiven und mächtigen Kiefern zubeißt, schüttelt es den Kopf und zerreißt sein Opfer schonungslos."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

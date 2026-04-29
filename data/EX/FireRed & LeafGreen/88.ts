@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Search your deck for a Basic Pokémon or Evolution card (excluding Pokémon-ex ), show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 276264,
 				tcgplayer: 84154
-			},
+			}
 		},
 		{
 			type: "reverse",

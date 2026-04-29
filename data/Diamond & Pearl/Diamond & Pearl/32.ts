@@ -84,14 +84,13 @@ const card: Card = {
 		de: "Mit Yoga-Training hat es seinen 6. Sinn geschärft. Seine Bewegungen sind sehr elegant."
 	},
 
-	thirdParty: {
-		cardmarket: 277531,
-		tcgplayer: 87275
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277531,
+				tcgplayer: 87275
+			}
 		},
 		{
 			type: "reverse"

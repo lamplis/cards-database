@@ -69,17 +69,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It spends nearly all its time in a day sprawled out. Just seeing it makes one drowsy.",
-		de: "Es verbringt fast den ganzen Tag mit Faulenzen und Schlafen. Selbst sein Anblick macht bereits müde."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 89299,
-				cardmarket: 278516
+				cardmarket: 278516,
+				tcgplayer: 89299
 			}
 		},
 		{

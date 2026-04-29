@@ -90,16 +90,15 @@ const card: Card = {
 			value: "-20"
 		},
 	],
-	retreat: 0,
+
 	variants: [
 		{
 			type: "reverse",
 			foil: "cracked-ice",
 			thirdParty: {
-				cardmarket: 278570,
-				tcgplayer: 85380
+				cardmarket: 278570
 			}
-		},
+		}
 	]
 }
 

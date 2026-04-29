@@ -58,7 +58,7 @@ const card: Card = {
 
 
 	description: {
-		en: "As it grows, the stone portions of its body harden to become similar to a diamond, though colored black."
+		en: "As it grows, the stone portions of its body harden to become similar to a diamond, though colored black.",
 	},
 
 	variants: [

@@ -72,14 +72,13 @@ const card: Card = {
 		de: "Es klettert behände steile Felsen hinauf, um auf Bergen zu leben. Sein Feuer ist aus, wenn es schläft."
 	},
 
-	thirdParty: {
-		cardmarket: 277575,
-		tcgplayer: 84282
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277575,
+				tcgplayer: 84282
+			}
 		},
 		{
 			type: "reverse"

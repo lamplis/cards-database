@@ -85,19 +85,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "The light of the moon changed Eevee's genetic structure. It lurks in darkness for prey.",
-		de: "Mondlicht hat die genetische Struktur von EVOLI verändert. Im Dunkeln wartet es auf Beute."
-	},
-
-	thirdParty: {
-		cardmarket: 278081,
-		tcgplayer: 90144
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278081,
+				tcgplayer: 90144
+			}
 		},
 		{
 			type: "reverse"

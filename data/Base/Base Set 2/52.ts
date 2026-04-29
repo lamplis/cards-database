@@ -78,7 +78,6 @@ const card: Card = {
 		en: "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to K.O. targets.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

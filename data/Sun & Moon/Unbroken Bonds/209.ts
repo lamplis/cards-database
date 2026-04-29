@@ -27,7 +27,7 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Vous ne pouvez jouer cette carte que si vos Pokémon en jeu n’ont pas de talents.\n\nCherchez jusqu’à 2 cartes Dresseur dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+		fr: "Vous ne pouvez jouer cette carte que si vos Pokémon en jeu n'ont pas de talents.\n\nCherchez jusqu'à 2 cartes Dresseur dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 		en: "You can play this card only if you have no Pokémon with Abilities in play.\n\nSearch your deck for up to 2 Trainer cards, reveal them, and put them into your hand. Then, shuffle your deck.",
 		es: "Puedes jugar esta carta solo si no tienes Pokémon con habilidades en juego.\n\nBusca en tu baraja hasta 2 cartas de Entrenador, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Puoi giocare questa carta solo se hai in gioco Pokémon senza abilità.\n\nCerca nel tuo mazzo fino a due carte Allenatore, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",

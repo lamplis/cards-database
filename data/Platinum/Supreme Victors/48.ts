@@ -75,15 +75,10 @@ const card: Card = {
 	],
 	retreat: 2,
 
-	description: {
-		en: "A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 90718,
 				cardmarket: 278739
 			}
 		},

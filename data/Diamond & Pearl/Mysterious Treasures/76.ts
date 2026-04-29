@@ -80,14 +80,13 @@ const card: Card = {
 		de: "Man sagt, es bringe Glück. Es ist sehr mitfühlend und teilt seine Eier mit Verletzten."
 	},
 
-	thirdParty: {
-		cardmarket: 277705,
-		tcgplayer: 84175
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277705,
+				tcgplayer: 84175
+			}
 		},
 		{
 			type: "reverse",

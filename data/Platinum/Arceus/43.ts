@@ -75,17 +75,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
-		de: "Durch die Spitzen seiner scharfen Krallen strömt Elektrizität. Selbst kleine Kratzer verursachen Ohnmacht."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 86942,
-				cardmarket: 278915
+				cardmarket: 278915,
+				tcgplayer: 86942
 			}
 		},
 		{

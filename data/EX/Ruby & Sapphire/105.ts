@@ -15,7 +15,6 @@ const card: Card = {
 	stage: "Basic",
 	energyType: "Normal",
 
-
 	variants: [
 		{
 			type: "normal",

@@ -20,7 +20,6 @@ const card: Card = {
 		de: "Du kannst in jedem Zug nur eine Unterstützerkarte spielen. Wenn du diese Karte ausspielst, lege sie neben dein Aktives Pokémon. Lege diese Karte am Ende deines Zuges auf deinen Ablagestapel. Durchsuche dein Deck nach 1 Karte, die sich aus deinem Aktiven Pokémon entwickelt (wähle 1, falls 2 vorhanden sind) und lege sie auf dein Aktives Pokémon. (Das zählt als Entwickeln des gewählten Pokémon.) Mische dein Deck danach."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

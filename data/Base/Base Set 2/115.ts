@@ -11,11 +11,6 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	effect: {
-		en: "Look at up to 5 cards from the top of your deck and rearrange them as you like.",
-	},
-
-
 	variants: [
 		{
 			type: "normal",

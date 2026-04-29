@@ -77,14 +77,13 @@ const card: Card = {
 		de: "“Das fühlende Wesen”. Es lehrt die Menschen die Ideale von Trauer, Schmerz und Freude."
 	},
 
-	thirdParty: {
-		cardmarket: 278183,
-		tcgplayer: 87332
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278183,
+				tcgplayer: 87332
+			}
 		},
 		{
 			type: "reverse"

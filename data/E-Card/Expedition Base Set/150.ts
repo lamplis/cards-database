@@ -20,13 +20,13 @@ const card: Card = {
 		de: "Lege das Stärke-Amulett an eines deiner Pokémon an, das keine Pokémon-Ausrüstung hat. Falls das Pokémon, an das Stärke-Amulett angelegt ist, mit einem Angriff Schaden zufügt (nachdem Schwäche und Resistenz verrechnet wurden), fügt der Angriff 10 weitere Schadenspunkte zu. Lege am Ende des Zuges, in dem dies geschieht, das Stärke-Amulett auf deinen Ablagestapel."
 	},
 
-	variants: [
+	variants:[
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 89577,
-				cardmarket: 275025
-			},
+				cardmarket: 275025,
+				tcgplayer: 89577
+			}
 		},
 		{
 			type: "reverse",

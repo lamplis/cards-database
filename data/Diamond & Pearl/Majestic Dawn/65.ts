@@ -71,19 +71,13 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "With its sharp glare, it puts foes in a mild hypnotic state. It is a very fickle Pokémon.",
-		de: "Durch seinen scharfen Blick fallen seine Gegner in eine leichte Hypnose. Es ist sehr launenhaft."
-	},
-
-	thirdParty: {
-		cardmarket: 278114,
-		tcgplayer: 85760
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278114,
+				tcgplayer: 85760
+			}
 		},
 		{
 			type: "reverse"

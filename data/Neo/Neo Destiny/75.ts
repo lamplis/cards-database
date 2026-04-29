@@ -56,7 +56,6 @@ const card: Card = {
 		de: "Seine weiche Wolle filtert die Luft und hält es so während des Sommers kühl und im Winter warm."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

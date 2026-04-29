@@ -11,11 +11,6 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	effect: {
-		en: "Choose 1 Energy card attached to 1 of your opponent's Pokémon and discard it.",
-	},
-
-
 	variants: [
 		{
 			type: "normal",

@@ -71,7 +71,6 @@ const card: Card = {
 		en: "A legendary bird Pokémon said to appear from clouds while wielding enormous lightning bolts.",
 	},
 
-
 	variants: [
 		{
 			type: "holo",

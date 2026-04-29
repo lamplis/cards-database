@@ -93,7 +93,6 @@ const card: Card = {
 		de: "Es sammelt negative Ionen aus der Atmosphäre, um Blitzschläge von 10.000 Volt herauszuschleudern."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

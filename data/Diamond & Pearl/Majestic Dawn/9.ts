@@ -82,19 +82,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon.",
-		de: "Die Gene von MEW wurden neu angeordnet, wodurch dieses PKMN entstand. Es hat ein wildes Herz."
-	},
-
-	thirdParty: {
-		cardmarket: 278058,
-		tcgplayer: 87421
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278058,
+				tcgplayer: 87421
+			}
 		},
 		{
 			type: "reverse"

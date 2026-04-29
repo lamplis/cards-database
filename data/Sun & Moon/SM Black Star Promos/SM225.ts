@@ -10,8 +10,8 @@ const card: Card = {
 		pt: "Victini",
 		de: "Victini"
 	},
-	illustrator: "nagimiso",
-	rarity: "Promo",
+	illustrator: "Nagimiso",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

@@ -67,7 +67,6 @@ const card: Card = {
 		de: "Es reibt seine Schnauze auf dem Grund auf der Suche nach Fressen. Es entdeckt manchmal heiße Quellen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

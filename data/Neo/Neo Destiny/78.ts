@@ -64,7 +64,6 @@ const card: Card = {
 		de: "Dieses Pokémon wurde von Menschen mit dem Computer entwickelt. Sein Programm erlaubt ihm nur einfache Aktionen und Reaktionen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

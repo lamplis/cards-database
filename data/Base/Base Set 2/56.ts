@@ -71,11 +71,6 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.",
-	},
-
-
 	variants: [
 		{
 			type: "normal",

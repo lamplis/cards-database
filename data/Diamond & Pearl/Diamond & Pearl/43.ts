@@ -73,14 +73,13 @@ const card: Card = {
 		de: "Im Winter schließt es die Knospe. Im Frühjahr öffnet es die Knospe und gibt Pollen ab."
 	},
 
-	thirdParty: {
-		cardmarket: 277542,
-		tcgplayer: 84010
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277542,
+				tcgplayer: 84010
+			}
 		},
 		{
 			type: "reverse"

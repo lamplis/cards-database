@@ -87,14 +87,13 @@ const card: Card = {
 		de: "Ein PKMN, von dem man sagt, es lebe in der Spiegelwelt unserer Welt. Es erscheint auf alten Friedhöfen."
 	},
 
-	thirdParty: {
-		cardmarket: 278153,
-		tcgplayer: 85733
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278153,
+				tcgplayer: 85733
+			}
 		},
 		{
 			type: "reverse"

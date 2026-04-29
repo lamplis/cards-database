@@ -86,14 +86,13 @@ const card: Card = {
 		de: "Es verschluckt alles in einem Stück und sondert giftige Stoffe ab, mit denen es Gegner besprüht."
 	},
 
-	thirdParty: {
-		cardmarket: 278221,
-		tcgplayer: 89673
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278221,
+				tcgplayer: 89673
+			}
 		},
 		{
 			type: "reverse"

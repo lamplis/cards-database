@@ -57,15 +57,10 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "It checks its surroundings and location using reflections of the ultrasonic waves from its mouth."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 90775,
 				cardmarket: 278824
 			}
 		},

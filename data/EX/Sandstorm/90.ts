@@ -37,7 +37,6 @@ const card: Card = {
 		},
 	],
 
-
 	variants: [
 		{
 			type: "normal",

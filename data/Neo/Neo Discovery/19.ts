@@ -92,7 +92,6 @@ const card: Card = {
 		de: "Es sammelt jeden Tag Honig. Es klebt den Honig an seine haarigen Beine, damit es ihn in sein Nest bringen kann."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -113,4 +112,3 @@ const card: Card = {
 }
 
 export default card
-

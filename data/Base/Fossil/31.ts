@@ -85,7 +85,6 @@ const card: Card = {
 		de: "Es geht das Gerücht um, dass die wilden Warnzeichnungen auf seinem Unterleib sich von Region zu Region unterscheiden."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

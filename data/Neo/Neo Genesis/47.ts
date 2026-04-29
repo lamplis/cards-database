@@ -86,7 +86,6 @@ const card: Card = {
 		de: "Sei vorsichtig, wenn es sich während des Kampfs umdreht. Das heißt, dass es mit dem Feuer auf seinem Rücken angreifen wird."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -21,14 +21,13 @@ const card: Card = {
 		de: "Spiele Geheimnis-Fossil wie ein Basis-Pokémon. Während Geheimnis-Fossil im Spiel ist, zählt es als {C}-Pokémon (als auch als Trainerkarte). Geheimnis-Fossil hat keine Angriffe, kann sich nicht zurückziehen und wird nicht von Speziellen Zuständen betroffen. Falls Geheimnis-Fossil kampfunfähig gemacht wird, zählt es nicht als kampfunfähig gemachtes Pokémon (lege es trotzdem ab). Jederzeit während eines Zuges vor deinem Angriff kannst du Geheimnis-Fossil aus dem Spiel ablegen."
 	},
 
-	thirdParty: {
-		cardmarket: 277391,
-		tcgplayer: 87665
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277391,
+				tcgplayer: 87665
+			}
 		},
 		{
 			type: "normal",
@@ -38,4 +37,3 @@ const card: Card = {
 }
 
 export default card
-

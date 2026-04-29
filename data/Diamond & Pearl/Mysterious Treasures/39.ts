@@ -84,14 +84,13 @@ const card: Card = {
 		de: "Mit seinen Stoßzähnen bricht es durch Eis. Eine Speckschicht schützt es vor Kälte und Angriffen."
 	},
 
-	thirdParty: {
-		cardmarket: 277668,
-		tcgplayer: 90467
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277668,
+				tcgplayer: 90467
+			}
 		},
 		{
 			type: "reverse",

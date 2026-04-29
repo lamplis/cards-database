@@ -76,14 +76,13 @@ const card: Card = {
 		de: "„Das starke Wesen“. Es schläft auf dem Grund eines Sees und hält so die Welt in Balance."
 	},
 
-	thirdParty: {
-		cardmarket: 277633,
-		tcgplayer: 83674
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277633,
+				tcgplayer: 83674
+			}
 		},
 		{
 			type: "reverse",

@@ -72,14 +72,13 @@ const card: Card = {
 		de: "Ein weggeworfener Käferpanzer, der zum Leben erwachte. Schaut man hinein, stiehlt es einem die Seele."
 	},
 
-	thirdParty: {
-		cardmarket: 278189,
-		tcgplayer: 89119
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278189,
+				tcgplayer: 89119
+			}
 		},
 		{
 			type: "reverse"

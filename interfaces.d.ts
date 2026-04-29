@@ -112,6 +112,7 @@ export interface variant_detailed {
 	thirdParty?: {
 		cardmarket?: number
 		tcgplayer?: number
+		cardtrader?: number
 	}
 
 	/**
@@ -124,12 +125,6 @@ export interface variant_detailed {
 	 * if not set, the variant is available in all languages
 	 */
 	languages?: SupportedLanguages[]
-
-	thirdParty?: {
-		tcgplayer?: number
-		cardmarket?: number
-		cardtrader?: number
-	}
 
 	/**
 	 * Raw OCR-derived labels from Cardmarket for placeholder variants whose

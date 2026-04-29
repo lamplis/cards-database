@@ -82,7 +82,6 @@ const card: Card = {
 		de: "Indem es sich ruhig verhält und aufmerksam zuhört, kann es selbst in schnell fließendem Wildwasser andere ausmachen."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

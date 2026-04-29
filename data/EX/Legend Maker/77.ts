@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Wenn sich bereits eine Karte mit diesem Namen im Spiel befindet, kannst du diese Karte nicht spielen. Einmal während jedes Zuges kann der jeweilige Spieler ein Amonitas, Kabuto, Aerodactyl, Aerodactyl ex, Liliep oder Anorith von seiner Hand auf seine Bank legen. Behandle dieses neue Pokémon auf der Hand als Basis-Pokémon.",
 	},
 
-	thirdParty: {
-		cardmarket: 276954,
-		tcgplayer: 89574
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276954,
+				tcgplayer: 89574
+			}
 		},
 		{
 			type: "normal",

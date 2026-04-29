@@ -81,7 +81,6 @@ const card: Card = {
 		de: "Wenn es etwas Verlockendes riecht, rennt es halsüberkopf los, um herauszufinden, wo der Geruch herkommt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -102,4 +101,3 @@ const card: Card = {
 }
 
 export default card
-

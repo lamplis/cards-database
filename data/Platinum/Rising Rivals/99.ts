@@ -21,9 +21,6 @@ const card: Card = {
 
 	energyType: "Special",
 
-	types: [
-		"Darkness"
-	],
 	variants: [
 		{
 			type: "normal",

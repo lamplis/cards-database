@@ -55,13 +55,13 @@ const card: Card = {
 			value: "x2"
 		},
 	],
-	variants: [
+
+	variants:[
 		{
-			type: "normal",
+			type:"normal",
 			thirdParty: {
-				cardmarket: 278850,
-				tcgplayer: 87404
-			},
+				cardmarket: 278850
+			}
 		}
 	],
 	retreat: 0

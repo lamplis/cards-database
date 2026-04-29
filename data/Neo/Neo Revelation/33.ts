@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Die Muschel auf seinem Rücken ist nur Haut, die sich abgekühlt und verhärtet hat. Sie zerbricht schon bei der leichtesten Berührung."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -105,4 +104,3 @@ const card: Card = {
 }
 
 export default card
-

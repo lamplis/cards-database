@@ -79,14 +79,13 @@ const card: Card = {
 		de: "Durch unterschiedliche Schreie drückt es seine Gefühle aus. Diese PKMN jagen im Verbund nach Beute."
 	},
 
-	thirdParty: {
-		cardmarket: 278252,
-		tcgplayer: 86229
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278252,
+				tcgplayer: 86229
+			}
 		},
 		{
 			type: "reverse"

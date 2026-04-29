@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It is often seen holding its head in its paws, as if it were suffering from a headache."
+		en: "It is often seen holding its head in its paws, as if it were suffering from a headache.",
 	},
 
 	variants: [

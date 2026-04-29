@@ -73,19 +73,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "With planetary development software installed, it became capable of working in space.",
-		de: "Interstellare Software wurde installiert, so dass dieses PKMN sich auch im All bewegen kann."
-	},
-
-	thirdParty: {
-		cardmarket: 277951,
-		tcgplayer: 88326
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277951,
+				tcgplayer: 88326
+			}
 		},
 		{
 			type: "reverse"

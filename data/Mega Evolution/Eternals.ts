@@ -16,13 +16,6 @@ const set: Set = {
 	},
 
 	releaseDate: "2026-10-16",
-
-	abbreviations: {
-		official: "ETE"
-	},
-	searchAliases: [
-		"ETE"
-	],
 }
 
 export default set

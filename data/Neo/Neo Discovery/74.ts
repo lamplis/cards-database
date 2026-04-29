@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Durchsuche dein Deck nach einer Karte, die Icognito in ihrem Namen hat, und lege sie auf deine Bank. Mische danach dein Deck. (Du kannst diese Karte nicht spielen, wenn deine Bank voll ist.)"
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -40,4 +39,3 @@ const card: Card = {
 }
 
 export default card
-

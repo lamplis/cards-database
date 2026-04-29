@@ -70,7 +70,6 @@ const card: Card = {
 		en: "The female's horn develops slowly. Prefers physical attacks such as clawing and biting.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

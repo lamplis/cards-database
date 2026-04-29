@@ -59,14 +59,13 @@ const card: Card = {
 		de: "Die sechs Eier kommunizieren telepathisch. Werden sie getrennt, finden sie sich schnell wieder."
 	},
 
-	thirdParty: {
-		cardmarket: 277711,
-		tcgplayer: 85347
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277711,
+				tcgplayer: 85347
+			}
 		},
 		{
 			type: "reverse",

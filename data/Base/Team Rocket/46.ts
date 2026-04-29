@@ -83,7 +83,6 @@ const card: Card = {
 		de: "Ein Pokémon mit einer negativen Einstellung. Es versteckt sich in seiner eigenen Schale, wenn es schlechter Laune ist, was oft zutrifft."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

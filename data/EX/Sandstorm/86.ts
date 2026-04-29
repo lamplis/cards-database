@@ -20,7 +20,6 @@ const card: Card = {
 		de: "Alle Speziellen Zustände auf allen deinen Aktiven Pokémon verlieren ihre Wirkung."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

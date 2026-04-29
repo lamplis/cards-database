@@ -74,7 +74,6 @@ const card: Card = {
 		de: "Obwohl es starke mentale Kräfte besitzt, weiß es nicht, wie es sie anwenden soll."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -77,14 +77,13 @@ const card: Card = {
 		de: "Sein Schweif besitzt ebenfalls ein Gehirn. Er beißt jeden Gegner, der sich von hinten heranschleicht."
 	},
 
-	thirdParty: {
-		cardmarket: 277678,
-		tcgplayer: 85731
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277678,
+				tcgplayer: 85731
+			}
 		},
 		{
 			type: "reverse",

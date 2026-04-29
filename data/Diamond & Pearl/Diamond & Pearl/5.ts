@@ -76,19 +76,13 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "It uses a special kind of martial arts involving all its limbs. Its fire never goes out.",
-		de: "Es kämpft auf besondere Art, indem es alle Gliedmaßen einsetzt. Sein Feuer erlöscht nie."
-	},
-
-	thirdParty: {
-		cardmarket: 277504,
-		tcgplayer: 86274
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277504,
+				tcgplayer: 86274
+			}
 		},
 		{
 			type: "reverse"

@@ -68,7 +68,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When storing thermal energy in its body, its temperature could soar to over 1600 degrees."
+		en: "When storing thermal energy in its body, its temperature could soar to over 1600 degrees.",
 	},
 
 	variants: [

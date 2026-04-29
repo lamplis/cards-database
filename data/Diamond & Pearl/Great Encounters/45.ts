@@ -78,19 +78,13 @@ const card: Card = {
 
 	retreat: 3,
 
-	description: {
-		en: "Its body temperature is roughly 18,000 degrees F. Flames spout from gaps in its hardened shell.",
-		de: "Seine Körpertemperatur beträgt etwa 10 000 Grad. Aus seiner Schale treten immer wieder Flammen aus."
-	},
-
-	thirdParty: {
-		cardmarket: 277947,
-		tcgplayer: 87016
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277947,
+				tcgplayer: 87016
+			}
 		},
 		{
 			type: "reverse"

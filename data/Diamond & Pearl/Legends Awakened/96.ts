@@ -83,14 +83,13 @@ const card: Card = {
 		de: "Der Honig, den es abgibt, riecht so entsetzlich, dass sich sogar Nasen in 2 km Entfernung rümpfen."
 	},
 
-	thirdParty: {
-		cardmarket: 278245,
-		tcgplayer: 85784
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278245,
+				tcgplayer: 85784
+			}
 		},
 		{
 			type: "reverse"

@@ -78,19 +78,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Flames spout from its wrists, enveloping its knuckles. Its punches scorch its foes.",
-		de: "Aus seinen Handgelenken kommt Feuer, das seine Knöchel umhüllt. Schläge verbrennen den Gegner."
-	},
-
-	thirdParty: {
-		cardmarket: 277903,
-		tcgplayer: 83909
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 277903,
+				tcgplayer: 83909
+			}
 		},
 		{
 			type: "reverse"

@@ -90,7 +90,6 @@ const card: Card = {
 		de: "Da es nie seinen Schädelhelm abnimmt, hat noch nie jemand das wahre Gesicht dieses Pokémon gesehen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

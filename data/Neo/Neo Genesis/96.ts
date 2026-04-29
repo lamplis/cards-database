@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Mische deine Hand in dein Deck. Ziehe dann sieben Karten. Du kannst in diesem Zug keine weiteren Trainerkarten mehr spielen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

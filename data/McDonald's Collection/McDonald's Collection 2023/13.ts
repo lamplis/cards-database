@@ -26,14 +26,17 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless", "Colorless"],
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
 			name: {
 				en: "Double Hit",
-				de: "Doppelschlag"
+				fr: "Coup Double"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage for each heads.",
-				de: "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
+				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts pour chaque côté face."
 			},
 			damage: "30x"
 		},

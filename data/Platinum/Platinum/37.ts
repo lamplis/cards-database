@@ -72,17 +72,12 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "A legendary Pokémon of Sinnoh. It is said that space becomes more stable with PALKIA's every breath.",
-		de: "Ein Legendäres Pokémon aus der Sinnoh-Region. Mit dem Atem von PALKIA wird das Universum stabiler."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 87910,
-				cardmarket: 278433
+				cardmarket: 278433,
+				tcgplayer: 87910
 			}
 		},
 		{

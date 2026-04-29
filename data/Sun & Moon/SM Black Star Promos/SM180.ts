@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Muramura"
 	},
 
-	illustrator: "Hiroki Asanuma",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fighting"],

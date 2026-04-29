@@ -83,14 +83,13 @@ const card: Card = {
 		de: "Es bildet ein Fellknäuel, der vor statischer Energie knistert. Es speichert die Energie in Bäumen."
 	},
 
-	thirdParty: {
-		cardmarket: 277534,
-		tcgplayer: 87897
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277534,
+				tcgplayer: 87897
+			}
 		},
 		{
 			type: "reverse"

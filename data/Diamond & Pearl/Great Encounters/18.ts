@@ -85,19 +85,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Long ago, people imagined its eerie howls to be the call of the grim reaper.",
-		de: "In alten Zeiten glaubte man, das Heulen dieses PKMN sei der Ruf des Todes."
-	},
-
-	thirdParty: {
-		cardmarket: 277920,
-		tcgplayer: 86207
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277920,
+				tcgplayer: 86207
+			}
 		},
 		{
 			type: "reverse"

@@ -21,11 +21,12 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	variants: [		{
+	variants:[
+		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 89806,
-				cardmarket: 278538
+				cardmarket: 278538,
+				tcgplayer: 89806
 			}
 		},
 		{

@@ -66,15 +66,10 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "It mimics the expressions and motions of those it sees to understand the feelings of others."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 87471,
 				cardmarket: 278806
 			}
 		},

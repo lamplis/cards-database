@@ -79,14 +79,13 @@ const card: Card = {
 		de: "Es hat die Macht, den Raum zu krümmen. In den Mythen von Sinnoh erscheint es als Gottheit."
 	},
 
-	thirdParty: {
-		cardmarket: 277510,
-		tcgplayer: 87906
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277510,
+				tcgplayer: 87906
+			}
 		},
 		{
 			type: "reverse"

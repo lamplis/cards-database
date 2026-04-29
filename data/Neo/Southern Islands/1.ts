@@ -46,10 +46,6 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "This Pokémon's body is covered by fine hairs that can be seen only under a microscope.",
-	},
-
 	variants: [
 		{
 			type: "reverse",

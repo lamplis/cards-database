@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It accumulates negative ions from the atmosphere to blast out 10,000-volt lightning bolts."
+		en: "It accumulates negative ions from the atmosphere to blast out 10,000-volt lightning bolts.",
 	},
 
 	variants: [

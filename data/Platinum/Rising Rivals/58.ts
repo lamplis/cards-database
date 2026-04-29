@@ -73,11 +73,6 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "They swarm any foes that invades their territory. Their sharp fangs can tear out boat hulls.",
-		de: "Sie begegnen jedem Gegner, der in ihr Revier eindringt, im Schwarm. Ihre Zähne durchdringen alles."
-	},
-
 	variants: [
 		{
 			type: "normal",

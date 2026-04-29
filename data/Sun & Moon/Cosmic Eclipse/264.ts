@@ -17,7 +17,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Vous ne pouvez jouer cette carte que si vous défaussez 2 autres cartes de votre main.\n\nÉchangez l’un des Pokémon-GX ou Pokémon-EX de Banc de votre adversaire avec son Pokémon Actif.",
+		fr: "Vous ne pouvez jouer cette carte que si vous défaussez 2 autres cartes de votre main.\n\nÉchangez l'un des Pokémon-GX ou Pokémon-EX de Banc de votre adversaire avec son Pokémon Actif.",
 		en: "You can play this card only if you discard 2 other cards from your hand.\n\nSwitch 1 of your opponent’s Benched Pokémon-GX or Pokémon-EX with their Active Pokémon.",
 		es: "Puedes jugar esta carta solo si descartas otras 2 cartas de tu mano.\n\nCambia 1 de los Pokémon-GX o Pokémon-EX en Banca de tu rival por su Pokémon Activo.",
 		it: "Puoi giocare questa carta solo se scarti altre due carte che hai in mano.\n\nScambia uno dei Pokémon-GX o dei Pokémon-EX nella panchina del tuo avversario con il suo Pokémon attivo.",

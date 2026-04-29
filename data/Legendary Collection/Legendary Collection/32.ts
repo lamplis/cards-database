@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves."
+		en: "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
 	},
 
 	variants: [

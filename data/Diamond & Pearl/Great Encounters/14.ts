@@ -77,19 +77,13 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "It loves the honey of flowers and can locate flower patches that have even tiny amounts of pollen.",
-		de: "Es liebt Blütenhonig. Es findet selbst Blumen, die sehr wenig Pollen haben."
-	},
-
-	thirdParty: {
-		cardmarket: 277916,
-		tcgplayer: 84066
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277916,
+				tcgplayer: 84066
+			}
 		},
 		{
 			type: "reverse"

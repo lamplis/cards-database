@@ -85,14 +85,13 @@ const card: Card = {
 		de: "Man bekommt es selten zu sehen. Bei Vollmond soll es an den Ufern einsam gelegener Seen spielen."
 	},
 
-	thirdParty: {
-		cardmarket: 277521,
-		tcgplayer: 84347
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277521,
+				tcgplayer: 84347
+			}
 		},
 		{
 			type: "reverse"

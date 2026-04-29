@@ -93,7 +93,6 @@ const card: Card = {
 		de: "Wegen der langen Haare am ganzen Körper, die ihm die Sicht verdunkeln, lädt es sich wiederholt wieder auf."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

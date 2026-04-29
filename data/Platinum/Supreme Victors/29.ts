@@ -80,15 +80,10 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "If one utters a deep cry, many Murkrow gather quickly. For this, it is called \"Summoner of Night.\""
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 86160,
 				cardmarket: 278720
 			}
 		},

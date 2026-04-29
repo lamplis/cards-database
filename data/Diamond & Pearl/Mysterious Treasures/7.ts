@@ -75,14 +75,13 @@ const card: Card = {
 		de: "Es kann durch die Zeit reisen, aber es erscheint nur zu friedlichen Zeiten."
 	},
 
-	thirdParty: {
-		cardmarket: 277636,
-		tcgplayer: 84146
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277636,
+				tcgplayer: 84146
+			}
 		},
 		{
 			type: "reverse",

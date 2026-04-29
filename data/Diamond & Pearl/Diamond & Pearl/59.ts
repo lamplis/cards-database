@@ -84,14 +84,13 @@ const card: Card = {
 		de: "Seine Mähne lodert auf, wenn es mit 240 km/h pfeilschnell galoppiert."
 	},
 
-	thirdParty: {
-		cardmarket: 277558,
-		tcgplayer: 88583
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277558,
+				tcgplayer: 88583
+			}
 		},
 		{
 			type: "reverse"

@@ -86,14 +86,13 @@ const card: Card = {
 		de: "Eigentlich bewegt es sich langsam, doch seine Beute greift es blitzschnell an."
 	},
 
-	thirdParty: {
-		cardmarket: 277637,
-		tcgplayer: 85418
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277637,
+				tcgplayer: 85418
+			}
 		},
 		{
 			type: "reverse",

@@ -86,19 +86,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It looks like a fluffy cloud when it is in flight. It hums with its soprano voice.",
-		de: "Im Flug sieht es aus wie eine watteweiche Wolke. Es singt mit einer Sopranstimme."
-	},
-
-	thirdParty: {
-		cardmarket: 277914,
-		tcgplayer: 83516
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277914,
+				tcgplayer: 83516
+			}
 		},
 		{
 			type: "reverse"

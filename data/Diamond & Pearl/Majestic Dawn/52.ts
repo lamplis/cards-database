@@ -77,19 +77,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "X-ray photos were taken to check its body structure. Nothing appeared, however.",
-		de: "Man hat Röntgenaufnahmen gemacht, um die Körperstruktur dieses PKMN zu untersuchen. Ohne Ergebnis."
-	},
-
-	thirdParty: {
-		cardmarket: 278101,
-		tcgplayer: 84002
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278101,
+				tcgplayer: 84002
+			}
 		},
 		{
 			type: "reverse"

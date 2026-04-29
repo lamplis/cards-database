@@ -75,9 +75,7 @@ const card: Card = {
 		{
 			type: 'reverse',
 			thirdParty: {
-				cardmarket: 740498,
-				tcgplayer: 523625,
-				cardtrader: 265056
+				cardmarket: 740498
 			}
 		},
 		{
@@ -92,7 +90,6 @@ const card: Card = {
 
 	illustrator: "Nisota Niso",
 
-	
 }
 
 export default card

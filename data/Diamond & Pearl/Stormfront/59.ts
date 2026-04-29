@@ -84,14 +84,13 @@ const card: Card = {
 		de: "Verbissen verfolgt es seine Beute überallhin. Doch sobald die Sonne aufgeht, ist die Jagd vorbei."
 	},
 
-	thirdParty: {
-		cardmarket: 278298,
-		tcgplayer: 85052
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278298,
+				tcgplayer: 85052
+			}
 		},
 		{
 			type: "reverse"

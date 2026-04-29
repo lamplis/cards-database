@@ -65,11 +65,6 @@ const card: Card = {
 	],
 	retreat: 3,
 
-
-	description: {
-		en: "This Pokémon burrows through the earth at high speed, looking for food. The tunnels it digs are used by Diglett as nests.",
-	},
-
 	variants: [
 		{
 			type: "normal",

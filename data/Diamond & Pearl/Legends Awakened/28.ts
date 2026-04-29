@@ -92,14 +92,13 @@ const card: Card = {
 		de: "Dieses PKMN ist von einer Stahlhülle umgeben. Seine stechenden Augen sind alles, was man von ihm sieht."
 	},
 
-	thirdParty: {
-		cardmarket: 278177,
-		tcgplayer: 85550
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278177,
+				tcgplayer: 85550
+			}
 		},
 		{
 			type: "reverse"

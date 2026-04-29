@@ -92,12 +92,12 @@ const card: Card = {
 		},
 	],
 
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 85058,
-				cardmarket: 278446
+				cardmarket: 278446,
+				tcgplayer: 85058
 			}
 		},
 		{

@@ -80,14 +80,13 @@ const card: Card = {
 		de: "Es segelt durch die Lüfte und breitet seine Gliedmaßen aus, um aus der Luft anzugreifen."
 	},
 
-	thirdParty: {
-		cardmarket: 278243,
-		tcgplayer: 85767
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278243,
+				tcgplayer: 85767
+			}
 		},
 		{
 			type: "reverse"

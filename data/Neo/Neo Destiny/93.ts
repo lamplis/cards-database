@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Lege den EP-Teiler an eines deiner Pokémon an, das keine Pokémon-Ausrüstung hat. Falls im Zug deines Gegners dein aktives Pokémon durch den Angriff deines Gegners kampfunfähig wurde, kannst du eine der an dein aktives Pokémon angelegten Basisenergiekarten nehmen und an das Pokémon mit dem EP-Teiler anlegen. Wenn du dies tust, lege den EP-Teiler auf deinen Ablagestapel."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

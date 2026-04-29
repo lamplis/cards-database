@@ -20,7 +20,6 @@ const card: Card = {
 		de: "Nimm eine Basis-Energiekarte von 1 deiner Pokémon und lege sie an ein anderes deiner Pokémon an."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

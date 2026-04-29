@@ -80,18 +80,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "Half of all blackouts occur when this Pokémon appears at power plants and eats electricity.",
-	},
-
-	thirdParty: {
-		cardmarket: 277840,
-		tcgplayer: 85115
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277840,
+				tcgplayer: 85115
+			}
 		},
 		{
 			type: "reverse",

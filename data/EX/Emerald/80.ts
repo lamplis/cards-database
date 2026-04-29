@@ -20,18 +20,13 @@ const card: Card = {
 		de: "At any time between turns,if the Pokémon this card is attached to has at least 2 damage counters on it, remove 2 damage counters from it.Then, discard Oran Berry."
 	},
 
-	thirdParty: {
-		tcgplayer: 87889,
-		cardmarket: 276591
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 87889,
-				cardmarket: 276591
-			},
+				cardmarket: 276591,
+				tcgplayer: 87889
+			}
 		},
 		{
 			type: "reverse",

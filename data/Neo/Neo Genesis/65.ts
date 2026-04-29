@@ -77,7 +77,6 @@ const card: Card = {
 		de: "Falls sich Statik in seinem Körper aufbaut, verdoppelt sich der Umfang seines Fells. Eine Berührung führt zu einem elektrischen Schlag."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

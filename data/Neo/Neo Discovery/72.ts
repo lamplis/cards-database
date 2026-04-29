@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Wirf eine Münze. Durchsuche bei „Kopf“ dein Deck nach einer Karte, die aus dem Geheimnis-Fossil entsteht, und lege sie auf deine Bank, oder lege eine Karte, die aus dem Geheimnis-Fossil entsteht, von deiner Hand auf deine Bank. Behandle auf jeden Fall die neue Karte als ein Basis-Pokémon. Mische dein Deck, wenn du es durchsucht hast. (Du kannst diese Karte nicht spielen, wenn deine Bank voll ist.)"
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -40,4 +39,3 @@ const card: Card = {
 }
 
 export default card
-

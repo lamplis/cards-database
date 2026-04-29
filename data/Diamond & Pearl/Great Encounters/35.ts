@@ -79,19 +79,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Its kicking mastery lets it loose 10 kicks per second. It emits sharp cries to intimidate foes.",
-		de: "Es kann 10 Tritte pro Sekunde austeilen. Es gibt schrille Schreie von sich, um Gegner einzuschüchtern."
-	},
-
-	thirdParty: {
-		cardmarket: 277937,
-		tcgplayer: 84411
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277937,
+				tcgplayer: 84411
+			}
 		},
 		{
 			type: "reverse"

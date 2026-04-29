@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Durchsuche dein Deck nach einer Evolutionskarte mit dem Zusatz „Dunkles“. Zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

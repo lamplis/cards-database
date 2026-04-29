@@ -78,7 +78,6 @@ const card: Card = {
 		en: "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

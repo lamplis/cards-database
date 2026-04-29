@@ -85,14 +85,13 @@ const card: Card = {
 		de: "Es ist von blauen Ranken umgeben. Niemand hat jemals das Gesicht dieses Pokémon gesehen."
 	},
 
-	thirdParty: {
-		cardmarket: 278376,
-		tcgplayer: 89745
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278376,
+				tcgplayer: 89745
+			}
 		},
 		{
 			type: "reverse"

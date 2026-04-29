@@ -45,7 +45,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Long considered a mythical Pokémon until recently, when a small colony was found living underwater."
+		en: "Long considered a mythical Pokémon until recently, when a small colony was found living underwater.",
 	},
 
 	variants: [

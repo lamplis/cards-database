@@ -61,7 +61,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames."
+		en: "Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames.",
 	},
 
 	variants: [

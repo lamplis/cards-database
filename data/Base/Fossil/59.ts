@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Suche in deinem Deck nach einer Basis-Energiekarte und nimm sie auf deine Hand. Mische dein Deck danach."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

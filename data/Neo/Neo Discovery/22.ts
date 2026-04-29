@@ -80,7 +80,6 @@ const card: Card = {
 		de: "Wenn du dich von seinen sanften, eleganten tanzenden Tritten verzaubern lässt, kann das bös für dich enden."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -101,4 +100,3 @@ const card: Card = {
 }
 
 export default card
-

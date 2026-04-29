@@ -90,7 +90,6 @@ const card: Card = {
 		de: "In Südamerika sagt man, dass sein rechtes Auge die Zukunft und das linke die Vergangenheit sehen kann."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -111,4 +110,3 @@ const card: Card = {
 }
 
 export default card
-

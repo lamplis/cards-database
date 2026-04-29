@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Kommt in den Tropen reichlich vor. Beim Tanzen reibt es seine Blätter aneinander und erzeugt so ein angenehmes Raschelgeräusch."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

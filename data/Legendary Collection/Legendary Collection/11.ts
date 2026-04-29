@@ -65,7 +65,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Under a full moon, this Pokémon like to mimic the shadows of people and laugh at their fright."
+		en: "Under a full moon, this Pokémon like to mimic the shadows of people and laugh at their fright.",
 	},
 
 	variants: [

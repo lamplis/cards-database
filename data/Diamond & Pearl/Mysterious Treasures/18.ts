@@ -76,14 +76,13 @@ const card: Card = {
 		de: "„Das wissende Wesen“. Es soll die Erinnerungen derer löschen, die ihm in die Augen sehen."
 	},
 
-	thirdParty: {
-		cardmarket: 277647,
-		tcgplayer: 90259
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277647,
+				tcgplayer: 90259
+			}
 		},
 		{
 			type: "reverse",

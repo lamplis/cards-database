@@ -82,7 +82,6 @@ const card: Card = {
 		de: "Es verhaut alle, die versuchen, durch Lauchfelder zu spazieren, mit seiner eigenen Lauchstange."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -103,4 +102,3 @@ const card: Card = {
 }
 
 export default card
-

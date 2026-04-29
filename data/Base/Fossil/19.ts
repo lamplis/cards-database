@@ -85,7 +85,6 @@ const card: Card = {
 		de: "Ein höchst seltenes Meeres-Pokémon. Seine Intelligenz soll der eines Menschen gleichen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

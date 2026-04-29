@@ -82,7 +82,6 @@ const card: Card = {
 		de: "Die Anzahl an Vorfällen, in denen Hacker mit Hilfe von Magnetons Computer beschädigen, steigt ständig."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

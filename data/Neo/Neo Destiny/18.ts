@@ -83,7 +83,6 @@ const card: Card = {
 		de: "Die Muschel auf seinem Rücken lässt sich leicht entfernen und legt die Flammen frei, die durch den Körper jagen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

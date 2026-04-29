@@ -55,16 +55,11 @@ const card: Card = {
 			value: "-20"
 		},
 	],
-	description: {
-		en: "The brains in its two heads appear to communicate emotions to each other with a telepathic power."
-	},
 
-	retreat: 0,
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 84864,
 				cardmarket: 278793
 			}
 		},

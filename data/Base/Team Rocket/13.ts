@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Vielleicht wegen seiner streng riechenden Pollen nähern sich andere Pokémon den Unterschlüpfen von Giflors nicht."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

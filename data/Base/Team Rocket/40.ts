@@ -87,7 +87,6 @@ const card: Card = {
 		de: "Obwohl es normalerweise friedlich und freundlich ist, nimmt die Anzahl der Vorfälle mit grausamen Maschocks zu."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

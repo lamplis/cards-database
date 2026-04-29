@@ -83,7 +83,6 @@ const card: Card = {
 		de: "In seiner Schale ist es weich und schwach, während es sich auf seine Entwicklung vorbereitet. Es verbleibt bewegungslos in seiner Schale."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -104,4 +103,3 @@ const card: Card = {
 }
 
 export default card
-

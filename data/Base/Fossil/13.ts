@@ -86,7 +86,6 @@ const card: Card = {
 		de: "Mit schmutzigem, üblem Klärschlamm bedeckt, der so hochgiftig ist, dass selbst seine Fußstapfen Gift enthalten."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

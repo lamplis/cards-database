@@ -73,17 +73,12 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It wraps silk around the branches of a tree. It drinks rainwater on its silk while awaiting evolution.",
-		de: "Es bindet sich mit Seide an Äste und trinkt Regenwasser, während es starr auf seine Entwicklung wartet."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 89213,
-				cardmarket: 278484
+				cardmarket: 278484,
+				tcgplayer: 89213
 			}
 		},
 		{

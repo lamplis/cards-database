@@ -20,14 +20,12 @@ const card: Card = {
 		de: "Flip a coin. If heads, search your deck for a Basic Pokémon or Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 276733,
-				tcgplayer: 88184,
-			},
+				cardmarket: 276733
+			}
 		},
 		{
 			type: "reverse",

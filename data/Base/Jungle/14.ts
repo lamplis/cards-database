@@ -90,7 +90,6 @@ const card: Card = {
 		de: "Soll in riesigen Kolonien tief im Dschungel leben, obwohl noch niemand jemals von dort zurückgekehrt ist."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

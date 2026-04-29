@@ -17,7 +17,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Vous ne pouvez jouer cette carte que si vous défaussez 2 cartes Énergie Metal de votre main.\n\nMélangez une carte Dresseur de votre pile de défausse avec votre deck.",
+		fr: "Vous ne pouvez jouer cette carte que si vous défaussez 2 cartes Énergie {M} de votre main.\n\nMélangez une carte Dresseur de votre pile de défausse avec votre deck.",
 		en: "You can play this card only if you discard 2 Metal Energy cards from your hand.\n\nShuffle a Trainer card from your discard pile into your deck.",
 		es: "Puedes jugar esta carta solo si descartas 2 cartas de Energía Metal de tu mano.\n\nPon 1 carta de Entrenador de tu pila de descartes en tu baraja y baraja todas las cartas.",
 		it: "Puoi giocare questa carta solo se scarti due carte Energia Metal che hai in mano.\n\nRimischia una carta Allenatore dalla tua pila degli scarti nel tuo mazzo.",

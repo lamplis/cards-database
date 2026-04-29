@@ -91,7 +91,6 @@ const card: Card = {
 		de: "Jeweils drei Magnetons werden von einer starken magnetischen Kraft zusammengehalten. Wenn du zu nahe herangehst, bekommst du Ohrenschmerzen."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

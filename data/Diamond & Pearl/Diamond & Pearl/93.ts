@@ -72,14 +72,13 @@ const card: Card = {
 		de: "Es ist sehr stolz und nimmt daher kein Futter von anderen an. Seine dicken Daunen schützen vor Kälte."
 	},
 
-	thirdParty: {
-		cardmarket: 277592,
-		tcgplayer: 88142
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277592,
+				tcgplayer: 88142
+			}
 		},
 		{
 			type: "reverse"

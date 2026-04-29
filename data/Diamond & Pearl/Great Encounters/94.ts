@@ -64,19 +64,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Usually, its cries are like quiet murmurs.  If frightened, it shrieks at the same volume as a jet plane.",
-		de: "Normalerweise klingen seine Rufe wie Gemurmel. Hat es aber Angst, ist es so laut wie ein Flugzeug."
-	},
-
-	thirdParty: {
-		cardmarket: 277996,
-		tcgplayer: 90583
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277996,
+				tcgplayer: 90583
+			}
 		},
 		{
 			type: "reverse"

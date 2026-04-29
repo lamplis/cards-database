@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Lege eine Entwicklungskarte aus deiner Hand verdeckt vor dich hin. Dein Gegner muss raten, ob es eine Pokémonkarte mit „Helles“ im Namen, eine Pokémonkarte mit „Dunkles“ im Namen oder weder noch ist. Deck die Karte dann auf. Wenn dein Gegner richtig geraten hat, zieht er drei Karten. Wenn dein Gegner falsch geraten hat, ziehst du drei Karten. Nimm auf jeden Fall die Karte zurück auf deine Hand."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

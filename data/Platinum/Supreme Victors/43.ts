@@ -73,15 +73,10 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "In autumn, its body becomes more fatty in preparing to propose to a mate. It takes on beautiful colors."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 89028,
 				cardmarket: 278734
 			}
 		},

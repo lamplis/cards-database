@@ -99,12 +99,12 @@ const card: Card = {
 		},
 	],
 
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 85003,
-				cardmarket: 278445
+				cardmarket: 278445,
+				tcgplayer: 85003
 			}
 		},
 		{

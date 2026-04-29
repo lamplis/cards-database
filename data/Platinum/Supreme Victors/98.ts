@@ -64,15 +64,10 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "There is an orb inside its mouth. When it hops, the orb bounces all over and makes a ringing sound."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 84315,
 				cardmarket: 278789
 			}
 		},

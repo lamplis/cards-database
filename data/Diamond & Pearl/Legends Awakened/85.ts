@@ -76,14 +76,13 @@ const card: Card = {
 		de: "Es bevorzugt heiße und feuchte Umgebungen. Seine Beute fängt es blitzschnell mit seinen Ranken."
 	},
 
-	thirdParty: {
-		cardmarket: 278234,
-		tcgplayer: 83809
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278234,
+				tcgplayer: 83809
+			}
 		},
 		{
 			type: "reverse"

@@ -17,7 +17,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Choisissez l’une de ces options :\n\n• Mélangez votre main avec votre deck. Ensuite, piochez 5 cartes.\n• Échangez votre Pokémon Actif avec l’un de vos Pokémon de Banc.",
+		fr: "Choisissez l'une de ces options :\n\nMélangez votre main avec votre deck. Ensuite, piochez 5 cartes.\n\nÉchangez votre Pokémon Actif avec l'un de vos Pokémon de Banc.",
 		en: "Choose 1:\n\n•Shuffle your hand into your deck. Then, draw 5 cards.\n•Switch your Active Pokémon with 1 of your Benched Pokémon.",
 		es: "Elige 1 opción:\n\n• Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba 5 cartas.\n• Cambia tu Pokémon Activo por 1 de tus Pokémon en Banca.",
 		it: "Scegli:\n\n• Rimischia le carte che hai in mano nel tuo mazzo. Poi pesca cinque carte.\n• Scambia il tuo Pokémon attivo con uno dei tuoi Pokémon in panchina.",

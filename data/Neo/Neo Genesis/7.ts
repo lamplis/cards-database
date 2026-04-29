@@ -88,7 +88,6 @@ const card: Card = {
 		de: "Sobald es den Wind fängt, steuert es geschickt seine Sporen, um so weit wie möglich zu schweben."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

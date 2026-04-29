@@ -90,14 +90,13 @@ const card: Card = {
 		de: "Auf der Suche nach Käfer-PKMN fliegt es über Wiesen und Wälder. Es bleibt in einem großen Schwarm."
 	},
 
-	thirdParty: {
-		cardmarket: 277563,
-		tcgplayer: 89513
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277563,
+				tcgplayer: 89513
+			}
 		},
 		{
 			type: "reverse"

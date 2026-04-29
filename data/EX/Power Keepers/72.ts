@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Wenn sich bereits eine Karte mit diesem Namen im Spiel befindet, kannst du diese Karte nicht spielen. Alle Schadenspunkte, die Aktiven {C}-Pokémon (deine und die deines Gegners) durch einen gegnerischen Angriff zugefügt werden, werden um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden).",
 	},
 
-	thirdParty: {
-		cardmarket: 277378,
-		tcgplayer: 84921
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277378,
+				tcgplayer: 84921
+			}
 		},
 		{
 			type: "normal",
@@ -37,4 +36,3 @@ const card: Card = {
 }
 
 export default card
-

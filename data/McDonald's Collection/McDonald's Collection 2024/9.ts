@@ -35,27 +35,33 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Darkness"],
+			cost: [
+				"Darkness",
+			],
 			name: {
 				en: "Blindside",
-				de: "Aus heiterem Himmel"
+				fr: "Angle Mort"
 			},
 			effect: {
 				en: "This attack does 60 damage to 1 of your opponent's Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				de: "Diese Attacke fügt 1 Pokémon deines Gegners, auf dem mindestens 1 Schadensmarke liegt, 60 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
-			},
+				fr: "Cette attaque inflige 60 dégâts à l'un des Pokémon de votre adversaire ayant au moins un marqueur de dégâts. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			}
 		},
 		{
-			cost: ["Darkness", "Colorless", "Colorless"],
+			cost: [
+				"Darkness",
+				"Colorless",
+				"Colorless",
+			],
 			name: {
 				en: "Moon Mirage",
-				de: "Mondillusion"
+				fr: "Mirage Lunaire"
 			},
 			effect: {
 				en: "Your opponent's Active Pokémon is now Confused.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus."
 			},
-			damage: 80,
+			damage: 80
 		},
 	],
 

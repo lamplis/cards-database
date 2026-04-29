@@ -59,7 +59,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It's said that not even pro wrestlers can take down a Machop."
+		en: "It's said that not even pro wrestlers can take down a Machop.",
 	},
 
 	variants: [

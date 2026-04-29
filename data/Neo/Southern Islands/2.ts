@@ -73,10 +73,6 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "This Pokémon searches for food while flying at Mach 2. Its large claws make fearsome weapons.",
-	},
-
 	variants: [
 		{
 			type: "normal",

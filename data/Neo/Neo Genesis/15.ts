@@ -89,7 +89,6 @@ const card: Card = {
 		de: "Sein Körper wurde tief unter der Erde komprimiert. Daher ist es sogar noch härter als ein Diamant."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

@@ -74,19 +74,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It sprays a nose-curling, stinky fluid from its rear to repel attackers.",
-		de: "Es versprüht eine übel stinkende Flüssigkeit aus seinem Hinterleib, um Angreifer zu verjagen."
-	},
-
-	thirdParty: {
-		cardmarket: 278125,
-		tcgplayer: 89585
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278125,
+				tcgplayer: 89585
+			}
 		},
 		{
 			type: "reverse"

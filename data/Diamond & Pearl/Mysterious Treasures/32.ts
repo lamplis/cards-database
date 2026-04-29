@@ -83,14 +83,13 @@ const card: Card = {
 		de: "Seine neun Schweife sollen mystische Kräfte besitzen. Es kann tausende Jahre leben."
 	},
 
-	thirdParty: {
-		cardmarket: 277661,
-		tcgplayer: 87772
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277661,
+				tcgplayer: 87772
+			}
 		},
 		{
 			type: "reverse",

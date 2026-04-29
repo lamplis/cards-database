@@ -66,7 +66,6 @@ const card: Card = {
 		de: "Obwohl es ein Kokon ist, kann es sich ein wenig bewegen. Es kann seine Giftstachel ausfahren, wenn es angegriffen wird."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -87,4 +86,3 @@ const card: Card = {
 }
 
 export default card
-

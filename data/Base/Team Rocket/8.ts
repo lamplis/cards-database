@@ -91,7 +91,6 @@ const card: Card = {
 		de: "Normal nur in der Tiefe des Ozeans zu finden, wurde es in jüngster Zeit auch in seichteren Gewässern gesichtet."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

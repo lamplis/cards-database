@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Obwohl es furchterregend aussieht, ist es eigentlich ganz lieb und zärtlich. Es ist sehr beliebt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

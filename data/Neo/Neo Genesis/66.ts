@@ -77,7 +77,6 @@ const card: Card = {
 		de: "Das Ende seines Schweifs dient ihm als Boje, um sich über Wasser zu halten und vor dem Ertrinken zu retten, selbst in einer heimtückischen Strömung."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

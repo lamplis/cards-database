@@ -78,7 +78,6 @@ const card: Card = {
 		de: "Es schaukelt seinen Körper rhythmisch hin und her. Es sieht so aus, als würde sich der Rhythmus je nach Gefühlslage ändern."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -99,4 +98,3 @@ const card: Card = {
 }
 
 export default card
-

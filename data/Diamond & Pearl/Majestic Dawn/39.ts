@@ -71,19 +71,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "Instead of hands, it uses its tongue, which is twice its height. Its sticky saliva grips anything.",
-		de: "Es umklammert Dinge mit seiner dehnbaren Zunge. Kommt man ihm zu nahe, wird man eingespeichelt."
-	},
-
-	thirdParty: {
-		cardmarket: 278088,
-		tcgplayer: 86721
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278088,
+				tcgplayer: 86721
+			}
 		},
 		{
 			type: "reverse"

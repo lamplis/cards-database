@@ -81,19 +81,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It is timid in spite of its looks. If it becomes enraged, however, it will strike with its huge fangs.",
-		de: "Es ist trotz seines Äußeren schüchtern. Wird es wütend, schnappt es mit seinen Fängen zu."
-	},
-
-	thirdParty: {
-		cardmarket: 277941,
-		tcgplayer: 85864
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277941,
+				tcgplayer: 85864
+			}
 		},
 		{
 			type: "reverse"

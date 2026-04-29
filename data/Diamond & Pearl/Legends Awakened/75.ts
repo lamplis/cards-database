@@ -82,14 +82,13 @@ const card: Card = {
 		de: "Es besitzt 80 Tentakel, um Beute zu fangen und festzuhalten. Diese wird durch Gift geschwächt."
 	},
 
-	thirdParty: {
-		cardmarket: 278224,
-		tcgplayer: 89877
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278224,
+				tcgplayer: 89877
+			}
 		},
 		{
 			type: "reverse"

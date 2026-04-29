@@ -14,19 +14,9 @@ const card: Card = {
 		pt: "Ceruledge"
 	},
 
-	evolveFrom: {
-		en: "Charcadet",
-		fr: "Charbambin",
-		es: "Charcadet",
-		'es-mx': "Charcadet",
-		de: "Knarbon",
-		it: "Charcadet",
-		pt: "Charcadet",
-	},
-
-	illustrator: "Anesaki Dynamic",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
+
 	dexId: [937],
 	hp: 140,
 	types: ["Fire"],

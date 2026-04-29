@@ -74,14 +74,13 @@ const card: Card = {
 		de: "Es besteht aus Erdreich. Trinkt es Wasser, verhärtet sich der Panzer auf seinem Rücken. Es lebt an Seen."
 	},
 
-	thirdParty: {
-		cardmarket: 277602,
-		tcgplayer: 90071
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277602,
+				tcgplayer: 90071
+			}
 		},
 		{
 			type: "reverse"

@@ -82,7 +82,6 @@ const card: Card = {
 		de: "Es ist sehr aktiv und verspielt. Viele Leute tollen gerne mit ihm herum, weil es so herzlich ist."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -103,4 +102,3 @@ const card: Card = {
 }
 
 export default card
-

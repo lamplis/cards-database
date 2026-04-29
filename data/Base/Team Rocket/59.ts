@@ -72,7 +72,6 @@ const card: Card = {
 		de: "Man sagt, dass selbst professionelle Ringer ein Machollo nicht bezwingen können."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

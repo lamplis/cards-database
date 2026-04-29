@@ -64,16 +64,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It has the peculiar power of being able to see emotions such as joy and rage in the form of waves.",
-		de: "Es hat die eigenartige Fähigkeit, Gefühle wie Freude oder Wut in Wellenform zu sehen."
-	},
-
-	variants: [		{
+	variants:[
+		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 88756,
-				cardmarket: 278512
+				cardmarket: 278512,
+				tcgplayer: 88756
 			}
 		},
 		{

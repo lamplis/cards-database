@@ -20,7 +20,6 @@ const card: Card = {
 		fr: "Si vous jouez cette carte depuis votre main, le Pokémon auquel vous l'attachez cesse d'être Endormi, Confus, Paralysé ou Empoisonné. Énergie guérisseuse fournit 1 énergie Incolore. (Ne compte pas pour une carte Énergie de base.)",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

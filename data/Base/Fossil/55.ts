@@ -76,7 +76,6 @@ const card: Card = {
 		de: "Unglaublich langsam und träge. Braucht nach einem Angriff fünf Sekunden, um Schmerzen zu fühlen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

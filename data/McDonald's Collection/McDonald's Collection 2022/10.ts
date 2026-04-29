@@ -29,21 +29,23 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Levitate",
-				de: "Schwebe"
+				fr: "Lévitation"
 			},
 			effect: {
 				en: "If this Pokémon has any Energy attached, it has no Retreat Cost.",
-				de: "Wenn an dieses Pokémon mindestens 1 Energie angelegt ist, hat es keine Rückzugskosten."
+				fr: "Si de l'Énergie est attachée à ce Pokémon, il n'a pas de Coût de Retraite."
 			}
-		}
+		},
 	],
 
 	attacks: [
 		{
-			cost: ["Lightning"],
+			cost: [
+				"Lightning",
+			],
 			name: {
 				en: "Tiny Charge",
-				de: "Mini-Stromstoß"
+				fr: "Décharge Mineure"
 			},
 			damage: 10
 		},

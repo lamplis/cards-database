@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Wähle bis zu drei Basis-Pokémon-Karten, Evolutionskarten und/oder Basis-Energiekarten aus deinem Ablagestapel. Zeige sie deinem Gegner und mische sie in dein Deck."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -90,7 +90,6 @@ const card: Card = {
 		de: "Falls es bei der Pantomime unterbrochen wird, schlägt es den Feind mit seinen breiten Händen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

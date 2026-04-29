@@ -4,10 +4,13 @@ import Set from "../MEP Black Star Promos"
 const card: Card = {
 	set: Set,
 
+	dexId: [160],
+
 	name: {
 		en: "Mega Feraligatr ex",
 		fr: "Méga-Aligatueur-ex",
 		es: "Mega-Feraligatr ex",
+		'es-mx': "Mega-Feraligatr ex",
 		de: "Mega-Impergator-ex",
 		it: "Mega Feraligatr-ex",
 		pt: "Mega Feraligatr ex"
@@ -15,12 +18,11 @@ const card: Card = {
 
 	suffix: "ex",
 	illustrator: "5ban Graphics",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 370,
 	types: ["Water"],
 	stage: "Stage2",
-	dexId: [160],
 
 	evolveFrom: {
 		en: "Croconaw",
@@ -38,6 +40,7 @@ const card: Card = {
 			en: "Mortal Crunch",
 			fr: "Mâchouille Mortelle",
 			es: "Trituración Mortífera",
+			'es-mx': "Trituración Mortífera",
 			de: "Letalknirscher",
 			it: "Sgranocchio Letale",
 			pt: "Mastigada Mortal"
@@ -47,6 +50,7 @@ const card: Card = {
 			en: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 200 more damage.",
 			fr: "Si le Pokémon Actif de votre adversaire a déjà au moins un marqueur de dégâts, cette attaque inflige 200 dégâts supplémentaires.",
 			es: "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 200 puntos de daño más.",
+			'es-mx': "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 200 puntos de daño más.",
 			de: "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 200 Schadenspunkte mehr zu.",
 			it: "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, questo attacco infligge 200 danni in più.",
 			pt: "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 200 pontos de dano a mais."
@@ -56,30 +60,7 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "J",
-
-	weaknesses: [{
-		type: "Lightning",
-		value: "x2"
-	}],
-
-	variants: [
-		{
-			type: "holo",
-			thirdParty: {
-				cardmarket: 873721,
-				tcgplayer: 692118
-			}
-		},
-		{
-        	type: 'lenticular',
-        	size: 'jumbo',
-        	thirdParty: {
-        		cardmarket: 873722,
-        		tcgplayer: 692117
-        	}
-        },
-	],
+	regulationMark: "J"
 }
 
 export default card

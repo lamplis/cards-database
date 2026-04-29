@@ -93,14 +93,13 @@ const card: Card = {
 		de: "GEOROK leben an steilen Felsvorsprüngen. Sie graben dazu viele Löcher aus."
 	},
 
-	thirdParty: {
-		cardmarket: 277680,
-		tcgplayer: 85892
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277680,
+				tcgplayer: 85892
+			}
 		},
 		{
 			type: "reverse",

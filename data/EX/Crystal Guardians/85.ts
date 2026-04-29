@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Wähle 2 Karten in beliebiger Kombination aus sich im Spiel befindlichen Pokémon-Ausrüstungs-Karten und Stadion-Karten (deine oder deines Gegners). Lege diese Karten auf den Ablagestapel."
 	},
 
-	thirdParty: {
-		cardmarket: 277166,
-		tcgplayer: 90604
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277166,
+				tcgplayer: 90604
+			}
 		},
 		{
 			type: "normal",

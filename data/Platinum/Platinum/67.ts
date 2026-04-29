@@ -75,17 +75,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "By storing water in its body, this desert dweller can survive 30 days without water.",
-		de: "Dieser Wüstenbewohner speichert Wasser in seinem Körper. So kann er 30 Tage ohne Wasser überleben."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 84076,
-				cardmarket: 278488
+				cardmarket: 278488,
+				tcgplayer: 84076
 			}
 		},
 		{

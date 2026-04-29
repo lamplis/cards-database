@@ -18,14 +18,13 @@ const card: Card = {
 		de: "Each player shuffles his or her hand into his or her deck. Then, each player counts his or her Prize cards left and draws up to that many cards. (You draw your cards first.)"
 	},
 
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 276378,
 				tcgplayer: 88767
-			},
+			}
 		},
 		{
 			type: "reverse",

@@ -69,17 +69,12 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "There are researchers who believe this Pokémon reflected like a mirror in the distant past.",
-		de: "Manche Forscher glauben, dass dieses Pokémon in der Vergangenheit wie ein Spiegel reflektierte."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 84005,
-				cardmarket: 278906
+				cardmarket: 278906,
+				tcgplayer: 84005
 			}
 		},
 		{

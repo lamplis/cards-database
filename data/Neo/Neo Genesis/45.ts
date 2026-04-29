@@ -90,7 +90,6 @@ const card: Card = {
 		de: "Aufgrund seiner entspannten und unbesorgten Einstellung stößt es beim Schwimmen mit dem Kopf oft an Felsen und Bootskörper an."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

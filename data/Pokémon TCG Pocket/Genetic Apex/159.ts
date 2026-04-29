@@ -24,7 +24,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Kabuto",
-		fr: "Kabuto"
+		fr: "Kabuto",
+		es: "Kabuto",
+		it: "Kabuto",
+		pt: "Kabuto",
+		de: "Kabuto"
 	},
 
 	attacks: [{

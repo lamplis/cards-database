@@ -77,7 +77,6 @@ const card: Card = {
 		de: "Es ringelt und windet sich durch den Boden. Das Donnergrollen seines Tunnelbaus ist als Echo von weither zu vernehmen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

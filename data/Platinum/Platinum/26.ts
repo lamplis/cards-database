@@ -77,17 +77,12 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "If anyone were to hurt its pride, it would slash them with wings that can cleave through an ice floe.",
-		de: "Würde jemand seine Ehre verletzen, so würde es mit Flügeln angreifen, die Eis zerschneiden können."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 85200,
-				cardmarket: 278447
+				cardmarket: 278447,
+				tcgplayer: 85200
 			}
 		},
 		{

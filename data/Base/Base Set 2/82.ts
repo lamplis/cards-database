@@ -62,7 +62,6 @@ const card: Card = {
 		en: "Although small, its venomous barbs make this Pokémon dangerous. The female has smaller horns.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -24,7 +24,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Poliwhirl",
-		fr: "Têtarte"
+		fr: "Têtarte",
+		es: "Poliwhirl",
+		it: "Poliwhirl",
+		pt: "Poliwhirl",
+		de: "Quaputzi"
 	},
 
 	abilities: [{

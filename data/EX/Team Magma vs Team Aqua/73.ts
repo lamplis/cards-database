@@ -20,12 +20,11 @@ const card: Card = {
 		de: "Du kannst in jedem Zug nur eine Unterstützerkarte spielen. Wenn du diese Karte ausspielst, lege sie neben dein Aktives Pokémon. Lege diese Karte am Ende deines Zuges auf deinen Ablagestapel. Durchsuche deine Hand oder deinen Ablagestapel nach einem Pokémon mit „Team Magma“ im Namen und lege es auf deine Bank. Behandle das Pokémon wie ein Basis-Pokémon. Wenn es sich um ein Pokémon der Phase 2 handelt, lege 2 Schadensmarken darauf."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 275850,
+				cardmarket: 276050,
 				tcgplayer: 87270
 			}
 		},

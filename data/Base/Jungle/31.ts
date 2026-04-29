@@ -91,7 +91,6 @@ const card: Card = {
 		de: "Je größer die Blütenblätter, desto giftiger ist der Blütenstaub darin. Sein großer Kopf ist schwer und nicht einfach hochzuhalten."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

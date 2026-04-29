@@ -92,14 +92,13 @@ const card: Card = {
 		de: "Mit seinem Atem kann es tote Pflanzen und Blumen zu neuem Leben erwecken."
 	},
 
-	thirdParty: {
-		cardmarket: 277642,
-		tcgplayer: 87292
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277642,
+				tcgplayer: 87292
+			}
 		},
 		{
 			type: "reverse",

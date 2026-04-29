@@ -73,19 +73,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology.",
-		de: "Es hat die Macht, den Raum zu krümmen. In den Mythen von Sinnoh erscheint es als Gottheit."
-	},
-
-	thirdParty: {
-		cardmarket: 277928,
-		tcgplayer: 87907
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277928,
+				tcgplayer: 87907
+			}
 		},
 		{
 			type: "reverse"

@@ -65,7 +65,6 @@ const card: Card = {
 		de: "Wenn es entdeckt wird, flüchtet dieses Pokémon nach hinten, indem es eifrig den Boden mit seinem Schwanz aufgräbt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -86,4 +85,3 @@ const card: Card = {
 }
 
 export default card
-

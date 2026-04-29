@@ -73,7 +73,6 @@ const card: Card = {
 		de: "Es wird behauptet, dass die verschiedenen Sorten dieses Pokémon sich durch Anpassung entwickelt haben, da alle unterschiedliche Fähigkeiten besitzen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -91,7 +91,6 @@ const card: Card = {
 		de: "Diese verbesserte Version von Porygon wurde zur Erforschung des Weltalls entwickelt. Allerdings kann es nicht fliegen."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

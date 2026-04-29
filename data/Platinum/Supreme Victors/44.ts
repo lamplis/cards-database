@@ -71,15 +71,10 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "A discarded bug shell that came to life. Peering into the crack on its back is said to steal one's spirit."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 89120,
 				cardmarket: 278735
 			}
 		},

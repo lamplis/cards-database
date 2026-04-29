@@ -64,17 +64,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It is said that several Snorunt gather under giant leaves and live together in harmony.",
-		de: "Gerüchten zufolge sammeln sich SCHNEPPKE unter riesigen Blättern und leben dort friedlich zusammen."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 89403,
-				cardmarket: 278947
+				cardmarket: 278947,
+				tcgplayer: 89403
 			}
 		},
 		{

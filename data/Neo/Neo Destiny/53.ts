@@ -88,7 +88,6 @@ const card: Card = {
 		de: "Es verteidigt sich selbst, indem es seine Flügel mit hoher Geschwindigkeit bewegt und dabei ein giftiges Puder in der Luft verteilt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

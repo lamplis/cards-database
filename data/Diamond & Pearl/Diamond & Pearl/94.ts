@@ -70,14 +70,13 @@ const card: Card = {
 		de: "Bereits eine Stunde nach seiner Geburt wachsen seine feurige Mähne und sein feuriger Schweif."
 	},
 
-	thirdParty: {
-		cardmarket: 277593,
-		tcgplayer: 88287
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277593,
+				tcgplayer: 88287
+			}
 		},
 		{
 			type: "reverse"

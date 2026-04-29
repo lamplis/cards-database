@@ -64,7 +64,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction."
+		en: "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.",
 	},
 
 	variants: [

@@ -84,14 +84,13 @@ const card: Card = {
 		de: "Um sich zu schützen, umgibt es seinen Körper mit einer Rüstung aus Eis."
 	},
 
-	thirdParty: {
-		cardmarket: 277654,
-		tcgplayer: 85755
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277654,
+				tcgplayer: 85755
+			}
 		},
 		{
 			type: "reverse",

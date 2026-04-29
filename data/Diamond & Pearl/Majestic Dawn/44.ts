@@ -79,19 +79,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Its wings deliver wicked blows that snap even the thickest of trees. It searches for prey in icy seas.",
-		de: "Seine Flügel schlagen so kräftig zu, dass es sogar Bäume umknicken kann. Im Eismeer sucht es Beute."
-	},
-
-	thirdParty: {
-		cardmarket: 278093,
-		tcgplayer: 88370
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278093,
+				tcgplayer: 88370
+			}
 		},
 		{
 			type: "reverse"

@@ -80,7 +80,6 @@ const card: Card = {
 		de: "Es steht auf seinem Schwanz, um einen guten Ausblick zu haben. Wenn es einen Feind entdeckt, warnt es laut seine Freunde."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -101,4 +100,3 @@ const card: Card = {
 }
 
 export default card
-

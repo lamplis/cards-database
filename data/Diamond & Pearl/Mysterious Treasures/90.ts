@@ -82,14 +82,13 @@ const card: Card = {
 		de: "Sieht man dieses PKMN bei Nacht, sollen merkwürdige Dinge passieren."
 	},
 
-	thirdParty: {
-		cardmarket: 277719,
-		tcgplayer: 87652
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277719,
+				tcgplayer: 87652
+			}
 		},
 		{
 			type: "reverse",

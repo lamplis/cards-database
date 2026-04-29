@@ -26,23 +26,28 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless"],
+			cost: [
+				"Colorless",
+			],
 			name: {
 				en: "Collect",
-				de: "Sammeln"
+				fr: "Collecte"
 			},
 			effect: {
 				en: "Draw a card.",
-				de: "Ziehe 1 Karte."
-			},
+				fr: "Piochez une carte."
+			}
 		},
 		{
-			cost: ["Colorless", "Colorless"],
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
 			name: {
 				en: "Punch",
-				de: "Boxhieb"
+				fr: "Koud'Poing"
 			},
-			damage: 20,
+			damage: 20
 		},
 	],
 

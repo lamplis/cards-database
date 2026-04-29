@@ -51,17 +51,11 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It is told in mythology that this Pokémon was born before the universe even existed.",
-		de: "Die Mythologie erzählt, dass dieses PKMN geboren wurde, bevor das Universum überhaupt existierte."
-	},
-
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
-				cardmarket: 278861,
-				tcgplayer: 83595
+				cardmarket: 278861
 			}
 		}
 	]

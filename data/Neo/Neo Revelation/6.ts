@@ -78,7 +78,6 @@ const card: Card = {
 		de: "Wenn es bellt, brechen Vulkane aus. Es rennt ungestüm durch das Land, ohne in der Lage zu sein, seine besondere Fähigkeit zu zügeln."
 	},
 
-
 	variants: [
 		{
 			type: "holo",
