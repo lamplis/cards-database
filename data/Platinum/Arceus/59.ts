@@ -61,17 +61,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.",
-		de: "Lodert die Flamme auf seinem Schweifspitz hell, ist GLUMANDA gesund."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 84217,
-				cardmarket: 278931
+				cardmarket: 278931,
+				tcgplayer: 84217
 			}
 		},
 		{

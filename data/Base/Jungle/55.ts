@@ -75,7 +75,6 @@ const card: Card = {
 		de: "Sehr jähzornig. Kann einen Augenblick unterwürfig, dann im nächsten Augenblick aufständig sein."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

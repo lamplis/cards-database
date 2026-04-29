@@ -73,19 +73,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "For many generations, it has feuded with ZANGOOSE. It whets its bladed tail on rocks for battle.",
-		de: "Seit Generationen ist es mit SENGO verfeindet. Es wetzt seinen scharfen Schweif an Felsen."
-	},
-
-	thirdParty: {
-		cardmarket: 277954,
-		tcgplayer: 89086
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277954,
+				tcgplayer: 89086
+			}
 		},
 		{
 			type: "reverse"

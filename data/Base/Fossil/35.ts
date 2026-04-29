@@ -85,7 +85,6 @@ const card: Card = {
 		de: "Man sieht es oft in Küstengewässern schwimmen. Es wird auch oft mit dem japanischen Monster Kappa verwechselt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -73,14 +73,13 @@ const card: Card = {
 		de: "Mit dem Schweif pflückt es hochhängende Früchte. Mit ihm ist es geschickter als mit den Händen."
 	},
 
-	thirdParty: {
-		cardmarket: 277699,
-		tcgplayer: 83489
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277699,
+				tcgplayer: 83489
+			}
 		},
 		{
 			type: "reverse",

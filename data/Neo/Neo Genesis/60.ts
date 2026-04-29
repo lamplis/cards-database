@@ -80,7 +80,6 @@ const card: Card = {
 		de: "Es steht stets auf einem Fuß. Es wechselt den Fuß so schnell, dass die Bewegung kaum jemals sichtbar ist."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

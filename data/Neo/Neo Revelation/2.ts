@@ -92,7 +92,6 @@ const card: Card = {
 		de: "Jeder, der auch nur den kleinsten Biss von Heiteiras Ei nascht, wird garantiert liebevoll und nett zu allen."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

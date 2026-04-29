@@ -64,7 +64,6 @@ const card: Card = {
 		en: "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

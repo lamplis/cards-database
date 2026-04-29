@@ -78,7 +78,6 @@ const card: Card = {
 		de: "Dank der Regenwolken, die es mit sich herumträgt, kann es jederzeit Blitze schleudern. Es wird gesagt, dass es in einem Gewitter entstanden ist."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

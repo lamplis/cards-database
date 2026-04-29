@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Remove 2 damage counters from 1 of your Pokémon (remove 1 damage counter if that Pokémon has only 1)."
 	},
 
-	thirdParty: {
-		cardmarket: 276864,
-		tcgplayer: 88338
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276864,
+				tcgplayer: 88338
+			}
 		},
 		{
 			type: "normal",
@@ -37,4 +36,3 @@ const card: Card = {
 }
 
 export default card
-

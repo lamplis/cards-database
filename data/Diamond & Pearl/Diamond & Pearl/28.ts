@@ -78,14 +78,13 @@ const card: Card = {
 		de: "Auf der Suche nach Baumsaft durchstreift es die Wälder. Es ist stark genug, um Gegner wegzuschleudern."
 	},
 
-	thirdParty: {
-		cardmarket: 277527,
-		tcgplayer: 86064
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277527,
+				tcgplayer: 86064
+			}
 		},
 		{
 			type: "reverse"

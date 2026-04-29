@@ -5,6 +5,8 @@ const card: Card = {
 	set: Set,
 	cameoDexIds: [81, 938],
 
+	dexId: [939],
+
 	name: {
 		en: "Iono's Bellibolt ex",
 		fr: "Ampibidou-ex de Mashynn",

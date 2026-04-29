@@ -78,19 +78,17 @@ const card: Card = {
 
 
 	description: {
-		en: "It can hover in one spot by flapping its wings at high speed. It flits about to guard its territory."
+		en: "It can hover in one spot by flapping its wings at high speed. It flits about to guard its territory.",
 	},
 
 	variants: [
 		{
 			type: "reverse",
 			thirdParty: {
-				tcgplayer: 90687,
 				cardmarket: 278691
 			}
-		},
-	],
-
+		}
+	]
 }
 
 export default card

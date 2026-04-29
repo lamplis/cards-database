@@ -93,14 +93,13 @@ const card: Card = {
 		de: "Eigentlich sind es drei MAGNETILO, die durch Magnetismus verbunden sind."
 	},
 
-	thirdParty: {
-		cardmarket: 277553,
-		tcgplayer: 87107
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277553,
+				tcgplayer: 87107
+			}
 		},
 		{
 			type: "reverse"

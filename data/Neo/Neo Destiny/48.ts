@@ -83,7 +83,6 @@ const card: Card = {
 		de: "Es kann die elektrische Energie seiner Umgebung in seinen Zellen speichern und sie dann in massiven Entladungen wieder abgeben."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

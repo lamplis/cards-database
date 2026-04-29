@@ -17,8 +17,7 @@ const card: Card = {
 		de: "Pikachu"
 	},
 
-	illustrator: "Naoki Saito",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Lightning"],

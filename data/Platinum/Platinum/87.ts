@@ -66,17 +66,12 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "Overwhelmed by enigmatic abilities, it suffers a constant headache. It sometimes uses mysterious powers.",
-		de: "Leidet unter stetigem Kopfschmerz, ausgelöst durch seltsame Kräfte, die es aber auch einsetzen kann."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 88439,
-				cardmarket: 278508
+				cardmarket: 278508,
+				tcgplayer: 88439
 			}
 		},
 		{

@@ -9,7 +9,7 @@ const card: Card = {
 		en: "Pawmi",
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Lightning"],

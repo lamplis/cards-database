@@ -72,7 +72,6 @@ const card: Card = {
 		de: "Wenn die Sterne am nächtlichen Himmel flimmern, flattert Ledian herum und verbreitet ein Leuchtpuder."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

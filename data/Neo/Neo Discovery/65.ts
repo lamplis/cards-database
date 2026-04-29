@@ -80,7 +80,6 @@ const card: Card = {
 		de: "Wenn es Honig findet, glüht sein halbmondförmiges Stirnmal. Es leckt sich dauernd die Pfoten, da sie vor Honig triefen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -101,4 +100,3 @@ const card: Card = {
 }
 
 export default card
-

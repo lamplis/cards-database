@@ -74,19 +74,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It loves eating mushrooms that grow under dead grass. It also finds hot springs while foraging.",
-		de: "Es liebt Pilze, die unter totem Gras wachsen. Auf der Suche nach Nahrung findet es heiße Quellen."
-	},
-
-	thirdParty: {
-		cardmarket: 278272,
-		tcgplayer: 89703
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278272,
+				tcgplayer: 89703
+			}
 		},
 		{
 			type: "reverse"

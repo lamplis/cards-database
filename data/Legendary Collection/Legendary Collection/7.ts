@@ -56,10 +56,19 @@ const card: Card = {
 		en: "Stores up electricity in its body, then suddenly releases it to surprise and shock everyone."
 	},
 
-	variants: [{
-		type: "normal",
-		thirdParty: {
-			tcgplayer: 125089
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274772,
+				tcgplayer: 84646
+			}
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo"
 		}
 	},
 	{

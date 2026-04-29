@@ -83,7 +83,6 @@ const card: Card = {
 		de: "Dieses Pokémon hat sich so entwickelt, dass seine Rückenflosse Licht ausstrahlt, das Fische anlockt, von denen es sich ernährt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Karippas GX"
 	},
 
-	illustrator: "PLANETA Tsuji",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 250,
 	types: ["Fighting"],

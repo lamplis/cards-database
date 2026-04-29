@@ -81,7 +81,6 @@ const card: Card = {
 		de: "Dieses mächtige Pokémon stößt sein wertvolles Horn unter den Bauch seiner Feinde, hebt sie dann hoch und schleudert sie."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

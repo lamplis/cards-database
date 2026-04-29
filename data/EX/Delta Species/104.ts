@@ -20,14 +20,13 @@ const card: Card = {
 		fr: "Si le Pokémon auquel Énergie Holon FF est attachée possède également une carte Énergie de base Feu, il ne possède pas de Faiblesse. Si le Pokémon auquel Énergie Holon FF est attachée possède également une carte Énergie de base Combat, les dégâts infligés par son attaque ne sont pas affectés par la Résistance. Ignorez ces effets si Énergie Holon FF est attachée à un Pokémon-ex.",
 	},
 
-	thirdParty: {
-		cardmarket: 276867,
-		tcgplayer: 86136
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276867,
+				tcgplayer: 86136
+			}
 		},
 		{
 			type: "normal",

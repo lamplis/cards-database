@@ -80,14 +80,13 @@ const card: Card = {
 		de: "Es bewegt seine Arme und generiert damit Elektrizität. Diese kann es aber nicht speichern."
 	},
 
-	thirdParty: {
-		cardmarket: 277547,
-		tcgplayer: 85171
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277547,
+				tcgplayer: 85171
+			}
 		},
 		{
 			type: "reverse"

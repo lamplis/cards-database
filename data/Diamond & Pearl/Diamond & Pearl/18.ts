@@ -77,19 +77,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It lives in rivers and lakes. In water, its coloring and patterns trick the vision of foes.",
-		de: "Es lebt in Flüssen und Seen. Im Wasser verwirrt es seine Gegner durch seine Farbe und Muster."
-	},
-
-	thirdParty: {
-		cardmarket: 277517,
-		tcgplayer: 83684
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277517,
+				tcgplayer: 83684
+			}
 		},
 		{
 			type: "reverse"

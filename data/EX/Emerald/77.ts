@@ -20,18 +20,13 @@ const card: Card = {
 		de: "Search your deck for up to 3 different types of Basic Pokémon cards (excluding Baby Pokémon), show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
 	},
 
-	thirdParty: {
-		tcgplayer: 86598,
-		cardmarket: 276588
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 86598,
-				cardmarket: 276588
-			},
+				cardmarket: 276588,
+				tcgplayer: 86598
+			}
 		},
 		{
 			type: "reverse",

@@ -95,14 +95,13 @@ const card: Card = {
 		de: "Die beeindruckenden Stoßzähne dieser PKMN sind aus Eis. Nach der Eiszeit nahm ihre Population ab."
 	},
 
-	thirdParty: {
-		cardmarket: 278158,
-		tcgplayer: 87138
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278158,
+				tcgplayer: 87138
+			}
 		},
 		{
 			type: "reverse"

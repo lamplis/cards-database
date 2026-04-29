@@ -15,7 +15,7 @@ const card: Card = {
 		de: "Enigmara"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Trainer",
 
 	effect: {

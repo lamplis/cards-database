@@ -77,7 +77,6 @@ const card: Card = {
 		de: "Es macht normalerweise einen Buckel. Falls es wütend oder überrascht wird, schießt es Flammen aus seinem Rücken."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

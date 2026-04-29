@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Wähle bis zu 2 deiner Preise und decke sie auf. (Diese Karten werden nicht wieder verdeckt.) Ziehe 2 Karten.",
 	},
 
-	thirdParty: {
-		cardmarket: 277281,
-		tcgplayer: 86291
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277281,
+				tcgplayer: 86291
+			}
 		},
 		{
 			type: "normal",

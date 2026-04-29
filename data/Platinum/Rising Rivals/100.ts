@@ -21,9 +21,6 @@ const card: Card = {
 
 	energyType: "Special",
 
-	types: [
-		"Metal"
-	],
 	variants: [
 		{
 			type: "normal",

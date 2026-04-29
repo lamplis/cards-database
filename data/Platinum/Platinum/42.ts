@@ -76,17 +76,12 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It becomes active at night, seeking prey that is exhausted from the day's desert heat.",
-		de: "Ein nachtaktives PKMN, das Beute sucht, die durch die Tageshitze der Wüste bereits erschöpft ist."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 84081,
-				cardmarket: 278463
+				cardmarket: 278463,
+				tcgplayer: 84081
 			}
 		},
 		{

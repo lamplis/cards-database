@@ -74,7 +74,6 @@ const card: Card = {
 		de: "Es schläft nie. Es muss sich dauernd bewegen, da sonst das Magma in seinem Körper kalt werden und verhärten würde."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -95,4 +94,3 @@ const card: Card = {
 }
 
 export default card
-

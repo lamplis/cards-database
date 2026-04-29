@@ -95,14 +95,13 @@ const card: Card = {
 		de: "Es verteidigt sein Revier, indem es Erschütterungen auslöst, die noch in 5 km Entfernung zu spüren sind."
 	},
 
-	thirdParty: {
-		cardmarket: 277669,
-		tcgplayer: 90577
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277669,
+				tcgplayer: 90577
+			}
 		},
 		{
 			type: "reverse",

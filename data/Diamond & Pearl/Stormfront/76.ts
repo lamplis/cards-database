@@ -89,14 +89,13 @@ const card: Card = {
 		de: "Um sich zu schützen, versprüht es eine Substanz aus seinem Hinterleib, die 24 Stunden stinkt."
 	},
 
-	thirdParty: {
-		cardmarket: 278374,
-		tcgplayer: 89586
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278374,
+				tcgplayer: 89586
+			}
 		},
 		{
 			type: "reverse"

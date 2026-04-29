@@ -10,8 +10,8 @@ const card: Card = {
 		pt: "Ultra Necrozma GX",
 		de: "Ultra-Necrozma GX"
 	},
-	illustrator: "PLANETA",
-	rarity: "Promo",
+	illustrator: "PLANETA Otani",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

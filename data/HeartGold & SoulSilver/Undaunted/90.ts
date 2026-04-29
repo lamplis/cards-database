@@ -13,7 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [384, 386],
+	dexId: [
+
+
+		384,
+
+
+		386,
+
+
+	],
+
 	types: [
 		"Colorless",
 		"Psychic"
@@ -78,8 +88,7 @@ const card: Card = {
 		{
 			type: "holo",
 			thirdParty: {
-				cardmarket: 279343,
-				tcgplayer: 88637
+				cardmarket: 279342
 			}
 		},
 		{
@@ -93,6 +102,7 @@ const card: Card = {
 	],
 
 	hp: 140,
+
 }
 
 export default card

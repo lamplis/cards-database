@@ -71,19 +71,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It is shrouded by blue vines. No one has seen the face hidden behind this growth of vines.",
-		de: "Es ist von blauen Ranken umgeben. Niemand hat jemals das Gesicht dieses Pokémon gesehen."
-	},
-
-	thirdParty: {
-		cardmarket: 277989,
-		tcgplayer: 89744
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277989,
+				tcgplayer: 89744
+			}
 		},
 		{
 			type: "reverse"

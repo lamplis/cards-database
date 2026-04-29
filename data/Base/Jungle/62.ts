@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Frißt in grasbedeckten Gegenden Käfer. Es muß seine kurzen Flügel schnell schlagen, um in der Luft zu bleiben."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

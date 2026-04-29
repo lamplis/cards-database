@@ -71,7 +71,6 @@ const card: Card = {
 		en: "When the bulb on its back grows large, the Pokémon seems to lose the ability to stand on its hind legs.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

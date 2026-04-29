@@ -86,19 +86,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "Just like a plant, it uses photosynthesis. As a result, it is always enveloped in clear air.",
-		de: "Genau wie ein Pflanze führt es die Photosynthese aus. Deshalb ist es ständig von reiner Luft umgeben."
-	},
-
-	thirdParty: {
-		cardmarket: 278056,
-		tcgplayer: 86677
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278056,
+				tcgplayer: 86677
+			}
 		},
 		{
 			type: "reverse"

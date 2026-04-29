@@ -84,14 +84,13 @@ const card: Card = {
 		de: "Das kleine Bällchen enthält alles, was es für die Entwicklung braucht. Es ist süß und lecker."
 	},
 
-	thirdParty: {
-		cardmarket: 277574,
-		tcgplayer: 84259
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277574,
+				tcgplayer: 84259
+			}
 		},
 		{
 			type: "reverse"

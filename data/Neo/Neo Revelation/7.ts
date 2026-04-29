@@ -107,7 +107,6 @@ const card: Card = {
 		de: "Der Legende nach schwebt dieses Pokémon ununterbrochen auf seinen großartigen siebenfarbigen Flügeln durch die Lüfte."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

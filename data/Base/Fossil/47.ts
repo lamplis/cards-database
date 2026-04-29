@@ -61,7 +61,6 @@ const card: Card = {
 		de: "Auf Feldern und Bergen anzutreffen. Da sie wie Felsen aussehen, stolpern oder fallen Wanderer oft über sie."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

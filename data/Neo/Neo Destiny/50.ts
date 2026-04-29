@@ -85,7 +85,6 @@ const card: Card = {
 		de: "Es wird gesagt, dass jeder seiner neun Schwänze eine unterschiedliche magische Fähigkeit habe."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

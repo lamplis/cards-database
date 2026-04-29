@@ -84,19 +84,13 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "It controls 10,000-volt power and can raise all the furs on its body as if it were sharp needles.",
-		de: "Es kontrolliert 10.000 Volt. Es kann sein Fell so aufstellen, dass es wie scharfe Nadeln wirkt."
-	},
-
-	thirdParty: {
-		cardmarket: 278072,
-		tcgplayer: 86343
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278072,
+				tcgplayer: 86343
+			}
 		},
 		{
 			type: "reverse"

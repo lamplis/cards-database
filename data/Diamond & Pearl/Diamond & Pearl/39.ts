@@ -91,14 +91,13 @@ const card: Card = {
 		de: "Ihr Bauch ist die Wabe für die Larven. Sie füttert ihre Larven mit dem Honig, den WADRIBIE sammelt."
 	},
 
-	thirdParty: {
-		cardmarket: 277538,
-		tcgplayer: 90327
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277538,
+				tcgplayer: 90327
+			}
 		},
 		{
 			type: "reverse"

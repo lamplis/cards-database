@@ -87,7 +87,6 @@ const card: Card = {
 		de: "Ein wildes Pokémon aus der Urzeit, vom dem man annimmt, dass es zum Fliegen einfach die Flügel ausgebreitet hat und auf ihnen geschwebt ist."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

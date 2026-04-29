@@ -96,7 +96,6 @@ const card: Card = {
 		de: "Seine Kneifer haben Augen-Muster, um seine Feinde zu erschrecken. So wirkt es, als ob Scherox drei Köpfe hätte."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -117,4 +116,3 @@ const card: Card = {
 }
 
 export default card
-

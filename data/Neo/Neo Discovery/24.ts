@@ -80,7 +80,6 @@ const card: Card = {
 		de: "Um Beute einzukreisen, verständigen sie sich mit einem Gebell, das nur sie verstehen können."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -101,4 +100,3 @@ const card: Card = {
 }
 
 export default card
-

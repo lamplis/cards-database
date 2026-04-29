@@ -92,14 +92,13 @@ const card: Card = {
 		de: "Es berührt den Gegner mit seinen beiden Schweifspitzen und entlädt dann über 20 000 Volt."
 	},
 
-	thirdParty: {
-		cardmarket: 277502,
-		tcgplayer: 85121
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277502,
+				tcgplayer: 85121
+			}
 		},
 		{
 			type: "reverse"

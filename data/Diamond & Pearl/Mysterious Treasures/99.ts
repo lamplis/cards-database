@@ -59,14 +59,13 @@ const card: Card = {
 		de: "Es verbringt fast den ganzen Tag mit Faulenzen und Schlafen. Selbst sein Anblick macht bereits müde."
 	},
 
-	thirdParty: {
-		cardmarket: 277728,
-		tcgplayer: 89298
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277728,
+				tcgplayer: 89298
+			}
 		},
 		{
 			type: "reverse",

@@ -97,6 +97,9 @@ const card: Card = {
 			}
 		},
 		{
+			type: "reverse"
+		},
+		{
 			type: "reverse",
 			thirdParty: {
 				cardmarket: 279258,

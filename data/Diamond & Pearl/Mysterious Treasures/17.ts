@@ -94,14 +94,13 @@ const card: Card = {
 		de: "Bei einem Tobsuchtsanfall zerstört es ganze Gebirge und legt Flüsse trocken."
 	},
 
-	thirdParty: {
-		cardmarket: 277646,
-		tcgplayer: 90119
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277646,
+				tcgplayer: 90119
+			}
 		},
 		{
 			type: "reverse",

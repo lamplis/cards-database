@@ -85,14 +85,13 @@ const card: Card = {
 		de: "Es hat extrem starke Muskeln und kann durch den Ozean schwimmen, ohne sich ausruhen zu müssen."
 	},
 
-	thirdParty: {
-		cardmarket: 278184,
-		tcgplayer: 88278
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278184,
+				tcgplayer: 88278
+			}
 		},
 		{
 			type: "reverse"

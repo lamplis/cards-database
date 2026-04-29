@@ -68,7 +68,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Formed by several Magnemites linked together. They frequently appear when sunspots flare up."
+		en: "Formed by several Magnemites linked together. They frequently appear when sunspots flare up.",
 	},
 
 	variants: [

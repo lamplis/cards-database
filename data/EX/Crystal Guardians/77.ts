@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Alle Speziellen Zustände auf allen deinen Aktiven Pokémon verlieren ihre Wirkung."
 	},
 
-	thirdParty: {
-		cardmarket: 277158,
-		tcgplayer: 84889
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277158,
+				tcgplayer: 84889
+			}
 		},
 		{
 			type: "normal",

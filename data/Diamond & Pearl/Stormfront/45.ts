@@ -84,14 +84,13 @@ const card: Card = {
 		de: "Seine Backentaschen sind noch recht klein. Daher kann es nicht allzu viel Elektrizität speichern."
 	},
 
-	thirdParty: {
-		cardmarket: 278343,
-		tcgplayer: 88019
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278343,
+				tcgplayer: 88019
+			}
 		},
 		{
 			type: "reverse"

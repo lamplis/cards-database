@@ -73,14 +73,13 @@ const card: Card = {
 		de: "Es wird stärker, indem es andere ständig anrempelt. Es liebt Süßigkeiten."
 	},
 
-	thirdParty: {
-		cardmarket: 277541,
-		tcgplayer: 90657
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277541,
+				tcgplayer: 90657
+			}
 		},
 		{
 			type: "reverse"

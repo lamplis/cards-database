@@ -24,7 +24,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Frogadier",
-		fr: "Croâporal"
+		fr: "Croâporal",
+		es: "Frogadier",
+		it: "Frogadier",
+		pt: "Frogadier",
+		de: "Amphizel"
 	},
 
 	abilities: [{

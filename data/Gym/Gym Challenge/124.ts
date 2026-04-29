@@ -11,15 +11,13 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	effect: {
-		en: "Show the top 3 cards of your deck to all players. Put any Fire Energy cards there into your hand and discard the rest."
-	},
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 85430,
-			},
+				cardmarket: 274392,
+				tcgplayer: 85430
+			}
 		},
 		{
 			type: "normal",

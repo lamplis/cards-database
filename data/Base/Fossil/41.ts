@@ -88,7 +88,6 @@ const card: Card = {
 		de: "Verwandelt sich bei Bedrohung in eine Stachelkugel. Kann in dieser Form zum Angriff oder zur Flucht rollen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -74,16 +74,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.",
-		de: "Ist sein Trainer glücklich, tanzt es in einem Schwall von Energie fröhlich umher."
-	},
-
-	variants: [		{
+	variants:[
+		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 86468,
-				cardmarket: 278472
+				cardmarket: 278472,
+				tcgplayer: 86468
 			}
 		},
 		{

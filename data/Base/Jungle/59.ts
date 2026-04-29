@@ -79,7 +79,6 @@ const card: Card = {
 		de: "Buddelt sich ein, um an Baumwurzeln zu saugen. Die Pilze auf seinem Rücken wachsen, weil sie dem Käferwirt Nährstoffe entziehen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

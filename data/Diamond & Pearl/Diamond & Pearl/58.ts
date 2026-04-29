@@ -76,19 +76,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It lives alone, away from others. Apparently, every one of them believes it is the most important.",
-		de: "Es lebt allein, entfernt von anderen. Jedes von ihnen denkt, es sei das bedeutendste unter ihnen."
-	},
-
-	thirdParty: {
-		cardmarket: 277557,
-		tcgplayer: 88368
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277557,
+				tcgplayer: 88368
+			}
 		},
 		{
 			type: "reverse"

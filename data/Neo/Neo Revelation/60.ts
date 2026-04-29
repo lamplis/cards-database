@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Lege Ballonbeere an eines deiner Pokémon an, das keine Pokémon-Ausrüstung hat. Wenn das Pokémon, an das Ballonbeere angelegt ist, sich zurückzieht, lege Ballonbeere auf deinen Ablagestapel, anstatt Energiekarten abzulegen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -40,4 +39,3 @@ const card: Card = {
 }
 
 export default card
-

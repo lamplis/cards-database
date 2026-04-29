@@ -93,14 +93,13 @@ const card: Card = {
 		de: "Vor über 100 Millionen Jahren lebte es in den Dschungeln. Seine Gesichtshaut ist extrem hart."
 	},
 
-	thirdParty: {
-		cardmarket: 277692,
-		tcgplayer: 89149
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277692,
+				tcgplayer: 89149
+			}
 		},
 		{
 			type: "reverse",

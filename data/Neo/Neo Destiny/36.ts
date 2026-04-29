@@ -81,7 +81,6 @@ const card: Card = {
 		de: "Es jagt leise seine Beute in dunklen Räumen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

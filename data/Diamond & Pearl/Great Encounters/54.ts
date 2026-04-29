@@ -76,19 +76,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "Though usually dim witted, it seems to become inspired if the SHELLDER on its tail bites down.",
-		de: "Ein begriffsstutziges Pokémon. Beißt das MUSCHAS am Schweif zu, scheint es Intelligenz zu gewinnen."
-	},
-
-	thirdParty: {
-		cardmarket: 277956,
-		tcgplayer: 89306
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277956,
+				tcgplayer: 89306
+			}
 		},
 		{
 			type: "reverse"

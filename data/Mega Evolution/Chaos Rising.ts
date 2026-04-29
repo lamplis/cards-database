@@ -16,13 +16,6 @@ const set: Set = {
 	},
 
 	releaseDate: "2026-06-19",
-
-	abbreviations: {
-		official: "CRI"
-	},
-	searchAliases: [
-		"CRI"
-	],
 }
 
 export default set

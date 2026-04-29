@@ -17,7 +17,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Cherchez jusqu’à 3 cartes Énergie Water dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.\n\nLorsque vous jouez cette carte, vous pouvez défausser 5 autres cartes de votre main. Dans ce cas, pendant ce tour, vos Pokémon Water peuvent utiliser leurs attaques GX même si vous avez déjà utilisé votre attaque GX.",
+		fr: "Cherchez jusqu'à 3 cartes Énergie {W} dans votre deck, puis ajoutez-les à votre main. Mélangez ensuite votre deck.\n\nLorsque vous jouez cette carte, vous pouvez défausser 5 autres cartes de votre main. Dans ce cas, pendant ce tour, vos Pokémon {W} peuvent utiliser leurs attaques -GX même si vous avez déjà utilisé votre attaque-GX.",
 		en: "Search your deck for up to 3 Water Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.\n\nWhen you play this card, you may discard 5 other cards from your hand. If you do, during this turn, your Water Pokémon can use their GX attacks even if you have used your GX attack.",
 		es: "Busca en tu baraja hasta 3 cartas de Energía Water, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.\n\nCuando juegues esta carta, puedes descartar otras 5 cartas de tu mano. Si lo haces, durante este turno, tus Pokémon Water pueden usar sus ataques GX incluso si has usado tu ataque GX.",
 		it: "Cerca nel tuo mazzo fino a tre carte Energia Water, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.\n\nQuando giochi questa carta, puoi scartare altre cinque carte che hai in mano. Se lo fai, durante questo turno, i tuoi Pokémon Water possono usare il loro attacco GX anche se hai già usato un attacco GX.",

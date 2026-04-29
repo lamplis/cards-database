@@ -16,13 +16,6 @@ const set: Set = {
 	},
 
 	releaseDate: "2026-08-07",
-
-	abbreviations: {
-		official: "RRS"
-	},
-	searchAliases: [
-		"RRS"
-	],
 }
 
 export default set

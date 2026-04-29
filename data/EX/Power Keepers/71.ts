@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Wenn sich bereits eine Karte mit diesem Namen im Spiel befindet, kannst du diese Karte nicht spielen. Entwickelte {C}-Pokémon, entwickelte {D}-Pokémon und entwickelte {M}-Pokémon beider Spieler können keine Poké-Power oder Poké-Body anwenden.",
 	},
 
-	thirdParty: {
-		cardmarket: 277377,
-		tcgplayer: 83741
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277377,
+				tcgplayer: 83741
+			}
 		},
 		{
 			type: "normal",
@@ -37,4 +36,3 @@ const card: Card = {
 }
 
 export default card
-

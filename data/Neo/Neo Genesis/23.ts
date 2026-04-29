@@ -51,7 +51,6 @@ const card: Card = {
 		de: "Jedesmal, wenn es ein- und ausatmet, tröpfelt heiße Glut aus Mund und Nasenlöchern."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

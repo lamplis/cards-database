@@ -64,7 +64,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Almost incapable of moving, this Pokémon can only harden its shell to protect itself from predators."
+		en: "Almost incapable of moving, this Pokémon can only harden its shell to protect itself from predators.",
 	},
 
 	variants: [

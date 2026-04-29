@@ -67,7 +67,6 @@ const card: Card = {
 		de: "Ein sehr vorsichtiges Pokémon, das sich mit Hilfe seines Schweifs selbst hochhebt, um einen besseren Überblick über seine Umgebung zu bekommen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

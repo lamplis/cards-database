@@ -76,14 +76,13 @@ const card: Card = {
 		de: "Einmal am Tag verschlingt es eine Nahrungsmenge, die seinem Gewicht entspricht. Und das ohne zu kauen."
 	},
 
-	thirdParty: {
-		cardmarket: 277532,
-		tcgplayer: 87637
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277532,
+				tcgplayer: 87637
+			}
 		},
 		{
 			type: "reverse"

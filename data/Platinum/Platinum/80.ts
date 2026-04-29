@@ -70,17 +70,12 @@ const card: Card = {
 
 	retreat: 3,
 
-	description: {
-		en: "When it extends its over-six-foot-long tongue, its tail quivers. There is a possibility they are connected.",
-		de: "Streckt es seine ca. zwei Meter lange Zunge, zittert sein Schweif. Sie scheinen verbunden zu sein."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 86722,
-				cardmarket: 278501
+				cardmarket: 278501,
+				tcgplayer: 86722
 			}
 		},
 		{

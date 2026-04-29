@@ -14,19 +14,18 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. Whenever any player puts a Basic Pokémon (excluding Grass or Psychic Pokémon) from his or her hand onto his or her Bench, put 2 damage counters on that Pokémon.",
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu. Si une autre carte comportant le même nom est en jeu, vous ne pouvez pas jouer cette carte.",
-		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen. Immer wenn ein Spieler ein Basis-Pokémon (außer {G}- oder {P}-Pokémon) von seiner Hand auf seine Bank legt, lege 2 Schadensmarken auf dieses Pokémon."
+		fr: "Lorsqu'1 joueur place un Pokémon de base (Pokémon Plante ou Psy exclus) de sa main vers son Banc, placez 2 marqueurs de dégât sur ce Pokémon.",
+		de: "Whenever any player puts a Basic Pokémon (excluding  or  Pokémon) from his or her hand onto his or her Bench, put 2 damage counters on that Pokémon.",
 	},
 
 	trainerType: "Stadium",
 
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 87435,
-				cardmarket: 278532
+				cardmarket: 278532,
+				tcgplayer: 87435
 			}
 		},
 		{

@@ -89,7 +89,6 @@ const card: Card = {
 		de: "Seine feine Nase kann jeden Geruch erkennen, selbst den von Essen, das tief vergraben ist."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

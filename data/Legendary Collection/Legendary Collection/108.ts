@@ -11,10 +11,6 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	effect: {
-		en: "Draw 2 cards."
-	},
-
 	variants: [
 		{
 			type: "reverse",

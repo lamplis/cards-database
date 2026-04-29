@@ -76,17 +76,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "A lifelong jungle dweller from 100 million years ago, it would snap obstructing trees with head butts.",
-		de: "Es lebt seit Urzeiten im Dschungel. Kann im Weg befindliche Bäume mit Kopfstößen aus dem Weg räumen."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 84460,
-				cardmarket: 278467
+				cardmarket: 278467,
+				tcgplayer: 84460
 			}
 		},
 		{

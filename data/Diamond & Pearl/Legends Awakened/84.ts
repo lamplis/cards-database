@@ -80,14 +80,13 @@ const card: Card = {
 		de: "Es kommuniziert mit anderen durch magnetische Impulse. Im Schwarm bilden sie eine perfekte Einheit."
 	},
 
-	thirdParty: {
-		cardmarket: 278232,
-		tcgplayer: 83789
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278232,
+				tcgplayer: 83789
+			}
 		},
 		{
 			type: "reverse"

@@ -92,14 +92,13 @@ const card: Card = {
 		de: "Über seine Schweifspitze versprüht es eine übelriechende Substanz. Die Reichweite liegt bei über 50 Metern."
 	},
 
-	thirdParty: {
-		cardmarket: 277514,
-		tcgplayer: 89279
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277514,
+				tcgplayer: 89279
+			}
 		},
 		{
 			type: "reverse"

@@ -86,7 +86,6 @@ const card: Card = {
 		de: "Die Milch ist voller Nährstoffe, was sie zum besten Getränk für Kranke und Schwache macht."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

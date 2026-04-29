@@ -10,8 +10,8 @@ const card: Card = {
 		pt: "Suicune",
 		de: "Suicune"
 	},
-	illustrator: "Kouki Saitou",
-	rarity: "Promo",
+	illustrator: "Anesaki Dynamic",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

@@ -40,7 +40,6 @@ const card: Card = {
 
 	hp: 0,
 
-	retreat: 0
 }
 
 export default card

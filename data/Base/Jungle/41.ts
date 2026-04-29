@@ -87,7 +87,6 @@ const card: Card = {
 		de: "Ein Wirt-Parasitenverhältnis, in dem der Parasitenpilz den Wirtskäfer übernommen hat. Zieht feuchte Orte vor."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

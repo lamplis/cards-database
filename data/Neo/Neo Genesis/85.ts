@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Wirf eine Münze. Mische bei „Kopf“ bis zu zwei Energiekarten aus deinem Ablagestapel in dein Deck."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

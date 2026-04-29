@@ -78,14 +78,13 @@ const card: Card = {
 		de: "Seinen Schweif verwendet es als eine Art Rettungsring, wenn es taucht. Es liebt Wasserpflanzen."
 	},
 
-	thirdParty: {
-		cardmarket: 277587,
-		tcgplayer: 87218
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277587,
+				tcgplayer: 87218
+			}
 		},
 		{
 			type: "reverse"

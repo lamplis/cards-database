@@ -70,7 +70,6 @@ const card: Card = {
 		en: "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

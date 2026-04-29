@@ -65,15 +65,10 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 85405,
 				cardmarket: 278795
 			}
 		},

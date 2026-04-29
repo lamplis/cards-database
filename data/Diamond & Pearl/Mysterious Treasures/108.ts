@@ -80,14 +80,13 @@ const card: Card = {
 		de: "Obwohl es keine Augen hat, kann es Hindernisse mithilfe von Ultraschallwellen wahrnehmen."
 	},
 
-	thirdParty: {
-		cardmarket: 277737,
-		tcgplayer: 90774
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277737,
+				tcgplayer: 90774
+			}
 		},
 		{
 			type: "reverse",

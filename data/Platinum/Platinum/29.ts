@@ -72,17 +72,12 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "It is seen swimming dynamically and elegantly using its well-developed limbs and flippers.",
-		de: "Die gut ausgeprägten Flossen ermöglichen einen sowohl eleganten als auch dynamischen Schwimmstil."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 85816,
-				cardmarket: 278450
+				cardmarket: 278450,
+				tcgplayer: 85816
 			}
 		},
 		{

@@ -83,14 +83,13 @@ const card: Card = {
 		de: "Es bindet sich mit Seidenfäden an Ästen fest und wartet so starr auf seine Entwicklung."
 	},
 
-	thirdParty: {
-		cardmarket: 277562,
-		tcgplayer: 89212
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277562,
+				tcgplayer: 89212
+			}
 		},
 		{
 			type: "reverse"

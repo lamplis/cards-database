@@ -20,14 +20,13 @@ const card: Card = {
 		fr: "Énergie de distorsion fournit de l'Énergie Incolore. Lorsque vous attachez cette carte de votre main à votre Pokémon Actif, échangez ce Pokémon avec 1 des Pokémon de votre Banc.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 90473,
-				cardmarket: 276746
-			},
+				cardmarket: 276746,
+				tcgplayer: 90473
+			}
 		},
 		{
 			type: "reverse",

@@ -68,14 +68,13 @@ const card: Card = {
 		de: "Erschrickt sich dieses scheue PKMN, lodern die Flammen auf seinem Rücken kräftiger."
 	},
 
-	thirdParty: {
-		cardmarket: 277708,
-		tcgplayer: 84551
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277708,
+				tcgplayer: 84551
+			}
 		},
 		{
 			type: "reverse",

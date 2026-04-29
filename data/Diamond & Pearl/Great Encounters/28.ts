@@ -77,19 +77,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "Being bitten by Shellder gave it intelligence comparable to that of award-winning scientists.",
-		de: "Wird es von MUSCHAS gebissen, wird es so intelligent, dass es sich mit Nobelpreisträgern messen kann."
-	},
-
-	thirdParty: {
-		cardmarket: 277930,
-		tcgplayer: 89316
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277930,
+				tcgplayer: 89316
+			}
 		},
 		{
 			type: "reverse"

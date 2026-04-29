@@ -69,17 +69,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
-		de: "Es erzeugt Elektrizität durch das Strecken und Zusammenziehen seiner Muskeln. Bei Bedrohung glüht es."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 89177,
-				cardmarket: 278872
+				cardmarket: 278872,
+				tcgplayer: 89177
 			}
 		},
 		{

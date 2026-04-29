@@ -87,14 +87,13 @@ const card: Card = {
 		de: "Nachtaktives PKMN, das vom Licht der Stadt angezogen wird und dort die Blätter der Bäume frisst."
 	},
 
-	thirdParty: {
-		cardmarket: 277524,
-		tcgplayer: 85057
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277524,
+				tcgplayer: 85057
+			}
 		},
 		{
 			type: "reverse"

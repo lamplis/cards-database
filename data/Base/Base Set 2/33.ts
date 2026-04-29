@@ -74,7 +74,6 @@ const card: Card = {
 		en: "A Pokémon that has been long admired for its beauty. It runs gracefully, as if on wings.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -73,14 +73,13 @@ const card: Card = {
 		de: "Seine Silhouette sieht aus wie ein Stern. Man sagt, es würde auf Sternschnuppen reisen."
 	},
 
-	thirdParty: {
-		cardmarket: 277577,
-		tcgplayer: 84366
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277577,
+				tcgplayer: 84366
+			}
 		},
 		{
 			type: "reverse"

@@ -65,11 +65,6 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "With ninja-like agility and speed, it can create the illusion that there is more than one of it.",
-	},
-
-
 	variants: [
 		{
 			type: "holo",

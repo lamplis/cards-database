@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Der Duft von Gewürzen strömt aus seiner Halsgegend. Irgendwie macht der Geruch kampflustig."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

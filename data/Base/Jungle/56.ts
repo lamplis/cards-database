@@ -72,7 +72,6 @@ const card: Card = {
 		de: "Bewundert kreisförmige Objekte. Streift nächtlich auf der Suche nach verlorenen Münzen ziellos durch die Straßen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

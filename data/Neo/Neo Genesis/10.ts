@@ -85,7 +85,6 @@ const card: Card = {
 		de: "Meganies Atem hat die Heilkraft, abgestorbenes Gras und Pflanzen wieder ins Leben zurückzurufen. Es kann sie wieder gesund machen."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

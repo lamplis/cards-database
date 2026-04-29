@@ -76,7 +76,6 @@ const card: Card = {
 		de: "Während es seine Gegner mit seinem leeren Blick hypnotisiert, setzt dieses listige Pokémon psychokinetische Kräfte ein."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

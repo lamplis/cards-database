@@ -87,7 +87,6 @@ const card: Card = {
 		de: "Die gebogenen Geweihsprossen verändern den Luftstrom so unauffällig, dass sie einen seltsamen Bereich erzeugen, in dem die Realität verzerrt ist."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -85,7 +85,6 @@ const card: Card = {
 		de: "Das aus seinen Blättern aufsteigende Aroma enthält eine Substanz, die aggressive Gefühle besänftigt."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

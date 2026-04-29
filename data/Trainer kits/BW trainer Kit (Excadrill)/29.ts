@@ -23,18 +23,29 @@ const card: Card = {
 	],
 	stage: "Basic",
 
-	attacks: [{
-		cost: [
-			"Fighting",
-			"Fighting"
-		],
-		name: {
-			en: "Pound",
-			fr: "Écras'Face",
-			de: "Pfund"
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+			],
+			name: {
+				en: "Pound",
+				fr: "Écras'Face",
+			},
+			damage: 30,
 		},
-		damage: 30
-	}],
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Morsure",
+			},
+			damage: "20",
+		},
+	],
 
 	weaknesses: [
 		{

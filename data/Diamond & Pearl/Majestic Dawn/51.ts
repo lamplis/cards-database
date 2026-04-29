@@ -68,19 +68,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It uses its tail to pluck fruits that are out of reach. Its tail is more adept than its real hands.",
-		de: "Mit seinem Schweif pflückt es hochhängende Früchte. Mit ihm ist es geschickter als mit den Händen."
-	},
-
-	thirdParty: {
-		cardmarket: 278099,
-		tcgplayer: 83491
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278099,
+				tcgplayer: 83491
+			}
 		},
 		{
 			type: "reverse"

@@ -90,14 +90,13 @@ const card: Card = {
 		de: "Es versteckt sich im Schatten. Man sagt, wenn sich ein GENGAR versteckt, kühlt es sich um 5 Grad ab."
 	},
 
-	thirdParty: {
-		cardmarket: 277526,
-		tcgplayer: 85675
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277526,
+				tcgplayer: 85675
+			}
 		},
 		{
 			type: "reverse"

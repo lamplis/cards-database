@@ -80,19 +80,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Despite being clad entirely in iron-hard armor, it flies at speeds over 180 mph.",
-		de: "Es wird komplett von einer eisenharten Rüstung geschützt. Wenn es fliegt, erreicht es bis zu 300 km/h."
-	},
-
-	thirdParty: {
-		cardmarket: 277955,
-		tcgplayer: 89240
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277955,
+				tcgplayer: 89240
+			}
 		},
 		{
 			type: "reverse"

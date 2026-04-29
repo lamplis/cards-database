@@ -76,19 +76,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "The spiral pattern on its belly subtly undulates. Staring at it gradually causes drowsiness.",
-		de: "Das Spiralmuster auf seinem Bauch dreht sich langsam. Starrt man darauf, wird einem schwindelig."
-	},
-
-	thirdParty: {
-		cardmarket: 278264,
-		tcgplayer: 88267
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278264,
+				tcgplayer: 88267
+			}
 		},
 		{
 			type: "reverse"

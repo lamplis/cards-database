@@ -73,14 +73,13 @@ const card: Card = {
 		de: "Es sieht aus, als würde es immer weinen. Dabei reguliert es nur seinen Wasserhaushalt."
 	},
 
-	thirdParty: {
-		cardmarket: 277570,
-		tcgplayer: 83936
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277570,
+				tcgplayer: 83936
+			}
 		},
 		{
 			type: "reverse"

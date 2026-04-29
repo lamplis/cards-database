@@ -95,7 +95,6 @@ const card: Card = {
 		de: "Seine Kraft ist so groß, dass selbst Berge für ihn kein Hindernis darstellen."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

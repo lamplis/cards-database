@@ -73,11 +73,6 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "It makes a conical pit in desert sand and lies in wait at the bottom for prey to come tumbling down.",
-		de: "Es baut im Wüstensand eine Fallgrube, setzt sich in ihr auf den Boden und wartet auf Beute."
-	},
-
 	variants: [
 		{
 			type: "normal",

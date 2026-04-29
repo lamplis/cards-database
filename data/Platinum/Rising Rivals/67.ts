@@ -69,11 +69,6 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "It can freely change its body's color. The zigzag pattern on its belly doesn't change, however.",
-		de: "Es kann nach Belieben seine Farbe ändern. Nur das gezackte Muster auf seinem Bauch bleibt gleich."
-	},
-
 	variants: [
 		{
 			type: "normal",

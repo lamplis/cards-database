@@ -82,14 +82,13 @@ const card: Card = {
 		de: "Um Angreifer abzuschrecken, verstärkt es das Feuer auf seinem Schweif, wodurch es größer wirkt."
 	},
 
-	thirdParty: {
-		cardmarket: 277555,
-		tcgplayer: 87570
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277555,
+				tcgplayer: 87570
+			}
 		},
 		{
 			type: "reverse"

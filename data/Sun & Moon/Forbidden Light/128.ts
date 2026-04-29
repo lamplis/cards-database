@@ -17,7 +17,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Vous ne pouvez jouer cette carte que s’il y a une carte Stade en jeu.\n\nDéfaussez la carte Stade. Pendant ce tour, votre Zygarde-GX peut utiliser son attaque GX même si vous avez déjà utilisé votre attaque GX.",
+		fr: "Vous ne pouvez jouer cette carte que s'il y a une carte Stade en jeu.\n\nDéfaussez la carte Stade. Pendant ce tour, votre Zygarde-GX peut utiliser son attaque GX même si vous avez déjà utilisé votre attaque GX.",
 		en: "You can play this card only if there is any Stadium card in play.\n\nDiscard that Stadium card. During this turn, your Zygarde-GX can use its GX attack even if you have used your GX attack.",
 		es: "Puedes jugar esta carta solo si hay alguna carta de Estadio en juego.\n\nDescarta esa carta de Estadio. Durante este turno, tu Zygarde-GX puede usar su ataque GX incluso si has usado tu ataque GX.",
 		it: "Puoi giocare questa carta solo se c’è in gioco una carta Stadio.\n\nScarta quella carta Stadio. Durante questo turno, il tuo Zygarde-GX può usare il suo attacco GX anche se hai già usato un attacco GX.",

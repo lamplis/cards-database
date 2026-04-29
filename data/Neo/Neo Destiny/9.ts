@@ -88,7 +88,6 @@ const card: Card = {
 		de: "Niemand kann dem Druck des Schraubstockgriffs der Stahlklauen dieses Pokémon widerstehen."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

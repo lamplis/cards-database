@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Eine Untersuchung seiner Zellen ergab die Präsenz eines in Seeper nicht vorhandenen Gens. Dies gab reichlich Anlass zu Spekulationen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

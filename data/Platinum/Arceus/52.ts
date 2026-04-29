@@ -62,17 +62,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Dreaming of one day flying, it practices by leaping off cliffs every day.",
-		de: "Es träumt davon, eines Tages fliegen zu können und springt daher jeden Tag von hohen Klippen."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 83699,
-				cardmarket: 278870
+				cardmarket: 278870,
+				tcgplayer: 83699
 			}
 		},
 		{

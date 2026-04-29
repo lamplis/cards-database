@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Evoli GX"
 	},
 
-	illustrator: "aky CG Works",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Colorless"],

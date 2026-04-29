@@ -71,7 +71,6 @@ const card: Card = {
 		de: "Es stöbert normalerweise auf dem Boden nach Nahrung, aber manchmal hüpft es auch auf Zweige und pickt nach jungen Trieben."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

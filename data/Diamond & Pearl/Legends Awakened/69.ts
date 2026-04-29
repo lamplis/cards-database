@@ -94,14 +94,13 @@ const card: Card = {
 		de: "Sein dichtes Fell verdeckt seine Augen. Es untersucht seine Umgebung mit seiner Nase."
 	},
 
-	thirdParty: {
-		cardmarket: 278218,
-		tcgplayer: 88118
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278218,
+				tcgplayer: 88118
+			}
 		},
 		{
 			type: "reverse"

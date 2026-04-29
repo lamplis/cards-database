@@ -60,7 +60,6 @@ const card: Card = {
 		de: "Um sich zu schützen, sondert es einen schrecklichen Gestank aus den Fühlern auf seinem Kopf ab und vertreibt so seine Gegner."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -81,4 +80,3 @@ const card: Card = {
 }
 
 export default card
-

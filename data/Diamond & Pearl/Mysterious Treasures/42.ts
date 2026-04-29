@@ -73,14 +73,13 @@ const card: Card = {
 		de: "Es ruft, indem es eine Kugel in seiner Kehle bewegt. Es bewegt sich mit eiligen Hopsern fort."
 	},
 
-	thirdParty: {
-		cardmarket: 277671,
-		tcgplayer: 84313
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277671,
+				tcgplayer: 84313
+			}
 		},
 		{
 			type: "reverse",

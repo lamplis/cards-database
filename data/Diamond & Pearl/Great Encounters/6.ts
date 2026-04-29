@@ -77,19 +77,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "Additional software was installed to make it a better Pokémon. It began acting oddly, however.",
-		de: "Zusätzliche Software wurde installiert, um das PKMN zu verbessern. Seitdem benimmt es sich seltsam."
-	},
-
-	thirdParty: {
-		cardmarket: 277908,
-		tcgplayer: 88315
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 277908,
+				tcgplayer: 88315
+			}
 		},
 		{
 			type: "reverse"

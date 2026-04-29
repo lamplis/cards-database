@@ -61,14 +61,13 @@ const card: Card = {
 		de: "Dieses Pokémon lebt auf Eisbergen. Es schwimmt im Eiswasser und bricht das Eis mithilfe seines Horns."
 	},
 
-	thirdParty: {
-		cardmarket: 277726,
-		tcgplayer: 89053
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277726,
+				tcgplayer: 89053
+			}
 		},
 		{
 			type: "reverse",

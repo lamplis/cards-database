@@ -77,7 +77,6 @@ const card: Card = {
 		de: "Beim Fliegen sendet es ständig Ultraschallwellen aus seinem Maul aus, um seine Umgebung zu erkunden."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -98,4 +97,3 @@ const card: Card = {
 }
 
 export default card
-

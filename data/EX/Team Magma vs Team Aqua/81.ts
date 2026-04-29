@@ -20,12 +20,11 @@ const card: Card = {
 		de: "Lege Team Magma Gürtel an 1 deiner Pokémon mit „Team Magma“ im Namen an, das keine Pokémon-Ausrüstung hat. Wenn das Pokémon kampfunfähig gemacht wird, lege Team Magma Gürtel auf den Ablagestapel. Wenn Team Magma Gürtel an deinem Aktiven Pokémon angelegt ist, kannst du zu einem beliebigen Zeitpunkt zwischen zwei Zügen dein Deck nach einem Pokémon durchsuchen, das sich aus diesem Aktiven Pokémon entwickelt und es darauf legen (das zählt als Entwickeln des Pokémon). Mische dein Deck danach und lege Team Magma Gürtel auf deinen Ablagestapel."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 275858,
+				cardmarket: 276058,
 				tcgplayer: 89813
 			}
 		},

@@ -83,18 +83,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It gets energy from warm sunlight and is known for its habit of moving in pursuit of it.",
-	},
-
-	thirdParty: {
-		cardmarket: 277791,
-		tcgplayer: 89615
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277791,
+				tcgplayer: 89615
+			}
 		},
 		{
 			type: "reverse",

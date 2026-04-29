@@ -68,7 +68,6 @@ const card: Card = {
 		de: "Die Spitze des Schweifs scheint hell und ist von weither sichtbar. Sie dient als Leuchtturmlicht für verlorene Wanderer."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

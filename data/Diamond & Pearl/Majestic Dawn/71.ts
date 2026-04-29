@@ -68,19 +68,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It lives along shores in northern countries. A skilled swimmer, it dives for over 10 minutes to hunt.",
-		de: "Es lebt an den Küsten der nördlichen Länder. Es kann über 10 Minuten unter Wasser bleiben."
-	},
-
-	thirdParty: {
-		cardmarket: 278120,
-		tcgplayer: 88145
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278120,
+				tcgplayer: 88145
+			}
 		},
 		{
 			type: "reverse"

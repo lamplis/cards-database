@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Not popular with girls because of its attitude. Can often be heard muttering to itself in a low voice."
+		en: "Not popular with girls because of its attitude. Can often be heard muttering to itself in a low voice.",
 	},
 
 	variants: [

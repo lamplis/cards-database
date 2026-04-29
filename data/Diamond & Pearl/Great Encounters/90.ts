@@ -79,19 +79,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "The soles of its feet are covered by countless tiny spikes, enabling it to walk on walls and ceilings.",
-		de: "Seine Fußsohlen sind mit kleinen Stacheln bedeckt, so dass es an Wänden und Decken Halt findet."
-	},
-
-	thirdParty: {
-		cardmarket: 277992,
-		tcgplayer: 90039
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277992,
+				tcgplayer: 90039
+			}
 		},
 		{
 			type: "reverse"

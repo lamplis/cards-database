@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "After birth, its back swells and hardens into a shell. It powerfully sprays foam from its mouth."
+		en: "After birth, its back swells and hardens into a shell. It powerfully sprays foam from its mouth.",
 	},
 
 	variants: [

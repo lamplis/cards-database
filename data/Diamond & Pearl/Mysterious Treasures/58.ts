@@ -85,14 +85,13 @@ const card: Card = {
 		de: "PARASEK wird von einem Pilz, der größer als das Pokémon ist, kontrolliert. Er gibt Giftsporen ab."
 	},
 
-	thirdParty: {
-		cardmarket: 277687,
-		tcgplayer: 87958
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277687,
+				tcgplayer: 87958
+			}
 		},
 		{
 			type: "reverse",

@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Falls ihm ein Giftzahn ausfällt, wächst ihm dort ein neuer nach. Es verfügt immer über 48 Giftzähne im Maul."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

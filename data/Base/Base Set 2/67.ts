@@ -53,7 +53,6 @@ const card: Card = {
 		en: "A strange seed was planted on its back at birth. Thus, a plant sprouted and now grows with this Pokémon.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

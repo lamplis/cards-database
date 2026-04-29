@@ -83,7 +83,6 @@ const card: Card = {
 		de: "Manche Leute sagen, dass Kadabras für viele der geheimnisvollen Ereignisse verantwortlich sind, von denen in den Nachrichten berichtet wird."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

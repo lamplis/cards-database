@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Morpeko"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	dexId: [877],
 
 	cameoDexIds: [827, 829],

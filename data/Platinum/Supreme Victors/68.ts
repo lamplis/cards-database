@@ -76,16 +76,11 @@ const card: Card = {
 			value: "-20"
 		},
 	],
-	description: {
-		en: "Its antennae have eye patterns on them. Its four wings enable it to hover and fly in any direction."
-	},
 
-	retreat: 0,
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 87249,
 				cardmarket: 278759
 			}
 		},

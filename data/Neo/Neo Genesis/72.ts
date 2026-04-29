@@ -77,7 +77,6 @@ const card: Card = {
 		de: "Die Beeren, die es in seinem vasenähnlichen Panzer speichert, zersetzen sich und werden zu einer klebrigen Flüssigkeit."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

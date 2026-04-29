@@ -26,8 +26,9 @@ const card: Card = {
 			type: "normal",
 			subtype: "unlimited",
 			thirdParty: {
-				cardmarket: 273771
-			}
+				cardmarket: 273771,
+				tcgplayer: 42422
+			},
 		},
 		{
 			type: "normal",
@@ -42,12 +43,12 @@ const card: Card = {
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				cardmarket: 660142
-			}
+				tcgplayer: 107074
+			},
 		},
 		{
 			type: "normal",
-			subtype: "1999-2000-copyright"
+			subtype: "1999-2000-copyright",
 		}
 	],
 }

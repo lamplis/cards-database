@@ -85,7 +85,6 @@ const card: Card = {
 		de: "Ein Pokémon aus der Urzeit, das ausgestorben ist, da sein zu schwerer Panzer es unmöglich machte, Beute zu jagen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -68,7 +68,6 @@ const card: Card = {
 		de: "Es saust mit seinen scharfen Sensen durch das Gras und bewegt sich dabei so schnell, dass das menschliche Auge nicht folgen kann."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -89,4 +88,3 @@ const card: Card = {
 }
 
 export default card
-

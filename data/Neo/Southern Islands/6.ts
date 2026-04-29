@@ -59,10 +59,6 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "This Pokémon sometimes hunts for food in rivers, swimming using the small webs between the toes on its rear legs.",
-	},
-
 	variants: [
 		{
 			type: "normal",

@@ -77,7 +77,6 @@ const card: Card = {
 		de: "Vor kurzem wurde festgestellt, dass Sleimas in Kläranlagen entstehen und über die Abwasserkanäle in die Stadt gelangen können."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

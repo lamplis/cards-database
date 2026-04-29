@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Es entzieht der Luft um sich herum alle Wärme. Wenn dir plötzlich kalt wird, könnte es sein, dass gerade ein Gengar vorbeigekommen ist."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

@@ -58,7 +58,6 @@ const card: Card = {
 		de: "Seine Rücken-, Brust- und Schwanzflossen wedeln elegant zu Wasser. Daher nennt man sie auch Wassertänzer."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -79,4 +78,3 @@ const card: Card = {
 }
 
 export default card
-

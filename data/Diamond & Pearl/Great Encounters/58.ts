@@ -70,19 +70,13 @@ const card: Card = {
 
 	retreat: 3,
 
-	description: {
-		en: "On sunny days, it lands on beaches to bounce like a ball and play. It spouts water from its nose.",
-		de: "An sonnigen Tagen trifft man diese Pokémon an Stränden, wo sie wie Bälle herumhüpfen."
-	},
-
-	thirdParty: {
-		cardmarket: 277960,
-		tcgplayer: 90453
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277960,
+				tcgplayer: 90453
+			}
 		},
 		{
 			type: "reverse"

@@ -71,15 +71,10 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "It cheers on friends. If its friends are losing, its body lets off more and more sparks."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 87490,
 				cardmarket: 278762
 			}
 		},

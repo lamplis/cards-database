@@ -79,19 +79,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "One of the legendary bird Pokémon. It is said that its appearance indicates the coming of spring.",
-		de: "Eines der Legendären Vogel-Pokémon. Es wird als Bote des Frühlings angesehen."
-	},
-
-	thirdParty: {
-		cardmarket: 278059,
-		tcgplayer: 87561
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278059,
+				tcgplayer: 87561
+			}
 		},
 		{
 			type: "reverse"

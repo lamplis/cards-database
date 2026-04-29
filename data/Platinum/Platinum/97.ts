@@ -73,17 +73,12 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "It can't relax if it or its surroundings are not clean. It wipes off dirt with its wings.",
-		de: "Es kann nicht entspannen, wenn es oder seine Umgebung dreckig ist. Säubert alles mit den Flügeln."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 89658,
-				cardmarket: 278421
+				cardmarket: 278421,
+				tcgplayer: 89658
 			}
 		},
 		{

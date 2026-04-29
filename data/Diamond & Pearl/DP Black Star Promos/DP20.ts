@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hiroaki Ito",
-	rarity: "Common",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -87,13 +87,13 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275562,
+				tcgplayer: 87057
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 275562,
-		tcgplayer: 87057
-	}
 }
 
 export default card

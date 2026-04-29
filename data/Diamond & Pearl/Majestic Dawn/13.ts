@@ -76,19 +76,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.",
-		de: "Sein Körper besteht aus Plasma. Mit ihm kann es in elektrische Geräte eindringen und für Chaos sorgen."
-	},
-
-	thirdParty: {
-		cardmarket: 278062,
-		tcgplayer: 88836
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278062,
+				tcgplayer: 88836
+			}
 		},
 		{
 			type: "reverse"

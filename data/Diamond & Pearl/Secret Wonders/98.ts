@@ -79,18 +79,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
-	},
-
-	thirdParty: {
-		cardmarket: 277851,
-		tcgplayer: 88002
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277851,
+				tcgplayer: 88002
+			}
 		},
 		{
 			type: "reverse",

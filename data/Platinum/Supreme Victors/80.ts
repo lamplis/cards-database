@@ -81,15 +81,10 @@ const card: Card = {
 	],
 	retreat: 3,
 
-	description: {
-		en: "Standing on its hind legs freed its forelegs and made it smarter. It is very forgetful, however."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 88735,
 				cardmarket: 278771
 			}
 		},

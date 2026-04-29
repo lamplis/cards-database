@@ -45,7 +45,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The protruding horn on its head is very hard. This horn is used for bashing through thick ice."
+		en: "The protruding horn on its head is very hard. This horn is used for bashing through thick ice.",
 	},
 
 	variants: [

@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Sein Schwanz ist unglaublich stark und kann bis zu fünf erwachsene Männer heben."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -76,17 +76,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "When evolving, its body takes in surrounding materials. As a result, there are many body variations.",
-		de: "Es nimmt während der Entwicklung Dinge aus der Umgebung auf, daher gibt es viele Variationen von ihm."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 90646,
-				cardmarket: 278923
+				cardmarket: 278923,
+				tcgplayer: 90646
 			}
 		},
 		{

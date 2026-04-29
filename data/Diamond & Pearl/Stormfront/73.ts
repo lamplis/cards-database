@@ -82,14 +82,13 @@ const card: Card = {
 		de: "Es greift seine Beute mit den Krallen an seinem Schweif und vergiftet sie. Dann wartet es ab..."
 	},
 
-	thirdParty: {
-		cardmarket: 278371,
-		tcgplayer: 89274
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278371,
+				tcgplayer: 89274
+			}
 		},
 		{
 			type: "reverse"

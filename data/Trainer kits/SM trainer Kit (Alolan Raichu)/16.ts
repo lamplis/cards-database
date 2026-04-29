@@ -37,6 +37,30 @@ const card: Card = {
 	stage: "Basic",
 	retreat: 2,
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Morsure",
+			},
+			damage: "20",
+		},
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				fr: "Tranch'Griffe",
+			},
+			damage: "80",
+		},
+	],
+
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"

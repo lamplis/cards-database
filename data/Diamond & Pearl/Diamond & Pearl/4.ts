@@ -85,14 +85,13 @@ const card: Card = {
 		de: "Die 3 Hörner, die aus dem Schnabel wachsen, stehen für Kraft. Ein Anführer hat die größten Hörner."
 	},
 
-	thirdParty: {
-		cardmarket: 277503,
-		tcgplayer: 85197
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277503,
+				tcgplayer: 85197
+			}
 		},
 		{
 			type: "reverse"

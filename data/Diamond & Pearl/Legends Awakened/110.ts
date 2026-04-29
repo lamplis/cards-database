@@ -75,14 +75,13 @@ const card: Card = {
 		de: "In seinem Rücken speichert es sehr heißes Magma. Regnet es, kühlt das Magma ab und es wird langsamer."
 	},
 
-	thirdParty: {
-		cardmarket: 278259,
-		tcgplayer: 87814
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278259,
+				tcgplayer: 87814
+			}
 		},
 		{
 			type: "reverse"

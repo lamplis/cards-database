@@ -81,14 +81,13 @@ const card: Card = {
 		de: "Seine Stacheln schützen es. Seine Flossen und Knochen werden bei der Herstellung von Medizin verwendet."
 	},
 
-	thirdParty: {
-		cardmarket: 278219,
-		tcgplayer: 89015
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278219,
+				tcgplayer: 89015
+			}
 		},
 		{
 			type: "reverse"

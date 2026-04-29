@@ -71,19 +71,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It makes its nest on steep sea cliffs. Riding updrafts, it soars to great heights.",
-		de: "Es baut sein Nest auf steilen Klippen. Es nutzt die Aufwinde, um in größerer Höhe fliegen zu können."
-	},
-
-	thirdParty: {
-		cardmarket: 277997,
-		tcgplayer: 90609
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277997,
+				tcgplayer: 90609
+			}
 		},
 		{
 			type: "reverse"

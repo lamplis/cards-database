@@ -70,17 +70,12 @@ const card: Card = {
 
 	retreat: 3,
 
-	description: {
-		en: "It swallows anything whole. It sweats toxic fluids from its follicles to douse foes.",
-		de: "Es verschluckt alles in einem Stück und sondert giftige Stoffe ab, mit denen es Gegner besprüht."
-	},
-
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
-				tcgplayer: 89674,
-				cardmarket: 278881
+				cardmarket: 278881,
+				tcgplayer: 89674
 			}
 		},
 		{

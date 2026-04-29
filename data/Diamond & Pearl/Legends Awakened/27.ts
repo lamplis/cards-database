@@ -56,14 +56,13 @@ const card: Card = {
 		de: "Es kann seine Zellstruktur so verändern, dass es sich in alles verwandeln kann, was es sieht."
 	},
 
-	thirdParty: {
-		cardmarket: 278176,
-		tcgplayer: 84843
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278176,
+				tcgplayer: 84843
+			}
 		},
 		{
 			type: "reverse"

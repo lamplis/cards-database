@@ -57,7 +57,6 @@ const card: Card = {
 		de: "Es fürchtet sich vor nichts, mögen die Gegner noch so groß sein."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

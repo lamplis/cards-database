@@ -79,19 +79,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "The shock waves from its cries can tip over trucks. It stamps its feet to power up.",
-		de: "Die Schockwellen, die durch sein Rufen entstehen, können einen LKW umkippen."
-	},
-
-	thirdParty: {
-		cardmarket: 277946,
-		tcgplayer: 86843
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277946,
+				tcgplayer: 86843
+			}
 		},
 		{
 			type: "reverse"

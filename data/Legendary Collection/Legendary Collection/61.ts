@@ -70,7 +70,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It uses its whiskers to maintain its balance. It seems to slow down if they are cut off."
+		en: "It uses its whiskers to maintain its balance. It seems to slow down if they are cut off.",
 	},
 
 	variants: [

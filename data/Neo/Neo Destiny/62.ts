@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Es zieht sich zum Schlafen in Felshöhlen zurück und raubt manchmal auch die Nester anderer Octillerys aus."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

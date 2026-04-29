@@ -81,14 +81,13 @@ const card: Card = {
 		de: "Denkt es an seine verstorbene Mutter, weint es, wobei der Schädel auf seinem Kopf hohl klingt."
 	},
 
-	thirdParty: {
-		cardmarket: 278239,
-		tcgplayer: 84534
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278239,
+				tcgplayer: 84534
+			}
 		},
 		{
 			type: "reverse"

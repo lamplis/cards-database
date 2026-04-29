@@ -77,14 +77,13 @@ const card: Card = {
 		de: "Es isst am liebsten Blätter. Wird es von einem STARALILI angegriffen, verteidigt es sich mit Stacheln."
 	},
 
-	thirdParty: {
-		cardmarket: 277603,
-		tcgplayer: 90651
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277603,
+				tcgplayer: 90651
+			}
 		},
 		{
 			type: "reverse"

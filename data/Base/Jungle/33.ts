@@ -99,7 +99,6 @@ const card: Card = {
 		de: "In der Schlacht schlägt es seine Flügel mit hoher Geschwindigkeit, um so hochgiftigen Staub in die Luft zu wirbeln."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Wo auch immer es hingeht, spinnt es einen Faden, der zurück zu seinem Nest führt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

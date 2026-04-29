@@ -61,7 +61,6 @@ const card: Card = {
 		de: "Wenn es älter wird, wechselt sein weißer Schwanz seine Farbe und teilt sich in sechs verschiedene Schwänze auf. Sein Körper strahlt eine leichte Wärme aus."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -9,7 +9,7 @@ const card: Card = {
 		en: "Growlithe",
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Fire"],

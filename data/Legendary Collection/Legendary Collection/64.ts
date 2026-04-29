@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful."
+		en: "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.",
 	},
 
 	variants: [

@@ -87,7 +87,6 @@ const card: Card = {
 		de: "Die Aura, die sein Körper ausstrahlt, beeinflusst das Klima und Wetter seiner Umgebung."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

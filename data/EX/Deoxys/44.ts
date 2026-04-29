@@ -71,33 +71,23 @@ const card: Card = {
 
 	retreat: 1,
 
-
 	variants: [
 		{
-			type: "reverse",
-			stamp: ["set-logo"],
+			type: "normal",
 			thirdParty: {
-				tcgplayer: 88164,
-				cardmarket: 276447
-			},
+				cardmarket: 276447,
+				tcgplayer: 88164
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"]
 		},
 		{
 			type: "normal",
-			thirdParty: {
-				tcgplayer: 88164,
-				cardmarket: 276447
-			},
-		},
-		{
-			type: "normal",
-			stamp: ["hiroki-yano"],
-			thirdParty: {
-				tcgplayer: 477892,
-				cardmarket: 869526
-			},
-		},
-	],
-
+			stamp: ["hiroki-yano"]
+		}
+	]
 }
 
 export default card

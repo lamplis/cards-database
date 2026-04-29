@@ -96,7 +96,6 @@ const card: Card = {
 		de: "Verwendet seine drei Gehirne zum Aushecken von komplizierten Plänen. Während zwei Köpfe schlafen, bleibt einer immer wach."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

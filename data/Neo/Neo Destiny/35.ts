@@ -83,7 +83,6 @@ const card: Card = {
 		de: "Es sitzt bewegungslos in Bäumen und treibt all die, die ihm zu nahe kommen, mit fliegenden Scherben seines Panzers weg."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

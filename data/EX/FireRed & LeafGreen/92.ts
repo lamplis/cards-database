@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Durchsuche dein Deck nach einem Basis-Pokémon (kein Pokémon-ex) und lege es auf deine Bank. Mische dein Deck danach."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 276268,
 				tcgplayer: 85895
-			},
+			}
 		},
 		{
 			type: "reverse",
