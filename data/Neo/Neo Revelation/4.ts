@@ -92,7 +92,6 @@ const card: Card = {
 		de: "Es gleitet so geräuschlos auf seinen vier Flügeln durch die Dunkelheit, dass es oft selbst aus der Nähe nicht bemerkt wird."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

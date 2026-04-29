@@ -68,6 +68,10 @@ export interface variant_detailed {
 		tcgplayer?: number
 	}
 	variantId: string
+	/**
+	 * Image URL for this specific variant (currently mirrors the card's
+	 * top-level image; future per-variant illustrations may override this).
+	 */
 	image?: string
 }
 
@@ -218,6 +222,17 @@ export interface Card extends CardResume {
 	 * - Secret Rare
 	 */
 	rarity: string;
+	/**
+	 * Structured view of the card's in-set position. Parsed from localId
+	 * (numeric portion) and the parent set's official card count, plus any
+	 * declared subset denominator.
+	 */
+	set_number?: {
+		text: string
+		nominator: string
+		numeric: number
+		denominator?: string
+	}
 	/**
 	 * Card Category
 	 *

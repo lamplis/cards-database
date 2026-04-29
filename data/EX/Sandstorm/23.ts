@@ -87,7 +87,6 @@ const card: Card = {
 	
 	retreat: 4,
 
-
 	variants: [
 		{
 			type: "normal",

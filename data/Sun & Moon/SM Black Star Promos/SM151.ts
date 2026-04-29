@@ -10,8 +10,8 @@ const card: Card = {
 		pt: "Giratina",
 		de: "Giratina"
 	},
-	illustrator: "Shin Nagasawa",
-	rarity: "Promo",
+	illustrator: "Hasuno",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

@@ -80,17 +80,12 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "Despite its looks, it is aggressive. It jabs with its long, thin mouth if disturbed while collecting pollen.",
-		de: "Stört man es, während es Pollen sucht, stößt es mit seinem langen, dünnen Mund zu."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 83759,
-				cardmarket: 278442
+				cardmarket: 278442,
+				tcgplayer: 83759
 			}
 		},
 		{

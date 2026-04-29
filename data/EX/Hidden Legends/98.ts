@@ -75,10 +75,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
-			foil: 'cracked-ice',
 			thirdParty: {
-				tcgplayer: 88674,
-				cardmarket: 276172
+				cardmarket: 276172,
+				tcgplayer: 88674
 			}
 		},
 		{

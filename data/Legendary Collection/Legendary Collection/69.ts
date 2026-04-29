@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls."
+		en: "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
 	},
 
 	variants: [

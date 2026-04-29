@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Ziehe 3 Karten. Lege danach 1 Karte von deiner Hand auf deinen Ablagestapel.",
 	},
 
-	thirdParty: {
-		cardmarket: 277287,
-		tcgplayer: 90085
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277287,
+				tcgplayer: 90085
+			}
 		},
 		{
 			type: "normal",

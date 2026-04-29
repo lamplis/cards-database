@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Folipurba"
 	},
 
-	illustrator: "chibi",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Grass"],

@@ -98,7 +98,6 @@ const card: Card = {
 		de: "Sein Körper ist weich und gummiartig. Wenn es wütend wird, saugt es Luft ein und bläst sich auf eine enorme Größe auf."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

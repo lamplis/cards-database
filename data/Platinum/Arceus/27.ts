@@ -78,19 +78,11 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Its tail discharges electricity into the ground, protecting it from getting shocked.",
-		de: "Es entlädt Elektrizität in den Boden, um sich auf diese Weise vor elektrischen Schlägen zu schüzten."
-	},
-
-	thirdParty: {
-		cardmarket: 278899,
-		tcgplayer: 88516
-	},
-
-	variants: [		{
+	variants: [
+		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 278899,
 				tcgplayer: 88516
 			}
 		},

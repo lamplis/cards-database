@@ -76,6 +76,9 @@
 				"Black White Rare": {
 					"type": "string"
 				},
+				"Black Star Promo": {
+					"type": "string"
+				},
 				"Common": {
 					"type": "string"
 				},
@@ -160,6 +163,7 @@
 				"Amazing Rare",
 				"Classic Collection",
 				"Common",
+				"Black Star Promo",
 				"Double rare",
 				"Full Art Trainer",
 				"Holo Rare",

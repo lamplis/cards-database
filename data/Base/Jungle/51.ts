@@ -90,7 +90,6 @@ const card: Card = {
 		de: "Sein genetischer Code ist unregelmäßig. Es kann mutieren, falls es Strahlung von Elementarsteinen ausgesetzt wird."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

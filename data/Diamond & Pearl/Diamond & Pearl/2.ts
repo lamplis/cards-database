@@ -90,14 +90,13 @@ const card: Card = {
 		de: "Die Antenne auf seinem Kopf empfängt Radiowellen aus einer anderen Dimension."
 	},
 
-	thirdParty: {
-		cardmarket: 277501,
-		tcgplayer: 85036
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277501,
+				tcgplayer: 85036
+			}
 		},
 		{
 			type: "reverse"

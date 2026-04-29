@@ -73,19 +73,17 @@ const card: Card = {
 
 
 	description: {
-		en: "A rare Pokémon discovered during a deep-sea exploration. It has not changed in over 100 million years."
+		en: "A rare Pokémon discovered during a deep-sea exploration. It has not changed in over 100 million years.",
 	},
 
 	variants: [
 		{
 			type: "reverse",
 			thirdParty: {
-				tcgplayer: 88689,
 				cardmarket: 278690
 			}
-		},
-	],
-
+		}
+	]
 }
 
 export default card

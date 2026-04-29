@@ -94,7 +94,6 @@ const card: Card = {
 		de: "Mit seinen starken Giftstacheln kann es jeden Gegner besiegen. Es greift immer im Schwarm an."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

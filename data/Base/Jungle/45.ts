@@ -97,7 +97,6 @@ const card: Card = {
 		de: "Unter dem Schutz eines Harnisch gleichenden Fells ist es in der Lage, in geschmolzener Lava von fast 2000 Grad zu leben."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

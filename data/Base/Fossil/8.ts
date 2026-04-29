@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Wenn es den Gegner ins Auge fasst, setzt es eine Mischung aus Psi-Bewegungen wie Hypnose und Verwirrung ein."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

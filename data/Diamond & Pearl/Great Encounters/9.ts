@@ -79,19 +79,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It can swim while towing a large ship. It bashes down foes with a swing of its thick arms.",
-		de: "Es kann im Schwimmen ein großes Schiff ziehen. Seine Gegner schlägt es mit Schlägen seiner Arme zurück."
-	},
-
-	thirdParty: {
-		cardmarket: 277911,
-		tcgplayer: 89680
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 277911,
+				tcgplayer: 89680
+			}
 		},
 		{
 			type: "reverse"

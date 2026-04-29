@@ -19,13 +19,13 @@ const card: Card = {
 		de: "Schaue dir die sieben obersten Karten deines Decks an. Du kannst von diesen Karten eine Basis-Pokémonkarte oder eine Entwicklungskarte nehmen, sie deinem Gegner zeigen und auf deine Hand nehmen. Mische die anderen Karten in dein Deck."
 	},
 
-	variants: [
+	variants:[
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 87252,
-				cardmarket: 275018
-			},
+				cardmarket: 275018,
+				tcgplayer: 87252
+			}
 		},
 		{
 			type: "reverse",

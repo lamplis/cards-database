@@ -92,7 +92,6 @@ const card: Card = {
 		de: "Wenn zwei von ihnen sich aneinander reiben, wird man sie nicht mehr voneinander trennen können, dazu lieben sie das Berühren des Fells des anderen viel zu sehr."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

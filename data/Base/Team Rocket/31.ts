@@ -88,7 +88,6 @@ const card: Card = {
 		de: "Forscher haben diese Pokémon bei der Fortpflanzung auf Industriemüllkippen beobachtet."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -75,24 +75,13 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 84763,
-				cardmarket: 276419
-			},
+				cardmarket: 276419,
+				tcgplayer: 84763
+			}
 		},
 		{
-			type: "reverse",
-			stamp: ["set-logo"],
-			thirdParty: {
-				tcgplayer: 84763,
-				cardmarket: 276419
-			},
-		},
-		{
-			type: "normal",
-			stamp: ['destiny-deoxys'],
-			thirdParty: {
-				tcgplayer: 167223,
-			},
+			type: "holo",
+			stamp: ["set-logo"]
 		},
 		{
 			type: "holo",

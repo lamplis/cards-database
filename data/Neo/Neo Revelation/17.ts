@@ -76,7 +76,6 @@ const card: Card = {
 		de: "Ein Pokémon, das durch das Land rennt. Es wird gesagt, dass immer dann ein Junges geboren wird, wenn ein neuer Vulkan entsteht."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -97,4 +96,3 @@ const card: Card = {
 }
 
 export default card
-

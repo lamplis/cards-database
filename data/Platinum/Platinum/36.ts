@@ -71,17 +71,12 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "Its nine tails are said to be imbued with a mystic power. It can live for a thousand years.",
-		de: "Seine neun Schweife sollen mystische Kräfte besitzen. Es kann tausend Jahre leben."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 87773,
-				cardmarket: 278457
+				cardmarket: 278457,
+				tcgplayer: 87773
 			}
 		},
 		{

@@ -96,10 +96,9 @@ const card: Card = {
 		de: "Ein furchtsames Feen-Pokémon, das selten zum Vorschein kommt. Sobald es Menschen wittert, läuft es davon und versteckt sich."
 	},
 
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 273798,
 				tcgplayer: 106979

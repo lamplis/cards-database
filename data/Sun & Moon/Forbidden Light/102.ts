@@ -17,7 +17,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Vous ne pouvez jouer cette carte que s’il reste exactement 3 ou 4 cartes Récompense à votre adversaire.\n\nCherchez jusqu’à 2 cartes Énergie de base dans votre deck et attachez-les à l’une de vos Ultra-Chimères. Mélangez ensuite votre deck.",
+		fr: "Vous ne pouvez jouer cette carte que s'il reste exactement 3 ou 4 cartes Récompense à votre adversaire.\n\nCherchez jusqu'à 2 cartes Énergie de base dans votre deck et attachez-les à l'une de vos Ultra-Chimères. Mélangez ensuite votre deck.",
 		en: "You can play this card only if your opponent has exactly 3 or 4 Prize cards remaining.\n\nSearch your deck for up to 2 basic Energy cards and attach them to 1 of your Ultra Beasts. Then, shuffle your deck.",
 		es: "Puedes jugar esta carta solo si a tu rival le quedan exactamente 3 o 4 cartas de Premio.\n\nBusca en tu baraja hasta 2 cartas de Energía Básica y únelas a 1 de tus Ultraentes. Después, baraja las cartas de tu baraja.",
 		it: "Puoi giocare questa carta solo se il tuo avversario ha esattamente tre o quattro carte Premio rimanenti.\n\nCerca nel tuo mazzo fino a due carte Energia base e assegnale a una delle tue Ultracreature. Poi rimischia le carte del tuo mazzo.",

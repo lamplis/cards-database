@@ -56,7 +56,6 @@ const card: Card = {
 		de: "Es verwendet seine Arme, um unaufhaltsam selbst steile Bergpfade zu erklimmen. Wenn es geärgert wird, schwingt es seine Fäuste herum."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -77,4 +76,3 @@ const card: Card = {
 }
 
 export default card
-

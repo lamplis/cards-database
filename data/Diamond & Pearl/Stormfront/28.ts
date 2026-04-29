@@ -92,14 +92,13 @@ const card: Card = {
 		de: "Hoher Druck und hohe Temperaturen haben seinen Körper härter als Stahl werden lassen."
 	},
 
-	thirdParty: {
-		cardmarket: 278326,
-		tcgplayer: 89562
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278326,
+				tcgplayer: 89562
+			}
 		},
 		{
 			type: "reverse"

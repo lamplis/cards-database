@@ -68,17 +68,12 @@ const card: Card = {
 
 	retreat: 3,
 
-	description: {
-		en: "Its body is made of rugged steel. However, it is partially melted in spots because of its own heat.",
-		de: "Sein Körper besteht aus Stahl, hat aber aufgrund der eigenen Temperatur geschmolzene Stellen."
-	},
-
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
-				tcgplayer: 86050,
-				cardmarket: 278875
+				cardmarket: 278875,
+				tcgplayer: 86050
 			}
 		},
 		{

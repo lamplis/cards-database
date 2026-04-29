@@ -20,7 +20,6 @@ const card: Card = {
 		de: "Lege Prunusbeere an 1 deiner Pokémon an, das keine Pokémon-Ausrüstung hat. Wenn das Pokémon kampfunfähig gemacht wird, lege Prunusbeere auf den Ablagestapel. Wenn zu irgendeinem Zeitpunkt zwischen den Zügen das Pokémon, an dem die Prunusbeere angelegt ist, von einem Speziellen Zustand betroffen ist, verlieren alle Speziellen Zustände auf diesem Pokémon ihre Wirkung. Lege Prunusbeere danach auf deinen Ablagestapel."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

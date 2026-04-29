@@ -82,14 +82,13 @@ const card: Card = {
 		de: "In seinem Maul sammelt sich eine Flüssigkeit, die nach Honig riecht, in Wahrheit aber ätzend ist."
 	},
 
-	thirdParty: {
-		cardmarket: 278193,
-		tcgplayer: 90364
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278193,
+				tcgplayer: 90364
+			}
 		},
 		{
 			type: "reverse"

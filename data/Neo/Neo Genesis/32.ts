@@ -82,7 +82,6 @@ const card: Card = {
 		de: "Es öffnet seine riesigen Kiefer bei Angriff weit. Falls es irgendwelche Giftzähne beim Beißen verliert, wachsen sie nach."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

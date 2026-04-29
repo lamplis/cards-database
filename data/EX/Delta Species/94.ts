@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Each player's basic Energy cards attached to Pokémon that has Delta on its card are both their usual Energy type and  type but provide only 1 Energy at a time. (Has no effect other than providing Energy.)",
 	},
 
-	thirdParty: {
-		cardmarket: 276857,
-		tcgplayer: 86149
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276857,
+				tcgplayer: 86149
+			}
 		},
 		{
 			type: "normal",
@@ -37,4 +36,3 @@ const card: Card = {
 }
 
 export default card
-

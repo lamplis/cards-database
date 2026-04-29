@@ -91,14 +91,13 @@ const card: Card = {
 		de: "Es jagt seine Beute im Rudel. Den Befehlen eines erfahrenen Trainers wird es stets folgen."
 	},
 
-	thirdParty: {
-		cardmarket: 278215,
-		tcgplayer: 87447
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278215,
+				tcgplayer: 87447
+			}
 		},
 		{
 			type: "reverse"

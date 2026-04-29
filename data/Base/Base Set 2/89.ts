@@ -51,11 +51,6 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "Bites anything when it attacks. Small and very quick, it is a common sight in many places.",
-	},
-
-
 	variants: [
 		{
 			type: "normal",

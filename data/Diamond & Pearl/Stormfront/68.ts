@@ -84,14 +84,13 @@ const card: Card = {
 		de: "Es liebt es, sich nachts an andere heranzuschleichen und sie mit einem schrillen Schrei zu erschrecken."
 	},
 
-	thirdParty: {
-		cardmarket: 278366,
-		tcgplayer: 87508
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278366,
+				tcgplayer: 87508
+			}
 		},
 		{
 			type: "reverse"

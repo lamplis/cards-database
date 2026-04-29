@@ -82,18 +82,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "This odd Pokémon can see both the past and the future. It eyes the sun's movement all day.",
-	},
-
-	thirdParty: {
-		cardmarket: 277797,
-		tcgplayer: 90665
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277797,
+				tcgplayer: 90665
+			}
 		},
 		{
 			type: "reverse",

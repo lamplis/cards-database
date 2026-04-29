@@ -71,14 +71,13 @@ const card: Card = {
 		de: "Es liebt das Blut von Menschen und Pokémon. Nachts fliegt es umher auf der Suche nach Halsvenen."
 	},
 
-	thirdParty: {
-		cardmarket: 277679,
-		tcgplayer: 85796
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277679,
+				tcgplayer: 85796
+			}
 		},
 		{
 			type: "reverse",

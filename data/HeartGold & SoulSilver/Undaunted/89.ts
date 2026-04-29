@@ -26,8 +26,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				en: "Ozone Buster",
-				fr: "",
+				fr: "Châtiment stellaire",
 				de: "Ozonsprenger"
 			},
 
@@ -72,8 +71,7 @@ const card: Card = {
 		{
 			type: "holo",
 			thirdParty: {
-				cardmarket: 279342,
-				tcgplayer: 88638
+				cardmarket: 279342
 			}
 		},
 		{
@@ -85,6 +83,7 @@ const card: Card = {
 			}
 		},
 	],
+
 }
 
 export default card

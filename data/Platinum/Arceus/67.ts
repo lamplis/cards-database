@@ -66,17 +66,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It is thought to have inhabited beaches 300 million years ago. It is protected by a stiff shell.",
-		de: "Man geht davon aus, dass dieses PKMN vor 300 Millionen Jahren die Strände bevölkerte."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 86387,
-				cardmarket: 278876
+				cardmarket: 278876,
+				tcgplayer: 86387
 			}
 		},
 		{

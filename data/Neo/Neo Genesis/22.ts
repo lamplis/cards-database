@@ -47,7 +47,6 @@ const card: Card = {
 		de: "Es dreht seine Arme, Elektrizität zu erzeugen, aber es ermüdet leicht, so dass es sich nur wenig auflädt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

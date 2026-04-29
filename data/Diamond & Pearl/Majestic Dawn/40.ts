@@ -83,19 +83,13 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
-		de: "Aus seiner Mähne entlädt es Elektrizität. Es generiert eine Gewitterwolke, aus der es Blitze entlädt."
-	},
-
-	thirdParty: {
-		cardmarket: 278089,
-		tcgplayer: 87161
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278089,
+				tcgplayer: 87161
+			}
 		},
 		{
 			type: "reverse"

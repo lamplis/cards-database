@@ -91,14 +91,13 @@ const card: Card = {
 		de: "Mehrere METANG bilden dieses PKMN. Mit seinen 4 Gehirnen besitzt es die Intelligenz eines Supercomputers."
 	},
 
-	thirdParty: {
-		cardmarket: 278159,
-		tcgplayer: 87338
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278159,
+				tcgplayer: 87338
+			}
 		},
 		{
 			type: "reverse"

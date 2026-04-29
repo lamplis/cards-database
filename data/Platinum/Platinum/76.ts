@@ -65,17 +65,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It likes to carry around a small rock. It may wander around others' feet and cause them to stumble.",
-		de: "Hat immer einen kleinen Felsen bei sich. Wandelt zwischen den Füßen anderer, was diese stolpern lässt."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 86008,
-				cardmarket: 278497
+				cardmarket: 278497,
+				tcgplayer: 86008
 			}
 		},
 		{

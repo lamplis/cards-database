@@ -80,14 +80,13 @@ const card: Card = {
 		de: "Vor über 100 Millionen Jahren lebte es in den Dschungeln. Sein Schädel ist hart wie Eisen."
 	},
 
-	thirdParty: {
-		cardmarket: 277672,
-		tcgplayer: 84458
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277672,
+				tcgplayer: 84458
+			}
 		},
 		{
 			type: "reverse",

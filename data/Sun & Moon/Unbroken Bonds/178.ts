@@ -27,7 +27,7 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Vous ne pouvez jouer cette carte que s’il vous reste plus de cartes Récompense qu’à votre adversaire.\n\nPendant ce tour, vous pouvez jouer 3 cartes Supporter (y compris cette carte).",
+		fr: "Vous ne pouvez jouer cette carte que s'il vous reste plus de cartes Récompense qu'à votre adversaire.\n\nPendant ce tour, vous pouvez jouer 3 cartes Supporter (y compris cette carte).",
 		en: "You can play this card only if you have more Prize cards remaining than your opponent.\n\nDuring this turn, you can play 3 Supporter cards (including this card).",
 		es: "Puedes jugar esta carta solo si te quedan más cartas de Premio que a tu rival.\n\nDurante este turno, puedes jugar 3 cartas de Partidario (incluida esta carta).",
 		it: "Puoi giocare questa carta solo se hai più carte Premio rimanenti del tuo avversario.\n\nDurante questo turno puoi giocare tre carte Aiuto, inclusa questa carta.",

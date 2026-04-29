@@ -79,18 +79,13 @@ const card: Card = {
 
 	retreat: 4,
 
-	description: {
-		en: "It wraps things with its extensible tongue. Getting to close to it will leave you soaked with drool.",
-	},
-
-	thirdParty: {
-		cardmarket: 277765,
-		tcgplayer: 86712
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277765,
+				tcgplayer: 86712
+			}
 		},
 		{
 			type: "reverse",

@@ -59,14 +59,13 @@ const card: Card = {
 		de: "Scheinbar reitet es auf dem Wasser. Es lockt seine Beute mit einem süßen Duft an."
 	},
 
-	thirdParty: {
-		cardmarket: 277733,
-		tcgplayer: 89650
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277733,
+				tcgplayer: 89650
+			}
 		},
 		{
 			type: "reverse",

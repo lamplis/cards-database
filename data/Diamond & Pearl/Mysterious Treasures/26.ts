@@ -92,14 +92,13 @@ const card: Card = {
 		de: "Sobald es erscheint, nimmt seine Wut nicht eher ab, bis es die Felder und Berge ringsum zerstört hat."
 	},
 
-	thirdParty: {
-		cardmarket: 277655,
-		tcgplayer: 85993
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277655,
+				tcgplayer: 85993
+			}
 		},
 		{
 			type: "reverse",

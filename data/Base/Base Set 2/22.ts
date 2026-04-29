@@ -73,7 +73,6 @@ const card: Card = {
 		en: "A mystical Pokémon that exudes a gentle aura. Has the ability to change climate conditions.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

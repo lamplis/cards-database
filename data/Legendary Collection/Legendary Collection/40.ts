@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters."
+		en: "Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters.",
 	},
 
 	variants: [

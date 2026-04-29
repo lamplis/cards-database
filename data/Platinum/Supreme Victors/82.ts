@@ -74,15 +74,10 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "Its electric-like body can enter some kinds of machines and take control in order to make mischief."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 88838,
 				cardmarket: 278773
 			}
 		},

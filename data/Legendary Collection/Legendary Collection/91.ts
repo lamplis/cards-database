@@ -54,7 +54,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Burrow deep underground in arid locations far from water. It only emerges to hunt for food."
+		en: "Burrow deep underground in arid locations far from water. It only emerges to hunt for food.",
 	},
 
 	variants: [

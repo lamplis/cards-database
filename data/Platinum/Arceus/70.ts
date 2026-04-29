@@ -69,17 +69,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "A Pokémon that was resurrected from a fossil using modern science. It swam in ancient seas.",
-		de: "Dieses PKMN wurde von der modernen Wissenschaft aus einem Fossil geschaffen. Es lebte im urzeitlichen Meer."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 87861,
-				cardmarket: 278942
+				cardmarket: 278942,
+				tcgplayer: 87861
 			}
 		},
 		{

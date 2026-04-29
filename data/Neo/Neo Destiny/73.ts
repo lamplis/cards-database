@@ -70,7 +70,6 @@ const card: Card = {
 		de: "Wenn ihm langweilig ist, hebt dieses superstarke Pokémon Felsbrocken als Training."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

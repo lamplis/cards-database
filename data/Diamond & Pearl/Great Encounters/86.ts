@@ -78,19 +78,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Its wings are like cotton tufts. If it perches on someone's head, it looks like a cotton hat.",
-		de: "Seine Flügel sehen aus wie Baumwolle. Legt es sie jemandem auf den Kopf, sehen sie wie ein Wollhut aus."
-	},
-
-	thirdParty: {
-		cardmarket: 277988,
-		tcgplayer: 89657
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277988,
+				tcgplayer: 89657
+			}
 		},
 		{
 			type: "reverse"

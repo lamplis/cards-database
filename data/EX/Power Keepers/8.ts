@@ -77,14 +77,13 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 277314,
-		tcgplayer: 84739
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 277314,
+				tcgplayer: 84739
+			}
 		},
 		{
 			type: "holo",

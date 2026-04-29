@@ -81,14 +81,13 @@ const card: Card = {
 		de: "Mit dem Blatt auf seinem Kopf bestimmt es die Temperatur und Feuchtigkeit. Es liebt Sonnenbäder."
 	},
 
-	thirdParty: {
-		cardmarket: 277706,
-		tcgplayer: 84278
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277706,
+				tcgplayer: 84278
+			}
 		},
 		{
 			type: "reverse",

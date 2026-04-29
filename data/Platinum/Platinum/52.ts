@@ -74,17 +74,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It has a mischievous spirit. If it spots an angler, it will tug on the fishing line to interfere.",
-		de: "Es hat ein spitzbübisches Wesen. Sieht es einen Angler, zieht es an der Angelschnur, um ihn zu ärgern."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 86820,
-				cardmarket: 278473
+				cardmarket: 278473,
+				tcgplayer: 86820
 			}
 		},
 		{

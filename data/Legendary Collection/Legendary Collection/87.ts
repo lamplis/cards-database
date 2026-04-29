@@ -58,7 +58,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its hooves are 10 times harder than diamonds. It can trample anything flat in moments."
+		en: "Its hooves are 10 times harder than diamonds. It can trample anything flat in moments.",
 	},
 
 	variants: [

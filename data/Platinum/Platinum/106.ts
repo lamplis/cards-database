@@ -21,11 +21,12 @@ const card: Card = {
 
 	trainerType: "Stadium",
 
-	variants: [		{
+	variants:[
+		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 85603,
-				cardmarket: 278527
+				cardmarket: 278527,
+				tcgplayer: 85603
 			}
 		},
 		{

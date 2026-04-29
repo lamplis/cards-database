@@ -94,14 +94,13 @@ const card: Card = {
 		de: "Es besitzt ein aggressives Wesen. Es sticht seinen Rüssel in seine Beute und saugt sie aus."
 	},
 
-	thirdParty: {
-		cardmarket: 277518,
-		tcgplayer: 83758
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277518,
+				tcgplayer: 83758
+			}
 		},
 		{
 			type: "reverse"

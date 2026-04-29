@@ -71,15 +71,10 @@ const card: Card = {
 	],
 	retreat: 2,
 
-	description: {
-		en: "As soon as the tail claws close, its needle tips secrete poison. It can survive a year without food."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 89275,
 				cardmarket: 278819
 			}
 		},

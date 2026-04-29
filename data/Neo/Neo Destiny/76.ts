@@ -67,7 +67,6 @@ const card: Card = {
 		de: "Wenn es mit seinem Rüssel nach Leuten schlägt, ist das eigentlich ein Zeichen der Zuneigung. Leider kennt es seine eigene Stärke nicht gut genug, so dass es ab und zu auch Leute zu kräftig haut."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -79,19 +79,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "To eat, it deftly shucks nuts with its two tails. It rarely uses its arms now.",
-		de: "Wenn es hungrig ist, knackt es Nüsse mit seinen beiden Schweifen. Nur selten verwendet es die Arme."
-	},
-
-	thirdParty: {
-		cardmarket: 278084,
-		tcgplayer: 83527
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278084,
+				tcgplayer: 83527
+			}
 		},
 		{
 			type: "reverse"

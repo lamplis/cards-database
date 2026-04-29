@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Here Comes Team Rocket!",
-		fr: "Et voila les Team Rocket !",
+		fr: "Et voila les Team Rocket !"
 	},
 
 	illustrator: "Ken Sugimori",

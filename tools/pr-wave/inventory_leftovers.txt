@@ -1,0 +1,20 @@
+# Data paths not assigned to a set scope
+data/McDonald's Collection.ts
+
+# Excluded global paths (not part of per-set PR wave)
+interfaces.d.ts
+meta/definitions/api.d.ts
+meta/definitions/graphql.gql
+meta/translations/de.json
+meta/translations/es.json
+meta/translations/fr.json
+meta/translations/it.json
+meta/translations/pt.json
+meta/translations/schema.json
+pokepedia-set-logos.json
+server/compiler/endpoints/cards.ts
+server/compiler/index.ts
+server/compiler/utils/cardUtil.ts
+server/compiler/utils/serieUtil.ts
+server/compiler/utils/setUtil.ts
+server/compiler/utils/util.ts

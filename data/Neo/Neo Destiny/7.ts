@@ -83,7 +83,6 @@ const card: Card = {
 		de: "Das Feuer, das es spuckt, ist in Wirklichkeit ein dampfendes Gift, das es in seinem Magen bildet und das sich entzündet, wenn es an die Luft kommt."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

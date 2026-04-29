@@ -57,7 +57,6 @@ const card: Card = {
 		de: "Dieses Pokémon kann man oft in vulkanischen Gebieten herumkriechen sehen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

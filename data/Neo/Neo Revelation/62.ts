@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Wirf für 1 oder 2 deiner Nicht-Baby-Pokémon, die sich entwickeln können, eine Münze. Durchsuche jedesmal, wenn du „Kopf“ geworfen hast, dein Deck nach einer Karte einer späteren Entwicklungsstufe, die auf das Pokémon passt. Nimm dann diese Karte auf deine Hand. Mische danach dein Deck."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -38,4 +37,3 @@ const card: Card = {
 }
 
 export default card
-

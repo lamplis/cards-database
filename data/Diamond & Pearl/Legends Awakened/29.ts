@@ -83,14 +83,13 @@ const card: Card = {
 		de: "Es hat seit dem Kampf gegen KYOGRE in Magma unter dem Erdboden geschlafen."
 	},
 
-	thirdParty: {
-		cardmarket: 278178,
-		tcgplayer: 85924
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278178,
+				tcgplayer: 85924
+			}
 		},
 		{
 			type: "reverse"

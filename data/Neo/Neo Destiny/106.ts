@@ -79,10 +79,9 @@ const card: Card = {
 		de: "Es wird als Waldgottheit verehrt. Es erscheint nur in unberührten uralten Wäldern."
 	},
 
-
 	variants: [
 		{
-			type: "holo",
+			type: "normal",
 			thirdParty: {
 				cardmarket: 274758,
 				tcgplayer: 89162

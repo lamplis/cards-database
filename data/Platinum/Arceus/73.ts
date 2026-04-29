@@ -47,17 +47,12 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "Cautious in the extreme, its hardy vitality lets it live in any kind of environment.",
-		de: "Es strotzt vor Lebenskraft und kann in jeder Umgebung leben. Es ist extrem vorsichtig."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 88619,
-				cardmarket: 278945
+				cardmarket: 278945,
+				tcgplayer: 88619
 			}
 		},
 		{

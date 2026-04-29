@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Wirf 2 Münzen. Durchsuche dein Deck pro „Kopf“ nach einer Basis-Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 	},
 
-	thirdParty: {
-		cardmarket: 277159,
-		tcgplayer: 84987
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277159,
+				tcgplayer: 84987
+			}
 		},
 		{
 			type: "normal",

@@ -84,17 +84,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power.",
-		de: "Sein Ruf ähnelt einer Beschwörung. Man sagt, dass er manchmal über die Kraft verfüge, glücklich zu machen."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 87516,
-				cardmarket: 278476
+				cardmarket: 278476,
+				tcgplayer: 87516
 			}
 		},
 		{

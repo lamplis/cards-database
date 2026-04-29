@@ -71,19 +71,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "A Pokémon that lives in warm seas. It inflates the flotation sac on its head to drift and search for food.",
-		de: "Es lebt in warmen Meeren. Geht es auf Nahrungssuche, füllt es den Beutel auf seinem Kopf mit Luft."
-	},
-
-	thirdParty: {
-		cardmarket: 278061,
-		tcgplayer: 88008
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278061,
+				tcgplayer: 88008
+			}
 		},
 		{
 			type: "reverse"

@@ -71,19 +71,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It lives atop giant trees. It wraps its tail around a branch so it won't fall off while asleep.",
-		de: "Es lebt in den Wipfeln von Riesenbäumen. Es wickelt seinen Schweif um einen Ast, um sich festzuhalten."
-	},
-
-	thirdParty: {
-		cardmarket: 278099,
-		tcgplayer: 83490
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278099,
+				tcgplayer: 83490
+			}
 		},
 		{
 			type: "reverse"

@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Dein Gegner tauscht 1 seiner Verteidigenden Pokémon gegen 1 Pokémon auf seiner Bank aus. Du tauschst 1 deiner Aktiven Pokémon gegen 1 Pokémon auf deiner Bank aus."
 	},
 
-	thirdParty: {
-		cardmarket: 277165,
-		tcgplayer: 90480
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277165,
+				tcgplayer: 90480
+			}
 		},
 		{
 			type: "normal",

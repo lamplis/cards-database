@@ -81,17 +81,12 @@ const card: Card = {
 
 	retreat: 3,
 
-	description: {
-		en: "It knows where pure water wells up. It carries fellow Pokémon there on its back.",
-		de: "Es weiß, wo es reinstes Quellwasser finden kann. Trägt andere Pokémon auf seinem Rücken dorthin."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 85918,
-				cardmarket: 278470
+				cardmarket: 278470,
+				tcgplayer: 85918
 			}
 		},
 		{

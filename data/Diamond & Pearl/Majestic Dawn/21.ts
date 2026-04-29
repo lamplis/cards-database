@@ -77,19 +77,13 @@ const card: Card = {
 
 	retreat: 3,
 
-	description: {
-		en: "Its huge mouth is almost seven feet across. It has enough power to completely crush a car.",
-		de: "Sein Maul ist fast 2 m breit. Es hat genügend Kraft, um ein Auto zu zermalmen."
-	},
-
-	thirdParty: {
-		cardmarket: 278070,
-		tcgplayer: 86084
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278070,
+				tcgplayer: 86084
+			}
 		},
 		{
 			type: "reverse"

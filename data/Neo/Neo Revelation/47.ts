@@ -74,7 +74,6 @@ const card: Card = {
 		de: "Es ist bei seiner Geburt mit Pilzsporen bedeckt. Während sein Körper wächst, sprießen Pilze überall aus seinem Rücken."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -95,4 +94,3 @@ const card: Card = {
 }
 
 export default card
-

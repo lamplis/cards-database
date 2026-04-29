@@ -92,7 +92,6 @@ const card: Card = {
 		de: "Es hat scharfe, harte Hauer und eine robuste Haut. Mit seinem Angriff kann es sogar ein Haus niederreißen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

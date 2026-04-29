@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Each player that has any Pokémon in play that has Delta on its card may draw a card once during his or her turn. If the player does, he or she discards a cards from his or her hand.",
 	},
 
-	thirdParty: {
-		cardmarket: 276859,
-		tcgplayer: 86151
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276859,
+				tcgplayer: 86151
+			}
 		},
 		{
 			type: "normal",
@@ -37,4 +36,3 @@ const card: Card = {
 }
 
 export default card
-

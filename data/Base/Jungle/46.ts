@@ -81,7 +81,6 @@ const card: Card = {
 		de: "In der Laichsaison im Herbst sind sie beim kräftigen Stromaufwärts-Schwimmen zu sehen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

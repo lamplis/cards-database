@@ -25,13 +25,12 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 279156,
-				tcgplayer: 83510
+				cardmarket: 279156
 			}
-				},
+		},
 	],
 	hp: 0,
-	retreat: 0
+
 }
 
 export default card

@@ -81,7 +81,6 @@ const card: Card = {
 		de: "Bekannt als der legendäre Feuervogel. Jeder seiner Flügelschläge erzeugt ein helles Flammenmeer."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

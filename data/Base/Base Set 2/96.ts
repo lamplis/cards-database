@@ -68,7 +68,6 @@ const card: Card = {
 		en: "Its whole body is swathed with wide vines that are similar to seaweed. These vines shake as it walks.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

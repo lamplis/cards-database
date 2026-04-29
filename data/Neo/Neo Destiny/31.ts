@@ -89,7 +89,6 @@ const card: Card = {
 		de: "Es hält sein Ei beim Herumlaufen sehr vorsichtig fest, damit es nicht zerbricht. Trotzdem ist es noch schnell genug, um blitzschnell zu verschwinden."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

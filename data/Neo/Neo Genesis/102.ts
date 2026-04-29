@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Dein Gegner kann sein Deck nach einer Basis-Pokémon-Karte durchsuchen und sie auf seine Bank legen. Dann kannst du in deinem Deck nach einer Basis-Pokémon-Karte suchen und sie auf deine Bank legen. Dann mischt jeder Spieler sein Deck. (Ein Spieler kann nichts davon machen, wenn seine Bank voll ist.)"
 	},
 
-
 	variants: [
 		{
 			type: "normal",

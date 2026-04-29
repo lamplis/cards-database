@@ -73,16 +73,11 @@ const card: Card = {
 	],
 	retreat: 3,
 
-	description: {
-		en: "Its proud and regal appearance has captured the hearts of people since long ago."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 83587,
-				cardmarket: 278741
+				cardmarket: 278706
 			}
 		},
 		{

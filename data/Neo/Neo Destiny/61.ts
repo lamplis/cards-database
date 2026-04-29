@@ -60,7 +60,6 @@ const card: Card = {
 		de: "Es ist sehr schwächlich und ist dauernd in einer defensiven Haltung. Wenn es bedroht wird, schützt es sich mit der Flamme auf seinem Rücken."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

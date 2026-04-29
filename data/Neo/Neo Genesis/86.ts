@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Lege Fokus-Band an eines deiner Pokémon an, das keine Pokémon-Ausrüstung hat. Falls das Pokémon, auf dem das Fokus-Band liegt, durch den Angriff deines Gegners kampfunfähig gemacht würde, wirf eine Münze. Bei „Kopf“ wird dieses Pokémon nicht kampfunfähig gemacht und seine verbleibenden KP gehen stattdessen auf 10. Lege dann Fokus-Band auf deinen Ablagestapel."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

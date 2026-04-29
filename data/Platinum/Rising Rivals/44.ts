@@ -83,11 +83,6 @@ const card: Card = {
 	],
 	retreat: 2,
 
-	description: {
-		en: "For food, it digs up iron ore. It smashes its steely body against others to fight over territory.",
-		de: "Es ernährt sich von Eisenerz. Um sein Revier zu sichern, setzt es seinen harten Körper ein."
-	},
-
 	variants: [
 		{
 			type: "normal",

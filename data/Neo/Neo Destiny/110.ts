@@ -69,10 +69,9 @@ const card: Card = {
 		de: "Es beschleunigt seine Denkprozesse, indem es seinen Kopf um 180 Grad dreht."
 	},
 
-
 	variants: [
 		{
-			type: "holo",
+			type: "normal",
 			thirdParty: {
 				cardmarket: 274762,
 				tcgplayer: 89168

@@ -76,14 +76,13 @@ const card: Card = {
 		de: "Um die Gegner fortzuwehen, setzt es die Luft mit Schreien in Bewegung."
 	},
 
-	thirdParty: {
-		cardmarket: 277651,
-		tcgplayer: 84295
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277651,
+				tcgplayer: 84295
+			}
 		},
 		{
 			type: "reverse",

@@ -11,15 +11,13 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	effect: {
-		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Each player pays Colorless less to retreat his or her Pokémon if it has Misty in its name."
-	},
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 84157,
-			},
+				cardmarket: 274244,
+				tcgplayer: 84157
+			}
 		},
 		{
 			type: "normal",
@@ -34,4 +32,3 @@ const card: Card = {
 }
 
 export default card
-

@@ -80,14 +80,13 @@ const card: Card = {
 		de: "Es sieht aus wie eine Eichel, die am Baum hängt. Es liebt es, andere PKMN zu erschrecken."
 	},
 
-	thirdParty: {
-		cardmarket: 277596,
-		tcgplayer: 89043
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277596,
+				tcgplayer: 89043
+			}
 		},
 		{
 			type: "reverse"

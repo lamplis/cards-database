@@ -86,7 +86,6 @@ const card: Card = {
 		de: "Indem es Luftströme liest, kann es das Wetter oder den nächsten Schritt seines Gegners vorhersagen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -107,4 +106,3 @@ const card: Card = {
 }
 
 export default card
-

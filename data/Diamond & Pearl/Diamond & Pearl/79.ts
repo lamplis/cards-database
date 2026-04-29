@@ -80,14 +80,13 @@ const card: Card = {
 		de: "Ein PKMN, geformt aus 3 einzelnen PKMN. Fleißig bringt es Blütenhonig zu HONWEISEL."
 	},
 
-	thirdParty: {
-		cardmarket: 277578,
-		tcgplayer: 84392
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277578,
+				tcgplayer: 84392
+			}
 		},
 		{
 			type: "reverse"

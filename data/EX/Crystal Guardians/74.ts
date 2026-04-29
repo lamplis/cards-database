@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Lege Kristall des Stillstandes an 1 deiner Pokémon an (kein Pokémon-ex), an dem noch keine Pokémon-Ausrüstung anliegt. Wenn Kristall des Stillstands an ein Pokémon-ex angelegt ist, lege diese Karte auf deinen Ablagestapel. Solange Kristall des Stillstandes an einem Aktiven Pokémon anliegt, können Pokémon (deine und die deines Gegners) keine Poké-Power und Poké-Body benutzen."
 	},
 
-	thirdParty: {
-		cardmarket: 277155,
-		tcgplayer: 84158
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277155,
+				tcgplayer: 84158
+			}
 		},
 		{
 			type: "normal",

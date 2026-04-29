@@ -76,7 +76,6 @@ const card: Card = {
 		de: "Es überträgt positive und negative Elektrizität zwischen den Spitzen seiner zwei Antennen hin und her und elektrisiert seine Feinde."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

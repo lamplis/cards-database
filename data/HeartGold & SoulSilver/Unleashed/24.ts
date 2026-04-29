@@ -96,9 +96,16 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 89563,
-				cardmarket: 279180
+				cardmarket: 279180,
+				tcgplayer: 89563
 			}
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			foil: "cosmos"
 		},
 		{
 			type: "reverse",

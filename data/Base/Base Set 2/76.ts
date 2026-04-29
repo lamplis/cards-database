@@ -44,11 +44,6 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "Its tail fin billows like an elegant ballroom dress, giving it the nickname \"Water Queen.\"",
-	},
-
-
 	variants: [
 		{
 			type: "normal",

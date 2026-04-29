@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Wirf eine Münze. Bei „Kopf“ suche eine Karte aus deinem Ablagestapel und lege sie oben auf dein Deck legen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

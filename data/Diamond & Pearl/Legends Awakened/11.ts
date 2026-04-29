@@ -79,14 +79,13 @@ const card: Card = {
 		de: "Die Gene von MEW wurden neu angeordnet, wodurch dieses PKMN entstand. Es hat ein wildes Herz."
 	},
 
-	thirdParty: {
-		cardmarket: 278160,
-		tcgplayer: 87422
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278160,
+				tcgplayer: 87422
+			}
 		},
 		{
 			type: "reverse"

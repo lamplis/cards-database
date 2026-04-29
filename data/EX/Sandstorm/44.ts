@@ -76,7 +76,6 @@ const card: Card = {
 	
 	retreat: 0,
 
-
 	variants: [
 		{
 			type: "normal",

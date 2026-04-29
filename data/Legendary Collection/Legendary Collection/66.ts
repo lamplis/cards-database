@@ -61,10 +61,6 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "The tentacles are normally kept short. On hunts, the are extended to ensnare and immobilize prey."
-	},
-
 	variants: [
 		{
 			type: "reverse",

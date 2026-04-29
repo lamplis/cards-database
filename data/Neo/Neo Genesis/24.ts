@@ -74,7 +74,6 @@ const card: Card = {
 		de: "Man sagt ihm nach, dass es seine Verfolger auf dunkle Gebirgspfade lockt, auf denen sich der Widersacher verirrt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

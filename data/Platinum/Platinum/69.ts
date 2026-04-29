@@ -69,17 +69,12 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "A kindly Pokémon that lays highly nutritious eggs and shares them with injured Pokémon or people.",
-		de: "Ein freundliches Pokémon, das seine nahrhaften Eier mit verletzten Pokémon und Menschen teilt."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 84176,
-				cardmarket: 278490
+				cardmarket: 278490,
+				tcgplayer: 84176
 			}
 		},
 		{

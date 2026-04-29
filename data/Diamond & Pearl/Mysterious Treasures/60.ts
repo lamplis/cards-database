@@ -67,14 +67,13 @@ const card: Card = {
 		de: "Es bedroht seine Gegner mit der Hitze seiner Flammen. Ist es kampfbereit, lodern sie stärker."
 	},
 
-	thirdParty: {
-		cardmarket: 277689,
-		tcgplayer: 88485
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277689,
+				tcgplayer: 88485
+			}
 		},
 		{
 			type: "reverse",

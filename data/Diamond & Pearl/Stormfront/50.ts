@@ -89,14 +89,13 @@ const card: Card = {
 		de: "Die Zellen seines Panzers fingen an, sich zu verändern. Er fällt ab, sobald sich das PKMN entwickelt."
 	},
 
-	thirdParty: {
-		cardmarket: 278348,
-		tcgplayer: 89128
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278348,
+				tcgplayer: 89128
+			}
 		},
 		{
 			type: "reverse"

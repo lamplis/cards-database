@@ -81,17 +81,12 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "It violently shudders its wings, generating ultrasonic waves to induce headaches in people.",
-		de: "Es schlägt wild mit den Flügeln. So entstehen Ultraschallwellen, die Kopfschmerzen verursachen."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 90338,
-				cardmarket: 278627
+				cardmarket: 278627,
+				tcgplayer: 90338
 			}
 		},
 		{

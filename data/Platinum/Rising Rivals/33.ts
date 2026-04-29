@@ -68,11 +68,6 @@ const card: Card = {
 	],
 	retreat: 4,
 
-	description: {
-		en: "It stops eating only to sleep. It doesn't feel full unless it eats nearly 900 pounds a day.",
-		de: "Nur wenn es schläft, isst es nicht. Es ist erst dann satt, wenn es 400 kg verdrückt hat."
-	},
-
 	variants: [
 		{
 			type: "normal",
@@ -80,6 +75,9 @@ const card: Card = {
 				cardmarket: 278607,
 				tcgplayer: 89390
 			}
+		},
+		{
+			type: "reverse"
 		},
 		{
 			type: "reverse",

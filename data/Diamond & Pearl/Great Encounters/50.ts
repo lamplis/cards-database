@@ -80,19 +80,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It is a brazen brute that barges its way into another Pokémon's nest and claims it as its own.",
-		de: "Dieses PKMN ist ein Grobian, der sich in die Nester anderer PKMN einnistet und sie sich damit aneignet."
-	},
-
-	thirdParty: {
-		cardmarket: 277952,
-		tcgplayer: 88465
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277952,
+				tcgplayer: 88465
+			}
 		},
 		{
 			type: "reverse"

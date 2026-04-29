@@ -77,19 +77,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.",
-		de: "Es bildet ein Fellknäuel, der vor statischer Energie knistert. Es speichert die Energie in Bäumen."
-	},
-
-	thirdParty: {
-		cardmarket: 277907,
-		tcgplayer: 87899
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 277907,
+				tcgplayer: 87899
+			}
 		},
 		{
 			type: "reverse"

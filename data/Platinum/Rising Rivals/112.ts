@@ -65,11 +65,6 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs.",
-		de: "Es hat kleine Backentaschen, die mit Elektrizität gefüllt sind. Bei Gefahr entlädt es sie."
-	},
-
 	variants: [
 		{
 			type: "holo",
@@ -77,9 +72,8 @@ const card: Card = {
 				cardmarket: 278686,
 				tcgplayer: 88091
 			}
-		},
-	],
-
+		}
+	]
 }
 
 export default card

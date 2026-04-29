@@ -59,7 +59,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Obviously prefers hot places. If it gets caught in the rain, steam is said to spout from the tip of its tail."
+		en: "Obviously prefers hot places. If it gets caught in the rain, steam is said to spout from the tip of its tail.",
 	},
 
 	variants: [

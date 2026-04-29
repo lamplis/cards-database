@@ -72,7 +72,6 @@ const card: Card = {
 		en: "Because it never removes its skull helmet, no one has ever seen this Pokémon's real face.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

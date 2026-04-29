@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Ziehe zwei Karten. Mische dann zwei Karten von deiner Hand in dein Deck."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

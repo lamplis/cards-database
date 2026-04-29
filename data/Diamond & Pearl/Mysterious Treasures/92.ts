@@ -74,14 +74,13 @@ const card: Card = {
 		de: "Auf seinem Rücken wachsen Pilze, die Tochukaso. Sie nehmen an Größe zu, wenn PARAS wächst."
 	},
 
-	thirdParty: {
-		cardmarket: 277687,
-		tcgplayer: 87951
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277687,
+				tcgplayer: 87951
+			}
 		},
 		{
 			type: "reverse",

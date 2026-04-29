@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen. Jede Spezialenergiekarte, die 2 oder mehr Energie liefert (deine und die deines Gegners), liefert jetzt nur noch 1 {C} Energie, Poké-Power und Poké-Body haben keine Einfluss hierauf.",
 	},
 
-	thirdParty: {
-		cardmarket: 277156,
-		tcgplayer: 84516
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277156,
+				tcgplayer: 84516
+			}
 		},
 		{
 			type: "normal",

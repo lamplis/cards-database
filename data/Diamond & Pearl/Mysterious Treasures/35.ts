@@ -78,14 +78,13 @@ const card: Card = {
 		de: "Auch wenn es wie ein Baum aussieht, ist es eher wie ein Stein o. Fels. Es ist schwach gegenüber Wasser."
 	},
 
-	thirdParty: {
-		cardmarket: 277664,
-		tcgplayer: 89594
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277664,
+				tcgplayer: 89594
+			}
 		},
 		{
 			type: "reverse",

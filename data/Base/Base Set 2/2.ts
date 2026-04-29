@@ -70,7 +70,6 @@ const card: Card = {
 		en: "A brutal Pokémon with pressurized water jets on its shell. They are used for high-speed tackles.",
 	},
 
-
 	variants: [
 		{
 			type: "holo",

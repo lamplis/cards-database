@@ -86,7 +86,6 @@ const card: Card = {
 		de: "Es hat eine aerodynamische Form, die ihm erlaubt, mit hoher Geschwindigkeit zu schwimmen. Je kälter das Wasser ist, desto aktiver wird es."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

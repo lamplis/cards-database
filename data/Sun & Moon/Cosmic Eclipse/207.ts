@@ -17,7 +17,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Jouez cette carte comme si c’était un Pokémon Colorless de base avec 60 PV. N’importe quand pendant votre tour (avant votre attaque), vous pouvez défausser cette carte du jeu.\n\nCette carte ne peut pas battre en retraite.",
+		fr: "Jouez cette carte comme si c'était un Pokémon {C} de base avec 60 PV. N'importe quand pendant ce tour (avant votre attaque), vous pouvez défausser cette carte du jeu.\n\nCette carte ne peut pas battre en retraite.",
 		en: "Play this card as if it were a 60-HP Colorless Basic Pokémon. At any time during your turn (before your attack), you may discard this card from play.\n\nThis card can’t retreat.",
 		es: "Juega esta carta como si fuera un Pokémon Básico Colorless de 60 PS. En cualquier momento durante tu turno (antes de tu ataque), puedes descartar esta carta del juego.\n\nEsta carta no puede retirarse.",
 		it: "Gioca questa carta come se fosse un Pokémon Base Colorless da 60 PS. Durante il tuo turno, in qualsiasi momento, prima di attaccare, puoi scartare questa carta dal gioco.\n\nNon puoi far ritirare questa carta.",

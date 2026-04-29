@@ -71,7 +71,6 @@ const card: Card = {
 		en: "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
 	},
 
-
 	variants: [
 		{
 			type: "holo",

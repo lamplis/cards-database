@@ -73,7 +73,6 @@ const card: Card = {
 		de: "Seine angenehm aromatischen Blätter haben die Fähigkeit, Luftfeuchtigkeit und Temperatur zu prüfen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

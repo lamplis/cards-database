@@ -77,17 +77,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "There is a village that hosts a contest based on the amazingly variable cries of this Pokémon.",
-		de: "Es gibt ein Dorf, das basierend auf den imposanten Rufen dieses PKMN einen Wettbewerb veranstaltet."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 86533,
-				cardmarket: 278453
+				cardmarket: 278453,
+				tcgplayer: 86533
 			}
 		},
 		{

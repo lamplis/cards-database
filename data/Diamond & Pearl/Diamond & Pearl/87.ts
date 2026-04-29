@@ -84,14 +84,13 @@ const card: Card = {
 		de: "Die Vorrichtungen an seinem Körper generieren elektromagnetische Wellen, die es schweben lassen."
 	},
 
-	thirdParty: {
-		cardmarket: 277586,
-		tcgplayer: 87081
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277586,
+				tcgplayer: 87081
+			}
 		},
 		{
 			type: "reverse"

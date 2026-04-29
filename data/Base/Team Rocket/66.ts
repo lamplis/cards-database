@@ -81,7 +81,6 @@ const card: Card = {
 		de: "Es frisst gerne Walnüsse, Kastanien, Käse und Milch."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

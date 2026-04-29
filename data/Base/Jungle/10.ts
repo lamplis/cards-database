@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Mit Ninja-ähnlicher Beweglichkeit und Geschwindigkeit kann es die Illusion erzeugen, daß es sich um mehr als ein Monster handelt."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

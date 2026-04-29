@@ -77,14 +77,13 @@ const card: Card = {
 		de: "Seine Gestalt ändert sich mit dem Wetter. Vor kurzem entdeckte man, dass seine Moleküle wie Wasser sind."
 	},
 
-	thirdParty: {
-		cardmarket: 278197,
-		tcgplayer: 84128
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278197,
+				tcgplayer: 84128
+			}
 		},
 		{
 			type: "reverse"

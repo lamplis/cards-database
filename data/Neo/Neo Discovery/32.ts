@@ -87,7 +87,6 @@ const card: Card = {
 		de: "Wenn es beunruhigt ist, schützt es sich, indem es Giftschweiß aus seinem Körper ausströmt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -108,4 +107,3 @@ const card: Card = {
 }
 
 export default card
-

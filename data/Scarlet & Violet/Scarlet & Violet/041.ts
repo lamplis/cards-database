@@ -84,7 +84,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "reverse"
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 702336,
+				tcgplayer: 487883
+			}
 		},
 		{
 			type: "holo"
@@ -93,15 +97,6 @@ const card: Card = {
 
 	illustrator: "AKIRA EGAWA",
 
-	description: {
-		en: "Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pokémon is incredibly loyal.",
-		de: "Es entwickelte sich durch die Rüstung eines heldenhaften Kriegers zu dieser Form. Crimanzo besitzt einen ausgeprägten Sinn für Loyalität."
-	},
-
-	thirdParty: {
-        cardmarket: 702336,
-        tcgplayer: 487883
-    }
 }
 
 export default card

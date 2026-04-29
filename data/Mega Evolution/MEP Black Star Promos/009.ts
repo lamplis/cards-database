@@ -25,7 +25,7 @@ const card: Card = {
 	},
 
 	illustrator: "Aya Kusube",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Psychic"],
@@ -97,8 +97,8 @@ const card: Card = {
 		{
 			type: "holo",
 			thirdParty: {
-				cardmarket: 851055,
-				tcgplayer: 656259
+				cardmarket: 851047,
+				tcgplayer: 654597
 			}
 		},
 		{

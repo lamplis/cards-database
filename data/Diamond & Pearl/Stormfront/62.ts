@@ -85,14 +85,13 @@ const card: Card = {
 		de: "Der Körper des Pokémon besteht zu 95% aus Gasen, die fortgeweht werden, wenn starker Wind geht."
 	},
 
-	thirdParty: {
-		cardmarket: 278360,
-		tcgplayer: 85653
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278360,
+				tcgplayer: 85653
+			}
 		},
 		{
 			type: "reverse"

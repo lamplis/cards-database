@@ -87,7 +87,6 @@ const card: Card = {
 		de: "Seine Schale ist so hart wie Stein, und es ist sehr stark. Sein Schlag kann einen Berg umhauen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -108,4 +107,3 @@ const card: Card = {
 }
 
 export default card
-

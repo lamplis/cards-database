@@ -74,7 +74,6 @@ const card: Card = {
 		de: "Obwohl es immer vorgibt, ein Baum zu sein, erinnert seine Aufmachung eher an einen Felsen als an eine Pflanze."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

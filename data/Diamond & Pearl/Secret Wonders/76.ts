@@ -75,18 +75,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Dreaming of one day flying, it practices by leaping off cliffs every day.",
-	},
-
-	thirdParty: {
-		cardmarket: 277829,
-		tcgplayer: 83697
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277829,
+				tcgplayer: 83697
+			}
 		},
 		{
 			type: "reverse",

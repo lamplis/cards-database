@@ -69,17 +69,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It freezes prey by blowing its -58 degrees F breath. It is said to then secretly display its prey.",
-		de: "Friert Beute durch seinen - 50 Grad kalten Atem ein. Es soll diese Beute dann heimlich ausstellen."
-	},
-
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
-				tcgplayer: 85573,
-				cardmarket: 278874
+				cardmarket: 278874,
+				tcgplayer: 85573
 			}
 		},
 		{

@@ -80,14 +80,13 @@ const card: Card = {
 		de: "Es kämpft, während es sich wie ein Kreisel dreht. Die Zentrifugalkraft erhöht die Kampfkraft um 10."
 	},
 
-	thirdParty: {
-		cardmarket: 278250,
-		tcgplayer: 86116
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278250,
+				tcgplayer: 86116
+			}
 		},
 		{
 			type: "reverse"

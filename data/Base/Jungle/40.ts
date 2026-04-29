@@ -91,7 +91,6 @@ const card: Card = {
 		de: "Das Horn des Weibchens entwickelt sich nur langsam. Es zieht körperliche Angriffe wie z.B. Kratzen und Beißen vor."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

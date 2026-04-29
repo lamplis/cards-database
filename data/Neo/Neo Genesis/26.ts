@@ -81,7 +81,6 @@ const card: Card = {
 		de: "Sein Schweif ist so kraftvoll, dass es ihn zum Ergreifen eines Astes nehmen kann und sich selbst in der Luft hält."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

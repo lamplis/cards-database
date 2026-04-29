@@ -75,18 +75,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "When the bud on its back starts swelling, a sweet aroma wafts to indicate the flower's coming bloom.",
-	},
-
-	thirdParty: {
-		cardmarket: 277804,
-		tcgplayer: 86302
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277804,
+				tcgplayer: 86302
+			}
 		},
 		{
 			type: "reverse",

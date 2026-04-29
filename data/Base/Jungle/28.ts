@@ -93,7 +93,6 @@ const card: Card = {
 		de: "Lebt in Ufernähe. Sein langer Schwanz hat eine Flosse, die oft mit der einer Meeresjungfrau verwechselt wird."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

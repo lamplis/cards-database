@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Discard a card from your hand. If you can't discard a card from your hand, you can't play this card.\nSearch your discard pile for 3 basic Energy cards and any combination of 3 Basic Pokémon or Evolution cards, show them to your opponent, and put them on top of your deck. Shuffle your deck afterward.",
 	},
 
-	thirdParty: {
-		cardmarket: 276854,
-		tcgplayer: 86142
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276854,
+				tcgplayer: 86142
+			}
 		},
 		{
 			type: "normal",

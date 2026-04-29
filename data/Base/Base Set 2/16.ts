@@ -74,7 +74,6 @@ const card: Card = {
 		en: "Its long tail serves as a ground to protect itself from its own high-voltage power.",
 	},
 
-
 	variants: [
 		{
 			type: "holo",

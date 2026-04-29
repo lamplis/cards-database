@@ -90,14 +90,13 @@ const card: Card = {
 		de: "Aus seiner Mähne entlädt es Elektrizität. Es generiert eine Gewitterwolke, aus der es Blitze entlädt."
 	},
 
-	thirdParty: {
-		cardmarket: 277657,
-		tcgplayer: 87160
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277657,
+				tcgplayer: 87160
+			}
 		},
 		{
 			type: "reverse",

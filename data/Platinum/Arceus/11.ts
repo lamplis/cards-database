@@ -70,17 +70,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It has a poison sac at its throat. When it croaks, the stored poison is churned for more potency.",
-		de: "Verfügt über einen Giftsack an seiner Kehle. Quakt es, schäumt das Gift und wird so noch stärker."
-	},
-
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
-				tcgplayer: 90009,
-				cardmarket: 278883
+				cardmarket: 278883,
+				tcgplayer: 90009
 			}
 		},
 		{

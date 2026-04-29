@@ -86,14 +86,13 @@ const card: Card = {
 		de: "Erscheint um seinen Körper eine Aura, gibt es einen Wetterwechsel. Es soll in Seen und Meeren leben."
 	},
 
-	thirdParty: {
-		cardmarket: 278201,
-		tcgplayer: 84900
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278201,
+				tcgplayer: 84900
+			}
 		},
 		{
 			type: "reverse"

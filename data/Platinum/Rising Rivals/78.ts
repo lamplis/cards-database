@@ -73,11 +73,6 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "When it dangles from a tree branch, it looks just like an acorn. It enjoys scaring other Pokémon.",
-		de: "Es sieht aus wie eine Eichel, die am Baum hängt. Es liebt es, andere PKMN zu erschrecken."
-	},
-
 	variants: [
 		{
 			type: "normal",

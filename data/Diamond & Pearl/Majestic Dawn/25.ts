@@ -75,19 +75,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It cheers on friends. If its friends are losing, its body lets off more and more sparks.",
-		de: "Es feuert Freunde an. Sind diese im Begriff zu verlieren, gibt sein Körper immer mehr Funken ab."
-	},
-
-	thirdParty: {
-		cardmarket: 278074,
-		tcgplayer: 87489
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278074,
+				tcgplayer: 87489
+			}
 		},
 		{
 			type: "reverse"

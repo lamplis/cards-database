@@ -13,7 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [382, 383],
+	dexId: [
+
+
+		382,
+
+
+		383,
+
+
+	],
+
 	types: [
 		"Water",
 		"Fighting"
@@ -81,12 +91,12 @@ const card: Card = {
 		{
 			type: "holo",
 			thirdParty: {
-				cardmarket: 86553,
-				tcgplayer: 86553,
+				cardmarket: 279340
 			}
 		},
 	],
 	hp: 150,
+
 }
 
 export default card

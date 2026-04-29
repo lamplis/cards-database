@@ -71,11 +71,6 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "Uses its three brains to execute complex plans. While two heads sleep, one head stays awake.",
-	},
-
-
 	variants: [
 		{
 			type: "normal",

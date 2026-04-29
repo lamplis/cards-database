@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Wirf zwei Münzen. Durchsuche jedesmal, wenn du „Kopf“ geworfen hast, dein Deck nach einer Basis-Energiekarte. Zeige diese Karte deinem Gegner und nimm sie auf deine Hand. Mische danach dein Deck."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -40,4 +39,3 @@ const card: Card = {
 }
 
 export default card
-

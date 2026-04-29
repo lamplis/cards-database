@@ -86,7 +86,6 @@ const card: Card = {
 		de: "Kann rückwärts schwimmen, indem es seine Brustflossen und Schwanz wie Flügel schlägt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

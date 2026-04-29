@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Man sagt ihm nach, ständig über die Meere zu fliegen und nach Leuten in Not Ausschau zu halten."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

@@ -55,7 +55,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand."
+		en: "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
 	},
 
 	variants: [

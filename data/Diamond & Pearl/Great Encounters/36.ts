@@ -64,19 +64,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It carries food rolled up in its tail. It has the habit of sharing food with people lost in mountains.",
-		de: "Im eingerollten Schweif transportiert es Futter, das es mit denen teilt, die sich verlaufen haben."
-	},
-
-	thirdParty: {
-		cardmarket: 277938,
-		tcgplayer: 84748
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277938,
+				tcgplayer: 84748
+			}
 		},
 		{
 			type: "reverse"

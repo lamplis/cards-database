@@ -95,7 +95,6 @@ const card: Card = {
 		de: "Mit seinen riesigen und prächtigen Flügeln kann es in der Luft bleiben, ohne jemals zum Ausruhen landen zu müssen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

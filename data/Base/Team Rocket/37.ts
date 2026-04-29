@@ -80,7 +80,6 @@ const card: Card = {
 		de: "Wenn sich Entons entwickeln, verschwinden ihre Kopfschmerzen, und sie beherrschen auf einmal furchterregende Geistesfähigkeiten."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

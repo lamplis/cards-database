@@ -80,17 +80,12 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill.",
-		de: "Ein Bote der Lüfte. Bringt Eier und kleine Pokémon in seinem Schnabel in Sicherheit."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 87978,
-				cardmarket: 278896
+				cardmarket: 278896,
+				tcgplayer: 87978
 			}
 		},
 		{

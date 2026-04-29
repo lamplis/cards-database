@@ -85,7 +85,6 @@ const card: Card = {
 		de: "Wenn seine riesigen Augen aufleuchten, singt es eine gewaltige Melodei, die seine Feinde auf eine geheimnisvolle sanfte Weise in den Schlaf versetzt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

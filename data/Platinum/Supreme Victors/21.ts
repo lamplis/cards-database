@@ -66,16 +66,11 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "Its cries echo inside its hollow body to emerge as beautiful notes for startling and repelling foes."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				cardmarket: 278712,
-				tcgplayer: 84296,
+				cardmarket: 278712
 			}
 		},
 		{

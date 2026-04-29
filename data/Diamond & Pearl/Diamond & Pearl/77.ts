@@ -77,14 +77,13 @@ const card: Card = {
 		de: "Es ist bekannt für sein liebenswertes Wesen. Man sagt, es lebt in der Stille der Berge."
 	},
 
-	thirdParty: {
-		cardmarket: 277576,
-		tcgplayer: 84356
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277576,
+				tcgplayer: 84356
+			}
 		},
 		{
 			type: "reverse"

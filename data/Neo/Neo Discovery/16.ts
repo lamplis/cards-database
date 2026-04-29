@@ -59,7 +59,6 @@ const card: Card = {
 		de: "Um seinen pechschwarzen Schwanz zu verbergen, lebt es ruhig im Dunkeln. Es ist daher nicht sehr offensiv."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

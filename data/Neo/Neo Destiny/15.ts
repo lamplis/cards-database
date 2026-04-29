@@ -81,7 +81,6 @@ const card: Card = {
 		de: "Es wird traurig, wenn es nicht in der Nähe von netten Menschen ist. Es kann in der Luft schweben, ohne seine Flügel zu bewegen."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

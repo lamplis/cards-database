@@ -82,19 +82,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
-		de: "Es lebt im dichten Dschungel. Es springt von Ast zu Ast, wenn es sich einer Beute nähert."
-	},
-
-	thirdParty: {
-		cardmarket: 277942,
-		tcgplayer: 85941
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277942,
+				tcgplayer: 85941
+			}
 		},
 		{
 			type: "reverse"

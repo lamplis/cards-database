@@ -83,17 +83,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "If its coat becomes fully charged with electricity, its tail lights up. It fires hair that zaps on impact.",
-		de: "Hat es sich mit Elektrizität aufgeladen, leuchtet sein Schweif und es feuert Haare ab, die sich entladen."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 85481,
-				cardmarket: 278469
+				cardmarket: 278469,
+				tcgplayer: 85481
 			}
 		},
 		{

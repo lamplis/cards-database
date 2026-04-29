@@ -7,8 +7,8 @@ const card: Card = {
 		fr: "Galifeu"
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Common",
-	category: "Pokemon",
+	rarity: "Black Star Promo",
+	category: "Trainer",
 
 	set: Set,
 	dexId: [
@@ -25,6 +25,32 @@ const card: Card = {
 	stage: "Stage1",
 
 
+
+	attacks: [
+		{
+			cost: [
+				"Fire",
+			],
+			name: {
+				fr: "Intimidation",
+			},
+			damage: "20",
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Double pied",
+			},
+			damage: "40×",
+			effect: {
+				fr: "Lancez deux pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de face.",
+			},
+		},
+	],
 
 	weaknesses: [
 		{

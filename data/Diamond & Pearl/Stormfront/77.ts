@@ -87,14 +87,13 @@ const card: Card = {
 		de: "Es liebt Pilze, die unter totem Gras wachsen. Auf der Suche nach Nahrung findet es heiße Quellen."
 	},
 
-	thirdParty: {
-		cardmarket: 278375,
-		tcgplayer: 89704
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278375,
+				tcgplayer: 89704
+			}
 		},
 		{
 			type: "reverse"

@@ -90,9 +90,8 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 87262,
 				cardmarket: 278724
 			}
 		},

@@ -90,7 +90,6 @@ const card: Card = {
 		de: "Es gibt keine Angriffe, die ihm richtig weh tun können. Daher ist es immer eifrig, seine Feinde sofort anzugreifen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -111,4 +110,3 @@ const card: Card = {
 }
 
 export default card
-

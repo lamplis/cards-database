@@ -76,7 +76,6 @@ const card: Card = {
 		de: "Es teleportiert sich aus gefährlichen Situationen, wodurch es sehr schwer einzufangen ist."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
