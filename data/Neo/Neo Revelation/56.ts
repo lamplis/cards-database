@@ -73,7 +73,6 @@ const card: Card = {
 		de: "In der Nacht flackert die Mitte seines Körpers langsam, im selben Rhythmus wie der menschliche Puls."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -94,4 +93,3 @@ const card: Card = {
 }
 
 export default card
-

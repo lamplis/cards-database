@@ -66,7 +66,6 @@ const card: Card = {
 		en: "Normally found near power plants, it can wander away and cause major blackouts in cities.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

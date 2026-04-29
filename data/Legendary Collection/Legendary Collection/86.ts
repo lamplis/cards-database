@@ -48,7 +48,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When several of these Pokémon gather, their electricity can build and cause lightning storms."
+		en: "When several of these Pokémon gather, their electricity can build and cause lightning storms.",
 	},
 
 	variants: [

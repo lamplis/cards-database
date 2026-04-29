@@ -74,12 +74,13 @@ const card: Card = {
 			value: "x2"
 		},
 	],
+
 	variants: [
 		{
 			type: 'normal',
 			thirdParty: {
-				tcgplayer: 89872,
-				cardmarket: 275061
+				cardmarket: 275061,
+				tcgplayer: 89872
 			}
 		},
 		{

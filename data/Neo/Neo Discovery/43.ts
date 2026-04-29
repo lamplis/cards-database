@@ -85,7 +85,6 @@ const card: Card = {
 		de: "Anscheinend hat es Muschas Muschel mit seinen scharfen Zähnen geknackt und sie dann ausgesaugt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -106,4 +105,3 @@ const card: Card = {
 }
 
 export default card
-

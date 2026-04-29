@@ -80,19 +80,13 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "It lives in forests and fields. Squabbles over territory occur when flocks collide.",
-		de: "Es lebt in Wäldern und auf Wiesen. Treffen Schwärme aufeinander, streiten sie sich um das Revier."
-	},
-
-	thirdParty: {
-		cardmarket: 278096,
-		tcgplayer: 89515
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278096,
+				tcgplayer: 89515
+			}
 		},
 		{
 			type: "reverse"

@@ -73,17 +73,12 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "The shell on its back is made of soil. On a very healthy TURTWIG, the shell should feel moist.",
-		de: "Der Panzer auf seinem Rücken besteht aus Erdreich. Bei gesunden CHELAST ist der Panzer feucht."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 90077,
-				cardmarket: 278522
+				cardmarket: 278522,
+				tcgplayer: 90077
 			}
 		},
 		{

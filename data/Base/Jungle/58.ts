@@ -83,7 +83,6 @@ const card: Card = {
 		de: "Tagsüber hält es sein Gesicht im Sand vergraben. Nachts wandert es durch die Gegend und verstreut seinen Samen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -66,7 +66,6 @@ const card: Card = {
 		en: "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

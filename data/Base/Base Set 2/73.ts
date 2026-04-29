@@ -64,7 +64,6 @@ const card: Card = {
 		en: "Puts enemies to sleep, then eats their dreams. Occasionally gets sick from eating bad dreams.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

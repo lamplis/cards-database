@@ -24,7 +24,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Poliwag",
-		fr: "Ptitard"
+		fr: "Ptitard",
+		es: "Poliwag",
+		it: "Poliwag",
+		pt: "Poliwag",
+		de: "Quapsel"
 	},
 
 	attacks: [{

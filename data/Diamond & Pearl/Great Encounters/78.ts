@@ -68,19 +68,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It toughens its body by slamming into thick trees. Many snapped trees can be found near its nest.",
-		de: "Es stärkt seinen Körper, indem es gegen Bäume rennt. In seiner Nähe finden sich viele umgekippte Bäume."
-	},
-
-	thirdParty: {
-		cardmarket: 277980,
-		tcgplayer: 87131
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277980,
+				tcgplayer: 87131
+			}
 		},
 		{
 			type: "reverse"

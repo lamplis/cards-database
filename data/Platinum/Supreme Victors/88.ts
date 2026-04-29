@@ -73,16 +73,11 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "It can hover is one spot by flapping its wings at high speed. It flits about to guard its territory."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 90686,
-				cardmarket: 278779
+				cardmarket: 278691
 			}
 		},
 		{

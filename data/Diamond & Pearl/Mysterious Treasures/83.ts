@@ -73,14 +73,13 @@ const card: Card = {
 		de: "Wurden die Flossen lange dem Sonnenlicht ausgesetzt, leuchten sie in der Dunkelheit."
 	},
 
-	thirdParty: {
-		cardmarket: 277712,
-		tcgplayer: 85449
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277712,
+				tcgplayer: 85449
+			}
 		},
 		{
 			type: "reverse",

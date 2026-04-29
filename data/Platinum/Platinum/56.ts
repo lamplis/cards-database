@@ -74,17 +74,12 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "It skillfully control the intensity of the fire on its tail to keep its foes at an ideal distance.",
-		de: "Es kontrolliert die Stärke des Feuers auf seinem Schweif geschickt, um Gegner auf Distanz zu halten."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 87572,
-				cardmarket: 278477
+				cardmarket: 278477,
+				tcgplayer: 87572
 			}
 		},
 		{

@@ -86,14 +86,13 @@ const card: Card = {
 		de: "Aus den Enden seiner Arme schießen Feuerbälle mit 2000 Grad. Es lebt in Vulkankratern."
 	},
 
-	thirdParty: {
-		cardmarket: 277641,
-		tcgplayer: 87055
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277641,
+				tcgplayer: 87055
+			}
 		},
 		{
 			type: "reverse",

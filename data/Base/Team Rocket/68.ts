@@ -57,7 +57,6 @@ const card: Card = {
 		de: "Niedliches Pokémon, das die Menschen mit seinen unschuldigen Augen verzaubert. Schwimmt am liebsten den ganzen Tag."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

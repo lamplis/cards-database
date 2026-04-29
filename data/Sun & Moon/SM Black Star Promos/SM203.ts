@@ -11,8 +11,8 @@ const card: Card = {
 		de: "Kapu-Kime"
 	},
 
-	illustrator: "Ryuta Fuse",
-	rarity: "Promo",
+	illustrator: undefined,
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	set: Set,
 

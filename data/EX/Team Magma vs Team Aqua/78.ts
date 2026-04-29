@@ -20,12 +20,11 @@ const card: Card = {
 		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Jedes Pokémon ohne „Team Aqua“ im Namen muss {C} mehr bezahlen, um sich zurück zu ziehen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 275855,
+				cardmarket: 276055,
 				tcgplayer: 89771
 			}
 		},

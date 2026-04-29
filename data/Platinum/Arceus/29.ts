@@ -66,17 +66,12 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "It whittles its constantly growing fangs by gnawing on hard things. It can chew apart cinder walls.",
-		de: "Es wetzt seine ständig wachsenden Zähne an harten Dingen. Es kann Wände aus Beton zernagen."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 88605,
-				cardmarket: 278901
+				cardmarket: 278901,
+				tcgplayer: 88605
 			}
 		},
 		{

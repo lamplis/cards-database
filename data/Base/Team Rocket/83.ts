@@ -68,10 +68,9 @@ const card: Card = {
 		de: "Speichert Elektrizität in seinem Körper, die es dann plötzlich zum Überraschen und Schockieren aller freigibt."
 	},
 
-
 	variants: [
 		{
-			type: "holo",
+			type: "normal",
 			thirdParty: {
 				cardmarket: 274136,
 				tcgplayer: 84647

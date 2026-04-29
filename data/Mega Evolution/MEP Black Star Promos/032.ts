@@ -10,12 +10,13 @@ const card: Card = {
 		de: "Mega-Guardevoir-ex",
 		it: "Mega Gardevoir-ex",
 		es: "Mega-Gardevoir ex",
-		pt: "Mega Gardevoir ex"
+		pt: "Mega Gardevoir ex",
+		'es-mx': "Mega-Gardevoir ex"
 	},
 
 	suffix: "ex",
 	illustrator: "Saboteri",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 360,
 	types: ["Psychic"],
@@ -28,7 +29,8 @@ const card: Card = {
 		de: "Kirlia",
 		it: "Kirlia",
 		es: "Kirlia",
-		pt: "Kirlia"
+		pt: "Kirlia",
+		'es-mx': "Kirlia"
 	},
 
 	attacks: [{
@@ -40,7 +42,8 @@ const card: Card = {
 			de: "Überquellende Wünsche",
 			it: "Desideri Straripanti",
 			es: "Deseos Desbordantes",
-			pt: "Desejos Transbordantes"
+			pt: "Desejos Transbordantes",
+			'es-mx': "Deseos Abundantes"
 		},
 
 		effect: {
@@ -49,7 +52,8 @@ const card: Card = {
 			de: "Durchsuche für jedes Pokémon auf deiner Bank dein Deck nach 1 Basis-{P}-Energiekarte und lege sie an jenes Pokémon an. Mische anschließend dein Deck.",
 			it: "Cerca nel tuo mazzo una carta Energia base {P} per ciascuno dei Pokémon nella tua panchina e assegnala a quel Pokémon. Poi rimischia il tuo mazzo.",
 			es: "Para cada uno de tus Pokémon en Banca, busca en tu baraja 1 carta de Energía {P} Básica y únela a ese Pokémon. Después, baraja las cartas de tu baraja.",
-			pt: "Para cada um dos seus Pokémon no Banco, procure por uma carta de Energia {P} Básica no seu baralho e ligue-a àquele Pokémon. Em seguida, embaralhe o seu baralho."
+			pt: "Para cada um dos seus Pokémon no Banco, procure por uma carta de Energia {P} Básica no seu baralho e ligue-a àquele Pokémon. Em seguida, embaralhe o seu baralho.",
+			'es-mx': "Por cada uno de tus Pokémon en Banca, busca en tu mazo 1 carta de Energía {P} Básica y únela a ese Pokémon. Después, baraja tu mazo."
 		}
 	}, {
 		cost: ["Psychic"],
@@ -60,7 +64,8 @@ const card: Card = {
 			de: "Mega-Symphonia",
 			it: "Megasinfonia",
 			es: "Megasinfonía",
-			pt: "Megassinfonia"
+			pt: "Megassinfonia",
+			'es-mx': "Megasinfonía"
 		},
 
 		effect: {
@@ -69,34 +74,15 @@ const card: Card = {
 			de: "Diese Attacke fügt für jede an alle deine Pokémon angelegte {P}-Energie 50 Schadenspunkte zu.",
 			it: "Questo attacco infligge 50 danni per ogni Energia {P} assegnata ai tuoi Pokémon.",
 			es: "Este ataque hace 50 puntos de daño por cada Energía {P} unida a cada uno de tus Pokémon.",
-			pt: "Este ataque causa 50 pontos de dano para cada Energia {P} ligada a todos os seus Pokémon."
+			pt: "Este ataque causa 50 pontos de dano para cada Energia {P} ligada a todos os seus Pokémon.",
+			'es-mx': "Este ataque hace 50 puntos de daño por cada Energía {P} unida a cada uno de tus Pokémon."
 		},
 
 		damage: "50×"
 	}],
 
 	retreat: 2,
-	regulationMark: "I",
-
-	weaknesses: [{
-		type: "Darkness",
-		value: "x2"
-	}],
-
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
-
-	variants: [
-		{
-			type: "holo",
-			thirdParty: {
-				cardmarket: 873708,
-				tcgplayer: 685510
-			}
-		},
-	],
+	regulationMark: "I"
 }
 
 export default card

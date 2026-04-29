@@ -91,14 +91,13 @@ const card: Card = {
 		de: "In Zeiten mit viel Sonnenschein blüht es auf. Es holt nach, was ihm als Knospe verwehrt blieb."
 	},
 
-	thirdParty: {
-		cardmarket: 277544,
-		tcgplayer: 84251
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277544,
+				tcgplayer: 84251
+			}
 		},
 		{
 			type: "reverse"

@@ -67,14 +67,13 @@ const card: Card = {
 		de: "Die Elektrizität, die es im Fell speichert, nutzt es, um seine Muskeln zu stimulieren."
 	},
 
-	thirdParty: {
-		cardmarket: 277710,
-		tcgplayer: 85139
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277710,
+				tcgplayer: 85139
+			}
 		},
 		{
 			type: "reverse",

@@ -66,19 +66,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Inflating its poison sacs, it makes an eerie blubbering sound for intimidation.",
-		de: "Wenn es seine giftigen Backen aufbläst, hört man ein unheimliches Geräusch, welches Gegner ängstigt."
-	},
-
-	thirdParty: {
-		cardmarket: 278109,
-		tcgplayer: 84474
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278109,
+				tcgplayer: 84474
+			}
 		},
 		{
 			type: "reverse"

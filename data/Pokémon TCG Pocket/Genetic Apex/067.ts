@@ -24,7 +24,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shellder",
-		fr: "Kokiyas"
+		fr: "Kokiyas",
+		es: "Shellder",
+		it: "Shellder",
+		pt: "Shellder",
+		de: "Muschas"
 	},
 
 	abilities: [{

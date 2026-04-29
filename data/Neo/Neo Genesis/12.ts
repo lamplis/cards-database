@@ -50,7 +50,6 @@ const card: Card = {
 		de: "Trotz seiner kleinen Größe kann es sogar erwachsene Menschen elektrisieren. Jedesmal, wenn ihm alles wieder gelingt, ist es selbst davon überrascht."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

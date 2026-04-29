@@ -20,14 +20,13 @@ const card: Card = {
 		de: "If you have more Prize Cards left than your opponent, the Pokémon that Solid Rage is attached to does 20 more damage to the Active Pokémon (before applying Weakness and Resistance)."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 89419,
-				cardmarket: 276738
-			},
+				cardmarket: 276738,
+				tcgplayer: 89419
+			}
 		},
 		{
 			type: "reverse",

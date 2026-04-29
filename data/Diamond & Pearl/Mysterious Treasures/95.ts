@@ -78,14 +78,13 @@ const card: Card = {
 		de: "Es spritzt Wasser mit Hochdruck aus seinem Maul und schießt damit auf fliegende Beute."
 	},
 
-	thirdParty: {
-		cardmarket: 277724,
-		tcgplayer: 88697
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277724,
+				tcgplayer: 88697
+			}
 		},
 		{
 			type: "reverse",

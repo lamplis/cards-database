@@ -63,7 +63,6 @@ const card: Card = {
 		de: "Ein legendäres Donnervogel-Pokémon, dessen Zorn Stürme auslösen soll. Man sagt, dass es schon tausende von Jahren über den Wolken gelebt hat."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

@@ -53,7 +53,6 @@ const card: Card = {
 		de: "Es scheint vor lauter Energie zu platzen. Um stärker zu werden kämpft es auch dann weiter, wenn es verliert."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -74,4 +73,3 @@ const card: Card = {
 }
 
 export default card
-

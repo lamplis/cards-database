@@ -84,14 +84,13 @@ const card: Card = {
 		de: "Vor 100 Millionen Jahren lebte dieses PKMN auf dem Meeresgrund. Die Wissenschaft belebte es neu."
 	},
 
-	thirdParty: {
-		cardmarket: 278254,
-		tcgplayer: 86789
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278254,
+				tcgplayer: 86789
+			}
 		},
 		{
 			type: "reverse"

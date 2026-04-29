@@ -75,19 +75,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Usually with a large flock, it is barely noticeable when alone. Its cries are very strident.",
-		de: "Normalerweise ist es immer im Schwarm unterwegs. Sein Ruf ist äußerst durchdringend."
-	},
-
-	thirdParty: {
-		cardmarket: 278124,
-		tcgplayer: 89523
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278124,
+				tcgplayer: 89523
+			}
 		},
 		{
 			type: "reverse"

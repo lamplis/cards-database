@@ -80,14 +80,13 @@ const card: Card = {
 		de: "Sobald es einen Gegner ins Visier genommen hat, rennt es mit dem Kopf voran auf ihn zu."
 	},
 
-	thirdParty: {
-		cardmarket: 278223,
-		tcgplayer: 89764
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278223,
+				tcgplayer: 89764
+			}
 		},
 		{
 			type: "reverse"

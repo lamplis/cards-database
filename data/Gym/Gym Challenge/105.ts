@@ -13,15 +13,13 @@ const card: Card = {
 
 	cameoDexIds: [34],
 
-	effect: {
-		en: "Remove all damage counters from 1 of your Pokémon with Giovanni in its name. Then discard your hand."
-	},
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 85711,
-			},
+				cardmarket: 274373,
+				tcgplayer: 85711
+			}
 		},
 		{
 			type: "normal",

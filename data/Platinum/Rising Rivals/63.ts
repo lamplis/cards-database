@@ -69,11 +69,6 @@ const card: Card = {
 	],
 	retreat: 2,
 
-	description: {
-		en: "A Pokémon with a loyal nature. It will remain motionless until it is given an order by its Trainer.",
-		de: "Ein loyales Pokémon. Es wird erst dann aktiv, wenn sein Trainer ihm Anweisungen gegeben hat."
-	},
-
 	variants: [
 		{
 			type: "normal",

@@ -20,14 +20,13 @@ const card: Card = {
 		de: "As long as Protective Orb is attached to a Pokémon, that Pokémon has no Weakness."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 88411,
-				cardmarket: 276736
-			},
+				cardmarket: 276736,
+				tcgplayer: 88411
+			}
 		},
 		{
 			type: "reverse",

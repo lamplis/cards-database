@@ -26,20 +26,26 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Water"],
+			cost: [
+				"Water",
+			],
 			name: {
 				en: "Icicle",
-				de: "Eiszapfen"
+				fr: "Concrétion Glacée"
 			},
-			damage: 10,
+			damage: 10
 		},
 		{
-			cost: ["Water", "Colorless", "Colorless"],
+			cost: [
+				"Water",
+				"Colorless",
+				"Colorless",
+			],
 			name: {
 				en: "Sharp Fin",
-				de: "Schneidige Flosse"
+				fr: "Aileron Aiguisé"
 			},
-			damage: 50,
+			damage: 50
 		},
 	],
 

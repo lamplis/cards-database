@@ -79,7 +79,6 @@ const card: Card = {
 		de: "Es schwingt seine lange Schnauze neckisch herum, aber das kann gefährlich werden, weil es so stark ist."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

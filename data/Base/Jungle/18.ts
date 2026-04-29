@@ -88,7 +88,6 @@ const card: Card = {
 		de: "Es speichert elektrische Energie unter sehr hohem Druck. Es explodiert mit geringer oder sogar keiner Provozierung."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

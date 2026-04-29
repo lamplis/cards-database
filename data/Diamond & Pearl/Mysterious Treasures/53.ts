@@ -87,14 +87,13 @@ const card: Card = {
 		de: "Es ernährt sich von Eisenerz. Um sein Revier zu sichern, setzt es seinen harten Körper ein."
 	},
 
-	thirdParty: {
-		cardmarket: 277682,
-		tcgplayer: 86580
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277682,
+				tcgplayer: 86580
+			}
 		},
 		{
 			type: "reverse",

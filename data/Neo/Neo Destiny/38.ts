@@ -92,7 +92,6 @@ const card: Card = {
 		de: "Es ist in einem harten Panzer eingezwängt und hat trotzdem eine hohe Beweglichkeit - eine gefährliche Kombination."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

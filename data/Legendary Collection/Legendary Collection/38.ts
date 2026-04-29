@@ -65,7 +65,7 @@ const card: Card = {
 
 
 	description: {
-		en: "As is fitting for a legendary Pokémon, it has many strange powers, including the ability to make rain or snow fall."
+		en: "As is fitting for a legendary Pokémon, it has many strange powers, including the ability to make rain or snow fall.",
 	},
 
 	variants: [

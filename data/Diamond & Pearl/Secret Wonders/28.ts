@@ -77,18 +77,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "A Pokémon that lives in lakes. It swims faster than any human swimming champion.",
-	},
-
-	thirdParty: {
-		cardmarket: 277781,
-		tcgplayer: 85815
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277781,
+				tcgplayer: 85815
+			}
 		},
 		{
 			type: "reverse",

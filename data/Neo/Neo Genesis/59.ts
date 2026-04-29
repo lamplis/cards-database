@@ -81,7 +81,6 @@ const card: Card = {
 		de: "Es fliegt direkt zum Gesicht seiner Ziele, und krallt sich dann am entsetzten Opfer fest, um Gift einzuspritzen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

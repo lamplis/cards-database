@@ -69,7 +69,6 @@ const card: Card = {
 		de: "Man sagt ihm nach, dass es seine Zeit gemütlich tief auf dem Meeresgrund verbringt, da seine Gewalten zu stark sind."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

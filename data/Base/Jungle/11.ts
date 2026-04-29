@@ -99,7 +99,6 @@ const card: Card = {
 		de: "Totaler Faulenzer. Frisst und schläft nur. Je mehr seine rundliche Masse zunimmt, desto träger wird es."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

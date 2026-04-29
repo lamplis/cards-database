@@ -17,7 +17,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Vous ne pouvez jouer cette carte que si l’un de vos Pokémon a été mis K.O. pendant le dernier tour de votre adversaire.\n\nCherchez un Pokémon, une carte Dresseur et une carte Énergie de base dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+		fr: "Vous ne pouvez jouer cette carte que si l'un de vos Pokémon a été mis K.O. pendant le dernier tour de votre adversaire.\n\nCherchez un Pokémon, une carte Dresseur et une carte Énergie de base dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 		en: "You can play this card only if 1 of your Pokémon was Knocked Out during your opponent’s last turn.\n\nSearch your deck for a Pokémon, a Trainer card, and a basic Energy card, reveal them, and put them into your hand. Then, shuffle your deck.",
 		es: "Puedes jugar esta carta solo si 1 de tus Pokémon quedó Fuera de Combate durante el último turno de tu rival.\n\nBusca en tu baraja 1 Pokémon, 1 carta de Entrenador y 1 carta de Energía Básica, enseña esas cartas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Puoi giocare questa carta solo se uno dei tuoi Pokémon è stato messo KO durante l’ultimo turno del tuo avversario.\n\nCerca nel tuo mazzo un Pokémon, una carta Allenatore e una carta Energia base, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",

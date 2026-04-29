@@ -87,18 +87,13 @@ const card: Card = {
 
 	retreat: 4,
 
-	description: {
-		en: "It sheds its hide once a year. Its boulderlike body is so tough, even dynamite can't harm it.",
-	},
-
-	thirdParty: {
-		cardmarket: 277782,
-		tcgplayer: 85828
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277782,
+				tcgplayer: 85828
+			}
 		},
 		{
 			type: "reverse",

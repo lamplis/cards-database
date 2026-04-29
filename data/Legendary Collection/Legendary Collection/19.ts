@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A legendary bird Pokémon said to appear from clouds while wielding enormous lightning bolts."
+		en: "A legendary bird Pokémon said to appear from clouds while wielding enormous lightning bolts.",
 	},
 
 	variants: [

@@ -20,12 +20,11 @@ const card: Card = {
 		de: "Du kannst in jedem Zug nur eine Unterstützerkarte spielen. Wenn du diese Karte ausspielst, lege sie neben dein Aktives Pokémon. Lege diese Karte am Ende deines Zuges auf deinen Ablagestapel. Lege 1 Pokémon von deiner Hand auf den Ablagestapel. Ziehe danach 3 Karten. Ziehe stattdessen 4 Karten, wenn du auf diese Weise ein Pokémon mit  „Team-Aqua“ im Namen abwirfst."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 275846,
+				cardmarket: 276046,
 				tcgplayer: 89772
 			}
 		},

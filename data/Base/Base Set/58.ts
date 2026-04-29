@@ -86,7 +86,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 273753,
 				tcgplayer: 42402
-			}
+			},
 		},
 		{
 			type: "normal",
@@ -101,12 +101,27 @@ const card: Card = {
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				cardmarket: 660169
-			}
+				tcgplayer: 107055
+			},
 		},
 		{
 			type: "normal",
-			subtype: "1999-2000-copyright"
+			subtype: "shadowless-red-cheek",
+			thirdParty: {
+				tcgplayer: 147229
+			},
+		},
+		{
+			type: "normal",
+			subtype: "shadowless-red-cheek",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 147229
+			},
+		},
+		{
+			type: "normal",
+			subtype: "1999-2000-copyright",
 		}
 	],
 }

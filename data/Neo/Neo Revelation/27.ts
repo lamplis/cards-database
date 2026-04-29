@@ -76,7 +76,6 @@ const card: Card = {
 		de: "Dieses Pokémon rast durch das Land. Es wird behauptet, dass die Nordwinde blasen, wann immer es erscheint."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -97,4 +96,3 @@ const card: Card = {
 }
 
 export default card
-

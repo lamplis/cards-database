@@ -77,17 +77,12 @@ const card: Card = {
 
 	retreat: 4,
 
-	description: {
-		en: "The world's laziest Pokémon. When it is lounging, it is actually saving energy for striking back.",
-		de: "Das faulste PKMN der Welt. Wenn es faulenzt, sammelt es in Wahrheit Energie, um zuzuschlagen."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"holo",
 			thirdParty: {
-				tcgplayer: 89292,
-				cardmarket: 278437
+				cardmarket: 278437,
+				tcgplayer: 89292
 			}
 		},
 		{

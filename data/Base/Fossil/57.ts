@@ -83,7 +83,6 @@ const card: Card = {
 		de: "Bildet Kolonien an ewig dunklen Orten. Verwendet Ultraschall zum Identifizieren und Orten von Zielen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

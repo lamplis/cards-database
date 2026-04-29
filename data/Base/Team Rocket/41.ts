@@ -83,7 +83,6 @@ const card: Card = {
 		de: "Sleimoks erscheinen plötzlich und verbreiten überall Schlamm. Jedesmal, wenn eines in der Stadt auftaucht, bricht Panik aus."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -87,19 +87,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Born on a cold seafloor, it will swim great distances to return to its birthplace.",
-		de: "Geboren auf dem Meeresboden, legt es große Entfernungen zurück, um dorthin zurückzukehren."
-	},
-
-	thirdParty: {
-		cardmarket: 278057,
-		tcgplayer: 87146
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278057,
+				tcgplayer: 87146
+			}
 		},
 		{
 			type: "reverse"

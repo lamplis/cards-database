@@ -73,17 +73,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "A Pokémon with persistent nature, it chases its prey until the prey becomes exhausted.",
-		de: "Ein beharrliches PKMN, das seine Beute jagt, bis diese erschöpft ist."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 88301,
-				cardmarket: 278507
+				cardmarket: 278507,
+				tcgplayer: 88301
 			}
 		},
 		{

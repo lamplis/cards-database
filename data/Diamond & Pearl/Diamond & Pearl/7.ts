@@ -86,19 +86,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It has eyes that can see through anything. It spots and captures prey hiding behind objects.",
-		de: "Mit seinen Augen kann es durch alles hindurch sehen. So findet es auch Beute, die sich versteckt hat."
-	},
-
-	thirdParty: {
-		cardmarket: 277506,
-		tcgplayer: 86946
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277506,
+				tcgplayer: 86946
+			}
 		},
 		{
 			type: "reverse"

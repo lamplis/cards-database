@@ -57,10 +57,6 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "Normally friendly, it quickly becomes angry if it doesn't get what it wants."
-	},
-
 	variants: [
 		{
 			type: "reverse",

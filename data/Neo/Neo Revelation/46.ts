@@ -75,7 +75,6 @@ const card: Card = {
 		de: "Es wird von vielen gefürchtet und verabscheut, da es heißt, dass jeder Unglück hat, der es bei Nacht sieht."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -96,4 +95,3 @@ const card: Card = {
 }
 
 export default card
-

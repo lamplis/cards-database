@@ -72,7 +72,6 @@ const card: Card = {
 		de: "Ihre Gestalt erinnert an Hieroglyphen auf alten Steintafeln. Ob ein Zusammenhang besteht, ist unklar."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

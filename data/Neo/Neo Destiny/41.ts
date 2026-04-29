@@ -76,7 +76,6 @@ const card: Card = {
 		de: "Es ist normalerweise friedlich, greift aber an, wenn sich ihm jemand auf seinem Weg zu seinem Lieblingsessen Honig in den Weg stellt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

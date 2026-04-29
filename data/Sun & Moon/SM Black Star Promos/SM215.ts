@@ -11,8 +11,8 @@ const card: Card = {
 		de: "Mew"
 	},
 
-	illustrator: "Masakazu Fukuda",
-	rarity: "Promo",
+	illustrator: undefined,
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	set: Set,
 

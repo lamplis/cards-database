@@ -86,7 +86,6 @@ const card: Card = {
 		type: "Pokemon Power"
 	}],
 
-
 	variants: [
 		{
 			type: "normal",

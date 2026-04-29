@@ -84,14 +84,13 @@ const card: Card = {
 		de: "Es besitzt die Fähigkeit, die Aura aller Dinge zu spüren. Es versteht die menschliche Sprache."
 	},
 
-	thirdParty: {
-		cardmarket: 278210,
-		tcgplayer: 86876
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278210,
+				tcgplayer: 86876
+			}
 		},
 		{
 			type: "reverse"

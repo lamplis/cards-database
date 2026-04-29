@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Search your deck for a Supporter card that has Holon in its name, show it to your opponent, and put it into your hand. Shuffle your deck afterward. Or, search your discard pile for a Supporter card that has Holon in its name, show it to your opponent, and put it into your hand."
 	},
 
-	thirdParty: {
-		cardmarket: 276861,
-		tcgplayer: 86153
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276861,
+				tcgplayer: 86153
+			}
 		},
 		{
 			type: "normal",

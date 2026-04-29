@@ -21,7 +21,6 @@ const card: Card = {
 		de: "Wirf eine Münze. Bei „Kopf“ schläft das verteidigende Pokémon jetzt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

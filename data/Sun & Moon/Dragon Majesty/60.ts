@@ -17,7 +17,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Vous ne pouvez jouer cette carte que si vous défaussez 2 autres cartes de votre main.\n\nCherchez jusqu’à 4 cartes Énergie Fire dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+		fr: "Vous ne pouvez jouer cette carte que si vous défaussez 2 autres cartes de votre main.\n\nCherchez jusqu'à 4 cartes Énergie {R} dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 		en: "You can play this card only if you discard 2 other cards from your hand.\n\nSearch your deck for up to 4 Fire Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
 		es: "Puedes jugar esta carta solo si descartas otras 2 cartas de tu mano. \n\nBusca en tu baraja hasta 4 cartas de Energía Fire, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Puoi giocare questa carta solo se scarti altre due carte che hai in mano.\n\nCerca nel tuo mazzo fino a quattro carte Energia Fire, mostrale e aggiungile a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",

@@ -20,12 +20,11 @@ const card: Card = {
 		de: "Wirf 1 Münze. Durchsuche bei „Kopf“ dein Deck nach einem Pokémon mit „Team Magma“ im Namen, zeige es deinem Gegner und nimm es auf die Hand. Durchsuche bei „Zahl“ dein Deck nach einem Basis-Pokémon mit „Team Magma“ im Namen, zeige es deinem Gegner und nimm es auf die Hand. Mische dein Deck danach."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 275857,
+				cardmarket: 276057,
 				tcgplayer: 89812
 			}
 		},

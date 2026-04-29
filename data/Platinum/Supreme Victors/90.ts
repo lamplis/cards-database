@@ -69,15 +69,10 @@ const card: Card = {
 	],
 	retreat: 2,
 
-	description: {
-		en: "It converses with others by using magnetic pulses. In a swarm, they move in perfect unison."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 83790,
 				cardmarket: 278781
 			}
 		},

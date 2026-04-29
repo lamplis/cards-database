@@ -77,14 +77,13 @@ const card: Card = {
 		de: "ROSELIA, die mit klarem Wasser aufgezogen wurden, bekommen Blüten in leuchtenden Farben."
 	},
 
-	thirdParty: {
-		cardmarket: 277595,
-		tcgplayer: 88819
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277595,
+				tcgplayer: 88819
+			}
 		},
 		{
 			type: "reverse"

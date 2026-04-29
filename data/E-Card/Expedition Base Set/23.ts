@@ -80,13 +80,14 @@ const card: Card = {
 			value: "-30"
 		},
 	],
-	variants: [
+
+	variants:[
 		{
 			type: "holo",
 			thirdParty: {
-				tcgplayer: 88027,
-				cardmarket: 274898
-			},
+				cardmarket: 274898,
+				tcgplayer: 88027
+			}
 		},
 		{
 			type: "reverse",

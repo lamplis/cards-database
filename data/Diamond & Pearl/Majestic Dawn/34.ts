@@ -79,19 +79,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It has evolved to be suitable for aquatic life. It can invisibly melt away into water.",
-		de: "Es hat sich so entwickelt, dass es im Wasser leben kann. Im Wasser selbst wird es unsichtbar."
-	},
-
-	thirdParty: {
-		cardmarket: 278083,
-		tcgplayer: 90284
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278083,
+				tcgplayer: 90284
+			}
 		},
 		{
 			type: "reverse"

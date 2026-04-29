@@ -13,15 +13,13 @@ const card: Card = {
 
 	cameoDexIds: [95],
 
-	effect: {
-		en: "Search your deck for a Basic Pokémon or Evolution card with Brock in its name. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
-	},
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 83985,
-			},
+				cardmarket: 274242,
+				tcgplayer: 83985
+			}
 		},
 		{
 			type: "normal",

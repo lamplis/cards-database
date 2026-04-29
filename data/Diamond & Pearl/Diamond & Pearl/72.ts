@@ -60,14 +60,13 @@ const card: Card = {
 		de: "Es hat eine Art Rettungsring um den Hals. Wenn es schwimmt, gerät sein Kopf niemals unter Wasser."
 	},
 
-	thirdParty: {
-		cardmarket: 277571,
-		tcgplayer: 84015
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277571,
+				tcgplayer: 84015
+			}
 		},
 		{
 			type: "reverse"

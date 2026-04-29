@@ -65,17 +65,12 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It was born when sludge in a dirty stream was exposed to the moon's X-rays. It appears among filth.",
-		de: "Es wurde geboren, als Schlamm von den Strahlen des Mondes getroffen wurde. Es erscheint, wo Unrat ist."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 85912,
-				cardmarket: 278496
+				cardmarket: 278496,
+				tcgplayer: 85912
 			}
 		},
 		{

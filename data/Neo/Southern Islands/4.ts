@@ -48,11 +48,6 @@ const card: Card = {
 	],
 	retreat: 1,
 
-
-	description: {
-		en: "This Pokémon is still immature. When threatened, it releases poison from its head and tries to drive its enemies away.",
-	},
-
 	variants: [
 		{
 			type: "reverse",

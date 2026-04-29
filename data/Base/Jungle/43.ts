@@ -93,7 +93,6 @@ const card: Card = {
 		de: "Stets wild und hartnäckig loszuwerden. Es gibt seine Beute nicht auf, bis sie gefangen ist."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

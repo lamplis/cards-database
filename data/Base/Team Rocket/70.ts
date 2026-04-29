@@ -75,7 +75,6 @@ const card: Card = {
 		de: "Es lebt in dunklen Höhlen. Gelegentlich ist es nachts zu sehen, wenn es auf Futtersuche umherfliegt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

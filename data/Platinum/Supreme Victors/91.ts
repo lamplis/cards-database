@@ -51,15 +51,10 @@ const card: Card = {
 	],
 	retreat: 2,
 
-	description: {
-		en: "A comparison revealed that Bidoof's front teeth grow at the same rate as Rattata's."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 83828,
 				cardmarket: 278782
 			}
 		},

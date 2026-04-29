@@ -84,14 +84,13 @@ const card: Card = {
 		de: "Es besitzt ein fantastisches Gedächtnis und erinnert sich an alles seit seiner Geburt. IQ: Über 5 000."
 	},
 
-	thirdParty: {
-		cardmarket: 277631,
-		tcgplayer: 83501
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277631,
+				tcgplayer: 83501
+			}
 		},
 		{
 			type: "reverse",

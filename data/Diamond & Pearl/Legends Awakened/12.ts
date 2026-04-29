@@ -83,14 +83,13 @@ const card: Card = {
 		de: "Es versammelt andere PKMN um sich herum und führt sie an. QUAPSEL gehorchen seinem Ruf."
 	},
 
-	thirdParty: {
-		cardmarket: 278161,
-		tcgplayer: 88250
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278161,
+				tcgplayer: 88250
+			}
 		},
 		{
 			type: "reverse"

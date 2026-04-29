@@ -87,14 +87,13 @@ const card: Card = {
 		de: "Es lebt in der Nähe von Wasser in Wäldern. Tagsüber verlässt es diese, um ein Sonnenbad zu nehmen."
 	},
 
-	thirdParty: {
-		cardmarket: 277548,
-		tcgplayer: 85916
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277548,
+				tcgplayer: 85916
+			}
 		},
 		{
 			type: "reverse"

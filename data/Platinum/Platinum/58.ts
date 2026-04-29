@@ -74,17 +74,12 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It loves to lurk inside holes in rocks. It sometimes sprays ink on prey by sticking out only its mouth.",
-		de: "Es lauert gerne in den Löchern von Felsen, um vorbeischwimmende Beute mit Tinte zu bespritzen."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 87833,
-				cardmarket: 278479
+				cardmarket: 278479,
+				tcgplayer: 87833
 			}
 		},
 		{

@@ -44,10 +44,6 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "Using its ability to read minds, it will identify impending danger and teleport to safety."
-	},
-
 	variants: [
 		{
 			type: "reverse",

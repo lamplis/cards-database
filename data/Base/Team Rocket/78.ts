@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Alle Pokémon-Powers funktionieren nicht mehr bis zum Ende des nächsten gegnerischen Zuges."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

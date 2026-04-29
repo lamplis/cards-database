@@ -67,18 +67,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It marks its territory by using its tail like a paintbrush. There are more than 5,000 different marks.",
-	},
-
-	thirdParty: {
-		cardmarket: 277819,
-		tcgplayer: 89355
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277819,
+				tcgplayer: 89355
+			}
 		},
 		{
 			type: "reverse",

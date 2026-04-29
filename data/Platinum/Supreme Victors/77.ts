@@ -79,16 +79,11 @@ const card: Card = {
 			value: "-20"
 		},
 	],
-	description: {
-		en: "Its tail discharges electricity into the ground, protecting it from getting shocked."
-	},
 
-	retreat: 0,
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 88515,
 				cardmarket: 278768
 			}
 		},

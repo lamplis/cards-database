@@ -65,17 +65,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "When endangered, it may protect itself by raising its magnetism and drawing iron objects to its body.",
-		de: "Es schützt sich bei Gefahr durch Gegenstände aus Eisen, die es mit erhöhtem Magnetismus an sich zieht."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 87802,
-				cardmarket: 278505
+				cardmarket: 278505,
+				tcgplayer: 87802
 			}
 		},
 		{

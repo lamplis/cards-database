@@ -81,19 +81,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "A highly intelligent Pokémon. By folding back its wings in flight, it can overtake jet planes.",
-		de: "Ein hochintelligentes PKMN. Wenn es im Flug seine Flügel nach hinten legt, ist es schneller als ein Jet."
-	},
-
-	thirdParty: {
-		cardmarket: 277925,
-		tcgplayer: 86665
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277925,
+				tcgplayer: 86665
+			}
 		},
 		{
 			type: "reverse"

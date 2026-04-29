@@ -80,17 +80,12 @@ const card: Card = {
 
 	retreat: 4,
 
-	description: {
-		en: "Some Pokémon are born on a TORTERRA's back and spend their entire life there.",
-		de: "Manche PKMN werden auf dem Rücken eines CHELTERRAR geboren und verbringen ihr ganzes Leben dort."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 89986,
-				cardmarket: 278460
+				cardmarket: 278460,
+				tcgplayer: 89986
 			}
 		},
 		{

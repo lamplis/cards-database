@@ -51,7 +51,6 @@ const card: Card = {
 		en: "Very protective of its territory. It will bark and bite to repel intruders from its space.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

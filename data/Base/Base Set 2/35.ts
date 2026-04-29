@@ -71,7 +71,6 @@ const card: Card = {
 		en: "When it swings its burning tail, it raises the temperature to unbearably high levels.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

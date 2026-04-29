@@ -83,14 +83,13 @@ const card: Card = {
 		de: "Hat es einmal zugebissenn, lässt es erst los, wenn es seine Zähne verliert, die schnell nachwachsen."
 	},
 
-	thirdParty: {
-		cardmarket: 277673,
-		tcgplayer: 84499
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277673,
+				tcgplayer: 84499
+			}
 		},
 		{
 			type: "reverse",

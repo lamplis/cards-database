@@ -85,14 +85,13 @@ const card: Card = {
 		de: "Mit seinen vier Armen schlägt es blitzschnell zu. Es kann in zwei Sekunden 1 000-mal zuschlagen."
 	},
 
-	thirdParty: {
-		cardmarket: 277530,
-		tcgplayer: 86965
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277530,
+				tcgplayer: 86965
+			}
 		},
 		{
 			type: "reverse"

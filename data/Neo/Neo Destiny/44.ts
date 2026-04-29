@@ -68,7 +68,6 @@ const card: Card = {
 		de: "Es bläst seinen Körper wie einen Ballon auf und singt ein Schlaflied, das alle, die es hören, sofort einschlafen lässt."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

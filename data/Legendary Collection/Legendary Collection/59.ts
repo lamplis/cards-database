@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Always furious and tenacious to boot. It will not abandon chasing its quarry until its quarry is caught."
+		en: "Always furious and tenacious to boot. It will not abandon chasing its quarry until its quarry is caught.",
 	},
 
 	variants: [

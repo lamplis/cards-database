@@ -87,7 +87,6 @@ const card: Card = {
 		de: "Seine Flügel, die sich im Beinbereich entwickelt haben, erlauben ihm zwar, mit hoher Geschwindigkeit zu fliegen, aber machen es kompliziert, gescheit zu sitzen."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

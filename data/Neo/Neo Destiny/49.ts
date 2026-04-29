@@ -85,7 +85,6 @@ const card: Card = {
 		de: "Dieses Pokémon wird nie müde, egal was es tut oder wie hart es arbeitet."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

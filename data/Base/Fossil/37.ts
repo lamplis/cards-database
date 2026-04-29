@@ -81,7 +81,6 @@ const card: Card = {
 		de: "Rollt Hänge hinunter, um sich fortzubewegen. Rollt über jedes Hindernis, ohne sich zu verlangsamen oder seine Richtung zu ändern."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -69,17 +69,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "A Pokémon that startles people in the middle of the night. It gathers fear as its energy.",
-		de: "Ein Pokémon, das Menschen mitten in der Nacht erschreckt. Es sammelt die Angst als seine Energie."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 87509,
-				cardmarket: 278504
+				cardmarket: 278504,
+				tcgplayer: 87509
 			}
 		},
 		{

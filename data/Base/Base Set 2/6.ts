@@ -72,7 +72,6 @@ const card: Card = {
 		en: "Its magical and cute appeal has many admirers. It is rare and found only in certain areas.",
 	},
 
-
 	variants: [
 		{
 			type: "holo",

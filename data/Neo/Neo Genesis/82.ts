@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Dieses Pokémon lebt in kaltem Wasser. Es verlässt das Wasser auf der Suche nach Futter nur dann, wenn es draußen kalt wird."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

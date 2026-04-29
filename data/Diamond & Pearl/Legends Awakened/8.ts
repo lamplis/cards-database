@@ -107,14 +107,13 @@ const card: Card = {
 		de: "Mit seinen Augen kann es durch alles hindurch sehen. So findet es auch Beute, die sich versteckt hat."
 	},
 
-	thirdParty: {
-		cardmarket: 278157,
-		tcgplayer: 86947
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278157,
+				tcgplayer: 86947
+			}
 		},
 		{
 			type: "reverse"

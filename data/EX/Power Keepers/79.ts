@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Wenn sich bereits eine Karte mit diesem Namen im Spiel befindet, kannst du diese Karte nicht spielen. Jeder Spieler bezahlt {C} {C} weniger, um seine {P}-Pokémon zurückzuziehen.",
 	},
 
-	thirdParty: {
-		cardmarket: 277385,
-		tcgplayer: 88010
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277385,
+				tcgplayer: 88010
+			}
 		},
 		{
 			type: "normal",

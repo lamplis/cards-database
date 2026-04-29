@@ -81,14 +81,13 @@ const card: Card = {
 		de: "Das faulste PKMN der Welt. Wenn es faulenzt, sammelt es in Wahrheit Energie, um zuzuschlagen."
 	},
 
-	thirdParty: {
-		cardmarket: 277663,
-		tcgplayer: 89291
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277663,
+				tcgplayer: 89291
+			}
 		},
 		{
 			type: "reverse",

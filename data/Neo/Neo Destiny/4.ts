@@ -82,7 +82,6 @@ const card: Card = {
 		de: "Die Spitzen seines geteilten Schwanzes zittern, wenn es seine psychischen Fähigkeiten dazu nutzt, die nächste Aktion seines Gegners herauszufinden."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

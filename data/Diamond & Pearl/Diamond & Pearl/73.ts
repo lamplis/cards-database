@@ -74,14 +74,13 @@ const card: Card = {
 		de: "Es entrollt seine Ohren sehr schnell, um seine Gegner schmerzhaft zu schlagen."
 	},
 
-	thirdParty: {
-		cardmarket: 277572,
-		tcgplayer: 84037
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277572,
+				tcgplayer: 84037
+			}
 		},
 		{
 			type: "reverse"

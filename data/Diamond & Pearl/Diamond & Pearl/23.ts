@@ -86,14 +86,13 @@ const card: Card = {
 		de: "In seinen Armen steckt so viel Kraft, dass es mit seinen giftigen Krallen Autos zerquetschen kann."
 	},
 
-	thirdParty: {
-		cardmarket: 277522,
-		tcgplayer: 84922
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277522,
+				tcgplayer: 84922
+			}
 		},
 		{
 			type: "reverse"

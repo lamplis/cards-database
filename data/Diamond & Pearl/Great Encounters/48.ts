@@ -83,19 +83,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It dips its large bill in the sea, then scoops up numerous prey along with water.",
-		de: "Es taucht seinen großen Schnabel ins Wasser und fängt so eine Menge Beute."
-	},
-
-	thirdParty: {
-		cardmarket: 277950,
-		tcgplayer: 87977
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277950,
+				tcgplayer: 87977
+			}
 		},
 		{
 			type: "reverse"

@@ -65,10 +65,9 @@ const card: Card = {
 		de: "Wenn die Elektrizität in seinen Backen zu stark abnimmt, streckt es seinen Schwanz steil in die Luft, um Energie aus der Luft aufzunehmen."
 	},
 
-
 	variants: [
 		{
-			type: "holo",
+			type: "normal",
 			thirdParty: {
 				cardmarket: 274763,
 				tcgplayer: 89169

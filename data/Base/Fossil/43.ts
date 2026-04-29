@@ -83,7 +83,6 @@ const card: Card = {
 		de: "Das Muschas, das sich am Schwanz des Flegmon festgesaugt hat, soll sich von den Essensresten seines Wirts ernähren."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -66,17 +66,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Its legs are short. Whenever it stumbles, its stiff antennae clack with a xylophone-like sound.",
-		de: "Seine Beine sind kurz. Stolpert es, klappern seine starren Antennen und klingen wie ein Xylophon."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 86528,
-				cardmarket: 278499
+				cardmarket: 278499,
+				tcgplayer: 86528
 			}
 		},
 		{

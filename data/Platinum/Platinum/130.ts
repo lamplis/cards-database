@@ -71,17 +71,12 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "It tears and shreds prey with its wickedly sharp scythes. It very rarely spreads its wings to fly.",
-		de: "Es zerreißt und zerkleinert seine Beute mit seinen unglaublich scharfen Sicheln. Selten breitet es seine Flügel aus, um zu fliegen."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"holo",
 			thirdParty: {
-				tcgplayer: 89002,
-				cardmarket: 278551
+				cardmarket: 278551,
+				tcgplayer: 89002
 			}
 		}
 	],

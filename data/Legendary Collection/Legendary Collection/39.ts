@@ -64,7 +64,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A Pokémon with a negative attitude, it hides in its shell whenever it's in a bad mood—which is often."
+		en: "A Pokémon with a negative attitude, it hides in its shell whenever it's in a bad mood—which is often.",
 	},
 
 	variants: [

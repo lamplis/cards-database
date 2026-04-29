@@ -84,14 +84,13 @@ const card: Card = {
 		de: "Da es ausschließlich seine Lieblingsfrucht frisst, begann diese, um seinen Hals herumzuwachsen."
 	},
 
-	thirdParty: {
-		cardmarket: 277693,
-		tcgplayer: 90059
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277693,
+				tcgplayer: 90059
+			}
 		},
 		{
 			type: "reverse",

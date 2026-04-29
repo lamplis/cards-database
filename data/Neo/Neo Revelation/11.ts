@@ -77,7 +77,6 @@ const card: Card = {
 		de: "Es spielt gerne fiese Streiche, wie nachts zu heulen und laut zu klagen, um andere Leute zu erschrecken."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

@@ -91,7 +91,6 @@ const card: Card = {
 		de: "Dank Fortschritten in der Technologie konnte es sich weiterentwickeln. Ab und zu zeigt es ein Verhalten, das nicht so in der Programmierung drin ist."
 	},
 
-
 	variants: [
 		{
 			type: "holo",
