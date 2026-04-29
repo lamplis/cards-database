@@ -78,15 +78,11 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
-			subtype: "1999-2000-copyright",
+			subtype: "unlimited",
 			thirdParty: {
 				cardmarket: 273702,
 				tcgplayer: 42415
 			}
-		},
-		{
-			type: "holo",
-			subtype: "unlimited"
 		},
 		{
 			type: "holo",
@@ -103,6 +99,10 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 660221
 			}
+		},
+		{
+			type: "holo",
+			subtype: "1999-2000-copyright"
 		}
 	],
 
