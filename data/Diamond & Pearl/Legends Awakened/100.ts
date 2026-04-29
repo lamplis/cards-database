@@ -76,14 +76,13 @@ const card: Card = {
 		de: "Seine Beine können die doppelte Länge annehmen. Gegner, die das nicht wissen, erschrecken."
 	},
 
-	thirdParty: {
-		cardmarket: 278249,
-		tcgplayer: 86106
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278249,
+				tcgplayer: 86106
+			}
 		},
 		{
 			type: "reverse"

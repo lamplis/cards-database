@@ -72,7 +72,6 @@ const card: Card = {
 		en: "Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse.",
 	},
 
-
 	variants: [
 		{
 			type: "holo",

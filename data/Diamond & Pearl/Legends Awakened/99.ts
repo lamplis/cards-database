@@ -77,14 +77,13 @@ const card: Card = {
 		de: "Die Schläge, die es austeilt, können Beton pulverisieren. Es muss sich im Kampf alle 3 Minuten ausruhen."
 	},
 
-	thirdParty: {
-		cardmarket: 278248,
-		tcgplayer: 86093
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278248,
+				tcgplayer: 86093
+			}
 		},
 		{
 			type: "reverse"

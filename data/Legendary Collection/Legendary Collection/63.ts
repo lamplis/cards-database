@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Capable of swimming backward by rapidly flapping its wing-like pectoral fins and stout tail."
+		en: "Capable of swimming backward by rapidly flapping its wing-like pectoral fins and stout tail.",
 	},
 
 	variants: [

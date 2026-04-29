@@ -61,7 +61,6 @@ const card: Card = {
 		de: "Sein Fell wächst andauernd. Im Sommer wird es komplett geschoren, aber nach einer Woche ist das Fell schon wieder da."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -82,4 +81,3 @@ const card: Card = {
 }
 
 export default card
-

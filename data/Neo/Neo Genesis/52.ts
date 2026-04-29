@@ -91,7 +91,6 @@ const card: Card = {
 		de: "Es wird gesagt, dass es still und ruhig bleibt, weil es sowohl die Vergangenheit als auch die Zukunft gleichzeitig sieht."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -72,7 +72,6 @@ const card: Card = {
 		de: "Da es auf seinen gerade gewachsenen Beinen nicht laufen kann, schwimmt es immer im Wasser umher."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -93,4 +92,3 @@ const card: Card = {
 }
 
 export default card
-

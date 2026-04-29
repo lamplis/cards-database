@@ -83,14 +83,13 @@ const card: Card = {
 		de: "Es lebt in ausgetrockneten Gebieten. Statt zu schwitzen, sondert sein Körper Sand ab."
 	},
 
-	thirdParty: {
-		cardmarket: 277550,
-		tcgplayer: 86078
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277550,
+				tcgplayer: 86078
+			}
 		},
 		{
 			type: "reverse"

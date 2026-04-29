@@ -100,14 +100,13 @@ const card: Card = {
 		de: "In alten Zeiten glaubte man, das Heulen dieses PKMN sei der Ruf des Todes."
 	},
 
-	thirdParty: {
-		cardmarket: 278206,
-		tcgplayer: 86208
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278206,
+				tcgplayer: 86208
+			}
 		},
 		{
 			type: "reverse"

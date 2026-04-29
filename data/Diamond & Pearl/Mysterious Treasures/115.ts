@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Du kannst in jedem Zug nur eine Unterstützerkarte spielen. Wenn du diese Karte ausspielst, lege sie neben dein Aktives Pokémon. Lege diese Karte am Ende deines Zuges auf deinen Ablagestapel. Jeder Spieler mischt seine Handkarten zurück in sein Deck. Du und dein Gegner spielen „Stein-Schere-Papier“. Der Gewinner zieht bis zu 6 Karten, der Verlierer bis zu 3 Karten. (Du ziehst zuerst.)",
 	},
 
-	thirdParty: {
-		cardmarket: 277744,
-		tcgplayer: 89811
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277744,
+				tcgplayer: 89811
+			}
 		},
 		{
 			type: "reverse",

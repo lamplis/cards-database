@@ -92,14 +92,13 @@ const card: Card = {
 		de: "Dieser Grobian ergreift andere PKMN mit seinen Scheren und wirft sie aus seinem Teich."
 	},
 
-	thirdParty: {
-		cardmarket: 278171,
-		tcgplayer: 84464
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278171,
+				tcgplayer: 84464
+			}
 		},
 		{
 			type: "reverse"

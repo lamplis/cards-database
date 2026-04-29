@@ -79,7 +79,6 @@ const card: Card = {
 		de: "Wenn die Nacht hereinbricht, füllt sich die Luft mit den schaurigen Schreien dieses Pokémon, das sein Revier markiert."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

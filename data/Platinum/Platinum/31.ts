@@ -74,17 +74,12 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "It uses unique fighting moves with fires on its hands and feet. It will take on any opponent.",
-		de: "Es verwendet einzigartige Attacken mit dem Feuer an seinen Händen und Füßen. Stellt sich jedem Gegner."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 86277,
-				cardmarket: 278452
+				cardmarket: 278452,
+				tcgplayer: 86277
 			}
 		},
 		{

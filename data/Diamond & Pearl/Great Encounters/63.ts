@@ -66,19 +66,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It releases a stench from its red antenna to repel enemies. It grows by molting repeatedly.",
-		de: "Seine roten Antennen sondern einen Gestank ab, der Feinde verjagt. Es wächst, indem es sich häutet."
-	},
-
-	thirdParty: {
-		cardmarket: 277965,
-		tcgplayer: 84137
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277965,
+				tcgplayer: 84137
+			}
 		},
 		{
 			type: "reverse"

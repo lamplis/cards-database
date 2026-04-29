@@ -66,17 +66,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.",
-		de: "Es fällt leider oft hin. Allerdings ist es sehr stolz und so rappelt es sich immer wieder ohne Sorge auf."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 88149,
-				cardmarket: 278506
+				cardmarket: 278506,
+				tcgplayer: 88149
 			}
 		},
 		{

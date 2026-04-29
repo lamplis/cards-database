@@ -77,17 +77,12 @@ const card: Card = {
 
 	retreat: 3,
 
-	description: {
-		en: "It brought rains by opening portals to another world. It was revered as a bringer of plentiful harvests.",
-		de: "Ihm wurden reiche Ernten zugeschrieben, da es durch Portale in andere Welten Regenfälle brachte."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 83996,
-				cardmarket: 278886
+				cardmarket: 278886,
+				tcgplayer: 83996
 			}
 		},
 		{

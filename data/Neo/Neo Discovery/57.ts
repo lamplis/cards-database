@@ -63,7 +63,6 @@ const card: Card = {
 		de: "Es ernährt sich von Erde. Nachdem es einen größeren Berg gegessen hat, schäft es ein, um zu wachsen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -84,4 +83,3 @@ const card: Card = {
 }
 
 export default card
-

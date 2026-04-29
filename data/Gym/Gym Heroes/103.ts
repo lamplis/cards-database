@@ -11,15 +11,13 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	effect: {
-		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. A player must discard 2 cards from his or her hand in order to play an Energy Removal or Super Energy Removal card."
-	},
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 87789,
-			},
+				cardmarket: 274239,
+				tcgplayer: 87789
+			}
 		},
 		{
 			type: "normal",
@@ -34,4 +32,3 @@ const card: Card = {
 }
 
 export default card
-

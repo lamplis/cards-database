@@ -75,18 +75,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on touch.",
-	},
-
-	thirdParty: {
-		cardmarket: 277870,
-		tcgplayer: 90418
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277870,
+				tcgplayer: 90418
+			}
 		},
 		{
 			type: "reverse",

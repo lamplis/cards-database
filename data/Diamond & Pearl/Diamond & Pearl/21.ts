@@ -86,14 +86,13 @@ const card: Card = {
 		de: "Sein süßlich riechender Speichel zieht Beute an, die es frisst. Es braucht einen Tag, sie zu fressen."
 	},
 
-	thirdParty: {
-		cardmarket: 277520,
-		tcgplayer: 84099
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277520,
+				tcgplayer: 84099
+			}
 		},
 		{
 			type: "reverse"

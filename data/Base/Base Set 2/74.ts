@@ -65,7 +65,6 @@ const card: Card = {
 		en: "Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

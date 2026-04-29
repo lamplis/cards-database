@@ -79,17 +79,12 @@ const card: Card = {
 
 	retreat: 4,
 
-	description: {
-		en: "The long tongue is always soggy with slobber. The saliva contains a solvent that causes numbness.",
-		de: "Die lange Zunge ist immer feucht. Ihr Speichel enthält eine Substanz, die Taubheit hervorrufen kann."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 86713,
-				cardmarket: 278454
+				cardmarket: 278454,
+				tcgplayer: 86713
 			}
 		},
 		{

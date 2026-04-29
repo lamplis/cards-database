@@ -64,15 +64,10 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "Its hardy vitality enables it to adapt to any environment. Its pincers will never release prey."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 84436,
 				cardmarket: 278791
 			}
 		},

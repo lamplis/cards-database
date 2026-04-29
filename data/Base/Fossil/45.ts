@@ -88,7 +88,6 @@ const card: Card = {
 		de: "Wo zwei Arten von Giftwolken aufeinandertreffen, vereinigen sich über Jahre hinweg zwei Smogons in ein Smogmog."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

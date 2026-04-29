@@ -91,14 +91,13 @@ const card: Card = {
 		de: "Jeder Frontalangriff wird abgeschmettert. Dieses friedliche PKMN ernährt sich von Gras und Beeren."
 	},
 
-	thirdParty: {
-		cardmarket: 277650,
-		tcgplayer: 93321
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277650,
+				tcgplayer: 93321
+			}
 		},
 		{
 			type: "reverse",

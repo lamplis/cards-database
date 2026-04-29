@@ -84,14 +84,13 @@ const card: Card = {
 		de: "Es ernährt sich von Eiern, die es aus Nestern stiehlt. Beute greift es mit seinen scharfen Krallen an."
 	},
 
-	thirdParty: {
-		cardmarket: 277599,
-		tcgplayer: 89369
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277599,
+				tcgplayer: 89369
+			}
 		},
 		{
 			type: "reverse"

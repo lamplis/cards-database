@@ -70,10 +70,9 @@ const card: Card = {
 		damage: 50
 	}],
 
-
 	variants: [
 		{
-			type: "holo",
+			type: "normal",
 			thirdParty: {
 				cardmarket: 274765,
 				tcgplayer: 89171

@@ -77,17 +77,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It lives in flower patches and avoids detection by curling up to look like a flowering plant.",
-		de: "Es lebt auf Blumenwiesen und rollt sich ein, um wie eine Blume auszusehen und nicht entdeckt zu werden."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"holo",
 			thirdParty: {
-				tcgplayer: 89108,
-				cardmarket: 278435
+				cardmarket: 278435,
+				tcgplayer: 89108
 			}
 		},
 		{

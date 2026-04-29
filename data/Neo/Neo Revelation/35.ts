@@ -81,7 +81,6 @@ const card: Card = {
 		type: "Pokemon Power"
 	}],
 
-
 	variants: [
 		{
 			type: "normal",
@@ -102,4 +101,3 @@ const card: Card = {
 }
 
 export default card
-

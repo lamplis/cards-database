@@ -64,7 +64,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison."
+		en: "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
 	},
 
 	variants: [

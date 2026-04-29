@@ -71,17 +71,15 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "It loves sparkly things. It seeks treasures in caves and hoards the loot in its nest."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 85599,
-				cardmarket: 449558
+				cardmarket: 278750
 			}
+		},
+		{
+			type: "reverse"
 		},
 		{
 			type: "reverse",

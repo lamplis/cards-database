@@ -70,19 +70,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It sneaks through grass without making a sound and strikes unsuspecting prey from behind.",
-		de: "Es bewegt sich ohne einen Laut durch das Gras und greift seine ahnungslose Beute von hinten an."
-	},
-
-	thirdParty: {
-		cardmarket: 277968,
-		tcgplayer: 85103
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277968,
+				tcgplayer: 85103
+			}
 		},
 		{
 			type: "reverse"

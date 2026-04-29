@@ -79,7 +79,6 @@ const card: Card = {
 		en: "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -85,7 +85,6 @@ const card: Card = {
 		de: "Wer sich ihr Geweih zu genau anschaut, verliert die Kontrolle über seine Sinne und bekommt Probleme, gerade zu stehen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -106,4 +105,3 @@ const card: Card = {
 }
 
 export default card
-

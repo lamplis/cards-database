@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Lege Kristallsplitter an 1 deiner Pokémon an, an dem noch keine Pokémon-Ausrüstung anliegt. Wenn das Pokémon, an das Kristallsplitter angelegt ist, kampfunfähig gemacht wird, lege Kristallsplitter auf den Ablagestapel. Solange diese Karte an ein Pokémon angelegt ist, erhält das Pokémon den Typ {C}. Wenn das Pokémon angreift, lege diese Karte am Ende deines Zuges auf deinen Ablagestapel."
 	},
 
-	thirdParty: {
-		cardmarket: 277157,
-		tcgplayer: 84521
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277157,
+				tcgplayer: 84521
+			}
 		},
 		{
 			type: "normal",

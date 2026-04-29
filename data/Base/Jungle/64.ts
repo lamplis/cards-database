@@ -21,7 +21,6 @@ const card: Card = {
 		de: "Wirf eine Münze. Bei „Kopf“ darfst du dein Deck nach einer beliebigen Basis-Pokémon- oder Evolutionskarte durchsuchen. Zeige diese Karte deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

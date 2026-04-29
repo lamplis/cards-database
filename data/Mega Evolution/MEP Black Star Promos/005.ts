@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shimaris Yukichi",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],
@@ -66,8 +66,8 @@ const card: Card = {
 				cardmarket: 851051,
 				tcgplayer: 656255
 			}
-		},
-	],
+		}
+	]
 }
 
 export default card

@@ -93,7 +93,6 @@ const card: Card = {
 		de: "Obwohl sein Fell viele Bewunderer findet, ist es wegen seiner launischen Gemeinheit schwer als Haustier zu halten."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

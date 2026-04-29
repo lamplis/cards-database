@@ -77,14 +77,13 @@ const card: Card = {
 		de: "Es schlägt mit Krallen zu oder schnurrt, je nachdem, ob es gerade wütend oder zutraulich ist."
 	},
 
-	thirdParty: {
-		cardmarket: 277582,
-		tcgplayer: 85758
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277582,
+				tcgplayer: 85758
+			}
 		},
 		{
 			type: "reverse"

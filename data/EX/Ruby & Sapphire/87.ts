@@ -20,13 +20,11 @@ const card: Card = {
 		de: "Wirf eine Münze. Bei „Kopf“ tauscht der Gegner 1 seiner Aktiven Pokémon gegen ein Pokémon auf seiner Bank aus."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 275735,
-				tcgplayer: 88237
+				cardmarket: 275735
 			}
 		},
 		{

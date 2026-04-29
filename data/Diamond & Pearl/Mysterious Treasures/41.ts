@@ -90,14 +90,13 @@ const card: Card = {
 		de: "Die Knospen an seinem Hals geben ein würziges Aroma ab, das andere aufheitert."
 	},
 
-	thirdParty: {
-		cardmarket: 277670,
-		tcgplayer: 83747
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277670,
+				tcgplayer: 83747
+			}
 		},
 		{
 			type: "reverse",

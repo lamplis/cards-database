@@ -48,7 +48,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A strange seed was planted on its back at birth. Thus, a plant sprouted and now grows with this Pokémon."
+		en: "A strange seed was planted on its back at birth. Thus, a plant sprouted and now grows with this Pokémon.",
 	},
 
 	variants: [

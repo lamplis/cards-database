@@ -83,7 +83,6 @@ const card: Card = {
 		de: "Oft mit Eiern verwechselt. Wenn sie gestört werden, sammeln sie sich und greifen in Geschwadern an."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

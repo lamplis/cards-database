@@ -20,18 +20,13 @@ const card: Card = {
 		de: "Search your deck for up to 3 cards in any combination of Supporter cards and Stadium cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
 	},
 
-	thirdParty: {
-		tcgplayer: 88975,
-		cardmarket: 276595
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 88975,
-				cardmarket: 276595
-			},
+				cardmarket: 276595,
+				tcgplayer: 88975
+			}
 		},
 		{
 			type: "reverse",

@@ -14,9 +14,6 @@ const card: Card = {
 	set: Set,
 	energyType: "Normal",
 
-	hp: 0,
-
-	retreat: 0,
 	variants: [
 		{
 			type: "normal",
@@ -24,8 +21,10 @@ const card: Card = {
 				cardmarket: 279090,
 				tcgplayer: 86768
 			}
-		},
+		}
 	],
+
+	hp: 0,
 
 }
 

@@ -62,7 +62,6 @@ const card: Card = {
 		en: "A carnivorous Pokémon that traps and eats bugs. It uses its root feet to soak up needed moisture.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

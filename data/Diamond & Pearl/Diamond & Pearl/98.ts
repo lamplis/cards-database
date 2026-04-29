@@ -67,14 +67,13 @@ const card: Card = {
 		de: "In Gefahr blendet es seinen Gegner mit seinem Fell und flieht, während der Gegner einen Moment blind ist."
 	},
 
-	thirdParty: {
-		cardmarket: 277597,
-		tcgplayer: 89172
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277597,
+				tcgplayer: 89172
+			}
 		},
 		{
 			type: "reverse"

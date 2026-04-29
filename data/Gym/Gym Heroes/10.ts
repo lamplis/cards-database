@@ -61,12 +61,14 @@ const card: Card = {
 			value: "x2"
 		},
 	],
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
-				tcgplayer: 87552,
-			},
+				cardmarket: 274146,
+				tcgplayer: 87552
+			}
 		},
 		{
 			type: "holo",

@@ -89,7 +89,6 @@ const card: Card = {
 		de: "Es ist eigentlich furchtsam und lässt sich leicht erschrecken. Wenn es angegriffen wird, schlägt es wild um sich, um den Angreifer abzuwehren."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

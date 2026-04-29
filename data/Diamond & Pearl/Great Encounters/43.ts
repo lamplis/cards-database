@@ -74,19 +74,13 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "It charges prey at speeds over 60 mph. However, because it can only run straight, it often fails.",
-		de: "Es stürzt sich mit 100 km/h auf Beute. Aber es kann nur geradeaus laufen und die Jagd misslingt oft."
-	},
-
-	thirdParty: {
-		cardmarket: 277945,
-		tcgplayer: 86807
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277945,
+				tcgplayer: 86807
+			}
 		},
 		{
 			type: "reverse"

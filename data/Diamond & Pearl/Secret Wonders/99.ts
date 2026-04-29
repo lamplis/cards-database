@@ -74,18 +74,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.",
-	},
-
-	thirdParty: {
-		cardmarket: 277852,
-		tcgplayer: 88050
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277852,
+				tcgplayer: 88050
+			}
 		},
 		{
 			type: "reverse",

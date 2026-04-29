@@ -73,18 +73,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It grips prey with its pincers until the prey is torn in half. What it can't tear, it tosses far.",
-	},
-
-	thirdParty: {
-		cardmarket: 277812,
-		tcgplayer: 88137
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277812,
+				tcgplayer: 88137
+			}
 		},
 		{
 			type: "reverse",

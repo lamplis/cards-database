@@ -81,7 +81,6 @@ const card: Card = {
 		de: "Sein wuscheliges Flies speichert Energie problemlos. Seine borstige Haut sorgt dafür, dass es sich nicht selber unter Strom setzen kann."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -102,4 +101,3 @@ const card: Card = {
 }
 
 export default card
-

@@ -67,7 +67,6 @@ const card: Card = {
 		en: "If it fails to crush the victim in its pincers, it will swing its victim around and toss it hard.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

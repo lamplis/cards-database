@@ -78,19 +78,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.",
-		de: "In Gefahr blendet es seinen Gegner mit seinem Fell und flieht, während der Gegner einen Moment blind ist."
-	},
-
-	thirdParty: {
-		cardmarket: 278267,
-		tcgplayer: 89174
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278267,
+				tcgplayer: 89174
+			}
 		},
 		{
 			type: "reverse"

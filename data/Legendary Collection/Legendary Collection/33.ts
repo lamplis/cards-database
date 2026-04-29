@@ -69,10 +69,6 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp."
-	},
-
 	variants: [
 		{
 			type: "reverse",

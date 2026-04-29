@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Mische dein Deck und decke dann die obersten drei Karten davon auf. Falls mindestens zwei dieser Karten den gleichen Namen haben, nimm alle Karten mit diesem Namen auf deine Hand und mische den Rest in dein Deck. Falls keine den gleichen Namen haben, mische alle drei in dein Deck."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

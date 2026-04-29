@@ -77,7 +77,6 @@ const card: Card = {
 		de: "Man sieht es oft mit den Pfoten überm Kopf, als ob es Kopfweh hätte."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

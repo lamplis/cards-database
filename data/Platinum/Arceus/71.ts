@@ -69,17 +69,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
-		de: "Es verwendet hin und wieder Elektrizität, um ein anderes, geschwächtes PIKACHU aufzuladen."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 88094,
-				cardmarket: 278943
+				cardmarket: 278943,
+				tcgplayer: 88094
 			}
 		},
 		{

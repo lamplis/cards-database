@@ -14,11 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Each player pays Colorless more to retreat a Baby Pokémon or Basic Pokémon.",
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-vous de cette carte si une autre carte Stade arrive en jeu.\n\nChaque joueur paie {C} supplémentaire pour faire battre en retraite un Bébé Pokémon ou un Pokémon de base.",
-		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Jeder Spieler bezahlt {C} mehr, um ein Baby-Pokémon oder ein Basis-Pokémon zurückzuziehen."
+		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez -vous de cette carte si une autre carte Stade arrive en jeu.",
+		de: "Each player pays  more to retreat a Baby Pokémon or Basic Pokémon.",
 	},
-
 
 	variants: [
 		{

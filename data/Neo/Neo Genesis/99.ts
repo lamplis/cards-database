@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Lege Beere an eines deiner Pokémon an, das keine Pokémon-Ausrüstung hat. Wenn zu irgendeinem Zeitpunkt zwischen den Zügen mindestens zwei Schadensmarken auf dem Pokémon liegen, an das du Beere angelegt hast, kannst du zwei von ihnen entfernen. Lege dann Beere ab. Wenn zu Beginn eines Zugs mindestens zwei Schadensmarken auf dem Pokémon liegen, an das du Beere angelegt hast, entferne zwei von ihnen und lege Beere ab."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

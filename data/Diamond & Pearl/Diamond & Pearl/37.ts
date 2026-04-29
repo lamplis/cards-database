@@ -79,14 +79,13 @@ const card: Card = {
 		de: "Sein Magen kann jede Art von Nahrung verdauen, selbst wenn sie verschimmelt und verdorben ist."
 	},
 
-	thirdParty: {
-		cardmarket: 277536,
-		tcgplayer: 89389
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277536,
+				tcgplayer: 89389
+			}
 		},
 		{
 			type: "reverse"

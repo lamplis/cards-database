@@ -61,15 +61,10 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "It rarely fights fairly, but that is strictly to ensure survival. It is popular as a mascot."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 84477,
 				cardmarket: 278792
 			}
 		},

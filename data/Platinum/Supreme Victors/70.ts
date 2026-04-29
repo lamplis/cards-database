@@ -76,16 +76,11 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "Its lovely scales are described as rainbow colored. They change color depending on the viewing angle."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 87455,
-				cardmarket: 882910
+				cardmarket: 278689
 			}
 		},
 		{

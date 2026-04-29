@@ -97,8 +97,21 @@ const card: Card = {
 			value: "-20"
 		},
 	],
-	retreat: 0,
+
 	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278579,
+				tcgplayer: 85526
+			}
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		},
 		{
 			type: "holo",
 			thirdParty: {

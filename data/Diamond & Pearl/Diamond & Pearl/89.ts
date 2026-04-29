@@ -77,14 +77,13 @@ const card: Card = {
 		de: "Es isst gerade mal eine Beere am Tag. Durch Hunger wird sein Geist ruhiger und schärfer."
 	},
 
-	thirdParty: {
-		cardmarket: 277588,
-		tcgplayer: 87284
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277588,
+				tcgplayer: 87284
+			}
 		},
 		{
 			type: "reverse"

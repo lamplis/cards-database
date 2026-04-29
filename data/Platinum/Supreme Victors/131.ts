@@ -72,15 +72,10 @@ const card: Card = {
 	],
 	retreat: 2,
 
-	description: {
-		en: "The shell on its back is made of soil. On a very healthy Turtwig, the shell should feel moist."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 90079,
 				cardmarket: 278822
 			}
 		},

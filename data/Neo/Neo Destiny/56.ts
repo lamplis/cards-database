@@ -77,7 +77,6 @@ const card: Card = {
 		de: "Es wird behauptet, dass seine Haut Fröhlichkeit enthält, die es gerne mit allen teilt, die nett zu ihm sind."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

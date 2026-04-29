@@ -83,7 +83,6 @@ const card: Card = {
 		de: "Obwohl Rasaffs schon immer gemein gewesen sind, scheinen sie in neuester Zeit sogar noch bösartiger und frenetischer zu werden."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

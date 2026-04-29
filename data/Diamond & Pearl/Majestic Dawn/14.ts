@@ -79,19 +79,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts.",
-		de: "Ein Legendäres Vogel-Pokémon, das in Gewitterwolken leben soll. Es kontrolliert Blitze."
-	},
-
-	thirdParty: {
-		cardmarket: 278063,
-		tcgplayer: 90717
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278063,
+				tcgplayer: 90717
+			}
 		},
 		{
 			type: "reverse"

@@ -90,14 +90,12 @@ const card: Card = {
 			value: "+30"
 		},
 	],
-	retreat: 0,
 
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
-				tcgplayer: 85623,
-				cardmarket: 449568
+				cardmarket: 278696
 			}
 		},
 		{

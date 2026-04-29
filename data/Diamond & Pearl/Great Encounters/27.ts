@@ -78,19 +78,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It grows angry if you see its eyes and gets angrier if you run. If you beat it, it gets even madder.",
-		de: "Siehst du ihm in die Augen, wird es wütend. Rennst du weg, wird es noch wütender. Ärgerst du es..."
-	},
-
-	thirdParty: {
-		cardmarket: 277929,
-		tcgplayer: 88363
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277929,
+				tcgplayer: 88363
+			}
 		},
 		{
 			type: "reverse"

@@ -94,14 +94,13 @@ const card: Card = {
 		de: "Man sagt, es lebe in den Meeren. Es bringt Schiffbrüchige sicher an Land."
 	},
 
-	thirdParty: {
-		cardmarket: 278151,
-		tcgplayer: 84913
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278151,
+				tcgplayer: 84913
+			}
 		},
 		{
 			type: "reverse"

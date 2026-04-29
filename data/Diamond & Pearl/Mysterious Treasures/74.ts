@@ -68,14 +68,13 @@ const card: Card = {
 		de: "Sein Körper sieht aus, als seien Teile davon in alten Gräbern gefunden worden."
 	},
 
-	thirdParty: {
-		cardmarket: 277703,
-		tcgplayer: 84001
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277703,
+				tcgplayer: 84001
+			}
 		},
 		{
 			type: "reverse",

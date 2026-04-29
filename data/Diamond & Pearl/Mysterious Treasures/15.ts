@@ -88,14 +88,13 @@ const card: Card = {
 		de: "Bei zu viel Elektrizität im Körper wird es aggressiv. Es entlädt sich über seinen Schweif."
 	},
 
-	thirdParty: {
-		cardmarket: 277644,
-		tcgplayer: 88510
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277644,
+				tcgplayer: 88510
+			}
 		},
 		{
 			type: "reverse",

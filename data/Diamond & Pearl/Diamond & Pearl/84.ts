@@ -74,14 +74,13 @@ const card: Card = {
 		de: "Es schwimmt elegant und bewegt seine Hinterflosse wie ein Kleid. Es sieht aus wie eine Königin."
 	},
 
-	thirdParty: {
-		cardmarket: 277583,
-		tcgplayer: 85807
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277583,
+				tcgplayer: 85807
+			}
 		},
 		{
 			type: "reverse"

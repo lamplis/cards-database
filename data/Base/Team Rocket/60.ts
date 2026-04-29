@@ -75,7 +75,6 @@ const card: Card = {
 		de: "Man sagt, dass genügend Magnetilos und Magnetons zusammen an einem Ort eine starke magnetische Barriere errichten können."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

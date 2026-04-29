@@ -86,7 +86,6 @@ const card: Card = {
 		de: "Diese Pokémon mögen elektrische Ausstrahlung und folgen daher oft Leuten, die PokéGear verwenden."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -105,4 +104,3 @@ const card: Card = {
 }
 
 export default card
-

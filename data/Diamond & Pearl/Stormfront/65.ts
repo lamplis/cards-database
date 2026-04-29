@@ -74,14 +74,13 @@ const card: Card = {
 		de: "Man sagt, es sei das schwächste PKMN der Welt. Niemand weiß, wie es bisher überleben konnte."
 	},
 
-	thirdParty: {
-		cardmarket: 278363,
-		tcgplayer: 87030
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278363,
+				tcgplayer: 87030
+			}
 		},
 		{
 			type: "reverse"

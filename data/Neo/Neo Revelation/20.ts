@@ -73,7 +73,6 @@ const card: Card = {
 		de: "Es soll der Wächter der Meere sein. Es gibt Gerüchte, dass es immer in der Nacht vor einem Sturm gesehen wird."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -94,4 +93,3 @@ const card: Card = {
 }
 
 export default card
-

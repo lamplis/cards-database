@@ -61,7 +61,6 @@ const card: Card = {
 		de: "Das Einfangen des ersten Dratini inspirierte die Suche nach anderen legendären Pokémon."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

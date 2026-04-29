@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Bei Vollmond ahmt dieses Pokémon gerne die Schatten von Passanten nach und freut sich über deren Angst."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

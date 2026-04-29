@@ -90,7 +90,6 @@ const card: Card = {
 		de: "Sehr beliebt bei Frauen wegen seines schönen Pelzes. Der Anführer der Rockets hält eines als Haustier."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

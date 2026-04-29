@@ -61,7 +61,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When in a hurry, its legs lengthen progressively. It runs smoothly with extra long, loping strides."
+		en: "When in a hurry, its legs lengthen progressively. It runs smoothly with extra long, loping strides.",
 	},
 
 	variants: [

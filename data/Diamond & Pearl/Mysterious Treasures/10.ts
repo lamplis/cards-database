@@ -91,14 +91,13 @@ const card: Card = {
 		de: "Ein nachtaktives PKMN, das sich in Schwärmen mit KRAMURX durch die Nacht bewegt."
 	},
 
-	thirdParty: {
-		cardmarket: 277639,
-		tcgplayer: 86159
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277639,
+				tcgplayer: 86159
+			}
 		},
 		{
 			type: "reverse",

@@ -52,7 +52,6 @@ const card: Card = {
 		en: "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

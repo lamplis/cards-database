@@ -74,17 +74,12 @@ const card: Card = {
 
 	retreat: 4,
 
-	description: {
-		en: "It loves to match power with big-bodied Pokémon. It can knock a truck flying with its arm thrusts.",
-		de: "Es liebt das Kräftemessen mit großen PKMN. Mit seinem Armwurf kann es LKW durch die Luft werfen."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 86015,
-				cardmarket: 278892
+				cardmarket: 278892,
+				tcgplayer: 86015
 			}
 		},
 		{

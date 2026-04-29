@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Es blendet seine Beute mit einem starken Blitz und schluckt sie dann in einem Bissen ganz herunter."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -105,4 +104,3 @@ const card: Card = {
 }
 
 export default card
-

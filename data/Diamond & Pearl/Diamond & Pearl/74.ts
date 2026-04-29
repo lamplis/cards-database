@@ -83,14 +83,13 @@ const card: Card = {
 		de: "Es kann die menschliche Sprache lernen. Versammeln sie sich, bringen sie sich alle dasselbe bei."
 	},
 
-	thirdParty: {
-		cardmarket: 277573,
-		tcgplayer: 84239
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277573,
+				tcgplayer: 84239
+			}
 		},
 		{
 			type: "reverse"

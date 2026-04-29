@@ -79,19 +79,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "A legendary bird Pokémon. It can create blizzards by freezing moisture in the air.",
-		de: "Ein Legendäres Vogel-Pokémon. Es kann Blizzards verursachen, indem es Feuchtigkeit gefriert."
-	},
-
-	thirdParty: {
-		cardmarket: 278050,
-		tcgplayer: 83649
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278050,
+				tcgplayer: 83649
+			}
 		},
 		{
 			type: "reverse"

@@ -76,7 +76,6 @@ const card: Card = {
 		de: "Ein Fleischfresser, der seine Beute ganz verschlingt. Taubsis und Habitaks sind sein Lieblingsfutter."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

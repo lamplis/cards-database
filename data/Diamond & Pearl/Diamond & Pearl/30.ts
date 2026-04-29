@@ -84,14 +84,13 @@ const card: Card = {
 		de: "Ein sehr vorsichtiges PKMN. Nimmt es Gefahr wahr, schützt es seinen Körper mit seinen weichen Ohren."
 	},
 
-	thirdParty: {
-		cardmarket: 277529,
-		tcgplayer: 86823
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277529,
+				tcgplayer: 86823
+			}
 		},
 		{
 			type: "reverse"

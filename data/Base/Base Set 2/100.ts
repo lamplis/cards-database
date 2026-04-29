@@ -52,7 +52,6 @@ const card: Card = {
 		en: "Often found in forests, eating leaves. It has a sharp, venomous stinger on its head.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

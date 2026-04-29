@@ -86,19 +86,13 @@ const card: Card = {
 
 	retreat: 3,
 
-	description: {
-		en: "The shell is hardened soil. Some Pokémon come to peck the berries growing on the trees on its back.",
-		de: "Seine Schale ist harter Lehm. PKMN naschen von den Beeren in den Bäumen auf seinem Rücken."
-	},
-
-	thirdParty: {
-		cardmarket: 278086,
-		tcgplayer: 85917
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278086,
+				tcgplayer: 85917
+			}
 		},
 		{
 			type: "reverse"

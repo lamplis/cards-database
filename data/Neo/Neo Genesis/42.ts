@@ -85,7 +85,6 @@ const card: Card = {
 		de: "Seine Augen sind besonders angepasst. Sie erfassen sogar schwaches Licht und ermöglichen ihm dadurch, in der Dunkelheit zu sehen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

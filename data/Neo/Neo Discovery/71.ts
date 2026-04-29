@@ -80,7 +80,6 @@ const card: Card = {
 		de: "Wenn es auf dem Land umherwandert, überzieht sich sein Körper mit einer schleimigen, giftigen Schicht."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -101,4 +100,3 @@ const card: Card = {
 }
 
 export default card
-

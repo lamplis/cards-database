@@ -85,14 +85,13 @@ const card: Card = {
 		de: "Wenn es hungrig ist, knackt es Nüsse mit seinen beiden Schweifen. Nur selten verwendet es die Arme."
 	},
 
-	thirdParty: {
-		cardmarket: 277632,
-		tcgplayer: 83526
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277632,
+				tcgplayer: 83526
+			}
 		},
 		{
 			type: "reverse",

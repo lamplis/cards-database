@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Wähle eines deiner Pokémon. Wirf zwei Münzen. Entferne zwei Schadensmarken mal der Anzahl „Kopf“ von diesem Pokémon. Falls das Pokémon weniger Schadensmarken hat, entferne alle."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

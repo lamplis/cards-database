@@ -67,7 +67,6 @@ const card: Card = {
 		de: "Ein beliebtes Pokémon, das für seinen Besitzer mit seiner Fähigkeit „Zahltag“ Geld verdient."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

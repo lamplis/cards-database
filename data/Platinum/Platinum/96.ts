@@ -62,17 +62,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "It shelters itself in its shell, then strikes back with spouts of water at every opportunity.",
-		de: "Es zieht sich in seinen Panzer zurück und greift dann mit Wasserstrahlen seine Gegner an."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"normal",
 			thirdParty: {
-				tcgplayer: 89495,
-				cardmarket: 278517
+				cardmarket: 278517,
+				tcgplayer: 89495
 			}
 		},
 		{

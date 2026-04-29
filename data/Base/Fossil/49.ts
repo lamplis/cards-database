@@ -58,7 +58,6 @@ const card: Card = {
 		de: "Es ist dafür bekannt, fliegende Insekten mit einem präzisen Tintenstrahl von der Wasseroberfläche aus abzuschießen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

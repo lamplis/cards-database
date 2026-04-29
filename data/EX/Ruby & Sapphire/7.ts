@@ -75,8 +75,8 @@ const card: Card = {
 
 	retreat: 2,
 
-
-	variants: [		{
+	variants: [
+		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 275655,

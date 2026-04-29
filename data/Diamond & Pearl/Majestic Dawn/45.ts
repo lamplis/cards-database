@@ -84,19 +84,13 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "It can loose 100,000-volt bursts of electricity, instantly downing foes several times its size.",
-		de: "Es kann 100.000 Volt mit einem Schlag freisetzen und so viel größere Gegner besiegen."
-	},
-
-	thirdParty: {
-		cardmarket: 278094,
-		tcgplayer: 88511
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278094,
+				tcgplayer: 88511
+			}
 		},
 		{
 			type: "reverse"

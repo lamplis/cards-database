@@ -20,22 +20,17 @@ const card: Card = {
 		de: "Flip a coin. If heads, choose 1 of your Pokémon (excluding Pokémon-ex). Remove all Special Conditions and 6 damage counters from that Pokémon (all if there are less than 6)."
 	},
 
-	retreat: 0,
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 86730,
-				cardmarket: 276164
+				cardmarket: 276164,
+				tcgplayer: 86730
 			}
-		},
-		{
-			type: "reverse",
-			thirdParty: {
-				tcgplayer: 86730,
-				cardmarket: 276164
-			}
-		},
+		}, {
+			type: "holo",
+			foil: "energy"
+		}
 	]
 }
 

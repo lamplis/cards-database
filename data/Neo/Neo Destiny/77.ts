@@ -57,7 +57,6 @@ const card: Card = {
 		de: "Es hängt von Zweigen herunter und wartet auf Insekten, die ihm ins Maul fliegen. Dabei bewegt es sich oft stundenlang nicht."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

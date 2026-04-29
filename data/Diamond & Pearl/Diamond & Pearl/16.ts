@@ -91,14 +91,13 @@ const card: Card = {
 		de: "Es hat ein wildes Wesen. Mutig fordert es immer wieder Gegner heraus, die viel größer sind."
 	},
 
-	thirdParty: {
-		cardmarket: 277515,
-		tcgplayer: 89508
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277515,
+				tcgplayer: 89508
+			}
 		},
 		{
 			type: "reverse"

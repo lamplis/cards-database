@@ -48,7 +48,7 @@ const card: Card = {
 
 
 	description: {
-		en: "At the time of birth, it has just one tail. Its tail splits from the tip as it grows older."
+		en: "At the time of birth, it has just one tail. Its tail splits from the tip as it grows older.",
 	},
 
 	variants: [

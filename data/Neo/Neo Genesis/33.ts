@@ -76,7 +76,6 @@ const card: Card = {
 		de: "Elektrizität strömt über die Oberfläche seines Körpers. In der Dunkelheit leuchtet sein ganzer Körper weiß-bläulich."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

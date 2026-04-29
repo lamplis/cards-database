@@ -91,11 +91,6 @@ const card: Card = {
 	],
 	retreat: 1,
 
-
-	description: {
-		en: "This Pokémon attacks its prey with its eighty toxin-producing tentacles.",
-	},
-
 	variants: [
 		{
 			type: "normal",

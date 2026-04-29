@@ -20,22 +20,13 @@ const card: Card = {
 		de: "Your opponent switches 1 of his or her Defending Pokémon with 1 of his or her Benched Pokémon, if any. You switch 1 of your Active Pokémon with 1 of your Benched Pokémon, if any."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 90479,
-				cardmarket: 276739
-			},
-		},
-		{
-			type: "reverse",
-			stamp: ["set-logo"],
-			thirdParty: {
-				tcgplayer: 90479,
-				cardmarket: 276739
-			},
+				cardmarket: 276739,
+				tcgplayer: 90479
+			}
 		},
 		{
 			type: "normal",

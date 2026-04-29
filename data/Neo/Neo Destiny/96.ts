@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Wirf eine Münze, bis „Zahl“ fällt. Bringe für jedes Mal „Kopf“ eine an das aktive Pokémon deines Gegners angelegte Energiekarte auf dessen Hand zurück. Wenn an dieses Pokémon weniger Energiekarten angelegt sind, bringe sie alle auf die Hand deines Gegners zurück. Dein Zug ist damit vorbei (du erhältst in diesem Zug keinen Angriff)."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

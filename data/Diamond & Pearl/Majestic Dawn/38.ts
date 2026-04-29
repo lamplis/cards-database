@@ -70,19 +70,13 @@ const card: Card = {
 
 	retreat: 3,
 
-	description: {
-		en: "It raises its offspring in its belly pouch. It lets the baby out to play only when it feels safe.",
-		de: "Sein Nachwuchs wächst in seinem Beutel heran. Nur wenn es sicher ist, darf das Junge aus dem Beutel."
-	},
-
-	thirdParty: {
-		cardmarket: 278087,
-		tcgplayer: 86422
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278087,
+				tcgplayer: 86422
+			}
 		},
 		{
 			type: "reverse"

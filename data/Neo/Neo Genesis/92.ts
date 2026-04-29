@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Wähle einen verdeckt liegenden Preis deines Gegners. Rate, ob es eine Energiekarte, eine Trainerkarte oder eine Pokémon- (Basis- oder Evolutions-) Karte ist. Decke die Karte auf (und lasse sie offen liegen). Wenn du richtig geraten hast, ziehe zwei Karten."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

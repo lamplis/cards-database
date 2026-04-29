@@ -73,19 +73,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "It enshrouds itself with sand to protect itself from germs. It does not enjoy getting wet.",
-		de: "Es bedeckt sich mit Sand, um sich vor Keimen zu schützen. Es mag es gar nicht, wenn es nass wird."
-	},
-
-	thirdParty: {
-		cardmarket: 278115,
-		tcgplayer: 86079
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278115,
+				tcgplayer: 86079
+			}
 		},
 		{
 			type: "reverse"

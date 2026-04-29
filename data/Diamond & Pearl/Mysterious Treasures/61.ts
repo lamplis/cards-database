@@ -91,14 +91,13 @@ const card: Card = {
 		de: "Es rollt sich zusammen und rollt dann auf Gegner zu, die durch seine Stacheln Schaden nehmen."
 	},
 
-	thirdParty: {
-		cardmarket: 277690,
-		tcgplayer: 88932
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277690,
+				tcgplayer: 88932
+			}
 		},
 		{
 			type: "reverse",

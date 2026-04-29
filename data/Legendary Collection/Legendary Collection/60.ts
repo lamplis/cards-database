@@ -64,10 +64,6 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "Very competitive, this Pokémon will chase anything that moves fast in the hope of racing it."
-	},
-
 	variants: [
 		{
 			type: "reverse",

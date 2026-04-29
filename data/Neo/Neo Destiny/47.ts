@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Je schneller es schwimmt, desto heller wird das Leuchten auf seiner Stirn."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

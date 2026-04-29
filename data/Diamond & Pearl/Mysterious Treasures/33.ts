@@ -86,14 +86,13 @@ const card: Card = {
 		de: "Sein kräftiger Kopfstoß hat genug Kraft, um selbst die stabilsten Dinge zu zerschmettern."
 	},
 
-	thirdParty: {
-		cardmarket: 277662,
-		tcgplayer: 88569
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277662,
+				tcgplayer: 88569
+			}
 		},
 		{
 			type: "reverse",

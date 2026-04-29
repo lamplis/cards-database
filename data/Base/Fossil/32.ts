@@ -87,7 +87,6 @@ const card: Card = {
 		de: "Wenn dieses Pokémon angegriffen wird, wirbelt es geschwind seine Hörner in die Höhe. Niemand hat jemals seine Innereien gesehen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

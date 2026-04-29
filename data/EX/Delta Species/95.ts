@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Discard a card from your hand. If you can't discard a card from your hand, you can't play this card. Search your deck for a  Energy card or a Basic Pokémon (or Evolution card) that has Delta on its card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 	},
 
-	thirdParty: {
-		cardmarket: 276858,
-		tcgplayer: 86150
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276858,
+				tcgplayer: 86150
+			}
 		},
 		{
 			type: "normal",

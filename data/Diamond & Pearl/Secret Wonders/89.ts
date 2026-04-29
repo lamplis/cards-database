@@ -67,18 +67,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "A Pokémon with a loyal nature. It will remain motionless until it is given an order by its Trainer.",
-	},
-
-	thirdParty: {
-		cardmarket: 277842,
-		tcgplayer: 85957
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277842,
+				tcgplayer: 85957
+			}
 		},
 		{
 			type: "reverse",

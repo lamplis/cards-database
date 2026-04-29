@@ -70,18 +70,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "If its usual headache worsens, its starts exhibiting odd powers. It can't remember doing so, however.",
-	},
-
-	thirdParty: {
-		cardmarket: 277853,
-		tcgplayer: 88438
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277853,
+				tcgplayer: 88438
+			}
 		},
 		{
 			type: "reverse",

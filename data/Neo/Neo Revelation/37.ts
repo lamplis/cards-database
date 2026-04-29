@@ -84,7 +84,6 @@ const card: Card = {
 		de: "Mit seinem Horn bohrt es Löcher in Steine im Flußbett, in die es seine Eier legen kann, ohne dass sie wegeschwemmt werden."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -105,4 +104,3 @@ const card: Card = {
 }
 
 export default card
-

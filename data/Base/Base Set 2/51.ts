@@ -66,7 +66,6 @@ const card: Card = {
 		en: "Its body always burns with an orange glow that enables it to hide perfectly among flames.",
 	},
 
-
 	variants: [
 		{
 			type: "normal",

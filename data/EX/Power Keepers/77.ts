@@ -20,14 +20,13 @@ const card: Card = {
 		de: "Durchsuche dein Deck nach einer Basis-Pokémon-Karte (kein Pokémon-ex) und lege es auf deine Bank. Mische dein Deck danach."
 	},
 
-	thirdParty: {
-		cardmarket: 277383,
-		tcgplayer: 85897
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277383,
+				tcgplayer: 85897
+			}
 		},
 		{
 			type: "normal",
@@ -37,4 +36,3 @@ const card: Card = {
 }
 
 export default card
-

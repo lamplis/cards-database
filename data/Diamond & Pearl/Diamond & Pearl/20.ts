@@ -84,14 +84,13 @@ const card: Card = {
 		de: "Es baut sein Nest, indem es in Flüssen Dämme aus Schlamm und Ästen baut. Ein fleißiger Arbeiter."
 	},
 
-	thirdParty: {
-		cardmarket: 277519,
-		tcgplayer: 83817
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277519,
+				tcgplayer: 83817
+			}
 		},
 		{
 			type: "reverse"

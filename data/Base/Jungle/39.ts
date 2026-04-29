@@ -99,7 +99,6 @@ const card: Card = {
 		de: "Seine Schlüsselwaffe ist der Knochen, den es hält. Es wirft den Knochen geschickt wie einen Bumerang, um Feinde kampfunfähig zu machen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

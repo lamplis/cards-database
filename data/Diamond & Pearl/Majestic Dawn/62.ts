@@ -70,19 +70,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "A rare Pokémon that adapts to harsh environments by taking on different evolutionary forms.",
-		de: "Ein seltenes PKMN, das sich seiner Umgebung anpasst, indem es sich in unterschiedlicher Form entwickelt."
-	},
-
-	thirdParty: {
-		cardmarket: 278111,
-		tcgplayer: 85084
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278111,
+				tcgplayer: 85084
+			}
 		},
 		{
 			type: "reverse"

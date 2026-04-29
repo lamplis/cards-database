@@ -20,18 +20,13 @@ const card: Card = {
 		de: "Search your deck for up to 2 basic Energy card, show them to your opponent, and put them into your hand. Shuffle your deck afterward. Or, search your discard pile for up to 2 basic Energy cards, show them to your opponent, and put them into your hand.",
 	},
 
-	thirdParty: {
-		tcgplayer: 87600,
-		cardmarket: 276590
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 87600,
-				cardmarket: 276590
-			},
+				cardmarket: 276590,
+				tcgplayer: 87600
+			}
 		},
 		{
 			type: "reverse",

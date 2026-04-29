@@ -72,7 +72,6 @@ const card: Card = {
 		de: "Sein Schweif hat seinen eigenen Dickkopf. Vorsicht! Falls du in seine Nähe gerätst, kann es auf deinen Körpergeruch reagieren und beißen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

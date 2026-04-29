@@ -65,7 +65,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its brain can outperform a supercomputer. Its intelligence quotient is said to be 5000."
+		en: "Its brain can outperform a supercomputer. Its intelligence quotient is said to be 5000.",
 	},
 
 	variants: [

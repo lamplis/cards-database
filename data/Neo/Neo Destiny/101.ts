@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Lege Vergrößerungsglas an eines deiner Pokémon an. Lege am Ende deines Zuges auf deinen Ablagestapel. Wenn das Pokémon, an das das Vergrößerungsglas angelegt ist, angreift, wende Resistenz für diesen Angriff nicht an."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

@@ -63,17 +63,12 @@ const card: Card = {
 
 	retreat: 2,
 
-	description: {
-		en: "The spirit of a pro boxer has infused this POKéMON. It throws punches that are faster than a bullet train.",
-		de: "Der Geist eines Profi-Boxers hat dieses POKéMON inspiriert. Seine Faustschläge sind schneller als ein Hochgeschwindigkeitszug."
-	},
-
-	variants: [
+	variants:[
 		{
 			type:"holo",
 			thirdParty: {
-				tcgplayer: 86094,
-				cardmarket: 278550
+				cardmarket: 278550,
+				tcgplayer: 86094
 			}
 		}
 	]

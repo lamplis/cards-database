@@ -78,14 +78,13 @@ const card: Card = {
 		de: "Sein Körper besteht aus Eis aus der Eiszeit. Es kontrolliert gefrorene Luft, die minus 200 Grad kalt ist."
 	},
 
-	thirdParty: {
-		cardmarket: 278185,
-		tcgplayer: 88657
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278185,
+				tcgplayer: 88657
+			}
 		},
 		{
 			type: "reverse"

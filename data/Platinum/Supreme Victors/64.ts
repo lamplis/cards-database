@@ -72,15 +72,10 @@ const card: Card = {
 	],
 	retreat: 2,
 
-	description: {
-		en: "The shock waves from its cries can tip over trucks. It stamps its feet to power up."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 86844,
 				cardmarket: 278755
 			}
 		},

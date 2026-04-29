@@ -24,7 +24,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Geodude",
-		fr: "Racaillou"
+		fr: "Racaillou",
+		es: "Geodude",
+		it: "Geodude",
+		pt: "Geodude",
+		de: "Kleinstein"
 	},
 
 	attacks: [{

@@ -75,19 +75,13 @@ const card: Card = {
 		},
 	],
 
-	description: {
-		en: "Its crown of fire is indicative of its fiery nature. It is beaten by none in terms of quickness.",
-		de: "Seine Krone aus Feuer ist Zeichen seines feurigen Wesens. Niemand ist schneller im Kampf als dieses PKMN."
-	},
-
-	thirdParty: {
-		cardmarket: 278071,
-		tcgplayer: 86275
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278071,
+				tcgplayer: 86275
+			}
 		},
 		{
 			type: "reverse"

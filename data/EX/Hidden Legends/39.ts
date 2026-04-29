@@ -78,17 +78,13 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 86840,
-				cardmarket: 276113
+				cardmarket: 276113,
+				tcgplayer: 86840
 			}
-		},
-		{
-			type: "reverse",
-			thirdParty: {
-				tcgplayer: 86840,
-				cardmarket: 276113
-			}
-		},
+		}, {
+			type: "holo",
+			foil: "energy"
+		}
 	]
 }
 

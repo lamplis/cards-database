@@ -80,19 +80,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "If it looses crackling power from the electric pouches on its cheeks, it is being wary.",
-		de: "Ist es angespannt, setzt es knisternd Elektrizität aus seinen Backentaschen frei."
-	},
-
-	thirdParty: {
-		cardmarket: 278119,
-		tcgplayer: 88088
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278119,
+				tcgplayer: 88088
+			}
 		},
 		{
 			type: "reverse"

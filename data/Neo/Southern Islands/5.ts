@@ -63,11 +63,6 @@ const card: Card = {
 	],
 	retreat: 1,
 
-
-	description: {
-		en: "A sure sign spring is on its way is when the seed on this Pokémon's back flowers.",
-	},
-
 	variants: [
 		{
 			type: "normal",

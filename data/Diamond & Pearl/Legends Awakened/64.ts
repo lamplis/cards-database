@@ -89,14 +89,13 @@ const card: Card = {
 		de: "Das PKMN besteht aus zwei TANHEL. Es bekommt selbst dann keinen Kratzer, wenn ein Jet es streift."
 	},
 
-	thirdParty: {
-		cardmarket: 278213,
-		tcgplayer: 87378
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278213,
+				tcgplayer: 87378
+			}
 		},
 		{
 			type: "reverse"

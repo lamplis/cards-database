@@ -78,7 +78,6 @@ const card: Card = {
 		de: "Es lebt auf sehr hohen Bäumen. Wenn es von Ast zu Ast hüpft, verwendet es seinen Schwanz, um das Gleichgewicht nicht zu verlieren."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -99,4 +98,3 @@ const card: Card = {
 }
 
 export default card
-

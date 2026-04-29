@@ -61,17 +61,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "Even if it is born where there are no cocooning materials, it somehow always ends up with a cloak.",
-		de: "Es erschafft sich immer irgendwie einen schützenden Umhang, selbst wenn es kaum Materialien findet."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 84051,
-				cardmarket: 278928
+				cardmarket: 278928,
+				tcgplayer: 84051
 			}
 		},
 		{

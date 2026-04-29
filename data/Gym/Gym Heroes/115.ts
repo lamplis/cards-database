@@ -11,15 +11,13 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	effect: {
-		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Don't apply Resistance to any attacks made by Pokémon with Brock in their names."
-	},
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 87994,
-			},
+				cardmarket: 274251,
+				tcgplayer: 87994
+			}
 		},
 		{
 			type: "normal",
@@ -34,4 +32,3 @@ const card: Card = {
 }
 
 export default card
-

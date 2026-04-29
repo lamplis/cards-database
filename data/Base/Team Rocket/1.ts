@@ -87,7 +87,6 @@ const card: Card = {
 		de: "Fast als ob es ferngesteuert wäre, ändert es selbst in der Mitte der Schlacht seinen Gesichtsausdruck nie."
 	},
 
-
 	variants: [
 		{
 			type: "holo",

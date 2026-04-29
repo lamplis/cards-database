@@ -89,14 +89,13 @@ const card: Card = {
 		de: "Es wird komplett von einer eisenharten Rüstung geschützt. Wenn es fliegt, erreicht es bis zu 300 km/h."
 	},
 
-	thirdParty: {
-		cardmarket: 278349,
-		tcgplayer: 89241
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278349,
+				tcgplayer: 89241
+			}
 		},
 		{
 			type: "reverse"

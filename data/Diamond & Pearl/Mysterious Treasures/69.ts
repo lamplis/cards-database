@@ -76,14 +76,13 @@ const card: Card = {
 		de: "18 Stunden am Tag schläft es. Und wenn es wach ist, teleportiert es sich, während es sitzen bleibt."
 	},
 
-	thirdParty: {
-		cardmarket: 277698,
-		tcgplayer: 83448
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277698,
+				tcgplayer: 83448
+			}
 		},
 		{
 			type: "reverse",

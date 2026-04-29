@@ -60,7 +60,6 @@ const card: Card = {
 		de: "Seine hoch entwickelten Kiefer sind kräftig genug, um alles zu zermalmen. Selbst erfahrene Trainer müssen große Vorsicht walten lassen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

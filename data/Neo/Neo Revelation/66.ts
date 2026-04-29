@@ -75,10 +75,9 @@ const card: Card = {
 		de: "Ein schwächliches, pathetisches Pokémon. Es kann zu seltenen Gelegenheiten mal hoch springen, aber nie viel höher als zwei Meter."
 	},
 
-
 	variants: [
 		{
-			type: "holo",
+			type: "normal",
 			thirdParty: {
 				cardmarket: 274652,
 				tcgplayer: 89166
@@ -96,4 +95,3 @@ const card: Card = {
 }
 
 export default card
-

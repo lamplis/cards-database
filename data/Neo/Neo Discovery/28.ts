@@ -83,7 +83,6 @@ const card: Card = {
 		de: "Obwohl es ein energischer, guter Schwimmer ist und alle seine Muskeln dabei einsetzt, lebt es im Trockenen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",
@@ -104,4 +103,3 @@ const card: Card = {
 }
 
 export default card
-

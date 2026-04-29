@@ -85,13 +85,9 @@ const card: Card = {
 		{
 			type: "holo",
 			thirdParty: {
-				tcgplayer: 684336,
-				cardmarket: 877461
+				cardmarket: 877461,
+				tcgplayer: 684336
 			}
-		},
-		{
-			type: "holo",
-			stamp: ["player-rewards-program"]
 		}
 	],
 

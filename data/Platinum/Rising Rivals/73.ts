@@ -76,17 +76,12 @@ const card: Card = {
 	],
 	retreat: 2,
 
-	description: {
-		en: "When it senses danger, it raises all the barbs on its body. These barbs grow slower than NIDORINO's.",
-		de: "Bei Gefahr fährt es die Widerhaken am Körper aus. Diese wachsen langsamer als die von NIDORINO."
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 87737,
 				cardmarket: 278647,
+				tcgplayer: 87737
 			}
 		},
 		{

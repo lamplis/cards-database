@@ -51,15 +51,10 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	description: {
-		en: "It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head."
-	},
-
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				tcgplayer: 89651,
 				cardmarket: 278821
 			}
 		},

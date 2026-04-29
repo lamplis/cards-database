@@ -87,18 +87,13 @@ const card: Card = {
 
 	retreat: 3,
 
-	description: {
-		en: "It attacks by curling up, then rolling into its foe. It can blow apart a house in one hit.",
-	},
-
-	thirdParty: {
-		cardmarket: 277801,
-		tcgplayer: 84876
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277801,
+				tcgplayer: 84876
+			}
 		},
 		{
 			type: "reverse",

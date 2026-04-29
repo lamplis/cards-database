@@ -71,14 +71,13 @@ const card: Card = {
 		de: "Es hat die Angewohnheit, nach allem zu schnappen, was es sieht. Selbst seine Trainer müssen aufpassen."
 	},
 
-	thirdParty: {
-		cardmarket: 277735,
-		tcgplayer: 89998
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277735,
+				tcgplayer: 89998
+			}
 		},
 		{
 			type: "reverse",

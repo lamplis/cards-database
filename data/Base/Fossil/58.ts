@@ -19,7 +19,6 @@ const card: Card = {
 		de: "Wähle ein Pokémon auf deiner Bank. Mische es und alle darauf abgelegten Karten in dein Deck."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

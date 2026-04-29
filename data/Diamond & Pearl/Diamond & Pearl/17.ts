@@ -82,19 +82,13 @@ const card: Card = {
 
 	retreat: 4,
 
-	description: {
-		en: "Small Pokémon occasionally gather on its unmoving back to begin building their nests.",
-		de: "Kleine PKMN fangen manchmal an, auf dem bewegungslosen Rücken Nester zu bauen."
-	},
-
-	thirdParty: {
-		cardmarket: 277516,
-		tcgplayer: 89983
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 277516,
+				tcgplayer: 89983
+			}
 		},
 		{
 			type: "reverse"

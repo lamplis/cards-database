@@ -59,7 +59,6 @@ const card: Card = {
 		de: "Dieses uralte Pokémon hatte 10 Tentakel, mit denen es durch den Ozean schwamm."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

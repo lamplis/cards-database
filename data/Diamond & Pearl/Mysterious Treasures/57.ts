@@ -84,14 +84,13 @@ const card: Card = {
 		de: "Es lebt in Gesteinsritzen und Löchern auf dem Meeresboden. Mit Saugnäpfen hält es Beute fest."
 	},
 
-	thirdParty: {
-		cardmarket: 277686,
-		tcgplayer: 87832
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277686,
+				tcgplayer: 87832
+			}
 		},
 		{
 			type: "reverse",

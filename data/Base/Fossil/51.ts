@@ -73,7 +73,6 @@ const card: Card = {
 		de: "Seine Scheren sind nicht nur gewaltige Waffen, sondern auch wichtig für das Gleichgewicht beim Seitwärtsgehen."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

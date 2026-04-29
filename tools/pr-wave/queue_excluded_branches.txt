@@ -1,0 +1,22 @@
+# Branches excluded from active one-set queue.
+# Format:
+#   pr/Branch-Name<TAB>reason
+
+pr/Mega-Evolution-Phantasmal-Flames	closed low-value first PR (cosmetic/truncated text scope)
+pr/Mega-Evolution-MEP-Black-Star-Promos	fails validate (rarity "Black Star Promo" not allowed by interfaces.d.ts)
+pr/Scarlet-Violet-SVP-Black-Star-Promos	fails validate (rarity "Black Star Promo" not allowed by interfaces.d.ts)
+pr/McDonald-s-Collection-McDonald-s-Collection-2024	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-McDonald-s-Collection-2023	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-McDonald-s-Collection-2022	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-McDonald-s-Collection-2021	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-Collection-McDonald-s-2019	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-McDonald-s-Collection-2019	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-McDonald-s-Collection-2018	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-Collection-McDonald-s-2018	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-McDonald-s-Collection-2017	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-McDonald-s-Collection-2016	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-McDonald-s-Collection-2015	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-McDonald-s-Collection-2014	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-Collection-McDonald-s-2013	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-McDonald-s-Collection-2012	skip McDonald's sets (already pending PR)
+pr/McDonald-s-Collection-McDonald-s-Collection-2011	skip McDonald's sets (already pending PR)

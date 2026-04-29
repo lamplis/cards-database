@@ -75,7 +75,6 @@ const card: Card = {
 		de: "Wenn dieses Pokémon es eilig hat, werden seine Beine immer länger. Es läuft ruhig mit extralangen, beschwingten Schritten."
 	},
 
-
 	variants: [
 		{
 			type: "normal",

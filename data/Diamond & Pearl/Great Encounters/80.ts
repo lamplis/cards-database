@@ -69,19 +69,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders.",
-		de: "Die Flosse auf seinem Kopf prüft die Strömung des Wassers. Dieses PKMN kann Felsen heben."
-	},
-
-	thirdParty: {
-		cardmarket: 277982,
-		tcgplayer: 87614
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277982,
+				tcgplayer: 87614
+			}
 		},
 		{
 			type: "reverse"

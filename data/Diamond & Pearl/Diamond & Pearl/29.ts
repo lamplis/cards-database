@@ -95,14 +95,13 @@ const card: Card = {
 		de: "Es wirbelt im Körper gespeicherten Sand durch Öffnungen und generiert so einen Sandwirbelsturm."
 	},
 
-	thirdParty: {
-		cardmarket: 277528,
-		tcgplayer: 86083
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 277528,
+				tcgplayer: 86083
+			}
 		},
 		{
 			type: "reverse"

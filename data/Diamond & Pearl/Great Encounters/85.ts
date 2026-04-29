@@ -70,19 +70,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	description: {
-		en: "A new Pokémon species, rumored to be from the sun. It gives off light while spinning.",
-		de: "Eine neue PKMN-Spezies, von der man annimmt, sie käme von der Sonne. Sie strahlt Licht ab."
-	},
-
-	thirdParty: {
-		cardmarket: 277987,
-		tcgplayer: 89428
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277987,
+				tcgplayer: 89428
+			}
 		},
 		{
 			type: "reverse"
