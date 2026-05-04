@@ -1,5 +1,5 @@
 /* eslint-disable max-statements */
-import { existsSync, promises as fs } from 'fs'
+import { promises as fs } from 'fs'
 import { SupportedLanguages } from '../../interfaces'
 import { FileFunction } from './compilerInterfaces'
 import { fetchRemoteFile, loadLastEdits } from './utils/util'
@@ -25,6 +25,7 @@ const DIST_FOLDER = './generated'
 	try {
 		await fs.rm(DIST_FOLDER, {recursive: true})
 	} catch {}
+	await fs.mkdir(DIST_FOLDER, { recursive: true })
 
 	console.log('\n2. Loading informations from GIT')
 	await loadLastEdits()
@@ -44,13 +45,9 @@ const DIST_FOLDER = './generated'
 			// console.log('files2:', await fs.readdir(DIST_FOLDER))
 			// console.log('files3:', await fs.readdir(folder))
 
-			// Make the folder
-			try {
-				await fs.mkdir(folder, { recursive: true })
-			} catch {
-				// idk why it throws when file is present even if nodejs says it should not throw...
-				// maybe Bun changed how the throws works...
-			}
+			// Make the folder before the endpoint runs and again right before writing
+			// so transient Bun/fs races cannot surface as ENOENT on writeFile.
+			await fs.mkdir(folder, { recursive: true })
 
 			// Import the """Endpoint"""
 			const fn = (await import(`./endpoints/${file}`)).default as FileFunction
@@ -60,7 +57,9 @@ const DIST_FOLDER = './generated'
 			const item = await fn(lang)
 
 			// Write to file
-			await fs.writeFile(`${folder}/${file.replace('.ts', '')}.json`, JSON.stringify(
+			const outputPath = `${folder}/${file.replace('.ts', '')}.json`
+			await fs.mkdir(folder, { recursive: true })
+			await fs.writeFile(outputPath, JSON.stringify(
 				item
 			))
 
