@@ -75,28 +75,26 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	weaknesses: [{
-		type: "Fire",
-		value: "x2"
-	}],
+	thirdParty: {
+		tcgplayer: 654594
+	},
 
 	variants: [
 		{
 			type: "holo",
 			stamp: ["set-logo"],
 			thirdParty: {
-				cardmarket: 851043,
-				tcgplayer: 654594
-			}
+				tcgplayer: 656800,
+				cardmarket: 851043
+			},
 		},
 		{
 			type: "holo",
 			stamp: ["set-logo","staff"],
 			thirdParty: {
-				cardmarket: 851044,
-				tcgplayer: 656800
-			}
-		},
+				cardmarket: 851044
+			},
+		}
 	],
 }
 

@@ -22,21 +22,63 @@ const card: Card = {
 	stage: "V-UNION",
 	suffix: "V",
 
-	attacks: [{
-		cost: ["Lightning", "Colorless", "Colorless"],
-
-		name: {
-			en: "Burst Wheel",
-			pt: "Roda Explosiva"
+	attacks: [
+		{
+			cost: [
+				"Lightning",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Burst Wheel",
+				pt: "Roda Explosiva",
+				fr: "Gain Union"
+			},
+			effect: {
+				en: "Discard all Energy from this Pokémon. This attack does 100 damage for each card you discarded in this way.",
+				pt: "Descarte todas as Energias deste Pokémon. Este ataque causa 100 pontos de dano para cada carta descartada desta forma.",
+				fr: "Attachez jusqu'à 2 cartes Énergie {L} de votre pile de défausse à ce Pokémon."
+			},
+			damage: "100×"
 		},
-
-		effect: {
-			en: "Discard all Energy from this Pokémon. This attack does 100 damage for each card you discarded in this way.",
-			pt: "Descarte todas as Energias deste Pokémon. Este ataque causa 100 pontos de dano para cada carta descartada desta forma."
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Buffet à Volonté"
+			},
+			effect: {
+				fr: "Piochez des cartes jusqu'à en avoir 10 en main."
+			}
 		},
-
-		damage: "100×"
-	}],
+		{
+			cost: [
+				"Lightning",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Roue Éclatante"
+			},
+			damage: "100×",
+			effect: {
+				fr: "Défaussez toute l'Énergie de ce Pokémon. Cette attaque inflige 100 dégâts pour chaque carte défaussée de cette façon."
+			}
+		},
+		{
+			cost: [
+				"Lightning",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Boule de Foudre"
+			},
+			damage: "160"
+		},
+	],
 
 	weaknesses: [{
 		type: "Fighting",

@@ -1,52 +1,39 @@
-import { Card } from "../../../interfaces"
-import Set from "../MEP Black Star Promos"
+import { Card } from '../../../interfaces'
+import Set from '../MEP Black Star Promos'
 
 const card: Card = {
-	set: Set,
-
 	name: {
-		en: "Grookey",
-		fr: "Ouistempo",
-		es: "Grookey",
-		it: "Grookey",
-		pt: "Grookey",
-		de: "Chimpep"
+		fr: "Ouistempo"
 	},
-
-	illustrator: "Saboteri",
-	rarity: "Promo",
-	category: "Pokemon",
-	hp: 70,
-	types: ["Grass"],
-	stage: "Basic",
-	dexId: [810],
-
-
+	set: Set,
 
 	cameoDexIds: [6, 25, 133, 479, 661, 889],
 
-	attacks: [{
-		cost: ["Grass", "Grass"],
-
-		name: {
-			fr: "Tapotige",
-			en: "Branch Poke",
-			es: "Punzada Rama",
-			it: "Ramostoccata",
-			pt: "Cutucada com Galho",
-			de: "Zweigstoß"
+	rarity: "Black Star Promo",
+	category: "Pokemon",
+	hp: 70,
+	stage: "Basic",
+	attacks: [
+		{
+			cost: [
+				"Grass",
+				"Grass",
+			],
+			name: {
+				fr: "Tapotige"
+			},
+			damage: "40"
 		},
-
-		damage: 40
-	}],
-
+	],
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
-
-	weaknesses: [{
-		type: "Fire",
-		value: "x2"
-	}],
+	illustrator: "Saboteri",
 
 	variants: [
 		{
@@ -55,7 +42,7 @@ const card: Card = {
 				cardmarket: 886621,
 				tcgplayer: 699876
 			}
-		},
+		}
 	],
 }
 

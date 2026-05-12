@@ -83,33 +83,25 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	weaknesses: [{
-		type: "Darkness",
-		value: "x2"
-	}],
-
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
-
+	thirdParty: {
+		tcgplayer: 654597
+	},
 	variants: [
 		{
 			type: "holo",
 			stamp: ["set-logo"],
 			thirdParty: {
-				cardmarket: 851047,
-				tcgplayer: 654597
-			}
+				tcgplayer: 656385,
+				cardmarket: 851047
+			},
 		},
 		{
 			type: "holo",
 			stamp: ["set-logo","staff"],
 			thirdParty: {
-				cardmarket: 851048,
-				tcgplayer: 656385
-			}
-		},
+				cardmarket: 851048
+			},
+		}
 	],
 }
 

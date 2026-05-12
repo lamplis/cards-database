@@ -43,6 +43,14 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["jimmy-ballard"]
+		},
+		{
+			type: "normal",
+			stamp: ["jimmy-ballard"],
+			thirdParty: {
+				tcgplayer: 477969,
+				cardmarket: 869584
+			},
 		}
 	]
 }

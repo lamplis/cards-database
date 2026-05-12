@@ -16,7 +16,7 @@ const card: Card = {
 
 	effect: {
 		en: "Discard an Energy attached to your opponent's Active Pokémon. You may play only 1 Supporter card during your turn (before your attack).",
-		de: "Lege 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
+		fr: "Défaussez une Énergie attachée au Pokémon Actif de votre adversaire."
 	},
 
 	thirdParty: {

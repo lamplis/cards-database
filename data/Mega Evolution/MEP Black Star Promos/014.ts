@@ -51,6 +51,10 @@ const card: Card = {
 
 	retreat: 2,
     regulationMark: "I",
+    
+	thirdParty: {
+		tcgplayer: 663187
+	},
 
 	weaknesses: [{
 		type: "Water",
@@ -58,23 +62,22 @@ const card: Card = {
 	}],
 
     variants: [
-    	{
-    		type: "holo",
-    		stamp: ["set-logo"],
-    		thirdParty: {
-    			cardmarket: 857390,
-    			tcgplayer: 663187
-    		}
-    	},
-    	{
-    		type: "holo",
-    		stamp: ["set-logo","staff"],
-    		thirdParty: {
-    			cardmarket: 859014,
-    			tcgplayer: 663188
-    		}
-    	},
-    ],
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 663188,
+				cardmarket: 857390
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo","staff"],
+			thirdParty: {
+				cardmarket: 859014
+			},
+		}
+	]
 }
 
 export default card

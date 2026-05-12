@@ -1,7 +1,8 @@
 {
 	"private": true,
 	"scripts": {
-		"update:from:tcgdex": "sh tools/update-from-tcgdex.sh",
+		"update:from:tcgdex": "sh tools/update-from-tcgdex.sh --theirs --validate",
+		"validate:full": "sh tools/validate-database.sh",
 		"validate": "tsc --noEmit --project tsconfig.json",
 		"set-alias:audit": "bun scripts/audit-set-aliases.ts",
 		"set-alias:audit:strict": "bun scripts/audit-set-aliases.ts --strict",

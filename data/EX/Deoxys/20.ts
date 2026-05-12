@@ -95,8 +95,8 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 276423,
-				tcgplayer: 87013
+				tcgplayer: 87013,
+				cardmarket: 276423
 			}
 		},
 		{
@@ -106,6 +106,14 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["michael-gonzalez"]
+		},
+		{
+			type: "normal",
+			stamp: ["michael-gonzalez"],
+			thirdParty: {
+				tcgplayer: 477550,
+				cardmarket: 871530
+			},
 		}
 	]
 }
