@@ -1,60 +1,38 @@
-import { Card } from "../../../interfaces"
-import Set from "../MEP Black Star Promos"
+import { Card } from '../../../interfaces'
+import Set from '../MEP Black Star Promos'
 
 const card: Card = {
-	set: Set,
-
 	name: {
-		en: "Charmeleon",
-		fr: "Reptincel",
-		es: "Charmeleon",
-		'es-mx': "Charmeleon",
-		de: "Glutexo",
-		it: "Charmeleon",
-		pt: "Charmeleon"
+		fr: "Reptincel"
 	},
-
-	illustrator: "Teeziro",
-	rarity: "Promo",
+	set: Set,
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 110,
-	types: ["Fire"],
 	stage: "Stage1",
-	dexId: [5],
-
 	evolveFrom: {
-		en: "Charmander",
-		fr: "Salamèche",
-		es: "Charmander",
-		'es-mx': "Charmander",
-		de: "Glumanda",
-		it: "Charmander",
-		pt: "Charmander"
+		fr: "Salamèche"
 	},
-
-	attacks: [{
-		cost: ["Fire"],
-
-		name: {
-			en: "Steady Firebreathing",
-			fr: "Crachage de Feu Régulier",
-			es: "Lanzallamas Continuo",
-			'es-mx': "Lanzallamas Continuo",
-			de: "Stetiger Feuerhauch",
-			it: "Soffiofuoco Mirato",
-			pt: "Hálito de Fogo Constante"
+	attacks: [
+		{
+			cost: [
+				"Fire",
+			],
+			name: {
+				fr: "Crachage de Feu Régulier"
+			},
+			damage: "40"
 		},
-
-		damage: 40
-	}],
-
+	],
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
-
-	weaknesses: [{
-		type: "Water",
-		value: "x2"
-	}],
+	illustrator: "Teeziro",
 
 	variants: [
 		{
@@ -64,7 +42,7 @@ const card: Card = {
 				cardmarket: 888607,
 				tcgplayer: 694693
 			}
-		},
+		}
 	],
 }
 

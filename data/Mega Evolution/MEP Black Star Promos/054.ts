@@ -1,53 +1,40 @@
-import { Card } from "../../../interfaces"
-import Set from "../MEP Black Star Promos"
+import { Card } from '../../../interfaces'
+import Set from '../MEP Black Star Promos'
 
 const card: Card = {
-	set: Set,
-
 	name: {
-		en: "Sobble",
-		fr: "Larméléon",
-		de: "Memmeon",
-		it: "Sobble",
-		es: "Sobble",
-		pt: "Sobble",
-		'es-mx': "Sobble"
+		fr: "Larméléon"
 	},
-
-	illustrator: "Saboteri",
-	rarity: "Promo",
-	category: "Pokemon",
-	hp: 70,
-	types: ["Water"],
-	stage: "Basic",
-	dexId: [816],
-
-
+	set: Set,
 
 	cameoDexIds: [823, 849],
 
-	attacks: [{
-		cost: ["Water", "Colorless", "Colorless"],
-
-		name: {
-			en: "Water Gun",
-			fr: "Pistolet à O",
-			es: "Pistola Agua",
-			it: "Pistolacqua",
-			pt: "Revólver d’Água",
-			de: "Aquaknarre"
+	rarity: "Black Star Promo",
+	category: "Pokemon",
+	hp: 70,
+	stage: "Basic",
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Pistolet à O"
+			},
+			damage: "40"
 		},
-
-		damage: 40
-	}],
-
+	],
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
-
-	weaknesses: [{
-		type: "Lightning",
-		value: "x2"
-	}],
+	illustrator: "Saboteri",
 
 	variants: [
 		{
@@ -56,7 +43,7 @@ const card: Card = {
 				cardmarket: 886623,
 				tcgplayer: 699878
 			}
-		},
+		}
 	],
 }
 

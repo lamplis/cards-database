@@ -15,6 +15,7 @@ const card: Card = {
 
 	effect: {
 		en: "Flip a coin until you get tails. For each heads, draw a card. You may play as many Item cards as you like during your turn (before your attack).",
+		fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Pour chaque côté face, piochez une carte."
 	},
 
 	thirdParty: {

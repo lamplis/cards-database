@@ -60,8 +60,8 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 274772,
-				tcgplayer: 84646
+				tcgplayer: 84646,
+				cardmarket: 274772
 			}
 		},
 		{
@@ -69,28 +69,33 @@ const card: Card = {
 		},
 		{
 			type: "holo"
-		}
-	},
-	{
+		},
+		{
 		type: "reverse",
 		thirdParty: {
 			tcgplayer: 84646
 		}
 	},
-	{
+		{
 		type: "holo",
 		thirdParty: {
 			tcgplayer: 84646,
 			cardmarket: 274772
 		}
 	},
-	{
+		{
 		type: "reverse",
 		size: 'jumbo',
 		thirdParty: {
 			tcgplayer: 210843
 		}
 	},
+		{
+		type: "normal",
+		thirdParty: {
+			tcgplayer: 125089
+		}
+	}
 	]
 }
 

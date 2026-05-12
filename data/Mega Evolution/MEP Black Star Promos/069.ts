@@ -28,7 +28,24 @@ const card: Card = {
 		},
 	],
 
-	regulationMark: "J"
+	regulationMark: "J",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 886615
+			}
+		},
+		{
+			type: "V1",
+			cardmarketLabels: ["Cosmos Holo"],
+			thirdParty: {
+				cardmarket: 879255,
+				tcgplayer: 686342
+			}
+		}
+	]
 }
 
 export default card

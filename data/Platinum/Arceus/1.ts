@@ -99,11 +99,14 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		},
+		thirdParty: {
+			tcgplayer: 153234
+		}
+	},
 		{
 			type: "reverse",
 			foil: "cracked-ice"
-		},
+		}
 	]
 }
 

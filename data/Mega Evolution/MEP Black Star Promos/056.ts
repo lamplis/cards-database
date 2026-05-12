@@ -1,54 +1,38 @@
-import { Card } from "../../../interfaces"
-import Set from "../MEP Black Star Promos"
+import { Card } from '../../../interfaces'
+import Set from '../MEP Black Star Promos'
 
 const card: Card = {
-	set: Set,
-
 	name: {
-		en: "Torchic",
-		fr: "Poussifeu",
-		de: "Flemmli",
-		it: "Torchic",
-		es: "Torchic",
-		pt: "Torchic",
-		'es-mx': "Torchic"
+		fr: "Poussifeu"
 	},
-
-	illustrator: "Saboteri",
-	rarity: "Promo",
-	category: "Pokemon",
-	hp: 60,
-	types: ["Fire"],
-	stage: "Basic",
-	dexId: [255],
-
-
+	set: Set,
 
 	cameoDexIds: [278, 333],
 
-	attacks: [{
-		cost: ["Colorless"],
-
-		name: {
-			en: "Peck",
-			fr: "Picpic",
-			de: "Pikser",
-			it: "Beccata",
-			es: "Picotazo",
-			pt: "Bicada",
-			'es-mx': "Picotazo"
+	rarity: "Black Star Promo",
+	category: "Pokemon",
+	hp: 60,
+	stage: "Basic",
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				fr: "Picpic"
+			},
+			damage: "20"
 		},
-
-		damage: 20
-	}],
-
+	],
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
-
-	weaknesses: [{
-		type: "Water",
-		value: "x2"
-	}],
+	illustrator: "Saboteri",
 
 	variants: [
 		{
@@ -56,7 +40,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 891880
 			}
-		},
+		}
 	],
 }
 

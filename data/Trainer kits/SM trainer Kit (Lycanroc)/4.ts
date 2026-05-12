@@ -50,21 +50,6 @@ const card: Card = {
 	stage: "Stage1",
 	retreat: 1,
 
-	attacks: [
-		{
-			cost: [
-				"Colorless",
-			],
-			name: {
-				fr: "Balle Graine",
-			},
-			damage: "20×",
-			effect: {
-				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
-			},
-		},
-	],
-
 	weaknesses: [{
 		type: "Lightning",
 		value: "×2"

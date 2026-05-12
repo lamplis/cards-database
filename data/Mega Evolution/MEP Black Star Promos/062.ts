@@ -1,63 +1,43 @@
-import { Card } from "../../../interfaces"
-import Set from "../MEP Black Star Promos"
+import { Card } from '../../../interfaces'
+import Set from '../MEP Black Star Promos'
 
 const card: Card = {
-	set: Set,
-
 	name: {
-		fr: "Chochodile",
-		en: "Fuecoco",
-		es: "Fuecoco",
-		it: "Fuecoco",
-		pt: "Fuecoco",
-		de: "Krokel"
+		fr: "Chochodile"
 	},
-
-	illustrator: "Saboteri",
-	rarity: "Promo",
-	category: "Pokemon",
-	hp: 90,
-	types: ["Fire"],
-	stage: "Basic",
-	dexId: [909],
-
-
+	set: Set,
 
 	cameoDexIds: [52, 278, 875, 1008],
 
-	attacks: [{
-		cost: ["Fire", "Fire", "Colorless"],
-
-		name: {
-			en: "Flamethrower",
-			fr: "Lance-Flammes",
-			es: "Lanzallamas",
-			'es-mx': "Lanzallamas",
-			de: "Flammenwurf",
-			it: "Lanciafiamme",
-			pt: "Lança-chamas"
+	rarity: "Black Star Promo",
+	category: "Pokemon",
+	hp: 90,
+	stage: "Basic",
+	attacks: [
+		{
+			cost: [
+				"Fire",
+				"Fire",
+				"Colorless",
+			],
+			name: {
+				fr: "Lance-Flammes"
+			},
+			damage: "70",
+			effect: {
+				fr: "Défaussez une Énergie de ce Pokémon."
+			}
 		},
-
-		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			'es-mx': "Descarta 1 Energía de este Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon."
+	],
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
 		},
-
-		damage: 70
-	}],
-
+	],
 	retreat: 3,
 	regulationMark: "J",
-
-	weaknesses: [{
-		type: "Water",
-		value: "x2"
-	}],
+	illustrator: "Saboteri",
 
 	variants: [
 		{
@@ -65,7 +45,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 891893
 			}
-		},
+		}
 	],
 }
 
