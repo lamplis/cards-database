@@ -75,8 +75,8 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 276447,
-				tcgplayer: 88164
+				tcgplayer: 88164,
+				cardmarket: 276447
 			}
 		},
 		{
@@ -86,6 +86,14 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["hiroki-yano"]
+		},
+		{
+			type: "normal",
+			stamp: ["hiroki-yano"],
+			thirdParty: {
+				tcgplayer: 477892,
+				cardmarket: 869526
+			},
 		}
 	]
 }

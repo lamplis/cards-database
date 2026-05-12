@@ -1,54 +1,40 @@
-import { Card } from "../../../interfaces"
-import Set from "../MEP Black Star Promos"
+import { Card } from '../../../interfaces'
+import Set from '../MEP Black Star Promos'
 
 const card: Card = {
-	set: Set,
-
 	name: {
-		en: "Sprigatito",
-		fr: "Poussacha",
-		es: "Sprigatito",
-		de: "Felori",
-		it: "Sprigatito",
-		pt: "Sprigatito",
-		'es-mx': "Sprigatito"
+		fr: "Poussacha"
 	},
-
-	illustrator: "Saboteri",
-	rarity: "Promo",
-	category: "Pokemon",
-	hp: 70,
-	types: ["Grass"],
-	stage: "Basic",
-	dexId: [906],
-
-
+	set: Set,
 
 	cameoDexIds: [133, 192, 1007],
 
-	attacks: [{
-		cost: ["Grass", "Colorless", "Colorless"],
-
-		name: {
-			en: "Leafage",
-			fr: "Feuillage",
-			es: "Follaje",
-			it: "Fogliame",
-			pt: "Folhagem",
-			de: "Blattwerk"
+	rarity: "Black Star Promo",
+	category: "Pokemon",
+	hp: 70,
+	stage: "Basic",
+	attacks: [
+		{
+			cost: [
+				"Grass",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Feuillage"
+			},
+			damage: "40"
 		},
-
-
-		damage: 40
-	}],
-
+	],
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
-
-	weaknesses: [{
-		type: "Fire",
-		value: "x2"
-	}],
+	illustrator: "Saboteri",
 
 	variants: [
 		{
@@ -56,7 +42,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 891892
 			}
-		},
+		}
 	],
 }
 

@@ -1,0 +1,6 @@
+# Files intentionally diverging from upstream third-party id pairs.
+# One path per line; matching files are skipped by check-thirdparty-ids.sh.
+#
+# UNNUMBERED-001.ts is the Cardium name for upstream's 500.ts (same card,
+# same ids). Project requirement: do not rename back to 500.ts.
+data/Scarlet & Violet/SVP Black Star Promos/500.ts
