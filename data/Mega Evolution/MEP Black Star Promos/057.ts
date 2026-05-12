@@ -1,48 +1,36 @@
-import { Card } from "../../../interfaces"
-import Set from "../MEP Black Star Promos"
+import { Card } from '../../../interfaces'
+import Set from '../MEP Black Star Promos'
 
 const card: Card = {
-	set: Set,
-
 	name: {
-		en: "Mudkip",
-		fr: "Gobou",
-		es: "Mudkip",
-		it: "Mudkip",
-		pt: "Mudkip",
-		de: "Hydropi"
+		fr: "Gobou"
 	},
-
-	illustrator: "Saboteri",
-	rarity: "Promo",
+	set: Set,
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 70,
-	types: ["Water"],
 	stage: "Basic",
-	dexId: [258],
-
-	attacks: [{
-		cost: ["Water", "Water"],
-
-		name: {
-			en: "Mud-Slap",
-			fr: "Coud'Boue",
-			es: "Bofetón Lodo",
-			it: "Fangosberla",
-			pt: "Tapa de Lama",
-			de: "Lehmschelle"
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Water",
+			],
+			name: {
+				fr: "Coud'Boue"
+			},
+			damage: "40"
 		},
-
-		damage: 40
-	}],
-
+	],
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
-
-	weaknesses: [{
-		type: "Lightning",
-		value: "x2"
-	}],
+	illustrator: "Saboteri",
 
 	variants: [
 		{
@@ -50,7 +38,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 891888
 			}
-		},
+		}
 	],
 }
 

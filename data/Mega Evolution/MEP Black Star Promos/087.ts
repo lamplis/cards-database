@@ -1,67 +1,47 @@
-import { Card } from "../../../interfaces"
-import Set from "../MEP Black Star Promos"
+import { Card } from '../../../interfaces'
+import Set from '../MEP Black Star Promos'
 
 const card: Card = {
-	set: Set,
-
 	name: {
-		en: "Binacle",
-		fr: "Opermine",
-		es: "Binacle",
-		'es-mx': "Binacle",
-		de: "Bithora",
-		it: "Binacle",
-		pt: "Binacle"
+		fr: "Opermine"
 	},
-
-	illustrator: "Shimaris Yukichi",
-	rarity: "Promo",
+	set: Set,
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 80,
-	types: ["Fighting"],
 	stage: "Basic",
-	dexId: [688],
-
-	attacks: [{
-		cost: ["Fighting"],
-
-		name: {
-			en: "Double Draw",
-			fr: "Double Pioche",
-			es: "Roba Doble",
-			it: "Pescata Doppia",
-			pt: "Compra Dupla",
-			de: "Zweifachzug"
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+			],
+			name: {
+				fr: "Double Pioche"
+			},
+			effect: {
+				fr: "Piochez deux cartes."
+			}
 		},
-
-		effect: {
-			en: "Draw 2 cards.",
-			fr: "Piochez 2 cartes.",
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+			],
+			name: {
+				fr: "Griffe"
+			},
+			damage: "30"
 		},
-
-	}, {
-		cost: ["Fighting", "Fighting"],
-
-		name: {
-			en: "Scratch",
-			fr: "Griffe",
-			es: "Arañazo",
-			it: "Graffio",
-			pt: "Arranhão",
-			de: "Kratzer"
+	],
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
 		},
-
-		damage: 30
-
-	}],
-
+	],
 	retreat: 2,
 	regulationMark: "J",
-
-	weaknesses: [{
-		type: "Grass",
-		value: "x2"
-	}],
+	illustrator: "Shimaris Yukichi",
 
 	variants: [
 		{
@@ -71,7 +51,7 @@ const card: Card = {
 				cardmarket: 898177,
 				tcgplayer: 706131
 			}
-		},
+		}
 	],
 }
 

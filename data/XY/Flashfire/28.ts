@@ -41,9 +41,10 @@ const card: Card = {
 				pt: "Revolver d'Água",
 				de: "Aquaknarre"
 			},
-
 			damage: 10,
-
+			effect: {
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
+			}
 		},
 		{
 			cost: [
@@ -66,8 +67,7 @@ const card: Card = {
 				pt: "Jogue uma moeda. Se sair cara, esse ataque causará 20 de danos adicionais.",
 				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
-			damage: "10+",
-
+			damage: "10+"
 		},
 	],
 

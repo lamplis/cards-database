@@ -60,14 +60,17 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo",
-			foil: "cosmos",
+			type: "holo"
+		},
+		{
+			type: "V1",
+			cardmarketLabels: ["Cosmos Holo", "Masterball Reverse", "Pokeball Reverse"],
 			thirdParty: {
 				cardmarket: 859024,
 				tcgplayer: 664055
 			}
-		},
-	],
+		}
+	]
 }
 
 export default card

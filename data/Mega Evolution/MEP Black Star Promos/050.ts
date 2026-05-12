@@ -1,50 +1,39 @@
-import { Card } from "../../../interfaces"
-import Set from "../MEP Black Star Promos"
+import { Card } from '../../../interfaces'
+import Set from '../MEP Black Star Promos'
 
 const card: Card = {
-	set: Set,
-
 	name: {
-		en: "Tepig",
-		fr: "Gruikui",
-		es: "Tepig",
-		'es-mx': "Tepig",
-		de: "Floink",
-		it: "Tepig",
-		pt: "Tepig"
+		fr: "Gruikui"
 	},
-
-	illustrator: "Saboteri",
-	rarity: "Promo",
+	set: Set,
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 80,
-	types: ["Fire"],
 	stage: "Basic",
-	dexId: [498],
-
-	attacks: [{
-		cost: ["Fire", "Fire"],
-
-		name: {
-			en: "Ember",
-			fr: "Flammèche",
-			de: "Glut",
-			it: "Braciere",
-			es: "Ascuas",
-			pt: "Brasa",
-			'es-mx': "Ascuas"
+	attacks: [
+		{
+			cost: [
+				"Fire",
+				"Fire",
+			],
+			name: {
+				fr: "Flammèche"
+			},
+			damage: "40",
+			effect: {
+				fr: "Défaussez une Énergie de ce Pokémon."
+			}
 		},
-
-		damage: 40
-	}],
-
+	],
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
 	retreat: 2,
 	regulationMark: "J",
-
-	weaknesses: [{
-		type: "Water",
-		value: "x2"
-	}],
+	illustrator: "Saboteri",
 
 	variants: [
 		{
@@ -53,7 +42,7 @@ const card: Card = {
 				cardmarket: 886619,
 				tcgplayer: 699874
 			}
-		},
+		}
 	],
 }
 

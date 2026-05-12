@@ -1,50 +1,35 @@
-import { Card } from "../../../interfaces"
-import Set from "../MEP Black Star Promos"
+import { Card } from '../../../interfaces'
+import Set from '../MEP Black Star Promos'
 
 const card: Card = {
-	set: Set,
-
-name: {
-		en: "Snivy",
-		fr: "Vipélierre",
-		es: "Snivy",
-		'es-mx': "Snivy",
-		de: "Serpifeu",
-		it: "Snivy",
-		pt: "Snivy"
+	name: {
+		fr: "Vipélierre"
 	},
-
-	illustrator: "Saboteri",
-	rarity: "Promo",
+	set: Set,
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 60,
-	types: ["Grass"],
 	stage: "Basic",
-	dexId: [495],
-
-	attacks: [{
-		cost: ["Colorless"],
-
-		name: {
-			en: "Vine Whip",
-			fr: "Fouet Lianes",
-			es: "Látigo Cepa",
-			'es-mx': "Látigo Cepa",
-			de: "Rankenhieb",
-			it: "Frustata",
-			pt: "Chicote de Vinha"
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				fr: "Fouet Lianes"
+			},
+			damage: "20"
 		},
-
-		damage: 20
-	}],
-
+	],
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
-
-	weaknesses: [{
-		type: "Fire",
-		value: "x2"
-	}],
+	illustrator: "Saboteri",
 
 	variants: [
 		{
@@ -53,7 +38,7 @@ name: {
 				cardmarket: 886618,
 				tcgplayer: 699873
 			}
-		},
+		}
 	],
 }
 

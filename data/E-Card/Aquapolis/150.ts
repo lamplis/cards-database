@@ -94,32 +94,14 @@ const card: Card = {
 	],
 	retreat: 3,
 
-
-	abilities: [{
-		name: {
-			fr: "Type de cristal",
-			de: "Kristall-Typ"
-		},
-
-		effect: {
-			fr: "À chaque fois que vous attachez une carte Énergie de base , , ou  de votre main à Nidoking, le type de Nidoking (sa couleur) devient identique au type de carte Énergie jusqu'à la fin du tour.",
-			de: "Immer wenn du eine -, - oder -Basis-Energiekarte aus deiner Hand an Nidoking anlegst, ändert sich Nidokings Typ (Farbe) bis zum Ende des Zuges zu dem gleichen Typ wie diese Energie."
-		},
-
-		type: "Poke-BODY"
-	}],
-
 	variants: [
 		{
-			type: 'normal',
+			type: 'holo',
 			thirdParty: {
-				cardmarket: 275096,
-				tcgplayer: 87695
+				tcgplayer: 87695,
+				cardmarket: 275096
 			}
 		},
-		{
-			type: 'reverse',
-		}
 	]
 }
 

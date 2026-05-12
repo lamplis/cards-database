@@ -75,8 +75,8 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 276419,
-				tcgplayer: 84763
+				tcgplayer: 84763,
+				cardmarket: 276419
 			}
 		},
 		{
@@ -109,6 +109,13 @@ const card: Card = {
 			type: "normal",
 			stamp: ["pokemon-day"],
 			languages: ['de']
+		},
+		{
+			type: "normal",
+			stamp: ['destiny-deoxys'],
+			thirdParty: {
+				tcgplayer: 167223,
+			},
 		}
 	],
 

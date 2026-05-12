@@ -1,48 +1,36 @@
-import { Card } from "../../../interfaces"
-import Set from "../MEP Black Star Promos"
+import { Card } from '../../../interfaces'
+import Set from '../MEP Black Star Promos'
 
 const card: Card = {
-	set: Set,
-
 	name: {
-		en: "Froakie",
-		fr: "Grenousse",
-		es: "Froakie",
-		it: "Froakie",
-		pt: "Froakie",
-		de: "Froxy"
+		fr: "Grenousse"
 	},
-
-	illustrator: "Saboteri",
-	rarity: "Promo",
+	set: Set,
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 70,
-	types: ["Water"],
 	stage: "Basic",
-	dexId: [656],
-
-	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
-		name: {
-			en: "Pound",
-			fr: "Écras’Face",
-			es: "Destructor",
-			it: "Botta",
-			pt: "Pancada",
-			de: "Pfund"
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Écras'Face"
+			},
+			damage: "20"
 		},
-
-		damage: 20
-	}],
-
+	],
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
-
-	weaknesses: [{
-		type: "Lightning",
-		value: "x2"
-	}],
+	illustrator: "Saboteri",
 
 	variants: [
 		{
@@ -50,7 +38,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 891891
 			}
-		},
+		}
 	],
 }
 

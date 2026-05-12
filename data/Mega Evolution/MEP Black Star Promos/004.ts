@@ -65,30 +65,25 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	weaknesses: [{
-		type: "Grass",
-		value: "x2"
-	}],
-
+	thirdParty: {
+		tcgplayer: 654598
+	},
 	variants: [
 		{
 			type: "holo",
 			stamp: ["set-logo"],
 			thirdParty: {
-				cardmarket: 851049,
-				tcgplayer: 654598
-
-			}
+				tcgplayer: 656825,
+				cardmarket: 851049
+			},
 		},
 		{
 			type: "holo",
 			stamp: ["set-logo","staff"],
 			thirdParty: {
-				cardmarket: 851050,
-				tcgplayer: 656825
-
-			}
-		},
+				cardmarket: 851050
+			},
+		}
 	],
 }
 

@@ -92,8 +92,15 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo',
-			stamp: ['set-logo'],
+			type: "holo",
+			thirdParty: {
+				cardmarket: 879315,
+				tcgplayer: 685496
+			},
+		},
+		{
+			type: "V1",
+			cardmarketLabels: ["Masterball Reverse", "Pokeball Reverse"],
 			thirdParty: {
 				cardmarket: 877545,
 				tcgplayer: 685496
@@ -106,8 +113,8 @@ const card: Card = {
 				cardmarket: 879315,
 				tcgplayer: 685500
 			}
-		},
-	],
+		}
+	]
 }
 
 export default card

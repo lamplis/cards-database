@@ -96,6 +96,7 @@ const card: Card = {
 			type: "reverse",
 			foil: "cracked-ice",
 			thirdParty: {
+				tcgplayer: 86043,
 				cardmarket: 278572
 			}
 		}
