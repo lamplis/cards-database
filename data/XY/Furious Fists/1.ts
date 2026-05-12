@@ -41,9 +41,10 @@ const card: Card = {
 				pt: "Chicote de Vinha",
 				de: "Rankenhieb"
 			},
-
 			damage: 10,
-
+			effect: {
+				fr: "Défaussez au hasard une carte de la main de votre adversaires."
+			}
 		},
 		{
 			cost: [
@@ -65,8 +66,7 @@ const card: Card = {
 				it: "Scarta una carta a caso dalla mano del tuo avversario.",
 				pt: "Descarte um card aleatório da mão de seu oponente.",
 				de: "Nimm 1 zufällige Karte aus der verdeckten Hand deines Gegners und lege sie auf dessen Ablagestapel."
-			},
-
+			}
 		},
 	],
 

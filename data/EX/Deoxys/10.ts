@@ -99,8 +99,8 @@ const card: Card = {
 		{
 			type: "holo",
 			thirdParty: {
-				cardmarket: 276413,
-				tcgplayer: 86897
+				tcgplayer: 86897,
+				cardmarket: 276413
 			}
 		},
 		{
@@ -110,6 +110,14 @@ const card: Card = {
 		{
 			type: "holo",
 			stamp: ["michael-gonzalez"]
+		},
+		{
+			type: "holo",
+			stamp: ["michael-gonzalez"],
+			thirdParty: {
+				cardmarket: 871528,
+				tcgplayer: 477549,
+			},
 		}
 	]
 }

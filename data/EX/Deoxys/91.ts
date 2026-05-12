@@ -24,8 +24,8 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 276494,
-				tcgplayer: 89434
+				tcgplayer: 89434,
+				cardmarket: 276494
 			}
 		},
 		{
@@ -35,6 +35,13 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["10th-anniversary"]
+		},
+		{
+			type: "normal",
+			stamp: ["10th-anniversary"],
+			thirdParty: {
+				tcgplayer: 286613,
+			},
 		}
 	]
 }

@@ -56,24 +56,27 @@ const card: Card = {
 		value: "x2"
 	}],
 
+	thirdParty: {
+		tcgplayer: 663189
+	},
+
     variants: [
-    	{
-    		type: "holo",
-    		stamp: ["set-logo"],
-    		thirdParty: {
-    			cardmarket: 857393,
-    			tcgplayer: 663189
-    		}
-    	},
-    	{
-    		type: "holo",
-    		stamp: ["set-logo","staff"],
-    		thirdParty: {
-    			cardmarket: 859015,
-    			tcgplayer: 663190
-    		}
-    	},
-    ],
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 663190,
+				cardmarket: 857393
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo","staff"],
+			thirdParty: {
+				cardmarket: 859015
+			},
+		}
+	]
 }
 
 export default card

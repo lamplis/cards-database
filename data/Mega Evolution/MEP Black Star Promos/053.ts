@@ -1,60 +1,39 @@
-import { Card } from "../../../interfaces"
-import Set from "../MEP Black Star Promos"
+import { Card } from '../../../interfaces'
+import Set from '../MEP Black Star Promos'
 
 const card: Card = {
-	set: Set,
-
 	name: {
-		en: "Scorbunny",
-		fr: "Flambino",
-		de: "Hopplo",
-		it: "Scorbunny",
-		es: "Scorbunny",
-		pt: "Scorbunny",
-		'es-mx': "Scorbunny"
+		fr: "Flambino"
 	},
-
-	illustrator: "Saboteri",
-	rarity: "Promo",
+	set: Set,
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 70,
-	types: ["Fire"],
 	stage: "Basic",
-	dexId: [813],
-
-	attacks: [{
-		cost: ["Fire", "Colorless"],
-
-		name: {
-			en: "Double Kick",
-			fr: "Double Pied",
-			de: "Doppelkick",
-			it: "Doppiocalcio",
-			es: "Doble Patada",
-			pt: "Chute Duplo",
-			'es-mx': "Doble Patada"
+	attacks: [
+		{
+			cost: [
+				"Fire",
+				"Colorless",
+			],
+			name: {
+				fr: "Double Pied"
+			},
+			damage: "20x",
+			effect: {
+				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts pour chaque côté face."
+			}
 		},
-
-		effect: {
-			en: "Flip 2 coins. This attack does 20 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts pour chaque côté face.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 20 Schadenspunkte pro Kopf zu.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 20 danni ogni volta che esce testa.",
-			es: "Lanza 2 monedas. Este ataque hace 20 puntos de daño por cada cara.",
-			pt: "Jogue 2 moedas. Este ataque causa 20 pontos de dano para cada cara.",
-			'es-mx': "Lanza 2 monedas. Este ataque hace 20 puntos de daño por cada cara."
+	],
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
 		},
-
-		damage: "20×"
-	}],
-
+	],
 	retreat: 1,
 	regulationMark: "J",
-
-	weaknesses: [{
-		type: "Water",
-		value: "x2"
-	}],
+	illustrator: "Saboteri",
 
 	variants: [
 		{
@@ -63,7 +42,7 @@ const card: Card = {
 				cardmarket: 886622,
 				tcgplayer: 699877
 			}
-		},
+		}
 	],
 }
 
