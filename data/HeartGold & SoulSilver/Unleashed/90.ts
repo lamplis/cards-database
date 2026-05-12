@@ -35,9 +35,10 @@ const card: Card = {
 		{
 			type: "holo",
 			thirdParty: {
+				tcgplayer: 85277,
 				cardmarket: 279246
 			}
-		},
+		}
 	],
 
 	attacks: [

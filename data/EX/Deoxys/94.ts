@@ -51,6 +51,14 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["jeremy-maron"]
+		},
+		{
+			type: "normal",
+			stamp: ["jeremy-maron"],
+			thirdParty: {
+				tcgplayer: 477532,
+				cardmarket: 871583
+			},
 		}
 	]
 }

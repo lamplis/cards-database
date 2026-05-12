@@ -41,7 +41,39 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "J"
+	regulationMark: "J",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 879303
+			}
+		},
+		{
+			type: "V1",
+			cardmarketLabels: ["Masterball Reverse", "Pokeball Reverse"],
+			thirdParty: {
+				cardmarket: 877543
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['set-logo'],
+			thirdParty: {
+				cardmarket: 877543,
+				tcgplayer: 685494
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['set-logo', 'staff'],
+			thirdParty: {
+				cardmarket: 879303,
+				tcgplayer: 685498
+			}
+		}
+	]
 }
 
 export default card

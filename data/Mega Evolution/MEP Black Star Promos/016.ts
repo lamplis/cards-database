@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Flygon"
 	},
 
+	illustrator: "Oswaldo KATO",
 	rarity: "Black Star Promo",
 	category: "Pokemon",
 
@@ -21,7 +22,6 @@ const card: Card = {
 	hp: 150,
 	types: ["Fighting"],
 	stage: "Stage2",
-	dexId: [330],
 
 	evolveFrom: {
 		en: "Vibrava",
@@ -81,24 +81,27 @@ const card: Card = {
 		value: "x2"
 	}],
 
+	thirdParty: {
+		tcgplayer: 663191
+	},
+
     variants: [
-    	{
-    		type: "holo",
-    		stamp: ["set-logo"],
-    		thirdParty: {
-    			cardmarket: 857396,
-    			tcgplayer: 663191
-    		}
-    	},
-    	{
-    		type: "holo",
-    		stamp: ["set-logo","staff"],
-    		thirdParty: {
-    			cardmarket: 859016,
-    			tcgplayer: 663192
-    		}
-    	},
-    ],
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 663192,
+				cardmarket: 857396
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo","staff"],
+			thirdParty: {
+				cardmarket: 859016
+			},
+		}
+	]
 }
 
 export default card

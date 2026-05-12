@@ -1,53 +1,40 @@
-import { Card } from "../../../interfaces"
-import Set from "../MEP Black Star Promos"
+import { Card } from '../../../interfaces'
+import Set from '../MEP Black Star Promos'
 
 const card: Card = {
-	set: Set,
-
 	name: {
-		en: "Totodile",
-		fr: "Kaiminus",
-		es: "Totodile",
-		'es-mx': "Totodile",
-		de: "Karnimani",
-		it: "Totodile",
-		pt: "Totodile"
+		fr: "Kaiminus"
 	},
-
-	illustrator: "Saboteri",
-	rarity: "Promo",
-	category: "Pokemon",
-	hp: 80,
-	types: ["Water"],
-	stage: "Basic",
-	dexId: [158],
-
-
+	set: Set,
 
 	cameoDexIds: [130, 201, 249],
 
-	attacks: [{
-		cost: ["Water", "Water", "Colorless"],
-
-		name: {
-			en: "Bite",
-			fr: "Morsure",
-			es: "Mordisco",
-			it: "Morso",
-			pt: "Mordida",
-			de: "Biss"
+	rarity: "Black Star Promo",
+	category: "Pokemon",
+	hp: 80,
+	stage: "Basic",
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Water",
+				"Colorless",
+			],
+			name: {
+				fr: "Morsure"
+			},
+			damage: "50"
 		},
-
-		damage: 50
-	}],
-
+	],
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
 	retreat: 2,
 	regulationMark: "J",
-
-	weaknesses: [{
-		type: "Lightning",
-		value: "x2"
-	}],
+	illustrator: "Saboteri",
 
 	variants: [
 		{
@@ -56,7 +43,7 @@ const card: Card = {
 				cardmarket: 886617,
 				tcgplayer: 699872
 			}
-		},
+		}
 	],
 }
 

@@ -1,53 +1,39 @@
-import { Card } from "../../../interfaces"
-import Set from "../MEP Black Star Promos"
+import { Card } from '../../../interfaces'
+import Set from '../MEP Black Star Promos'
 
 const card: Card = {
-	set: Set,
-
 	name: {
-		en: "Fennekin",
-		fr: "Feunnec",
-		es: "Fennekin",
-		'es-mx': "Fennekin",
-		de: "Fynx",
-		it: "Fennekin",
-		pt: "Fennekin"
+		fr: "Feunnec"
 	},
-
-	illustrator: "Saboteri",
-	rarity: "Promo",
-	category: "Pokemon",
-	hp: 70,
-	types: ["Fire"],
-	stage: "Basic",
-	dexId: [653],
-
-
+	set: Set,
 
 	cameoDexIds: [6, 263, 282, 448, 661, 670, 673],
 
-	attacks: [{
-		cost: ["Fire", "Colorless"],
-
-		name: {
-			en: "Scratch",
-			fr: "Griffe",
-			de: "Kratzer",
-			it: "Graffio",
-			es: "Arañazo",
-			pt: "Arranhão"
+	rarity: "Black Star Promo",
+	category: "Pokemon",
+	hp: 70,
+	stage: "Basic",
+	attacks: [
+		{
+			cost: [
+				"Fire",
+				"Colorless",
+			],
+			name: {
+				fr: "Griffe"
+			},
+			damage: "30"
 		},
-
-		damage: 30
-	}],
-
+	],
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
-
-	weaknesses: [{
-		type: "Water",
-		value: "x2"
-	}],
+	illustrator: "Saboteri",
 
 	variants: [
 		{
@@ -55,7 +41,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 891890
 			}
-		},
+		}
 	],
 }
 

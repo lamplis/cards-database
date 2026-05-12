@@ -31,13 +31,25 @@ const card: Card = {
 			],
 			name: {
 				en: "Precognitive Dream",
-				fr: "Rêve Prémonitoire",
+				fr: "Rêve Prémonitoire"
 			},
 			effect: {
 				en: "Draw 3 cards. This Pokémon is now Asleep.",
-				fr: "Piochez 3 cartes. Ce Pokémon est maintenant Endormi.",
+				fr: "Piochez 3 cartes. Ce Pokémon est maintenant Endormi."
+			}
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Tête de Fer"
 			},
-
+			damage: "30×",
+			effect: {
+				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face."
+			}
 		},
 	],
 

@@ -77,8 +77,8 @@ const card: Card = {
 			type: "holo",
 			foil: "cosmos",
 			thirdParty: {
-				cardmarket: 276425,
-				tcgplayer: 88625
+				tcgplayer: 88625,
+				cardmarket: 276425
 			}
 		},
 		{
@@ -100,6 +100,13 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["pokemon-day"]
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				tcgplayer: 43053,
+			},
 		}
 	]
 }
