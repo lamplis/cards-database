@@ -90,8 +90,11 @@ const card: Card = {
 			stamp: ["set-logo"]
 		},
 		{
-			type: "normal"
+			type: "normal",
+		thirdParty: {
+			tcgplayer: 84089
 		}
+	}
 	]
 }
 

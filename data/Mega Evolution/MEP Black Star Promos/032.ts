@@ -82,7 +82,21 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "I"
+	regulationMark: "I",
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "V1",
+			cardmarketLabels: ["Masterball Reverse", "Pokeball Reverse"],
+			thirdParty: {
+				cardmarket: 873708,
+				tcgplayer: 685510
+			}
+		}
+	]
 }
 
 export default card
