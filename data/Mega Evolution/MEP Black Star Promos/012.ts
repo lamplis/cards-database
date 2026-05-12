@@ -95,9 +95,16 @@ const card: Card = {
 		{
 			type: "holo",
 			thirdParty: {
-				cardmarket: 858146,
-				tcgplayer: 663177
+				tcgplayer: 663177,
+				cardmarket: 858146
 			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 858147
+			},
 		},
 		{
 			type: "holo",
@@ -106,8 +113,8 @@ const card: Card = {
 				cardmarket: 858147,
 				tcgplayer: 663178
 			}
-		},
-	],
+		}
+	]
 }
 
 export default card

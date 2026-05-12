@@ -45,8 +45,15 @@ const card: Card = {
 			type: 'holo',
 			stamp: ["ross-cawthorn"],
 			thirdParty: {
-				cardmarket: 868168,
-				tcgplayer: 480498
+				tcgplayer: 480498,
+				cardmarket: 868168
+			}
+		},
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 279250,
+				tcgplayer: 89610
 			}
 		}
 	],

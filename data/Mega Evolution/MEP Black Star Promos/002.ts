@@ -83,28 +83,26 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	weaknesses: [{
-		type: "Lightning",
-		value: "x2"
-	}],
+	thirdParty: {
+		tcgplayer: 654596
+	},
 
 	variants: [
 		{
 			type: "holo",
 			stamp: ["set-logo"],
 			thirdParty: {
-				cardmarket: 851045,
-				tcgplayer: 654596
-			}
+				tcgplayer: 656802,
+				cardmarket: 851045
+			},
 		},
 		{
 			type: "holo",
 			stamp: ["set-logo","staff"],
 			thirdParty: {
-				cardmarket: 851046,
-				tcgplayer: 656802
-			}
-		},
+				cardmarket: 851046
+			},
+		}
 	],
 }
 

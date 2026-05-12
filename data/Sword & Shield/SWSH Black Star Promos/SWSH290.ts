@@ -22,16 +22,61 @@ const card: Card = {
 	stage: "V-UNION",
 	suffix: "V",
 
-	attacks: [{
-		cost: ["Lightning", "Colorless", "Colorless"],
-
-		name: {
-			en: "Electric Ball",
-			pt: "Bola de Eletricidade"
+	attacks: [
+		{
+			cost: [
+				"Lightning",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Electric Ball",
+				pt: "Bola de Eletricidade",
+				fr: "Gain Union"
+			},
+			damage: 160,
+			effect: {
+				fr: "Attachez jusqu'à 2 cartes Énergie {L} de votre pile de défausse à ce Pokémon."
+			}
 		},
-
-		damage: 160
-	}],
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Buffet à Volonté"
+			},
+			effect: {
+				fr: "Piochez des cartes jusqu'à en avoir 10 en main."
+			}
+		},
+		{
+			cost: [
+				"Lightning",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Roue Éclatante"
+			},
+			damage: "100×",
+			effect: {
+				fr: "Défaussez toute l'Énergie de ce Pokémon. Cette attaque inflige 100 dégâts pour chaque carte défaussée de cette façon."
+			}
+		},
+		{
+			cost: [
+				"Lightning",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Boule de Foudre"
+			},
+			damage: "160"
+		},
+	],
 
 	weaknesses: [{
 		type: "Fighting",

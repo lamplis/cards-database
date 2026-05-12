@@ -60,7 +60,32 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "J"
+	regulationMark: "J",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 873717,
+				tcgplayer: 692120
+			}
+		},
+		{
+			type: "V2",
+			cardmarketLabels: ["Attention: Oversized Card", "Not Tournament Legal"],
+			thirdParty: {
+				cardmarket: 873718
+			}
+		},
+		{
+        	type: 'lenticular',
+        	size: 'jumbo',
+        	thirdParty: {
+        		cardmarket: 873718,
+        		tcgplayer: 692115
+        	}
+        }
+	]
 }
 
 export default card

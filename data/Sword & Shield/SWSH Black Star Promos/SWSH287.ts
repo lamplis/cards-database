@@ -22,19 +22,60 @@ const card: Card = {
 	stage: "V-UNION",
 	suffix: "V",
 
-	attacks: [{
-		cost: ["Colorless"],
-
-		name: {
-			en: "Union Gain",
-			pt: "Conquista de União"
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				en: "Union Gain",
+				pt: "Conquista de União",
+				fr: "Gain Union"
+			},
+			effect: {
+				en: "Attach up to 2 {L} Energy cards from your discard pile to this Pokémon.",
+				pt: "Ligue até 2 cartas de Energia {L} da sua pilha de descarte a este Pokémon.",
+				fr: "Attachez jusqu'à 2 cartes Énergie {L} de votre pile de défausse à ce Pokémon."
+			}
 		},
-
-		effect: {
-			en: "Attach up to 2 {L} Energy cards from your discard pile to this Pokémon.",
-			pt: "Ligue até 2 cartas de Energia {L} da sua pilha de descarte a este Pokémon."
-		}
-	}],
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Buffet à Volonté"
+			},
+			effect: {
+				fr: "Piochez des cartes jusqu'à en avoir 10 en main."
+			}
+		},
+		{
+			cost: [
+				"Lightning",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Roue Éclatante"
+			},
+			damage: "100×",
+			effect: {
+				fr: "Défaussez toute l'Énergie de ce Pokémon. Cette attaque inflige 100 dégâts pour chaque carte défaussée de cette façon."
+			}
+		},
+		{
+			cost: [
+				"Lightning",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Boule de Foudre"
+			},
+			damage: "160"
+		},
+	],
 
 	weaknesses: [{
 		type: "Fighting",
