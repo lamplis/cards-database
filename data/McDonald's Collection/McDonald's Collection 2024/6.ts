@@ -35,20 +35,28 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Psychic"],
+			cost: [
+				"Psychic",
+			],
 			name: {
 				en: "Dragon Launcher",
+				fr: "Lanceur de Dragons"
 			},
 			effect: {
-				en: "Discard a number of your Benched Dreepy up to the number of your opponent's Pokémon in play. Then, for each Dreepy you discarded in this way, choose 1 of your opponent's Pokémon and do 100 damage to it. You can't choose the same Pokémon more than once. This damage isn't affected by Weakness or Resistance"
+				en: "Discard a number of your Benched Dreepy up to the number of your opponent's Pokémon in play. Then, for each Dreepy you discarded in this way, choose 1 of your opponent's Pokémon and do 100 damage to it. You can't choose the same Pokémon more than once. This damage isn't affected by Weakness or Resistance",
+				fr: "Défaussez de votre Banc un nombre de vos Fantyrm inférieur ou égal au nombre de Pokémon en jeu de votre adversaire. Ensuite, pour chaque Fantyrm défaussé de cette façon, choisissez l'un des Pokémon de votre adversaire et infligez-lui 100 dégâts. Vous ne pouvez pas choisir le même Pokémon plus d'une fois. Ces dégâts ne sont pas affectés par la Faiblesse ou la Résistance."
 			}
 		},
 		{
-			cost: ["Psychic", "Colorless"],
+			cost: [
+				"Psychic",
+				"Colorless",
+			],
 			name: {
 				en: "Spooky Shot",
+				fr: "Tir Effrayant"
 			},
-			damage: 120,
+			damage: 120
 		},
 	],
 

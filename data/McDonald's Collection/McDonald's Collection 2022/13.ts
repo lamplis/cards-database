@@ -35,24 +35,37 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Darkness", "Darkness", "Colorless"],
+			cost: [
+				"Darkness",
+				"Darkness",
+				"Colorless",
+			],
 			name: {
 				en: "Knocking Hammer",
+				fr: "Marteau Frappeur"
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck."
+				en: "Discard the top card of your opponent's deck.",
+				fr: "Défaussez la carte du dessus du deck de votre adversaire."
 			},
-			damage: 90,
+			damage: 90
 		},
 		{
-			cost: ["Darkness", "Darkness", "Darkness", "Colorless"],
+			cost: [
+				"Darkness",
+				"Darkness",
+				"Darkness",
+				"Colorless",
+			],
 			name: {
 				en: "Shakedown",
+				fr: "Dépouiller"
 			},
 			effect: {
-				en: "Discard a random card from your opponent's hand."
+				en: "Discard a random card from your opponent's hand.",
+				fr: "Défaussez au hasard une carte de la main de votre adversaire."
 			},
-			damage: 150,
+			damage: 150
 		},
 	],
 

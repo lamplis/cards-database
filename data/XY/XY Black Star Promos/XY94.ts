@@ -43,6 +43,23 @@ const card: Card = {
 		},
 	],
 
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Pression Énergétique"
+			},
+			damage: "70+",
+			effect: {
+				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire."
+			}
+		},
+	],
+
 	weaknesses: [
 		{
 			type: "Darkness",

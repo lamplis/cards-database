@@ -17,7 +17,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Cette carte fournit de l’Énergie Colorless. \n\nS’il vous reste plus de cartes Récompense que votre adversaire et que cette carte est attachée à un Pokémon qui n’est pas un Pokémon-GX ou un Pokémon-EX, cette carte fournit tout type d’Énergie mais seulement 2 Énergies à la fois.",
+		fr: "Cette carte fournit de l'Énergie {C}.\n\nS'il vous reste plus de cartes Récompense que votre adversaire et que cette carte est attachée à un Pokémon qui n'est pas un Pokémon-GX ou un Pokémon-EX, cette carte fournit tout type d'Énergie mais seulement 2 Énergies à la fois.",
 		en: "This card provides Colorless Energy. \n\nIf you have more Prize cards remaining than your opponent, and if this card is attached to a Pokémon that isn’t a Pokémon-GX or Pokémon-EX, this card provides every type of Energy but provides only 2 Energy at a time.",
 		es: "Esta carta proporciona 1 Energía Colorless. \n\nSi te quedan más cartas de Premio que a tu rival y esta carta está unida a un Pokémon que no es un Pokémon-GX o un Pokémon-EX, esta carta proporciona cualquier tipo de Energía, pero proporciona solo 2 Energías a la vez.",
 		it: "Questa carta fornisce Energia Colorless.\n\nSe hai più carte Premio rimanenti del tuo avversario e se questa carta è assegnata a un Pokémon che non è un Pokémon-GX o un Pokémon-EX, essa fornisce Energia di qualsiasi tipo, ma solo due alla volta.",

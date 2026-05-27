@@ -23,6 +23,9 @@ const card: Card = {
 	stage: "Basic",
 	dexId: [115],
 
+
+	cameoDexIds: [115],
+
 	abilities: [{
 		type: "Ability",
 

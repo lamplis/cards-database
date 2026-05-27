@@ -26,21 +26,31 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Darkness"],
+			cost: [
+				"Darkness",
+			],
 			name: {
 				en: "Vengeance Fletching",
+				fr: "Plumage Vengeur"
 			},
 			effect: {
-				en: "This attack does 10 more damage for each Ancient card in your discard pile."
+				en: "This attack does 10 more damage for each Ancient card in your discard pile.",
+				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque carte Temps passé dans votre pile de défausse."
 			},
-			damage: "70+",
+			damage: "70+"
 		},
 		{
-			cost: ["Darkness", "Colorless", "Colorless", "Colorless"],
+			cost: [
+				"Darkness",
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
 			name: {
 				en: "Speed Wing",
+				fr: "Ailes Vives"
 			},
-			damage: 120,
+			damage: 120
 		},
 	],
 

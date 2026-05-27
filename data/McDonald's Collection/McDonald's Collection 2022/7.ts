@@ -26,16 +26,24 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Lightning"],
+			cost: [
+				"Lightning",
+			],
 			name: {
 				en: "Energize",
+				fr: "Énergisant"
 			},
 			effect: {
-				en: "Attach a Lightning Energy card from your discard pile to this Pokémon."
+				en: "Attach a Lightning Energy card from your discard pile to this Pokémon.",
+				fr: "Attachez une carte Énergie {L} de votre pile de défausse à ce Pokémon."
 			}
 		},
 		{
-			cost: ["Lightning", "Colorless", "Colorless"],
+			cost: [
+				"Lightning",
+				"Colorless",
+				"Colorless",
+			],
 			name: {
 				en: "Electro Ball",
 				fr: "Boule Élek",
@@ -44,7 +52,7 @@ const card: Card = {
 				pt: "Bola Elétrica",
 				de: "Elektroball"
 			},
-			damage: 30,
+			damage: 30
 		},
 	],
 

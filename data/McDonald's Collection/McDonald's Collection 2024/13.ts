@@ -26,15 +26,19 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless"],
+			cost: [
+				"Colorless",
+			],
 			name: {
 				en: "Continuous Steps",
+				fr: "Pas Continus"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 30 damage for each heads."
+				en: "Flip a coin until you get tails. This attack does 30 damage for each heads.",
+				fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 30 dégâts pour chaque côté face."
 			},
-			damage: "30x",
-		}
+			damage: "30x"
+		},
 	],
 
 	weaknesses: [

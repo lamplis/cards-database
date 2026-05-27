@@ -26,21 +26,30 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless"],
+			cost: [
+				"Colorless",
+			],
 			name: {
 				en: "Gentle Slap",
+				fr: "Gifle Douce"
 			},
-			damage: 20,
+			damage: 20
 		},
 		{
-			cost: ["Colorless", "Colorless", "Colorless"],
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
 			name: {
 				en: "Raging Cannon",
+				fr: "Canon Déchaîné"
 			},
 			damage: "100+",
 			effect: {
 				en: "If all your Benched Pokémon have at least 1 damage counter on them, this attack does 120 more damage.",
-			},
+				fr: "Si tous vos Pokémon de Banc ont au moins un marqueur de dégâts, cette attaque inflige 120 dégâts supplémentaires."
+			}
 		},
 	],
 

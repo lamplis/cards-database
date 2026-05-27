@@ -73,6 +73,9 @@ const card: Card = {
 
 	retreat: 1,
 	dexId: [196],
+
+	cameoDexIds: [132, 133],
+
 	regulationMark: "E",
 	suffix: "V",
 

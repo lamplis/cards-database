@@ -26,7 +26,10 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Fighting", "Fighting"],
+			cost: [
+				"Fighting",
+				"Fighting",
+			],
 			name: {
 				en: "Vise Grip",
 				fr: "Force Poigne",
@@ -35,17 +38,23 @@ const card: Card = {
 				pt: "Agarramento Compressor",
 				de: "Klammer"
 			},
-			damage: 50,
+			damage: 50
 		},
 		{
-			cost: ["Fighting", "Colorless", "Colorless"],
+			cost: [
+				"Fighting",
+				"Colorless",
+				"Colorless",
+			],
 			name: {
 				en: "Adrenaline Hammer",
+				fr: "Marteau Adrénaline"
 			},
 			damage: 130,
 			effect: {
 				en: "This Pokémon is now Confused.",
-			},
+				fr: "Ce Pokémon est maintenant Confus."
+			}
 		},
 	],
 

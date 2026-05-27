@@ -26,7 +26,10 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless", "Colorless"],
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
 			name: {
 				en: "Jaw Lock",
 				fr: "Croque Fort",
@@ -38,17 +41,24 @@ const card: Card = {
 			damage: 30,
 			effect: {
 				en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
-			},
+				fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite."
+			}
 		},
 		{
-			cost: ["Colorless", "Colorless", "Colorless"],
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
 			name: {
 				en: "Power Blast",
+				fr: "Violente Déflagration"
 			},
 			damage: 120,
 			effect: {
 				en: "Discard an Energy from this Pokémon.",
-			},
+				fr: "Défaussez une Énergie de ce Pokémon."
+			}
 		},
 	],
 

@@ -17,6 +17,9 @@ const card: Card = {
 	rarity: "None",
 	category: "Pokemon",
 	dexId: [579],
+
+	cameoDexIds: [577, 578],
+
 	hp: 140,
 	types: ["Psychic"],
 	stage: "Stage2",

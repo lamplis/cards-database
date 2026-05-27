@@ -4,6 +4,9 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	dexId: [301],
 
+
+	cameoDexIds: [440, 549, 700],
+
 	name: {
 		en: "Delcatty",
 		fr: "Delcatty",

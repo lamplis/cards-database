@@ -6,6 +6,10 @@ const card: Card = {
 
 	dexId: [121],
 
+
+
+	cameoDexIds: [121],
+
 	name: {
 		en: "Mega Starmie ex",
 		fr: "Méga-Staross-ex",

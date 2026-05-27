@@ -4,6 +4,9 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	dexId: [845],
 
+
+	cameoDexIds: [846],
+
 	name: {
 		en: "Cramorant",
 		fr: "Nigosier",

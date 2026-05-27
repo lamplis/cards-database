@@ -23,6 +23,9 @@ const card: Card = {
 	illustrator: "Acorviart",
 	dexId: [160],
 
+
+	cameoDexIds: [129],
+
 	attacks: [
 		{
 			cost: ["Water","Water","Water","Colorless"],

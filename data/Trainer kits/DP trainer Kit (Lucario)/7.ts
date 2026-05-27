@@ -30,7 +30,10 @@ const card: Card = {
 				en: "Gust",
 				fr: "Tornade"
 			},
-			damage: 10
+			damage: 10,
+			effect: {
+				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Poissoroy."
+			}
 		},
 		{
 			cost: [
@@ -46,7 +49,7 @@ const card: Card = {
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
 			},
 			damage: "10+"
-		}
+		},
 	],
 
 	weaknesses: [

@@ -26,21 +26,31 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless", "Colorless"],
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
 			name: {
 				en: "Sharp Fang",
+				fr: "Croc Aiguisé"
 			},
-			damage: 30,
+			damage: 30
 		},
 		{
-			cost: ["Lightning", "Lightning", "Colorless"],
+			cost: [
+				"Lightning",
+				"Lightning",
+				"Colorless",
+			],
 			name: {
 				en: "Lightning Laser",
+				fr: "Laser Éclair"
 			},
 			effect: {
 				en: "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Cette attaque inflige aussi 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
-			damage: 90,
+			damage: 90
 		},
 	],
 

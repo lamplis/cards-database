@@ -35,7 +35,10 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Psychic", "Colorless"],
+			cost: [
+				"Psychic",
+				"Colorless",
+			],
 			name: {
 				en: "Magical Shot",
 				fr: "Coup Magique",
@@ -44,18 +47,22 @@ const card: Card = {
 				pt: "Tiro Mágico",
 				de: "Magischer Schuss"
 			},
-			damage: 30,
+			damage: 30
 		},
 		{
-			cost: ["Psychic"],
+			cost: [
+				"Psychic",
+			],
 			name: {
 				en: "Phychic",
+				fr: "Psyko"
 			},
 			effect: {
-				en: "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon."
+				en: "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.",
+				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire."
 			},
-			damage: 20,
-		}
+			damage: 20
+		},
 	],
 
 	weaknesses: [

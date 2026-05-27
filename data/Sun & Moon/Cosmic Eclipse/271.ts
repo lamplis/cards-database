@@ -17,7 +17,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Cette carte fournit de l’Énergie Colorless. \n\nLorsque vous attachez cette carte de votre main à un Pokémon, piochez une carte.",
+		fr: "Cette carte fournit de l'Énergie {C}.\n\nLorsque vous attachez cette carte de votre main à un Pokémon, piochez une carte.",
 		en: "This card provides Colorless Energy. \n\nWhen you attach this card from your hand to a Pokémon, draw a card.",
 		es: "Esta carta proporciona 1 Energía Colorless.\n\nCuando unas esta carta de tu mano a 1 Pokémon, roba 1 carta.",
 		it: "Questa carta fornisce Energia Colorless.\n\nQuando assegni questa carta dalla tua mano a un Pokémon, pesca una carta.",

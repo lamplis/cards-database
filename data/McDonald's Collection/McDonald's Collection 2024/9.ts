@@ -35,23 +35,33 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Darkness"],
+			cost: [
+				"Darkness",
+			],
 			name: {
 				en: "Blindside",
+				fr: "Angle Mort"
 			},
 			effect: {
-				en: "This attack does 60 damage to 1 of your opponent's Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
-			},
+				en: "This attack does 60 damage to 1 of your opponent's Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Cette attaque inflige 60 dégâts à l'un des Pokémon de votre adversaire ayant au moins un marqueur de dégâts. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			}
 		},
 		{
-			cost: ["Darkness", "Colorless", "Colorless"],
+			cost: [
+				"Darkness",
+				"Colorless",
+				"Colorless",
+			],
 			name: {
 				en: "Moon Mirage",
+				fr: "Mirage Lunaire"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused."
+				en: "Your opponent's Active Pokémon is now Confused.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus."
 			},
-			damage: 80,
+			damage: 80
 		},
 	],
 

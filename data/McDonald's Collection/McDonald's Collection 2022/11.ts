@@ -26,11 +26,14 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless"],
+			cost: [
+				"Colorless",
+			],
 			name: {
 				en: "Flap",
+				fr: "Battement"
 			},
-			damage: 10,
+			damage: 10
 		},
 	],
 

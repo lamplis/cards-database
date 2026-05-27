@@ -26,23 +26,32 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless"],
+			cost: [
+				"Colorless",
+			],
 			name: {
 				en: "Wintry Call",
+				fr: "Appel Hivernal"
 			},
 			effect: {
-				en: "Search your deck for up to 2 Melony cards, reveal them, and put them into your hand. Then, shuffle your deck."
+				en: "Search your deck for up to 2 Melony cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+				fr: "Cherchez dans votre deck jusqu'à 2 cartes Lona, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck."
 			}
 		},
 		{
-			cost: ["Water", "Colorless"],
+			cost: [
+				"Water",
+				"Colorless",
+			],
 			name: {
 				en: "Icy Wind",
+				fr: "Vent Glace"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep."
+				en: "Your opponent's Active Pokémon is now Asleep.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi."
 			},
-			damage: 50,
+			damage: 50
 		},
 	],
 

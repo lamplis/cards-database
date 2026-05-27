@@ -3,6 +3,9 @@ import Set from "../Obsidian Flames"
 
 const card: Card = {
 	dexId: [615],
+
+	cameoDexIds: [608],
+
 	set: Set,
 
 	name: {

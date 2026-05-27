@@ -3,6 +3,9 @@ import Set from "../Brilliant Stars"
 
 const card: Card = {
 	dexId: [133],
+
+	cameoDexIds: [30, 33],
+
 	set: Set,
 
 	name: {

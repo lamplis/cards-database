@@ -69,6 +69,9 @@ const card: Card = {
 	retreat: 1,
 	dexId: [133],
 
+
+	cameoDexIds: [384],
+
 	description: {
 		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions."
 	},

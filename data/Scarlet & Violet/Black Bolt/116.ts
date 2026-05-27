@@ -3,6 +3,9 @@ import Set from "../Black Bolt"
 
 const card: Card = {
 	dexId: [517],
+
+	cameoDexIds: [519],
+
 	set: Set,
 
 	name: {

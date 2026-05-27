@@ -31,7 +31,20 @@ const card: Card = {
 				fr: "Balayage"
 			},
 			damage: 20
-		}
+		},
+		{
+			cost: [
+				"Water",
+				"Colorless",
+			],
+			name: {
+				fr: "Éclaboussure"
+			},
+			damage: "20+",
+			effect: {
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires."
+			}
+		},
 	],
 
 	weaknesses: [

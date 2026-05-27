@@ -6,6 +6,10 @@ const card: Card = {
 
 	dexId: [718],
 
+
+
+	cameoDexIds: [718],
+
 	name: {
 		en: "Mega Zygarde ex",
 		fr: "Méga-Zygarde-ex",

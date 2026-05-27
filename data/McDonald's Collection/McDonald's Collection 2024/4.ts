@@ -26,21 +26,29 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Psychic"],
+			cost: [
+				"Psychic",
+			],
 			name: {
 				en: "Pound",
+				fr: "Écras'Face"
 			},
 			damage: 20
 		},
 		{
-			cost: ["Colorless", "Colorless"],
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
 			name: {
 				en: "Let's All Rollout",
+				fr: "Roulade Collégiale"
 			},
 			effect: {
 				en: "This attack does 20 more damage for each of your Benched Pokémon that has the Let's Rollout Attack.",
+				fr: "Cette attaque inflige 20 dégâts pour chacun de vos Pokémon de Banc ayant l'attaque Roulade Collégiale."
 			},
-			damage: "20x",
+			damage: "20x"
 		},
 	],
 

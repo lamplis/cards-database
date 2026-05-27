@@ -35,20 +35,32 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Fighting", "Fighting", "Colorless"],
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+			],
 			name: {
 				en: "Skull Bash",
+				fr: "Coud'Krâne"
 			},
-			damage: 30,
+			damage: 30
 		},
 		{
-			cost: ["Fighting", "Fighting", "Fighting", "Colorless"],
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Fighting",
+				"Colorless",
+			],
 			name: {
 				en: "Sandstorm Spray",
+				fr: "Jet Sirocco"
 			},
 			effect: {
 				en: "Discard 2 Energy from this Pokémon. If you discarded any Energy in this way, your opponent shuffles their Active Pokémon and all attached cards into their deck.",
-			},
+				fr: "Défaussez 2 Énergies de ce Pokémon. Si vous avez défaussé au moins une Énergie de cette façon, votre adversaire mélange son Pokémon Actif et toutes les cartes qui lui sont attachées avec son deck."
+			}
 		},
 	],
 

@@ -3,6 +3,9 @@ import Set from '../Chilling Reign'
 
 const card: Card = {
 	dexId: [144],
+
+	cameoDexIds: [170, 627],
+
 	set: Set,
 
 	name: {

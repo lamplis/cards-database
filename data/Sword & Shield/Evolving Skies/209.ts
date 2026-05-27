@@ -28,6 +28,9 @@ const card: Card = {
 	illustrator: "kirisAki",
 	dexId: [471],
 
+
+	cameoDexIds: [25, 133, 183, 184, 349, 674],
+
 	evolveFrom: {
 		en: "Glaceon V",
 		fr: "Givrali-V",

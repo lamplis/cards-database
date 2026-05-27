@@ -26,7 +26,9 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless"],
+			cost: [
+				"Colorless",
+			],
 			name: {
 				en: "Gnaw",
 				fr: "Ronge",
@@ -35,14 +37,19 @@ const card: Card = {
 				pt: "Roída",
 				de: "Nagen"
 			},
-			damage: 10,
+			damage: 10
 		},
 		{
-			cost: ["Fire", "Fire", "Colorless"],
+			cost: [
+				"Fire",
+				"Fire",
+				"Colorless",
+			],
 			name: {
 				en: "Combustion",
+				fr: "Fournaise"
 			},
-			damage: 50,
+			damage: 50
 		},
 	],
 

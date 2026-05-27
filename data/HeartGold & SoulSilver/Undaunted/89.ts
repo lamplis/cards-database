@@ -23,22 +23,37 @@ const card: Card = {
 
 	suffix: "Legend",
 
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				fr: "Virus spatial"
+			},
+			effect: {
+				fr: "Si le Pokémon de votre adversaire est mis K.O. par une attaque de Rayquaza & Deoxys LÉGENDE, prenez une carte Récompense supplémentaire."
+			}
+		},
+	],
+
 	attacks: [
 		{
 			name: {
 				en: "Ozone Buster",
-				fr: "",
+				fr: "Châtiment stellaire",
 				de: "Ozonsprenger"
 			},
-
 			effect: {
 				en: "Discard all Fire Energy attached to Rayquaza & Deoxys LEGEND.",
 				fr: "Placez cette carte sur votre Banc uniquement avec l’autre moitié de Rayquaza & Deoxys LÉGENDE.",
 				de: "Lege alle -Energien, die an Rayquaza & Deoxys-LEGENDE angelegt sind, auf deinen Ablagestapel."
 			},
-
 			damage: 150,
-			cost: ["Fire", "Fire", "Lightning", "Colorless"]
+			cost: [
+				"Fire",
+				"Fire",
+				"Lightning",
+				"Colorless",
+			]
 		},
 	],
 

@@ -28,6 +28,9 @@ const card: Card = {
 	illustrator: "Taira Akitsu",
 	dexId: [700],
 
+
+	cameoDexIds: [115, 133, 134, 669, 802],
+
 	evolveFrom: {
 		en: "Sylveon V",
 		fr: "Nymphali-V",

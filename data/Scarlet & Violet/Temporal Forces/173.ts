@@ -3,6 +3,9 @@ import Set from "../Temporal Forces"
 
 const card: Card = {
 	dexId: [369],
+
+	cameoDexIds: [90, 345, 346, 347, 367, 457, 564],
+
 	set: Set,
 
 	name: {

@@ -3,6 +3,9 @@ import Set from "../Twilight Masquerade"
 
 const card: Card = {
 	dexId: [424],
+
+	cameoDexIds: [58],
+
 	set: Set,
 
 	name: {

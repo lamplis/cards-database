@@ -73,6 +73,9 @@ const card: Card = {
 	suffix: "V",
 	dexId: [889],
 
+
+	cameoDexIds: [888],
+
 	thirdParty: {
 		cardmarket: 576763,
 		tcgplayer: 250299

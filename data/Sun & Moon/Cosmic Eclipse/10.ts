@@ -20,6 +20,10 @@ const card: Card = {
 		345,
 	],
 
+
+
+	cameoDexIds: [138],
+
 	hp: 90,
 
 	types: [

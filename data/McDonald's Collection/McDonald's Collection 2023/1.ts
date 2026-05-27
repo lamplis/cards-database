@@ -26,7 +26,9 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless"],
+			cost: [
+				"Colorless",
+			],
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
@@ -35,14 +37,18 @@ const card: Card = {
 				pt: "Arranhão",
 				de: "Kratzer"
 			},
-			damage: 10,
+			damage: 10
 		},
 		{
-			cost: ["Grass", "Colorless"],
+			cost: [
+				"Grass",
+				"Colorless",
+			],
 			name: {
 				en: "Leafage",
+				fr: "Feuillage"
 			},
-			damage: 20,
+			damage: 20
 		},
 	],
 

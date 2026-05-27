@@ -26,14 +26,20 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless"],
+			cost: [
+				"Colorless",
+			],
 			name: {
 				en: "Light Punch",
+				fr: "Poing Léger"
 			},
-			damage: 10,
+			damage: 10
 		},
 		{
-			cost: ["Lightning", "Colorless"],
+			cost: [
+				"Lightning",
+				"Colorless",
+			],
 			name: {
 				en: "Zap Kick",
 				fr: "Coup d'Jus",
@@ -42,7 +48,7 @@ const card: Card = {
 				pt: "Chute Elétrico",
 				de: "Stromtritt"
 			},
-			damage: 20,
+			damage: 20
 		},
 	],
 

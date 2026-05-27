@@ -31,6 +31,9 @@ const card: Card = {
 	stage: "Stage1",
 	dexId: [2],
 
+
+	cameoDexIds: [3],
+
 	attacks: [{
 		cost: ["Grass", "Grass"],
 

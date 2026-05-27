@@ -14,6 +14,9 @@ const card: Card = {
 	dexId: [
 		29,
 	],
+
+	cameoDexIds: [145, 146],
+
 	hp: 50,
 	types: [
 		"Grass",

@@ -26,18 +26,25 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Psychic"],
+			cost: [
+				"Psychic",
+			],
 			name: {
 				en: "Stampede",
+				fr: "Ruée"
 			},
-			damage: 10,
+			damage: 10
 		},
 		{
-			cost: ["Psychic", "Colorless"],
+			cost: [
+				"Psychic",
+				"Colorless",
+			],
 			name: {
 				en: "Magical Shot",
+				fr: "Coup Magique"
 			},
-			damage: 30,
+			damage: 30
 		},
 	],
 

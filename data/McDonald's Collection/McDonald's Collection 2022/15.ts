@@ -26,12 +26,17 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless", "Colorless"],
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
 			name: {
 				en: "Live Painting",
+				fr: "Toile Vivante"
 			},
 			effect: {
 				en: "Reveal any number of basic Energy cards from your hand. This attack does 30 more damage for each type of basic Energy you revealed in this way.",
+				fr: "Montrez autant de cartes Énergie de base que vous le voulez de votre main. Cette attaque inflige 30 dégâts supplémentaires pour chaque type d'Énergie de base montrée de cette façon."
 			},
 			damage: "30+"
 		},

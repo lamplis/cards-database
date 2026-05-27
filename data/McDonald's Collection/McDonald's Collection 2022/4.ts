@@ -26,20 +26,29 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless"],
+			cost: [
+				"Colorless",
+			],
 			name: {
 				en: "Warm Up",
+				fr: "Étirement"
 			},
 			effect: {
-				en: "Search your deck for a Fire Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck."
+				en: "Search your deck for a Fire Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.",
+				fr: "Cherchez dans votre deck une carte Énergie {R}, puis attachez-la à l'un de vos Pokémon. Mélangez ensuite votre deck."
 			}
 		},
 		{
-			cost: ["Fire", "Colorless", "Colorless"],
+			cost: [
+				"Fire",
+				"Colorless",
+				"Colorless",
+			],
 			name: {
 				en: "Combustion",
+				fr: "Fournaise"
 			},
-			damage: 30,
+			damage: 30
 		},
 	],
 

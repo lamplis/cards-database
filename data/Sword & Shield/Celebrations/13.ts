@@ -68,6 +68,10 @@ const card: Card = {
 
 	dexId: [789],
 
+
+
+	cameoDexIds: [35],
+
 	thirdParty: {
 		cardmarket: 576758,
 		tcgplayer: 250311

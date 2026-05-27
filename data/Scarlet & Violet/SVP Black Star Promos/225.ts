@@ -16,6 +16,9 @@ const card: Card = {
 	illustrator: "DOM",
 	dexId: [25],
 
+
+	cameoDexIds: [995],
+
 	attacks: [
 		{
 			cost: ["Lightning","Lightning","Colorless"],

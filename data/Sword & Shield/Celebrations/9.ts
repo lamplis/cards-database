@@ -69,6 +69,9 @@ const card: Card = {
 	regulationMark: "E",
 	dexId: [25],
 
+
+	cameoDexIds: [569],
+
 	thirdParty: {
 		cardmarket: 576754,
 		tcgplayer: 250307

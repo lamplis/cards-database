@@ -26,11 +26,14 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Psychic"],
+			cost: [
+				"Psychic",
+			],
 			name: {
 				en: "Ram",
+				fr: "Collision"
 			},
-			damage: 10,
+			damage: 10
 		},
 	],
 

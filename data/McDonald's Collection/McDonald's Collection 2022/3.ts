@@ -26,12 +26,16 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless"],
+			cost: [
+				"Colorless",
+			],
 			name: {
 				en: "Blot",
+				fr: "Pâté"
 			},
 			effect: {
 				en: "Heal 10 damage from this Pokémon.",
+				fr: "Soignez 10 dégâts de ce Pokémon."
 			},
 			damage: 10
 		},

@@ -35,21 +35,31 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless", "Colorless"],
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
 			name: {
 				en: "Beat",
+				fr: "Bataille"
 			},
-			damage: 30,
+			damage: 30
 		},
 		{
-			cost: ["Fighting", "Colorless", "Colorless"],
+			cost: [
+				"Fighting",
+				"Colorless",
+				"Colorless",
+			],
 			name: {
 				en: "Fickle Impact",
+				fr: "Frappe Capricieuse"
 			},
 			damage: 180,
 			effect: {
 				en: "If you have exactly 2, 4, or 6 Prize cards remaining, this attack does nothing.",
-			},
+				fr: "S'il vous reste exactement 2, 4 ou 6 cartes Récompense, cette attaque ne fait rien."
+			}
 		},
 	],
 

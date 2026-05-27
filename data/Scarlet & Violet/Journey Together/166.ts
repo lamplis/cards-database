@@ -3,6 +3,9 @@ import Set from "../Journey Together"
 
 const card: Card = {
 	dexId: [745],
+
+	cameoDexIds: [744],
+
 	set: Set,
 
 	name: {

@@ -52,8 +52,11 @@ const card: Card = {
 				en: "Seismic Toss",
 				fr: "Frappe Atlas"
 			},
-			damage: "60"
-		}
+			damage: "60",
+			effect: {
+				fr: "Échangez Manaphy avec 1 des Pokémon de votre Banc."
+			}
+		},
 	],
 
 	weaknesses: [

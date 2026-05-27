@@ -17,7 +17,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Cette carte fournit de l’Énergie Colorless. \n\nLorsque vous attachez cette carte de votre main à votre Pokémon Actif, échangez ce Pokémon avec l’un de vos Pokémon de Banc.",
+		fr: "Cette carte fournit de l'Énergie {C}.\n\nLorsque vous attachez cette carte de votre main à votre Pokémon Actif, échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
 		en: "This card provides Colorless Energy. \n\nWhen you attach this card from your hand to your Active Pokémon, switch that Pokémon with 1 of your Benched Pokémon.",
 		es: "Esta carta proporciona 1 Energía Colorless.\n\nCuando unas esta carta de tu mano a tu Pokémon Activo, cambia ese Pokémon por 1 de tus Pokémon en Banca.",
 		it: "Questa carta fornisce Energia Colorless. \n\nQuando assegni questa carta dalla tua mano al tuo Pokémon attivo, scambia quel Pokémon con uno della tua panchina.",

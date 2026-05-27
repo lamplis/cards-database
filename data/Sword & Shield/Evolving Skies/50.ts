@@ -91,6 +91,10 @@ const card: Card = {
 	},
 
 	dexId: [26],
+
+
+	cameoDexIds: [479, 540],
+
 	regulationMark: "E",
 
 	thirdParty: {

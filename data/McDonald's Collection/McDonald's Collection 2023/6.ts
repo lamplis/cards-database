@@ -26,20 +26,28 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless"],
+			cost: [
+				"Colorless",
+			],
 			name: {
 				en: "Growl",
+				fr: "Rugissement"
 			},
 			effect: {
-				en: "During your opponent's next turn, the Defending Pokémon's attacks do 20 less damage (before applying Weakness and Resistance)."
+				en: "During your opponent's next turn, the Defending Pokémon's attacks do 20 less damage (before applying Weakness and Resistance).",
+				fr: "Pendant le prochain tour de votre adversaire, les attaques du Pokémon Défenseur infligent 20 dégâts de moins (avant application de la Faiblesse et de la Résistance)."
 			}
 		},
 		{
-			cost: ["Lightning", "Colorless"],
+			cost: [
+				"Lightning",
+				"Colorless",
+			],
 			name: {
 				en: "Pika Bolt",
+				fr: "Pik'Éclair"
 			},
-			damage: 30,
+			damage: 30
 		},
 	],
 

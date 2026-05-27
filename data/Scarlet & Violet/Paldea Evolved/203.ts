@@ -3,6 +3,9 @@ import Set from "../Paldea Evolved"
 
 const card: Card = {
 	dexId: [129],
+
+	cameoDexIds: [130],
+
 	set: Set,
 
 	name: {

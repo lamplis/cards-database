@@ -35,7 +35,19 @@ const card: Card = {
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
 			},
 			damage: "30"
-		}
+		},
+		{
+			cost: [
+				"Water",
+				"Water",
+			],
+			name: {
+				fr: "Saumure"
+			},
+			effect: {
+				fr: "Choisissez 1 des Pokémon de votre adversaire possédant des marqueurs de dégât. Cette attaque lui inflige 40 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+			}
+		},
 	],
 
 	weaknesses: [

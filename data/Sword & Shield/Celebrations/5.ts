@@ -76,6 +76,10 @@ const card: Card = {
 
 	dexId: [25],
 
+
+
+	cameoDexIds: [10, 12, 43, 47],
+
 	thirdParty: {
 		cardmarket: 576750,
 		tcgplayer: 250303

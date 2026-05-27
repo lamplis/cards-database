@@ -6,6 +6,10 @@ const card: Card = {
 
 	dexId: [36],
 
+
+
+	cameoDexIds: [36],
+
 	name: {
 		en: "Mega Clefable ex",
 		fr: "Méga-Mélodelfe-ex",
