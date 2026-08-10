@@ -4,7 +4,7 @@ import Set from '../HS trainer Kit (Raichu)'
 const card: Card = {
 	name: {
 		en: "Raichu",
-		fr: "Raichu",
+		fr: "Léviator"
 	},
 
 	illustrator: "match",
@@ -18,7 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Pikachu",
-		fr: "Pikachu",
+		fr: "Magicarpe"
 	},
 	stage: "Stage1",
 	attacks: [
@@ -28,13 +28,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Iron Tail",
-				fr: "Queue de fer",
+				fr: "Hydro-éclaboussure"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu’à ce qu’elle tombe sur pile. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
+				en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads."
 			},
-			damage: "30×",
+			damage: "30×"
 		},
 		{
 			cost: [
@@ -43,13 +42,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunderbolt",
-				fr: "Tonnerre",
+				fr: "Ultralaser"
 			},
 			effect: {
 				en: "Discard all Energy attached to Raichu.",
-				fr: "Défaussez toutes les cartes Énergie attachées à Raichu.",
+				fr: "Défaussez une carte Énergie attachée au Pokémon Défenseur."
 			},
-			damage: 100,
+			damage: 100
 		},
 	],
 	weaknesses: [

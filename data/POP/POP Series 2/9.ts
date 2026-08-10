@@ -27,12 +27,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Paralyzing Gaze",
-				de: "Lähmender Blick"
+				fr: "Regard paralysant"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Paralyzed.",
-				de: "Das Verteidigende Pokémon ist jetzt gelähmt."
-			},
+				fr: "Le Pokémon Défenseur est maintenant Paralysé."
+			}
 		},
 	],
 

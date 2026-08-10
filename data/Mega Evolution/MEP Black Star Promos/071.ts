@@ -66,7 +66,14 @@ const card: Card = {
         		cardmarket: 873311,
         		tcgplayer: 696460
         	}
-        }
+        },
+		{
+			type: "V2",
+			cardmarketLabels: ["30!"],
+			thirdParty: {
+				cardmarket: 873311
+			}
+		}
 	],
 }
 
