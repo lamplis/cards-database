@@ -72,9 +72,6 @@ const card: Card = {
 		{
 			type: "V2",
 			cardmarketLabels: ["Attention: Oversized Card", "Not Tournament Legal"],
-			thirdParty: {
-				cardmarket: 873720
-			}
 		},
 		{
         	type: 'lenticular',
@@ -83,7 +80,14 @@ const card: Card = {
         		cardmarket: 873720,
         		tcgplayer: 692116
         	}
-        }
+        },
+		{
+			type: "V2",
+			cardmarketLabels: ["Attention: Oversized Card", "Not Tournament Legal"],
+			thirdParty: {
+				cardmarket: 873720
+			}
+		}
 	]
 }
 

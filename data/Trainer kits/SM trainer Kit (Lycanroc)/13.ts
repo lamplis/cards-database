@@ -38,7 +38,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Flap",
-				de: "Flattern"
+				fr: "Battement"
 			},
 			damage: 20
 		},
@@ -49,11 +49,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Wind",
-				de: "Klingensturm"
+				fr: "Coupe-Vent"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
 			},
 			damage: 40
 		},

@@ -25,11 +25,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Skull Stone",
-				de: "Schädelstein"
+				de: "Skull Stone",
+				fr: "Crâne de pierre"
 			},
 			effect: {
 				en: "During your opponent's turn, if Skull Fossil would be Knocked Out by damage from an opponent's attack, flip a coin until you get tails. For each heads, put 1 damage counter on the Attacking Pokémon.",
-				de: "Wenn Kopffossil im Zug deines Gegners durch Schaden eines Angriffs deines Gegners kampfunfähig würde, wirf 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Lege für jedes Mal, wenn die Münze „Kopf“ gezeigt hat, 1 Schadensmarke auf das Angreifende Pokémon."
+				de: "During your opponent's turn, if Skull Fossil would be Knocked Out by damage from an opponent's attack, flip a coin until you get tails. For each heads, put 1 damage counter on the Attacking Pokémon.",
+				fr: "Lors du prochain tour de votre adversaire, si les dégâts d'une attaque de votre adversaire mettent Fossile crâne K.O., lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, placez 1 marqueur de dégât sur le Pokémon Attaquant."
 			}
 		},
 	],

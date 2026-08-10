@@ -25,11 +25,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Armor Stone",
-				de: "Panzerungsstein"
+				de: "Armor Stone",
+				fr: "Armure de pierre"
 			},
 			effect: {
 				en: "Whenever Armor Fossil would be damaged by your opponent's attack, flip a coin until you get tails. For each heads, reduce that damage by 10.",
-				de: "Wenn Panzerfossil durch einen gegnerischen Angriff Schaden zugefügt würde, wirf 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Reduziere den Schaden dieses Angriffs um 10 Schadenspunkte mal der Anzahl „Kopf“."
+				de: "Whenever Armor Fossil would be damaged by your opponent's attack, flip a coin until you get tails. For each heads, reduce that damage by 10.",
+				fr: "Lorsqu'une attaque de votre adversaire inflige des dégâts à Fossile armure, lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, réduisez ces dégâts de 10."
 			}
 		},
 	],

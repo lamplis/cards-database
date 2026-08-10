@@ -54,7 +54,7 @@ const card: Card = {
 			type: "holo",
 			stamp: ["set-logo"],
 			thirdParty: {
-				cardmarket: 884752,
+				cardmarket: 884753,
 				tcgplayer: 694679
 
 			}
@@ -63,9 +63,15 @@ const card: Card = {
 			type: "holo",
 			stamp: ["set-logo","staff"],
 			thirdParty: {
-				cardmarket: 884753,
 				tcgplayer: 694680
 
+			}
+		},
+		{
+			type: "V1",
+			cardmarketLabels: ["Masterball Reverse", "Pokeball Reverse"],
+			thirdParty: {
+				cardmarket: 884752
 			}
 		}
 	],
