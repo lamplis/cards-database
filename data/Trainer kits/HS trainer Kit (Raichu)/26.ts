@@ -4,7 +4,7 @@ import Set from '../HS trainer Kit (Raichu)'
 const card: Card = {
 	name: {
 		en: "Moomoo Milk",
-		fr: "Lait Meumeu",
+		fr: "Énergie Eau"
 	},
 
 	illustrator: "Noriko Hotta",

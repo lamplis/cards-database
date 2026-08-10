@@ -61,8 +61,14 @@ const card: Card = {
 		{
 			type: "V2",
 			thirdParty: {
-				cardmarket: 873704,
 				tcgplayer: 680481
+			}
+		},
+		{
+			type: "V2",
+			cardmarketLabels: ["Pokemon Center", "Stamped Version"],
+			thirdParty: {
+				cardmarket: 873704
 			}
 		}
 	]

@@ -53,7 +53,7 @@ const card: Card = {
 		{
 			type: "holo",
 			thirdParty: {
-				cardmarket: 885516,
+				cardmarket: 885517,
 				tcgplayer: 704879
 			}
 		},
@@ -64,7 +64,14 @@ const card: Card = {
         		cardmarket: 885517,
         		tcgplayer: 704880
         	}
-        }
+        },
+		{
+			type: "holo",
+			cardmarketLabels: ["chi Pokimon Into"],
+			thirdParty: {
+				cardmarket: 885516
+			}
+		}
 	],
 }
 

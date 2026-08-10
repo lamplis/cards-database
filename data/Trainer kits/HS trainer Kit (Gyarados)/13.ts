@@ -4,7 +4,7 @@ import Set from '../HS trainer Kit (Gyarados)'
 const card: Card = {
 	name: {
 		en: "Croconaw",
-		fr: "Crocrodil",
+		fr: "Crocrodil"
 	},
 
 	illustrator: "kawayoo",
@@ -18,7 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Totodile",
-		fr: "Kaiminus",
+		fr: "Kaiminus"
 	},
 	stage: "Stage1",
 	attacks: [
@@ -29,9 +29,9 @@ const card: Card = {
 			],
 			name: {
 				en: "Wave Splash",
-				fr: "Grosse vague",
+				fr: "Grosse vague"
 			},
-			damage: 30,
+			damage: 30
 		},
 		{
 			cost: [
@@ -41,13 +41,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Big Bite",
-				fr: "Grosse morsure",
+				fr: "Grosse morsure"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
+				fr: "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire."
 			},
-			damage: 50,
+			damage: 50
 		},
 	],
 	weaknesses: [

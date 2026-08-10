@@ -38,11 +38,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bullet Seed",
-				de: "Kugelsaat"
+				fr: "Balle Graine"
 			},
 			effect: {
 				en: "Flip 4 coins. This attack does 20 damage for each heads.",
-				de: "Wirf 4 Münzen. Diese Attacke fügt 20 Schadenspunkte pro Kopf zu."
+				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
 			},
 			damage: "20×"
 		},

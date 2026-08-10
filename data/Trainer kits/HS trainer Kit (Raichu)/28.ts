@@ -4,12 +4,16 @@ import Set from '../HS trainer Kit (Raichu)'
 const card: Card = {
 	name: {
 		en: "Lightning Energy",
-		fr: "Énergie Électrique",
+		fr: "Échange"
 	},
 
 	rarity: "None",
 	category: "Energy",
 	set: Set,
+	effect: {
+		fr: "Échangez un de vos Pokémon Actifs avec un Pokémon de votre Banc."
+	},
+
 	retreat: 0,
 
 
