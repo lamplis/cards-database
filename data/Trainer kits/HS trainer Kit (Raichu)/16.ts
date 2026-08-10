@@ -4,7 +4,7 @@ import Set from '../HS trainer Kit (Raichu)'
 const card: Card = {
 	name: {
 		en: "Pikachu",
-		fr: "Pikachu",
+		fr: "Énergie Eau"
 	},
 
 	illustrator: "match",

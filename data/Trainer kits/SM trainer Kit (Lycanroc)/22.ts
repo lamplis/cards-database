@@ -39,11 +39,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Echoed Voice",
-				de: "Widerhall"
+				fr: "Écho"
 			},
 			effect: {
 				en: "During your next turn, this Pokémon's Echoed Voice attack does 60 more damage (before applying Weakness and Resistance).",
-				de: "Während deines nächsten Zuges fügt die Attacke Widerhall dieses Pokémon 60 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+				fr: "Pendant votre prochain tour, l'attaque Écho de ce Pokémon inflige 60 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance)."
 			},
 			damage: 60
 		},
@@ -55,11 +55,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Beak Blast",
-				de: "Schnabelkanone"
+				fr: "Bec-Canon"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Burned.",
-				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt verbrannt."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire et maintenant Brûlé."
 			},
 			damage: 100
 		},

@@ -4,7 +4,7 @@ import Set from '../HS trainer Kit (Raichu)'
 const card: Card = {
 	name: {
 		en: "Energy Switch",
-		fr: "Échange d’Énergie",
+		fr: "Énergie Eau"
 	},
 
 	illustrator: "Wataru Kawahara",

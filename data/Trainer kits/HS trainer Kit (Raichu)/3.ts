@@ -4,7 +4,7 @@ import Set from '../HS trainer Kit (Raichu)'
 const card: Card = {
 	name: {
 		en: "Flaaffy",
-		fr: "Lainergie",
+		fr: "Énergie Eau"
 	},
 
 	illustrator: "Masakazu Fukuda",
