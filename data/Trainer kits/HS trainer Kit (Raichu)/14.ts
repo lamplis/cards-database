@@ -4,12 +4,33 @@ import Set from '../HS trainer Kit (Raichu)'
 const card: Card = {
 	name: {
 		en: "Lightning Energy",
-		fr: "Énergie Électrique",
+		fr: "Kaiminus"
 	},
 
 	rarity: "None",
 	category: "Energy",
 	set: Set,
+	attacks: [
+		{
+			cost: [
+				"Water",
+			],
+			name: {
+				fr: "Ronge"
+			}
+		},
+		{
+			cost: [
+				"Water",
+				"Colorless",
+			],
+			name: {
+				fr: "Grosse vague"
+			},
+			damage: "20"
+		},
+	],
+
 	retreat: 0,
 
 

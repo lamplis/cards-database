@@ -11,7 +11,16 @@ const card: Card = {
 	cameoDexIds: [420],
 
 	rarity: "Black Star Promo",
-	category: "Pokemon"
+	category: "Pokemon",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 895619
+			}
+		}
+	]
 }
 
 export default card

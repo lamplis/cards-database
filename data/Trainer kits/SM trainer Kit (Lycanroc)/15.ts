@@ -28,11 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Rock Smash",
-				de: "Zertrümmerer"
+				fr: "Éclate-Roc"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 more damage.",
-				de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 10 Schadenspunkte mehr zu."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires."
 			},
 			damage: "10+"
 		},

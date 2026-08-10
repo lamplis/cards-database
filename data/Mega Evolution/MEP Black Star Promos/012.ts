@@ -110,7 +110,6 @@ const card: Card = {
 			type: "holo",
 			size: "jumbo",
 			thirdParty: {
-				cardmarket: 858147,
 				tcgplayer: 663178
 			}
 		}

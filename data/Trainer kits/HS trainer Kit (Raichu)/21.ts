@@ -4,13 +4,17 @@ import Set from '../HS trainer Kit (Raichu)'
 const card: Card = {
 	name: {
 		en: "Copycat",
-		fr: "Copieuse",
+		fr: "Échange d'Énergie"
 	},
 
 	illustrator: "Kanako Eo",
 	rarity: "None",
 	category: "Trainer",
 	set: Set,
+	effect: {
+		fr: "Prenez une carte Énergie de base attachée à l'un de vos Pokémon et attachez-la à un autre de vos Pokémon."
+	},
+
 	trainerType: "Supporter",
 	retreat: 0,
 

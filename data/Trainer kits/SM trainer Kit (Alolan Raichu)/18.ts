@@ -39,11 +39,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bear Hug",
-				de: "Dicke Umarmung"
+				fr: "Attaque Surprise"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				de: "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
 			},
 			damage: 40
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Superpower",
-				de: "Kraftkoloss"
+				fr: "Force"
 			},
 			effect: {
 				en: "You may do 40 more damage. If you do, this Pokémon does 20 damage to itself.",
