@@ -28,7 +28,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				de: "Tackle"
+				fr: "Charge"
 			},
 			damage: 10
 		},
@@ -39,7 +39,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				de: "Biss"
+				fr: "Morsure"
 			},
 			damage: 20
 		},

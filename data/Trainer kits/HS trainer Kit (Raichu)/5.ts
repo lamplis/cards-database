@@ -4,12 +4,16 @@ import Set from '../HS trainer Kit (Raichu)'
 const card: Card = {
 	name: {
 		en: "Lightning Energy",
-		fr: "Énergie Électrique",
+		fr: "Leo"
 	},
 
 	rarity: "None",
 	category: "Energy",
 	set: Set,
+	effect: {
+		fr: "Piochez 2 cartes."
+	},
+
 	retreat: 0,
 
 
