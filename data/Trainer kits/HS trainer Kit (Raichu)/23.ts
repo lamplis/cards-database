@@ -4,12 +4,16 @@ import Set from '../HS trainer Kit (Raichu)'
 const card: Card = {
 	name: {
 		en: "Lightning Energy",
-		fr: "Énergie Électrique",
+		fr: "Poké Ball"
 	},
 
 	rarity: "None",
 	category: "Energy",
 	set: Set,
+	effect: {
+		fr: "Lancez une pièce. Si c'est face, cherchez un Pokémon dans votre deck, montrez-le à votre adversaire, puis ajoutez-le à votre main. Mélangez ensuite votre deck."
+	},
+
 	retreat: 0,
 
 

@@ -92,8 +92,14 @@ const card: Card = {
 			type: "V1",
 			cardmarketLabels: ["Masterball Reverse", "Pokeball Reverse"],
 			thirdParty: {
-				cardmarket: 873708,
 				tcgplayer: 685510
+			}
+		},
+		{
+			type: "V1",
+			cardmarketLabels: ["Masterball Reverse", "Pokeball Reverse"],
+			thirdParty: {
+				cardmarket: 873708
 			}
 		}
 	]

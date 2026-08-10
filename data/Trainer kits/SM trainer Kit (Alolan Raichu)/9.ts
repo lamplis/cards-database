@@ -4,7 +4,7 @@ import Set from '../SM trainer Kit (Alolan Raichu)'
 const card: Card = {
 	name: {
 		en: "Lightning Energy",
-		de: "Elektro-Energie"
+		fr: "Énergie Combat"
 	},
 
 	rarity: "None",

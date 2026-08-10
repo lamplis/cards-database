@@ -81,7 +81,6 @@ const card: Card = {
 		{
 			type: "V2",
 			thirdParty: {
-				cardmarket: 879312,
 				tcgplayer: 685501
 			}
 		},
@@ -91,6 +90,13 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 877546,
 				tcgplayer: 685497
+			}
+		},
+		{
+			type: "V2",
+			cardmarketLabels: ["staff Version"],
+			thirdParty: {
+				cardmarket: 879312
 			}
 		}
 	]

@@ -66,8 +66,14 @@ const card: Card = {
 			type: "V1",
 			cardmarketLabels: ["Cosmos Holo", "Masterball Reverse", "Pokeball Reverse"],
 			thirdParty: {
-				cardmarket: 859024,
 				tcgplayer: 664055
+			}
+		},
+		{
+			type: "V1",
+			cardmarketLabels: ["Cosmos Holo", "Masterball Reverse", "Pokeball Reverse"],
+			thirdParty: {
+				cardmarket: 859024
 			}
 		}
 	]

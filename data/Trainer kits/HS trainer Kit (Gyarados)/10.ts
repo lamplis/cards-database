@@ -4,7 +4,7 @@ import Set from '../HS trainer Kit (Gyarados)'
 const card: Card = {
 	name: {
 		en: "Water Energy",
-		fr: "Énergie Eau",
+		fr: "Énergie Eau"
 	},
 
 	rarity: "None",

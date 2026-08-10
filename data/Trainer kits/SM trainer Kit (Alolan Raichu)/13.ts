@@ -28,13 +28,26 @@ const card: Card = {
 			],
 			name: {
 				en: "Peck Bugs",
-				de: "Insektenleser"
+				fr: "Battement"
 			},
 			effect: {
 				en: "If your opponent's Active Pokémon is a Grass Pokémon, this attack does 30 more damage.",
 				de: "Wenn das Aktive Pokémon deines Gegners ein {G}-Pokémon ist, fügt diese Attacke 30 Schadenspunkte mehr zu."
 			},
 			damage: "10+"
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Coupe-Vent"
+			},
+			damage: "40",
+			effect: {
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			}
 		},
 	],
 	stage: "Basic",

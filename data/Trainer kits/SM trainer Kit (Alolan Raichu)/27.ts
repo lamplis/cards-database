@@ -4,7 +4,7 @@ import Set from '../SM trainer Kit (Alolan Raichu)'
 const card: Card = {
 	name: {
 		en: "Psychic Energy",
-		de: "Psycho-Energie"
+		fr: "Malasada Maxi"
 	},
 
 	rarity: "None",
@@ -13,6 +13,10 @@ const card: Card = {
 	types: [
 		"Psychic",
 	],
+	effect: {
+		fr: "Soignez 20 dégâts et retirez un État Spécial de votre Pokémon Actif."
+	},
+
 	retreat: 0,
 
 	variants: [

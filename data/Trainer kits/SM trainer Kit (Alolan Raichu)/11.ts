@@ -28,12 +28,22 @@ const card: Card = {
 			],
 			name: {
 				en: "Astonish",
-				de: "Erstauner"
+				fr: "Rugissement"
 			},
 			effect: {
 				en: "Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into their deck.",
-				de: "Wähle 1 zufällige Karte aus der Hand deines Gegners. Dein Gegner zeigt jene Karte und mischt sie in sein Deck."
+				fr: "Pendant le prochain tour de votre adversaire, les attaques du Pokémon Défenseur infligent 20 dégâts de moins (avant application de la Faiblesse et de la Résistance)."
 			}
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Battement"
+			},
+			damage: "20"
 		},
 	],
 	stage: "Basic",

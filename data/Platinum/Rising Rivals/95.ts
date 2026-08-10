@@ -29,12 +29,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Damage Porter",
-				de: "Schadensträger"
+				de: "Schadensträger",
+				fr: "Porteur de dégâts"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage times the number of damage counters on the Pokémon this card is attached to to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte mal der Anzahl Schadensmarken auf dem Pokémon, an dem diese Karte angelegt ist, zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
-
+				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte mal der Anzahl Schadensmarken auf dem Pokémon, an dem diese Karte angelegt ist, zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur le Pokémon auquel cette carte est attachée. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
 			}
 		},
 	],

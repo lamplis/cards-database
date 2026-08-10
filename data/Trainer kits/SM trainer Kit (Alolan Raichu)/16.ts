@@ -29,9 +29,20 @@ const card: Card = {
 			],
 			name: {
 				en: "Vice Grip",
-				de: "Klammer"
+				fr: "Morsure"
 			},
 			damage: 20
+		},
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				fr: "Tranch'Griffe"
+			},
+			damage: "80"
 		},
 	],
 	stage: "Basic",

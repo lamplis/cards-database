@@ -4,7 +4,7 @@ import Set from '../HS trainer Kit (Raichu)'
 const card: Card = {
 	name: {
 		en: "Moomoo Milk",
-		fr: "Lait Meumeu",
+		fr: "Kaiminus"
 	},
 
 	illustrator: "Noriko Hotta",
@@ -12,6 +12,27 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 	trainerType: "Item",
+	attacks: [
+		{
+			cost: [
+				"Water",
+			],
+			name: {
+				fr: "Ronge"
+			}
+		},
+		{
+			cost: [
+				"Water",
+				"Colorless",
+			],
+			name: {
+				fr: "Grosse vague"
+			},
+			damage: "20"
+		},
+	],
+
 	retreat: 0,
 
 
