@@ -34,14 +34,13 @@ const card: Card = {
 		{
 			type: "holo",
 			thirdParty: {
-				cardmarket: 886615
+				cardmarket: 879255
 			}
 		},
 		{
 			type: "V1",
 			cardmarketLabels: ["Cosmos Holo"],
 			thirdParty: {
-				cardmarket: 879255,
 				tcgplayer: 686342
 			}
 		}

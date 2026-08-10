@@ -28,11 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Nap",
-				de: "Nickerchen"
+				fr: "Tit'Sieste"
 			},
 			effect: {
 				en: "Heal 20 damage from this Pokémon.",
-				de: "Heile 20 Schadenspunkte bei diesem Pokémon."
+				fr: "Soignez 20 dégâts à ce Pokémon."
 			}
 		},
 		{
@@ -42,7 +42,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Gnaw",
-				de: "Nagen"
+				fr: "Ronge"
 			},
 			damage: 20
 		},

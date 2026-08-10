@@ -4,7 +4,7 @@ import Set from '../HS trainer Kit (Gyarados)'
 const card: Card = {
 	name: {
 		en: "Magikarp",
-		fr: "Magicarpe",
+		fr: "Magicarpe"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,9 +24,9 @@ const card: Card = {
 			],
 			name: {
 				en: "Splash",
-				fr: "Trempette",
+				fr: "Trempette"
 			},
-			damage: 10,
+			damage: 10
 		},
 	],
 	weaknesses: [

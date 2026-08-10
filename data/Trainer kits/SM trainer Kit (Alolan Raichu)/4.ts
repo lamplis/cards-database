@@ -29,9 +29,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				de: "Tackle"
+				fr: "Balle Graine"
 			},
-			damage: 30
+			damage: 30,
+			effect: {
+				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
+			}
 		},
 	],
 	stage: "Basic",

@@ -28,11 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Psychic Boom",
-				de: "Psychoknall"
+				fr: "Écho"
 			},
 			effect: {
 				en: "This attack does 10 damage times the amount of Energy attached to your opponent's Active Pokémon.",
-				de: "Diese Attacke fügt 10 Schadenspunkte mal der Anzahl der an das Aktive Pokémon deines Gegners angelegten Energien zu."
+				fr: "Pendant votre prochain tour, l'attaque Écho de ce Pokémon inflige 60 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance)."
 			},
 			damage: "10×"
 		},
@@ -43,9 +43,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
-				de: "Kopfnuss"
+				fr: "Bec-Canon"
 			},
-			damage: 20
+			damage: 20,
+			effect: {
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire et maintenant Brûlé."
+			}
 		},
 	],
 	stage: "Basic",

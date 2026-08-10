@@ -4,12 +4,34 @@ import Set from '../SM trainer Kit (Alolan Raichu)'
 const card: Card = {
 	name: {
 		en: "Lightning Energy",
-		de: "Elektro-Energie"
+		fr: "Manglouton"
 	},
 
 	rarity: "None",
 	category: "Energy",
 	set: Set,
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				fr: "Charge"
+			},
+			damage: "10"
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Morsure"
+			},
+			damage: "20"
+		},
+	],
+
 	retreat: 0,
 
 	variants: [

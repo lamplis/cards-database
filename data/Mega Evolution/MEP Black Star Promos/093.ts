@@ -8,7 +8,22 @@ const card: Card = {
 	},
 	set: Set,
 	rarity: "Black Star Promo",
-	category: "Pokemon"
+	category: "Pokemon",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 894884
+			}
+		},
+		{
+			type: "V2",
+			thirdParty: {
+				cardmarket: 894885
+			}
+		}
+	]
 }
 
 export default card

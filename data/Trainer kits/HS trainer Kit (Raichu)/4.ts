@@ -4,7 +4,7 @@ import Set from '../HS trainer Kit (Raichu)'
 const card: Card = {
 	name: {
 		en: "Meowth",
-		fr: "Miaouss",
+		fr: "Énergie Eau"
 	},
 
 	illustrator: "Kagemaru Himeno",

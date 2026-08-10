@@ -4,7 +4,7 @@ import Set from '../HS trainer Kit (Raichu)'
 const card: Card = {
 	name: {
 		en: "Meowth",
-		fr: "Miaouss",
+		fr: "Magicarpe"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,13 +24,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Pay Day",
-				fr: "Jackpot",
+				fr: "Trempette"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
+				en: "Draw a card."
 			},
-			damage: 10,
+			damage: 10
 		},
 		{
 			cost: [
@@ -38,10 +37,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dig Claws",
-				fr: "Creusogriffes",
+				en: "Dig Claws"
 			},
-			damage: 20,
+			damage: 20
 		},
 	],
 	weaknesses: [

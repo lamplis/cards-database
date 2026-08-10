@@ -92,6 +92,13 @@ const card: Card = {
         		tcgplayer: 668511
         	}
         },
+		{
+			type: "V2",
+			cardmarketLabels: ["30!"],
+			thirdParty: {
+				cardmarket: 859039
+			}
+		}
 	],
 }
 
