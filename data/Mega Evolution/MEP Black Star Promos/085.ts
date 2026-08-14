@@ -20,6 +20,31 @@ const card: Card = {
 			}
 		}
 	],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				fr: "Rempart Antique"
+			},
+			effect: {
+				fr: "Tant que ce Pokémon est sur votre Banc, évitez tous les dégâts infligés à chacun de vos Pokémon par les attaques des Pokémon de votre adversaire auxquels 2 Énergies ou moins sont attachées."
+			}
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Metal",
+				"Metal",
+				"Colorless",
+			],
+			name: {
+				fr: "Enfoncement"
+			},
+			damage: "160"
+		},
+	],
 }
 
 export default card

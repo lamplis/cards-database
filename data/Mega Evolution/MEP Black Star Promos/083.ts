@@ -20,6 +20,31 @@ const card: Card = {
 			}
 		}
 	],
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+			],
+			name: {
+				fr: "À Fond"
+			},
+			damage: "50+",
+			effect: {
+				fr: "Si vous n'avez aucune carte dans votre main, cette attaque inflige 160 dégâts supplémentaires."
+			}
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				fr: "Psykoud'Boul"
+			},
+			damage: "110"
+		},
+	],
 }
 
 export default card
