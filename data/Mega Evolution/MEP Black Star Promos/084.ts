@@ -20,6 +20,20 @@ const card: Card = {
 			}
 		}
 	],
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+			],
+			name: {
+				fr: "Ancre Vengeresse"
+			},
+			damage: "30+",
+			effect: {
+				fr: "Si vous avez au moins 4 Pokémon ayant le talent Cachette en Douce dans votre pile de défausse, cette attaque inflige 140 dégâts supplémentaires."
+			}
+		},
+	],
 }
 
 export default card
