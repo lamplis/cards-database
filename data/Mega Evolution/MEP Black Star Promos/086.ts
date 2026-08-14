@@ -19,6 +19,31 @@ const card: Card = {
 			}
 		}
 	],
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				fr: "Tête de Crétin"
+			},
+			effect: {
+				fr: "Ce Pokémon ne peut pas être Confus."
+			}
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+				"Psychic",
+				"Colorless",
+			],
+			name: {
+				fr: "Super Psy"
+			},
+			damage: "50"
+		},
+	],
 }
 
 export default card
