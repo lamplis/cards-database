@@ -26,6 +26,34 @@ const card: Card = {
 			}
 		}
 	],
+	attacks: [
+		{
+			cost: [
+				"Darkness",
+			],
+			name: {
+				fr: "Soulève Corne"
+			},
+			damage: "30",
+			effect: {
+				fr: "Cette attaque inflige aussi 30 dégâts à l'un de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			}
+		},
+		{
+			cost: [
+				"Darkness",
+				"Darkness",
+				"Darkness",
+			],
+			name: {
+				fr: "Fouet Sombre"
+			},
+			damage: "100+",
+			effect: {
+				fr: "Si au moins une Énergie {D} Sombre est attachée à vos Pokémon de Banc, cette attaque inflige 70 dégâts supplémentaires."
+			}
+		},
+	],
 }
 
 export default card
