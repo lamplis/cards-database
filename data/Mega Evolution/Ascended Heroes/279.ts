@@ -6,6 +6,7 @@ const card: Card = {
 	cameoDexIds: [81, 938],
 
 	dexId: [939],
+	cameoDexIds: [81, 938],
 
 	name: {
 		en: "Iono's Bellibolt ex",

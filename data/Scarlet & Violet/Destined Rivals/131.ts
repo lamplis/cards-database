@@ -3,6 +3,7 @@ import Set from "../Destined Rivals"
 
 const card: Card = {
 	dexId: [510],
+	cameoDexIds: [302],
 	set: Set,
 	cameoDexIds: [302],
 

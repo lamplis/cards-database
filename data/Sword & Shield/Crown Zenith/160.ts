@@ -3,6 +3,7 @@ import Set from "../Crown Zenith"
 
 const card: Card = {
 	dexId: [25],
+	cameoDexIds: [169, 571, 818, 888, 892, 897, 898],
 	set: Set,
 	cameoDexIds: [169, 571, 818, 888, 892, 897, 898],
 

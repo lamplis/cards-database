@@ -17,6 +17,7 @@ const card: Card = {
 	stage: "Basic",
 	illustrator: "Saboteri",
 	dexId: [202],
+	cameoDexIds: [6, 53, 61, 96, 113, 215],
 	attacks: [
 		{
 			cost: [

@@ -3,6 +3,7 @@ import Set from '../Battle Styles'
 
 const card: Card = {
 	dexId: [892],
+	cameoDexIds: [823, 845, 846, 852],
 	set: Set,
 	cameoDexIds: [823, 845, 846, 852],
 

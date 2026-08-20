@@ -6,6 +6,7 @@ const card: Card = {
 	cameoDexIds: [36],
 
 	dexId: [36],
+	cameoDexIds: [36],
 
 	name: {
 		en: "Mega Clefable ex",
