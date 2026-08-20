@@ -16,6 +16,7 @@ const card: Card = {
 	stage: "Basic",
 	illustrator: "DOM",
 	dexId: [25],
+	cameoDexIds: [995],
 
 	attacks: [
 		{

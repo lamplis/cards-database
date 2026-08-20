@@ -6,6 +6,7 @@ const card: Card = {
 	cameoDexIds: [19],
 
 	dexId: [699],
+	cameoDexIds: [19],
 
 	name: {
 		en: "Aurorus",

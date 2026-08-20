@@ -22,6 +22,7 @@ const card: Card = {
 	types: ["Fire"],
 	stage: "Basic",
 	dexId: [4],
+	cameoDexIds: [105, 143],
 
 	attacks: [{
 		cost: ["Fire"],

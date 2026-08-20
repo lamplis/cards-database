@@ -3,6 +3,7 @@ import Set from "../Scarlet & Violet"
 
 const card: Card = {
 	dexId: [960],
+	cameoDexIds: [54, 79, 90, 370, 690, 747],
 	set: Set,
 	cameoDexIds: [54, 79, 90, 370, 690, 747],
 
