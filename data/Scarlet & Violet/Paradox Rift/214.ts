@@ -3,6 +3,7 @@ import Set from "../Paradox Rift"
 
 const card: Card = {
 	dexId: [474],
+	cameoDexIds: [25, 137, 233],
 	set: Set,
 	cameoDexIds: [25, 137, 233],
 
