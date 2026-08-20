@@ -3,6 +3,7 @@ import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [36],
+	cameoDexIds: [425],
 
 	name: {
 		en: "Clefable",
