@@ -58,6 +58,7 @@ const card: Card = {
 	},
 
 	dexId: [559],
+	cameoDexIds: [131],
 	regulationMark: "E",
 
 	variants: [
