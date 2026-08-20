@@ -32,6 +32,7 @@ const card: Card = {
 	},
 	stage: "Stage2",
 	dexId: [3],
+	cameoDexIds: [3],
 
 	abilities: [{
 		type: "Ability",
