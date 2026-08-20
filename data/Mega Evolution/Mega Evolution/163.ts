@@ -23,6 +23,7 @@ const card: Card = {
 	types: ["Dragon"],
 	stage: "Basic",
 	dexId: [380],
+	cameoDexIds: [380],
 
 	attacks: [{
 		cost: ["Colorless"],

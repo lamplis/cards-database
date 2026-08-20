@@ -22,6 +22,7 @@ const card: Card = {
 	stage: "VMAX",
 	illustrator: "kirisAki",
 	dexId: [471],
+	cameoDexIds: [25, 133, 183, 184, 349, 674],
 
 	evolveFrom: {
 		en: "Glaceon V",

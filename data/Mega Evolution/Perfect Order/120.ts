@@ -6,6 +6,7 @@ const card: Card = {
 	cameoDexIds: [718],
 
 	dexId: [718],
+	cameoDexIds: [718],
 
 	name: {
 		en: "Mega Zygarde ex",

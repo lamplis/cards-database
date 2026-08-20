@@ -71,6 +71,7 @@ const card: Card = {
 	},
 
 	dexId: [25],
+	cameoDexIds: [10, 12, 43, 47],
 
 	variants: [
 		{
