@@ -27,6 +27,7 @@ const card: Card = {
 	category: "Pokemon",
 
 	dexId: [319],
+	cameoDexIds: [319],
 	hp: 330,
 	types: ["Darkness"],
 	stage: "Stage1",

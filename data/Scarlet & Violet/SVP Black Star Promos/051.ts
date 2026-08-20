@@ -3,6 +3,7 @@ import Set from "../SVP Black Star Promos"
 
 const card: Card = {
 	dexId: [143],
+	cameoDexIds: [16, 50],
 	set: Set,
 	cameoDexIds: [16, 50],
 

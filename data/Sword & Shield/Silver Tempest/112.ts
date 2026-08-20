@@ -3,6 +3,7 @@ import Set from "../Silver Tempest"
 
 const card: Card = {
 	dexId: [552],
+	cameoDexIds: [551],
 	set: Set,
 	cameoDexIds: [551],
 

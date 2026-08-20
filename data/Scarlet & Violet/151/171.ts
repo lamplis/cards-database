@@ -3,6 +3,7 @@ import Set from "../151"
 
 const card: Card = {
 	dexId: [8],
+	cameoDexIds: [39, 54, 149],
 	set: Set,
 	cameoDexIds: [39, 54, 149],
 

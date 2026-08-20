@@ -3,6 +3,7 @@ import Set from "../Astral Radiance"
 
 const card: Card = {
 	dexId: [68],
+	cameoDexIds: [51, 328, 556],
 	set: Set,
 	cameoDexIds: [51, 328, 556],
 

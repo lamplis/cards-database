@@ -3,6 +3,7 @@ import Set from "../Prismatic Evolutions"
 
 const card: Card = {
 	dexId: [937],
+	cameoDexIds: [1024],
 	set: Set,
 	cameoDexIds: [1024],
 

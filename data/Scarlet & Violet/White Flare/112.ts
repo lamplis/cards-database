@@ -3,6 +3,7 @@ import Set from "../White Flare"
 
 const card: Card = {
 	dexId: [583],
+	cameoDexIds: [582],
 	set: Set,
 	cameoDexIds: [582],
 

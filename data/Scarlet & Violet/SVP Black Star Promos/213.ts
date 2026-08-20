@@ -23,6 +23,7 @@ const card: Card = {
 	stage: "Stage2",
 	illustrator: "Acorviart",
 	dexId: [160],
+	cameoDexIds: [129],
 
 	attacks: [
 		{

@@ -13,6 +13,7 @@ const card: Card = {
 	set: Set,
 	cameoDexIds: [145, 146],
 	dexId: [29],
+	cameoDexIds: [145, 146],
 	hp: 50,
 	types: [
 		"Grass"

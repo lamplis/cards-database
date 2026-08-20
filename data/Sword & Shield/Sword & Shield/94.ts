@@ -92,6 +92,7 @@ const card: Card = {
 	},
 
 	dexId: [106],
+	cameoDexIds: [107],
 
 	thirdParty: {
 		cardmarket: 436589,
