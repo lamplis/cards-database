@@ -108,7 +108,8 @@ const card: Card = {
 			type: "normal",
 			subtype: "shadowless-red-cheek",
 			thirdParty: {
-				tcgplayer: 147229
+				tcgplayer: 147229,
+				cardmarket: 660170
 			},
 		},
 		{
@@ -116,13 +117,29 @@ const card: Card = {
 			subtype: "shadowless-red-cheek",
 			stamp: ["1st-edition"],
 			thirdParty: {
-				tcgplayer: 147229
+				tcgplayer: 147229,
+				cardmarket: 660170
 			},
 		},
 		{
 			type: "normal",
 			subtype: "1999-2000-copyright",
-		}
+		},
+		{
+			type: "normal",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 362859
+			},
+		},
+		{
+			type: "normal",
+			subtype: "unlimited",
+			stamp: ["poketour-99"],
+			thirdParty: {
+				cardmarket: 275586
+			},
+		},
 	],
 }
 
