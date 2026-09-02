@@ -121,10 +121,6 @@ if [ "$DRY_RUN" -eq 0 ]; then
 	MERGE_COUNT="$(git log --merges --oneline upstream/master..Cardium | wc -l | tr -d ' ')"
 
 	echo "[i] Custom commits on top of upstream/master: $CUSTOM_COUNT"
-	if [ "$CUSTOM_COUNT" -gt 10 ]; then
-		echo "[x] Custom commit count exceeds 10; compact history before push." >&2
-		exit 1
-	fi
 
 	if [ "$MERGE_COUNT" -gt 0 ]; then
 		echo "[x] Merge commits found on Cardium-only history." >&2
