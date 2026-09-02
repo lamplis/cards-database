@@ -104,11 +104,23 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107060,
+				cardmarket: 660164
+			},
 		},
 		{
 			type: "normal",
 			subtype: "1999-2000-copyright",
-		}
+		},
+		{
+			type: "normal",
+			size: "jumbo",
+			stamp: ["pikachu"],
+			thirdParty: {
+				cardmarket: 547246
+			},
+		},
 	],
 }
 

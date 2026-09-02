@@ -68,7 +68,8 @@ const card: Card = {
 			type: "normal",
 			subtype: "unlimited",
 			thirdParty: {
-				tcgplayer: 42399
+				tcgplayer: 42399,
+				cardmarket: 273750
 			},
 		},
 		{
@@ -84,7 +85,8 @@ const card: Card = {
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 107052
+				tcgplayer: 107052,
+				cardmarket: 660173
 			},
 		},
 		{
