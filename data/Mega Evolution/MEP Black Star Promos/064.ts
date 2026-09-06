@@ -66,16 +66,12 @@ const card: Card = {
 			type: 'holo',
 			stamp: ['set-logo', 'staff'],
 			thirdParty: {
-				cardmarket: 879303,
 				tcgplayer: 685498
 			}
 		},
 		{
 			type: "V1",
 			cardmarketLabels: ["Masterball Reverse", "Pokeball Reverse"],
-			thirdParty: {
-				cardmarket: 877543
-			}
 		}
 	]
 }

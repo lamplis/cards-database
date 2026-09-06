@@ -85,9 +85,6 @@ const card: Card = {
 		{
 			type: "V2",
 			cardmarketLabels: ["Attention: Oversized Card", "Not Tournament Legal"],
-			thirdParty: {
-				cardmarket: 873718
-			}
 		}
 	]
 }

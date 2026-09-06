@@ -85,13 +85,6 @@ const card: Card = {
 			}
 		},
 		{
-			type: "holo",
-			size: "jumbo",
-			thirdParty: {
-				cardmarket: 851066
-			},
-		},
-		{
 			type: 'lenticular',
 			size: 'jumbo',
 			thirdParty: {
