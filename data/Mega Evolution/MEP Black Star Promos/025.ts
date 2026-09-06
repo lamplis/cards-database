@@ -88,7 +88,6 @@ const card: Card = {
         	type: 'lenticular',
         	size: 'jumbo',
         	thirdParty: {
-        		cardmarket: 859039,
         		tcgplayer: 668511
         	}
         },
