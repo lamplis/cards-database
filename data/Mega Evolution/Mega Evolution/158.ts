@@ -32,7 +32,6 @@ const card: Card = {
 	},
 	stage: "Stage1",
 	dexId: [310],
-	cameoDexIds: [310],
 
 	attacks: [{
 		cost: ["Lightning", "Lightning"],
