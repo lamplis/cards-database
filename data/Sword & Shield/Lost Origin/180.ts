@@ -5,7 +5,6 @@ const card: Card = {
 	dexId: [142],
 	cameoDexIds: [138, 357, 408, 409, 410, 411, 564, 567],
 	set: Set,
-	cameoDexIds: [138, 357, 408, 409, 410, 411, 564, 567],
 
 	name: {
 		en: "Aerodactyl V",

@@ -22,7 +22,6 @@ const card: Card = {
 	types: ["Water"],
 	stage: "Basic",
 	dexId: [728],
-	cameoDexIds: [129, 321, 367],
 
 	attacks: [{
 		cost: ["Water", "Water"],
