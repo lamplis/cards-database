@@ -5,7 +5,6 @@ const card: Card = {
 	dexId: [898],
 	cameoDexIds: [361, 363, 364],
 	set: Set,
-	cameoDexIds: [361, 363, 364],
 
 	name: {
 		en: "Ice Rider Calyrex VMAX",

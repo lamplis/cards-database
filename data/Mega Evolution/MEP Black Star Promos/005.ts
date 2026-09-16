@@ -17,7 +17,6 @@ const card: Card = {
 	types: ["Psychic"],
 	stage: "Basic",
 	dexId: [425],
-	cameoDexIds: [25],
 
 	attacks: [{
 		cost: ["Psychic"],

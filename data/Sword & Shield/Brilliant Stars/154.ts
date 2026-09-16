@@ -5,7 +5,6 @@ const card: Card = {
 	dexId: [6],
 	cameoDexIds: [3],
 	set: Set,
-	cameoDexIds: [3],
 
 	name: {
 		en: "Charizard V",
