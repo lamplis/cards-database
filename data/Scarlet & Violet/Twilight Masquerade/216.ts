@@ -5,7 +5,6 @@ const card: Card = {
 	dexId: [901],
 	cameoDexIds: [216, 446, 742],
 	set: Set,
-	cameoDexIds: [216, 446, 742],
 
 	name: {
 		en: "Bloodmoon Ursaluna ex",

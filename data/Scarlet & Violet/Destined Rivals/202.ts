@@ -5,7 +5,6 @@ const card: Card = {
 	dexId: [20],
 	cameoDexIds: [19],
 	set: Set,
-	cameoDexIds: [19],
 
 	name: {
 		en: "Team Rocket's Raticate",

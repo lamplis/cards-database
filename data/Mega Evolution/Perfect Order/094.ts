@@ -6,7 +6,6 @@ const card: Card = {
 	cameoDexIds: [36],
 
 	dexId: [35],
-	cameoDexIds: [36],
 
 	name: {
 		en: "Clefairy",

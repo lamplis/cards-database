@@ -18,7 +18,6 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
-	cameoDexIds: [742],
 	hp: 70,
 
 	types: [
