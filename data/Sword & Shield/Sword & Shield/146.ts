@@ -66,7 +66,6 @@ const card: Card = {
 	},
 
 	dexId: [572],
-	cameoDexIds: [100],
 
 	thirdParty: {
 		cardmarket: 436819,

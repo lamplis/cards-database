@@ -32,7 +32,6 @@ const card: Card = {
 	},
 	stage: "Stage1",
 	dexId: [448],
-	cameoDexIds: [448],
 
 	attacks: [{
 		cost: ["Fighting"],
