@@ -1,9 +1,7 @@
 import { objectSize } from '@dzeio/object-util'
-import Queue from '@dzeio/queue'
 import { glob } from 'glob'
 import { exec, spawn } from 'node:child_process'
-import { writeFileSync } from 'node:fs'
-import { Card, Languages, Set, SupportedLanguages } from '../../../interfaces'
+import type { Card, Languages, Set, SupportedLanguages } from '../../../interfaces'
 import * as legals from '../../../meta/legals'
 interface fileCacheInterface {
 	[key: string]: any
@@ -160,49 +158,50 @@ export async function runCommandWithRetry(command: string, useSpawn = true, maxR
 }
 
 const lastEditsCache: Record<string, string> = {}
+
+function normalizeGitPath(path: string): string {
+	return path
+		.replace(/"/g, '')
+		.replace('\\303\\251', 'é')
+		.replace(/^(\.\/|\.\.\/)+/, '')
+}
 export async function loadLastEdits() {
 	console.log('Loading Git File Tree...')
-	const firstCommand = 'git ls-tree -r --name-only HEAD ../data'
-	const files = (await runCommand(firstCommand)).split('\n')
-	const secondCommand = 'git ls-tree -r --name-only HEAD ../data-asia'
-	files.push(...(await runCommand(secondCommand)).split('\n'))
+	const firstCommand = 'git ls-tree -r --name-only HEAD ../data ../data-asia'
+	const files = (await runCommandWithRetry(firstCommand)).split('\n').filter(Boolean)
 	console.log('Loaded files tree', files.length, 'files')
 	console.log('Loading their last edit time')
-	let processed = 0
-	let failed = 0
-	// Lower concurrency on Windows to reduce process handle exhaustion
-	const concurrent = process.platform === 'win32' ? 5 : 1000
-	const queue = new Queue(concurrent, 10)
-	queue.start()
+	const trackedFiles = new Set(files.map(normalizeGitPath))
+	const history = await runCommandWithRetry('git log --format=%cI --name-only -- ../data ../data-asia')
+	let date: string | undefined
 
-	for await (let file of files) {
-		if (!file || !file.trim()) {
+	for (const line of history.split(/\r?\n/)) {
+		if (/^\d{4}-\d{2}-\d{2}T/.test(line)) {
+			date = line
 			continue
 		}
-		file = file.replace(/"/g, '').replace("\\303\\251", "é")
-		await queue.add(runCommandWithRetry(`git log -1 --pretty="format:%cd" --date=iso-strict "${file}"`, false).then((res) => {
-			lastEditsCache[file] = res
-		})
-		.catch(() => {
-			console.warn('could not load last edit for', file, 'after retries')
-			failed++
-		})
-		.finally(() => {
-			processed++
-			if (processed % 1000 === 0) {
-				console.log('loaded', processed, 'out of', files.length, 'files', `(${(processed / files.length * 100).toFixed(0)}%)`)
-			}
-		}))
+
+		const file = normalizeGitPath(line)
+		if (date && trackedFiles.has(file) && !lastEditsCache[file]) {
+			lastEditsCache[file] = date
+		}
 	}
-	await queue.waitEnd()
-	if (failed > 0) {
-		console.warn(`${failed} files could not be loaded from git after retries (will use current date as fallback)`)
+
+	const missingFiles = files
+		.map(normalizeGitPath)
+		.filter((file) => !lastEditsCache[file])
+	if (missingFiles.length > 0) {
+		console.warn(
+			`Could not find Git timestamps for ${missingFiles.length} files; using the current time.`,
+			missingFiles.slice(0, 10)
+		)
 	}
+
 	console.log('done loading files', objectSize(lastEditsCache))
 }
 
 export function getLastEdit(path: string): string {
-	const date = lastEditsCache[path]
+	const date = lastEditsCache[normalizeGitPath(path)]
 	if (!date) {
 		return new Date().toISOString()
 		// throw new Error(`edit date not found for file ${path}`)
