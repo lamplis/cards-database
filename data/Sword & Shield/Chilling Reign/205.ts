@@ -5,7 +5,6 @@ const card: Card = {
 	dexId: [898],
 	cameoDexIds: [587],
 	set: Set,
-	cameoDexIds: [587],
 
 	name: {
 		en: "Shadow Rider Calyrex VMAX",

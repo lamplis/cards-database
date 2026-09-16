@@ -5,7 +5,6 @@ const card: Card = {
 	dexId: [512],
 	cameoDexIds: [581],
 	set: Set,
-	cameoDexIds: [581],
 
 	name: {
 		en: "Simisage",

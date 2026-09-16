@@ -5,7 +5,6 @@ const card: Card = {
 	dexId: [898],
 	cameoDexIds: [216, 363, 585, 667],
 	set: Set,
-	cameoDexIds: [216, 363, 585, 667],
 
 	name: {
 		fr: "Sylveroy Cavalier du Froid V",
