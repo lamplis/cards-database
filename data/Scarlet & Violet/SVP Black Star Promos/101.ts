@@ -5,7 +5,6 @@ const card: Card = {
 	dexId: [25],
 	cameoDexIds: [6],
 	set: Set,
-	cameoDexIds: [6],
 
 	name: {
 		en: "Pikachu",

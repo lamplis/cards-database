@@ -5,7 +5,6 @@ const card: Card = {
 	dexId: [549],
 	cameoDexIds: [211, 220, 363, 396, 417, 627, 902, 904],
 	set: Set,
-	cameoDexIds: [211, 220, 363, 396, 417, 627, 902, 904],
 
 	name: {
 		en: "Hisuian Lilligant V",

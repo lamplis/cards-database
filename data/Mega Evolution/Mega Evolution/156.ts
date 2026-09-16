@@ -32,7 +32,6 @@ const card: Card = {
 	},
 	stage: "Stage1",
 	dexId: [323],
-	cameoDexIds: [323],
 
 	attacks: [{
 		cost: ["Fire"],

@@ -23,7 +23,6 @@ const card: Card = {
 	types: ["Metal"],
 	stage: "Basic",
 	dexId: [303],
-	cameoDexIds: [303],
 
 	attacks: [{
 		cost: ["Metal", "Metal"],

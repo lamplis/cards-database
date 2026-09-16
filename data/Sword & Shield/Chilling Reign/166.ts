@@ -18,7 +18,6 @@ const card: Card = {
 	cameoDexIds: [352, 461],
 	hp: 210,
 	dexId: [807],
-	cameoDexIds: [352, 461],
 
 	types: [
 		"Lightning",

@@ -13,7 +13,6 @@ const card: Card = {
 	cameoDexIds: [15],
 
 	dexId: [14],
-	cameoDexIds: [15],
 
 	hp: 60,
 
