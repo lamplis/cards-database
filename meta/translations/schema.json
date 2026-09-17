@@ -156,6 +156,12 @@
 				},
 				"Mega Attack Rare": {
 					"type": "string"
+				},
+				"Pikachu Rare": {
+					"type": "string"
+				},
+				"Futuristic Rare": {
+					"type": "string"
 				}
 			},
 			"required": [
@@ -188,7 +194,9 @@
 				"Ultra Rare",
 				"Uncommon",
 				"Mega Hyper Rare",
-				"Mega Attack Rare"
+				"Mega Attack Rare",
+				"Pikachu Rare",
+				"Futuristic Rare"
 			],
 			"type": "object"
 		},
