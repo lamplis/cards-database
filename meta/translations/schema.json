@@ -162,6 +162,9 @@
 				},
 				"Futuristic Rare": {
 					"type": "string"
+				},
+				"RGB Rare": {
+					"type": "string"
 				}
 			},
 			"required": [
@@ -196,7 +199,8 @@
 				"Mega Hyper Rare",
 				"Mega Attack Rare",
 				"Pikachu Rare",
-				"Futuristic Rare"
+				"Futuristic Rare",
+				"RGB Rare"
 			],
 			"type": "object"
 		},
