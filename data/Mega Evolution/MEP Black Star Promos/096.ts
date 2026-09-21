@@ -3,10 +3,18 @@ import Set from '../MEP Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "MEP 096",
-		fr: "MEP 096"
+		en: "Moltres",
+		fr: "Sulfura",
+		de: "Lavados",
+		es: "Moltres",
+		it: "Moltres",
+		pt: "Moltres",
+		'es-mx': "Moltres",
 	},
 	set: Set,
+
+	dexId: [146],
+
 	rarity: "Black Star Promo",
 	category: "Pokemon",
 

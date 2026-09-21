@@ -3,9 +3,18 @@ import Set from '../MEP Black Star Promos'
 
 const card: Card = {
 	name: {
-		fr: "Opermine"
+		en: "Binacle",
+		fr: "Opermine",
+		de: "Bithora",
+		es: "Binacle",
+		it: "Binacle",
+		pt: "Binacle",
+		'es-mx': "Binacle",
 	},
 	set: Set,
+
+	dexId: [688],
+
 	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 80,

@@ -3,9 +3,18 @@ import Set from '../MEP Black Star Promos'
 
 const card: Card = {
 	name: {
-		fr: "Germignon"
+		en: "Chikorita",
+		fr: "Germignon",
+		de: "Endivie",
+		es: "Chikorita",
+		it: "Chikorita",
+		pt: "Chikorita",
+		'es-mx': "Chikorita",
 	},
 	set: Set,
+
+	dexId: [152],
+
 	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 70,

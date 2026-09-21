@@ -3,9 +3,18 @@ import Set from '../MEP Black Star Promos'
 
 const card: Card = {
 	name: {
-		fr: "Création de Noctali-ex"
+		en: "Umbreon ex",
+		fr: "Noctali-ex",
+		de: "Nachtara-ex",
+		es: "Umbreon ex",
+		it: "Umbreon-ex",
+		pt: "Umbreon ex",
+		'es-mx': "Umbreon ex",
 	},
 	set: Set,
+
+	dexId: [197],
+
 	rarity: "Black Star Promo",
 	category: "Pokemon",
 
