@@ -3,9 +3,19 @@ import Set from '../MEP Black Star Promos'
 
 const card: Card = {
 	name: {
-		fr: "Héricendre"
+		en: "Cyndaquil",
+		fr: "Héricendre",
+		de: "Feurigel",
+		es: "Cyndaquil",
+		it: "Cyndaquil",
+		pt: "Cyndaquil",
+		'es-mx': "Cyndaquil",
 	},
 	set: Set,
+
+	dexId: [155],
+
+
 
 	cameoDexIds: [201],
 

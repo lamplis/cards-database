@@ -3,9 +3,18 @@ import Set from '../MEP Black Star Promos'
 
 const card: Card = {
 	name: {
-		fr: "Méga-Zygarde-ex"
+		en: "Mega Zygarde ex",
+		fr: "Méga-Zygarde-ex",
+		de: "Mega-Zygarde-ex",
+		es: "Mega-Zygarde ex",
+		it: "Mega Zygarde-ex",
+		pt: "Mega Zygarde ex",
+		'es-mx': "Mega-Zygarde ex",
 	},
 	set: Set,
+
+	dexId: [718],
+
 	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 310,
