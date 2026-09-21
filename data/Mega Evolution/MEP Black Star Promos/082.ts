@@ -3,9 +3,18 @@ import Set from '../MEP Black Star Promos'
 
 const card: Card = {
 	name: {
-		fr: "Création de Miraidon"
+		en: "Miraidon",
+		fr: "Miraidon",
+		de: "Miraidon",
+		es: "Miraidon",
+		it: "Miraidon",
+		pt: "Miraidon",
+		'es-mx': "Miraidon",
 	},
 	set: Set,
+
+	dexId: [1008],
+
 	rarity: "Black Star Promo",
 	category: "Pokemon",
 

@@ -3,9 +3,19 @@ import Set from '../MEP Black Star Promos'
 
 const card: Card = {
 	name: {
-		fr: "Larméléon"
+		en: "Sobble",
+		fr: "Larméléon",
+		de: "Memmeon",
+		es: "Sobble",
+		it: "Sobble",
+		pt: "Sobble",
+		'es-mx': "Sobble",
 	},
 	set: Set,
+
+	dexId: [816],
+
+
 
 	cameoDexIds: [823, 849],
 
