@@ -3,9 +3,18 @@ import Set from '../MEP Black Star Promos'
 
 const card: Card = {
 	name: {
-		fr: "Méga-Mélodelfe-ex"
+		en: "Mega Clefable ex",
+		fr: "Méga-Mélodelfe-ex",
+		de: "Mega-Pixi-ex",
+		es: "Mega-Clefable ex",
+		it: "Mega Clefable-ex",
+		pt: "Mega Clefable ex",
+		'es-mx': "Mega-Clefable ex",
 	},
 	set: Set,
+
+	dexId: [36],
+
 	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 320,

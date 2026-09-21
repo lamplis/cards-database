@@ -3,9 +3,18 @@ import Set from '../MEP Black Star Promos'
 
 const card: Card = {
 	name: {
-		fr: "Feunnec"
+		en: "Fennekin",
+		fr: "Feunnec",
+		de: "Fynx",
+		es: "Fennekin",
+		it: "Fennekin",
+		pt: "Fennekin",
+		'es-mx': "Fennekin",
 	},
 	set: Set,
+
+	dexId: [653],
+
 	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 70,

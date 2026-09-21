@@ -3,9 +3,19 @@ import Set from '../MEP Black Star Promos'
 
 const card: Card = {
 	name: {
-		fr: "Chochodile"
+		en: "Fuecoco",
+		fr: "Chochodile",
+		de: "Krokel",
+		es: "Fuecoco",
+		it: "Fuecoco",
+		pt: "Fuecoco",
+		'es-mx': "Fuecoco",
 	},
 	set: Set,
+
+	dexId: [909],
+
+
 
 	cameoDexIds: [52, 278, 875, 1008],
 
