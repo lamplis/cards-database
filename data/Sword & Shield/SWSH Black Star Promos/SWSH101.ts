@@ -16,7 +16,7 @@ const card: Card = {
 		it: "Blastoise V"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	dexId: [9],
 	hp: 220,
 	types: ["Water"],

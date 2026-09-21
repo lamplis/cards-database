@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Keldeo ex",
 	},
 	illustrator: "Toyste Beach",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

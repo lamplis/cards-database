@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Souichirou Gunjima",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Grass"],

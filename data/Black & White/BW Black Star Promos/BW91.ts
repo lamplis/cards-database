@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Voltali",
 	},
 	illustrator: "Illus.＆Direc.The Pokémon Company Art Team",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

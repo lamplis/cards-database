@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Yveltal-EX"
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

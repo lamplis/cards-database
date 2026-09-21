@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Umbreon V"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Darkness"],

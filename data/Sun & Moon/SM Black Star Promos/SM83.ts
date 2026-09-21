@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Zorua"
 	},
 	illustrator: "kodama",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

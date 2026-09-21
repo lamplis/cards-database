@@ -22,7 +22,7 @@ const card: Card = {
 		it: "Mr. Rime di Galar"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	hp: 120,
 	types: ["Water"],
 

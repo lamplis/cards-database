@@ -12,7 +12,7 @@ const card: Card = {
 
 	illustrator: "Naoyo Kimura",
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	dexId: [25],

@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Cool Porygon",
 	},
 	illustrator: "Hiromichi Sugiyama",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

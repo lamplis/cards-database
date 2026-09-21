@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Umbreon"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	dexId: [197],
 	hp: 110,
 	types: ["Darkness"],

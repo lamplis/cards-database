@@ -17,7 +17,7 @@ const card: Card = {
 		en: "Flareon V"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Fire"],

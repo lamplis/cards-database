@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Flaaffy"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	dexId: [180],
 	hp: 90,
 	types: ["Lightning"],
