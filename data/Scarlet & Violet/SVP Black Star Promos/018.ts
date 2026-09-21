@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Mopex-ex"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Colorless"],

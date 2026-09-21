@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	suffix: "EX",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 260,
 	types: ["Lightning"],

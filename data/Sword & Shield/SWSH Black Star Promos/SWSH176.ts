@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Hoopa V"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Darkness"],

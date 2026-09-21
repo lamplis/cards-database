@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Mewtwo-EX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

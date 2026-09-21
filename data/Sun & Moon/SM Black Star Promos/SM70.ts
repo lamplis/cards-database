@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Schimmerndes Ho-Oh"
 	},
 	illustrator: "Hitoshi Ariga",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

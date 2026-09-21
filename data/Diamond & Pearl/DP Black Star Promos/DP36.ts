@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Skorgro"
 	},
 	illustrator: "Kagemaru Himeno",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

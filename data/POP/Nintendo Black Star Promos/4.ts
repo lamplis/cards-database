@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Massko"
 	},
 	illustrator: "Midori Harada",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

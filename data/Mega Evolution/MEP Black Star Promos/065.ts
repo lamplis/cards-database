@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hasuno",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fighting"],

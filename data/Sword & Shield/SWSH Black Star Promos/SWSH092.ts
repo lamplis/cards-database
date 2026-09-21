@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Charmander"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	dexId: [4],
 	hp: 70,
 	types: ["Fire"],

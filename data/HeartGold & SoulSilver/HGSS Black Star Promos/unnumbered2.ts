@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Zoroark and Legendary Pokémon",
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

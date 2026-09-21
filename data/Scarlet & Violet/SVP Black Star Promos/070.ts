@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Gruff"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],

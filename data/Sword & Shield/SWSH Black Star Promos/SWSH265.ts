@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Zeraora VSTAR"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 270,
 	types: ["Lightning"],

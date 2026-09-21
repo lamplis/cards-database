@@ -19,7 +19,7 @@ const card: Card = {
 
 	cameoDexIds: [369, 380, 381],
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	stage: "Basic",

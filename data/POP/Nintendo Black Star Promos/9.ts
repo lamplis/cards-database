@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Galifeu"
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Trainer",
 
 	set: Set,

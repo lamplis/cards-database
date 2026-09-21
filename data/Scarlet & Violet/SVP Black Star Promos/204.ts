@@ -9,7 +9,7 @@ const card: Card = {
 		fr: "Carchacrok-ex de Cynthia"
 	},
 	suffix: "EX",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 330,
 	types: ["Fighting"],

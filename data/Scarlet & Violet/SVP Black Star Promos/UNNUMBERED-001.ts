@@ -10,7 +10,7 @@ const card: Card = {
 		en: "Terapagos & Friends",
 		fr: "Terapagos et ses Amis"
 	},
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	types: ["Colorless"],
 	hp: 90,

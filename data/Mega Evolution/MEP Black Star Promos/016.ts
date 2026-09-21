@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Oswaldo KATO",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	dexId: [330],

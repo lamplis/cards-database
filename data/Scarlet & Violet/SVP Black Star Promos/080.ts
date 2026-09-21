@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Lokroko"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Fire"],

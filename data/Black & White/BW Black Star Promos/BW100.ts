@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "N",
 	},
 	illustrator: "Yusuke Ohmura",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Trainer",
 
 	set: Set,

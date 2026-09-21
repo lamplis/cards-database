@@ -11,7 +11,7 @@ const card: Card = {
 		fr: "Axoloto",
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Water"],

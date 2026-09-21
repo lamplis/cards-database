@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Megumi Mizutani",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 

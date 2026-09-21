@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Maskagato-ex"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 310,
 	types: ["Grass"],

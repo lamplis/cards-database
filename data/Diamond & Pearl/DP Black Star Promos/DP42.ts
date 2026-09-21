@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Venuflibis G"
 	},
 	illustrator: "Makoto Imai",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

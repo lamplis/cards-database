@@ -14,7 +14,7 @@ const card: Card = {
 
 	cameoDexIds: [25, 54, 185, 363, 700, 737, 926, 950, 999, 1018],
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Trainer",
 	trainerType: "Stadium"
 }

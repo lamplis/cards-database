@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Quajutsu-ex"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 300,
 	types: ["Water"],

@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Origin Forme Dialga VSTAR"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Metal"],
