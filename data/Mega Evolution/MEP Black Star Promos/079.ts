@@ -3,9 +3,18 @@ import Set from '../MEP Black Star Promos'
 
 const card: Card = {
 	name: {
-		fr: "Reptincel"
+		en: "Charmeleon",
+		fr: "Reptincel",
+		de: "Glutexo",
+		es: "Charmeleon",
+		it: "Charmeleon",
+		pt: "Charmeleon",
+		'es-mx': "Charmeleon",
 	},
 	set: Set,
+
+	dexId: [5],
+
 	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 110,

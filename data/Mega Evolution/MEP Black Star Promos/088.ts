@@ -3,9 +3,18 @@ import Set from '../MEP Black Star Promos'
 
 const card: Card = {
 	name: {
-		fr: "Création de Zarude"
+		en: "Zarude",
+		fr: "Zarude",
+		de: "Zarude",
+		es: "Zarude",
+		it: "Zarude",
+		pt: "Zarude",
+		'es-mx': "Zarude",
 	},
 	set: Set,
+
+	dexId: [893],
+
 	rarity: "Black Star Promo",
 	category: "Pokemon",
 

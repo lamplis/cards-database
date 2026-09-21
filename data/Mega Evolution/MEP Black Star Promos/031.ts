@@ -7,7 +7,12 @@ const card: Card = {
 	// TODO: incomplete data (Pokepedia redlink)
 	name: {
 		en: "N's Zekrom",
-		fr: "Zekrom de N"
+		fr: "Zekrom de N",
+		de: "Ns Zekrom",
+		es: "Zekrom de N",
+		it: "Zekrom di N",
+		pt: "Zekrom do N",
+		'es-mx': "Zekrom de N",
 	},
 
 	rarity: "Black Star Promo",

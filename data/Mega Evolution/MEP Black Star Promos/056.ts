@@ -3,9 +3,19 @@ import Set from '../MEP Black Star Promos'
 
 const card: Card = {
 	name: {
-		fr: "Poussifeu"
+		en: "Torchic",
+		fr: "Poussifeu",
+		de: "Flemmli",
+		es: "Torchic",
+		it: "Torchic",
+		pt: "Torchic",
+		'es-mx': "Torchic",
 	},
 	set: Set,
+
+	dexId: [255],
+
+
 
 	cameoDexIds: [278, 333],
 
