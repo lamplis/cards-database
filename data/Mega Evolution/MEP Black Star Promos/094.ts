@@ -3,10 +3,18 @@ import Set from '../MEP Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "MEP 094",
-		fr: "MEP 094"
+		en: "Alolan Exeggutor",
+		fr: "Noadkoko d'Alola",
+		de: "Alola-Kokowei",
+		es: "Exeggutor de Alola",
+		it: "Exeggutor di Alola",
+		pt: "Exeggutor de Alola",
+		'es-mx': "Exeggutor de Alola",
 	},
 	set: Set,
+
+	dexId: [103],
+
 	rarity: "Black Star Promo",
 	category: "Pokemon",
 
