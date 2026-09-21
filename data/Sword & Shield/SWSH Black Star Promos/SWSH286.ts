@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Pikachu VMAX"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 310,
 	types: ["Lightning"],

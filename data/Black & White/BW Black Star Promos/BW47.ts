@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Rayquaza ex",
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

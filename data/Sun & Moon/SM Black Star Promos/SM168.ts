@@ -12,7 +12,7 @@ const card: Card = {
 		de: "Pikachu & Zekrom GX"
 	},
 	illustrator: "kawayoo",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

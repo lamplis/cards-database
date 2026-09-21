@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Togedemaru"
 	},
 	illustrator: "match",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

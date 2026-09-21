@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Mewtu"
 	},
 	illustrator: "Shizurow",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

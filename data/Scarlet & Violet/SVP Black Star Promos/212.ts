@@ -11,7 +11,7 @@ const card: Card = {
 		fr: "Symbios"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Psychic"],

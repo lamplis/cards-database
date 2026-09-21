@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Nigiragi"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Dragon"],

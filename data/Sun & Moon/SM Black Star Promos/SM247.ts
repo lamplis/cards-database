@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Reshiram & Glurak GX"
 	},
 	illustrator: "aky CG Works",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

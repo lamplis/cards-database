@@ -9,7 +9,7 @@ const card: Card = {
 		en: "Toxel",
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Lightning"],

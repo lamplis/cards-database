@@ -9,7 +9,7 @@ const card: Card = {
 		fr: "Kangourex"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Colorless"],

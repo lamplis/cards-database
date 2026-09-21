@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Ponchiot",
 	},
 	illustrator: "Mizue",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

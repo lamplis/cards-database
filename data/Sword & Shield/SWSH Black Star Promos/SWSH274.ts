@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Cranidos"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Fighting"],

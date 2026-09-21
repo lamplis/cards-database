@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Ho-Oh",
 	},
 	illustrator: "You Iribi",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

@@ -12,7 +12,7 @@ const card: Card = {
 		de: "Turtok GX"
 	},
 	illustrator: "sadaji",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

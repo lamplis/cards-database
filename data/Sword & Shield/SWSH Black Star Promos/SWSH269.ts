@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Sunflora"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Grass"],

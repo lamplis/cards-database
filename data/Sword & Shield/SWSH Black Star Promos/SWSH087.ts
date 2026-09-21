@@ -16,7 +16,7 @@ const card: Card = {
 		it: "Eevee VMAX"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	dexId: [133],
 	hp: 300,
 	types: ["Colorless"],

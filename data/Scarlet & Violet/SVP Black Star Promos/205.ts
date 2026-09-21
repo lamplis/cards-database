@@ -9,7 +9,7 @@ const card: Card = {
 		fr: "Mewtwo-ex de la Team Rocket"
 	},
 	suffix: "EX",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Psychic"],

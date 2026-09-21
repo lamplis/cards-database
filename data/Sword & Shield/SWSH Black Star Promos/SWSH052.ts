@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shibuzoh.",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Psychic"],

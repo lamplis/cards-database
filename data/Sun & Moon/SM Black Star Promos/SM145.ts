@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Zapdos"
 	},
 	illustrator: "Hitoshi Ariga",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

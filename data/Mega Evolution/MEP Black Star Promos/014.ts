@@ -14,7 +14,7 @@ const card: Card = {
 		pt: "Ceruledge"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	dexId: [937],

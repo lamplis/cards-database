@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Cinderace"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	dexId: [815],
 
 	cameoDexIds: [813],

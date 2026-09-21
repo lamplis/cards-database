@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Archeops"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Colorless"],

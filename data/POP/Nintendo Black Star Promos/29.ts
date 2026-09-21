@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Celebi"
 	},
 	illustrator: "Hajime Kusajima",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

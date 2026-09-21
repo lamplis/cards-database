@@ -9,7 +9,7 @@ const card: Card = {
 		fr: "Persian-ex de la Team Rocket"
 	},
 	suffix: "EX",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 260,
 	types: ["Colorless"],
