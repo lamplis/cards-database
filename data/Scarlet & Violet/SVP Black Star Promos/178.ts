@@ -16,7 +16,7 @@ const card: Card = {
 
 	suffix: "ex",
 	illustrator: "takuyoa",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 230,
 	types: ["Water"],

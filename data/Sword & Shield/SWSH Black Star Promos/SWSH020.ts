@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hideki Ishikawa",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Lightning"],

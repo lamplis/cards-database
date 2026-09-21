@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Türkisgrüne-Maske-Ogerpon"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Grass"],

@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Deoxys"
 	},
 	illustrator: "You Iribi",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

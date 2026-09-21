@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Mobtiff"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Darkness"],

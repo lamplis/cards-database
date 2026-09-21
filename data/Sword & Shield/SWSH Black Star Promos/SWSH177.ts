@@ -37,7 +37,7 @@ const card: Card = {
 		en: "Special Delivery Bidoof"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	hp: 70,
 	types: ["Colorless"],
 

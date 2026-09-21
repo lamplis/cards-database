@@ -15,7 +15,7 @@ const card: Card = {
 
 	dexId: [169],
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	stage: "Stage2",

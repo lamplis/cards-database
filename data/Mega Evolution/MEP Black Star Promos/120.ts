@@ -11,7 +11,7 @@ const card: Card = {
 		pt: "Fanfarra de Celebração",
 	},
 	set: Set,
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Trainer",
 	trainerType: "Stadium"
 }

@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Keilflamme-ex"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 230,
 	types: ["Fire"],

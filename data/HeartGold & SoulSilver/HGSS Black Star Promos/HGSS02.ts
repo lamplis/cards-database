@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Lugia"
 	},
 	illustrator: "Takashi Yamaguchi",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

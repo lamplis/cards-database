@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Tika Matsuno",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Grass"],

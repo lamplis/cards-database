@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Pokémon Tower",
 	},
 	illustrator: "Keiji Kinebuchi",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Trainer",
 
 	set: Set,

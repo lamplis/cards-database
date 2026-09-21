@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Psiopatra"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Psychic"],

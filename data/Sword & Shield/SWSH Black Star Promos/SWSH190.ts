@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Eevee"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],

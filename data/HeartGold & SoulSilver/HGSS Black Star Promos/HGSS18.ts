@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Raz-de-marée tropical"
 	},
 	illustrator: "Sumiyoshi Kizuki",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Trainer",
 
 	set: Set,

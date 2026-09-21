@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Comfey"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],

@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Arrokuda"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	dexId: [846],
 	hp: 60,
 	types: ["Water"],

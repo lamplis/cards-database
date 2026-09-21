@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Aligatueur"
 	},
 	illustrator: "Kent Kanetsuna",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

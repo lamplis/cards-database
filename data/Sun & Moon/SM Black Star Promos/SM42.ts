@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Cosmog"
 	},
 	illustrator: "Megumi Mizutani",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

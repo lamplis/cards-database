@@ -15,7 +15,7 @@ const card: Card = {
 		'es-mx': "Zekrom de N",
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Lightning"],

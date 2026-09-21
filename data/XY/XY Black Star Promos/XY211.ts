@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Trainer",
 	set: Set,
 	cameoDexIds: [448],

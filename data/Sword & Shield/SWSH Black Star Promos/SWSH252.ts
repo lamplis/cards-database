@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Infernape V"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Fire"],

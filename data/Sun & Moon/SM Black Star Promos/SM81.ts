@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Pikachu"
 	},
 	illustrator: "Sanosuke Sakuma",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

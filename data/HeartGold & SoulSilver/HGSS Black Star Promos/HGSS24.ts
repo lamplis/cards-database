@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Tygnon"
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

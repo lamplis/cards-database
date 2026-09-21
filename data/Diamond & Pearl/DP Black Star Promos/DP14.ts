@@ -7,7 +7,7 @@ const card: Card = {
 		de: "Plaudagei"
 	},
 	illustrator: "Masakazu Fukuda",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Hisuian Samurott"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Darkness"],

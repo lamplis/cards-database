@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Entei"
 	},
 	illustrator: "Yuri Umemura",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

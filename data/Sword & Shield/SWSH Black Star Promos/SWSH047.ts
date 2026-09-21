@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Anesaki Dynamic",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Water"],

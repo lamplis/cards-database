@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Tranchodon",
 	},
 	illustrator: "kawayoo",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

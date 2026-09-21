@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Mewtwo",
 	},
 	illustrator: "Christopher Rush",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

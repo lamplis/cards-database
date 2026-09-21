@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Charmander"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Fire"],

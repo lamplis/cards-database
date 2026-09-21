@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Groudon ex",
 	},
 	illustrator: "Kazuo Yazawa",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

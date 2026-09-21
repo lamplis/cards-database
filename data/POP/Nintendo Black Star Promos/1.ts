@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Kyogre ex",
 	},
 	illustrator: "Hiromichi Sugiyama",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

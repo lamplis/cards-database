@@ -13,7 +13,7 @@ const card: Card = {
 		en: "Champions Festival"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Trainer",
 
 	effect: {

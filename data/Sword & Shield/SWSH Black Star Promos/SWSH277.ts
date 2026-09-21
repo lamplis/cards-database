@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Rillaboom"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Grass"],

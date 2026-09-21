@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "MPC Film",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 

@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Glumanda"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Fire"],

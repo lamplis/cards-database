@@ -16,7 +16,7 @@ const card: Card = {
 		it: "Victini V"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	hp: 190,
 	types: ["Fire"],
 

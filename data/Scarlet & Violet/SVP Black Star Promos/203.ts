@@ -10,7 +10,7 @@ const card: Card = {
 		fr: "Qulbutoké de la Team Rocket"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Psychic"],

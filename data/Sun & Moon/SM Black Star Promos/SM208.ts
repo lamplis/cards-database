@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Donarion"
 	},
 	illustrator: "Misa Tsutsui",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

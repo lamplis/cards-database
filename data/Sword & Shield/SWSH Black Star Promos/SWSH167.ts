@@ -51,7 +51,7 @@ const card: Card = {
 		it: "Professoressa Magnolia"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	trainerType: "Supporter",
 
 	effect: {

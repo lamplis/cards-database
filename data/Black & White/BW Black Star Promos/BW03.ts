@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Moustillon",
 	},
 	illustrator: "Ken Sugimori",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
