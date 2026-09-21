@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Yusuke Ishikawa",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Trainer",
 	set: Set,
 	trainerType: "Stadium",

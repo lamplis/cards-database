@@ -10,7 +10,7 @@ const card: Card = {
 		en: "Paradise Resort",
 		fr: "Hôtel « Au paradis des Pokémon »"
 	},
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Trainer",
 	illustrator: "Naoki Saito",
 

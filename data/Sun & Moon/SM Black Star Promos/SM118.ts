@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Wolwerock"
 	},
 	illustrator: "sui",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

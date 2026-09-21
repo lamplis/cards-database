@@ -7,7 +7,7 @@ const card: Card = {
 		de: "Toxiquak G"
 	},
 	illustrator: "Ryota Saito",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

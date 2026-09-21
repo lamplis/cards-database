@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Dialga"
 	},
 	illustrator: "Ryo Ueda",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

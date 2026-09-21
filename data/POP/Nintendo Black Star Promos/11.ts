@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Flobio"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

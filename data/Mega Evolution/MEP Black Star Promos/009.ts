@@ -25,7 +25,7 @@ const card: Card = {
 	},
 
 	illustrator: "Aya Kusube",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Psychic"],

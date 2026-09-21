@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Moltres"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fire"],

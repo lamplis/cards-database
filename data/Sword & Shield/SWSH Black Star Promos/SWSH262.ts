@@ -17,7 +17,7 @@ const card: Card = {
 		en: "Charizard VSTAR"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Fire"],

@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Choreogel"
 	},
 	illustrator: "TOKIYA",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

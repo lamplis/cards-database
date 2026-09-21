@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Weavile"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Darkness"],

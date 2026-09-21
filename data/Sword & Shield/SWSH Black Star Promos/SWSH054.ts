@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shigenori Negishi",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Fighting"],

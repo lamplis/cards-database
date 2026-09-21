@@ -10,7 +10,7 @@ const card: Card = {
 		fr: "Fulguris"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Lightning"],
