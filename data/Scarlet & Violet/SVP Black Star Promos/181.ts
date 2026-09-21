@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Takeshi Nakamura",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fire"],

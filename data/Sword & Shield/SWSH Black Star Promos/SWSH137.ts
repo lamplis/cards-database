@@ -43,7 +43,7 @@ const card: Card = {
 		it: "Light Toxtricity"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Lightning"],

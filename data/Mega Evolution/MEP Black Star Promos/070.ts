@@ -10,7 +10,7 @@ const card: Card = {
 		fr: "Ptyranidur"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fighting"],

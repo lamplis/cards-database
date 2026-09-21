@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Articuno",
 	},
 	illustrator: "Atsuko Nishida",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

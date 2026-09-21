@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Raikou"
 	},
 	illustrator: "Kagemaru Himeno",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

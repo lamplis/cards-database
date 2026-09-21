@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Molunk"
 	},
 	illustrator: "Naoki Saito",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

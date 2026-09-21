@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "MEP 114"
 	},
 	set: Set,
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon"
 }
 

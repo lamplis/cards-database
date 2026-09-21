@@ -12,7 +12,7 @@ const card: Card = {
 
 	illustrator: "Miranda Branley",
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	dexId: [43],

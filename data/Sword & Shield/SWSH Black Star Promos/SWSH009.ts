@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shibuzoh.",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 	hp: 90,

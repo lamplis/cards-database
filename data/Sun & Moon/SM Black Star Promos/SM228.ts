@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Armored Mewtwo"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Psychic"],

@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Sulfura ex"
 	},
 	illustrator: "Ken Ikuji",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

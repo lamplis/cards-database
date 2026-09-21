@@ -10,7 +10,7 @@ const card: Card = {
 		fr: "Ampibidou",
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Lightning"],

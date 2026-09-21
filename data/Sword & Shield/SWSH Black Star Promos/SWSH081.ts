@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Polteageist"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	dexId: [855],
 	hp: 60,
 	types: ["Psychic"],

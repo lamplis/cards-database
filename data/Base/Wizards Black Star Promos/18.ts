@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Team Rocket's Meowth",
 	},
 	illustrator: "Kunihiko Yuyama",
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

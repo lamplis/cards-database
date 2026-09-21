@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Picknickerin"
 	},
 
-	rarity: "Black Star Promo",
+	rarity: "Promo",
 	category: "Trainer",
 
 	effect: {
