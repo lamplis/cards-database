@@ -7,6 +7,10 @@ const card: Card = {
 
 	name: {
 		en: "Horsea",
+		es: "Horsea",
+		it: "Horsea",
+		pt: "Horsea",
+		de: "Seeper"
 	},
 
 	rarity: "Promo",
@@ -20,6 +24,10 @@ const card: Card = {
 
 		name: {
 			en: "Hook",
+			es: "Garfio",
+			it: "Uncino",
+			pt: "Gancho",
+			de: "Haken"
 		},
 
 		damage: 20
