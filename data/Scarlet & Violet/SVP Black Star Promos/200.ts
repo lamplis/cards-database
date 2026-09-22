@@ -6,43 +6,47 @@ const card: Card = {
 
 	name: {
 		en: "Eevee",
+		es: "Eevee",
 	},
 
+	illustrator: "Kariya",
 	rarity: "Promo",
 	category: "Pokemon",
+	dexId: [133],
 	hp: 60,
 	types: ["Colorless"],
 	stage: "Basic",
-	illustrator: "Kariya",
-	dexId: [133],
-	attacks: [
-		{
-			cost: ["Colorless"],
-			name: {
-				en: "Call for Family",
-			},
-			effect: {
-				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",
-			}
-		},
-		{
-			cost: ["Colorless", "Colorless"],
-			name: {
-				en: "Gnaw",
-			},
-			damage: 20,
-		}
-	],
 
-	weaknesses: [
-		{
-			type: "Fighting",
-			value: "×2"
-		}
-	],
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			en: "Call for Family",
+			es: "Llamar a la Familia",
+	},
+
+		effect: {
+			en: "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",
+			es: "Busca en tu baraja 1 Pokémon Básico y ponlo en tu Banca. Después, baraja las cartas de tu baraja.",
+	}
+	}, {
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			en: "Gnaw",
+			es: "Roer",
+	},
+
+		damage: 20
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "x2"
+	}],
 
 	retreat: 1,
-	regulationMark: "G",
+	regulationMark: "H",
 
 	variants: [
 		{
