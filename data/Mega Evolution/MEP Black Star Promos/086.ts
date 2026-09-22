@@ -4,7 +4,6 @@ import Set from '../MEP Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Slowpoke",
-		fr: "Ramoloss",
 		de: "Flegmon",
 		es: "Slowpoke",
 		it: "Slowpoke",
@@ -32,10 +31,8 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				fr: "Tête de Crétin"
 			},
 			effect: {
-				fr: "Ce Pokémon ne peut pas être Confus."
 			}
 		},
 	],
@@ -48,7 +45,6 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				fr: "Super Psy"
 			},
 			damage: "50"
 		},
