@@ -4,11 +4,6 @@ import Set from '../MEP Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Toxel",
-		de: "Toxel",
-		es: "Toxel",
-		it: "Toxel",
-		pt: "Toxel",
-		'es-mx': "Toxel",
 	},
 	set: Set,
 
