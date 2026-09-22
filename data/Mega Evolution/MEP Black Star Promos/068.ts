@@ -7,7 +7,6 @@ const card: Card = {
 	// TODO: incomplete data (Pokepedia redlink),
 	name: {
 		en: "Makuhita",
-		fr: "Makuhita"
 	},
 
 	rarity: "Promo",
@@ -22,7 +21,6 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				fr: "Poing Tire-Bouchon"
 			},
 			damage: "10"
 		},
@@ -32,7 +30,6 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				fr: "Confrontation"
 			},
 			damage: "30"
 		},
