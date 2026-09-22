@@ -7,7 +7,10 @@ const card: Card = {
 
 	name: {
 		en: "Pineco",
-		fr: "Pomdepik",
+		es: "Pineco",
+		it: "Pineco",
+		pt: "Pineco",
+		de: "Tannza"
 	},
 
 	rarity: "Promo",
@@ -21,7 +24,10 @@ const card: Card = {
 
 		name: {
 			en: "Rollout",
-			fr: "Roulade",
+			es: "Rodar",
+			it: "Rotolamento",
+			pt: "Rolagem",
+			de: "Walzer"
 		},
 
 		damage: 30
