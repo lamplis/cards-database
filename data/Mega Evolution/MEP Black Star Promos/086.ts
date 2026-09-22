@@ -4,6 +4,7 @@ import Set from '../MEP Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Slowpoke",
+		es: "Slowpoke",
 	},
 	set: Set,
 
