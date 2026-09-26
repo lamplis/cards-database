@@ -4,3 +4,36 @@
 # UNNUMBERED-001.ts is the Cardium name for upstream's 500.ts (same card,
 # same ids). Project requirement: do not rename back to 500.ts.
 data/Scarlet & Violet/SVP Black Star Promos/500.ts
+
+# Classic Collection cards moved from the retired 30th-c set into
+# 30th Celebration as CC001-CC030. The marketplace ids moved with the files.
+data/Mega Evolution/30th Classic Collection/001.ts
+data/Mega Evolution/30th Classic Collection/002.ts
+data/Mega Evolution/30th Classic Collection/003.ts
+data/Mega Evolution/30th Classic Collection/004.ts
+data/Mega Evolution/30th Classic Collection/005.ts
+data/Mega Evolution/30th Classic Collection/006.ts
+data/Mega Evolution/30th Classic Collection/007.ts
+data/Mega Evolution/30th Classic Collection/008.ts
+data/Mega Evolution/30th Classic Collection/009.ts
+data/Mega Evolution/30th Classic Collection/010.ts
+data/Mega Evolution/30th Classic Collection/011.ts
+data/Mega Evolution/30th Classic Collection/012.ts
+data/Mega Evolution/30th Classic Collection/013.ts
+data/Mega Evolution/30th Classic Collection/014.ts
+data/Mega Evolution/30th Classic Collection/015.ts
+data/Mega Evolution/30th Classic Collection/016.ts
+data/Mega Evolution/30th Classic Collection/017.ts
+data/Mega Evolution/30th Classic Collection/018.ts
+data/Mega Evolution/30th Classic Collection/019.ts
+data/Mega Evolution/30th Classic Collection/020.ts
+data/Mega Evolution/30th Classic Collection/021.ts
+data/Mega Evolution/30th Classic Collection/022.ts
+data/Mega Evolution/30th Classic Collection/023.ts
+data/Mega Evolution/30th Classic Collection/024.ts
+data/Mega Evolution/30th Classic Collection/025.ts
+data/Mega Evolution/30th Classic Collection/026.ts
+data/Mega Evolution/30th Classic Collection/027.ts
+data/Mega Evolution/30th Classic Collection/028.ts
+data/Mega Evolution/30th Classic Collection/029.ts
+data/Mega Evolution/30th Classic Collection/030.ts
