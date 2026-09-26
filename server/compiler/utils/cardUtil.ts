@@ -10,8 +10,9 @@ import { formatVariant, variantToIdentifier } from "./variantUtil.ts";
 
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
 
-	// temporary hack
-	if (card.set.id === '30th') {
+	// Numbered 30th scans are on the CDN but absent from datas.json.
+	// Letter ids (RGB Mew R/G/B) 404 and must stay empty so Pokecardex can fill them.
+	if (card.set.id === '30th' && /^\d+$/.test(String(cardId))) {
 		return `https://assets.tcgdex.net/${lang}/${card.set.serie.id}/${card.set.id}/${cardId}`
 	}
 
