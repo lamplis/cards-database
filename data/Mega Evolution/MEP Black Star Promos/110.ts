@@ -1,34 +1,66 @@
-import { Card } from '../../../interfaces'
-import Set from '../MEP Black Star Promos'
+import { Card } from "../../../interfaces"
+import Set from "../MEP Black Star Promos"
 
 const card: Card = {
+	set: Set,
+
 	name: {
 		en: "Umbreon ex",
 		fr: "Noctali-ex",
 		de: "Nachtara-ex",
-		es: "Umbreon ex",
 		it: "Umbreon-ex",
+		es: "Umbreon ex",
 		pt: "Umbreon ex",
 		'es-mx': "Umbreon ex",
 	},
-	set: Set,
 
+	suffix: "ex",
+	illustrator: "REND",
+	rarity: "Promo",
+	category: "Pokemon",
+	hp: 270,
+	types: ["Darkness"],
+	stage: "Stage1",
 	dexId: [197],
 
 
 	cameoDexIds: [133, 150, 198, 337, 488, 570, 571, 633, 634, 635, 774, 807, 848, 849],
 
-	rarity: "Promo",
-	category: "Pokemon",
+	evolveFrom: {
+		en: "Eevee",
+	},
+
+	attacks: [{
+		cost: ["Darkness", "Colorless"],
+
+		name: {
+			en: "Lunatic Claw",
+		},
+
+		effect: {
+			en: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 140 more damage.",
+		},
+
+		damage: "100+"
+	}],
+
+	retreat: 2,
+	regulationMark: "J",
+
+	weaknesses: [{
+		type: "Grass",
+		value: "x2"
+	}],
 
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
-				cardmarket: 895618
+				cardmarket: 895618,
+				tcgplayer: 713259
 			}
 		}
-	]
+	],
 }
 
 export default card
