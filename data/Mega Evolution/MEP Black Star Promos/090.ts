@@ -1,22 +1,70 @@
-import { Card } from '../../../interfaces'
-import Set from '../MEP Black Star Promos'
+import { Card } from "../../../interfaces"
+import Set from "../MEP Black Star Promos"
 
 const card: Card = {
+	set: Set,
+
 	name: {
 		en: "Mega Darkrai ex",
 		fr: "Méga-Darkrai-ex",
 		de: "Mega-Darkrai-ex",
-		es: "Mega-Darkrai ex",
 		it: "Mega Darkrai-ex",
+		es: "Mega-Darkrai ex",
 		pt: "Mega Darkrai ex",
 		'es-mx': "Mega-Darkrai ex",
 	},
-	set: Set,
 
+	suffix: "ex",
+	illustrator: "5ban Graphics",
+	rarity: "Promo",
+	category: "Pokemon",
+	hp: 280,
+	types: ["Darkness"],
+	stage: "Basic",
 	dexId: [491],
 
-	rarity: "Promo",
-	category: "Pokemon"
+	attacks: [{
+		cost: ["Darkness", "Darkness"],
+
+		name: {
+			en: "Dusk Raid",
+		},
+
+		effect: {
+			en: "If your Benched Pokémon have any damage counters on them, this attack does 110 more damage.",
+		},
+
+		damage: "110+"
+	},
+	{
+		cost: ["Darkness", "Darkness", "Darkness"],
+
+		name: {
+			en: "Abyss Eye",
+		},
+
+		effect: {
+			en: "If your opponent's Active Pokémon is affected by a Special Condition, it is Knocked Out.",
+		}
+	}],
+
+	retreat: 2,
+	regulationMark: "J",
+
+	weaknesses: [{
+		type: "Grass",
+		value: "x2"
+	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 903676,
+				tcgplayer: 710756
+			}
+		}
+	],
 }
 
 export default card
