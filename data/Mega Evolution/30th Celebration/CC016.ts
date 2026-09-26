@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../30th Classic Collection"
+import Set from "../30th Celebration"
 
 const card: Card = {
 	set: Set,
@@ -16,8 +16,8 @@ const card: Card = {
 		'es-mx': "Darkrai & Cresselia LEYENDA"
 	},
 
-	illustrator: "Shinji Higuchi + Noriko Takaya",
-	rarity: "None",
+	illustrator: "Shinji Higuchi + Noriko Takaya 樋口 真嗣 + 高屋 法子",
+	rarity: "LEGEND",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Darkness", "Psychic"],
