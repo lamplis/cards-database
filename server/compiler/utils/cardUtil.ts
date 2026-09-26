@@ -74,6 +74,50 @@ export function resolvePlayReprintOrigin(
 	return undefined
 }
 
+/**
+ * Map a 30C Classic Collection local id (CC001-CC030, Pikachu first)
+ * to the original printing's CDN path. Does not consult the asset manifest.
+ */
+const CLASSIC_COLLECTION_ORIGINS: Record<string, PlayReprintOrigin> = {
+	CC001: { serieId: 'base', setId: 'base1', localId: '58' },
+	CC002: { serieId: 'base', setId: 'base1', localId: '4' },
+	CC003: { serieId: 'gym', setId: 'gym1', localId: '18' },
+	CC004: { serieId: 'gym', setId: 'gym2', localId: '69' },
+	CC005: { serieId: 'neo', setId: 'neo1', localId: '25' },
+	CC006: { serieId: 'neo', setId: 'neo4', localId: '106' },
+	CC007: { serieId: 'ecard', setId: 'ecard2', localId: '149' },
+	CC008: { serieId: 'ex', setId: 'ex1', localId: '5' },
+	CC009: { serieId: 'ex', setId: 'ex7', localId: '19' },
+	CC010: { serieId: 'ex', setId: 'ex10', localId: '108' },
+	CC011: { serieId: 'ex', setId: 'ex11', localId: '11' },
+	CC012: { serieId: 'dp', setId: 'dp4', localId: '106' },
+	CC013: { serieId: 'dp', setId: 'dp6', localId: '43' },
+	CC014: { serieId: 'pl', setId: 'pl1', localId: '47' },
+	CC015: { serieId: 'hgss', setId: 'hgss4', localId: '94' },
+	CC016: { serieId: 'hgss', setId: 'hgss4', localId: '99' },
+	CC017: { serieId: 'hgss', setId: 'hgss4', localId: '100' },
+	CC018: { serieId: 'bw', setId: 'bw3', localId: '101' },
+	CC019: { serieId: 'bw', setId: 'bw6', localId: '85' },
+	CC020: { serieId: 'bw', setId: 'bw10', localId: '11' },
+	CC021: { serieId: 'xy', setId: 'xy5', localId: '106' },
+	CC022: { serieId: 'xy', setId: 'xy9', localId: '41' },
+	CC023: { serieId: 'sm', setId: 'sm1', localId: '89' },
+	CC024: { serieId: 'sm', setId: 'sm4', localId: '57' },
+	CC025: { serieId: 'sm', setId: 'sm9', localId: '33' },
+	CC026: { serieId: 'swsh', setId: 'swsh1', localId: '138' },
+	CC027: { serieId: 'swsh', setId: 'swsh4', localId: '50' },
+	CC028: { serieId: 'swsh', setId: 'swsh8', localId: '114' },
+	CC029: { serieId: 'swsh', setId: 'swsh9', localId: '123' },
+	CC030: { serieId: 'sv', setId: 'sv02', localId: '203' }
+}
+
+export function resolveClassicCollectionOrigin(localId: string): PlayReprintOrigin | undefined {
+	if (!/^CC\d{3}$/.test(localId)) {
+		return undefined
+	}
+	return CLASSIC_COLLECTION_ORIGINS[localId]
+}
+
 let playOriginSets: Promise<Array<PlayReprintSetRef>> | undefined
 
 function loadPlayOriginSets(): Promise<Array<PlayReprintSetRef>> {
@@ -89,9 +133,11 @@ function loadPlayOriginSets(): Promise<Array<PlayReprintSetRef>> {
 
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
 
-	// temporary hack
-	if (card.set.id === '30th') {
-		return `https://assets.tcgdex.net/${lang}/${card.set.serie.id}/${card.set.id}/${cardId}`
+	// Numbered 30th scans are on the CDN under me/30th, not the set id 30C,
+	// and they are absent from datas.json. Letter ids (RGB Mew R/G/B) 404
+	// and must stay empty. Classic Collection (CC###) reuses the origin scan.
+	if (card.set.id === '30C' && /^\d+$/.test(String(cardId))) {
+		return `https://assets.tcgdex.net/${lang}/me/30th/${cardId}`
 	}
 
 	try {
@@ -99,6 +145,13 @@ export async function getCardPictures(cardId: string, card: Card, lang: Supporte
 		const fileExists = Boolean(file[lang]?.[card.set.serie.id]?.[card.set.id]?.[cardId])
 		if (fileExists) {
 			return `https://assets.tcgdex.net/${lang}/${card.set.serie.id}/${card.set.id}/${cardId}`
+		}
+		if (card.set.id === '30C') {
+			const origin = resolveClassicCollectionOrigin(String(cardId))
+			const originExists = Boolean(origin && file[lang]?.[origin.serieId]?.[origin.setId]?.[origin.localId])
+			if (origin && originExists) {
+				return `https://assets.tcgdex.net/${lang}/${origin.serieId}/${origin.setId}/${origin.localId}`
+			}
 		}
 		if (card.set.serie.id === 'play') {
 			const origin = resolvePlayReprintOrigin(String(cardId), await loadPlayOriginSets())
