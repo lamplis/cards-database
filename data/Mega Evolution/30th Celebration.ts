@@ -37,6 +37,11 @@ const set: Set = {
 		}
 	},
 
+	searchAliases: [
+		"30th",
+		"30th-c"
+	],
+
 	releaseDate: "2026-09-16",
 
 	abbreviations: {
