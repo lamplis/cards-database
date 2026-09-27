@@ -1,0 +1,64 @@
+{
+  "sets": [
+    {
+      "setName": "Next Quest",
+      "market": "Trading Figure Game",
+      "reason": "2007 Trading Figure Game launch set (Long Throw, Scoop Up, Swap Spots, X Accuracy)."
+    },
+    {
+      "setName": "Groundbreakers",
+      "market": "Trading Figure Game",
+      "reason": "2007 Trading Figure Game expansion (Special Veil 3, X Special 8)."
+    },
+    {
+      "setName": "Blade Awakening",
+      "market": "China",
+      "reason": "Simplified Chinese set. Cameo cards live in data-asia under the era series, not in data/."
+    },
+    {
+      "setName": "Bonus Turn",
+      "market": "China",
+      "reason": "Simplified Chinese set. Cameo cards live in data-asia under the era series, not in data/."
+    },
+    {
+      "setName": "Gallant Galaxy: Brave",
+      "market": "China",
+      "reason": "Simplified Chinese set. Cameo cards live in data-asia under the era series, not in data/."
+    },
+    {
+      "setName": "Gem Pack Vol. 1",
+      "market": "China",
+      "reason": "Simplified Chinese set. Cameo cards live in data-asia under the era series, not in data/."
+    },
+    {
+      "setName": "Gem Pack Vol. 3",
+      "market": "China",
+      "reason": "Simplified Chinese set. Cameo cards live in data-asia under the era series, not in data/."
+    },
+    {
+      "setName": "Gem Pack Vol. 4",
+      "market": "China",
+      "reason": "Simplified Chinese set. Cameo cards live in data-asia under the era series, not in data/."
+    },
+    {
+      "setName": "Gem Pack Vol. 5",
+      "market": "China",
+      "reason": "Simplified Chinese set. Cameo cards live in data-asia under the era series, not in data/."
+    },
+    {
+      "setName": "Stellar Crystal",
+      "market": "China",
+      "reason": "Simplified Chinese CSV9C 257/208 SAR. Do not alias Stellar Crystal to Stellar Crown or write it onto Surging Sparks 246."
+    },
+    {
+      "setName": "Terastal Gathering",
+      "market": "China",
+      "reason": "Simplified Chinese set. Cameo cards live in data-asia under the era series, not in data/."
+    },
+    {
+      "setName": "Together in Pursuit of Glory",
+      "market": "China",
+      "reason": "Simplified Chinese set. Cameo cards live in data-asia under the era series, not in data/."
+    }
+  ]
+}
