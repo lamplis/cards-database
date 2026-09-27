@@ -2,7 +2,7 @@
 import pathLib from 'node:path'
 import { Card, Set, SupportedLanguages, Types, variant_detailed, VariantStamps, VariantType } from '../../../interfaces'
 import { CardResume, Card as CardSingle, variant_detailed as ApiVariantDetailed } from '../../../meta/definitions/api'
-import { getSet, setToSetSimple } from './setUtil'
+import { getSet, getSets, setToSetSimple } from './setUtil'
 import translate from './translationUtil'
 import { DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, getLastEdit, resolveText, smartGlob } from './util'
 import { objectMap, objectPick } from '@dzeio/object-util'
@@ -12,6 +12,66 @@ export type PlayReprintOrigin = {
 	serieId: string
 	setId: string
 	localId: string
+}
+
+export type PlayReprintSetRef = {
+	id: string
+	serieId: string
+	officialAbbreviation?: string
+}
+
+/**
+ * Map a Play! prize-pack local id (origin abbreviation + number, or SWSH###)
+ * to the original set's CDN local id. Does not consult the asset manifest.
+ */
+export function resolvePlayReprintOrigin(
+	localId: string,
+	sets: ReadonlyArray<PlayReprintSetRef>
+): PlayReprintOrigin | undefined {
+	if (/^SWSH\d+$/.test(localId)) {
+		return { serieId: 'swsh', setId: 'swshp', localId }
+	}
+
+	const byAbbreviation = new Map<string, Array<string>>()
+	const setById = new Map<string, PlayReprintSetRef>()
+	for (const set of sets) {
+		setById.set(set.id, set)
+		const official = set.officialAbbreviation
+		if (!official) {
+			continue
+		}
+		const ids = byAbbreviation.get(official) ?? []
+		if (!ids.includes(set.id)) {
+			ids.push(set.id)
+		}
+		byAbbreviation.set(official, ids)
+	}
+
+	const uniqueAbbreviations = [...byAbbreviation.entries()]
+		.filter(([, ids]) => ids.length === 1)
+		.map(([abbreviation]) => abbreviation)
+		.sort((a, b) => b.length - a.length)
+
+	for (const abbreviation of uniqueAbbreviations) {
+		if (!localId.startsWith(abbreviation)) {
+			continue
+		}
+		const remainder = localId.slice(abbreviation.length)
+		if (!/^\d+$/.test(remainder)) {
+			continue
+		}
+		const setId = byAbbreviation.get(abbreviation)?.[0]
+		const set = setId ? setById.get(setId) : undefined
+		if (!set) {
+			continue
+		}
+		return {
+			serieId: set.serieId,
+			setId: set.id,
+			localId: remainder.padStart(3, '0')
+		}
+	}
+	return undefined
 }
 
 /**
@@ -58,6 +118,19 @@ export function resolveClassicCollectionOrigin(localId: string): PlayReprintOrig
 	return CLASSIC_COLLECTION_ORIGINS[localId]
 }
 
+let playOriginSets: Promise<Array<PlayReprintSetRef>> | undefined
+
+function loadPlayOriginSets(): Promise<Array<PlayReprintSetRef>> {
+	if (!playOriginSets) {
+		playOriginSets = getSets('*', 'en').then((sets) => sets.map((set) => ({
+			id: set.id,
+			serieId: set.serie.id,
+			officialAbbreviation: set.abbreviations?.official
+		})))
+	}
+	return playOriginSets
+}
+
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
 
 	// Numbered 30th scans are on the CDN under me/30th, not the set id 30C,
@@ -75,6 +148,13 @@ export async function getCardPictures(cardId: string, card: Card, lang: Supporte
 		}
 		if (card.set.id === '30C') {
 			const origin = resolveClassicCollectionOrigin(String(cardId))
+			const originExists = Boolean(origin && file[lang]?.[origin.serieId]?.[origin.setId]?.[origin.localId])
+			if (origin && originExists) {
+				return `https://assets.tcgdex.net/${lang}/${origin.serieId}/${origin.setId}/${origin.localId}`
+			}
+		}
+		if (card.set.serie.id === 'play') {
+			const origin = resolvePlayReprintOrigin(String(cardId), await loadPlayOriginSets())
 			const originExists = Boolean(origin && file[lang]?.[origin.serieId]?.[origin.setId]?.[origin.localId])
 			if (origin && originExists) {
 				return `https://assets.tcgdex.net/${lang}/${origin.serieId}/${origin.setId}/${origin.localId}`
