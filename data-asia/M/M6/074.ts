@@ -3,6 +3,8 @@ import Set from "../M6";
 
 const card: Card = {
 	set: Set,
+
+	cameoDexIds: [333, 334, 661, 662],
 	name: {
 		ja: "伝説の山頂",
 	},
