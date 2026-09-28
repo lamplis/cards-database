@@ -51,6 +51,7 @@ const card: Card = {
 	regulationMark: "J",
 	rarity: "Common",
 	dexId: [967],
+	cameoDexIds: [82],
 };
 
 export default card;

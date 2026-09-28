@@ -56,6 +56,7 @@ const card: Card = {
 	regulationMark: "J",
 	rarity: "Mega Hyper Rare",
 	dexId: [623],
+	cameoDexIds: [623],
 
 	suffix: "EX",
 };
