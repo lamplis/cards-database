@@ -15,8 +15,7 @@ const card: Card = {
 		de: "Alola-Mauzi",
 		es: "Meowth de Alola",
 		it: "Meowth di Alola",
-		'es-mx': "Meowth de Alola",
-		pt: "Meowth de Alola"
+		'es-mx': "Meowth de Alola"
 	},
 
 	illustrator: "OKUBO",
@@ -37,8 +36,7 @@ const card: Card = {
 			de: "Zahltag",
 			es: "Día de Pago",
 			it: "Giornopaga",
-			'es-mx': "Día de Pago",
-			pt: "Dia de Pagamento"
+			'es-mx': "Día de Pago"
 		},
 
 		effect: {
@@ -47,8 +45,7 @@ const card: Card = {
 			de: "Ziehe 1 Karte.",
 			es: "Roba 1 carta.",
 			it: "Pesca una carta.",
-			'es-mx': "Roba 1 carta.",
-			pt: "Compre uma carta."
+			'es-mx': "Roba 1 carta."
 		},
 
 		damage: 10

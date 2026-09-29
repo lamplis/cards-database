@@ -15,8 +15,7 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu",
-		pt: "Pikachu"
+		'es-mx': "Pikachu"
 	},
 
 	illustrator: "Rianti Hidayat",
@@ -34,8 +33,7 @@ const card: Card = {
 			de: "Herunterhängen",
 			es: "Prender",
 			it: "Tirar Giù",
-			'es-mx': "Colgadera",
-			pt: "Dependurar"
+			'es-mx': "Colgadera"
 		},
 
 		damage: 10,
@@ -47,8 +45,7 @@ const card: Card = {
 			de: "Stromtritt",
 			es: "Electropatada",
 			it: "Dinamocalcio",
-			'es-mx': "Electropatada",
-			pt: "Chute Zap"
+			'es-mx': "Electropatada"
 		},
 
 		damage: 40,

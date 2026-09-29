@@ -15,8 +15,7 @@ const card: Card = {
 		de: "Toxel",
 		es: "Toxel",
 		it: "Toxel",
-		'es-mx': "Toxel",
-		pt: "Toxel"
+		'es-mx': "Toxel"
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -34,8 +33,7 @@ const card: Card = {
 			de: "Ramme",
 			es: "Apisonar",
 			it: "Carica",
-			'es-mx': "Colisión",
-			pt: "Aríete"
+			'es-mx': "Colisión"
 		},
 
 		damage: 10,

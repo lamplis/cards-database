@@ -10,8 +10,7 @@ const card: Card = {
 		de: "Nachtara-ex",
 		es: "Umbreon ex",
 		it: "Umbreon-ex",
-		'es-mx': "Umbreon ex",
-		pt: "Umbreon ex"
+		'es-mx': "Umbreon ex"
 	},
 
 	illustrator: "Keisuke Azuma",
@@ -30,8 +29,7 @@ const card: Card = {
 			de: "Irre Kralle",
 			es: "Garra Lunática",
 			it: "Artiglio Siderale",
-			'es-mx': "Garra Lunática",
-			pt: "Garra Lunática"
+			'es-mx': "Garra Lunática"
 		},
 
 		effect: {
@@ -40,8 +38,7 @@ const card: Card = {
 			de: "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 140 Schadenspunkte mehr zu.",
 			es: "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 140 puntos de daño más.",
 			it: "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, questo attacco infligge 140 danni in più.",
-			'es-mx': "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 140 puntos de daño más.",
-			pt: "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 140 pontos de dano a mais."
+			'es-mx': "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 140 puntos de daño más."
 		},
 
 		damage: "100+",

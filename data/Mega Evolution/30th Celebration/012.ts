@@ -15,8 +15,7 @@ const card: Card = {
 		de: "Ho-Oh",
 		es: "Ho-Oh",
 		it: "Ho-Oh",
-		'es-mx': "Ho-Oh",
-		pt: "Ho-Oh"
+		'es-mx': "Ho-Oh"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -34,8 +33,7 @@ const card: Card = {
 			de: "Sancto-Odem",
 			es: "Aliento Sagrado",
 			it: "Soffio Magico",
-			'es-mx': "Aliento Sagrado",
-			pt: "Sopro Sagrado"
+			'es-mx': "Aliento Sagrado"
 		},
 
 		effect: {
@@ -44,8 +42,7 @@ const card: Card = {
 			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel. Heile allen Schaden bei 1 Pokémon auf deiner Bank.",
 			es: "Descarta todas las Energías de este Pokémon. Cura todos los puntos de daño a uno de tus Pokémon en Banca.",
 			it: "Scarta tutte le Energie da questo Pokémon. Cura uno dei Pokémon nella tua panchina da tutti i danni.",
-			'es-mx': "Descarta todas las Energías de este Pokémon. Cura todos los puntos de daño a 1 de tus Pokémon en Banca.",
-			pt: "Descarte todas as Energias deste Pokémon. Cure todo o dano de 1 dos seus Pokémon no Banco."
+			'es-mx': "Descarta todas las Energías de este Pokémon. Cura todos los puntos de daño a 1 de tus Pokémon en Banca."
 		},
 
 		cost: ["Fire", "Fire"]
@@ -56,8 +53,7 @@ const card: Card = {
 			de: "Feuerflügel",
 			es: "Ala Ígnea",
 			it: "Alafiamma",
-			'es-mx': "Ala Ígnea",
-			pt: "Asa de Fogo"
+			'es-mx': "Ala Ígnea"
 		},
 
 		damage: 100,

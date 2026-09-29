@@ -23,32 +23,38 @@ const card: Card = {
 	stage: "Basic",
 	dexId: [807],
 
-	attacks: [{
-		cost: ["Lightning"],
-
-		name: {
-			en: "Thunderous Fist",
+	attacks: [
+		{
+			cost: [
+				"Lightning",
+			],
+			name: {
+				en: "Thunderous Fist",
+				fr: "Poing Foudroyant"
+			},
+			effect: {
+				en: "This attack does 60 damage for each {L} Energy attached to this Pokémon.",
+				fr: "Cette attaque inflige 60 dégâts pour chaque Énergie {L} attachée à ce Pokémon."
+			},
+			damage: "60×"
 		},
-
-		effect: {
-			en: "This attack does 60 damage for each {L} Energy attached to this Pokémon.",
+		{
+			cost: [
+				"Lightning",
+				"Lightning",
+				"Lightning",
+			],
+			name: {
+				en: "Zepto Turn",
+				fr: "Zepto Tour"
+			},
+			effect: {
+				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
+				fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc."
+			},
+			damage: 150
 		},
-
-		damage: "60×"
-	},
-	{
-		cost: ["Lightning", "Lightning", "Lightning"],
-
-		name: {
-			en: "Zepto Turn",
-		},
-
-		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-		},
-
-		damage: 150
-	}],
+	],
 
 	retreat: 1,
 	regulationMark: "J",

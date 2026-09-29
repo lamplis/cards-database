@@ -24,33 +24,42 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Exeggcute",
+		fr: "Noeunoeuf"
 	},
 
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			en: "Scale Up",
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				en: "Scale Up",
+				fr: "Élongation"
+			},
+			effect: {
+				en: "If this Pokémon has 6 or more {G} Energy attached, it gets +250 HP.",
+				fr: "Si au moins 6 Énergies {G} sont attachées à ce Pokémon, il a +250 PV."
+			}
 		},
+	],
 
-		effect: {
-			en: "If this Pokémon has 6 or more {G} Energy attached, it gets +250 HP.",
-		}
-	}],
-
-	attacks: [{
-		cost: ["Grass", "Colorless", "Colorless", "Colorless"],
-
-		name: {
-			en: "Mega Drain",
+	attacks: [
+		{
+			cost: [
+				"Grass",
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Mega Drain",
+				fr: "Méga-Sangsue"
+			},
+			effect: {
+				en: "Heal 50 damage from this Pokémon.",
+				fr: "Soignez 50 dégâts de ce Pokémon."
+			},
+			damage: 150
 		},
-
-		effect: {
-			en: "Heal 50 damage from this Pokémon.",
-		},
-
-		damage: 150
-	}],
+	],
 
 	retreat: 4,
 	regulationMark: "J",

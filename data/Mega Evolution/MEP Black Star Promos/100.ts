@@ -25,21 +25,27 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
+		fr: "Évoli"
 	},
 
-	attacks: [{
-		cost: ["Psychic", "Colorless", "Colorless"],
-
-		name: {
-			en: "Colorful Harmony",
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Colorful Harmony",
+				fr: "Harmonie Colorée"
+			},
+			effect: {
+				en: "This attack does 50 damage for each type of Basic Energy attached to all of your Pokémon.",
+				fr: "Cette attaque inflige 50 dégâts pour chaque type d'Énergie de base attachée à tous vos Pokémon."
+			},
+			damage: "50×"
 		},
-
-		effect: {
-			en: "This attack does 50 damage for each type of Basic Energy attached to all of your Pokémon.",
-		},
-
-		damage: "50×"
-	}],
+	],
 
 	retreat: 2,
 	regulationMark: "J",
