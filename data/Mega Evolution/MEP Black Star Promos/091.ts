@@ -25,33 +25,41 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Dragonair",
+		fr: "Draco"
 	},
 
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			en: "Sky Transport",
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				en: "Sky Transport",
+				fr: "Transport Ciel"
+			},
+			effect: {
+				en: "Once during your turn, you may use this Ability. Switch your Active Pokémon with 1 of your Benched Pokémon.",
+				fr: "Une fois pendant votre tour, vous pouvez utiliser ce talent. Échangez votre Pokémon Actif contre l'un de vos Pokémon de Banc."
+			}
 		},
+	],
 
-		effect: {
-			en: "Once during your turn, you may use this Ability. Switch your Active Pokémon with 1 of your Benched Pokémon.",
-		}
-	}],
-
-	attacks: [{
-		cost: ["Water", "Lightning", "Lightning"],
-
-		name: {
-			en: "Ryuno Glide",
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Lightning",
+				"Lightning",
+			],
+			name: {
+				en: "Ryuno Glide",
+				fr: "Planement de Dragon"
+			},
+			effect: {
+				en: "Discard 2 Energy from this Pokémon.",
+				fr: "Défaussez 2 Énergies de ce Pokémon."
+			},
+			damage: 330
 		},
-
-		effect: {
-			en: "Discard 2 Energy from this Pokémon.",
-		},
-
-		damage: 330
-	}],
+	],
 
 	retreat: 2,
 	regulationMark: "I",

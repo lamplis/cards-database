@@ -15,8 +15,7 @@ const card: Card = {
 		de: "Lavados",
 		es: "Moltres",
 		it: "Moltres",
-		'es-mx': "Moltres",
-		pt: "Moltres"
+		'es-mx': "Moltres"
 	},
 
 	illustrator: "mashu",
@@ -39,8 +38,7 @@ const card: Card = {
 			de: "Feuriges Flattern",
 			es: "Aleteo Abrasador",
 			it: "Battito d'Ali Infuocato",
-			'es-mx': "Aleteo Calcinante",
-			pt: "Asas Abrasadoras"
+			'es-mx': "Aleteo Calcinante"
 		},
 
 		effect: {
@@ -49,8 +47,7 @@ const card: Card = {
 			de: "Einmal während deines Zuges, wenn du Arktos und Zapdos im Spiel hast, kannst du diese Fähigkeit einsetzen. Lege 1 Basis-Fire-Energiekarte aus deiner Hand an dieses Pokémon an.",
 			es: "Una vez durante tu turno, si tienes a Articuno y a Zapdos en juego, puedes usar esta habilidad. Une 1 carta de Energía Fire Básica de tu mano a este Pokémon.",
 			it: "Una sola volta durante il tuo turno, se hai Articuno e Zapdos in gioco, puoi usare questa abilità. Assegna a questo Pokémon una carta Energia base Fire dalla tua mano.",
-			'es-mx': "Una vez durante tu turno, si tienes Articuno y Zapdos en juego, puedes usar esta Habilidad. Une 1 carta de Energía Fire Básica de tu mano a este Pokémon.",
-			pt: "Uma vez durante o seu turno, se você tiver Articuno e Zapdos em jogo, você poderá usar esta Habilidade. Ligue uma carta de Energia Fire Básica da sua mão a este Pokémon."
+			'es-mx': "Una vez durante tu turno, si tienes Articuno y Zapdos en juego, puedes usar esta Habilidad. Une 1 carta de Energía Fire Básica de tu mano a este Pokémon."
 		}
 	}],
 
@@ -61,8 +58,7 @@ const card: Card = {
 			de: "Feuerwirbel",
 			es: "Giro Fuego",
 			it: "Turbofuoco",
-			'es-mx': "Giro Fuego",
-			pt: "Chama Furacão"
+			'es-mx': "Giro Fuego"
 		},
 
 		effect: {
@@ -71,8 +67,7 @@ const card: Card = {
 			de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel.",
 			es: "Descarta 2 Energías de este Pokémon.",
 			it: "Scarta due Energie da questo Pokémon.",
-			'es-mx': "Descarta 2 Energías de este Pokémon.",
-			pt: "Descarte 2 Energias deste Pokémon."
+			'es-mx': "Descarta 2 Energías de este Pokémon."
 		},
 
 		damage: 130,

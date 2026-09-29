@@ -15,8 +15,7 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu",
-		pt: "Pikachu"
+		'es-mx': "Pikachu"
 	},
 
 	illustrator: "OKACHEKE",
@@ -34,8 +33,7 @@ const card: Card = {
 			de: "Vorwagen",
 			es: "Ligera Intromisión",
 			it: "Coinvolgimento",
-			'es-mx': "Algo Metiche",
-			pt: "Leve Invasão"
+			'es-mx': "Algo Metiche"
 		},
 
 		effect: {
@@ -44,8 +42,7 @@ const card: Card = {
 			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu.",
 			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
-			'es-mx': "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo."
+			'es-mx': "Este Pokémon también se hace 10 puntos de daño a sí mismo."
 		},
 
 		damage: 40,

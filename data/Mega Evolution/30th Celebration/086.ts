@@ -15,8 +15,7 @@ const card: Card = {
 		de: "Koraidon",
 		es: "Koraidon",
 		it: "Koraidon",
-		'es-mx': "Koraidon",
-		pt: "Koraidon"
+		'es-mx': "Koraidon"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -34,8 +33,7 @@ const card: Card = {
 			de: "Fußkick",
 			es: "Patada Baja",
 			it: "Colpo Basso",
-			'es-mx': "Patada Baja",
-			pt: "Rasteira"
+			'es-mx': "Patada Baja"
 		},
 
 		damage: 50,
@@ -47,8 +45,7 @@ const card: Card = {
 			de: "Kollisionskurs",
 			es: "Nitrochoque",
 			it: "Turboschianto",
-			'es-mx': "Nitrochoque",
-			pt: "Nitrocolisão"
+			'es-mx': "Nitrochoque"
 		},
 
 		effect: {
@@ -57,8 +54,7 @@ const card: Card = {
 			de: "Lege 2 <span class=\"energy-symbol Fighting\" title=\"Kampf\">Fighting</span>-Energien von diesem Pokémon auf deinen Ablagestapel.",
 			es: "Descarta 2 Energías <span class=\"energy-symbol Fighting\" title=\"Lucha\">Fighting</span> de este Pokémon.",
 			it: "Scarta due Energie <span class=\"energy-symbol Fighting\" title=\"Lotta\">Fighting</span> da questo Pokémon.",
-			'es-mx': "Descarta 2 Energías <span class=\"energy-symbol Fighting\" title=\"Pelea\">Fighting</span> de este Pokémon.",
-			pt: "Descarte 2 Energias Fighting deste Pokémon."
+			'es-mx': "Descarta 2 Energías <span class=\"energy-symbol Fighting\" title=\"Pelea\">Fighting</span> de este Pokémon."
 		},
 
 		damage: 140,

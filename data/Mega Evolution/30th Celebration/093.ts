@@ -15,8 +15,7 @@ const card: Card = {
 		de: "Kramurx",
 		es: "Murkrow",
 		it: "Murkrow",
-		'es-mx': "Murkrow",
-		pt: "Murkrow"
+		'es-mx': "Murkrow"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,8 +33,7 @@ const card: Card = {
 			de: "Ungeschickter Griff",
 			es: "Agarre Torpe",
 			it: "Stretta Maldestra",
-			'es-mx': "Enganche Torpe",
-			pt: "Agarrada Atrapalhada"
+			'es-mx': "Enganche Torpe"
 		},
 
 		effect: {
@@ -44,8 +42,7 @@ const card: Card = {
 			de: "Wirf 1 Münze. Bei Kopf kann sich das Verteidigende Pokémon während des nächsten Zuges deines Gegners nicht zurückziehen.",
 			es: "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
 			it: "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
-			'es-mx': "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
-			pt: "Jogue uma moeda. Se sair cara, durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar."
+			'es-mx': "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse."
 		},
 
 		damage: 20,

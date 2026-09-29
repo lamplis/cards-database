@@ -10,8 +10,7 @@ const card: Card = {
 		de: "Krokel-ex",
 		es: "Fuecoco ex",
 		it: "Fuecoco-ex",
-		'es-mx': "Fuecoco ex",
-		pt: "Fuecoco ex"
+		'es-mx': "Fuecoco ex"
 	},
 
 	illustrator: "Atsushi Furusawa",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Versengung",
 			es: "Quemadura",
 			it: "Scottata",
-			'es-mx': "Quemadura",
-			pt: "Chamuscada"
+			'es-mx': "Quemadura"
 		},
 
 		effect: {
@@ -43,8 +41,7 @@ const card: Card = {
 			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt.",
 			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
 			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-			'es-mx': "El Pokémon Activo de tu rival ahora está Quemado.",
-			pt: "O Pokémon Ativo do seu oponente agora está Queimado."
+			'es-mx': "El Pokémon Activo de tu rival ahora está Quemado."
 		},
 
 		cost: ["Fire"]
@@ -55,8 +52,7 @@ const card: Card = {
 			de: "Fröhliche Flamme",
 			es: "Llamarada Animada",
 			it: "Fiamma Gioiosa",
-			'es-mx': "Llamarada Animada",
-			pt: "Fogo Feliz 70×"
+			'es-mx': "Llamarada Animada"
 		},
 
 		effect: {
@@ -65,8 +61,7 @@ const card: Card = {
 			de: "Diese Attacke fügt für jede von dir genommene Preiskarte 70 Schadenspunkte zu.",
 			es: "Este ataque hace 70 puntos de daño por cada carta de Premio que hayas cogido.",
 			it: "Questo attacco infligge 70 danni per ogni carta Premio che hai preso.",
-			'es-mx': "Este ataque hace 70 puntos de daño por cada carta de Premio que hayas tomado.",
-			pt: "Este ataque causa 70 pontos de dano para cada carta de Prêmio que você pegou."
+			'es-mx': "Este ataque hace 70 puntos de daño por cada carta de Premio que hayas tomado."
 		},
 
 		damage: "70×",

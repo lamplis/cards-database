@@ -24,29 +24,36 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nidoran♀",
+		fr: "Nidoran"
 	},
 
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			en: "Share Happiness",
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				en: "Share Happiness",
+				fr: "Partage de Bonheur"
+			},
+			effect: {
+				en: "Once during your turn, you may use this Ability. Heal 30 damage from 1 of your Pokémon.",
+				fr: "Une fois pendant votre tour, vous pouvez utiliser ce talent. Soignez 30 dégâts de l'un de vos Pokémon."
+			}
 		},
+	],
 
-		effect: {
-			en: "Once during your turn, you may use this Ability. Heal 30 damage from 1 of your Pokémon.",
-		}
-	}],
-
-	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
-		name: {
-			en: "Bite",
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Bite",
+				fr: "Morsure"
+			},
+			damage: 30
 		},
-
-		damage: 30
-	}],
+	],
 
 	retreat: 2,
 	regulationMark: "J",

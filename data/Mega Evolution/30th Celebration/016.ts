@@ -15,8 +15,7 @@ const card: Card = {
 		de: "Flegmon",
 		es: "Slowpoke",
 		it: "Slowpoke",
-		'es-mx': "Slowpoke",
-		pt: "Slowpoke"
+		'es-mx': "Slowpoke"
 	},
 
 	illustrator: "Uninori",
@@ -34,8 +33,7 @@ const card: Card = {
 			de: "Gut versteckt",
 			es: "Buen Escondite",
 			it: "Ben Nascosto",
-			'es-mx': "Buen Escondite",
-			pt: "Bem Escondido"
+			'es-mx': "Buen Escondite"
 		},
 
 		effect: {
@@ -44,8 +42,7 @@ const card: Card = {
 			de: "Wirf 1 Münze. Verhindere bei Kopf während des nächsten Zuges deines Gegners allen Schaden durch und alle Effekte von Attacken, die diesem Pokémon zugefügt werden.",
 			es: "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, se evitan todo el daño y todos los efectos de los ataques infligidos a este Pokémon.",
 			it: "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario, previeni sia i danni che gli effetti degli attacchi inflitti a questo Pokémon.",
-			'es-mx': "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, se evitan todo el daño y todos los efectos de los ataques infligidos a este Pokémon.",
-			pt: "Jogue uma moeda. Se sair cara, durante o próximo turno do seu oponente, previna todo o dano e os efeitos de ataques causados a este Pokémon."
+			'es-mx': "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, se evitan todo el daño y todos los efectos de los ataques infligidos a este Pokémon."
 		},
 
 		cost: ["Colorless"]
@@ -56,8 +53,7 @@ const card: Card = {
 			de: "Aquaknarre",
 			es: "Pistola Agua",
 			it: "Pistolacqua",
-			'es-mx': "Chorro de Agua",
-			pt: "Revólver d'Água"
+			'es-mx': "Chorro de Agua"
 		},
 
 		damage: 20,

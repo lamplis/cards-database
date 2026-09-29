@@ -15,8 +15,7 @@ const card: Card = {
 		de: "Nidorina",
 		es: "Nidorina",
 		it: "Nidorina",
-		'es-mx': "Nidorina",
-		pt: "Nidorina"
+		'es-mx': "Nidorina"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -36,8 +35,7 @@ const card: Card = {
 			de: "Geteilte Freude",
 			es: "Felicidad Compartida",
 			it: "Condividi Felicità",
-			'es-mx': "Felicidad Compartida",
-			pt: "Compartilhar Felicidade"
+			'es-mx': "Felicidad Compartida"
 		},
 
 		effect: {
@@ -46,8 +44,7 @@ const card: Card = {
 			de: "Einmal während deines Zuges kannst du diese Fähigkeit einsetzen. Heile 30 Schadenspunkte bei 1 deiner Pokémon.",
 			es: "Una vez durante tu turno, puedes usar esta habilidad. Cura 30 puntos de daño a uno de tus Pokémon.",
 			it: "Una sola volta durante il tuo turno, puoi usare questa abilità. Cura uno dei tuoi Pokémon da 30 danni.",
-			'es-mx': "Una vez durante tu turno, puedes usar esta Habilidad. Cura 30 puntos de daño a 1 de tus Pokémon.",
-			pt: "Uma vez durante o seu turno, você poderá usar esta Habilidade. Cure 30 pontos de dano de 1 dos seus Pokémon."
+			'es-mx': "Una vez durante tu turno, puedes usar esta Habilidad. Cura 30 puntos de daño a 1 de tus Pokémon."
 		}
 	}],
 
@@ -58,8 +55,7 @@ const card: Card = {
 			de: "Biss",
 			es: "Mordisco",
 			it: "Morso",
-			'es-mx': "Mordida",
-			pt: "Mordida"
+			'es-mx': "Mordida"
 		},
 
 		damage: 30,

@@ -15,8 +15,7 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu",
-		pt: "Pikachu"
+		'es-mx': "Pikachu"
 	},
 
 	illustrator: "Nurikabe",
@@ -34,8 +33,7 @@ const card: Card = {
 			de: "Blitzfäuste",
 			es: "Rayo Luchador",
 			it: "Fulmine Combattente",
-			'es-mx': "Relámpago Tenaz",
-			pt: "Luta Relâmpago"
+			'es-mx': "Relámpago Tenaz"
 		},
 
 		effect: {
@@ -44,8 +42,7 @@ const card: Card = {
 			de: "Wenn das Aktive Pokémon deines Gegners ein Pokémon-<em>ex</em> ist, fügt diese Attacke 80 Schadenspunkte mehr zu.",
 			es: "Si el Pokémon Activo de tu rival es un Pokémon <em>ex</em>, este ataque hace 80 puntos de daño más.",
 			it: "Se il Pokémon attivo del tuo avversario è un Pokémon-<em>ex</em>, questo attacco infligge 80 danni in più.",
-			'es-mx': "Si el Pokémon Activo de tu rival es un Pokémon <em>ex</em>, este ataque hace 80 puntos de daño más.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon ex, este ataque causará 80 pontos de dano a mais."
+			'es-mx': "Si el Pokémon Activo de tu rival es un Pokémon <em>ex</em>, este ataque hace 80 puntos de daño más."
 		},
 
 		damage: "20+",

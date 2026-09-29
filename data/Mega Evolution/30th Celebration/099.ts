@@ -15,8 +15,7 @@ const card: Card = {
 		de: "Trikephalo",
 		es: "Hydreigon",
 		it: "Hydreigon",
-		'es-mx': "Hydreigon",
-		pt: "Hydreigon"
+		'es-mx': "Hydreigon"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -34,8 +33,7 @@ const card: Card = {
 			de: "Dreiköpfiger Biss",
 			es: "Mordisco Tritesta",
 			it: "Morso Tricefalo",
-			'es-mx': "Mordida Tricéfala",
-			pt: "Mordida Tricéfala"
+			'es-mx': "Mordida Tricéfala"
 		},
 
 		effect: {
@@ -44,8 +42,7 @@ const card: Card = {
 			de: "Wirf 3 Münzen. Lege pro Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
 			es: "Lanza 3 monedas. Por cada cara, descarta 1 Energía del Pokémon Activo de tu rival.",
 			it: "Lancia tre volte una moneta. Ogni volta che esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
-			'es-mx': "Lanza 3 monedas. Por cada cara, descarta 1 Energía del Pokémon Activo de tu rival.",
-			pt: "Jogue 3 moedas. Para cada cara, descarte uma Energia do Pokémon Ativo do seu oponente."
+			'es-mx': "Lanza 3 monedas. Por cada cara, descarta 1 Energía del Pokémon Activo de tu rival."
 		},
 
 		cost: ["Darkness"]
@@ -56,8 +53,7 @@ const card: Card = {
 			de: "Pechschwarze Fänge",
 			es: "Colmillos Azabaches",
 			it: "Zanne Buiopesto",
-			'es-mx': "Colmillos Umbríos",
-			pt: "Presas do Breu"
+			'es-mx': "Colmillos Umbríos"
 		},
 
 		damage: 140,

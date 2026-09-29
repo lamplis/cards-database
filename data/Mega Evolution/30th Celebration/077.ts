@@ -15,8 +15,7 @@ const card: Card = {
 		de: "Curelei",
 		es: "Comfey",
 		it: "Comfey",
-		'es-mx': "Comfey",
-		pt: "Comfey"
+		'es-mx': "Comfey"
 	},
 
 	illustrator: "sui",
@@ -34,8 +33,7 @@ const card: Card = {
 			de: "Kurierendes Aroma",
 			es: "Aroma Reconfortante",
 			it: "Aroma Confortante",
-			'es-mx': "Aroma Reconfortante",
-			pt: "Aroma Acolhedor"
+			'es-mx': "Aroma Reconfortante"
 		},
 
 		effect: {
@@ -44,8 +42,7 @@ const card: Card = {
 			de: "Heile 80 Schadenspunkte bei 1 Pokémon auf deiner Bank.",
 			es: "Cura 80 puntos de daño a uno de tus Pokémon en Banca.",
 			it: "Cura uno dei Pokémon nella tua panchina da 80 danni.",
-			'es-mx': "Cura 80 puntos de daño a 1 de tus Pokémon en Banca.",
-			pt: "Cure 80 pontos de dano de 1 dos seus Pokémon no Banco."
+			'es-mx': "Cura 80 puntos de daño a 1 de tus Pokémon en Banca."
 		},
 
 		cost: ["Colorless"]
@@ -56,8 +53,7 @@ const card: Card = {
 			de: "Magischer Schuss",
 			es: "Disparo Mágico",
 			it: "Magicolpo",
-			'es-mx': "Disparo Mágico",
-			pt: "Tiro Mágico"
+			'es-mx': "Disparo Mágico"
 		},
 
 		damage: 30,

@@ -67,11 +67,7 @@ const card: Card = {
 	illustrator: "nagimiso",
 	variants: [
 		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 769409,
-				tcgplayer: 556835
-			},
+			type: "normal"
 		}
 	],
 }

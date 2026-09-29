@@ -15,8 +15,7 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu",
-		pt: "Pikachu"
+		'es-mx': "Pikachu"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -34,8 +33,7 @@ const card: Card = {
 			de: "Knuddler",
 			es: "Carantoña",
 			it: "Carineria",
-			'es-mx': "Juego Rudo",
-			pt: "Jogo Duro"
+			'es-mx': "Juego Rudo"
 		},
 
 		effect: {
@@ -44,8 +42,7 @@ const card: Card = {
 			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu.",
 			es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
 			it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
-			'es-mx': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 20 pontos de dano a mais."
+			'es-mx': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más."
 		},
 
 		damage: "10+",
