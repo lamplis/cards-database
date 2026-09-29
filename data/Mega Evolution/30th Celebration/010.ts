@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Vulnona",
 		es: "Ninetales",
 		it: "Ninetales",
-		'es-mx': "Ninetales",
-		pt: "Ninetales"
+		'es-mx': "Ninetales"
 	},
 
 	illustrator: "kodama",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Flammenschweif",
 			es: "Cola de Fuego",
 			it: "Codafiamma",
-			'es-mx': "Cola de Fuego",
-			pt: "Cauda de Chamas"
+			'es-mx': "Cola de Fuego"
 		},
 
 		damage: 60,

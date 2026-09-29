@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu",
-		pt: "Pikachu"
+		'es-mx': "Pikachu"
 	},
 
 	illustrator: "Kazuki Minami",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Zorniger Blitz",
 			es: "Rayo Furioso",
 			it: "Fulmine Furioso",
-			'es-mx': "Rayo Furioso",
-			pt: "Raio Brabo"
+			'es-mx': "Rayo Furioso"
 		},
 
 		effect: {
@@ -43,8 +41,7 @@ const card: Card = {
 			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte mehr zu.",
 			es: "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
 			it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",
-			'es-mx': "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
-			pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon."
+			'es-mx': "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon."
 		},
 
 		damage: "10+",

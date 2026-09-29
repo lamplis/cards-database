@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu",
-		pt: "Pikachu"
+		'es-mx': "Pikachu"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Herumwuseln",
 			es: "Escabullida",
 			it: "Scatto Frenetico",
-			'es-mx': "Escabullida",
-			pt: "Chispar"
+			'es-mx': "Escabullida"
 		},
 
 		effect: {
@@ -43,8 +41,7 @@ const card: Card = {
 			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus.",
 			es: "Cambia este Pokémon por uno de tus Pokémon en Banca.",
 			it: "Scambia questo Pokémon con uno nella tua panchina.",
-			'es-mx': "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco."
+			'es-mx': "Cambia este Pokémon por 1 de tus Pokémon en Banca."
 		},
 
 		cost: ["Colorless"]

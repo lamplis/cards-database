@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Kangama",
 		es: "Kangaskhan",
 		it: "Kangaskhan",
-		'es-mx': "Kangaskhan",
-		pt: "Kangaskhan"
+		'es-mx': "Kangaskhan"
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Raserei",
 			es: "Furia",
 			it: "Ira",
-			'es-mx': "Furia",
-			pt: "Ira"
+			'es-mx': "Furia"
 		},
 
 		effect: {
@@ -43,8 +41,7 @@ const card: Card = {
 			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte mehr zu.",
 			es: "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
 			it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",
-			'es-mx': "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
-			pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon."
+			'es-mx': "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon."
 		},
 
 		damage: "20+",
@@ -56,8 +53,7 @@ const card: Card = {
 			de: "Megahieb",
 			es: "Megapuño",
 			it: "Megapugno",
-			'es-mx': "Megapuño",
-			pt: "Megassoco"
+			'es-mx': "Megapuño"
 		},
 
 		damage: 100,

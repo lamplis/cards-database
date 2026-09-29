@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Grandiras",
 		es: "Kommo-o",
 		it: "Kommo-o",
-		'es-mx': "Kommo-o",
-		pt: "Kommo-o"
+		'es-mx': "Kommo-o"
 	},
 
 	illustrator: "Gemi",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Lodernder Kinnhaken",
 			es: "Gancho Abrasador",
 			it: "Montante Divampante",
-			'es-mx': "Uppercut Implacable",
-			pt: "Gancho Flamejante"
+			'es-mx': "Uppercut Implacable"
 		},
 
 		damage: 250,

@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Riffex",
 		es: "Toxtricity",
 		it: "Toxtricity",
-		'es-mx': "Toxtricity",
-		pt: "Toxtricity"
+		'es-mx': "Toxtricity"
 	},
 
 	illustrator: "Kazumasa Yasukuni",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Leichter Hieb",
 			es: "Puño Ligero",
 			it: "Pugnetto",
-			'es-mx': "Puño Ligero",
-			pt: "Soco de Luz"
+			'es-mx': "Puño Ligero"
 		},
 
 		damage: 40,
@@ -46,8 +44,7 @@ const card: Card = {
 			de: "Donnernder Einschlag",
 			es: "Rayo Atronador",
 			it: "Fulmine Tonante",
-			'es-mx': "Rayo Atronador",
-			pt: "Raio Estrondoso"
+			'es-mx': "Rayo Atronador"
 		},
 
 		effect: {
@@ -56,8 +53,7 @@ const card: Card = {
 			de: "Während deines nächsten Zuges kann dieses Pokémon keine Attacken einsetzen.",
 			es: "Durante tu próximo turno, este Pokémon no puede usar ataques.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può usare attacchi.",
-			'es-mx': "Durante tu próximo turno, este Pokémon no puede usar ataques.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar ataques."
+			'es-mx': "Durante tu próximo turno, este Pokémon no puede usar ataques."
 		},
 
 		damage: 150,

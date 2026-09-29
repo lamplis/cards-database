@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu",
-		pt: "Pikachu"
+		'es-mx': "Pikachu"
 	},
 
 	illustrator: "satoma",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Funkensprung",
 			es: "Chispa",
 			it: "Scintilla",
-			'es-mx': "Chispa",
-			pt: "Faísca"
+			'es-mx': "Chispa"
 		},
 
 		effect: {
@@ -43,8 +41,7 @@ const card: Card = {
 			de: "Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. <em>(Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)</em>",
 			es: "Este ataque también hace 20 puntos de daño a uno de los Pokémon en Banca de tu rival. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca)</em>.",
 			it: "Questo attacco infligge anche 20 danni a uno dei Pokémon nella panchina del tuo avversario. <em>Non applicare debolezza e resistenza ai Pokémon in panchina</em>.",
-			'es-mx': "Este ataque también hace 20 puntos de daño a 1 de los Pokémon en Banca de tu rival. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca).</em>",
-			pt: "Este ataque também causa 20 pontos de dano a 1 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
+			'es-mx': "Este ataque también hace 20 puntos de daño a 1 de los Pokémon en Banca de tu rival. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca).</em>"
 		},
 
 		damage: 20,

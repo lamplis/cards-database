@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu",
-		pt: "Pikachu"
+		'es-mx': "Pikachu"
 	},
 
 	illustrator: "Asako Ito",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Nickerchen",
 			es: "Siesta",
 			it: "Pausa",
-			'es-mx': "Siesta",
-			pt: "Soneca"
+			'es-mx': "Siesta"
 		},
 
 		effect: {
@@ -43,8 +41,7 @@ const card: Card = {
 			de: "Heile 30 Schadenspunkte bei diesem Pokémon.",
 			es: "Cura 30 puntos de daño a este Pokémon.",
 			it: "Cura questo Pokémon da 30 danni.",
-			'es-mx': "Cura 30 puntos de daño a este Pokémon.",
-			pt: "Cure 30 pontos de dano deste Pokémon."
+			'es-mx': "Cura 30 puntos de daño a este Pokémon."
 		},
 
 		cost: ["Colorless"]

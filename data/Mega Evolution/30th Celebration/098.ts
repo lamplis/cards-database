@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Duodino",
 		es: "Zweilous",
 		it: "Zweilous",
-		'es-mx': "Zweilous",
-		pt: "Zweilous"
+		'es-mx': "Zweilous"
 	},
 
 	illustrator: "IKEDA Saki",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Biss",
 			es: "Mordisco",
 			it: "Morso",
-			'es-mx': "Mordida",
-			pt: "Mordida"
+			'es-mx': "Mordida"
 		},
 
 		damage: 20,
@@ -46,8 +44,7 @@ const card: Card = {
 			de: "Einhämmern",
 			es: "Martillear",
 			it: "Martello",
-			'es-mx': "Martillar",
-			pt: "Martelada"
+			'es-mx': "Martillar"
 		},
 
 		damage: 50,

@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Cresselia",
 		es: "Cresselia",
 		it: "Cresselia",
-		'es-mx': "Cresselia",
-		pt: "Cresselia"
+		'es-mx': "Cresselia"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Aurora-Verstärkung",
 			es: "Ganar Aurora",
 			it: "Prendiaurora",
-			'es-mx': "Ganancia Aurora",
-			pt: "Aurora"
+			'es-mx': "Ganancia Aurora"
 		},
 
 		effect: {
@@ -43,8 +41,7 @@ const card: Card = {
 			de: "Heile 30 Schadenspunkte bei diesem Pokémon.",
 			es: "Cura 30 puntos de daño a este Pokémon.",
 			it: "Cura questo Pokémon da 30 danni.",
-			'es-mx': "Cura 30 puntos de daño a este Pokémon.",
-			pt: "Cure 30 pontos de dano deste Pokémon."
+			'es-mx': "Cura 30 puntos de daño a este Pokémon."
 		},
 
 		damage: 30,
@@ -56,8 +53,7 @@ const card: Card = {
 			de: "Mondsturm",
 			es: "Explosión Lunar",
 			it: "Furia Lunare",
-			'es-mx': "Explosión Lunar",
-			pt: "Detonação Lunar"
+			'es-mx': "Explosión Lunar"
 		},
 
 		damage: 100,

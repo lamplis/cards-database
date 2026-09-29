@@ -10,8 +10,7 @@ const card: Card = {
 		de: "Pikachu-ex",
 		es: "Pikachu ex",
 		it: "Pikachu-ex",
-		'es-mx': "Pikachu ex",
-		pt: "Pikachu ex"
+		'es-mx': "Pikachu ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -30,8 +29,7 @@ const card: Card = {
 			de: "Pika-Pika-Parade",
 			es: "Desfile Pika Pika",
 			it: "Corteo Pika Pika",
-			'es-mx': "Pikadesfile",
-			pt: "Desfile Pikachu"
+			'es-mx': "Pikadesfile"
 		},
 
 		effect: {
@@ -40,8 +38,7 @@ const card: Card = {
 			de: "Durchsuche dein Deck nach beliebig vielen Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck.",
 			es: "Busca en tu baraja cualquier cantidad de Pokémon Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo un numero qualsiasi di Pokémon Base e mettili nella tua panchina. Poi rimischia il tuo mazzo.",
-			'es-mx': "Busca en tu mazo cualquier cantidad de Pokémon Básicos y ponlos en tu Banca. Después, baraja tu mazo.",
-			pt: "Procure por qualquer número de Pokémon Básicos no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho."
+			'es-mx': "Busca en tu mazo cualquier cantidad de Pokémon Básicos y ponlos en tu Banca. Después, baraja tu mazo."
 		},
 
 		cost: ["Colorless"]
@@ -52,8 +49,7 @@ const card: Card = {
 			de: "Donnerblitz",
 			es: "Rayo",
 			it: "Fulmine",
-			'es-mx': "Atactrueno",
-			pt: "Relâmpago"
+			'es-mx': "Atactrueno"
 		},
 
 		effect: {
@@ -62,8 +58,7 @@ const card: Card = {
 			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel.",
 			es: "Descarta todas las Energías de este Pokémon.",
 			it: "Scarta tutte le Energie da questo Pokémon.",
-			'es-mx': "Descarta todas las Energías de este Pokémon.",
-			pt: "Descarte todas as Energias deste Pokémon."
+			'es-mx': "Descarta todas las Energías de este Pokémon."
 		},
 
 		damage: 200,

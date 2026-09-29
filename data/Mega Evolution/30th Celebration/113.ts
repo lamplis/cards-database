@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Mauzi",
 		es: "Meowth",
 		it: "Meowth",
-		'es-mx': "Meowth",
-		pt: "Meowth"
+		'es-mx': "Meowth"
 	},
 
 	illustrator: "MINAMINAMI Take",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Zahltag",
 			es: "Día de Pago",
 			it: "Giornopaga",
-			'es-mx': "Día de Pago",
-			pt: "Dia de Pagamento"
+			'es-mx': "Día de Pago"
 		},
 
 		effect: {
@@ -43,8 +41,7 @@ const card: Card = {
 			de: "Ziehe 1 Karte.",
 			es: "Roba 1 carta.",
 			it: "Pesca una carta.",
-			'es-mx': "Roba 1 carta.",
-			pt: "Compre uma carta."
+			'es-mx': "Roba 1 carta."
 		},
 
 		damage: 30,

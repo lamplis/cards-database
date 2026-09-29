@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Dialga",
 		es: "Dialga",
 		it: "Dialga",
-		'es-mx': "Dialga",
-		pt: "Dialga"
+		'es-mx': "Dialga"
 	},
 
 	illustrator: "toriyufu",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Umkehruhr",
 			es: "Reversión Temporal",
 			it: "Invertitempo",
-			'es-mx': "Reversión Temporal",
-			pt: "Relógio Reverso"
+			'es-mx': "Reversión Temporal"
 		},
 
 		effect: {
@@ -43,8 +41,7 @@ const card: Card = {
 			de: "Mische eine beliebige Kombination aus bis zu 3 Pokémon und Basis-Energiekarten aus deinem Ablagestapel in dein Deck.",
 			es: "Pon, en cualquier combinación, hasta 3 cartas de Pokémon y de Energía Básica de tu pila de descartes en tu baraja y barájalas todas.",
 			it: "Rimischia fino a tre fra Pokémon e carte Energia base in qualsiasi combinazione dalla tua pila degli scarti nel tuo mazzo.",
-			'es-mx': "Baraja, en cualquier combinación, hasta 3 cartas de Pokémon y de Energía Básica de tu pila de descartes en tu mazo.",
-			pt: "Embaralhe até 3 cartas de Pokémon e de Energia Básica da sua pilha de descarte no seu baralho em qualquer combinação."
+			'es-mx': "Baraja, en cualquier combinación, hasta 3 cartas de Pokémon y de Energía Básica de tu pila de descartes en tu mazo."
 		},
 
 		cost: ["Colorless"]
@@ -55,8 +52,7 @@ const card: Card = {
 			de: "Schwerer Einschlag",
 			es: "Impacto Pesado",
 			it: "Impatto Pesante",
-			'es-mx': "Impacto Pesado",
-			pt: "Impacto Pesado"
+			'es-mx': "Impacto Pesado"
 		},
 
 		damage: 110,

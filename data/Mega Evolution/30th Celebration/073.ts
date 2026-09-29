@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Driftlon",
 		es: "Drifloon",
 		it: "Drifloon",
-		'es-mx': "Drifloon",
-		pt: "Drifloon"
+		'es-mx': "Drifloon"
 	},
 
 	illustrator: "Shinya Komatsu",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Hinaufschweben",
 			es: "Flotar en el Aire",
 			it: "Sospensione",
-			'es-mx': "Flotar en el Aire",
-			pt: "Voo Flutuante"
+			'es-mx': "Flotar en el Aire"
 		},
 
 		effect: {
@@ -43,8 +41,7 @@ const card: Card = {
 			de: "Du kannst dieses Pokémon und alle angelegten Karten in dein Deck mischen.",
 			es: "Puedes poner este Pokémon y todas las cartas unidas a él en tu baraja, y barajar todas las cartas.",
 			it: "Puoi rimischiare questo Pokémon e tutte le carte a esso assegnate nel tuo mazzo.",
-			'es-mx': "Puedes barajar este Pokémon y todas las cartas unidas a él en tu mazo.",
-			pt: "Você pode embaralhar este Pokémon e todas as cartas ligadas a ele no seu baralho."
+			'es-mx': "Puedes barajar este Pokémon y todas las cartas unidas a él en tu mazo."
 		},
 
 		damage: 20,

@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Evoli",
 		es: "Eevee",
 		it: "Eevee",
-		'es-mx': "Eevee",
-		pt: "Eevee"
+		'es-mx': "Eevee"
 	},
 
 	illustrator: "Wintr Wandr",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Stibitzen und Verstecken",
 			es: "Buscar y Esconder",
 			it: "Afferra e Nascondi",
-			'es-mx': "Buscar y Esconder",
-			pt: "Catar e Esconder"
+			'es-mx': "Buscar y Esconder"
 		},
 
 		effect: {
@@ -43,8 +41,7 @@ const card: Card = {
 			de: "Dein Gegner zeigt dir seine Handkarten und du legst 1 Itemkarte, die du dort findest, unter das Deck deines Gegners.",
 			es: "Tu rival enseña las cartas de su mano, y tú pones 1 carta de Objeto que encuentres entre ellas en la parte inferior de la baraja de tu rival.",
 			it: "Il tuo avversario mostra le carte che ha in mano e tu metti una carta Strumento presente tra esse in fondo al suo mazzo.",
-			'es-mx': "Tu rival muestra su mano, y tú pones 1 carta de Objeto que encuentres en ella en la parte inferior del mazo de tu rival.",
-			pt: "Seu oponente revela a mão dele, e você coloca uma carta de Item que você encontrar lá como a carta de baixo do baralho do seu oponente."
+			'es-mx': "Tu rival muestra su mano, y tú pones 1 carta de Objeto que encuentres en ella en la parte inferior del mazo de tu rival."
 		},
 
 		cost: ["Colorless"]
@@ -55,8 +52,7 @@ const card: Card = {
 			de: "Tackle",
 			es: "Placaje",
 			it: "Azione",
-			'es-mx': "Tacleada",
-			pt: "Investida"
+			'es-mx': "Tacleada"
 		},
 
 		damage: 10,

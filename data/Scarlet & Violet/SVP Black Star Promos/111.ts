@@ -46,11 +46,7 @@ const card: Card = {
 	illustrator: "matazo",
 	variants: [
 		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 769407,
-				tcgplayer: 556854
-			},
+			type: "normal"
 		}
 	],
 }

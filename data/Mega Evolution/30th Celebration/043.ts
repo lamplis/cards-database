@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu",
-		pt: "Pikachu"
+		'es-mx': "Pikachu"
 	},
 
 	illustrator: "OOYAMA",
@@ -36,8 +35,7 @@ const card: Card = {
 			de: "Tropische Vibes",
 			es: "Rollito Tropical",
 			it: "Atmosfera Tropicale",
-			'es-mx': "Vibras Tropicales",
-			pt: "Vibes Tropicais"
+			'es-mx': "Vibras Tropicales"
 		},
 
 		effect: {
@@ -46,8 +44,7 @@ const card: Card = {
 			de: "Dieses Pokémon schläft jetzt. Ziehe so lange Karten, bis du 6 Karten auf deiner Hand hast.",
 			es: "Este Pokémon pasa a estar Dormido. Roba cartas hasta tener 6 cartas en tu mano.",
 			it: "Questo Pokémon viene addormentato. Pesca fino ad avere sei carte in mano.",
-			'es-mx': "Este Pokémon ahora está Dormido. Roba cartas hasta que tengas 6 cartas en tu mano.",
-			pt: "Este Pokémon agora está Adormecido. Compre cartas até ter 6 cartas na sua mão."
+			'es-mx': "Este Pokémon ahora está Dormido. Roba cartas hasta que tengas 6 cartas en tu mano."
 		},
 
 		cost: ["Colorless", "Colorless"]

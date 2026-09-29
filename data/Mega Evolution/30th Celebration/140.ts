@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Zurrokex",
 		es: "Scraggy",
 		it: "Scraggy",
-		'es-mx': "Scraggy",
-		pt: "Scraggy"
+		'es-mx': "Scraggy"
 	},
 
 	illustrator: "GOSSAN",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Kleinlich",
 			es: "Tiquismiquis",
 			it: "Pignoleria",
-			'es-mx': "Suspicacia",
-			pt: "Implicância"
+			'es-mx': "Suspicacia"
 		},
 
 		effect: {
@@ -43,8 +41,7 @@ const card: Card = {
 			de: "Dein Gegner mischt seine Handkarten in sein Deck und zieht 4 Karten.",
 			es: "Tu rival pone las cartas de su mano en su baraja, las baraja todas y roba 4 cartas.",
 			it: "Il tuo avversario rimischia le carte che ha in mano nel suo mazzo e pesca quattro carte.",
-			'es-mx': "Tu rival baraja su mano en su mazo y roba 4 cartas.",
-			pt: "Seu oponente embaralha a mão dele no baralho dele e compra 4 cartas."
+			'es-mx': "Tu rival baraja su mano en su mazo y roba 4 cartas."
 		},
 
 		cost: ["Darkness"]
@@ -55,8 +52,7 @@ const card: Card = {
 			de: "Korkenzieherhieb",
 			es: "Puño Tirabuzón",
 			it: "Pugno Rotante",
-			'es-mx': "Puño Sacacorchos",
-			pt: "Soco Saca-rolha"
+			'es-mx': "Puño Sacacorchos"
 		},
 
 		damage: 30,

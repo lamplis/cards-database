@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Lugia",
 		es: "Lugia",
 		it: "Lugia",
-		'es-mx': "Lugia",
-		pt: "Lugia"
+		'es-mx': "Lugia"
 	},
 
 	illustrator: "Kazuki Minami",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Urgewaltexplosion",
 			es: "Ráfaga Elemental",
 			it: "Furia degli Elementi",
-			'es-mx': "Explosión Elemental",
-			pt: "Explosão Elemental"
+			'es-mx': "Explosión Elemental"
 		},
 
 		effect: {
@@ -43,8 +41,7 @@ const card: Card = {
 			de: "Lege 1 <span class=\"energy-symbol Fire\" title=\"Feuer\">Fire</span>-Energie, 1 <span class=\"energy-symbol Water\" title=\"Wasser\">Water</span>-Energie und 1 <span class=\"energy-symbol Lightning\" title=\"Elektro\">Lightning</span>-Energie von diesem Pokémon auf deinen Ablagestapel.",
 			es: "Descarta 1 Energía <span class=\"energy-symbol Fire\" title=\"Fuego\">Fire</span>, 1 Energía <span class=\"energy-symbol Water\" title=\"Agua\">Water</span> y 1 Energía <span class=\"energy-symbol Lightning\" title=\"Rayo\">Lightning</span> de este Pokémon.",
 			it: "Scarta un'Energia <span class=\"energy-symbol Fire\" title=\"Fuoco\">Fire</span>, un'Energia <span class=\"energy-symbol Water\" title=\"Acqua\">Water</span> e un'Energia <span class=\"energy-symbol Lightning\" title=\"Lampo\">Lightning</span> da questo Pokémon.",
-			'es-mx': "Descarta 1 Energía <span class=\"energy-symbol Fire\" title=\"Fuego\">Fire</span>, 1 Energía <span class=\"energy-symbol Water\" title=\"Agua\">Water</span> y 1 Energía <span class=\"energy-symbol Lightning\" title=\"Rayo\">Lightning</span> de este Pokémon.",
-			pt: "Descarte uma Energia Fire, uma Energia Water e uma Energia Lightning deste Pokémon."
+			'es-mx': "Descarta 1 Energía <span class=\"energy-symbol Fire\" title=\"Fuego\">Fire</span>, 1 Energía <span class=\"energy-symbol Water\" title=\"Agua\">Water</span> y 1 Energía <span class=\"energy-symbol Lightning\" title=\"Rayo\">Lightning</span> de este Pokémon."
 		},
 
 		damage: 250,

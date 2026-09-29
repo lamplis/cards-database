@@ -10,8 +10,7 @@ const card: Card = {
 		de: "Mewtu-ex",
 		es: "Mewtwo ex",
 		it: "Mewtwo-ex",
-		'es-mx': "Mewtwo ex",
-		pt: "Mewtwo ex"
+		'es-mx': "Mewtwo ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -30,8 +29,7 @@ const card: Card = {
 			de: "Photonenkugeln",
 			es: "Balas Fotónicas",
 			it: "Dardi Fotonici",
-			'es-mx': "Balas Fotónicas",
-			pt: "Projéteis de Fótons"
+			'es-mx': "Balas Fotónicas"
 		},
 
 		effect: {
@@ -40,8 +38,7 @@ const card: Card = {
 			de: "Diese Attacke fügt jedem Pokémon-<em>ex</em> deines Gegners 50 Schadenspunkte zu. <em>(Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)</em>",
 			es: "Este ataque hace 50 puntos de daño a cada uno de los Pokémon <em>ex</em> de tu rival. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca)</em>.",
 			it: "Questo attacco infligge 50 danni a ciascuno dei Pokémon-<em>ex</em> del tuo avversario. <em>Non applicare debolezza e resistenza ai Pokémon in panchina</em>.",
-			'es-mx': "Este ataque hace 50 puntos de daño a cada uno de los Pokémon <em>ex</em> de tu rival. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca).</em>",
-			pt: "Este ataque causa 50 pontos de dano a cada um dos Pokémon ex do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
+			'es-mx': "Este ataque hace 50 puntos de daño a cada uno de los Pokémon <em>ex</em> de tu rival. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca).</em>"
 		},
 
 		cost: ["Psychic", "Psychic"]
@@ -52,8 +49,7 @@ const card: Card = {
 			de: "Psychokräfte",
 			es: "Poderes Psíquicos",
 			it: "Psicopoteri",
-			'es-mx': "Poderes Psíquicos",
-			pt: "Potência Psíquica"
+			'es-mx': "Poderes Psíquicos"
 		},
 
 		effect: {
@@ -62,8 +58,7 @@ const card: Card = {
 			de: "Während deines nächsten Zuges kann dieses Pokémon keine Attacken einsetzen.",
 			es: "Durante tu próximo turno, este Pokémon no puede usar ataques.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può usare attacchi.",
-			'es-mx': "Durante tu próximo turno, este Pokémon no puede usar ataques.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar ataques."
+			'es-mx': "Durante tu próximo turno, este Pokémon no puede usar ataques."
 		},
 
 		damage: 230,

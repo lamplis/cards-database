@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Illumise",
 		es: "Illumise",
 		it: "Illumise",
-		'es-mx': "Illumise",
-		pt: "Illumise"
+		'es-mx': "Illumise"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -35,8 +34,7 @@ const card: Card = {
 			de: "Sehr effektive Pheromone",
 			es: "Feromonas Supereficaces",
 			it: "Feromoni Superefficaci",
-			'es-mx': "Feromonas Supereficaces",
-			pt: "Feromônios Supereficazes"
+			'es-mx': "Feromonas Supereficaces"
 		},
 
 		effect: {
@@ -45,8 +43,7 @@ const card: Card = {
 			de: "Wenn du Volbeat im Spiel hast, verrechne Schwäche bei beiden Aktiven Pokémon als ×3.",
 			es: "Si tienes a Volbeat en juego, aplica una Debilidad de × 3 a ambos Pokémon Activos.",
 			it: "Se hai Volbeat in gioco, la debolezza di entrambi i Pokémon attivi è ×3.",
-			'es-mx': "Si tienes Volbeat en juego, aplica Debilidad de × 3 a ambos Pokémon Activos.",
-			pt: "Se você tiver Volbeat em jogo, aplique Fraqueza a ambos os Pokémon Ativos de ×3."
+			'es-mx': "Si tienes Volbeat en juego, aplica Debilidad de × 3 a ambos Pokémon Activos."
 		}
 	}],
 
@@ -57,8 +54,7 @@ const card: Card = {
 			de: "Ramme",
 			es: "Apisonar",
 			it: "Carica",
-			'es-mx': "Colisión",
-			pt: "Aríete"
+			'es-mx': "Colisión"
 		},
 
 		damage: 30,

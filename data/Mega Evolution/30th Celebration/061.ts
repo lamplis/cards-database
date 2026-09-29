@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Morpeko",
 		es: "Morpeko",
 		it: "Morpeko",
-		'es-mx': "Morpeko",
-		pt: "Morpeko"
+		'es-mx': "Morpeko"
 	},
 
 	illustrator: "Naoki Saito",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Snackwahl",
 			es: "Elige tu Bocadito",
 			it: "Sceglisnack",
-			'es-mx': "Snack Selecto",
-			pt: "Escolher Lanchinho"
+			'es-mx': "Snack Selecto"
 		},
 
 		effect: {
@@ -43,8 +41,7 @@ const card: Card = {
 			de: "Lege die obersten 3 Karten deines Decks auf deinen Ablagestapel und nimm 1 von ihnen auf deine Hand.",
 			es: "Descarta las 3 primeras cartas de tu baraja y pon 1 de ellas en tu mano.",
 			it: "Scarta le prime tre carte del tuo mazzo e aggiungine una a quelle che hai in mano.",
-			'es-mx': "Descarta las primeras 3 cartas de tu mazo y pon 1 de ellas en tu mano.",
-			pt: "Descarte as 3 cartas de cima do seu baralho e coloque 1 delas na sua mão."
+			'es-mx': "Descarta las primeras 3 cartas de tu mazo y pon 1 de ellas en tu mano."
 		},
 
 		cost: ["Colorless"]
@@ -55,8 +52,7 @@ const card: Card = {
 			de: "Hieb",
 			es: "Bofetón",
 			it: "Sberla",
-			'es-mx': "Bofetón",
-			pt: "Tapa"
+			'es-mx': "Bofetón"
 		},
 
 		damage: 30,

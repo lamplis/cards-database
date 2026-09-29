@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu",
-		pt: "Pikachu"
+		'es-mx': "Pikachu"
 	},
 
 	illustrator: "Atsushi Furusawa",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Nagen",
 			es: "Roer",
 			it: "Rosicchiamento",
-			'es-mx': "Mordisquear",
-			pt: "Roída"
+			'es-mx': "Mordisquear"
 		},
 
 		damage: 10,

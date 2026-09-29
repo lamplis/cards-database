@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Zacian",
 		es: "Zacian",
 		it: "Zacian",
-		'es-mx': "Zacian",
-		pt: "Zacian"
+		'es-mx': "Zacian"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Gehärtete Klinge",
 			es: "Tajo Fortachón",
 			it: "Lama Temprata",
-			'es-mx': "Cuchilla Templada",
-			pt: "Lâmina Endurecida"
+			'es-mx': "Cuchilla Templada"
 		},
 
 		effect: {
@@ -43,8 +41,7 @@ const card: Card = {
 			de: "Wenn an dieses Pokémon 1 Pokémon-Ausrüstung angelegt ist, fügt diese Attacke 40 Schadenspunkte mehr zu.",
 			es: "Si este Pokémon tiene una Herramienta Pokémon unida, este ataque hace 40 puntos de daño más.",
 			it: "Se questo Pokémon ha una carta Oggetto Pokémon assegnata, questo attacco infligge 40 danni in più.",
-			'es-mx': "Si este Pokémon tiene alguna Herramienta Pokémon unida, este ataque hace 40 puntos de daño más.",
-			pt: "Se este Pokémon tiver uma Ferramenta Pokémon ligada a ele, este ataque causará 40 pontos de dano a mais."
+			'es-mx': "Si este Pokémon tiene alguna Herramienta Pokémon unida, este ataque hace 40 puntos de daño más."
 		},
 
 		damage: "20+",
@@ -56,8 +53,7 @@ const card: Card = {
 			de: "Schlitzender Schlag",
 			es: "Golpe Cuchillazo",
 			it: "Lacerattacco",
-			'es-mx': "Golpe Cortante",
-			pt: "Ataque Cortante"
+			'es-mx': "Golpe Cortante"
 		},
 
 		effect: {
@@ -66,8 +62,7 @@ const card: Card = {
 			de: "Während deines nächsten Zuges kann dieses Pokémon Schlitzender Schlag nicht einsetzen.",
 			es: "Durante tu próximo turno, este Pokémon no puede usar Golpe Cuchillazo.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Lacerattacco.",
-			'es-mx': "Durante tu próximo turno, este Pokémon no puede usar Golpe Cortante.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Ataque Cortante."
+			'es-mx': "Durante tu próximo turno, este Pokémon no puede usar Golpe Cortante."
 		},
 
 		damage: 120,

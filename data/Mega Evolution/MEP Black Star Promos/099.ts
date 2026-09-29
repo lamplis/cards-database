@@ -25,28 +25,35 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Frogadier",
+		fr: "Croâporal"
 	},
 
-	attacks: [{
-		cost: ["Water"],
-
-		name: {
-			en: "Stealthy Slash",
+	attacks: [
+		{
+			cost: [
+				"Water",
+			],
+			name: {
+				en: "Stealthy Slash",
+				fr: "Tranche Furtive"
+			},
+			effect: {
+				en: "This attack does 30 damage to 1 of your opponent's Pokémon for each damage counter on that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Cette attaque inflige 30 dégâts à l'un des Pokémon de votre adversaire pour chaque marqueur de dégâts sur ce Pokémon-là. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			}
 		},
-
-		effect: {
-			en: "This attack does 30 damage to 1 of your opponent's Pokémon for each damage counter on that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-		}
-	},
-	{
-		cost: ["Water", "Water"],
-
-		name: {
-			en: "Aqua Edge",
+		{
+			cost: [
+				"Water",
+				"Water",
+			],
+			name: {
+				en: "Aqua Edge",
+				fr: "Aqua-Dague"
+			},
+			damage: 160
 		},
-
-		damage: 160
-	}],
+	],
 
 	retreat: 1,
 	regulationMark: "J",

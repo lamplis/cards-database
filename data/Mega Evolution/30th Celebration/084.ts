@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Branawarz",
 		es: "Seismitoad",
 		it: "Seismitoad",
-		'es-mx': "Seismitoad",
-		pt: "Seismitoad"
+		'es-mx': "Seismitoad"
 	},
 
 	illustrator: "Kurata So",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Bebende Faust",
 			es: "Sismopuño",
 			it: "Colpo Tellurico",
-			'es-mx': "Puño Sísmico",
-			pt: "Punho Estremecedor"
+			'es-mx': "Puño Sísmico"
 		},
 
 		effect: {
@@ -43,8 +41,7 @@ const card: Card = {
 			de: "Jedes Mal, wenn dein Gegner während seines nächsten Zuges versucht, eine Trainerkarte aus seiner Hand einzusetzen, wirft er 1 Münze. Bei Zahl legt dein Gegner jene Trainerkarte auf seinen Ablagestapel, anstatt sie einzusetzen.",
 			es: "Durante el próximo turno de tu rival, cada vez que intente usar una carta de Entrenador de su mano, este lanza 1 moneda. Si sale cruz, tu rival descarta esa carta de Entrenador en vez de usarla.",
 			it: "Durante il suo prossimo turno, ogni volta che prova a usare una carta Allenatore che ha in mano, il tuo avversario lancia una moneta. Se esce croce, il tuo avversario scarta quella carta Allenatore invece di usarla.",
-			'es-mx': "Durante el próximo turno de tu rival, cada vez que este intente usar una carta de Entrenador de su mano, tu rival lanza 1 moneda. Si sale cruz, tu rival descarta esa carta de Entrenador en lugar de usarla.",
-			pt: "Durante o próximo turno do seu oponente, sempre que ele tentar usar uma carta de Treinador da mão dele, ele jogará uma moeda. Se sair coroa, seu oponente descartará aquela carta de Treinador em vez de usá-la."
+			'es-mx': "Durante el próximo turno de tu rival, cada vez que este intente usar una carta de Entrenador de su mano, tu rival lanza 1 moneda. Si sale cruz, tu rival descarta esa carta de Entrenador en lugar de usarla."
 		},
 
 		damage: 60,
@@ -56,8 +53,7 @@ const card: Card = {
 			de: "Megahieb",
 			es: "Megapuño",
 			it: "Megapugno",
-			'es-mx': "Megapuño",
-			pt: "Megassoco"
+			'es-mx': "Megapuño"
 		},
 
 		damage: 180,

@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Cosmog",
 		es: "Cosmog",
 		it: "Cosmog",
-		'es-mx': "Cosmog",
-		pt: "Cosmog"
+		'es-mx': "Cosmog"
 	},
 
 	illustrator: "Mina Nakai",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Platscher",
 			es: "Salpicadura",
 			it: "Splash",
-			'es-mx': "Salpicadura",
-			pt: "Borrifada"
+			'es-mx': "Salpicadura"
 		},
 
 		damage: 10,

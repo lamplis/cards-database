@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu",
-		pt: "Pikachu"
+		'es-mx': "Pikachu"
 	},
 
 	illustrator: "DOM",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Flotter Sprung",
 			es: "Rayo Mach",
 			it: "Fulmine Mach",
-			'es-mx': "Superrayo",
-			pt: "Raio Supersônico"
+			'es-mx': "Superrayo"
 		},
 
 		damage: 30,

@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Volbeat",
 		es: "Volbeat",
 		it: "Volbeat",
-		'es-mx': "Volbeat",
-		pt: "Volbeat"
+		'es-mx': "Volbeat"
 	},
 
 	illustrator: "Yoriyuki Ikegami",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Lockendes Glühen",
 			es: "Resplandor Atrayente",
 			it: "Brillincanto",
-			'es-mx': "Resplandor Atrayente",
-			pt: "Brilho Sedutor"
+			'es-mx': "Resplandor Atrayente"
 		},
 
 		effect: {
@@ -43,8 +41,7 @@ const card: Card = {
 			de: "Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein.",
 			es: "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo.",
 			it: "Sostituisci uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon in posizione attiva.",
-			'es-mx': "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo.",
-			pt: "Mande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo."
+			'es-mx': "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo."
 		},
 
 		cost: ["Grass"]
@@ -55,8 +52,7 @@ const card: Card = {
 			de: "Käfergebrumm",
 			es: "Zumbido",
 			it: "Ronzio",
-			'es-mx': "Zumbido",
-			pt: "Zumbido de Inseto"
+			'es-mx': "Zumbido"
 		},
 
 		damage: 90,

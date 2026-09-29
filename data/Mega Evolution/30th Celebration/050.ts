@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu",
-		pt: "Pikachu"
+		'es-mx': "Pikachu"
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Freudenfunke",
 			es: "Chispa Satisfecha",
 			it: "Scintilla Soddisfatta",
-			'es-mx': "Chispa Satisfecha",
-			pt: "Faísca Farta"
+			'es-mx': "Chispa Satisfecha"
 		},
 
 		damage: 100,

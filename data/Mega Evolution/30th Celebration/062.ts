@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Miraidon",
 		es: "Miraidon",
 		it: "Miraidon",
-		'es-mx': "Miraidon",
-		pt: "Miraidon"
+		'es-mx': "Miraidon"
 	},
 
 	illustrator: "Kazumasa Yasukuni",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Flotter Sprung",
 			es: "Rayo Mach",
 			it: "Fulmine Mach",
-			'es-mx': "Superrayo",
-			pt: "Raio Supersônico"
+			'es-mx': "Superrayo"
 		},
 
 		damage: 20,
@@ -46,8 +44,7 @@ const card: Card = {
 			de: "Blitztour",
 			es: "Electroderrape",
 			it: "Fulmiscatto",
-			'es-mx': "Electroderrape",
-			pt: "Derrapada Elétrica"
+			'es-mx': "Electroderrape"
 		},
 
 		effect: {
@@ -56,8 +53,7 @@ const card: Card = {
 			de: "Lege 2 <span class=\"energy-symbol Lightning\" title=\"Elektro\">Lightning</span>-Energien von diesem Pokémon auf deinen Ablagestapel.",
 			es: "Descarta 2 Energías <span class=\"energy-symbol Lightning\" title=\"Rayo\">Lightning</span> de este Pokémon.",
 			it: "Scarta due Energie <span class=\"energy-symbol Lightning\" title=\"Lampo\">Lightning</span> da questo Pokémon.",
-			'es-mx': "Descarta 2 Energías <span class=\"energy-symbol Lightning\" title=\"Rayo\">Lightning</span> de este Pokémon.",
-			pt: "Descarte 2 Energias Lightning deste Pokémon."
+			'es-mx': "Descarta 2 Energías <span class=\"energy-symbol Lightning\" title=\"Rayo\">Lightning</span> de este Pokémon."
 		},
 
 		damage: 140,

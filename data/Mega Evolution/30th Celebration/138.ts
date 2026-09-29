@@ -14,8 +14,7 @@ const card: Card = {
 		de: "Wolwerock",
 		es: "Lycanroc",
 		it: "Lycanroc",
-		'es-mx': "Lycanroc",
-		pt: "Lycanroc"
+		'es-mx': "Lycanroc"
 	},
 
 	illustrator: "Raita Kazama",
@@ -33,8 +32,7 @@ const card: Card = {
 			de: "Konter",
 			es: "Contraataque",
 			it: "Contrattacco",
-			'es-mx': "Contraataque",
-			pt: "Contra-atacar"
+			'es-mx': "Contraataque"
 		},
 
 		effect: {
@@ -43,8 +41,7 @@ const card: Card = {
 			de: "Wenn diesem Pokémon während des letzten Zuges deines Gegners durch eine Attacke Schaden zugefügt wurde, fügt diese Attacke genauso viel Schaden mehr zu.",
 			es: "Si este Pokémon resultó dañado por un ataque durante el último turno de tu rival, este ataque hace ese número de puntos de daño más.",
 			it: "Se questo Pokémon è stato danneggiato da un attacco durante l'ultimo turno del tuo avversario, questo attacco infligge altrettanti danni in più.",
-			'es-mx': "Si este Pokémon recibió daño de un ataque durante el último turno de tu rival, este ataque hace esa cantidad de puntos de daño más.",
-			pt: "Se este Pokémon tiver sido danificado por um ataque durante o último turno do seu oponente, este ataque causará a mesma quantidade de dano a mais."
+			'es-mx': "Si este Pokémon recibió daño de un ataque durante el último turno de tu rival, este ataque hace esa cantidad de puntos de daño más."
 		},
 
 		damage: "10+",
@@ -56,8 +53,7 @@ const card: Card = {
 			de: "Felsenquetscher",
 			es: "Alud de Rocas",
 			it: "Macignata",
-			'es-mx': "Aplastamiento Rocoso",
-			pt: "Rocha Esmagadora"
+			'es-mx': "Aplastamiento Rocoso"
 		},
 
 		damage: 80,
