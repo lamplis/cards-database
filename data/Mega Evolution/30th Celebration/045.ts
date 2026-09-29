@@ -15,8 +15,7 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu",
-		pt: "Pikachu"
+		'es-mx': "Pikachu"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -34,8 +33,7 @@ const card: Card = {
 			de: "Nachtspaziergang",
 			es: "Paseo Nocturno",
 			it: "Passeggiata Notturna",
-			'es-mx': "Paseo Nocturno",
-			pt: "Caminhada Noturna"
+			'es-mx': "Paseo Nocturno"
 		},
 
 		effect: {
@@ -44,8 +42,7 @@ const card: Card = {
 			de: "Ziehe 1 Karte.",
 			es: "Roba 1 carta.",
 			it: "Pesca una carta.",
-			'es-mx': "Roba 1 carta.",
-			pt: "Compre uma carta."
+			'es-mx': "Roba 1 carta."
 		},
 
 		cost: ["Colorless"]
@@ -56,8 +53,7 @@ const card: Card = {
 			de: "Statischer Schock",
 			es: "Impacto Estático",
 			it: "Shock Statico",
-			'es-mx': "Impacto Estático",
-			pt: "Choque de Estática"
+			'es-mx': "Impacto Estático"
 		},
 
 		damage: 20,

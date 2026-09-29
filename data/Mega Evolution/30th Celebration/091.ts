@@ -15,8 +15,7 @@ const card: Card = {
 		de: "Nachtara",
 		es: "Umbreon",
 		it: "Umbreon",
-		'es-mx': "Umbreon",
-		pt: "Umbreon"
+		'es-mx': "Umbreon"
 	},
 
 	illustrator: "Iori Suzuki",
@@ -34,8 +33,7 @@ const card: Card = {
 			de: "Heimzahlung",
 			es: "Represalia",
 			it: "Nemesi",
-			'es-mx': "Represalia",
-			pt: "Retaliação"
+			'es-mx': "Represalia"
 		},
 
 		effect: {
@@ -44,8 +42,7 @@ const card: Card = {
 			de: "Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke kampfunfähig wurde, fügt diese Attacke 100 Schadenspunkte mehr zu.",
 			es: "Si alguno de tus Pokémon quedó Fuera de Combate por el daño de un ataque durante el último turno de tu rival, este ataque hace 100 puntos de daño más.",
 			it: "Se uno qualsiasi dei tuoi Pokémon è stato messo KO dai danni inflitti da un attacco durante l'ultimo turno del tuo avversario, questo attacco infligge 100 danni in più.",
-			'es-mx': "Si alguno de tus Pokémon quedó Fuera de Combate por el daño de un ataque durante el último turno de tu rival, este ataque hace 100 puntos de daño más.",
-			pt: "Se algum dos seus Pokémon tiver sido Nocauteado pelo dano de um ataque durante o último turno do seu oponente, este ataque causará 100 pontos de dano a mais."
+			'es-mx': "Si alguno de tus Pokémon quedó Fuera de Combate por el daño de un ataque durante el último turno de tu rival, este ataque hace 100 puntos de daño más."
 		},
 
 		damage: "30+",
@@ -57,8 +54,7 @@ const card: Card = {
 			de: "Fänge der Dunkelheit",
 			es: "Colmillo de Oscuridad",
 			it: "Oscurizanna",
-			'es-mx': "Colmillo de Oscuridad",
-			pt: "Presa Sombria"
+			'es-mx': "Colmillo de Oscuridad"
 		},
 
 		damage: 100,

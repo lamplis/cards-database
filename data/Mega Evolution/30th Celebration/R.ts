@@ -15,8 +15,7 @@ const card: Card = {
 		de: "Mew",
 		es: "Mew",
 		it: "Mew",
-		'es-mx': "Mew",
-		pt: "Mew"
+		'es-mx': "Mew"
 	},
 
 	illustrator: "YOSHIROTTEN",
@@ -34,8 +33,7 @@ const card: Card = {
 			de: "Psychokinese",
 			es: "Psíquico",
 			it: "Psichico",
-			'es-mx': "Fuerza Psíquica",
-			pt: "Psíquico"
+			'es-mx': "Fuerza Psíquica"
 		},
 
 		effect: {
@@ -44,8 +42,7 @@ const card: Card = {
 			de: "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 40 Schadenspunkte mehr zu.",
 			es: "Este ataque hace 40 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
 			it: "Questo attacco infligge 40 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
-			'es-mx': "Este ataque hace 40 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
-			pt: "Este ataque causa 40 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente."
+			'es-mx': "Este ataque hace 40 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival."
 		},
 
 		damage: "10+",

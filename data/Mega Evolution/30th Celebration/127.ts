@@ -10,18 +10,12 @@ const card: Card = {
 		de: "Tausch",
 		es: "Cambio",
 		it: "Scambio",
-		'es-mx': "Cambio",
-		pt: "Substituição"
+		'es-mx': "Cambio"
 	},
 
 	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Trainer",
-	effect: {
-		en: "Switch your Active Pokémon with 1 of your Benched Pokémon.",
-		pt: "Troque o seu Pokémon Ativo por 1 dos seus Pokémon no Banco."
-	},
-
 	trainerType: "Item",
 	regulationMark: "I",
 	variants: [

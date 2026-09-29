@@ -10,8 +10,7 @@ const card: Card = {
 		de: "Pikachu-ex",
 		es: "Pikachu ex",
 		it: "Pikachu-ex",
-		'es-mx': "Pikachu ex",
-		pt: "Pikachu ex"
+		'es-mx': "Pikachu ex"
 	},
 
 	illustrator: "takuyoa",
@@ -30,8 +29,7 @@ const card: Card = {
 			de: "Zipp-Zapp-Wahn",
 			es: "Frenesí Eléctrico",
 			it: "Frenesia Elettrizzante",
-			'es-mx': "Frenesí Eléctrico",
-			pt: "Frenesi Zip-Zap"
+			'es-mx': "Frenesí Eléctrico"
 		},
 
 		effect: {
@@ -40,8 +38,7 @@ const card: Card = {
 			de: "Du kannst beliebig viele Basis-Energiekarten aus deiner Hand beliebig an deine Pokémon anlegen.",
 			es: "Puedes unir cualquier cantidad de cartas de Energía Básica de tu mano a tus Pokémon de la manera que desees.",
 			it: "Puoi assegnare ai tuoi Pokémon un numero qualsiasi di carte Energia base dalla tua mano nel modo che preferisci.",
-			'es-mx': "Puedes unir cualquier cantidad de cartas de Energía Básica de tu mano a tus Pokémon de la manera que quieras.",
-			pt: "Você pode ligar qualquer número de cartas de Energia Básica da sua mão aos seus Pokémon como desejar."
+			'es-mx': "Puedes unir cualquier cantidad de cartas de Energía Básica de tu mano a tus Pokémon de la manera que quieras."
 		},
 
 		cost: ["Lightning"]
@@ -52,8 +49,7 @@ const card: Card = {
 			de: "Donner",
 			es: "Trueno",
 			it: "Tuono",
-			'es-mx': "Trueno",
-			pt: "Trovão"
+			'es-mx': "Trueno"
 		},
 
 		effect: {
@@ -62,8 +58,7 @@ const card: Card = {
 			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
 			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			'es-mx': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo."
+			'es-mx': "Este Pokémon también se hace 30 puntos de daño a sí mismo."
 		},
 
 		damage: 200,
