@@ -15,8 +15,7 @@ const card: Card = {
 		de: "Azumarill",
 		es: "Azumarill",
 		it: "Azumarill",
-		'es-mx': "Azumarill",
-		pt: "Azumarill"
+		'es-mx': "Azumarill"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,8 +33,7 @@ const card: Card = {
 			de: "Bodyslam",
 			es: "Golpe Cuerpo",
 			it: "Corposcontro",
-			'es-mx': "Golpe de Cuerpo",
-			pt: "Pancada Corporal"
+			'es-mx': "Golpe de Cuerpo"
 		},
 
 		effect: {
@@ -44,8 +42,7 @@ const card: Card = {
 			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
 			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			'es-mx': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival ahora está Paralizado.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado."
+			'es-mx': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival ahora está Paralizado."
 		},
 
 		damage: 90,

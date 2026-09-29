@@ -15,8 +15,7 @@ const card: Card = {
 		de: "Vulpix",
 		es: "Vulpix",
 		it: "Vulpix",
-		'es-mx': "Vulpix",
-		pt: "Vulpix"
+		'es-mx': "Vulpix"
 	},
 
 	illustrator: "miki kudo",
@@ -34,8 +33,7 @@ const card: Card = {
 			de: "Stürmischer Kick",
 			es: "Patada Salvaje",
 			it: "Calcio Selvaggio",
-			'es-mx': "Patada Salvaje",
-			pt: "Chute sem Pontaria"
+			'es-mx': "Patada Salvaje"
 		},
 
 		effect: {
@@ -44,8 +42,7 @@ const card: Card = {
 			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
 			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
 			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-			'es-mx': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-			pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada."
+			'es-mx': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada."
 		},
 
 		damage: 30,

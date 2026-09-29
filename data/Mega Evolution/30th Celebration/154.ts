@@ -10,8 +10,7 @@ const card: Card = {
 		de: "Gengar-ex",
 		es: "Gengar ex",
 		it: "Gengar-ex",
-		'es-mx': "Gengar ex",
-		pt: "Gengar ex"
+		'es-mx': "Gengar ex"
 	},
 
 	illustrator: "CHORISO",
@@ -35,8 +34,7 @@ const card: Card = {
 			de: "Ohnmachtsanfall",
 			es: "Hechizo Desmayo",
 			it: "Esaustoformula",
-			'es-mx': "Hechizo Desvanecedor",
-			pt: "Feitiço do Abatimento"
+			'es-mx': "Hechizo Desvanecedor"
 		},
 
 		effect: {
@@ -45,8 +43,7 @@ const card: Card = {
 			de: "Wenn dieses Pokémon durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, wirf 1 Münze. Bei Kopf ist das Angreifende Pokémon kampfunfähig.",
 			es: "Si este Pokémon queda Fuera de Combate por el daño de un ataque de los Pokémon de tu rival, lanza 1 moneda. Si sale cara, el Pokémon Atacante queda Fuera de Combate.",
 			it: "Se questo Pokémon viene messo KO dai danni inflitti da un attacco di un Pokémon del tuo avversario, lancia una moneta. Se esce testa, il Pokémon attaccante viene messo KO.",
-			'es-mx': "Si este Pokémon queda Fuera de Combate por el daño de un ataque de los Pokémon de tu rival, lanza 1 moneda. Si sale cara, el Pokémon Atacante queda Fuera de Combate.",
-			pt: "Se este Pokémon for Nocauteado pelo dano de um ataque dos Pokémon do seu oponente, jogue uma moeda. Se sair cara, o Pokémon Atacante será Nocauteado."
+			'es-mx': "Si este Pokémon queda Fuera de Combate por el daño de un ataque de los Pokémon de tu rival, lanza 1 moneda. Si sale cara, el Pokémon Atacante queda Fuera de Combate."
 		}
 	}],
 
@@ -57,8 +54,7 @@ const card: Card = {
 			de: "Chaosschmerz",
 			es: "Daño Caótico",
 			it: "Caos Funesto",
-			'es-mx': "Daño Caótico",
-			pt: "Dor Caótica"
+			'es-mx': "Daño Caótico"
 		},
 
 		effect: {
@@ -67,8 +63,7 @@ const card: Card = {
 			de: "Lege 13 Schadensmarken auf 1 Pokémon deines Gegners.",
 			es: "Pon 13 contadores de daño en uno de los Pokémon de tu rival.",
 			it: "Metti 13 segnalini danno su uno dei Pokémon del tuo avversario.",
-			'es-mx': "Pon 13 contadores de daño en 1 de los Pokémon de tu rival.",
-			pt: "Coloque 13 contadores de dano em 1 dos Pokémon do seu oponente."
+			'es-mx': "Pon 13 contadores de daño en 1 de los Pokémon de tu rival."
 		},
 
 		cost: ["Darkness", "Darkness"]

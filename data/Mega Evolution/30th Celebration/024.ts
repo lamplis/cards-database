@@ -15,8 +15,7 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu",
-		pt: "Pikachu"
+		'es-mx': "Pikachu"
 	},
 
 	illustrator: "danciao",
@@ -34,8 +33,7 @@ const card: Card = {
 			de: "Volttackle",
 			es: "Placaje Eléctrico",
 			it: "Locomovolt",
-			'es-mx': "Tacleada de Voltios",
-			pt: "Investida Trovão"
+			'es-mx': "Tacleada de Voltios"
 		},
 
 		effect: {
@@ -44,8 +42,7 @@ const card: Card = {
 			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
 			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			'es-mx': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo."
+			'es-mx': "Este Pokémon también se hace 30 puntos de daño a sí mismo."
 		},
 
 		damage: 80,

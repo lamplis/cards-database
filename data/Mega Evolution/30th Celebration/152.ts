@@ -10,8 +10,7 @@ const card: Card = {
 		de: "Mew-ex",
 		es: "Mew ex",
 		it: "Mew-ex",
-		'es-mx': "Mew ex",
-		pt: "Mew ex"
+		'es-mx': "Mew ex"
 	},
 
 	illustrator: "Kuroimori",
@@ -32,8 +31,7 @@ const card: Card = {
 			de: "Gedächtnishelix",
 			es: "Hélice Recuerdo",
 			it: "Elica Mnemonica",
-			'es-mx': "Memoria Hélice",
-			pt: "Espiral de Memória"
+			'es-mx': "Memoria Hélice"
 		},
 
 		effect: {
@@ -42,8 +40,7 @@ const card: Card = {
 			de: "Dieses Pokémon kann die Attacken eines beliebigen Pokémon auf deiner Bank einsetzen. (Du benötigst jedoch die jeweils für die Attacke notwendige Energie.)",
 			es: "Este Pokémon puede usar los ataques de cualquiera de tus Pokémon en Banca. (Sigues necesitando las Energías requeridas para usar cada ataque).",
 			it: "Questo Pokémon può usare gli attacchi di uno qualsiasi dei Pokémon nella tua panchina. Devi comunque avere l'Energia necessaria per usare ciascun attacco.",
-			'es-mx': "Este Pokémon puede usar los ataques de cualquiera de tus Pokémon en Banca. (Sigues necesitando las Energías requeridas para usar cada ataque).",
-			pt: "Este Pokémon pode usar os ataques de qualquer um dos seus Pokémon no Banco. (Você ainda precisa da Energia necessária para usar cada ataque.)"
+			'es-mx': "Este Pokémon puede usar los ataques de cualquiera de tus Pokémon en Banca. (Sigues necesitando las Energías requeridas para usar cada ataque)."
 		}
 	}],
 
@@ -54,8 +51,7 @@ const card: Card = {
 			de: "Blitz-Teleportation",
 			es: "Explosión Teleportadora",
 			it: "Scoppio Teletrasporto",
-			'es-mx': "Estallido Teletransportador",
-			pt: "Teletransporte Explosivo"
+			'es-mx': "Estallido Teletransportador"
 		},
 
 		effect: {
@@ -64,8 +60,7 @@ const card: Card = {
 			de: "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen.",
 			es: "Puedes cambiar este Pokémon por uno de tus Pokémon en Banca.",
 			it: "Puoi scambiare questo Pokémon con uno nella tua panchina.",
-			'es-mx': "Puedes cambiar este Pokémon por 1 de tus Pokémon en Banca.",
-			pt: "Você pode trocar este Pokémon por 1 dos seus Pokémon no Banco."
+			'es-mx': "Puedes cambiar este Pokémon por 1 de tus Pokémon en Banca."
 		},
 
 		damage: 30,

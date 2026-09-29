@@ -15,8 +15,7 @@ const card: Card = {
 		de: "Alola-Kokowei",
 		es: "Exeggutor de Alola",
 		it: "Exeggutor di Alola",
-		'es-mx': "Exeggutor de Alola",
-		pt: "Exeggutor de Alola"
+		'es-mx': "Exeggutor de Alola"
 	},
 
 	illustrator: "AYUMI ODASHIMA",
@@ -36,8 +35,7 @@ const card: Card = {
 			de: "Hoch hinaus",
 			es: "Crecer",
 			it: "Ingrandirsi",
-			'es-mx': "Crecimiento Exponencial",
-			pt: "Escalonar"
+			'es-mx': "Crecimiento Exponencial"
 		},
 
 		effect: {
@@ -46,8 +44,7 @@ const card: Card = {
 			de: "Wenn an dieses Pokémon 6 oder mehr Grass-Energien angelegt sind, erhält es +250 KP.",
 			es: "Si este Pokémon tiene 6 Energías Grass o más unidas, obtiene 250 PS más.",
 			it: "Se questo Pokémon ha sei o più Energie Grass assegnate, ha 250 PS in più.",
-			'es-mx': "Si este Pokémon tiene 6 Energías Grass o más unidas, obtiene 250 PS más.",
-			pt: "Se este Pokémon tiver 6 ou mais Energias Grass ligadas a ele, receberá +250 PS."
+			'es-mx': "Si este Pokémon tiene 6 Energías Grass o más unidas, obtiene 250 PS más."
 		}
 	}],
 
@@ -58,8 +55,7 @@ const card: Card = {
 			de: "Megasauger",
 			es: "Megaagotar",
 			it: "Megassorbimento",
-			'es-mx': "Megadrenado",
-			pt: "Megadreno"
+			'es-mx': "Megadrenado"
 		},
 
 		effect: {
@@ -68,8 +64,7 @@ const card: Card = {
 			de: "Heile 50 Schadenspunkte bei diesem Pokémon.",
 			es: "Cura 50 puntos de daño a este Pokémon.",
 			it: "Cura questo Pokémon da 50 danni.",
-			'es-mx': "Cura 50 puntos de daño a este Pokémon.",
-			pt: "Cure 50 pontos de dano deste Pokémon."
+			'es-mx': "Cura 50 puntos de daño a este Pokémon."
 		},
 
 		damage: 150,

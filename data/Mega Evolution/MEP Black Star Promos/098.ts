@@ -22,31 +22,39 @@ const card: Card = {
 	stage: "Basic",
 	dexId: [145],
 
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			en: "Flash-Pop Flapping",
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				en: "Flash-Pop Flapping",
+				fr: "Battements Fulgurants"
+			},
+			effect: {
+				en: "Once during your turn, if you have Moltres and Articuno in play, you may use this Ability. Attach a Basic {L} Energy card from your hand to this Pokémon.",
+				fr: "Une fois pendant votre tour, si vous avez Sulfura et Artikodin en jeu, vous pouvez utiliser ce talent. Attachez une carte Énergie {L} de base de votre main à ce Pokémon."
+			}
 		},
+	],
 
-		effect: {
-			en: "Once during your turn, if you have Moltres and Articuno in play, you may use this Ability. Attach a Basic {L} Energy card from your hand to this Pokémon.",
-		}
-	}],
-
-	attacks: [{
-		cost: ["Lightning", "Lightning", "Lightning", "Colorless"],
-
-		name: {
-			en: "Thundering Lightning",
+	attacks: [
+		{
+			cost: [
+				"Lightning",
+				"Lightning",
+				"Lightning",
+				"Colorless",
+			],
+			name: {
+				en: "Thundering Lightning",
+				fr: "Foudre Fracassante"
+			},
+			effect: {
+				en: "This Pokémon also does 60 damage to itself.",
+				fr: "Ce Pokémon s'inflige aussi 60 dégâts."
+			},
+			damage: 210
 		},
-
-		effect: {
-			en: "This Pokémon also does 60 damage to itself.",
-		},
-
-		damage: 210
-	}],
+	],
 
 	retreat: 1,
 	regulationMark: "J",

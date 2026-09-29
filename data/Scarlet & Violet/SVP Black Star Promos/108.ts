@@ -67,11 +67,7 @@ const card: Card = {
 	illustrator: "Akira Komayama",
 	variants: [
 		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 769404,
-				tcgplayer: 556910
-			},
+			type: "normal"
 		}
 	],
 }

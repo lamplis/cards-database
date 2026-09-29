@@ -15,8 +15,7 @@ const card: Card = {
 		de: "Zorua",
 		es: "Zorua",
 		it: "Zorua",
-		'es-mx': "Zorua",
-		pt: "Zorua"
+		'es-mx': "Zorua"
 	},
 
 	illustrator: "Atsuya Uki",
@@ -34,8 +33,7 @@ const card: Card = {
 			de: "Fänge der Dunkelheit",
 			es: "Colmillo de Oscuridad",
 			it: "Oscurizanna",
-			'es-mx': "Colmillo de Oscuridad",
-			pt: "Presa Sombria"
+			'es-mx': "Colmillo de Oscuridad"
 		},
 
 		damage: 40,
