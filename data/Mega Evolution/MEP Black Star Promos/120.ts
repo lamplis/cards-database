@@ -11,7 +11,16 @@ const card: Card = {
 
 	rarity: "Promo",
 	category: "Trainer",
-	trainerType: "Stadium"
+	trainerType: "Stadium",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 903004
+			}
+		}
+	]
 }
 
 export default card

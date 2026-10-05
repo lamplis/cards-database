@@ -38,7 +38,8 @@ const card: Card = {
 			type: "holo",
 			stamp: ["staff"],
 			thirdParty: {
-				tcgplayer: 714598
+				tcgplayer: 714598,
+				cardmarket: 905263
 			}
 		}
 	],
