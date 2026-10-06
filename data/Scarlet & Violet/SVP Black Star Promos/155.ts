@@ -3,11 +3,12 @@ import Set from "../SVP Black Star Promos"
 
 const card: Card = {
 	dexId: [194],
-	cameoDexIds: [116],
 	set: Set,
+	cameoDexIds: [116],
 
 	name: {
 		en: "Wooper",
+		fr: "Axoloto",
 	},
 
 	rarity: "Promo",
@@ -21,16 +22,19 @@ const card: Card = {
 
 		name: {
 			en: "Scoop Water",
+			fr: "Écope Eau",
 		},
 
 		effect: {
 			en: "Shuffle up to 3 Basic {W} Energy cards from your discard pile into your deck.",
+			fr: "Mélangez jusqu'à 3 cartes Énergie {W} de base de votre pile de défausse avec votre deck.",
 		}
 	}, {
 		cost: ["Water"],
 
 		name: {
 			en: "Headbutt",
+			fr: "Coup d'Boule",
 		},
 
 		damage: 10
