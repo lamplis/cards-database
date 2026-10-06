@@ -20,10 +20,16 @@ const card: Card = {
     	{
     		type: "normal",
     		stamp: ["player-rewards-program"],
+    		thirdParty: {
+    			cardmarket: 894247,
+    		},
     	},
     	{
     		type: "holo",
     		stamp: ["player-rewards-program"],
+    		thirdParty: {
+    			cardmarket: 894248,
+    		},
     	},
     ],
 
