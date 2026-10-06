@@ -37,10 +37,16 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 894199,
+			},
 		},
 		{
 			type: "holo",
 			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 894200,
+			},
 		},
 	],
 }

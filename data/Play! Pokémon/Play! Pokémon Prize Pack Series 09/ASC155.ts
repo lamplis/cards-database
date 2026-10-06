@@ -84,10 +84,16 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 894178,
+			},
 		},
 		{
 			type: "holo",
 			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 894179,
+			},
 		},
 	],
 }
