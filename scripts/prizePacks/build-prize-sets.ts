@@ -312,11 +312,13 @@ function insertVariants(source: string, arrayText: string, lineIndent: string): 
 	return `${head}\n${lineIndent}variants: ${arrayText}${source.slice(brace)}`
 }
 
-function variantArray(lineIndent: string, unit: string, quote: string, finishes: PrizeFinish[]): string {
+export function variantArray(lineIndent: string, unit: string, quote: string, finishes: PrizeFinish[]): string {
 	const objectIndent = lineIndent + unit
 	const inner = objectIndent + unit
 	const ordered = (['normal', 'holo'] as PrizeFinish[]).filter((finish) => finishes.includes(finish))
-	const objects = ordered.map((finish) => `${objectIndent}{\n${inner}type: ${quote}${finish}${quote},\n${objectIndent}},\n`).join('')
+	const objects = ordered.map((finish) =>
+		`${objectIndent}{\n${inner}type: ${quote}${finish}${quote},\n${inner}stamp: [${quote}player-rewards-program${quote}],\n${objectIndent}},\n`
+	).join('')
 	return `[\n${objects}${lineIndent}]`
 }
 
