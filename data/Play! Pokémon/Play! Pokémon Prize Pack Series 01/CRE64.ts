@@ -99,6 +99,9 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 697108,
+			},
 		},
 	],
 }
