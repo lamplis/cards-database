@@ -3,8 +3,8 @@ import Set from "../SVP Black Star Promos"
 
 const card: Card = {
 	dexId: [4],
-	cameoDexIds: [16, 431],
 	set: Set,
+	cameoDexIds: [16, 431],
 
 	name: {
 		en: "Charmander",
@@ -62,7 +62,7 @@ const card: Card = {
 			type: "holo",
 			thirdParty: {
 				cardmarket: 715758,
-				tcgplayer: 477182
+				tcgplayer: 512035
 			},
 		},
 		{
