@@ -27,6 +27,14 @@ export async function getCardPictures(cardId: string, card: Card, lang: Supporte
 	return undefined
 }
 
+function directFallbackImage(card: Card, cdn: string | undefined): string | undefined {
+	if (cdn) {
+		return undefined
+	}
+	const url = card.image?.trim()
+	return url ? url : undefined
+}
+
 export async function cardToCardSimple(id: string, card: Card, lang: SupportedLanguages): Promise<CardResume> {
 	const cardName = resolveText(card.name, lang)
 	if (!cardName) {
@@ -36,6 +44,7 @@ export async function cardToCardSimple(id: string, card: Card, lang: SupportedLa
 	return {
 		id: `${card.set.id}-${id}`,
 		image: img,
+		fallbackImage: directFallbackImage(card, img),
 		localId: id,
 		name: cardName
 	}
@@ -82,6 +91,7 @@ function variantsToVariantsDetailed(variants: CardSingle['variants'],lang: Suppo
 // eslint-disable-next-line max-lines-per-function
 export async function cardToCardSingle(localId: string, card: Card, lang: SupportedLanguages): Promise<CardSingle> {
 	const image = await getCardPictures(localId, card, lang)
+	const fallbackImage = directFallbackImage(card, image)
 
 	if (!card.name[lang]) {
 		throw new Error(`Card (${localId}) dont exist in (${lang})`)
@@ -92,6 +102,7 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 		id: `${card.set.id}-${localId}`,
 		illustrator: card.illustrator,
 		image,
+		fallbackImage,
 		localId,
 		name: resolveText(card.name, lang) as string,
 

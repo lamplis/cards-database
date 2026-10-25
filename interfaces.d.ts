@@ -188,6 +188,12 @@ export interface Card {
 	illustrator?: string
 
 	/**
+	 * Direct picture file URL. Compiled as fallbackImage only when the
+	 * TCGdex CDN has no asset for this card. Never a public image base.
+	 */
+	image?: string
+
+	/**
 	 * indicate in which boosters the card is available
 	 */
 	boosters?: Array<string>
@@ -229,7 +235,7 @@ export interface Card {
 	 * - Ultra Rare: https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/18-Cinderace-V
 	 * - Uncommon: https://www.tcgdex.net/database/Sword-&-Shield/Darkness-Ablaze/136-Furret
 	 */
-	rarity: 'ACE SPEC Rare' | 'Amazing Rare' | 'Classic Collection' | 'Common' |
+	rarity?: 'ACE SPEC Rare' | 'Amazing Rare' | 'Classic Collection' | 'Common' |
 			'Double rare' | 'Full Art Trainer' | 'Holo Rare' | 'Holo Rare V' |
 			'Holo Rare VMAX' | 'Holo Rare VSTAR' | 'Hyper rare' | 'Illustration rare' |
 			'LEGEND' | 'None' | 'Radiant Rare' | 'Rare' | 'Rare Holo' | 'Rare Holo LV.X' |

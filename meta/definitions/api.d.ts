@@ -157,6 +157,10 @@ export interface CardResume {
 	 */
 	name: string;
 	image?: string;
+	/**
+	 * Direct picture file shown when the CDN image is absent.
+	 */
+	fallbackImage?: string;
 }
 
 /**
