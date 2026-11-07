@@ -47,6 +47,11 @@ const set: Set = {
 	abbreviations: {
 		official: "30C",
 		fr: "ME05.5"
+	},
+
+	thirdParty: {
+		cardmarket: 6601,
+		tcgplayer: 24722
 	}
 }
 

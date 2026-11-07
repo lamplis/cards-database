@@ -5,6 +5,11 @@
 # same ids). Project requirement: do not rename back to 500.ts.
 data/Scarlet & Violet/SVP Black Star Promos/500.ts
 
+# The 30th Classic Collection set file was folded into 30th Celebration
+# (id 30C) as the CC subset. Upstream still has the retired set file and
+# its group ids (cardmarket 6601, tcgplayer 24837).
+data/Mega Evolution/30th Classic Collection.ts
+
 # Classic Collection cards moved from the retired 30th-c set into
 # 30th Celebration as CC001-CC030. The marketplace ids moved with the files.
 data/Mega Evolution/30th Classic Collection/001.ts
