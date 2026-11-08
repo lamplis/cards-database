@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Saboteri",
 	rarity: "Common",
 	category: "Pokemon",
+	cameoDexIds: [82],
+
 	hp: 120,
 	types: ["Dragon"],
 	stage: "Basic",

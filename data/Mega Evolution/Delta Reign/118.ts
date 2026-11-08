@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
+	cameoDexIds: [768],
+
 	hp: 340,
 	types: ["Grass"],
 	stage: "Basic",
