@@ -7,6 +7,9 @@ const card: Card = {
 		fr: "MEP 118"
 	},
 	set: Set,
+
+	cameoDexIds: [384],
+
 	rarity: "Promo",
 	category: "Pokemon"
 }

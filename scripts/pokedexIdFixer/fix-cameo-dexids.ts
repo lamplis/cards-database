@@ -506,6 +506,11 @@ async function main() {
 		}
 
 		const relativePath = path.relative(DATA_DIR, filePath)
+		// Prize-pack reprints copy cameoDexIds from the base card. The workbook lists
+		// the original printing only, so stripping these files would drop live cameos.
+		if (relativePath.includes("Play! Pokémon Prize Pack Series")) {
+			continue
+		}
 		try {
 			if (apply) {
 				removeCameoLine(filePath)
