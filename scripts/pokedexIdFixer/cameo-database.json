@@ -1,9 +1,9 @@
 {
 	"source": "RotomAmiti's Cameo Pokémon Card Database",
 	"sourceFile": "sources/RotomAmiti-Cameo-Database.xlsx",
-	"generatedAt": "2026-09-27T11:49:09.282Z",
-	"throughEnglishSet": "30th Celebration",
-	"throughJapaneseSet": "Storm Emeralda",
+	"generatedAt": "2026-11-08T20:39:13.086Z",
+	"throughEnglishSet": "Delta Reign",
+	"throughJapaneseSet": "30th Celebration",
 	"sheets": [
 		"Gen 1",
 		"Gen 2",
@@ -2518,7 +2518,7 @@
 		{
 			"setName": "Brilliant Stars",
 			"localId": "148",
-			"cardName": "Rosanne's Backup",
+			"cardName": "Roseanne's Backup",
 			"cameoDexIds": [
 				393
 			],
@@ -3999,10 +3999,12 @@
 			"localId": "140",
 			"cardName": "Raihan",
 			"cameoDexIds": [
+				6,
 				330,
 				479
 			],
 			"generations": [
+				1,
 				3,
 				4
 			]
@@ -4592,6 +4594,144 @@
 			]
 		},
 		{
+			"setName": "Delta Reign",
+			"localId": "76",
+			"cardName": "Cyclizar",
+			"cameoDexIds": [
+				82
+			],
+			"generations": [
+				1
+			]
+		},
+		{
+			"setName": "Delta Reign",
+			"localId": "94",
+			"cardName": "Legendary Pyroduct [left]",
+			"cameoDexIds": [
+				126,
+				631
+			],
+			"generations": [
+				1,
+				5
+			]
+		},
+		{
+			"setName": "Delta Reign",
+			"localId": "95",
+			"cardName": "Legendary Pyroduct [right]",
+			"cameoDexIds": [
+				58,
+				208
+			],
+			"generations": [
+				1,
+				2
+			]
+		},
+		{
+			"setName": "Delta Reign",
+			"localId": "96",
+			"cardName": "Legendary Summit [left]",
+			"cameoDexIds": [
+				333,
+				661
+			],
+			"generations": [
+				3,
+				6
+			]
+		},
+		{
+			"setName": "Delta Reign",
+			"localId": "97",
+			"cardName": "Legendary Summit [right]",
+			"cameoDexIds": [
+				333,
+				334,
+				661,
+				662
+			],
+			"generations": [
+				3,
+				6
+			]
+		},
+		{
+			"setName": "Delta Reign",
+			"localId": "98",
+			"cardName": "Legendary Trench [left]",
+			"cameoDexIds": [
+				592,
+				593,
+				746,
+				940
+			],
+			"generations": [
+				5,
+				7,
+				9
+			]
+		},
+		{
+			"setName": "Delta Reign",
+			"localId": "99",
+			"cardName": "Legendary Trench [right]",
+			"cameoDexIds": [
+				226,
+				940
+			],
+			"generations": [
+				2,
+				9
+			]
+		},
+		{
+			"setName": "Delta Reign",
+			"localId": "100",
+			"cardName": "Mega Rayquaza Cap",
+			"cameoDexIds": [
+				384
+			],
+			"generations": [
+				3
+			]
+		},
+		{
+			"setName": "Delta Reign",
+			"localId": "118",
+			"cardName": "Mega Golisopod ex",
+			"cameoDexIds": [
+				768
+			],
+			"generations": [
+				7
+			]
+		},
+		{
+			"setName": "Delta Reign",
+			"localId": "122",
+			"cardName": "Mega Golurk ex",
+			"cameoDexIds": [
+				623
+			],
+			"generations": [
+				5
+			]
+		},
+		{
+			"setName": "Delta Reign",
+			"localId": "123",
+			"cardName": "Mega Malamar ex",
+			"cameoDexIds": [
+				687
+			],
+			"generations": [
+				6
+			]
+		},
+		{
 			"setName": "Delta Species",
 			"localId": "36",
 			"cardName": "Ditto",
@@ -4861,6 +5001,19 @@
 			],
 			"generations": [
 				1
+			]
+		},
+		{
+			"setName": "Detective Pikachu",
+			"localId": "6",
+			"cardName": "Arcanine",
+			"cameoDexIds": [
+				6,
+				494
+			],
+			"generations": [
+				1,
+				5
 			]
 		},
 		{
@@ -9182,6 +9335,17 @@
 		},
 		{
 			"setName": "MEP Promos",
+			"localId": "118",
+			"cardName": "Mega Rayquaza ex",
+			"cameoDexIds": [
+				384
+			],
+			"generations": [
+				3
+			]
+		},
+		{
+			"setName": "MEP Promos",
 			"localId": "120",
 			"cardName": "Celebratory Fanfare",
 			"cameoDexIds": [
@@ -12633,6 +12797,17 @@
 		},
 		{
 			"setName": "Scarlet & Violet",
+			"localId": "175",
+			"cardName": "Jacq",
+			"cameoDexIds": [
+				479
+			],
+			"generations": [
+				4
+			]
+		},
+		{
+			"setName": "Scarlet & Violet",
 			"localId": "183",
 			"cardName": "Penny",
 			"cameoDexIds": [
@@ -12793,6 +12968,17 @@
 			],
 			"generations": [
 				1
+			]
+		},
+		{
+			"setName": "Scarlet & Violet",
+			"localId": "236",
+			"cardName": "Jacq",
+			"cameoDexIds": [
+				479
+			],
+			"generations": [
+				4
 			]
 		},
 		{
@@ -13994,6 +14180,17 @@
 		},
 		{
 			"setName": "SM-P Promos",
+			"localId": "144",
+			"cardName": "Poncho-wearing Eevee",
+			"cameoDexIds": [
+				700
+			],
+			"generations": [
+				6
+			]
+		},
+		{
+			"setName": "SM-P Promos",
 			"localId": "169",
 			"cardName": "Rowlet",
 			"cameoDexIds": [
@@ -14025,28 +14222,6 @@
 			],
 			"generations": [
 				7
-			]
-		},
-		{
-			"setName": "SM-P Promos",
-			"localId": "88",
-			"cardName": "Tohoku's Pikachu",
-			"cameoDexIds": [
-				722
-			],
-			"generations": [
-				7
-			]
-		},
-		{
-			"setName": "SM-P Promos",
-			"localId": "144",
-			"cardName": "Poncho-wearing Eevee",
-			"cameoDexIds": [
-				700
-			],
-			"generations": [
-				6
 			]
 		},
 		{
@@ -14199,17 +14374,6 @@
 		},
 		{
 			"setName": "SM-P Promos",
-			"localId": "283",
-			"cardName": "Yokohama's Pikachu",
-			"cameoDexIds": [
-				746
-			],
-			"generations": [
-				7
-			]
-		},
-		{
-			"setName": "SM-P Promos",
 			"localId": "286",
 			"cardName": "Psyduck",
 			"cameoDexIds": [
@@ -14272,6 +14436,28 @@
 				722,
 				725,
 				728
+			],
+			"generations": [
+				7
+			]
+		},
+		{
+			"setName": "SM-P Promos",
+			"localId": "88",
+			"cardName": "Tohoku's Pikachu",
+			"cameoDexIds": [
+				722
+			],
+			"generations": [
+				7
+			]
+		},
+		{
+			"setName": "SM-P Promos",
+			"localId": "283",
+			"cardName": "Yokohama's Pikachu",
+			"cameoDexIds": [
+				746
 			],
 			"generations": [
 				7
@@ -14954,155 +15140,6 @@
 			"cardName": "Lisia's Appeal",
 			"cameoDexIds": [
 				334
-			],
-			"generations": [
-				3
-			]
-		},
-		{
-			"setName": "Storm Emeralda",
-			"localId": "53",
-			"cardName": "Cyclizar",
-			"cameoDexIds": [
-				82
-			],
-			"generations": [
-				1
-			]
-		},
-		{
-			"setName": "Storm Emeralda",
-			"localId": "66",
-			"cardName": "Mega Rayquaza Cap",
-			"cameoDexIds": [
-				384
-			],
-			"generations": [
-				3
-			]
-		},
-		{
-			"setName": "Storm Emeralda",
-			"localId": "71",
-			"cardName": "Legendary Marine Trench [left]",
-			"cameoDexIds": [
-				592,
-				593,
-				746,
-				940
-			],
-			"generations": [
-				5,
-				7,
-				9
-			]
-		},
-		{
-			"setName": "Storm Emeralda",
-			"localId": "72",
-			"cardName": "Legendary Marine Trench [right]",
-			"cameoDexIds": [
-				226,
-				940
-			],
-			"generations": [
-				2,
-				9
-			]
-		},
-		{
-			"setName": "Storm Emeralda",
-			"localId": "73",
-			"cardName": "Legendary Summit [left]",
-			"cameoDexIds": [
-				333,
-				661
-			],
-			"generations": [
-				3,
-				6
-			]
-		},
-		{
-			"setName": "Storm Emeralda",
-			"localId": "74",
-			"cardName": "Legendary Summit [right]",
-			"cameoDexIds": [
-				333,
-				334,
-				661,
-				662
-			],
-			"generations": [
-				3,
-				6
-			]
-		},
-		{
-			"setName": "Storm Emeralda",
-			"localId": "75",
-			"cardName": "Legendary Lava Tube [left]",
-			"cameoDexIds": [
-				126,
-				631
-			],
-			"generations": [
-				1,
-				5
-			]
-		},
-		{
-			"setName": "Storm Emeralda",
-			"localId": "76",
-			"cardName": "Legendary Lava Tube [right]",
-			"cameoDexIds": [
-				58,
-				208
-			],
-			"generations": [
-				1,
-				2
-			]
-		},
-		{
-			"setName": "Storm Emeralda",
-			"localId": "89",
-			"cardName": "Mega Golisopod ex",
-			"cameoDexIds": [
-				768
-			],
-			"generations": [
-				7
-			]
-		},
-		{
-			"setName": "Storm Emeralda",
-			"localId": "93",
-			"cardName": "Mega Golurk ex",
-			"cameoDexIds": [
-				623
-			],
-			"generations": [
-				5
-			]
-		},
-		{
-			"setName": "Storm Emeralda",
-			"localId": "94",
-			"cardName": "Mega Malamar ex",
-			"cameoDexIds": [
-				687
-			],
-			"generations": [
-				6
-			]
-		},
-		{
-			"setName": "Storm Emeralda",
-			"localId": "95",
-			"cardName": "Mega Rayquaza ex",
-			"cameoDexIds": [
-				384
 			],
 			"generations": [
 				3
@@ -18570,6 +18607,17 @@
 				499,
 				521,
 				523
+			],
+			"generations": [
+				5
+			]
+		},
+		{
+			"setName": "White Flare Burst",
+			"localId": "173",
+			"cardName": "Hilda",
+			"cameoDexIds": [
+				500
 			],
 			"generations": [
 				5
