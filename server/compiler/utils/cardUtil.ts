@@ -1,7 +1,7 @@
 /* eslint-disable sort-keys */
 import pathLib from 'node:path'
-import { Card, Set, SupportedLanguages, Types, variant_detailed, VariantStamps, VariantType } from '../../../interfaces'
-import { CardResume, Card as CardSingle, variant_detailed as ApiVariantDetailed } from '../../../meta/definitions/api'
+import type { Card, Set, SupportedLanguages, Types, variant_detailed, VariantStamps, VariantType } from '../../../interfaces'
+import type { CardResume, Card as CardSingle, variant_detailed as ApiVariantDetailed } from '../../../meta/definitions/api'
 import { getSet, getSets, setToSetSimple } from './setUtil'
 import translate from './translationUtil'
 import { DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, getLastEdit, resolveText, smartGlob } from './util'
@@ -75,47 +75,85 @@ export function resolvePlayReprintOrigin(
 }
 
 /**
- * Map a 30C Classic Collection local id (CC001-CC030, Pikachu first)
- * to the original printing's CDN path. Does not consult the asset manifest.
+ * Map a printed reprint local id (`CODE-NUMBER`, such as `BS-004` or `SV02-203`)
+ * to the original set's CDN path. Does not consult the asset manifest.
+ *
+ * `CODE` matches the longest space-free English series alias derived from the
+ * set id (`sv02` -> `SV02`), then the official abbreviation (`base1` -> `BS`).
+ * A code owned by more than one set does not match.
  */
-const CLASSIC_COLLECTION_ORIGINS: Record<string, PlayReprintOrigin> = {
-	CC001: { serieId: 'base', setId: 'base1', localId: '58' },
-	CC002: { serieId: 'base', setId: 'base1', localId: '4' },
-	CC003: { serieId: 'gym', setId: 'gym1', localId: '18' },
-	CC004: { serieId: 'gym', setId: 'gym2', localId: '69' },
-	CC005: { serieId: 'neo', setId: 'neo1', localId: '25' },
-	CC006: { serieId: 'neo', setId: 'neo4', localId: '106' },
-	CC007: { serieId: 'ecard', setId: 'ecard2', localId: '149' },
-	CC008: { serieId: 'ex', setId: 'ex1', localId: '5' },
-	CC009: { serieId: 'ex', setId: 'ex7', localId: '19' },
-	CC010: { serieId: 'ex', setId: 'ex10', localId: '108' },
-	CC011: { serieId: 'ex', setId: 'ex11', localId: '11' },
-	CC012: { serieId: 'dp', setId: 'dp4', localId: '106' },
-	CC013: { serieId: 'dp', setId: 'dp6', localId: '43' },
-	CC014: { serieId: 'pl', setId: 'pl1', localId: '47' },
-	CC015: { serieId: 'hgss', setId: 'hgss4', localId: '94' },
-	CC016: { serieId: 'hgss', setId: 'hgss4', localId: '99' },
-	CC017: { serieId: 'hgss', setId: 'hgss4', localId: '100' },
-	CC018: { serieId: 'bw', setId: 'bw3', localId: '101' },
-	CC019: { serieId: 'bw', setId: 'bw6', localId: '85' },
-	CC020: { serieId: 'bw', setId: 'bw10', localId: '11' },
-	CC021: { serieId: 'xy', setId: 'xy5', localId: '106' },
-	CC022: { serieId: 'xy', setId: 'xy9', localId: '41' },
-	CC023: { serieId: 'sm', setId: 'sm1', localId: '89' },
-	CC024: { serieId: 'sm', setId: 'sm4', localId: '57' },
-	CC025: { serieId: 'sm', setId: 'sm9', localId: '33' },
-	CC026: { serieId: 'swsh', setId: 'swsh1', localId: '138' },
-	CC027: { serieId: 'swsh', setId: 'swsh4', localId: '50' },
-	CC028: { serieId: 'swsh', setId: 'swsh8', localId: '114' },
-	CC029: { serieId: 'swsh', setId: 'swsh9', localId: '123' },
-	CC030: { serieId: 'sv', setId: 'sv02', localId: '203' }
+const EN_SERIES_PREFIX_BY_SET_KEY: Record<string, string> = {
+	sv: 'SV',
+	swsh: 'SWSH',
+	sm: 'SM',
+	xy: 'XY',
+	bw: 'BW',
+	dp: 'DP',
+	pl: 'PL',
+	hgss: 'HGSS',
+	ex: 'EX',
+	neo: 'N'
 }
 
-export function resolveClassicCollectionOrigin(localId: string): PlayReprintOrigin | undefined {
-	if (!/^CC\d{3}$/.test(localId)) {
+function spaceFreeEnglishSeriesAliases(setId: string): string[] {
+	const match = /^([a-z]+)(\d+)$/i.exec(setId)
+	if (!match) {
+		return []
+	}
+	const prefix = EN_SERIES_PREFIX_BY_SET_KEY[match[1].toLowerCase()]
+	if (!prefix) {
+		return []
+	}
+	const digits = match[2]
+	const unpadded = String(Number(digits))
+	return [...new Set([`${prefix}${digits}`, `${prefix}${unpadded}`])]
+}
+
+function reprintCodeOwners(sets: ReadonlyArray<PlayReprintSetRef>): Map<string, string> {
+	const owners = new Map<string, Set<string>>()
+	const add = (code: string | undefined, setId: string) => {
+		if (!code || /\s/.test(code)) {
+			return
+		}
+		const key = code.toUpperCase()
+		const ids = owners.get(key) ?? new Set<string>()
+		ids.add(setId)
+		owners.set(key, ids)
+	}
+	for (const set of sets) {
+		for (const alias of spaceFreeEnglishSeriesAliases(set.id)) {
+			add(alias, set.id)
+		}
+		add(set.officialAbbreviation, set.id)
+	}
+	const unique = new Map<string, string>()
+	for (const [code, ids] of owners) {
+		if (ids.size === 1) {
+			unique.set(code, [...ids][0])
+		}
+	}
+	return unique
+}
+
+export function resolveClassicCollectionOrigin(
+	localId: string,
+	sets: ReadonlyArray<PlayReprintSetRef>
+): PlayReprintOrigin | undefined {
+	const match = /^([A-Za-z][A-Za-z0-9]*)-(\d+)$/.exec(localId.trim())
+	if (!match) {
 		return undefined
 	}
-	return CLASSIC_COLLECTION_ORIGINS[localId]
+	const setId = reprintCodeOwners(sets).get(match[1].toUpperCase())
+	const set = setId ? sets.find((candidate) => candidate.id === setId) : undefined
+	if (!set) {
+		return undefined
+	}
+	const stripped = match[2].replace(/^0+/, '')
+	return {
+		serieId: set.serieId,
+		setId: set.id,
+		localId: stripped.length > 0 ? stripped : '0'
+	}
 }
 
 let playOriginSets: Promise<Array<PlayReprintSetRef>> | undefined
@@ -131,11 +169,31 @@ function loadPlayOriginSets(): Promise<Array<PlayReprintSetRef>> {
 	return playOriginSets
 }
 
+
+/**
+ * Language folder for a reprint origin scan.
+ * Prefer the requested language. When that scan is missing, use English.
+ * Returns null when neither folder lists the card.
+ */
+export function reprintOriginPictureLanguage(
+	requested: string,
+	manifestHasRequested: boolean,
+	manifestHasEnglish: boolean
+): string | null {
+	if (manifestHasRequested) {
+		return requested
+	}
+	if (requested !== 'en' && manifestHasEnglish) {
+		return 'en'
+	}
+	return null
+}
+
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
 
 	// Numbered 30th scans are on the CDN under me/30th, not the set id 30C,
 	// and they are absent from datas.json. Letter ids (RGB Mew R/G/B) 404
-	// and must stay empty. Classic Collection (CC###) reuses the origin scan.
+	// and must stay empty. Printed reprint ids (BS-058, SV02-203) reuse the origin scan.
 	if (card.set.id === '30C' && /^\d+$/.test(String(cardId))) {
 		return `https://assets.tcgdex.net/${lang}/me/30th/${cardId}`
 	}
@@ -147,10 +205,14 @@ export async function getCardPictures(cardId: string, card: Card, lang: Supporte
 			return `https://assets.tcgdex.net/${lang}/${card.set.serie.id}/${card.set.id}/${cardId}`
 		}
 		if (card.set.id === '30C') {
-			const origin = resolveClassicCollectionOrigin(String(cardId))
-			const originExists = Boolean(origin && file[lang]?.[origin.serieId]?.[origin.setId]?.[origin.localId])
-			if (origin && originExists) {
-				return `https://assets.tcgdex.net/${lang}/${origin.serieId}/${origin.setId}/${origin.localId}`
+			const origin = resolveClassicCollectionOrigin(String(cardId), await loadPlayOriginSets())
+			if (origin) {
+				const hasRequested = Boolean(file[lang]?.[origin.serieId]?.[origin.setId]?.[origin.localId])
+				const hasEnglish = Boolean(file.en?.[origin.serieId]?.[origin.setId]?.[origin.localId])
+				const pictureLanguage = reprintOriginPictureLanguage(lang, hasRequested, hasEnglish)
+				if (pictureLanguage) {
+					return `https://assets.tcgdex.net/${pictureLanguage}/${origin.serieId}/${origin.setId}/${origin.localId}`
+				}
 			}
 		}
 		if (card.set.serie.id === 'play') {
