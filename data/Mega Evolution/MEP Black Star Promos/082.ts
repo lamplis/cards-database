@@ -26,6 +26,13 @@ const card: Card = {
 				cardmarket: 894261,
 				tcgplayer: 706135
 			}
+		},
+		{
+			type: "holo",
+			stamp: ["staff"],
+			thirdParty: {
+				cardmarket: 903005
+			}
 		}
 	],
 	abilities: [

@@ -6,7 +6,6 @@ const card: Card = {
 
 	name: {
 		en: "Whimsicott",
-		fr: "Farfaduvet",
 	},
 
 	illustrator: "Yuka Tanaka",
@@ -19,7 +18,6 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cottonee",
-		fr: "Doudouvet",
 	},
 
 	attacks: [{
@@ -27,26 +25,22 @@ const card: Card = {
 
 		name: {
 			en: "Healing Fluff",
-			fr: "Soin Douillet",
 		},
 
 		effect: {
 			en: "Heal all damage from 1 of your Benched Pokémon.",
-			fr: "Soignez tous les dégâts de l'un de vos Pokémon de Banc.",
 		}
 	}, {
 		cost: ["Psychic"],
 
 		name: {
 			en: "U-turn",
-			fr: "Demi-Tour",
 		},
 
 		damage: 50,
 
 		effect: {
 			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
 		}
 	}],
 

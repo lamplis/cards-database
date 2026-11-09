@@ -6,7 +6,6 @@ const card: Card = {
 
 	name: {
 		en: "Cottonee",
-		fr: "Doudouvet",
 	},
 
 	illustrator: "Kariya",
@@ -22,12 +21,10 @@ const card: Card = {
 
 		name: {
 			en: "Collect",
-			fr: "Collecte",
 		},
 
 		effect: {
 			en: "Draw a card.",
-			fr: "Piochez une carte.",
 		}
 	}],
 
