@@ -17,25 +17,9 @@ const set: Set = {
 	serie: serie,
 
 	cardCount: {
-		official: 128
+		official: 158
 	},
 
-	subsets: {
-		CC: {
-			name: {
-				en: "Classic Collection",
-				fr: "Collection Classique",
-				de: "Klassische Kollektion",
-				it: "Collezione Classica",
-				pt: "Coleção Clásica",
-				es: "Colección Clásica",
-				'es-mx': "Colección Clásica"
-			},
-			cardCount: {
-				official: 30
-			}
-		}
-	},
 
 	searchAliases: [
 		"30th",
